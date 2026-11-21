@@ -1,0 +1,48 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2296,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 907
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "у жахливому панамі",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "нема ніякого сенсу",
+    "kind": "interference",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Він шаркав ногою й махав руками, наче півень, що ось-ось закукурікає",
+    "why": "comic, vivid image"
+   },
+   {
+    "quote": "ланцюжок яскравих крапель",
+    "why": "the music becomes visible"
+   },
+   {
+    "quote": "слухати так, ніби й не слухаєш, і на хвильку посидіти в чужому житті",
+    "why": "natural and tender"
+   },
+   {
+    "quote": "Міс Брілл так і кортіло її потрусити",
+    "why": "lively, idiomatic irritation"
+   },
+   {
+    "quote": "І вона весь час товкла про те",
+    "why": "a sharp colloquial verb"
+   }
+  ]
+ }
+}

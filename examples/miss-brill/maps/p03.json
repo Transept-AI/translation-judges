@@ -1,0 +1,152 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4672,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 86060
+ },
+ "result": {
+  "reading": "Bored by her silent bench-mates (block 2), Miss Brill hopes they will leave, a wish granted in block 7 that frees the seat for the lovers who mock her in blocks 10–13, and she recalls last Sunday's English couple as a comic turn: a wife who knows she needs spectacles yet rejects every remedy her patient husband offers, and Miss Brill's own flash of exasperation. The paragraph shows her eavesdropping as entertainment, her habit of sizing people up by their clothes and labelling them old, and an impatience beneath her gentle manner. The woman who will not see what she needs is a mirror Miss Brill misses: in blocks 12–13 she becomes the old figure judged by her clothing, and in block 0 she too has put off mending her fur's loose nose.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "the old couple",
+    "where": "the opening sentence, where Miss Brill steals a look at the two people sharing her bench",
+    "what": "Mansfield keeps attaching the plain word for old age to the people Miss Brill watches. It goes on her two bench-mates (block 2), on the odd, mostly aged bench-sitters and on this same pair sitting like statues (4), on the pair marching off (7) and on the seat they leave to the lovers (10), and on the frail invalid she reads to (8). Finally the boy flings that very word at Miss Brill as an insult (12). Here it is her own impatient tag for a pair she would like to see gone. A respectful term for advanced years, or a fond diminutive, gives her a courtesy or tenderness she does not feel and muffles the echo the story turns on.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     4,
+     7,
+     8,
+     10,
+     12
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the pair Miss Brill looks at called old here, in plain and blunt terms?",
+      "fail": "Their age is left out (they are just the couple, the two, her neighbours), or it is given with a polite, respectful term for advanced years, or with an affectionate diminutive."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "An Englishman and his wife, he wearing a dreadful Panama hat and she button boots.",
+    "where": "where last Sunday's English husband and wife are introduced, each by a single item of dress: his hat, her boots",
+    "what": "This is a verbless snapshot. The pair is named, then each is pinned to one item of dress in a clipped absolute phrase, with the verb left out the second time. It is Miss Brill's quick, faintly snobbish caricature. Ukrainian has no absolute participle construction, so a close rendering produces a stranded participle or adverbial participle, descriptions run on with commas, or a heavy account of what each had on. The snapshot then reads as translated.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "At the sentence that introduces last Sunday's English couple by his hat and her boots, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as carried over from English: a participle or adverbial participle imitating the English absolute phrase, the two descriptions run on with commas where a native writer would mark the break, or the act of wearing spelled out clumsily for each of them."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "register",
+    "source": "she’d gone on the whole time about",
+    "where": "where the narration reports the wife's talk about spectacles",
+    "what": "The colloquial phrasal verb casts her talk as tiresome, complaining repetition. It is Miss Brill's exasperated gossip, not a neutral report, and it starts the build-up of irritation that ends with her wanting to give the woman a shaking. A plain verb of speaking keeps the duration but loses the jibe.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the wife's talk described in colloquial, disparaging terms that make it tiresome complaining, rather than with a neutral verb of speaking, telling or discussing?",
+      "fail": "A neutral verb of speaking, telling or discussing, even if the duration of her talk is kept."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "about how she ought to wear spectacles",
+    "where": "at the start of the wife's complaint, where she says she should be wearing spectacles",
+    "what": "The phrase only introduces the content of her complaint: that she really should take to wearing spectacles, a need she admits. It has nothing to do with the manner of wearing them. A word-by-word rendering with a word of manner can make her seem to be discussing the proper way to wear spectacles. That blurs the self-defeating joke: she needs them, says so, and will not get any.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Does the translation say she kept insisting that she ought to be wearing spectacles, rather than discussing how, or in what manner, spectacles should be worn?",
+      "fail": "The wording reads as the way or manner of wearing spectacles, or leaves it open whether that is what she was talking about."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "construction",
+    "source": "she’d gone on the whole time about how she ought to wear spectacles; she knew she needed them; but that it was no good getting any; they’d be sure to break and they’d never keep on.",
+    "where": "the long sentence setting out the wife's case: she needs spectacles, yet buying any is pointless because they would break and never stay on",
+    "what": "English strings her monologue on semicolons as reported speech. It runs from a clause about what she should do, to a bare statement of what she knew, to a contrastive clause that picks up the reported speech again as if after a verb of saying, and then to bare predictions, with every verb shifted back into the past. Ukrainian reported speech keeps the speaker's own tenses and does not resume a reported clause mid-sentence with a contrastive word glued to a subordinating one. A clause-by-clause transfer therefore yields past tenses that sound like past events, a stranded conjunction, and a jerky row of fragments in place of her breathless, rambling self-justification.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "In the sentence setting out the wife's reasons for not getting spectacles, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as transferred from English: her present need and her predictions are put into the past so they sound like past events; a contrastive conjunction is glued to a subordinating one, resuming the reported speech mid-sentence; or semicolon-separated fragments do not hang together as Ukrainian sentences."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "they’d never keep on",
+    "where": "the last of the wife's excuses, right after her fear that spectacles would break",
+    "what": "The phrasal verb is about staying put: she claims spectacles would never sit firmly on her face but would always come off. The husband's remedies answer exactly this, with sides that hook round the ears and pads where the frame rests on the nose, and her final cry repeats the grievance. If it is read as lasting or carrying on, it merges with her fear of breakage, and his suggestions no longer answer anything.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the translation say the spectacles would never stay in place on her face (they would come off or slip)?",
+      "fail": "It says they would not last or would wear out, or that she herself would not keep wearing them, or it is unclear which is meant."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "hinge",
+    "source": "little pads inside the bridge",
+    "where": "the last item in the husband's list of suggestions about spectacles",
+    "what": "The noun names the part of the frame that crosses the nose. Pads on its inner side grip the nose so the spectacles do not slide, which is the very complaint she cries out next. Taking the noun in another sense, or placing the pads vaguely inside something, loses the remedy. With it goes the comedy of her raising again the one problem he has just solved.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Are the pads clearly part of the spectacles, where they rest on the nose, so that their job of stopping the spectacles from slipping is plain?",
+      "fail": "The pads are put inside a bridge in some other sense, inside the wearer's own nose, or somewhere unclear, so their purpose cannot be seen."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "hinge",
+    "source": "Miss Brill had wanted to shake her.",
+    "where": "the final sentence: Miss Brill's reaction, last Sunday, to the wife's refusals",
+    "what": "This is the punchline. The genteel Miss Brill, so proud of her discreet listening, had felt the urge to take hold of the woman and give her a good shaking out of sheer exasperation. It is a comically violent impulse at the end of the build-up and a first crack in her gentle self-image, from someone who will soon be the one judged. The verb is physical here. Read as shocking or astonishing her, or softened into irritation or a scolding, it loses both the joke and the glimpse of her impatience.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Does the translation commit to Miss Brill's urge to physically shake the woman?",
+      "fail": "The wording means, or can be read as, shocking, stunning or astonishing her, or a handshake; or it gives only irritation, scolding or a wish to tell her off, with no physical shaking."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3629,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 43810
+ },
+ "result": {
+  "reading": "Block 13 is the first crack in the paid Q&A. Straight after Freya's polished investment-metaphor answer to the mother's earnest fifty-buck question (blocks 10–12), an anonymous viewer pays the lowest possible donation for a bare, familiar, personal question. It is the first sign of the 'collective Tinder date' Freya dreaded in block 9, which block 15 says the questions slid into, and its price sets up block 14's cheap provocations versus pricier questions, block 22's jibe about the trolls' five-dollar lunch money and block 24's rising floor. The narrator adds no comment here: the price and the familiar address do the judging, and block 14 gives the verdict.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "register",
+    "source": "Ти заміжня?",
+    "where": "the anonymous viewer's one-line question about whether Freya is married",
+    "what": "The asker uses the familiar second-person form, the one used to friends, children and lovers. The mother whose question came just before used the polite form, and Rebekka223 in block 16 keeps to the familiar one. The switch is the first sign of the 'collective Tinder date' Freya dreaded in block 9 and that block 15 says the questions slid into: for the cheapest possible price, a faceless viewer talks to a coach who wants to be taken for a serious businesswoman as if chatting her up. English has no pronoun to switch, so the over-familiarity survives only if the question's own wording carries it. A neutral, well-formed question reads as an ordinary polite inquiry.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the wording of the question itself sound over-familiar or chat-room casual, the way a stranger chatting someone up would type it, rather than a neutral, well-formed question?",
+      "fail": "The question is a neutral, well-formed question with nothing in its own wording that marks familiarity. Adverbs or comments added in the narrator's tag do not count."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "мінімальні п'ять доларів",
+    "where": "in the tag right after the marriage question, where the sum the anonymous asker paid is given",
+    "what": "The adjective marks five dollars as the floor of the donation form that buys a question. It tells us this asker paid exactly that floor and nothing beyond it: the cheapest possible ticket, spent on the most personal question. Block 14 builds on it, setting such cheap provocations against more interesting and more expensive questions. Block 22 jokes that the trolls' mothers never gave them more than five dollars for lunch, and in block 24 the visible floor climbs to ten. If the floor sense is dropped, or the sum reads as five dollars or more, the asker's stinginess and those later payoffs lose their anchor.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the translation make clear that five dollars was the lowest amount the stream accepted and that this asker paid just that amount?",
+      "fail": "The floor sense is missing. The lowest-amount idea is dropped, or the wording reads as five dollars or more, or it is replaced by a plain judgement of smallness that never says this was the lowest permitted amount."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "— запитав хтось, задонативши мінімальні п'ять доларів.",
+    "where": "the attribution right after the marriage question, saying an anonymous viewer asked it after paying the lowest donation",
+    "what": "Ukrainian folds the payment into the dialogue tag with a perfective adverbial participle, a light, everyday pattern there, and attaches the floor-marking adjective directly to the sum. English has a matching participle, but after a speech verb it sounds stiff, and the adjective-on-the-sum order comes out clumsy. A close rendering therefore turns a quick, sneering aside into something like a transaction report. The tag should stay as offhand as the bare question it follows.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At the tag attributing the marriage question to an anonymous viewer who paid the lowest donation, does the translation read as written by a skilled native writer?",
+      "fail": "The tag reads as translated. Either the payment trails the speech verb as a stiff perfect-participle clause, or the amount and its being the lowest permitted are worded in an order or collocation a skilled native writer would not choose."
+     }
+    ]
+   }
+  ]
+ }
+}

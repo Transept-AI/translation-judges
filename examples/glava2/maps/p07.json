@@ -1,0 +1,126 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3218,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 59574
+ },
+ "result": {
+  "reading": "In Agnes's office Theodore reports that he advised Anna to give up aiming at the Academy's medical department and to put her money and privileges to other use if she wants to do good, then concedes that at least she has a plan. The speech uses one Ukrainian word in two senses, the cosmic order Anna wants to improve and her personal plan: block 8 cashes the play in by turning it on Theodore, who has neither a plan nor a place in that order, block 13 echoes it with his lack of any fallback plan, and block 18 returns to the cosmic term. His cool talk of capital and his sceptical stress on how much she wants it prepare block 9, where he refuses to do good or help the Seraphic economy, Agnes's retort in block 10 that Anna can afford anything, and the money blocks 15–19.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "робити Плани кращими",
+    "where": "in the condition Theodore attaches to doing good: what Anna is so keen to make better",
+    "what": "Capitalised, the word is the book's name for the planes of existence that make up its cosmos; block 18 uses it for what only accredited Academics get to explore, layer by thin layer. The phrase is built on the familiar do-gooder slogan about the world, with the cosmic term in the world's place. But it is also the ordinary word for a plan, and with this verb it forms the everyday idiom for planning. A fast reader, primed by Anna's plan in the next sentence, can take it as her wanting to make better plans. That reading shrinks an idealist's cosmic ambition, which Theodore is gently mocking, into a remark about her scheduling.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the thing Anna wants to make better the cosmic order of the book's universe (its planes or worlds), rather than plans or schemes?",
+      "fail": "It reads as Anna wanting better plans or to improve plans, or it uses the ordinary word for plans, capitalised or not, with no cosmic sense."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "double",
+    "source": "Плани … її план",
+    "where": "across Theodore's speech: what Anna wants to make better, and his closing remark that at least she has a plan",
+    "what": "Ukrainian has a single word for a plane of existence and for a plan. Theodore's speech uses it in both senses two sentences apart, the cosmic one capitalised. A reader of the original hears the word twice, so Anna's grand aim for the cosmos and her personal life-plan are pinned together. This sets up block 8, where the narrator turns the same word on Theodore, who has neither a plan of his own nor a place in that cosmos. If the cosmic term shares no form with the word for her plan, the setup vanishes and block 8's play has nothing to answer.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Do the word for the cosmic order and the word for Anna's plan in the closing line share a recognisable form (the same stem, or spellings only a letter apart), so a reader can see one word doing two jobs? Judge the shared form only; whether the cosmic sense is kept is scored under E1.",
+      "fail": "The two words share no visible or audible form, e.g. the cosmic order is named with a generic word for the world or for realms."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "Плани",
+    "where": "what Anna is so keen to make better, i.e. the cosmic order",
+    "what": "This is the book's standing term for its cosmos, and the page comes back to it. In block 8 Theodore has no place in them. In block 18 the drudgery awaiting most mages is set against probing their secrets and walking the thin layers of one of them, a luxury only accredited Academics can afford. One recurring term ties Anna's ambition to the order Theodore feels shut out of and to the elite who get to study it.",
+    "risk": "medium",
+    "recurs_in": [
+     8,
+     18
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the term for the cosmic order here the same term the translation uses for that order where Theodore has no place in it (block 8) and where mages probe its secrets and walk its layers (block 18)?",
+      "fail": "This spot uses a different term from the one used for the cosmic order at those blocks (for instance a generic word for the world while block 18 has the book's own term), or the term is dropped here."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "link",
+    "source": "якщо їй так хочеться",
+    "where": "the condition on doing good: that Anna wants so much to make the cosmic order better",
+    "what": "The degree word stresses how badly Anna wants this, and in Theodore's mouth it carries indulgent scepticism: he takes her goal as a given without sharing it. That prepares his flat refusal to do good in block 9 and Agnes's jab in block 10 at the idea of him ever doing anything not for himself. A plain condition makes him sound neutral, even supportive of her idealism.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Does the condition mark how strongly Anna wants this, with an intensifier or equivalent stress on her eagerness, rather than as a plain neutral condition?",
+      "fail": "A bare condition with no marker of degree or eagerness."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "register",
+    "source": "розпорядитися капіталом та привілеями інакше",
+    "where": "Theodore's advice on what Anna should do with her money and her advantages instead",
+    "what": "Theodore talks about a classmate's future the way an investment adviser or a social theorist would: her wealth is an asset base to be allocated, and her advantages are privileges of birth and status. The cool financial field fits the young man who in block 9 refuses to help the Seraphic economy, in a Seraph where, as blocks 15–19 spell out, nothing is given for free. It turns his advice into a calculation about where her resources would produce the most good.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is Anna's money named with a finance term for an investable asset base, rather than with an everyday word for riches or cash?",
+      "fail": "An everyday word for riches, a fortune or cash, so the finance field is lost."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "не цілитися на Кафедру Медицини",
+    "where": "what Theodore advised Anna not to aim for at the Academy",
+    "what": "In this academic setting the word names an academic department, here the Academy's medical one, the specialisation Anna is set on (specialisation begins at the fifth circle, block 3). The same word can mean a professorial chair, a lectern or a bishop's see. Read as a chair, Anna would be angling for a single top post, a far grander and odder goal for a student, and Theodore's advice would concern a different ambition.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is Anna's target a medical department, faculty or specialisation that she would join, rather than a single post she would hold or anything ecclesiastical?",
+      "fail": "It reads as a professorship, the head's post, a pulpit or a cathedral."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "construction",
+    "source": "Щоб творити добро, якщо їй так хочеться робити Плани кращими",
+    "where": "right after the advice, where Theodore says what the other use of her money would be for, doing good, given how much she wants to better the cosmic order",
+    "what": "The original tacks a bare purpose clause onto the advice as a sentence of its own, with a condition folded inside it, which is ordinary in Ukrainian speech. Rendered closely, it comes out as a formal purpose fragment standing alone with a stiff condition hanging off it, and reads as translated dialogue. Theodore is talking casually to his curator, so the spot has to sound spoken.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "At this spot, does the translation read as natural spoken English, as written by a skilled native writer?",
+      "fail": "It reads word-for-word: a formal purpose fragment left standing alone, a stiff condition tacked on, or phrasing a native speaker would not say aloud."
+     }
+    ]
+   }
+  ]
+ }
+}

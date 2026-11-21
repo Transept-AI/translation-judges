@@ -1,0 +1,65 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1411,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 2015
+ },
+ "result": {
+  "edited": "\"I have no plan B except to continue my studies at the Academy,\" said Theodor. \"If it were up to me, I would have left the Academy long ago, Agnes.\"\n\nBut Theodor could no longer afford to leave the Academy.\n\nTraining as a mage cost an incredible amount. Hundreds of etons. And so at the entrance examinations, thousands competed not only for a place at the Academy but for the Royal Grant: the Gold Academician's Card.\n\nIt covered not only tuition but the costs of living in Seraph, which were utterly unaffordable for a subseraph or a soul from Tverd. The Card's limit widened with every circle completed, allowing one to live in Seraph on an ever grander scale and to pay ever more expensive tuition fees. For Academy residents, the Card even covered expenses such as designer clothing and cozy homes.\n\nAnd if one remained at the Academy, one need never even pay interest on a debt that grew endlessly. For nothing in Seraph was ever given freely.\n\nThe only problem was staying at the Academy, which was not so simple. From the second circle on, a mage was already qualified to work, but from the fourth on, one could say goodbye to any hope of repaying one's debts. Demand for mages was high, but most of the work was not the study of the Plans' secrets, poetry, or metaphysical wandering through the thin layers of the True Plan. Those were pursuits that accredited Academicians supported by Seraph could afford.\n\nAfter all, someone had to repair the megabarges. Torture demons. Fight the Disorder, patching holes in the fabric of the world. Sort through what scavengers had gathered from the Shards, looking for treasures, or at least for LED bulbs. Carve the ingredients for heart-healing elixirs out of corpses...\n\nAgnes paused long enough for effect, letting Theodor marinate in the unenviable prospects of one who had been expelled from the Academy even before the fifth circle.",
+  "changes": [
+   {
+    "before": "For myself, I would have left",
+    "after": "If it were up to me, I would have left",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "one could even never pay interest",
+    "after": "one need never even pay interest",
+    "kind": "error",
+    "category": "grammar"
+   },
+   {
+    "before": "The problem was only staying at the Academy",
+    "after": "The only problem was staying at the Academy",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Starting from the second circle, a mage could already work in full, but from the fourth, one could say goodbye to any hope of repaying debts.",
+    "after": "From the second circle on, a mage was already qualified to work, but from the fourth on, one could say goodbye to any hope of repaying one's debts.",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Struggle against the Disorder",
+    "after": "Fight the Disorder",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "Sort through what was gathered from the Shards by scavengers for treasures, or at least for LED bulbs.",
+    "after": "Sort through what scavengers had gathered from the Shards, looking for treasures, or at least for LED bulbs.",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "Carve heart-healing elixirs' ingredients out of corpses",
+    "after": "Carve the ingredients for heart-healing elixirs out of corpses",
+    "kind": "error",
+    "category": "style"
+   },
+   {
+    "before": "Agnes waited for a pause long enough for effect, letting Theodor marinate himself",
+    "after": "Agnes paused long enough for effect, letting Theodor marinate",
+    "kind": "error",
+    "category": "calque"
+   }
+  ]
+ }
+}

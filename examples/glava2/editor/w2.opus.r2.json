@@ -1,0 +1,23 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 563,
+  "cache_read_input_tokens": 1386,
+  "output_tokens": 1015
+ },
+ "result": {
+  "edited": "\"I have no plan B other than continuing my studies at the Academy,\" Theodore said. \"If it were up to me, I'd have left the Academy long ago, Agnes.\"\n\nBut leaving the Academy was something Theodore could no longer afford.\n\nTraining as a mage cost an unbelievable amount. Hundreds of etons. Which was why, at the entrance exams, thousands fought not just for a place at the Academy but for the Royal Grant. The Golden Academic Card.\n\nIt covered not only tuition but the cost of living in Seraph, which was utterly beyond the means of a sub-seraph or a soul from the Firmament. The Card's limit grew with every circle completed, letting you live ever more lavishly in Seraph and pay ever steeper tuition fees. And for the Academy's residents, the Card covered even things like designer clothes and cosy houses.\n\nAnd if you stayed at the Academy, you might never have to pay a penny of interest on a debt that grew without end. Because in Seraph, absolutely nothing came for free.\n\nThe only problem was staying at the Academy. Which wasn't so simple: from the second circle on, a mage could already work in earnest; from the fourth, though, you could say goodbye to any hope of paying off the debt. Demand for mages was high, but most of the work wasn't unravelling the mysteries of the Planes, poetry, or metaphysical wanderings through the thin layers of the True Plane. Those were luxuries for accredited Academics kept on Seraph's payroll.\n\nAfter all, someone had to repair the megabarges. Torture demons. Fight the discord, patching holes in the fabric of the world. Sift treasures, or at least LED bulbs, out of what the scavengers hauled from the Shards. Cut hearts out of corpses for healing potions…\n\nAgnes waited out a pause long enough for the exposition, letting Theodore marinate in the unenviable prospects of someone who had flunked out of the Academy before even reaching the fifth circle.",
+  "changes": [
+   {
+    "before": "letting Theodore marinate himself in",
+    "after": "letting Theodore marinate in",
+    "kind": "error",
+    "category": "word"
+   }
+  ]
+ }
+}

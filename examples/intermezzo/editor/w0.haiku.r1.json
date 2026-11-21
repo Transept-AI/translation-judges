@@ -1,0 +1,53 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1472,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1504
+ },
+ "result": {
+  "edited": "All that was left was to pack… It was one of those countless “musts” that wore me out and kept me from sleeping. No matter whether such a “must” is small or large, what matters is that each one demands attention, that I am not giving myself to them, but that they already govern me. In effect, you become a slave to this many-headed beast. If only for a while I could be freed from it, forget it, rest. I am tired.\n\nFor life comes at me without pause and without mercy, like a wave at the shore. Not only my own life, but others’ as well. And after all, do I know where my own life ends and another’s begins? I feel another’s existence enter mine, like air through windows and doors, like the waters of tributaries into a river. I cannot pass a person by. I cannot be alone. I confess I envy the planets: they have their own orbits, and nothing gets in their way. Whereas in my own orbit I meet a person everywhere and always.\n\nYes, you stand in my way, and you believe you have a right to me. You are everywhere. It is you who dressed the earth in stone and iron, you who through the windows of houses, a thousand black mouths, forever breathe out a stench. You lash the holy silence of the earth with the screech of factories, the thunder of wheels, you dirty the air with dust and smoke, you roar with pain, with joy, with spite. Like a beast. Everywhere I meet your gaze; your eyes, curious, greedy, crawl into me, and you yourself, in your variety of colors and forms, lodge in my pupil. I cannot pass you by… I cannot be alone… You do not merely walk beside me, you crawl inside me. You throw into my heart, as into your own hiding place, your sufferings and your pains, your shattered hopes and your despair. Your cruelty and your bestial instincts. All the horror, all the filth of your existence. What do you care that you torment me? You want to be my master, you want to take me… my hands, my mind, my will and my heart… You want to suck me dry, all my blood, like that vampire. And you do it. I do not live as I wish, but as you tell me to in your countless “musts,” in your endless “you have to.”",
+  "changes": [
+   {
+    "before": "There was only left to pack up…",
+    "after": "All that was left was to pack…",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "each time it demands attention",
+    "after": "each one demands attention",
+    "kind": "error",
+    "category": "grammar"
+   },
+   {
+    "before": "Whereas on my own orbit",
+    "after": "Whereas in my own orbit",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "you consider that you have a right to me",
+    "after": "you believe you have a right to me",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "forever breathe out stench",
+    "after": "forever breathe out a stench",
+    "kind": "error",
+    "category": "grammar"
+   },
+   {
+    "before": "as you tell me in your countless",
+    "after": "as you tell me to in your countless",
+    "kind": "error",
+    "category": "grammar"
+   }
+  ]
+ }
+}

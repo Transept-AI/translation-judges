@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2060,
+  "cache_read_input_tokens": 937,
+  "output_tokens": 463
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 8,
+    "quote": "своїм учням-англійцям",
+    "kind": "sense",
+    "wrong": "The reader takes her pupils to be English people. The original means the pupils she teaches English to.",
+    "severity": 1
+   }
+  ]
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1867,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 574
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "For myself, I would have left the Academy long ago",
+    "why": "awkward, unclear meaning"
+   },
+   {
+    "quote": "one could even never pay interest on a debt that grew endlessly",
+    "why": "garbled syntax"
+   },
+   {
+    "quote": "The problem was only staying at the Academy, which was not so simple.",
+    "why": "clunky, literal"
+   },
+   {
+    "quote": "a mage could already work in full",
+    "why": "unidiomatic"
+   },
+   {
+    "quote": "Carve heart-healing elixirs' ingredients out of corpses",
+    "why": "stacked possessive, clumsy"
+   },
+   {
+    "quote": "Agnes waited for a pause long enough for effect",
+    "why": "awkward phrasing"
+   },
+   {
+    "quote": "marinate himself in",
+    "why": "reflexive sounds odd"
+   },
+   {
+    "quote": "For Academy residents, the Card even covered expenses such as designer clothing and cozy homes.",
+    "why": "flat, list-like"
+   },
+   {
+    "quote": "the Academy",
+    "why": "repeated three times early, monotonous"
+   }
+  ],
+  "good": [
+   {
+    "quote": "For nothing in Seraph was ever given freely.",
+    "why": "crisp, ominous"
+   },
+   {
+    "quote": "After all, someone had to repair the megabarges. Torture demons.",
+    "why": "punchy, darkly funny list"
+   },
+   {
+    "quote": "or at least for LED bulbs",
+    "why": "witty bathos"
+   },
+   {
+    "quote": "metaphysical wandering through the thin layers of the True Plan",
+    "why": "evocative worldbuilding"
+   },
+   {
+    "quote": "patching holes in the fabric of the world",
+    "why": "vivid image"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 2,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

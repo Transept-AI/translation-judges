@@ -1,0 +1,80 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3204,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 48445
+ },
+ "result": {
+  "reading": "A narrator's aside that reverses the two blocks before it. Anna knows every rumour about Agnes in minute detail (block 4) and is outraged by her (block 5), yet she does not know that Agnes is her greatest ally in Seraph. The second sentence proves the claim by cutting back to the scene opened in block 0, Agnes and Theodore alone in her office, and hands over to their talk about Anna's plans and fate in blocks 7 and 10. The effect is dramatic irony: the reader is told what Anna cannot know.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "вони з Теодором обговорювали",
+    "where": "the second sentence, where the narrator says who, at that moment in Agnes's office, is discussing Anna's future",
+    "what": "The subject pairs a plural pronoun with Theodore's name in the instrumental case. This is a Ukrainian comitative construction that names a pair, and the pronoun already includes Theodore. Here it means Agnes, whose office it is, together with Theodore: two people and nobody else. Anna is absent, and the irony depends on that, because her future is being discussed behind a door she knows nothing about. A fast reading turns the pronoun into a separate group talking with Theodore, or into Anna and Agnes. Either reading puts Anna in the room and undoes the paragraph.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the translation make clear that the people discussing Anna's future are exactly two, Agnes and Theodore?",
+      "fail": "It presents a group or an unidentified plural 'they' in addition to Theodore, has Anna take part in the conversation, or leaves it unclear whether the woman talking with Theodore is Agnes or Anna."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "навіть не знала",
+    "where": "the statement that Anna was unaware that Agnes was her greatest ally",
+    "what": "The emphatic particle makes Anna's ignorance pointed instead of merely reported: she is wholly in the dark about the one fact that matters. It stings because block 4 has just shown her knowing every rumour about Agnes down to the smallest detail. It also carries the narrator's wry, confiding tone toward the reader. A hurried rendering keeps the negation, drops the emphasis and leaves a neutral report.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is Anna's ignorance intensified, by an emphasising word, an idiom of total ignorance or an emphatic ironic narrator's frame, rather than simply stated?",
+      "fail": "A plain statement that she did not know, was unaware, did not realise or did not suspect, including a cleft that only announces what she did not know, with nothing that intensifies it."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "Анна навіть не знала",
+    "where": "the statement that Anna was unaware that Agnes was her greatest ally",
+    "what": "Block 4 ended with Anna knowing every version of the rumours about Agnes, down to the smallest detail. This paragraph answers it with the same verb of knowing, now negated, and again with Anna as subject: she has all the gossip but not the truth. A reader of the original hears the pair as a set-up and its reversal. The echo only works if both statements are about knowing.",
+    "risk": "medium",
+    "recurs_in": [
+     4
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is Anna's unawareness expressed as a lack of knowledge or awareness, the notion of knowing, rather than of suspecting, guessing, realising, noticing or imagining?",
+      "fail": "It is recast as not suspecting, guessing, realising, noticing or imagining, or as something that never occurred to her, so it no longer answers her knowing every version of the rumours."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "Бо зараз, у кабінеті Агнес, вони з Теодором обговорювали майбутнє Анни.",
+    "where": "the sentence that places the conversation about Anna's future in Agnes's office at that very moment",
+    "what": "The narrator proves the claim just made by cutting back to the scene in progress from block 0. The sentence opens on a causal conjunction, which is this narrator's habitual way of explaining (also at blocks 3, 5 and 17). It then puts a present-moment time word and the location before the subject, all inside past-tense narration. Carried over word for word, this gives English a free-standing explanatory clause whose causal logic sounds slightly off, with several phrases stacked ahead of the subject.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated. For example, it opens on a causal word that does not work as a natural explanation in English, or it piles several phrases up before the subject so the sentence is stiff. Judge only how the sentence reads here, not who the participants are."
+     }
+    ]
+   }
+  ]
+ }
+}

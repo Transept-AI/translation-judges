@@ -1,0 +1,47 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1409,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 870
+ },
+ "result": {
+  "edited": "Some green chaos whirled around me and seized the carriage by all its wheels, and there was so much sky that my eyes drowned in it as in a sea and searched for something to catch hold of. And they were helpless.\n\nAt last we are home. The white walls of the house bring my senses back. As soon as the carriage rolled onto the wide green yard, a cuckoo began calling. Then I suddenly heard a great silence. It filled the whole yard, hid in the trees, lay across the deep blue spaces. It was so quiet that I felt ashamed of the pounding of my own heart.\n\nTen black rooms, filled to the brim with darkness. They surround my room. I close the door, as if I feared the light of the lamp would leak out through the cracks. So here I am, alone. Not a soul around. Quiet and deserted, and yet I hear something there, beyond my wall. It disturbs me. What is it?\n\nI hear the solidity and shape of the furniture submerged at the bottom of the black darkness, and the creak of the floor under its weight. Well, then, stand where you are, rest peacefully. I do not want to think about you. I would rather lie down. I will put out the lamp and drown myself in the black darkness. Perhaps I too will turn into a soulless object that feels nothing, into “nothing.” How good it would be to become “nothing,” voiceless, unmoving calm. Yet there, beyond my wall, something is. I know that if I were to step into the dark rooms and strike a match, everything would suddenly leap back into its place: chairs, sofas, windows, even the cornices. Who knows, perhaps my eye would manage to catch the images of people, pale, indistinct, like those in tapestries, all those who left their faces in mirrors, their voices in cracks and corners, their shapes in the soft horsehair stuffing of the furniture, and their shadows on the walls. Who knows what goes on where a person cannot see…",
+  "changes": [
+   {
+    "before": "filled with darkness to the brim",
+    "after": "filled to the brim with darkness",
+    "kind": "taste",
+    "category": "style"
+   },
+   {
+    "before": "shape of furniture submerged",
+    "after": "shape of the furniture submerged",
+    "kind": "error",
+    "category": "grammar"
+   },
+   {
+    "before": "under their weight",
+    "after": "under its weight",
+    "kind": "error",
+    "category": "grammar"
+   },
+   {
+    "before": "catch the image of people",
+    "after": "catch the images of people",
+    "kind": "error",
+    "category": "grammar"
+   },
+   {
+    "before": "soft horsehair mattresses of the furniture",
+    "after": "soft horsehair stuffing of the furniture",
+    "kind": "error",
+    "category": "word"
+   }
+  ]
+ }
+}

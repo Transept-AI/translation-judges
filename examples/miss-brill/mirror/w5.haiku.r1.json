@@ -1,0 +1,72 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1146,
+  "cache_read_input_tokens": 563,
+  "output_tokens": 457
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Це мало велику різницю.",
+    "why": "calque of 'made a difference'"
+   },
+   {
+    "quote": "сюрприз, чого могло й не бути",
+    "why": "clumsy, ungrammatical link"
+   },
+   {
+    "quote": "із таким особливим запалом",
+    "why": "flat, odd with сірник"
+   },
+   {
+    "quote": "«Ой, іди ти!»",
+    "why": "unnatural dismissal"
+   },
+   {
+    "quote": "— сказала дівчина. — «Ще не зараз».",
+    "why": "awkward punctuation"
+   },
+   {
+    "quote": "намисто-комірець",
+    "why": "odd coinage"
+   },
+   {
+    "quote": "Ще не зараз",
+    "why": "stilted"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Це був її недільний частунок.",
+    "why": "warm, natural"
+   },
+   {
+    "quote": "зайшла в свою маленьку темну кімнатку, кімнатку, схожу на шафу",
+    "why": "keeps rhythm, vivid"
+   },
+   {
+    "quote": "їй здалося, що хтось плаче",
+    "why": "poignant ending"
+   },
+   {
+    "quote": "Довго сиділа.",
+    "why": "terse, effective"
+   },
+   {
+    "quote": "наче нести додому маленький подарунок",
+    "why": "tender image"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

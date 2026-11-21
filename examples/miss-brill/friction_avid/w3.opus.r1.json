@@ -1,0 +1,53 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1434,
+  "cache_read_input_tokens": 737,
+  "output_tokens": 720
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Але раптом він дізнався, що газету йому читає актриса!",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "вона ж бо зрештою частина вистави",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "Але аж коли маленький рудий песик",
+    "kind": "unnatural",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Достоту як вистава.",
+    "why": "lively, natural echo"
+   },
+   {
+    "quote": "їй ставало якось чудно й ніяково",
+    "why": "precise, warm word choice"
+   },
+   {
+    "quote": "Ще б пак! Міс Брілл мало не засміялася вголос.",
+    "why": "captures her giddy inner voice"
+   },
+   {
+    "quote": "дві іскорки затремтіли в старих очах",
+    "why": "vivid small image"
+   },
+   {
+    "quote": "поволі подріботів геть",
+    "why": "playful, exact verb"
+   }
+  ]
+ }
+}

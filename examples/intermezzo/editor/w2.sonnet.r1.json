@@ -1,0 +1,16 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1404,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1059
+ },
+ "result": {
+  "edited": "Some green chaos spun around me and caught the carriage by all its wheels, and there was so much sky here that my eyes drowned in it as in a sea and searched for something to catch hold of. And were helpless.\n\nAt last we are home. The white walls of the house restore my senses. The moment the carriage rolled into the wide green yard, a cuckoo began to call. Then suddenly I heard a great silence. It filled the whole yard, lurked in the trees, lay in the deep blue spaces. It was so quiet that I felt ashamed of the pounding of my own heart.\n\nTen black rooms, filled with darkness to the brim. They press in around my room. I close the door, as if afraid the lamplight will all leak out through the cracks. Now I am alone. Not a soul around. Quiet and empty, and yet I hear something there, beyond my wall. It disturbs me. What is it?\n\nI can sense the solidity and shape of the furniture sunk at the bottom of the black darkness, and the creak of the floor under its weight. Well, stay where you are, rest in peace. I do not want to think about you. I would rather lie down. Put out the lamp and drown in the black darkness myself. Perhaps I too would turn into a soulless object that feels nothing, into \"nothing.\" How good it would be to become \"nothing,\" a voiceless, motionless calm. And yet there, beyond my wall, something is there. I know that if I were to walk into the dark rooms like this and strike a match, everything would leap at once into its place: chairs, sofas, windows, even cornices. Who knows, perhaps my eye would have time to catch the image of people, pale, indistinct, as if from tapestries, all those who left their faces in the mirrors, their voices in the cracks and corners, their shapes in the soft horsehair stuffing of the furniture, and their shadows on the walls. Who knows what goes on where a person cannot see...",
+  "changes": []
+ }
+}

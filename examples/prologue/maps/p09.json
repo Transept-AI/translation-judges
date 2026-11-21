@@ -1,0 +1,70 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3638,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 40271
+ },
+ "result": {
+  "reading": "A one-line pivot between the breathless climbing count of block 8 and the first paid question of block 10. As the unmoderated, pay-to-ask segment launched in block 6 begins, Freya names her chief worry in a sardonic image: that her followers will stop treating her as a business expert and start sizing her up as a romantic prospect. Blocks 10, 13 and 16 then bring exactly those personal questions (children, marriage, a man's shoulder, love versus business). Block 15 repeats the image almost verbatim when the questions swerve into that very scenario, so her stated top priority visibly fails before she decides to answer and turns it to profit in blocks 17–18.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "device",
+    "source": "колективне побачення в Тіндері",
+    "where": "the image at the end of the sentence: what Freya fears the paid question session could degenerate into",
+    "what": "Freya's worry is cast as a comic paradox with two poles. The first pole is the date: a one-to-one romantic meeting between strangers matched through a dating app, where each sizes the other up as a potential partner. Without spelling it out, it tells the reader that the danger is personal questions about her love life, marriage and children, and being appraised as a woman rather than consulted as an expert. Block 7 has just flagged that she is a woman, and blocks 10, 13 and 16 deliver exactly such questions. The second pole is the crowd: that private ritual imagined with hundreds of thousands of people at once. This makes it absurd and shows her sardonic view of her own audience. Lose either pole and both the joke and the foreshadowing go flat.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the feared outcome a date, a romantic get-to-know-you meeting in which Freya is the one being sized up as a prospective partner?",
+      "fail": "It becomes chatting, flirting, swiping or matching, a hookup or sex, a generic meeting or party, or viewers pairing off with one another. Freya being appraised as a partner on a date is gone."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is the date itself marked as one held with her whole audience at once, and not merely implied by the plural reference to her followers earlier in the sentence?",
+      "fail": "The image is an ordinary one-on-one date, with nothing in the phrase marking it as shared by a crowd."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "колективне побачення в Тіндері",
+    "where": "the image at the end of the sentence: what Freya fears the paid question session could degenerate into",
+    "what": "Block 15 returns to this image almost word for word, saying the questions abruptly swerved into exactly this scenario. A reader of the original hears at once that the one thing Freya most wanted to prevent has happened. That payoff leads into her decision to answer anyway (block 17) and her risqué joke (block 18). The callback works only if both passages share one recognisable image.",
+    "risk": "medium",
+    "recurs_in": [
+     15
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the translation of block 15 return to recognisably the same image as this sentence, a date arranged through the same dating app, so that a reader hears the repetition?",
+      "fail": "The two passages use different apps, different dating formats or different metaphors, or one of them leaves out the app or the date, so block 15 does not visibly point back to this sentence."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "Головне було не дати цьому спілкуванню з підписниками перетворитися на колективне побачення в Тіндері.",
+    "where": "the whole sentence: Freya's chief aim as she starts answering the paid questions",
+    "what": "The original has three parts. It opens with an impersonal evaluative frame that names her top priority. It then makes an abstract verbal noun for the act of interacting with her followers the grammatical subject of a transformation. It closes on a stacked adjective-noun-preposition image. Followed closely, English gets a stiff abstract subject, a formal word for talking to fans and a literal chain for the date. The result reads as translated, inside narration that is otherwise brisk, ironic and colloquial.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Does this sentence read as if written by a skilled native English writer?",
+      "fail": "It reads as carried over word for word. Signs: the exchange with her audience is named by a stiff, formal abstract noun; the date image is a literal word chain that English prose would not produce; or the opening frame sounds bureaucratic rather than wry."
+     }
+    ]
+   }
+  ]
+ }
+}

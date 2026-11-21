@@ -1,0 +1,72 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1910,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 547
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Хоча день видався такий напрочуд ясний",
+    "why": "clunky 'такий напрочуд' combo"
+   },
+   {
+    "quote": "Повітря стояло нерухомо, та коли розтуляєш рота",
+    "why": "abrupt person shift, slightly awkward"
+   },
+   {
+    "quote": "нізвідки, з неба",
+    "why": "slightly flat tag"
+   },
+   {
+    "quote": "Шибеник, що кусає себе за хвіст біля самого її лівого вуха.",
+    "why": "heavy word order"
+   },
+   {
+    "quote": "Руки її поколювало аж до плечей",
+    "why": "awkward grammar/construction"
+   }
+  ],
+  "good": [
+   {
+    "quote": "великі плями світла, мов біле вино, розхлюпане по Публічному саду",
+    "why": "vivid, luminous image"
+   },
+   {
+    "quote": "як від склянки крижаної води, перш ніж пригубити",
+    "why": "precise sensory simile"
+   },
+   {
+    "quote": "Мила ти моя крихітко!",
+    "why": "warm, natural endearment"
+   },
+   {
+    "quote": "«Що це зі мною було?» — питали сумні оченята.",
+    "why": "touching personification"
+   },
+   {
+    "quote": "Ах ти ж, шибенику!",
+    "why": "lively, idiomatic"
+   },
+   {
+    "quote": "коли вже конче буде треба...",
+    "why": "natural hesitating voice"
+   },
+   {
+    "quote": "щось легке й сумне — ні, не те щоб сумне, — щось ніжне",
+    "why": "delicate emotional nuance"
+   }
+  ],
+  "ratings": {
+   "acceptability": 5,
+   "smoothness": 4,
+   "immersion": 5,
+   "continue": 5
+  }
+ }
+}

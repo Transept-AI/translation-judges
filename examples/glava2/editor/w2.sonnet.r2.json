@@ -1,0 +1,47 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 563,
+  "cache_read_input_tokens": 1367,
+  "output_tokens": 1455
+ },
+ "result": {
+  "edited": "\"I have no plan B except to continue my studies at the Academy,\" Theodore said. \"If it were up to me, I'd have left the Academy long ago, Agnes.\"\n\nBut Theodore could no longer afford to leave the Academy.\n\nTraining as a mage cost an incredible amount. Hundreds of etons. And so at the entrance exams thousands fought not only for a place at the Academy but for the Royal Grant. The Academician's Golden Card.\n\nWhich covered not only tuition but also the cost of living in Seraph, utterly beyond the means of a sub-seraph or a soul from the Firmament. The Card's limit expanded with every circle passed, letting you live in Seraph on an ever grander footing and pay ever costlier tuition fees. And for Academy residents the Card covered even such expenses as designer outfits and cozy houses.\n\nAnd as long as you stayed at the Academy, you might never have to pay interest on a debt that grew endlessly. Because in Seraph absolutely nothing was given for free.\n\nThe only problem was staying at the Academy. Which wasn't so easy: from the second circle on, a mage was already fully qualified to work; from the fourth, however, you could say goodbye to any hope of paying off your debts. Demand for mages was high, but most of the work was not the study of the mysteries of the Planes, nor poetry, nor metaphysical walks along the thin layers of the True Plane. Only accredited Academicians kept by Seraph could afford those.\n\nAfter all, someone had to repair the megabarges. Torture demons. Fight the Disorder, patching holes in the fabric of creation. Sift through the scavengers' hauls from the Shards for treasures, or at least LED bulbs. Carve hearts out of corpses for healing potions...\n\nAgnes waited out a pause long enough for exposition, letting Theodore marinate in the unenviable prospects of one who had washed out of the Academy before even reaching the fifth circle.",
+  "changes": [
+   {
+    "before": "For myself, I'd have left",
+    "after": "If it were up to me, I'd have left",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "a mage could already work in full",
+    "after": "a mage was already fully qualified to work",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Pick through what the scavengers had gathered from the Shards for treasures",
+    "after": "Sift through the scavengers' hauls from the Shards for treasures",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "Carve out hearts from corpses",
+    "after": "Carve hearts out of corpses",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "marinate himself in",
+    "after": "marinate in",
+    "kind": "error",
+    "category": "word"
+   }
+  ]
+ }
+}

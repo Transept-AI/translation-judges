@@ -1,0 +1,88 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3664,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 62625
+ },
+ "result": {
+  "reading": "Freya's free indirect verdict, in her cool business voice, on the crowd catalogued in block 22: by her lights it is a poor match for the kind of woman she takes herself to be and for the success she sells, but it sticks with her, and in practice that is what pays. It closes a loop opened in block 3, where she looked down on TikTok's audience, and privately undercuts her public line in block 12 that everyone defines success for themselves. Block 24 cashes the maxim at once, as $20 and $50 messages wash out the haters and Freya finally smiles in earnest.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "construction",
+    "source": "Не найкраща аудиторія, якщо ти серйозна жінка, що ділиться секретами *справжнього* успіху, зате віддана.",
+    "where": "the opening verdict on the fan base just listed: ill-suited to the kind of woman Freya takes herself to be, yet credited with one redeeming virtue",
+    "what": "The sentence has no verb and moves in three beats. The put-down comes first. Then comes a long conditional in which a generic second person is cast as the kind of woman Freya takes herself to be. The redeeming virtue is tacked on at the very end. Ukrainian lets the compensating conjunction reach back over the whole conditional to the opening put-down without restating the subject. English needs something to hang the virtue on, so a close rendering leaves the virtue trailing after the clause about the woman. There it reads as detached, or for a moment it seems to describe her. This compact thought is where the scene turns from catalogue to payoff, so a stumble here blunts it.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "At the spot where the fan base is judged ill-suited to the kind of woman Freya takes herself to be yet credited with one virtue, does the translation read as written by a skilled native writer?",
+      "fail": "Any of these counts as no: the virtue is tacked on after the long clause about the woman so that it dangles or reads as detached; the sentence is a stiff, calqued fragment that a native editor would recast."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "серйозна жінка",
+    "where": "where the narrator names the kind of woman for whom this fan base falls short",
+    "what": "The adjective describing the woman is the same one block 3 used for the audience Freya found missing on TikTok. She disliked that platform, but the algorithms overruled her. The word returns here as her self-image, just after her core fans have rallied from TikTok among other platforms (block 22). The crowd she would never credit with that quality is the one carrying her toward the record. A reader of the original hears the word come back and closes the loop.",
+    "risk": "medium",
+    "recurs_in": [
+     3
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the woman described by recognisably the same quality that, in block 3, Freya found lacking in TikTok's audience?",
+      "fail": "Either counts as no, because the two passages then no longer echo: a different quality here (professional, respectable, accomplished, successful, a bare job title and the like); a non-matching word in block 3."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "секретами *справжнього* успіху … А відданість у реальному бізнесі",
+    "where": "where the success the woman teaches is qualified, and where the closing remark names the setting in which the fans' steadfastness pays",
+    "what": "These are the two poles of one irony. The stressed qualifier on success is a sneer inside Freya's head. It insists that the success she sells is the one that counts, unlike the lesser kind she graciously granted the mothers in block 12, when she told them everyone defines success for themselves and their children can be their capital. The closing sentence answers with practice: in business as it is actually done, what counts is fans who stick with you and keep paying, which block 24 shows at once. Without the stress, the first pole sinks into a stock self-help tag. Without the practical qualifier, the second becomes a platitude, and the lofty product no longer faces the cash reality.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the qualifier on the success the woman teaches given pointed stress, either by emphasis such as italics or by wording that singles it out as the authentic kind against lesser kinds?",
+      "fail": "The qualifier appears as an ordinary, unemphasised epithet that reads as a stock self-help tag."
+     },
+     {
+      "id": "E3b",
+      "ask": "Does the closing sentence place the worth of the fans' steadfastness in business as actually practised, with a qualifier marking practice as opposed to preaching, rather than in business in general?",
+      "fail": "Either counts as no: there is no such qualifier (business in general); the qualifier is of another kind, such as big, serious or modern business."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "А відданість у реальному бізнесі важить чимало.",
+    "where": "the closing remark that sets a value on the fans' steadfastness in practical business",
+    "what": "A dry business maxim that serves as the paragraph's punchline. The original opens on the quality just picked up from the previous sentence. It slips the business setting into the middle and ends on an idiom that measures importance in weight, with a measured, unemphatic quantity. Carried over in that order and word for word, it produces three problems: a setting phrase lodged between subject and verb so that it reads as part of the noun, a verb of physical weight, and a calqued label for the business world. The result is a stiff line where the deadpan snap should be.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At the closing remark that values the fans' steadfastness in practical business, does the translation read as written by a skilled native writer?",
+      "fail": "Any of these counts as no: a literal verb of weighing; the business-setting phrase wedged in so that it reads as part of the noun; a calqued phrase for the business world; other stiffness that a native editor would rewrite."
+     }
+    ]
+   }
+  ]
+ }
+}

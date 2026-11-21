@@ -1,0 +1,123 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 566,
+  "cache_read_input_tokens": 6308,
+  "output_tokens": 60170
+ },
+ "result": {
+  "reading": "This is the opening of Kotsiubynsky's 'Intermezzo'. On the eve of departure the narrator calls packing one more of the countless bare words of compulsion that have exhausted him, argues that each of them, small or large, has come to command him until he is the slave of a many-headed beast, and longs to be freed of it for a while, to forget and to rest. Block 2 reveals whose commands these are: humanity's, addressed as a beastly 'you' that rules him through the same countless words, and block 3 names people as the cause of the same tiredness. The closing admission of tiredness returns as the last words of the nightmare in block 17, and in block 20 the chained dog he lets loose acts out the wish to be freed and to forget, running off headlong and forgetting him.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "одно з тих незчисленних «треба» … чи те «треба» мале, чи велике",
+    "where": "where packing is called one of the countless things that have worn him out and kept him awake, and in the next sentence, where he says it makes no difference whether one of them is small or large",
+    "what": "He does not name tasks or duties. He lifts out the bare word that voices compulsion, the word a person hears whenever something has to be done, and sets it off as a quoted word. Then he counts it and gives it a size. What has worn him out is the command itself, as it is heard. Block 2 takes up the same quoted word, again countless, and sets it beside an endless second-person form of compulsion when he tells humanity that he lives as it orders him. That is where the reader learns who has been uttering it. If this paragraph names chores instead, block 2's echo has nothing to answer.",
+    "risk": "medium",
+    "recurs_in": [
+     2
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Are both mentions (the countless ones that wore him out, and the one that may be small or large) named by the bare word that voices compulsion, made into a noun, rather than by a noun for the tasks?",
+      "fail": "Either mention is rendered as chores, tasks, duties, obligations, necessities, errands, demands, needs or things to do, or the two mentions are named by different nouns."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "що не я їм, а воно мною уже керує",
+    "where": "where he says that it controls him instead of him controlling it",
+    "what": "A small adverb of time turns the statement into something that has happened to him. Once he directed each such command; by now the relationship has turned around and it directs him. This is the middle step of the paragraph's progression: it claims his attention, then it rules him, then in the next sentence it makes him a slave. Without the marker the reversal reads as a timeless truth about such commands, not as a takeover he has lived through.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the reversal presented as a change that has already come about (he was once in control and now is not), rather than as a timeless statement that it controls him?",
+      "fail": "The sentence only says that it, not he, is in control, with nothing marking that things have now come to this."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "сього многоголового звіра",
+    "where": "where he says that one ends up the slave of a many-headed creature",
+    "what": "The countless commands fuse into one many-headed creature, and that creature is an animal, a wild beast. It is the old image of the many-headed beast that has long stood for the crowd and that, like the hydra, grows a new head for each one dealt with. The same word for a wild beast returns when he turns on humanity. In block 2 humanity roars like a beast and has bestial instincts. In block 17 the people coming out of the dark are those who laid the beast's bloody cruelty in his heart. A reader of the original hears that the beast enslaving him here is the human beast of those blocks. A fabulous monster keeps the heads but loses that echo.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the many-headed creature a beast, a wild animal, the same notion blocks 2 and 17 use for human savagery?",
+      "fail": "It is called a monster, dragon, Hydra or other fabulous being, or only a neutral creature or thing, or it is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "стаєш невільником … Хоч на час увільнитись від нього",
+    "where": "where he calls himself the slave of the many-headed creature and, right after, wishes to get loose from it for a while",
+    "what": "The word for slave is built on the root of freedom: literally, an unfree person. The wish that follows reuses that root, so he wants to be made free of what has made him unfree. The story answers this at the end. In block 20 he unchains the guard dog and tells it that it will soon be free, and the dog bolts headlong and forgets him, acting out the freeing and the forgetting wished for here. In block 18 the same root marks his soul as a place where entry is not free. If the wish becomes mere escape, the paragraph loses its slave and free pair and its link to the dog's release.",
+    "risk": "medium",
+    "recurs_in": [
+     18,
+     20
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the wish expressed as becoming free of it, so that it answers the slavery named just before?",
+      "fail": "He only wishes to escape, get away from, be rid of, shake off, or take a break from it, with no notion of freedom."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "link",
+    "source": "Хоч на час увільнитись від нього, забути, спочити.",
+    "where": "the wish, just before he says he is tired, to get loose from the creature, to forget and to rest",
+    "what": "This is a verbless sentence of wishes, opened by a particle that lowers the demand: he would settle for release for some time, not for good. It is a longing, not a resolution, and above all not one more command, since the paragraph has just shown him ruled by those. The story's title names a musical interlude, and the stay in the country in blocks 9–20 is exactly such a temporary respite.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the release wished for only for a time, as a respite, rather than for good?",
+      "fail": "No limit of time appears; he simply wishes to be free of it, to forget and to rest."
+     },
+     {
+      "id": "E5b",
+      "ask": "Is the sentence a wish or a longing, rather than a statement that he needs to, has to, or will do these things?",
+      "fail": "It is framed as a need, an obligation, a decision or a plan."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "construction",
+    "source": "Дарма, чи те «треба» мале, чи велике — вагу те має, що кожен раз воно вимагає уваги, що не я їм, а воно мною уже керує.",
+    "where": "the sentence saying that it makes no difference whether each such command is small or large: what counts is that it claims his attention every time and has come to rule him instead of being ruled by him",
+    "what": "The original puts its idiom for what matters first and then hangs two bare complement clauses on it, one after the other, with nothing relating them. The second clause compresses the reversal of master and servant: both pronouns of each half come before a single verb that arrives only at the end. Carried over closely, English gets two clauses stacked in a row and a pile-up of pronouns, and the sentence reads as translated. A native writer has to relate the two points to each other (the claim on his attention and the loss of control) and give each half of the reversal its own verb.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The two points sit as two 'that'-clauses stacked one after the other with only a comma between them, or the reversal keeps pronouns piled before one shared verb, or the sentence otherwise reads as a word-for-word carry-over."
+     }
+    ]
+   }
+  ]
+ }
+}

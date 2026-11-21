@@ -1,0 +1,1108 @@
+{
+ "judge": "checker",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "de492ec1504c",
+ "usage": {
+  "input_tokens": 74,
+  "cache_creation_input_tokens": 65579,
+  "cache_read_input_tokens": 676557,
+  "output_tokens": 16634
+ },
+ "result": {
+  "paragraphs": [
+   {
+    "n": 0,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "no",
+      "quote": "розхлюпане по Публічному саду",
+      "why": "The gardens get a plain Ukrainian name with no French trace, so nothing marks the town as French."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "вирішила вдягнути хутро",
+      "why": "The noun 'хутро' is used here and again at blocks 13 ('ху-хутро') and 17 ('дістала хутро')."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "відчуваєш легенький холодок",
+      "why": "It is a slight cold, worded exactly like 'легенький холодок' in block 9."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "Мила ти моя крихітко!",
+      "why": "'крихітко' is said directly to the fur, as to a beloved little creature."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "натерла тьмяні оченята",
+      "why": "Her hand physically rubs the eyes."
+     },
+     {
+      "id": "E6b",
+      "answer": "yes",
+      "quote": "поки в них знову не з’явилося життя",
+      "why": "Life returns to the eyes, not just shine."
+     },
+     {
+      "id": "E6c",
+      "answer": "yes",
+      "quote": "натерла тьмяні оченята, поки в них знову не з’явилося життя",
+      "why": "She rubs until life returns, so one action does both."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "— питали сумні оченята",
+      "why": "The eyes ask the question outright, with no softening."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "знову блищать до неї",
+      "why": "The eyes gleam at her again, a lively sign that the fur has revived."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "дістала його з коробки",
+      "why": "'коробка' is the same container the fur goes back into at block 17."
+     },
+     {
+      "id": "E9b",
+      "answer": "yes",
+      "quote": "з червоної пухової ковдри",
+      "why": "This matches 'червону пухову ковдру' at block 17."
+     },
+     {
+      "id": "E10a",
+      "answer": "yes",
+      "quote": "зроблений з якоїсь чорної маси",
+      "why": "'маса' is read as some material, and 'якоїсь' keeps her vagueness about it."
+     },
+     {
+      "id": "E11a",
+      "answer": "yes",
+      "quote": "геть розхитався",
+      "why": "'геть' makes the looseness total."
+     },
+     {
+      "id": "E12a",
+      "answer": "yes",
+      "quote": "Ах ти ж, шибенику!",
+      "why": "'шибеник' is a fond scolding name for a scamp."
+     },
+     {
+      "id": "E13a",
+      "answer": "yes",
+      "quote": "ні, не те щоб сумне",
+      "why": "'не те щоб' only partly takes the word back, so sadness stays half-admitted."
+     },
+     {
+      "id": "E14a",
+      "answer": "yes",
+      "quote": "щось легке й сумне — ні, не те щоб сумне, — щось ніжне",
+      "why": "Both mentions stay an unnamed 'щось'."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 1,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Людей сьогодні вийшло чимало, куди більше, ніж минулої неділі",
+      "why": "'чимало' means a good number, a real crowd."
+     },
+     {
+      "id": "E4a",
+      "answer": "no",
+      "quote": "А чи не в новому сюртуку сьогодні диригент?",
+      "why": "There is no 'теж/також', so the coat stands alone instead of joining her list of signs."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "наче півень, що ось-ось закукурікає",
+      "why": "'ось-ось' catches the cock just before it crows."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "люто дивилися в ноти",
+      "why": "'люто' makes the stare fierce."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "люто дивилися в ноти",
+      "why": "'ноти' is the written music on their stands."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "маленький «флейтовий» шматочок",
+      "why": "Quotation marks set the word off as hers."
+     },
+     {
+      "id": "E7b",
+      "answer": "yes",
+      "quote": "«флейтовий» шматочок",
+      "why": "'шматочок' is a homely diminutive, not a musician's term."
+     },
+     {
+      "id": "E7c",
+      "answer": "yes",
+      "quote": "— як гарно! —",
+      "why": "Her delight breaks in as her own exclamation."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "маленький «флейтовий» шматочок",
+      "why": "'маленький' plus the diminutive 'шматочок' mark it as fondly small."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 2,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Її «особливу» лаву",
+      "why": "The possessive and quotation marks make it special only in her own sense."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "вже чималого досягла в цьому мистецтві",
+      "why": "She claims real mastery, not just habit."
+     },
+     {
+      "id": "E4b",
+      "answer": "yes",
+      "quote": "чималого досягла в цьому мистецтві",
+      "why": "Everyday, homely wording with no professional title."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "як їй здавалося",
+      "why": "The skill is framed as her own impression."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "слухати так, ніби й не слухаєш",
+      "why": "The 'ніби' keeps the show of not listening."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "посидіти в чужому житті",
+      "why": "She is placed inside other people's lives."
+     },
+     {
+      "id": "E7b",
+      "answer": "yes",
+      "quote": "посидіти в чужому житті",
+      "why": "The presence is a sitting one."
+     },
+     {
+      "id": "E7c",
+      "answer": "yes",
+      "quote": "на хвильку посидіти в чужому житті",
+      "why": "One image: the sitting itself puts her inside their lives."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 3,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "старе подружжя",
+      "why": "'старе' is the plain, blunt word for old."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "весь час товкла про те",
+      "why": "'товкла' is colloquial and paints her talk as tiresome harping."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "що їй треба носити окуляри",
+      "why": "Plainly says she ought to wear spectacles, not how to wear them."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "ніколи не триматимуться",
+      "why": "The spectacles would never stay on her face."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "м’якенькі подушечки на перенісся",
+      "why": "Pads resting on the nose bridge, clearly there to stop slipping."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "так і кортіло її потрусити",
+      "why": "'потрусити' is a physical shaking."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 4,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Нічого, завжди можна дивитися на юрбу.",
+      "why": "The same brisk 'Нічого' shrug as over the fur's nose in block 0."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "якесь крихітне хитке створіння",
+      "why": "'хитке створіння' is a jocular name taken from its wobble, not a standard word for a child."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "«гуп!»",
+      "why": "A nursery sound-word gives the sit-down its comic bump."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "що ступала високо, мов молода курочка",
+      "why": "Her high step matches the hen comparison."
+     },
+     {
+      "id": "E5a",
+      "answer": "partly",
+      "quote": "майже в кожному з них було щось чудне",
+      "why": "'чудне' leans to odd, with only a faint comic note, and it doesn't match 'смішне' at block 13."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "з того, як вони дивилися",
+      "why": "Their stare is the cue."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "з темних кімнаток",
+      "why": "The rooms are dark and small, matching 'темної кімнатки' at block 17."
+     },
+     {
+      "id": "E7b",
+      "answer": "yes",
+      "quote": "навіть із шаф!",
+      "why": "A storage cupboard, echoed by 'схожої на шафу' at block 17."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "чи навіть — навіть із шаф!",
+      "why": "'навіть' marks the cupboards as going a step further."
+     },
+     {
+      "id": "E8b",
+      "answer": "yes",
+      "quote": "чи навіть — навіть із шаф!",
+      "why": "The hesitation, the repetition and the exclamation make it her gleeful flourish."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 5,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "з пониклим жовтим листям",
+      "why": "'пониклим' means drooping and wilted, so the leaves hang limp."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "тонкі деревця з пониклим жовтим листям",
+      "why": "The leaves are still on the trees; nothing falls."
+     },
+     {
+      "id": "E3a",
+      "answer": "partly",
+      "quote": "За ротондою — тонкі деревця з пониклим жовтим листям",
+      "why": "Ordinary word order; only the verbless sentence and 'пониклим' lift it slightly."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "лише смужка моря",
+      "why": "'лише' cuts the sea down to a sliver."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "а далі — блакитне небо в хмарах із золотими прожилками",
+      "why": "The sky is the last thing seen, with the clouds in it."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "а крізь них лише смужка моря, а далі — блакитне небо",
+      "why": "Nothing in the view moves or flickers."
+     },
+     {
+      "id": "E6b",
+      "answer": "yes",
+      "quote": "золотими прожилками",
+      "why": "The gold runs through the clouds in fine veins."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 6,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Трам-там-там, тирлі-рам! тирлі-рам! трам тирлі-рам там-та!",
+      "why": "The tune is given as sounds the reader can hear."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "Трам-там-там, тирлі-рам!",
+      "why": "Written in Cyrillic."
+     },
+     {
+      "id": "E1c",
+      "answer": "yes",
+      "quote": "Трам-там-там, тирлі-рам!",
+      "why": "Heavy 'там' thumps alternate with light 'тирлі' twirls."
+     },
+     {
+      "id": "E1d",
+      "answer": "yes",
+      "quote": "Трам-там-там, тирлі-рам! тирлі-рам! трам тирлі-рам там-та!",
+      "why": "It runs to a whole phrase of several groups."
+     },
+     {
+      "id": "E2a",
+      "answer": "no",
+      "quote": "вигравав оркестр",
+      "why": "'вигравав' means 'played' and has no blowing or breath in it."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "вигравав оркестр",
+      "why": "The band, called 'оркестр' as everywhere else, produces the sounds."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 7,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "у кумедних солом’яних капелюхах",
+      "why": "'кумедних' makes the hats comical."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "такий кумедний дідок із довгими бакенбардами",
+      "why": "'кумедний' makes him comical."
+     },
+     {
+      "id": "E2a",
+      "answer": "partly",
+      "quote": "Оце так!",
+      "why": "It is a mild exclamation of surprise, but colloquial-neutral, without the old-fashioned primness of a genteel lady."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "зустрілися горностаєвий ток і джентльмен у сірому",
+      "why": "The hat itself is what meets him."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "Горностаєвий ток лишився сам",
+      "why": "She is called by the hat when left alone and again when she turns."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "в почищеній рукавичці",
+      "why": "'почищеній' means the glove has been cleaned."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "була крихітною жовтуватою лапкою",
+      "why": "Her hand is a little animal's paw."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "задріботіла геть",
+      "why": "'задріботіла' gives quick little steps."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "Вона так і думала, що вони сьогодні зустрінуться.",
+      "why": "Her own hunch about the meeting, not an arranged date."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "А може, він не відмовився б?..",
+      "why": "A separate request for something from him."
+     },
+     {
+      "id": "E9b",
+      "answer": "yes",
+      "quote": "А може, він не відмовився б?..",
+      "why": "What she wants is never named."
+     },
+     {
+      "id": "E10a",
+      "answer": "yes",
+      "quote": "похитав головою, запалив цигарку, повільно видихнув їй в обличчя великий густий клуб диму і, поки вона ще говорила й сміялася, відкинув сірника й пішов далі",
+      "why": "Every slight is there, smoke straight into her face."
+     },
+     {
+      "id": "E10b",
+      "answer": "yes",
+      "quote": "повільно видихнув",
+      "why": "'повільно' makes it slow."
+     },
+     {
+      "id": "E10c",
+      "answer": "yes",
+      "quote": "поки вона ще говорила й сміялася",
+      "why": "He leaves while she is still talking and laughing."
+     },
+     {
+      "id": "E12a",
+      "answer": "yes",
+      "quote": "«Звір! Звір!»",
+      "why": "'Звір' brands him a beast."
+     },
+     {
+      "id": "E12b",
+      "answer": "yes",
+      "quote": "«Звір! Звір!»",
+      "why": "Strong but not vulgar; a melodrama heroine's cry."
+     },
+     {
+      "id": "E13a",
+      "answer": "no",
+      "quote": "підвелося й рушило геть",
+      "why": "'рушило геть' is a plain verb of leaving, with no march."
+     },
+     {
+      "id": "E13b",
+      "answer": "yes",
+      "quote": "пришкандибав у такт музиці",
+      "why": "His hobbling keeps time with the music."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 8,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Це було як вистава. Достоту як вистава.",
+      "why": "'Достоту' turns the plain likeness into an exact one."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "Вони всі були на сцені. Вони були не лише глядачами, не лише дивилися; вони грали.",
+      "why": "Stated as flat fact, and 'Вона була на сцені' is unhedged too."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "Хто б повірив, що небо там, позаду, не намальоване?",
+      "why": "The sky looks painted, so one can hardly believe it is real."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "урочисто вибіг на сцену, а тоді поволі подріботів геть",
+      "why": "An entrance onto the stage, then an exit."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "не лише глядачами, не лише дивилися; вони грали",
+      "why": "'не лише' keeps them spectators as well as actors."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "вона так дбала про те, щоб виходити з дому щотижня точно в той самий час",
+      "why": "'так дбала' shows deliberate effort."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "старого немічного джентльмена",
+      "why": "'немічного' means frail and ailing, not a disability label."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "запалих очей",
+      "why": "'запалих' means sunken."
+     },
+     {
+      "id": "E8b",
+      "answer": "yes",
+      "quote": "високого загостреного носа",
+      "why": "'загостреного' means sharpened, as illness draws a face."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "їй було б байдуже",
+      "why": "Indifference, not consent to his death."
+     },
+     {
+      "id": "E10a",
+      "answer": "yes",
+      "quote": "Стара голова піднялася",
+      "why": "The head itself lifts."
+     },
+     {
+      "id": "E10b",
+      "answer": "yes",
+      "quote": "дві іскорки затремтіли",
+      "why": "Trembling little glints."
+     },
+     {
+      "id": "E11a",
+      "answer": "no",
+      "quote": "«Актриса, кажете?»",
+      "why": "Neutral standard speech, with nothing old-fashioned or folksy."
+     },
+     {
+      "id": "E12a",
+      "answer": "yes",
+      "quote": "«Так, я вже давно актриса».",
+      "why": "Present tense: she is still an actress."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 9,
+    "checks": [
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "в ньому був легенький холодок",
+      "why": "The same 'легенький холодок' as in the air of block 0."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "не смуток — ні, не смуток",
+      "why": "Sadness is named and refused."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "не смуток — ні, не смуток",
+      "why": "Refused twice, insistently."
+     },
+     {
+      "id": "E3c",
+      "answer": "yes",
+      "quote": "щось, що ж це було? — не смуток — ні, не смуток, — щось таке, від чого хотілося співати",
+      "why": "It stays an unnamed 'щось' at both mentions."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "Мелодія здіймалася, здіймалася",
+      "why": "The repeated imperfective keeps the rise climbing."
+     },
+     {
+      "id": "E4b",
+      "answer": "yes",
+      "quote": "Молоді, ті, що сміялися й ходили разом, почнуть, а чоловічі голоси, рішучі й відважні, підхоплять. А тоді й вона",
+      "why": "Young people first, then the men, then she and the bench-sitters."
+     },
+     {
+      "id": "E4c",
+      "answer": "yes",
+      "quote": "А тоді й вона, і вона теж",
+      "why": "Her own entry is stressed separately."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "на всіх інших членів трупи",
+      "why": "The whole gathering, and 'інших' puts her among them."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "уся трупа",
+      "why": "'трупа' is a theatre word, used at both places."
+     },
+     {
+      "id": "E5c",
+      "answer": "yes",
+      "quote": "всі вони, уся трупа, заспівають",
+      "why": "The theatre word names the people directly, not through a simile."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "заспівають... почнуть... підхоплять... вступлять",
+      "why": "Every entry is in the future, imagined only."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "вони вступлять, наче акомпанемент",
+      "why": "'вступлять' is the musical sense: coming in as an accompanying part."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "щось таке прекрасне — зворушливе",
+      "why": "'зворушливе' names an emotional effect, not motion."
+     },
+     {
+      "id": "E10a",
+      "answer": "yes",
+      "quote": "хоча що саме вони розуміють, вона не знала",
+      "why": "She does not know what the shared understanding is."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 10,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "хлопець і дівчина",
+      "why": "Young people of courting age, not children."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "Герой і героїня",
+      "why": "They get the two leading parts of her show."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "Герой і героїня, звісно",
+      "why": "Cast outright, with no comparison."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "звісно",
+      "why": "Marked as going without saying."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "з яхти його батька",
+      "why": "'його' makes it the young man's father's yacht."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "беззвучно співаючи",
+      "why": "Wholly soundless."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "все ще беззвучно співаючи, все ще з тією тремтливою усмішкою",
+      "why": "'все ще' carries both on from before."
+     },
+     {
+      "id": "E6b",
+      "answer": "yes",
+      "quote": "приготувалася слухати",
+      "why": "She gets ready to listen; it is still ahead of her."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 11,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "— Ні, не зараз, — сказала дівчина. — Не тут, я не можу.",
+      "why": "What he wants is never named."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "Не тут, я не можу.",
+      "why": "No feeling or motive of hers is added."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "Не тут",
+      "why": "She objects to the place itself."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "Не тут",
+      "why": "Block 15 repeats it as 'Ні, не тут'."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "Ні, не зараз",
+      "why": "Limited to now, so she is putting him off."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "я не можу",
+      "why": "Framed as inability, not unwillingness."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 12,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "оту дурну стару опудалу",
+      "why": "'опудало' (scarecrow, stuffed figure) makes her an object, not a person."
+     },
+     {
+      "id": "E1b",
+      "answer": "no",
+      "quote": "оту дурну стару опудалу",
+      "why": "Block 0 uses 'крихітко' for the fur, an unrelated word, so the two spots don't answer each other."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "чого вона взагалі сюди ходить",
+      "why": "'ходить' is habitual."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "чого вона взагалі сюди ходить",
+      "why": "'взагалі' makes it sweeping, denying her any reason at all."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "кому вона треба?",
+      "why": "She is the one nobody needs."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "зі своєю дурною старою пикою",
+      "why": "Aimed at her face."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "пикою",
+      "why": "'пика' is a coarse, contemptuous colloquial word for a face."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "спитав хлопець",
+      "why": "'хлопець' is a young man."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 13,
+    "checks": [
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "ху-хутро",
+      "why": "Her giggle breaks into the word itself."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "захихотіла дівчина",
+      "why": "'захихотіла' is a giggle."
+     },
+     {
+      "id": "E3a",
+      "answer": "no",
+      "quote": "воно таке смішне",
+      "why": "Block 4 has 'щось чудне', a different root from 'смішне'."
+     },
+     {
+      "id": "E3b",
+      "answer": "no",
+      "quote": "воно таке смішне",
+      "why": "Block 7 has 'кумедних' / 'кумедний', a different root from 'смішне'."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "Ну достоту смажений мерланг.",
+      "why": "'достоту' echoes 'Достоту як вистава' in block 8."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "смажений мерланг",
+      "why": "A fried fish, a dish of cooked food."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "мерланг",
+      "why": "A particular, humble kind of fish, the whiting."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 14,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Та ну тебе!",
+      "why": "An idiomatic brush-off of her joke, not an order to leave."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "— Та ну тебе! — сердито прошепотів хлопець.",
+      "why": "'сердито' makes it impatient dismissal, not amusement."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "ma petite chère",
+      "why": "Kept in French."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "сердито прошепотів хлопець",
+      "why": "'хлопець' is a young man, not a child."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 15,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Ще *не час*.",
+      "why": "'Ще не час' says the moment hasn't come yet but will."
+     },
+     {
+      "id": "E1b",
+      "answer": "partly",
+      "quote": "Ще *не час*.",
+      "why": "The phrase ends on the time-word 'час', but the italics also take in the negation 'не' and leave 'Ще' unstressed, so the weight is split."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "Ні, не тут",
+      "why": "The same 'тут' as in block 11."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "сказала дівчина",
+      "why": "A plain verb of saying, with nothing added."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 16,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "скибочку медівника",
+      "why": "'медівник' is a plain honey loaf sold by the slice, not the layered 'медовик' torte."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "зазвичай купувала",
+      "why": "All three acts are habitual imperfectives: 'купувала', 'поспішала', 'чиркала'."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "Це мало велике значення.",
+      "why": "'велике' marks size."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "Це мало велике значення.",
+      "why": "Plain fact, with no framing or belittling."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "щось, чого цілком могло й не бути",
+      "why": "Framed as something that could just as well have been absent."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "Мигдальними неділями",
+      "why": "Kept as a compact label of her own."
+     },
+     {
+      "id": "E6a",
+      "answer": "partly",
+      "quote": "якось аж завзято",
+      "why": "'завзято' gives spirited gusto, but more vigour than a showy, dashing flourish."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 17,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "до темної кімнатки",
+      "why": "Dark, and the diminutive makes it small, like 'темних кімнаток' in block 4."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "схожої на шафу",
+      "why": "'шафа' is the same word as 'із шаф' in block 4."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "на червону пухову ковдру",
+      "why": "The same 'червоної пухової ковдри' as in block 0."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "розстебнула горжетку",
+      "why": "'горжетка' is a fur neck-piece, not jewellery."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "швидко, не дивлячись, поклала її всередину",
+      "why": "The putting-in has its own 'швидко'."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "не дивлячись",
+      "why": "Not looking is kept."
+     },
+     {
+      "id": "E5c",
+      "answer": "yes",
+      "quote": "поклала її всередину",
+      "why": "Placed, not thrown."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "їй здалося, що вона чує",
+      "why": "Marked as seeming."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "як щось плаче",
+      "why": "The same unnamed 'щось' as in blocks 0 and 9."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "щось плаче",
+      "why": "'плаче' is weeping."
+     },
+     {
+      "id": "E8b",
+      "answer": "yes",
+      "quote": "коли вона накривала коробку кришкою, їй здалося, що вона чує, як щось плаче",
+      "why": "No location moves the crying away from her and the box."
+     },
+     {
+      "id": "E8c",
+      "answer": "yes",
+      "quote": "як щось плаче",
+      "why": "Nothing settles whose crying it is."
+     }
+    ],
+    "other": []
+   }
+  ]
+ }
+}

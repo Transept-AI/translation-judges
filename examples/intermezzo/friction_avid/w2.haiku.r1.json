@@ -1,0 +1,68 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1406,
+  "cache_read_input_tokens": 577,
+  "output_tokens": 979
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "At last we are home. The white walls of the house bring my senses back. As soon as the carriage rolled onto the wide green yard",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "submerged at the bottom of the black darkness",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "the creak of the floor under their weight",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "drown myself in the black darkness",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "How good it would be to become “nothing,” voiceless, unmoving calm.",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "the soft horsehair mattresses of the furniture",
+    "kind": "unnatural",
+    "weight": 2
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "there was so much sky that my eyes drowned in it as in a sea and searched for something to catch hold of",
+    "why": "vivid, dizzying arrival"
+   },
+   {
+    "quote": "It was so quiet that I felt ashamed of the pounding of my own heart.",
+    "why": "precise, intimate detail"
+   },
+   {
+    "quote": "Ten black rooms, filled with darkness to the brim.",
+    "why": "strong, compact image"
+   },
+   {
+    "quote": "everything would suddenly leap back into its place: chairs, sofas, windows, even the cornices",
+    "why": "lively, slightly uncanny"
+   },
+   {
+    "quote": "all those who left their faces in mirrors, their voices in cracks and corners",
+    "why": "haunting, beautifully patterned"
+   }
+  ]
+ }
+}

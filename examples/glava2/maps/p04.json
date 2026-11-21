@@ -1,0 +1,178 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3321,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 77669
+ },
+ "result": {
+  "reading": "Block 3 has just established that curators hold near-unlimited power and rule on whether students are worthy of the fifth circle. This paragraph turns to the gossip about how Agnes got that post, climbing from one plain fact (she lacks even a fifth-circle diploma) through hearsay about unfinished service to rumoured orgies in the rector's office joined by Senators and gods, then swinging onto Anna, who knows every version in minute detail. Block 5 opens by explaining that obsession (Agnes outrages her), and block 6 reverses it: Anna does not even know Agnes is her strongest ally. Agnes's missing fifth-circle diploma also prefigures Theodore's fear in block 20 of washing out before that same circle.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "construction",
+    "source": "І ходило дуже, дуже багато соковитих чуток про те, як Агнес — усіляко негідна — отримала цю важливу кураторську роль.",
+    "where": "The opening sentence: the abundance of juicy rumours about how Agnes, judged unworthy, came to hold the curator post.",
+    "what": "The sentence announces a flood of salacious gossip about how Agnes got her post, with the gossips' verdict on her tucked inside. Ukrainian builds it impersonally: a verb of motion in the neuter singular, the rumours trailing after it in the genitive, the topic hung on a demonstrative-plus-clause hinge, and an adjective phrase about Agnes set between dashes. A close rendering gives English an existential or motion frame with the rumours stranded at the end, a stiff hinge, an aside with its modifier first, and a verb for obtaining a post that no one uses. This sentence launches the paragraph's comedy and should sound like a narrator enjoying a scandal.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "At the opening sentence about the many juicy rumours on how Agnes came to hold the curator post, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated. Signs: the rumours are the subject of a literal verb of walking or going, or are stranded after an existential opener; a clumsy hinge links the rumours to how she got the post; the aside on Agnes is in foreign word order; or the verb for obtaining the post is unidiomatic."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "дуже, дуже багато",
+    "where": "Where the narrator says how many rumours there were about how Agnes got the post.",
+    "what": "The doubled intensifier is the breathless voice of gossip itself. Before a single rumour is told, the reader knows the rumour mill is in overdrive and that the narrator enjoys it, which prepares the escalating list that follows. One neutral quantifier turns this into a sober report.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the number of rumours given more than ordinary emphasis, through doubling or repetition, stacked intensifiers, or hyperbole?",
+      "fail": "A single quantifier, plain or with one intensifier, and nothing more (e.g. many, a lot of, plenty of, numerous, a great many, very many, so many)."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "усіляко негідна",
+    "where": "The aside in the opening sentence where the gossip passes its verdict on Agnes herself.",
+    "what": "Block 3 used this same root for the curators' verdict on whether a student merits moving up to the fifth circle. Here the gossip turns it, negated, on Agnes, so a reader of the original hears the judge of merit being judged and found wanting. The adverb of totality announces the list of respects that follows: no diploma, no completed service, the orgies. If the word shifts to bare qualification, suitability or moral disgust, it no longer answers block 3.",
+    "risk": "medium",
+    "recurs_in": [
+     3
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is Agnes's unfitness framed in terms of worth or desert (not being worthy of the post, or not deserving it), the notion behind the curators' verdict on students in block 3?",
+      "fail": "The aside speaks only of qualification, suitability, entitlement or morals (e.g. unqualified, unsuitable, unfit, disreputable, shameless), with no notion of being worthy or deserving."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "Будучи бойовою магесою, ветеранкою, Агнес не мала диплома навіть п'ятого кола — а за чутками, і свої десять років як бойова магеса не відслужила.",
+    "where": "The sentence on Agnes's record: a veteran battle mage with no diploma even from the Academy's fifth stage, who, rumour adds, never completed her ten years of service.",
+    "what": "The sentence sets Agnes's background as a seasoned battle mage against her lacking even a fifth-stage diploma, then adds the rumour that she never finished her service. Ukrainian opens on an adverbial participle of the verb 'to be' with two nouns in apposition and puts the scalar particle inside a genitive chain after the diploma. It then attaches the rumour with a dash, a conjunction, an evidential phrase and a second particle. A close rendering gives a dangling participial opener, a bare list of nouns, foreign order around the diploma and its stage, and a clause tacked on with stacked connectives. This is the paragraph's factual pivot, and it must read cleanly for the escalation to build.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At the sentence about Agnes being a veteran battle mage without even a fifth-stage diploma and rumoured never to have finished her ten years of service, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated. Signs: an opener built on a bare 'being' participle with nouns stacked in apposition; the diploma and its stage in foreign order; or the rumour clause tacked on with piled-up connectives."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "link",
+    "source": "навіть п'ятого кола … і свої десять років",
+    "where": "Where she is said to lack a diploma from the Academy's fifth stage, and where the rumour about her ten years of service is added.",
+    "what": "Two scalar particles build the case against her. The first makes the fifth-circle diploma the bare minimum. It is the very level that, per block 3, curators decide whether students may enter, and she lacks even that; block 20 measures Theodore's feared fate against the same minimum. The second particle makes the service rumour a further step down, removing even the long service that her veteran status implies. Without these particles the sentence reads as a neutral record, and the climb towards the orgy rumours loses its first steps.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the fifth-stage diploma marked as the least one could expect of her (she lacks even that), not merely stated as a diploma she does not hold?",
+      "fail": "The missing diploma is stated with no marker that it is a minimum."
+     },
+     {
+      "id": "E5b",
+      "ask": "Is the rumour about her service marked as a further failing on top of the missing diploma?",
+      "fail": "It is joined by a bare 'and' or by nothing, with no word marking it as an additional or worse point."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "link",
+    "source": "а за чутками",
+    "where": "Where the sentence moves from her missing diploma to her unfinished ten years of service.",
+    "what": "The sentence divides fact from hearsay. The missing diploma is stated plainly by the narrator, and the unserved ten years is explicitly gossip. The paragraph then slides from that one hard fact into ever wilder rumour, and a reader of the original sees exactly where solid ground ends. Without the hearsay marker the narrator vouches for a slander; if the marker is spread over the whole sentence, the one solid fact dissolves.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the claim that she did not serve out her ten years attributed to rumour or hearsay?",
+      "fail": "It is stated as plain fact."
+     },
+     {
+      "id": "E6b",
+      "ask": "Is her lack of a fifth-stage diploma stated as fact, outside the hearsay attribution?",
+      "fail": "The hearsay attribution is placed so that it also covers the diploma."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "link",
+    "source": "свої десять років як бойова магеса не відслужила",
+    "where": "Where the rumour says what she failed to do with her ten years as a battle mage.",
+    "what": "The reflexive possessive and the completive verb make the ten years a fixed term she owed as a battle mage. The rumour is that she never served it out, which undercuts the veteran status the same sentence has just given her. A loose rendering turns this into a bare duration with no obligation, or even into time elapsed since she last served, and the attack on her credentials is lost or garbled.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the point that she fell short of completing the ten years of service, rather than that ten years have passed since she last served?",
+      "fail": "The wording says or allows that she has been out of service for ten years, or that she served ten years ago."
+     },
+     {
+      "id": "E7b",
+      "ask": "Are the ten years presented as a fixed term she was obliged to serve, not just a length of time?",
+      "fail": "A bare ten years with nothing marking them as her required or owed term."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "hinge",
+    "source": "в ректораті",
+    "where": "Where the first three versions of the rumour place the three-day orgy.",
+    "what": "The word names the offices of the Academy's head, its seat of power. That is the insinuation: she got the post by sleeping with the leadership. A near-identical English word names a clergyman's residence, which moves the scandal into a parish and loses the point. A lower office loses the sting of reaching the very top.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Is the orgy set in the offices of the Academy's head (its rector or top administration)?",
+      "fail": "A clergy residence, a lower office such as a dean's, an unspecified building, or no location at all."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "hinge",
+    "source": "Ще у двох",
+    "where": "Where members of the Senate and lesser deities join the orgy.",
+    "what": "These are two further versions on top of the three just counted. The gossip keeps multiplying as it escalates: five orgy stories in all, the wildest two bringing in senators and gods. Read as a subset of the three, the tally stops growing and the rumour mill looks smaller than it is.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Are the versions in which senators and gods join presented as additional to the three, not as two of them?",
+      "fail": "They are framed as a subset of the three, or the wording leaves it possible that they are among the three."
+     }
+    ]
+   }
+  ]
+ }
+}

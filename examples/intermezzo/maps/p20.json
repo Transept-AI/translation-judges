@@ -1,0 +1,270 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5423,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 94728
+ },
+ "result": {
+  "reading": "Woken by the cuckoo into a yard of green silence (19), the narrator runs out and meets the one noise left: big sheepdogs raging on iron chains. He shrank from people (1–3, 17–18), but he does not shrink from this creature that could bite him. He coaxes it, reads its fury as fear and hatred aimed at the chain, and has it set free. The paragraph works through unstated parallels: the iron that holds the dog is the iron of the world that held him (2, 9), the blood it could draw is nothing beside what people and horror have drained from him (2, 17), and the release he grants is the one he longed for himself (0, 9); it ends in comic deflation, as the freed dog bolts blind and oblivious and the man who begged to be alone is piqued at being forgotten, a first sign of his turning back toward living company.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "бряжчать залізні цепи",
+    "where": "the clanking that greets him as he runs into the yard",
+    "what": "The chains are expressly iron, and their clank is the first sound to break the silence he has just woken to. Iron has stood for the man-made world he fled. People have clad the earth in stone and iron (2), and the city seemed to reach after his train with an iron hand whose iron fingers might not let him go (9). The dog is held by the same metal that held him, and in this paragraph he has it freed. The chain's material is what lets a reader hear the parallel.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     9
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Are the dogs' chains said to be made of iron?",
+      "fail": "The chains appear without their metal, or are given a different material."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "люто ґвалтують собаки",
+    "where": "what the dogs are doing when he reaches the yard, alongside the clanking chains",
+    "what": "In the colloquial usage of the author's day this verb is formed from the noun for an outcry or cry of alarm. Here it names the dogs' furious noise, the second half of the sound picture with the chains. In today's standard language its dominant sense is sexual assault, and that is the sense a dictionary or a machine offers first. Read that way, the scene opens on something grotesque, and the noise that shatters the morning silence is gone.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Do the dogs make a furious noise here, a vocal uproar, with no hint of sexual violence or assault?",
+      "fail": "Any sexual or violating sense; the dogs are said to attack, maul or assault something; or no sound at all is attributed to the dogs."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "і скаче на них довга кудлата вовна / Скачуть червоні очі, скаче широкий лоб і білі футряні ногавиці / і летять навздогін за нею збиті на задку кудли",
+    "where": "the picture of the chained dogs leaping (first their wool, then their eyes, forehead and legs), and the last image of the freed dog's fur as it runs",
+    "what": "The dogs are drawn not as whole animals but as a tumble of parts that move on their own. The wool is given a leaping of its own on top of the dogs' leaping, as if it were a separate creature riding them. Then the eyes, the forehead and the furred legs are each made the subject of the same leaping. At the end, the fur on the freed dog's hindquarters is sent flying after it as though in pursuit, and the very next line has the narrator asking about himself, the one left behind. The effect is his half-amused, impressionist eye turning frightening animals into a comic jumble of bouncing fur.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the dogs' long shaggy wool itself said to jump, bounce or toss on them, so that the motion belongs to the wool?",
+      "fail": "The wool is only an attribute of the dogs, with no movement of its own."
+     },
+     {
+      "id": "E3b",
+      "ask": "Are the red eyes, the broad forehead and the fur of the legs each presented as jumping or bouncing, with bodily motion given to the parts themselves?",
+      "fail": "The parts are listed as features of a jumping dog, one of them gets a verb that is not bodily motion (glowing, flashing, glaring), or one of the three is missing."
+     },
+     {
+      "id": "E3c",
+      "ask": "In the last image of the running dog, does the fur on its hindquarters fly after it as if chasing it or trying to catch up?",
+      "fail": "The fur only streams, trails, flaps or waves behind, or the image is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "Ну, чого ти, собако… / Ну, чого ж ти, Оверко.",
+    "where": "his first words to the raging dog, just before he asks its name, and his later appeal to it as Overko, just before asking why its eyes burn",
+    "what": "In this colloquial use the question word asks for the cause of a state, not for identity. He is calming the dog, asking about the cause of its agitation, as one speaks to a frightened animal. Taken word for word, it can come out as a question about what the dog is. That jars with the very next question, about its name, and turns the coaxing into nonsense.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "In both appeals, first to the dog and then to it as Overko, is he asking what is wrong with it or why it carries on so, rather than what it is?",
+      "fail": "Either appeal asks what the dog is, or loses the sense of asking the cause of its agitation."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "hinge",
+    "source": "білі футряні ногавиці",
+    "where": "the end of the list of the leaping dog's parts: the white fur on its legs",
+    "what": "The noun names an item of clothing worn on the legs, and the adjective is the one used for fur garments. Together they show the long white fur hanging on the dog's legs as clothing it wears, a comic, homely touch at the end of the list of leaping parts. Because the noun is built on the word for a leg, a hurried reader takes it for the legs themselves, and the clothing image vanishes.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the white fur on the dog's legs pictured as something it wears, a garment for the legs, rather than simply as legs, paws or fur?",
+      "fail": "Only legs, paws, feet or fur are named, with no clothing image."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "Рветься й не може вискочить зовсім зубата лють з глибокої пащі і лиш підкида копицею вовни.",
+    "where": "the sentence in which the dog's fury tries to burst out of its open jaws",
+    "what": "The subject is the fury itself, given teeth, as though a second animal were trapped inside the dog. The reflexive verb is the one for straining or lunging to break loose. In other contexts it means being torn, and a fast reader may take it that way. The fury pushes to get out through the deep jaws, never gets clear, and achieves nothing but a jolt of the dog's own woolly bulk. The image prepares his later remark that the chain chokes the throat and forces the rage back inside.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the dog's fury strain or lunge to break out through its jaws and fail to get fully free, rather than being torn, ripped or broken?",
+      "fail": "The fury is torn, ripped or broken apart, or the failed effort to escape is lost."
+     },
+     {
+      "id": "E6b",
+      "ask": "Does that effort end only in a jolt or toss of the dog's own mass of wool, with the wool staying on the dog?",
+      "fail": "Wool comes off the dog in any way (flung, spat or brought up, torn away), or this result is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "construction",
+    "source": "Рветься й не може вискочить зовсім зубата лють з глибокої пащі і лиш підкида копицею вовни.",
+    "where": "the sentence in which the dog's fury tries to burst out of its open jaws",
+    "what": "The original opens on two verbs and holds back its subject, an abstract fury that has teeth. It then ends on the dog's wool in an instrumental case for which English has no ready shape. Throughout, an abstraction acts on a body. A close rendering stacks verbs before a late abstract subject, slips into a passive, or attaches the wool with an awkward phrase, and reads as translated.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The sentence keeps verbs ahead of a late abstract subject, falls into a stiff passive, attaches the tossed wool with an awkward phrase, or otherwise reads as a word-for-word calque a native editor would recast."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "hinge",
+    "source": "Чого горять твої червоні очі і стоплюють у вогні разом страх і зненависть?",
+    "where": "his question about why the dog's red eyes burn and what their fire does with its feelings",
+    "what": "The verb is a rare one from metalwork, for melting things down and fusing them in a fire. The burning eyes become a furnace in which fear and hatred are made into one substance. This is the narrator's reading of the rage, and his next sentence answers it feeling by feeling: hostility with a denial of enmity, fear with a denial of fear. The verb resembles the international word for stopping and a native verb for trampling, and a fast reader may guess either.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Are fear and hatred merged into one in the fire of the dog's burning eyes, the way metals are melted down together?",
+      "fail": "The verb is read as stopping, stamping, trampling, quenching, drowning or hiding; the two feelings merely burn or show side by side without merging; or either feeling is missing."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "motif",
+    "source": "або вточити крови з моєї литки",
+    "where": "where he tells the dog the worst it could do to him",
+    "what": "He names the worst the dog could do to him, a torn piece of flesh or a wound to the calf that costs him some blood, and calls it a trifle. The blood ties the line to his complaint that people want to suck all his blood like a vampire (2). It also ties it to his confession that horror has drained him white and left him not a drop of hot blood (17). What a dog could draw is nothing beside what people have taken. If the blood becomes a mere bite, the link and the point of the trifle go.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Does the worst the dog could do to him explicitly involve his blood, drawing or spilling some of it or making him bleed?",
+      "fail": "Only a bite, nip, wound or torn leg is mentioned, with no blood or bleeding."
+     }
+    ]
+   },
+   {
+    "id": "E10",
+    "type": "hinge",
+    "source": "Може, ти більше на нього сердитий, аніж на мене… / вганяє назад у нього твою вогняну злість",
+    "where": "where he realises the chain is to blame: the dog's anger aimed at it, and the chain choking the dog's throat",
+    "what": "Two identical masculine pronouns point to different things. The first refers to the chain: he guesses that the dog's anger is directed more at the chain than at him. This is the moment he stops seeing himself as its target and sees a fellow captive. The second comes right after the throat is named and refers to it: the chain throttles the dog and forces its fiery rage back down inside, the rage that a moment earlier could not get out through the jaws. Rendered as a masculine personal pronoun, either one becomes an unexplained man, and the second is easily sent back into the chain.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E10a",
+      "ask": "Is it clear that the dog's anger may be aimed more at the chain than at the narrator?",
+      "fail": "The target of the anger reads as a male person or is unclear, or the comparison with the narrator is reversed or lost."
+     },
+     {
+      "id": "E10b",
+      "ask": "Does the chain force the dog's rage back down into its own throat or body?",
+      "fail": "The rage is driven back into the chain, at the narrator, or into an unidentified male person, or the image of it being forced back inside is lost."
+     }
+    ]
+   },
+   {
+    "id": "E11",
+    "type": "hinge",
+    "source": "поки скинуть з тебе ланцюг",
+    "where": "just before the release, as he tells the dog to stand still",
+    "what": "The verb is third person plural with no subject. Someone else, left unnamed, takes the chain off while he keeps the dog still with words. English wants a subject, and the easiest one to supply is the speaker. That makes him the hands-on liberator and changes who does what.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E11a",
+      "ask": "Is the chain taken off by someone other than the narrator, or by an unnamed agent, rather than by the narrator himself?",
+      "fail": "The narrator says that he himself removes the chain."
+     }
+    ]
+   },
+   {
+    "id": "E12",
+    "type": "double",
+    "source": "і без пам'яти мчиться наосліп",
+    "where": "the freed dog's blind run, after it shuts its eyes and turns its head aside",
+    "what": "In everyday use the idiom describes reckless, frantic abandon. Its literal words speak of being without memory, even without consciousness. Next to the shut eyes and the blind run, it shows a creature so drunk on freedom that it knows nothing around it. The paragraph's last word, asking whether the dog has forgotten him, answers that literal sense: a creature running without memory forgets. If the phrase becomes mere speed or frenzy, the closing joke loses its setup.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E12a",
+      "ask": "Does the description of the freed dog's run convey frantic, reckless abandon, not just speed or blindness?",
+      "fail": "The run is only fast, hurried or blind."
+     },
+     {
+      "id": "E12b",
+      "ask": "Does the description of the run also say that the dog has lost awareness or memory of everything around it, through oblivion or forgetting all, so that the closing question about forgetting has something to answer?",
+      "fail": "Nothing in the description of the run concerns memory, awareness or forgetting; frenzy, speed or blindness alone does not count."
+     },
+     {
+      "id": "E12c",
+      "ask": "Do the frenzy and the oblivion sit together in the phrase that says how the dog runs, rather than the oblivion being added in a separate sentence or remark?",
+      "fail": "The loss of awareness appears only in a separate sentence or remark, or is absent."
+     }
+    ]
+   },
+   {
+    "id": "E13",
+    "type": "hinge",
+    "source": "От дурна псина. Очі заплющила, голову вбік, взяла разом ногами / Ну, а я ж? — як? забула?",
+    "where": "from his laughing remark about the silly animal to the paragraph's last word",
+    "what": "The feminine endings in these closing sentences agree with the feminine noun he has just used for the dog, a fond, mocking colloquial word for a big hound. They do not make the animal female. It is still Overko, spoken to as male a moment earlier. The last verb, also feminine, therefore has the dog as its subject. It is the dog that has forgotten him, the man it was raging at a minute ago, and that is the whole joke.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E13a",
+      "ask": "Is the dog that runs off referred to as he or it, the same animal addressed as Overko, and never as she or her?",
+      "fail": "Any feminine pronoun for the dog in these sentences, or wording suggesting that a different, female dog has run off."
+     },
+     {
+      "id": "E13b",
+      "ask": "In the last line, is it the dog that has forgotten the narrator?",
+      "fail": "The narrator is the one who forgot, the line asks what he forgot, or what is forgotten is something other than him."
+     }
+    ]
+   },
+   {
+    "id": "E14",
+    "type": "construction",
+    "source": "Ну, а я ж? — як? забула?",
+    "where": "the paragraph's last line, his reaction to being left behind",
+    "what": "The line is three clipped spoken fragments. The first is a bare first-person pronoun with an emphatic particle, asking about himself. The second is an interjection of indignant surprise that is, word for word, the question word for manner. The third is a verb with no subject. None has a word-for-word English counterpart. Carried over literally, they give a stilted line, or an interjection that reads as a real question about manner, where the original is quick, amused mock-offence.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E14a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The interjection comes out as a genuine question about manner, the fragments do not parse as natural speech, or the particles are rendered as filler a native writer would not use."
+     }
+    ]
+   }
+  ]
+ }
+}

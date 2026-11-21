@@ -1,0 +1,138 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4944,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 68198
+ },
+ "result": {
+  "reading": "Block 6 answers block 4's question and block 5's longing: the nights he waited for brought sleep, but sleep was no refuge, because people invaded his dreams too. Partway through, the paragraph breaks from narration into a direct outburst at the dream intruder. This replays in small block 2's address to humankind, which dumps its sufferings and filth into his heart, and block 7 then names it as the pattern of every night. The same invasion returns in blocks 17–18, where those who stored their sufferings in his heart come out of the dark and shout into his ears; the closing plea for peace looks back to the peace he wants let into the house in block 3 and ahead to the motionless peace he imagines in block 15.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "люди і там чигали на мене … Ти й тут несеш до мене свої страждання?",
+    "where": "where people are after him in his sleep as well, and where he asks the intruder whether they bring their sufferings to him even in this place",
+    "what": "Two small additive particles carry the paragraph's logic: sleep, the refuge he longed for at night, is invaded too. In the narration the particle marks the realm of sleep as one more place where people reach him. In the outburst it marks the place of the dream itself. He is protesting that suffering follows him even into this refuge, not that this person, like others before, brings him suffering.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "In the sentence where sleep, the brother of death, takes him away, are the people said to reach him there as well (too, also, even), so that sleep is one more place where they are after him?",
+      "fail": "Nothing marks sleep as a further place they reach him: no too, also, as well or even goes with 'there'."
+     },
+     {
+      "id": "E1b",
+      "ask": "In his question to the intruder, does the 'even' or 'too' attach to the place (here, this place), not to the person addressed?",
+      "fail": "It attaches to the person ('you too…', 'you also…', 'you as well…', meaning this person like others), or there is no additive at all, so the point that suffering follows him even here is lost."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "device",
+    "source": "чигали на мене … сплітали своє існування з моїм в химерну сітку",
+    "where": "where people are after him in his sleep and weave their existence together with his",
+    "what": "The verb is the one used for an ambusher, or for a beast watching for prey. What they then weave is a thing made for catching. Together the two make a trap set for him, with his existence caught up in theirs. The picture continues block 2's predatory humankind, the vampire sucking his blood. It also continues the captivity that runs through the story, from the city's iron hand that will not let go in block 9 to the chained dog of block 20.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the people's waiting for him predatory (lurking, lying in ambush, watching for him as for prey) rather than ordinary waiting?",
+      "fail": "Ordinary waiting or meeting: 'waited for me', 'were waiting for me', 'awaited me', 'expected me', 'met me', 'were there'."
+     },
+     {
+      "id": "E2b",
+      "ask": "Is what they weave a thing made for catching, such as a net, web, mesh or snare?",
+      "fail": "A woven thing that does not catch (pattern, tapestry, fabric, cloth, design, lace, braid), an abstract or loose word (network, mixture, tangle, knot), or no woven object at all."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "химерну",
+    "where": "the word describing the thing people weave out of their existence and his",
+    "what": "The adjective gives the woven thing the strangeness and unreality of a dream that is turning into a nightmare. Its dictionary range also takes in a light, playful, capricious sense and a merely ornamental one. If the word is taken in that sense, the trap becomes quaint or pretty instead of uncanny, which goes against the dread of the whole passage.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the woven thing described as strange or unreal, the way things are in a dream (odd, bizarre, weird, fantastic and the like), rather than as playful, quaint, decorative or merely complex?",
+      "fail": "A playful, quaint, decorative or merely complex word (whimsical, quirky, playful, capricious, fanciful, fancy, quaint, intricate, elaborate, ornate), or no such adjective at all."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "намагались налити мої вуха та моє серце тим, чим самі були повні",
+    "where": "where the people try to fill his ears and heart with what they themselves are full of",
+    "what": "The spot says that the people try to make his ears and heart take in the very stuff that fills them. Ukrainian lets the pouring verb take the containers, ears and heart, as its object, and names the contents in a compact two-pronoun correlative clause. English pours the contents, not the container, and has no light correlative of that kind. A close rendering therefore comes out either with the ears as the object of a pouring verb or as a stiff relative clause with a preposition up front.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The ears or heart are the direct object of a pouring verb ('pour my ears'); or the contents come in a stiff correlative such as 'with that with which…', 'that of which they were full' or 'with that, what…'; or there is another word-for-word shape a native writer would not produce."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "device",
+    "source": "свої страждання? Своє мерзенство?",
+    "where": "his question about what the intruder brings him even here: first their suffering, then something worse",
+    "what": "He first names what could claim his pity, the intruder's suffering. Then, as a curt afterthought, he names what is morally repulsive in them, which can only disgust. The step from pity to revulsion is the last straw before he declares his heart full. It replays in small the ladder of block 2, where sufferings and pains give way to cruelty, bestial instincts and filth.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is a second, separate thing named after the suffering: something morally repulsive in the intruder?",
+      "fail": "Only the suffering is named; or the repulsiveness is folded into it as a mere adjective ('your vile sufferings'); or it is made the narrator's own."
+     },
+     {
+      "id": "E5b",
+      "ask": "Is that second thing named by a word whose core meaning is moral corruption or loathsomeness, clearly worse than suffering?",
+      "fail": "A word of mere unpleasantness, trouble or triviality: troubles, problems, mess, nonsense, pettiness, meanness, nastiness, unpleasantness, ugliness."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "double",
+    "source": "Дай мені спокій…",
+    "where": "the plea that closes the paragraph, addressed to the intruder after he says his heart is full",
+    "what": "The phrase is the everyday brush-off to someone who keeps pestering, yet its words literally ask for peace, the one thing the narrator craves throughout. That craving appears as block 0's longing to rest, as the peace he wants let into the house in block 3, and as the motionless peace of becoming nothing that he imagines in block 15. Said inside the sleep that was meant to bring that peace, the brush-off is also a cry for it.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the closing line a dismissal addressed to the intruder, telling them to stop and leave him?",
+      "fail": "A prayer or general wish not addressed to the intruder: to God, to fate, or a statement such as 'I want peace'."
+     },
+     {
+      "id": "E6b",
+      "ask": "Does the closing plea name peace, rest, calm or quiet, the state he longs for?",
+      "fail": "Only a brush-off with no such word: 'leave me alone', 'let me be', 'go away', 'stop it', 'enough'."
+     },
+     {
+      "id": "E6c",
+      "ask": "Do the dismissal and the peace sit in one expression, so that the brush-off is itself the request for peace?",
+      "fail": "They are split into separate phrases or sentences (a brush-off followed by a separate wish for peace), or one of them is missing."
+     }
+    ]
+   }
+  ]
+ }
+}

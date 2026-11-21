@@ -1,0 +1,76 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1838,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 495
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "How I used to long for them at times!",
+    "why": "ambiguous 'them', jarring"
+   },
+   {
+    "quote": "people lay in wait for me there too",
+    "why": "slightly awkward"
+   },
+   {
+    "quote": "so simply and unnoticed",
+    "why": "clunky adverb/adjective mix"
+   },
+   {
+    "quote": "Where are you going?..",
+    "why": "odd punctuation"
+   },
+   {
+    "quote": "the iron hand clack its bones in vain",
+    "why": "strained image"
+   },
+   {
+    "quote": "And when all this had come to pass",
+    "why": "stiff, biblical"
+   }
+  ],
+  "good": [
+   {
+    "quote": "I am sick of being an inn where those creatures forever jostle, shout, bustle and drop their litter.",
+    "why": "vivid metaphor"
+   },
+   {
+    "quote": "Throw out the litterers along with the litter.",
+    "why": "punchy, witty"
+   },
+   {
+    "quote": "that beautiful brother of death",
+    "why": "lovely image of sleep"
+   },
+   {
+    "quote": "They wove their existence into mine in a fantastic net",
+    "why": "evocative"
+   },
+   {
+    "quote": "roaring torrents of human life that raced toward me like wild horses",
+    "why": "energetic"
+   },
+   {
+    "quote": "like splinters and straw on spring floodwaters",
+    "why": "fresh simile"
+   },
+   {
+    "quote": "clickety-clack-clack",
+    "why": "rhythmic, immersive"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

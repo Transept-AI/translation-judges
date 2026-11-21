@@ -1,0 +1,135 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3743,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 66009
+ },
+ "result": {
+  "reading": "This is the closing beat of the trolling episode. The core audience rallied in block 22 beats the haters by paying rather than through moderators (block 21), repeating at higher prices the image of block 14, where costlier questions flushed the cheap provocations away, until anything at the trolls' five-dollar level (blocks 13, 22) no longer reaches the screen. The quoted fan messages climb to a hashtag that makes Freya a sexual orientation, an ironic echo of the 'collective Tinder date' she wanted to avoid (blocks 9, 15), and the last sentence pays off the scene's professional smiles (blocks 18, 21) and her self-image as a 'serious woman' (block 23): only as the money pours in does she smile for real, and that is the satirical sting.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "коментарі гейтерів змивало повідомленнями",
+    "where": "the opening sentence, where paid fan messages clear the haters' comments out of the chat while Freya watches",
+    "what": "The verb is the one used for water carrying something off. It is the very verb of block 14, where a flow of costlier questions sent the cheap provocations into the toilet bowl. A reader of the original hears the same mechanism come back at a higher price: the chat cleans itself with money, and no moderator is needed (block 21). That repeated image is what makes the sentence a callback rather than a fresh observation.",
+    "risk": "medium",
+    "recurs_in": [
+     14
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the removal of the haters' comments pictured as their being carried off by water (washing, flushing, a flood or torrent sweeping them off), recognisably the same image the translation uses for the cheap provocations at block 14?",
+      "fail": "The comments are drowned out (a sound image), buried, pushed down, crowded out, replaced, outnumbered or simply vanish, or the image chosen here does not recall the one at block 14."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "коментарі гейтерів змивало повідомленнями за двадцять і п'ятдесят доларів",
+    "where": "the opening sentence, where the haters' comments give way to paid fan messages at two price levels, just before the quoted messages",
+    "what": "The spot says that, as Freya watches, the haters' comments are cleared away by messages fans paid twenty or fifty dollars to post. Ukrainian builds this with an impersonal verb: the comments are the object, the paid messages stand in the instrumental case as the force doing the work, and each message carries its price through a preposition plus a sum. English has neither the impersonal frame nor that price tag. A close rendering therefore yields a heavy passive and a money phrase an English reader trips over, in a sentence that should move as fast as the chat.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated: a stiff, heavy passive, or a phrase attaching the sums to the messages that no English writer would use, or that leaves it unclear that fans paid those sums to post them."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "double",
+    "source": "#Аксельсенсексуали!",
+    "where": "the last of the three quoted fan messages, the hashtag",
+    "what": "A fan coinage that welds Freya's surname onto the ending of the words that name sexual orientations: her fans declare her their orientation. It caps the three messages (a cheer, a declaration of love, then this). It also gives an ironic twist to the 'collective Tinder date' Freya wanted to keep the stream from becoming (blocks 9, 15): the fans' desire is now on open display, and it pays. The joke works only if her name and the orientation label are both readable inside one invented word.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is Freya's name recognisable inside the hashtag?",
+      "fail": "Her name is absent, or spelled so differently from elsewhere in the translation that a reader would not connect it with her."
+     },
+     {
+      "id": "E3b",
+      "ask": "Does the hashtag present the fans as people sexually oriented towards her, on the model of names for sexual orientations?",
+      "fail": "It becomes an ordinary fandom tag (fans, team, army, lovers, love), or it keeps a transliterated Ukrainian ending in which an English reader cannot recognise the orientation word."
+     },
+     {
+      "id": "E3c",
+      "ask": "Are her name and the orientation label fused in one coined word?",
+      "fail": "The play is explained (a phrase or gloss saying the fans are attracted to her), or the two parts stand as separate ordinary words rather than one coined label."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "Ставки стрімко зростали",
+    "where": "the clause saying that something climbed fast, which leads into small donations no longer showing on screen",
+    "what": "The noun covers several senses: sums wagered in a game or offered at an auction, rates such as interest or tariff rates, and the figurative sense of what hangs on an outcome. Here it is the money. Fans outbid one another to get their messages seen, and that bidding war is why, in the same sentence, anything cheap no longer gets through. Read as rising tension or risk, or as some rate, the cause and its effect come apart.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Does the translation make clear that what climbed was the amount fans were paying per message?",
+      "fail": "It speaks of tension, excitement, risk, importance, rates or viewer numbers rising, or it uses the figurative idea of what is at stake with nothing in the sentence tying it to the sums being paid."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "link",
+    "source": "навіть не з'являлися на екрані",
+    "where": "where donations under ten dollars no longer show on the screen",
+    "what": "The particle marks the top of the escalation: the point at which cheap messages are no longer just outranked but absent from the screen. That cut-off sits above the five-dollar level of the trolls' lunch money (block 22) and of the minimum donation (block 13), so the haters are priced out of sight. The comic exaggeration sets up the closing smile.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is there a marker that small donations did not appear at all, as the extreme point of the escalation, rather than a plain statement that they were not shown?",
+      "fail": "The clause only says that small donations were not shown, stopped appearing or disappeared, with no intensifier marking this as extreme."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "device",
+    "source": "Нарешті дівчина щиро всміхнулася.",
+    "where": "the closing sentence, Freya's smile after the donations climb",
+    "what": "A callback that names nothing. All through the scene Freya smiles as a professional: on cue in the middle of her joke about men (block 18), and steadily while the trolls swarm the chat (block 21). By marking this smile as long awaited, and as real feeling rather than performance, the narrator tells the reader that the earlier smiles were put on. Coming straight after the climbing sums and the vanishing small donations, it also shows, without saying so, what finally moves the 'serious woman' of block 23 to real feeling: the money. That unspoken link is the satirical sting that closes the scene.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is her smile marked as coming at last, after a wait?",
+      "fail": "Nothing signals that it was long in coming; the smile is simply reported."
+     },
+     {
+      "id": "E6b",
+      "ask": "Is the smile marked as genuine, meaning real feeling as opposed to a put-on smile?",
+      "fail": "It is only called broad, warm, happy, bright or wide, or it is not qualified at all, so nothing sets it against her earlier performed smiles."
+     },
+     {
+      "id": "E6c",
+      "ask": "Is the smile left without a stated cause, so that it follows directly on the rising sums?",
+      "fail": "The translation adds a reason the original leaves unsaid, such as her fans' love, relief at beating the trolls, or the approaching record."
+     }
+    ]
+   }
+  ]
+ }
+}

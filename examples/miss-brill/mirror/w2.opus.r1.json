@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2194,
+  "cache_read_input_tokens": 563,
+  "output_tokens": 707
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "горностаєвий ток обернулася",
+    "why": "gender mismatch jars"
+   },
+   {
+    "quote": "зустрілися горностаєвий ток і джентльмен у сірому",
+    "why": "toque metonymy unclear at first"
+   },
+   {
+    "quote": "Нічого, завжди можна дивитися на юрбу.",
+    "why": "abrupt, slightly flat"
+   },
+   {
+    "quote": "а крізь них лише смужка моря, а далі",
+    "why": "repetitive а-chain"
+   },
+   {
+    "quote": "і такий кумедний дідок",
+    "why": "\"такий\" awkward calque"
+   },
+   {
+    "quote": "в почищеній рукавичці",
+    "why": "slightly clumsy word choice"
+   }
+  ],
+  "good": [
+   {
+    "quote": "вигойдувалося з-під дерев на відкрите місце",
+    "why": "vivid toddler motion"
+   },
+   {
+    "quote": "раптово сідало — «гуп!»",
+    "why": "playful, lively"
+   },
+   {
+    "quote": "що ступала високо, мов молода курочка",
+    "why": "charming image"
+   },
+   {
+    "quote": "пішли попідруч",
+    "why": "natural idiom"
+   },
+   {
+    "quote": "чи навіть — навіть із шаф!",
+    "why": "captures voice"
+   },
+   {
+    "quote": "була крихітною жовтуватою лапкою",
+    "why": "poignant detail"
+   },
+   {
+    "quote": "«Звір! Звір!»",
+    "why": "effective drumbeat"
+   },
+   {
+    "quote": "задріботіла геть",
+    "why": "apt verb"
+   },
+   {
+    "quote": "пришкандибав у такт музиці",
+    "why": "vivid, comic"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

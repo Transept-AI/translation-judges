@@ -1,0 +1,29 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1990,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1228
+ },
+ "result": {
+  "edited": "All that was left was to pack… That was one of those countless \"musts\" that had so worn me out and kept me from sleeping. It doesn't matter whether the \"must\" is small or large; what weighs on me is that it is forever demanding attention, that I am no longer master of it, it is master of me. In fact you become the slave of this many-headed beast. If only I could free myself of it for a while, forget, rest. I am tired.\n\nBecause life comes at me ceaselessly and relentlessly, like a wave at the shore. Not only my own life but other people's. And in the end, do I even know where my own life ends and another's begins? I can feel other existences entering mine like air through windows and doors, like the waters of tributaries into a river. I cannot get out of a man's way. I cannot be alone. I confess I envy the planets: they have their orbits, and nothing stands in their path. While on mine, everywhere and always, I meet a human being.\n\nYes, you stand in my way and you think you have a right to me. You are everywhere. It was you who dressed the earth in stone and iron, you who through the windows of houses, thousands of black mouths, forever breathe out your stench. You flog the holy silence of the earth with the grinding of factories and the thunder of wheels, you foul the air with dust and smoke, you roar with pain, with joy, with rage. Like a beast. Everywhere I meet your gaze; your eyes, curious, greedy, crawl into me, and you yourself, in all your variety of colors and forms, lodge in the pupil of my eye. I cannot get out of your way… I cannot be alone… You do not only walk beside me, you crawl inside me. You toss into my heart, as into your own storeroom, your sufferings and your pains, your broken hopes and your despair. Your cruelty and your bestial instincts. All the horror, all the filth of your existence. What do you care that you torment me? You want to be my master, you want to take me… my hands, my mind, my will and my heart… You want to suck me dry, all my blood, like a vampire. And you do it. I live not as I want but as you tell me to in your countless \"musts,\" your endless \"you have to's.\"",
+  "changes": [
+   {
+    "before": "what weighs is that every time it demands attention, that I am no longer master of it",
+    "after": "what weighs on me is that it is forever demanding attention, that I am no longer master of it",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "If only for a while I could free myself of it, forget, rest.",
+    "after": "If only I could free myself of it for a while, forget, rest.",
+    "kind": "error",
+    "category": "calque"
+   }
+  ]
+ }
+}

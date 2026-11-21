@@ -1,0 +1,60 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1404,
+  "cache_read_input_tokens": 737,
+  "output_tokens": 1114
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "маленький коричневий собачка важко протупав повз і так само повільно пішов геть, наче «театральна» собачка, наче її підпоїли",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "важко протупав повз і так само повільно",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "високого стислого носа",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "Але раптом він дізнався",
+    "kind": "follow",
+    "weight": 1
+   },
+   {
+    "quote": "Актриса, ви, що ль?",
+    "kind": "interference",
+    "weight": 2
+   },
+   {
+    "quote": "не помітила б цього тижнями",
+    "kind": "unnatural",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Стара голова піднялася; у старих очах затремтіли два вогники.",
+    "why": "the old man comes alive in one image"
+   },
+   {
+    "quote": "Так, я вже давно актриса.",
+    "why": "a quiet, touching closing line"
+   },
+   {
+    "quote": "Міс Брілл ледь не розсміялася вголос. Вона була на сцені.",
+    "why": "short lines carry her delight"
+   }
+  ]
+ }
+}

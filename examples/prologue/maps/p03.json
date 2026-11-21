@@ -1,0 +1,102 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5677,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 64892
+ },
+ "result": {
+  "reading": "Block 3 opens a flashback from the live moment of blocks 0–2 to the start of the broadcast. It sets the bottom rung of the viewer count, which climbs through blocks 4–8 back to 350,000. In Freya's own status-conscious voice it grades the start as merely passable: the lecture, the part she enjoys most, draws only a hundred thousand, a figure unworthy of someone with her following, and her largest following sits on TikTok, a platform she dismisses as unserious. That dismissal is answered in blocks 11, 22 and 23, where the unserious core audience turns out to be what carries her, and the algorithms' verdict sits ironically against her block-2 credo that fortune favours only the prepared.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "Спершу все йшло просто непогано.",
+    "where": "The opening sentence: the narrator's verdict on how the broadcast went at its beginning.",
+    "what": "By Freya's yardstick the start was only passable. A limiting adverb sits on a litotes, so this is faint praise, not praise. The following sentences spell out that lukewarm baseline (a small turnout, unworthy of her), and the climb of blocks 4–8 starts from it. A hurried reader can take the adverb as an intensifier, or take the litotes at face value, and turn the start into a success. That then jars with the disappointment that follows and blunts the later rise.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the start of the broadcast characterised as merely passable (acceptable but unremarkable) rather than as a success?",
+      "fail": "The start is said to go well, smoothly or great (including 'pretty well' or 'quite well') with nothing limiting it to mere adequacy, or the verdict is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "Очікувано, але не рівень Фреї з її чотирма мільйонами в Інстаграмі та ще дванадцятьма в Тік-Току.",
+    "where": "The sentence that sets the lecture's turnout against Freya's follower counts on Instagram and TikTok.",
+    "what": "A clipped verdict with no verb, in Freya's own voice. The turnout was predictable for that segment, yet unworthy of someone of her standing, and her follower counts are the grounds. Ukrainian builds this from three pieces: a one-word adverbial sentence, a bare noun phrase about her standing, and a comitative tag carrying both counts, the second with its noun left out. English has no matching shape. Rendered closely, it becomes a stiff fragment: the noun phrase about her standing cannot serve as a predicate, and the numbers dangle from a preposition instead of reading as the reason.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as a word-for-word fragment: a noun phrase about Freya's level placed where English needs a verb or a comparison, the follower counts hung on a bare preposition, or wording that leaves unclear whose numbers these are or why they make the turnout look small."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "register",
+    "source": "не рівень Фреї",
+    "where": "In that same sentence, the verdict that the turnout did not befit Freya.",
+    "what": "This is colloquial status talk, the put-down people use for something that does not befit their rank. The narrator, in Freya's free indirect voice, applies it to Freya in the third person, as though she were a brand ranking itself. It is a verdict on her standing, not a statistic, and it shows how she measures everything. A translator smoothing the sentence can reduce it to a plain note that the number was lower than her usual figures, which drops the snobbery the satire feeds on.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the turnout presented as falling short of Freya's standing (a verdict on her rank) rather than merely as lower than her usual numbers?",
+      "fail": "The sentence only says the figure was lower than her follower counts, her usual numbers or what she was used to, with no sense that it was unworthy of her."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "через брак серйозної аудиторії",
+    "where": "Where the narrator gives the reason Freya dislikes TikTok.",
+    "what": "Her objection to TikTok is that its audience is not serious. Seriousness is Freya's self-image. The word returns in block 23, where the narrator weighs her core audience against a woman who considers herself serious and finds it wanting, though loyal. That core audience is the one sketched in blocks 11 and 22 (mums on maternity leave, manicurists, provincial students, housewives), and the same noun for her following runs through those blocks. A reader of the original hears that the unserious crowd she looks down on here is the one that carries her.",
+    "risk": "medium",
+    "recurs_in": [
+     11,
+     22,
+     23
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is TikTok's drawback put in terms of its audience lacking seriousness (the quality block 23 claims for Freya herself) rather than some other quality?",
+      "fail": "The drawback becomes youth, immaturity, low spending power, low quality, a lack of professionals or of brains, or is left vague, so block 23's picture of Freya as a serious woman has nothing here to echo."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "allusion",
+    "source": "але алгоритми розпорядилися інакше",
+    "where": "The closing clause, where the algorithms override Freya's dislike of TikTok.",
+    "what": "Ukrainian has a set phrase for fate (or God, or life) overturning someone's plans. The paragraph keeps its verb and adverb and puts the algorithms where fate would stand. The feed becomes the new Fortune, handing Freya her largest following on the platform she looks down on. It also quietly undercuts block 2, where she insists fortune smiles only on the prepared: here the deciding power is impersonal and indifferent to her taste. A reader of the original recognises the formula and enjoys the swap.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Do the algorithms appear as a power that overrode Freya's preference, so that they, not she, determined where her largest following would be?",
+      "fail": "The clause becomes a neutral technical or causal note (the platform promoted or recommended her content) with no sense of her wishes being overridden, or the contrast with her dislike is lost."
+     },
+     {
+      "id": "E5b",
+      "ask": "Is the overruling worded with a stock formula English uses for fate, destiny or God thwarting human plans, so a reader can see the algorithms standing where fate would?",
+      "fail": "No such formula is recognisable: the algorithms merely favour, boost, reward, prefer or disagree."
+     }
+    ]
+   }
+  ]
+ }
+}

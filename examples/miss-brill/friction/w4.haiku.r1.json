@@ -1,0 +1,92 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1409,
+  "cache_read_input_tokens": 779,
+  "output_tokens": 1826
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "щось таке, що, що ж це було?, не сум",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "Тепер він знову заграв.",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "поглянула на всіх інших членів компанії",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "вся ця компанія",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "що майже не піднімається й не опускається",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "«Ні, не зараз», — сказала дівчина. — «Не тут, я не можу».",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "— спитав хлопець. — «Навіщо",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "— захихотіла дівчина. — «Точнісінько",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "Точнісінько смажена путасу",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "Саме в цей момент",
+    "kind": "flat",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Мелодія здіймалася, здіймалася, світло сяяло",
+    "why": "the rhythm rises with the music"
+   },
+   {
+    "quote": "хоча що саме вони розуміють, вона не знала",
+    "why": "gentle irony, natural syntax"
+   },
+   {
+    "quote": "Вони були гарно одягнені; вони були закохані.",
+    "why": "terse, keeps her romantic framing"
+   },
+   {
+    "quote": "Чому б їй не сидіти вдома зі своєю дурною пикою?",
+    "why": "cruel, colloquial, alive"
+   },
+   {
+    "quote": "захихотіла дівчина",
+    "why": "precise, mocking verb"
+   },
+   {
+    "quote": "і з тим трепетним усміхом",
+    "why": "tender, fitting her state"
+   }
+  ]
+ }
+}

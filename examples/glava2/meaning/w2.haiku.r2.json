@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 563,
+  "cache_read_input_tokens": 2615,
+  "output_tokens": 537
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 19,
+    "quote": "Carve heart-healing elixirs' ingredients out of corpses...",
+    "kind": "sense",
+    "wrong": "The original means cutting hearts out of corpses to use in healing potions. The translation says unspecified ingredients are taken for elixirs that heal the heart.",
+    "severity": 2
+   }
+  ]
+ }
+}

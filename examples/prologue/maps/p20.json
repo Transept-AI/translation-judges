@@ -1,0 +1,84 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3667,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 66122
+ },
+ "result": {
+  "reading": "This is Freya's cynical inner aside after the chat war of block 19: as she watches, the counter jumps from 380 to 390 thousand, continuing the count of block 8 and landing exactly on Tony Bobbins's best (block 2), one jump short of the 400-thousand world record (block 1). Its opening concession answers block 19's closing complaint about the right-wingers: trouble or not, they are part of the number, and the closing remark about smell treats the viewers like money. The same ledger view carries blocks 21–24, where paying fans rout the trolls and her core audience is judged poor but loyal.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "триста вісімдесят... ні, триста дев'яносто тисяч глядачів наживо",
+    "where": "The opening figure: the live viewer count as Freya reads it, revised upward partway through the sentence.",
+    "what": "Freya reads the live counter as she thinks, and the figure rises by ten thousand before she has finished stating it. This picks up the breathless climb counted off thousand by thousand in block 8. The figure it lands on is exactly Tony Bobbins's best from block 2: she has just drawn level with the industry's most famous name, and the 400-thousand world record of block 1 is one more jump away. That tie is why every head in the count, trolls included, is so welcome to her right now.",
+    "risk": "medium",
+    "recurs_in": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     7,
+     8
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the count land on exactly 390 thousand live viewers, the figure block 2 gives as Tony Bobbins's best, so a reader can see she has just drawn level with him?",
+      "fail": "The final figure is anything other than 390 thousand, is approximated (about, nearly, almost 400 thousand), or is missing."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is the count shown still climbing within the sentence, with 380 thousand named first and then overtaken by 390 thousand?",
+      "fail": "380 thousand is missing; the two figures appear as a range or estimate rather than the second replacing the first; or the correction goes from the higher figure to the lower."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "device",
+    "source": "триста дев'яносто тисяч глядачів наживо залишалися тристами дев'яноста тисячами глядачів",
+    "where": "The statement, straight after the count, of what those viewers still amount to.",
+    "what": "Block 19 has just closed on what a nuisance the right-wingers always are. This sentence concedes that and overrides it with a deliberately circular statement, in which the figure is declared to be, still, that very figure. The circularity is both the joke and the character: Freya's ledger logic does not care who makes up the number, her enemies and the trolls included. The verb can also mean staying put, a sense a fast reader may grab; the repeated figure in the predicate shows that it says what the viewers still amount to, not that they stuck around.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the translation equate the count with itself, with the figure or the viewers said to be (or remain) that same figure or those same viewers, so the point comes as a circular, self-evident identity?",
+      "fail": "Nothing is equated with itself. The sentence only reports how many were watching; or it only says the viewers stayed on, did not leave or were all that was left; or it puts the idea as a plain claim or explanation (that they all counted, that only the number mattered)."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "allusion",
+    "source": "Хоч би чим вони пахли",
+    "where": "The short closing remark about how the viewers smell.",
+    "what": "A clipped afterthought that waves away who these viewers are, by way of their smell. It covers the right-wing trolls who have just swarmed in from their anonymous forums as much as her fans. Viewers are what Freya turns into money: they pay in dollars in block 8, and even children are an investment in her answer in block 12. So a Ukrainian reader at once hears the proverb that money doesn't smell (Vespasian's 'pecunia non olet'; money is grammatically plural in Ukrainian, so the 'they' fits it too): heads, like coins, count the same whatever their origin. The smell also carries a sneer at the forum losers, which the shrug keeps cool.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the closing remark framed in terms of the viewers' smell or odour, so a reader can connect it with the saying that money doesn't smell?",
+      "fail": "There is no smell or odour at all: the remark becomes one about who the viewers were, where they came from or what they were like, or it is dropped."
+     },
+     {
+      "id": "E3b",
+      "ask": "Is the smell one the viewers give off, rather than something they themselves smell?",
+      "fail": "The wording has the viewers doing the smelling, for instance the verb used transitively with nothing marking the odour as theirs."
+     }
+    ]
+   }
+  ]
+ }
+}

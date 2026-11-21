@@ -1,0 +1,113 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3770,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 75448
+ },
+ "result": {
+  "reading": "The right-wingers who flocked to the stream in block 19 now make their move: stock obscenities, a rash of sad-frog memes, and Freya smiling through it with one eye on her team's channel. The narrator rates the attack in Freya's marketing terms, poor on originality and strong on volume, the same ledger she applies to her viewers in blocks 20 and 23. The last two sentences concede that the comments, not Freya, are setting the mood, then flatly deflate the threat and hold the reason back for block 22, where her core fans counter-attack. The smile she keeps up here is the one block 24 resolves into her first sincere smile.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "«Береш за щоку?»",
+    "where": "The first of the two sample troll questions quoted at the start of the paragraph.",
+    "what": "A fixed vulgar expression. Through a word for part of the face, it asks whether she performs oral sex on men. Taken word by word it seems to be about a cheek, so a translator who does not know the slang produces a puzzling or harmless question. The scene needs the reader to recognise the oldest sexual put-down an anonymous troll can type at a successful woman. The narrator's sneer, straight after, that the trolls have no imagination depends on the line being a tired obscenity.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the first troll question ask whether Freya performs oral sex?",
+      "fail": "It is about a cheek (holding, pinching, kissing or slapping one, or tucking something into it), about another or an unspecified sex act, or it is vague, meaningless or omitted."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "register",
+    "source": "«Береш за щоку?»",
+    "where": "The first of the two sample troll questions quoted at the start of the paragraph.",
+    "what": "The level is gutter chat slang, the bottom of the register, typed anonymously to degrade. It is set against Freya's polished coaching talk and her composed smile, and it is exactly what the narrator writes off as unimaginative. Translations that catch the sense often tidy it into the dictionary or medical way of naming the act. That turns a gutter taunt into something like a frank survey question.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the first troll question avoid standard, polite, clinical or coy terms for the sex act?",
+      "fail": "It names the act by its full dictionary or medical name, uses a formal verb, or uses a coy euphemism, so the obscenity sounds tidied up. Blunt colloquial or vulgar wording counts as yes. A rendering that misses the sexual sense altogether is judged under E1 and counts as yes here."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "без жодної фантазії, зате масово",
+    "where": "The narrator's short verdict on how the trolls attacked, right after their sample questions: unoriginal, but numerous.",
+    "what": "The narrator grades the trolls' attack the way a marketer grades content: marked down on originality, marked up on reach. Freya applies the same quality-against-quantity reckoning to her audience in blocks 20 and 23. The original packs this into two clipped, verbless adverbial scraps after a colon, the second introduced by a connective of compensation. Carried across closely, it yields dangling manner phrases. The nearest English look-alike of the second word speaks of degree rather than of how many there were, so the dry joke turns into a stiff aside.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At the narrator's verdict on the trolls' questions (no originality, but sheer numbers), does the translation read as written by a skilled native writer?",
+      "fail": "It reads as carried across word for word: a stiff tag of dangling adverbial phrases, an adverb about degree where the sense is how many there were, or a 'without any …, but …' frame that no native writer would tack on. If the verdict is missing, answer no."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "allusion",
+    "source": "дурнуваті зелені сумні жаби",
+    "where": "The images that start popping up in the chat as the trolls attack.",
+    "what": "A reader of the original recognises the moping cartoon frog at once: Pepe the Frog, the imageboard meme that the online far right adopted as its emblem. It needs no name. It marks the trolls as the right-wingers who swarmed in from their anonymous forums in block 19, posting their calling card. The narrator's scornful adjective gives Freya's view of them. If the creature becomes a toad, or loses its misery, the reader sees random animal stickers instead of a badge.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Can the chat images be recognised as the sad-frog meme: frogs (not toads or another creature) shown as sad or glum, or named outright as Pepe?",
+      "fail": "They are toads, lizards or some other creature; or frogs with neither sadness nor the name; or a generic emoji or sticker with no frog."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "link",
+    "source": "Фрея всміхалася й далі вибірково відповідала на запитання",
+    "where": "Where Freya, during the troll flood, smiles and keeps choosing which questions to answer.",
+    "what": "The aspect says Freya does not break stride. Her smile stays put and her choosing among the questions goes on as it was, as though the flood were not happening. That unbroken composure is her professionalism on show. The smile held here is the performed one that block 24 answers when she finally smiles for real. Read as a sequence (a smile, then some answers), it becomes an ordinary reaction instead of a refusal to be rattled.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does the translation show Freya going on with her selective answering as before, without a break?",
+      "fail": "It gives a sequence or a one-off (she smiled and then answered, or simply answered some questions), with nothing saying she carried on as before."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "link",
+    "source": "Хоч як крути, а тон задавали коментарі.",
+    "where": "The remark that, whatever Freya did, it was the comments that set the mood of the stream.",
+    "what": "A colloquial concession of something there is no getting around. Freya can choose which questions to answer, yet the free-for-all of the comments, where the frogs are multiplying, sets the mood of the stream. The shrug concedes ground to the trolls and builds the threat that the paragraph's last sentence deflates. Without it the line is a flat observation, and the next sentence loses the expectation it overturns.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the statement that the comments set the tone framed as holding regardless, however one looked at it or whatever Freya did?",
+      "fail": "It stands as a bare statement, or is introduced only by a plain contrast or a time word, so nothing marks it as unavoidable. Wording that concedes the point, or means 'regardless' or 'nevertheless', counts as yes."
+     }
+    ]
+   }
+  ]
+ }
+}

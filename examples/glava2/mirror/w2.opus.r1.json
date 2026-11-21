@@ -1,0 +1,72 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1884,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 533
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "And if you stayed at the Academy, you might never have to pay a penny of interest on a debt that grew without end.",
+    "why": "logic muddled, confusing"
+   },
+   {
+    "quote": "from the fourth, though, you could say goodbye to any hope of paying off the debt",
+    "why": "contradictory, unclear sense"
+   },
+   {
+    "quote": "Agnes waited out a pause long enough for the exposition",
+    "why": "meta, awkward phrasing"
+   },
+   {
+    "quote": "marinate himself in",
+    "why": "odd reflexive usage"
+   },
+   {
+    "quote": "I have no plan B other than continuing my studies at the Academy",
+    "why": "clashes with next line"
+   },
+   {
+    "quote": "Which was why, at the entrance exams, thousands fought",
+    "why": "fragment start, clunky"
+   },
+   {
+    "quote": "Sift treasures, or at least LED bulbs",
+    "why": "slightly awkward 'sift'"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Torture demons.",
+    "why": "punchy, darkly funny"
+   },
+   {
+    "quote": "Cut hearts out of corpses for healing potions…",
+    "why": "vivid grim list close"
+   },
+   {
+    "quote": "Because in Seraph, absolutely nothing came for free.",
+    "why": "crisp worldbuilding line"
+   },
+   {
+    "quote": "metaphysical wanderings through the thin layers of the True Plane",
+    "why": "evocative contrast"
+   },
+   {
+    "quote": "The Golden Academic Card.",
+    "why": "nice emphatic beat"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

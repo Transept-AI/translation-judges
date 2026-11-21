@@ -1,0 +1,59 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 567,
+  "cache_read_input_tokens": 1278,
+  "output_tokens": 1281
+ },
+ "result": {
+  "edited": "Today Freya Axelsen had every chance of setting a new record. At that moment 350,000 people were watching her stream, and the number was climbing fast, because the broadcast had moved into the Q&A segment.\n\nIf the live audience reached 400,000, it would be an absolute world record for the entire coaching industry.\n\nNo one had ever managed it. Even the famous and indecently rich Tony Robbins, at the height of his career, had gathered only 390,000, and that was after decades in the business and with a face the whole world recognized! Now Freya had a shot at breaking that ceiling with room to spare and securing her fame for years to come. And if anyone thought this was just dumb luck, Freya knew better: fortune smiles only on prepared minds and on hands ready to act.\n\nAt first things went quite well. An hour went to a lecture on how to achieve your goals. It was the most pleasant part, but only 100,000 people tuned in. As expected, but not Freya's level, with her four million on Instagram and another twelve million on TikTok. Freya didn't like TikTok, since it lacked a serious audience, but the algorithms had decided otherwise.\n\nAnother hour went to questions like “What's the best age to found a startup?” and “How do you get up and start doing things?”, which subscribers had left through a form before the stream. The questions went over well and pulled the live count up to 200,000.\n\nBut that was still not enough. It was a plateau. Two hundred thousand was a plateau, and each step past it grew harder than the last.\n\nSo Freya went for the kill, as New York hustlers liked to say. Within twenty minutes, right in the middle of the stream, her assistants bolted on a payment form and wrote posts for social media. And the surprise segment of the broadcast began: open questions for donations. No moderation, but on Freya's terms.",
+  "changes": [
+   {
+    "before": "questions-and-answers block",
+    "after": "Q&A segment",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "decades in the market",
+    "after": "decades in the business",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "only 100,000 people came",
+    "after": "only 100,000 people tuned in",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "another twelve on TikTok",
+    "after": "another twelve million on TikTok",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "the online count",
+    "after": "the live count",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Twenty minutes in",
+    "after": "Within twenty minutes",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "free questions for donations",
+    "after": "open questions for donations",
+    "kind": "error",
+    "category": "word"
+   }
+  ]
+ }
+}

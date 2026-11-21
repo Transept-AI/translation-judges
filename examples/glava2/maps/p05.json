@@ -1,0 +1,161 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3236,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 76282
+ },
+ "result": {
+  "reading": "Block 5 supplies the motive behind block 4's closing line, Anna's command of every rumour about Agnes, and caps Anna's case against her with its worst item: paperwork Agnes set Theodore purely as a torment and then, as his curator, dismissed into the bin with the gold nails introduced in block 2. Naming her by her office at that moment recalls the near-absolute power of curators laid out in blocks 3–4. Block 6 depends on Anna's hostility being unmistakable, since it at once reveals that Agnes is her greatest ally, and the office scene that follows (blocks 12, 20) shows Agnes's tormenting to be deliberate mentoring.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "Бо",
+    "where": "the opening statement about how Agnes affects Anna, read against block 4's closing remark that Anna knows every version of the rumours in detail",
+    "what": "The paragraph opens with a causal conjunction that answers the last line of block 4. Anna knows every version of the gossip, down to the details, because Agnes provokes her so strongly. This tie presents her rumour-collecting as a product of hostility, and block 6 undercuts that at once by revealing Agnes as her greatest ally. Without the tie, the sentence is a bare statement of dislike and the rumour-hoarding loses its motive.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the statement of Anna's feeling toward Agnes explicitly offered as the reason or explanation for her knowing every version of the rumours?",
+      "fail": "It stands as a free fact with no causal or explanatory marker tying it back to her knowledge of the rumours."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "Бо Агнес Анну неймовірно обурювала.",
+    "where": "the short opening sentence saying how Agnes affects Anna",
+    "what": "This one-line sentence starts with a causal conjunction, names both women before the verb, and sets a degree adverb directly on a transitive verb of feeling. A close rendering yields a stiff causal fragment, or puts an intensifier on the verb in a slot English does not use. A native writer recasts the intensity, or the whole sentence, so that it works as a crisp narrative aside.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does this opening sentence read as written by a skilled native writer?",
+      "fail": "It reads as translated: e.g. an intensifier placed on the verb in a way English does not use, a stiff or archaic causal opener, or a fragment that sounds clumsy rather than deliberate."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "link",
+    "source": "Тим паче",
+    "where": "where the fate of Theodore's papers is connected to Anna's outrage at Agnes",
+    "what": "The second sentence opens with a connective of escalation. Anna already holds the defiant dress, the orgy rumours and the post Agnes supposedly did not earn against her, and the fate of Theodore's papers is offered as the grievance that makes her outrage greater still. If the connective is dropped or turned into plain addition, the incident loses its place as the climax of Anna's case against Agnes.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the binning of Theodore's papers presented as something that heightened Anna's outrage, an especially strong further reason, rather than as one more item?",
+      "fail": "The binning is joined only by plain addition or by contrast, or is not linked to her outrage at all."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "виписні аркуші факультативів",
+    "where": "the second kind of paper the curator bins, named alongside Theodore's reports",
+    "what": "This is a bureaucratic name for a second kind of tedious paperwork Theodore had to produce. It is tied to the extra courses a student opts into beyond the required programme. The adjective is best known from hospital discharge documents, prescriptions and bank statements. The noun resembles English 'faculty', but it refers to such an opted-into course, not to a division of the university. A hurried translator can therefore drift into the wrong field. What matters is that these are study papers of the kind a curator can impose: the material of the 'torment'.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Are these papers rendered as paperwork or written work belonging to Theodore's studies?",
+      "fail": "They are given a medical (hospital discharge, prescription), financial (account statement), subscription or other non-academic sense."
+     },
+     {
+      "id": "E4b",
+      "ask": "Are these papers tied to courses Theodore has opted into (optional, non-compulsory courses), rather than to a faculty or department?",
+      "fail": "They are linked to a faculty, department or other university division, or nothing ties them to courses, so they read as generic papers."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "hinge",
+    "source": "призначені Агнес, аби катувати Теодора",
+    "where": "the aside saying who set Theodore's reports and elective papers, and why",
+    "what": "Agnes's name never changes for case, so the participle can make her either the one who set the papers or the one they were destined for. The purpose that follows, tormenting Theodore, only fits her as the one who set them. She herself imposed the paperwork with that aim, and the same woman then bins it. That identity is the sting of Anna's grievance: Theodore suffered for nothing. It is also a first hint of Agnes's sly method, borne out in block 20, where she deliberately leaves him to dwell on grim prospects. Read as papers merely sent to her, the incident shrinks to ordinary negligence.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is Agnes the one who set Theodore these reports and papers?",
+      "fail": "The papers are presented as meant for, addressed to, submitted to or assigned to Agnes, or as set by the Academy, by Anna, or by no one identifiable."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "motif",
+    "source": "кураторка",
+    "where": "the naming of Agnes in the sentence where Theodore's papers go into the bin",
+    "what": "At the moment of the binning, Agnes is named by her office rather than her name. Blocks 3–4 have just explained this office: curators are appointed at the end of the fourth circle, hold near-unlimited power and decide who may advance. Anna believes Agnes obtained it without merit. Naming the office here makes the gesture pointed, because the very official charged with judging Theodore's progress treats his work as rubbish. The same root returns in block 12, where Agnes claims he needs her oversight least of all.",
+    "risk": "medium",
+    "recurs_in": [
+     3,
+     4,
+     12
+    ],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "In this sentence about the binning, is Agnes referred to at least once by her academic office (the student-overseeing role described in blocks 3–4), not only by her name or a pronoun?",
+      "fail": "Only her name, a pronoun, or a label naming no academic office (such as a word for mage or woman) is used."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "motif",
+    "source": "жестом золотих нігтів",
+    "where": "the gesture with which the papers are sent into the bin",
+    "what": "Block 2 set up the gold nails as part of Agnes's defiant, costly look: they are gold made from melted-down coins. Here the same nails carry out the dismissal of Theodore's work. The reader recognises the detail and links her flamboyance with her contempt for the paperwork. A generic hand movement drops the callback.",
+    "risk": "medium",
+    "recurs_in": [
+     2
+    ],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the gesture that sends the papers into the bin made with Agnes's gold nails, so the gold-nail detail from block 2 recurs?",
+      "fail": "The nails or their gold are missing (a plain hand, fingers or wave), or the nails are given another colour or material."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "construction",
+    "source": "Тим паче звіти Теодора та виписні аркуші факультативів — призначені Агнес, аби катувати Теодора, на велике невдоволення Анни, — кураторка просто змахнула жестом золотих нігтів у сміттєве відро.",
+    "where": "the sentence in which Theodore's reports and elective papers end up in the bin, together with the aside about why they were set and how Anna felt",
+    "what": "The sentence opens with the escalating connective and then puts the papers first, as the object. A long three-part aside follows: who set them, why, and how Anna felt. Only then come the curator, the verb and the bin, with the gesture expressed as one belonging to her nails. Close renderings leave the fronted object hanging through the aside, bring the subject in late, glue the connective onto a noun phrase and produce an odd instrument phrase. English needs the sentence rebuilt so the reader is not kept holding the papers for a whole clause.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Does this sentence's overall structure read as written by a skilled native writer?",
+      "fail": "It reads as translated: typically the papers stand at the head as an object left hanging through the whole aside before subject and verb arrive, the opening connective is attached straight to a noun phrase, or the reader must reread to see who did what."
+     },
+     {
+      "id": "E8b",
+      "ask": "Does the description of the gesture that sends the papers into the bin read as written by a skilled native writer?",
+      "fail": "It is a calque, such as a gesture 'of' nails or a verb doubled by a redundant gesture noun, or manner and instrument are piled up awkwardly."
+     }
+    ]
+   }
+  ]
+ }
+}

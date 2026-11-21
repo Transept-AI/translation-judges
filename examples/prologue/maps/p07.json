@@ -1,0 +1,110 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3756,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 74304
+ },
+ "result": {
+  "reading": "This paragraph pays off blocks 5–6: the two-hundred-thousand plateau that kept getting harder to get past ends at last, once the assistants' posts announce Freya's surprise segment of paid, unmoderated questions. It moves fast and escalates: the posts spread, the count leaps, and news bots amplify the stream with a stock superlative. This carries the flashback begun in block 3 toward the three hundred and fifty thousand of block 8, the figure block 0 opened on. Its closing exclamation, that the hyped coach is a woman, first sounds the gender theme that blocks 9–23 develop: the dating and marriage questions, the feminist pile-on, and the musing on what audience a serious businesswoman gets.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "Людське плато",
+    "where": "The paragraph's opening sentence, where the audience that had been stuck finally starts to move.",
+    "what": "Block 5 called the stall at two hundred thousand viewers a plateau, one that got harder to get past every time. The opening line answers it by naming the plateau again. The reader hears that it is the very stall described two paragraphs earlier that now ends: the payoff of Freya's gamble in block 6. If the image is swapped or dropped, the sentence stops reading as the answer to block 5.",
+    "risk": "medium",
+    "recurs_in": [
+     5
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the stalled audience in the opening sentence still called a plateau, recognisably the same image as the two-hundred-thousand stall of block 5?",
+      "fail": "There is no plateau here. The stall is renamed with another image (a wall, ceiling, logjam, dam, tide or mass), or reduced to plain talk of numbers or stagnation, or given a term that does not match the one used for the stall in block 5."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "device",
+    "source": "Людське плато зрушило з місця",
+    "where": "The paragraph's opening sentence, where the audience that had been stuck finally starts to move.",
+    "what": "In block 5 the plateau was a flat stretch on a growth chart. Here the narrator takes the figure literally and makes it human. Two hundred thousand people form a landmass, immovable until now, that is set in motion, told with the everyday idiom for something stuck at last getting going. The comic image turns the audience into terrain, and the people at the start of the paragraph stand against the bots at its end.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the stalled mass that starts to move made of people (called human, or said to consist of viewers or people), rather than only a figure, a line on a chart or an abstract stall?",
+      "fail": "Nothing in the opening sentence makes the stalled mass human. Only a plateau, figures, growth or the stream itself is said to move."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "розліталися стрічками, як гарячі пиріжки",
+    "where": "The comparison for how fast the posts announcing the paid questions spread through people's social-media feeds.",
+    "what": "The simile is a stock Ukrainian idiom for goods that sell out the moment they reach the counter. It is a street-stall image dropped into a sentence about posts, feeds and prime time. The reader hears the narrator's breezy, folksy voice and understands that the announcement was snatched up and passed on eagerly, almost like merchandise, just as Freya starts selling access. Taken word for word, it becomes a picture of hot baked food flying through the air, which an English reader will not recognise as a set phrase.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the comparison for how the posts spread free of a literal image of hot baked food that English does not use as a set phrase for runaway demand?",
+      "fail": "The posts are likened to some hot baked food in wording that is not an English idiom, so the reader pictures food flying instead of reading a figure of popularity. Leaving the comparison out, or using another English idiom of speed or popularity, does not fail this check."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "Двісті тисяч глядачів миттєво підскочили до двохсот п'ятдесяти.",
+    "where": "Where the number of viewers goes from two hundred thousand to two hundred and fifty thousand in an instant.",
+    "what": "The original makes the viewers themselves the subject that leaps to a new figure, and leaves the second 'thousand' understood; both are ordinary in Ukrainian. Carried over closely, English gets a crowd of people jumping to a number. The new figure may also be left bare, so that it reads as two hundred and fifty rather than two hundred and fifty thousand. The sentence then sounds translated at the very moment the paragraph should feel like a surge.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At the point where the viewer count goes from two hundred thousand to two hundred and fifty thousand, does the sentence read as written by a skilled native writer of English?",
+      "fail": "It reads as translated. The people, rather than their number, stiffly leap to a figure; or the new figure is left bare so that it could be taken for 250; or the phrasing is otherwise awkward."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "register",
+    "source": "почали тиражувати новини",
+    "where": "Where the online-media bots take up the event and start putting out news items about the stream.",
+    "what": "The verb belongs to print publishing, where it means producing an edition in bulk; used figuratively, it means multiplying the same thing over and over. Applied to bots, it turns them into a copying press. They do not report the event so much as duplicate identical items, each carrying the stock superlative the narrator puts in quotation marks. That mechanical, copy-paste quality is the satirical point: the superlative praise for her originality comes from machines that can only copy.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does what the bots do with the news carry the idea of copies being multiplied in bulk, rather than only passing the news on or reporting it?",
+      "fail": "The bots merely report, cover, share, spread, post or circulate the news. Nothing suggests copies being turned out mechanically or en masse."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "Та ще й жінки!",
+    "where": "The short exclamation that closes the paragraph, right after the media's superlative label for Freya.",
+    "what": "The noun takes the same case as the coach in the sentence before, so the exclamation runs on from it: the coach being hyped is, as one more sensation, a woman. This is the clickbait angle, voiced with mock astonishment and a hint of condescension, and it is also Freya's selling point. Read on its own, the same form looks plural. A hurried reader then gets a remark that women in general are involved too, which cuts the line loose from Freya and loses the first sounding of the gender theme that blocks 9–23 develop.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the exclamation say that the coach herself, Freya, is a woman?",
+      "fail": "It speaks of women in the plural (as joining in, as also present, or as a surprising addition), or it ties being a woman to anyone other than the coach."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1924,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 608
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "that it is not I who command them but they who already command me",
+    "why": "pronoun shift, clunky"
+   },
+   {
+    "quote": "Because life comes at me ceaselessly and relentlessly",
+    "why": "fragment start, redundant adverbs"
+   },
+   {
+    "quote": "I cannot get past a human being.",
+    "why": "odd, literal-sounding"
+   },
+   {
+    "quote": "Whereas on mine I meet a person everywhere and always.",
+    "why": "stiff phrasing"
+   },
+   {
+    "quote": "lodge in my pupil",
+    "why": "awkward image"
+   },
+   {
+    "quote": "your endless \"you have tos.\"",
+    "why": "clumsy plural"
+   },
+   {
+    "quote": "suck me dry, all my blood, like a vampire",
+    "why": "overloaded, clichéd"
+   }
+  ],
+  "good": [
+   {
+    "quote": "you become the slave of this many-headed beast",
+    "why": "strong metaphor"
+   },
+   {
+    "quote": "the way air comes in through windows and doors, the way the waters of tributaries flow into a river",
+    "why": "flowing, vivid"
+   },
+   {
+    "quote": "I confess I envy the planets: they have their orbits, and nothing stands in their way.",
+    "why": "memorable, fresh"
+   },
+   {
+    "quote": "through the windows of houses, thousands of black mouths, breathe out your stench forever",
+    "why": "vivid, menacing"
+   },
+   {
+    "quote": "You lash the holy silence of the earth with the screech of factories and the thunder of wheels",
+    "why": "rhythmic, powerful"
+   },
+   {
+    "quote": "You do not merely walk beside me, you climb inside me.",
+    "why": "punchy escalation"
+   },
+   {
+    "quote": "your eyes, curious and greedy, crawl into me",
+    "why": "creepy, effective"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

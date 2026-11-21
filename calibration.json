@@ -1,0 +1,31 @@
+{
+ "version": "reading v2 (copy-editing apart), 2026-11-11",
+ "source": "LAIT (Ferstler et al. 2026, arXiv:2606.26040, github.com/Yves575/lait): the four reading judges on all 772 versions of the 386 evaluation passages (published human and machine translation), mean and population sd; 2026-11-11",
+ "formula": "reading = -(z(E)+z(F1)+z(F2)+z(M))/4; E excludes punctuation+grammar fixes, F1/F2 exclude mechanics",
+ "copyedit": {
+  "definition": "editor punctuation+grammar fixes per 100 words, mean of two runs",
+  "lait_mean": 0.3326229144265458,
+  "lait_sd": 0.433697157066205,
+  "lait_human_mean": 0.26414268804319374,
+  "lait_machine_mean": 0.40110314080989784
+ },
+ "judges": {
+  "editor_style_errors_per100_mean2": {
+   "mean": 0.6453230660163045,
+   "sd": 0.49619862403653986
+  },
+  "friction_reading_weighted_per100": {
+   "mean": 4.668408900786794,
+   "sd": 1.507628259869929
+  },
+  "friction2_reading_weighted_per100": {
+   "mean": 2.7099739747024785,
+   "sd": 1.0018759709718295
+  },
+  "mirror_neg_rating": {
+   "mean": -3.7419041450777204,
+   "sd": 0.34146116406280996
+  }
+ },
+ "zero": "0 = the average LAIT passage, human and machine pooled; higher reads better"
+}

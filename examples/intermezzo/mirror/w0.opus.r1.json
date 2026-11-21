@@ -1,0 +1,80 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1922,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 594
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "what weighs is that every time it demands attention, that I am no longer master of it",
+    "why": "clumsy, run-on syntax"
+   },
+   {
+    "quote": "I cannot get out of a man's way.",
+    "why": "awkward, odd idiom"
+   },
+   {
+    "quote": "While on mine, everywhere and always, I meet a human being.",
+    "why": "fragment feels stiff"
+   },
+   {
+    "quote": "you who through the windows of houses, thousands of black mouths, forever breathe out your stench",
+    "why": "tangled word order"
+   },
+   {
+    "quote": "your endless \"you have to's.\"",
+    "why": "clunky, awkward plural"
+   },
+   {
+    "quote": "In fact you become the slave",
+    "why": "shift in person is jarring"
+   }
+  ],
+  "good": [
+   {
+    "quote": "this many-headed beast",
+    "why": "vivid image"
+   },
+   {
+    "quote": "like a wave at the shore",
+    "why": "apt, rhythmic simile"
+   },
+   {
+    "quote": "like air through windows and doors, like the waters of tributaries into a river",
+    "why": "flowing, evocative"
+   },
+   {
+    "quote": "I confess I envy the planets: they have their orbits, and nothing stands in their path.",
+    "why": "memorable, striking"
+   },
+   {
+    "quote": "You flog the holy silence of the earth with the grinding of factories and the thunder of wheels",
+    "why": "powerful, sonorous"
+   },
+   {
+    "quote": "You toss into my heart, as into your own storeroom",
+    "why": "fresh, concrete metaphor"
+   },
+   {
+    "quote": "You do not only walk beside me, you crawl inside me.",
+    "why": "intense, rhythmic"
+   },
+   {
+    "quote": "I am tired.",
+    "why": "simple, emotionally effective"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

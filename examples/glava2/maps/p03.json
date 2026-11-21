@@ -1,0 +1,119 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3267,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 75563
+ },
+ "result": {
+  "reading": "Block 3 turns from the catalogue of Agnes's rule-breaking outfit in 2 to the reason she can flaunt it: she is the officer assigned to oversee students at the end of their fourth stage, and so holds near-total power over who advances to the fifth and over each mage's whole course. It defines the post whose scandalous acquisition 4 retells. It also sets up the threshold that 4 (her own missing fifth-stage diploma) and 20 (Theodore's fear of washing out before it) come back to. Its opening idiom, a liberty one has the means to pay for, starts a refrain that 10, 14 and 18 carry from power over to money.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "Агнес могла дозволити собі",
+    "where": "The opening statement that Agnes could dress brightly despite the Academy's dress code.",
+    "what": "The narrator presents Agnes's flamboyance as a matter of means: a breach whose price her rank, not her purse, can cover. The same reflexive idiom returns at 10 (Agnes says Anna has the means to do whatever she likes), at 14 (Theodore no longer has the means to leave the Academy) and at 18 (only Academicians kept by Seraph have the means for the pure pursuits). Together these form a running ledger of who in Seraph can bear the cost of what. This is the first entry, paid in power, and 14 sets Theodore against it. If it is rendered as permission, self-indulgence or impunity, the sense roughly survives, but the refrain never starts.",
+    "risk": "medium",
+    "recurs_in": [
+     10,
+     14,
+     18
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is Agnes's freedom to dress this way framed in terms of means and cost, as something her position lets her bear the price of, which is the notion the page returns to at 10, 14 and 18?",
+      "fail": "It is framed only as permission, self-indulgence, boldness or impunity, with no notion of means or cost."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "register",
+    "source": "немов та Волевичка",
+    "where": "Where Agnes's bright dressing is likened to another woman's.",
+    "what": "The comparison uses a demonstrative to point at a woman called by a colloquial, nickname-like form of a surname. This is the way gossip names a woman it talks about rather than respects, and it assumes the reader knows who she is. It tilts the narration toward the students' catty view of Agnes and prepares the juicy rumours of 4 and Anna's indignation in 5. A bare transliterated name reads as neutral and unexplained, and a polite title makes the reference respectful. Either way, the knowing, slightly snide gossip tone is gone.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is this woman referred to in a colloquial, knowing way that marks her as a familiar, talked-about figure, rather than by a bare neutral name, a polite title, or a generic type?",
+      "fail": "Any of these: a bare name with nothing marking her as someone known and gossiped about; a respectful title; or a generic type of woman in place of the person."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "Бо куратори, яких призначали наприкінці четвертого кола, мали практично безмежну владу. Бо, окрім іспитів, саме куратори вирішували…",
+    "where": "The explanation that follows the opening statement about Agnes's dress. It says that the officials assigned to students at the end of the fourth stage wield near-unlimited power because, exams aside, they decide who goes on to the next stage and steer each mage's course until expulsion or graduation.",
+    "what": "The source gives this as a chain of two reasons in two consecutive sentences. Each opens with a bare causal conjunction, and the second explains the first. A relative clause about when the officials are assigned sits inside the first sentence, and a long tail of stacked clauses closes the second. That is ordinary narrative rhythm in the source language. Carried over closely, it gives English two back-to-back stand-alone fragments starting with a causal word, followed by a sprawling final sentence, and the result reads as translated. A skilled writer makes the chain of reasons read as whole, connected English.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "Two consecutive sentences each open with a bare causal conjunction and stand as fragments, or the passage is a similarly stiff, word-for-word chain that a native editor would recast."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "чи гідний студент перейти",
+    "where": "Where the officials decide whether a student may go on to the next stage.",
+    "what": "The decision is cast as a verdict on the student's merit: a weighing of worth, not a procedural clearance. Block 4 turns the same measure on Agnes. Rumour holds her to be wholly without it, and she lacks even the fifth-stage diploma she now gatekeeps, so by gossip the judge of worth is the least worthy of all. If this becomes a matter of eligibility, readiness or competence, block 4's barb no longer echoes it.",
+    "risk": "medium",
+    "recurs_in": [
+     4
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the decision about the student framed as a judgment of merit (whether they deserve to go on), the notion block 4 turns against Agnes, rather than as eligibility, readiness, competence or suitability?",
+      "fail": "The student is only judged eligible, ready, qualified, capable or suitable to advance, with no sense of deserving."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "register",
+    "source": "наприкінці четвертого кола … на п'яте коло",
+    "where": "Where two stages are named: the stage at whose end students are assigned these officials, and the next stage, the one that opens a magical specialisation.",
+    "what": "The Academy counts its stages with its own in-world word, a rank term from the vocabulary of magic rather than of schooling. The same unit is counted again at 4 (Agnes lacks even the fifth one's diploma), at 16 (the Card's limit grows with each one completed), at 18 (the stage from which one can work, and the stage from which debt becomes hopeless) and at 20 (Theodore washing out before the fifth). It is part of the world's machinery. Turned into plain school years or courses, it makes the Academy read like an ordinary university, and the rank system vanishes. Taken as a lap or a contest round, it misleads.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Are these stages named with a distinctive in-world term for the Academy's ranks, rather than with ordinary school or university vocabulary for years of study?",
+      "fail": "The stages appear as school or university years, courses, terms, semesters or grades, or as a race lap or contest round."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "link",
+    "source": "аж до самого відрахування або випуску",
+    "where": "Where the officials' control of the mage's course is said to last until the mage is expelled or graduates.",
+    "what": "An intensifier stresses that this control runs through the entire course to its final point, whichever way it ends. It is the last and widest proof of the near-unlimited power claimed two sentences earlier, and it presents expulsion as a real outcome alongside graduation. It echoes block 2, where the Academy's collar-and-robe drill holds resident mages to grey hair and the grave. Stated as a plain end date, the climax of the argument becomes a schedule.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the reach of the control marked as extending all the way to the very end of the mage's course, rather than stated as a plain time limit?",
+      "fail": "A bare limit set at expulsion or graduation, with nothing stressing how far or how completely the control reaches."
+     }
+    ]
+   }
+  ]
+ }
+}

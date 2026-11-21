@@ -1,0 +1,188 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4569,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 72837
+ },
+ "result": {
+  "reading": "The story's last paragraph: the Sunday habit of block 16 is broken, and Miss Brill returns to the props that opened block 0, the red eiderdown and the fur's box, to undo the afternoon's ritual by shutting the fur away unseen. Her small, dark, cupboard-like room answers block 4, where she pictured the odd old bench-sitters emerging from dark little rooms or even cupboards, so without any comment she becomes one of them, the old thing the boy mocked in block 12. The unnamed something that cries at the end completes the something she twice insisted was not sadness (blocks 0 and 9): her grief surfaces at last, displaced onto the fur she has just shut away.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "the little dark room—her room like a cupboard",
+    "where": "where she goes into her own room and it is likened to a cupboard",
+    "what": "In block 4, sizing up the odd, silent old people on the benches, she fancied they had just come out of small dark rooms, or even, as she exclaimed, out of cupboards. The same two images, a small dark room and then a cupboard, now describe her own room. Nothing is said, but the reader sees that she is one of those people, as the young couple has just told her (blocks 12–13). The irony works only if both images are recognisably those of block 4.",
+    "risk": "medium",
+    "recurs_in": [
+     4
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is her room described as both small and dark, like the rooms of block 4?",
+      "fail": "Darkness is not mentioned, or there is no sign of smallness. A diminutive form or any word of smallness counts as small."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is her room likened to the same thing, named with the same word or root, as the cupboards the bench-sitters seem to come from in the translation of block 4?",
+      "fail": "The comparison is dropped, or her room is likened to something named differently from block 4 (for example a cupboard in one block and a storeroom, cell or box in the other)."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "sat down on the red eiderdown",
+    "where": "where she sits down on her bed covering after coming in",
+    "what": "The red eiderdown is where, that afternoon in block 0, she laid the freshly brushed fur and was delighted to see its eyes come alive at her. Sitting down on it now takes the reader back to where the day began, so the ending reads as the opening undone. The return is heard only if the covering is recognisably the one named in block 0.",
+    "risk": "medium",
+    "recurs_in": [
+     0
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the bed covering she sits on red, and named with the same word or root as the red eiderdown in the translation of block 0?",
+      "fail": "The colour is dropped, or the covering is named differently from block 0 (for example a quilt in one block and a bedspread, blanket or featherbed in the other)."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "The box that the fur came out of was on the bed.",
+    "where": "the sentence stating that the box the fur had been taken out of is on the bed",
+    "what": "English ends the relative clause on a stranded preposition, makes the fur the grammatical subject of a verb of coming out, and places the box with a bare verb of being. Followed closely, this yields a relative clause in which the fur seems to have walked out of the box on its own. It also yields a flat verb of being for where an object lies. Both read as translated.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At this sentence, does the translation read as written by a skilled native Ukrainian writer?",
+      "fail": "Any one of these: the fur is the subject of a verb of going or coming out, as though it moved by itself; the box's place is given by a bare verb of being where a native writer would shape it otherwise; the relative clause is otherwise stiff or calqued."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "She unclasped the necklet",
+    "where": "where she unfastens the fur from round her neck, just before putting it in the box",
+    "what": "The necklet is the fur itself: the neck-piece with eyes, a nose and a tail in its mouth that she has worn round her neck since block 0. It is now named coolly by the garment it is, rather than as her fur or her little rogue. The same word commonly denotes a piece of jewellery, and this sentence does not repeat the word fur. A fast reading therefore has her take off an ornament and put that in the fur's box. That leaves the fur, the object of the whole ending, unaccounted for, and the closing crying without a source.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is what she unfastens and lays in the box unmistakably the fur itself, a fur piece worn round the neck, rather than a piece of jewellery?",
+      "fail": "A necklace, beads, a chain, a pendant or any other ornament, or wording that makes it an object other than the fur."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "device",
+    "source": "She unclasped the necklet quickly; quickly, without looking, laid it inside.",
+    "where": "where she takes the fur off and puts it into its box",
+    "what": "Haste is marked on both the unfastening and the putting away, as if she cannot be done with it fast enough. Not looking reverses block 0, where she revived the fur's dim, sad eyes and loved to see them come alive at her; now she cannot face them. Yet the verb is one of careful placing, the way something cherished is put away. With the lid that follows, the box becomes something like a coffin. So the haste reads as grief and avoidance, not disgust.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the putting-in, and not only the unfastening, marked as hurried?",
+      "fail": "The putting-in has no word of haste of its own: haste is attached only to the unfastening, or to neither."
+     },
+     {
+      "id": "E5b",
+      "ask": "Is it stated that she does not look at the fur as she puts it in?",
+      "fail": "Not looking is dropped, or turned into something else (without thinking, without hesitation, carelessly)."
+     },
+     {
+      "id": "E5c",
+      "ask": "Is the fur laid or placed in the box, rather than thrown, tossed, shoved, stuffed or dumped into it?",
+      "fail": "A verb of throwing, shoving, stuffing or dumping."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "link",
+    "source": "she thought she heard",
+    "where": "where, as the lid goes on, she hears the crying",
+    "what": "The narration does not say that something cried; it says she believed she heard it. The doubt keeps the sound inside her perception, which is what lets it be her own grief. Stated as fact, the last line becomes a literal, almost supernatural noise from the box.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the crying presented as something she only seemed to hear or believed she heard, rather than as a fact?",
+      "fail": "A plain statement that she heard crying, or that something cried, with no marker of seeming, fancy or uncertainty."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "motif",
+    "source": "something",
+    "where": "the word for whatever she hears crying, at the very end",
+    "what": "Twice before, Miss Brill felt an unnamed something stir in her and insisted it was not sadness: in block 0, as she touched the fur, and in block 9, as the music rose. Block 16 has just called the almond an unlooked-for something that might as easily have been missing. The last something is the same unnamed thing, and now it cries: the sadness she kept refusing has its say. The echo needs the same indefinite word for a thing as in those blocks, not a word for a person.",
+    "risk": "medium",
+    "recurs_in": [
+     0,
+     9,
+     16
+    ],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is what cries referred to by an indefinite word for an unnamed thing, the same one the translation uses for the unnamed something in block 0 or block 9?",
+      "fail": "A word for a person (someone, a child, a woman), a named source in its place (the fur, the necklet, Miss Brill), or another word that does not echo those blocks."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "double",
+    "source": "something crying",
+    "where": "the crying she hears at the very end, as the box is closed",
+    "what": "The crying belongs at once to two sources. One is the fur, a living creature to her all day, whose sad eyes seemed to ask what had become of it (block 0) and which she has just shut in the dark. The other is Miss Brill herself, who sheds no tear in this paragraph and whose grief can only come out displaced onto the fur: having refused to look, she hears. In English the 'thing' inside the word points both ways, since she hailed the fur as a dear little thing (block 0) and the boy dismissed her as a stupid old thing (block 12). The ending works only if both readings stay open in one sound, heard right there and left unexplained.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Is the sound weeping, the crying of grief, so that it could be her own?",
+      "fail": "A shout, scream or call, or an animal noise (squeak, yelp, howl), instead of weeping."
+     },
+     {
+      "id": "E8b",
+      "ask": "Is the crying left right where she is as the lid goes on, with nothing placing it elsewhere (somewhere, far off, outside, behind the wall, next door, in the street)?",
+      "fail": "Any added location that moves the crying away from the closed box and from her."
+     },
+     {
+      "id": "E8c",
+      "ask": "Leaving aside the word for what cries (checked under E7), does the sentence add nothing that settles whose crying it is: no phrase placing it inside the box or in the fur, and none saying it was her own?",
+      "fail": "An added word or phrase that pins the crying on the box or the fur, or on Miss Brill herself."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "construction",
+    "source": "But when she put the lid on she thought she heard something crying.",
+    "where": "the story's last sentence, from the lid going on to the crying",
+    "what": "English stacks a verb of thinking, a verb of hearing, and a bare object with an -ing form. Rendered word for word, this gives either two finite verbs with the subject pronoun repeated, or an active participle hung on the crying thing. Both read as translated. This is the sentence the story ends on, so a stiff shape blunts the final beat.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Does the story's last sentence read as written by a skilled native Ukrainian writer?",
+      "fail": "A verb of thinking and a verb of hearing each with the same subject pronoun spelled out, an active participle hung on the crying thing, or another stiff, calqued shape."
+     }
+    ]
+   }
+  ]
+ }
+}

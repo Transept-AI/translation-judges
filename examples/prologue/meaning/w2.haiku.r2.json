@@ -1,0 +1,44 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 564,
+  "cache_read_input_tokens": 3202,
+  "output_tokens": 860
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 18,
+    "quote": "Though business doesn't need to be pleasing the way a lover does.",
+    "kind": "reversed",
+    "wrong": "The original says you don't have to please business the way you have to please a lover; the translation says business doesn't have to please you.",
+    "severity": 2
+   },
+   {
+    "n": 19,
+    "quote": "Now it wasn't just the assistants but Freya's own fans",
+    "kind": "reversed",
+    "wrong": "The original says it was no longer the assistants but the fans themselves doing the reporting; the translation implies the assistants were still doing it too.",
+    "severity": 1
+   },
+   {
+    "n": 21,
+    "quote": "“Do you shave your face?”",
+    "kind": "idiom",
+    "wrong": "The original «Береш за щоку?» is a vulgar sexual question (\"Do you give blowjobs?\"), not a question about shaving the face.",
+    "severity": 2
+   },
+   {
+    "n": 24,
+    "quote": "the gaters' comments",
+    "kind": "sense",
+    "wrong": "The original says haters (гейтери); \"gaters\" is a misreading and suggests a different group.",
+    "severity": 1
+   }
+  ]
+ }
+}

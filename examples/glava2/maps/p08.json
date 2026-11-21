@@ -1,0 +1,91 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3154,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 53043
+ },
+ "result": {
+  "reading": "A narrator's aside that turns Theodore's own remark back on him. He has just said that Anna at least has her plan (block 7), and the narration answers that he has none of his own and no place in the setting's planes of existence, the same order Anna wants to make better in block 7. The whole paragraph rests on one capitalised root that means both a life plan and a plane, and it opens the run that follows: his admission that nothing suits him (9), that his only fallback is staying at the Academy (13), and the account of why he cannot afford to leave (14–19), where life among the mysteries of the planes is kept for salaried Academics (18).",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "double",
+    "source": "Плану не було. Ані місця в Планах.",
+    "where": "The two statements right after Theodore's remark that Anna at least has her plan: what he himself lacks, and the larger order in which there is no place for him.",
+    "what": "One capitalised root does double duty. In the first statement it is a plan for one's life, the thing block 7 has just granted Anna and Theodore lacks. The capital both inflates it and pulls it toward the cosmology. In the second statement the capitalised plural is the setting's name for its planes of existence: the worlds Anna wants to improve in block 7, whose mysteries block 18 keeps for Academics on Seraph's payroll. It still carries the sense of figuring in someone's plans. So one word gives two verdicts: he has no direction of his own, and the order of the worlds has no room for him. That pun is the point of the paragraph.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the translation state that Theodore had no plan of his own for his future, the counterpart of the plan Anna is said to have just before?",
+      "fail": "What he lacks becomes something else (a world or level of existence of his own, or a plan someone else has for him), or no lack of a personal plan is stated."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is the place he lacks a place within the setting's planes of existence (the order of worlds Anna wants to improve), judged by how the translation uses that word in the surrounding blocks, rather than only a place in people's intentions?",
+      "fail": "The second statement can only be read as his not figuring in anyone's plans, schedules, arrangements or maps, and nothing ties it to the setting's levels of existence."
+     },
+     {
+      "id": "E1c",
+      "ask": "Are the word for what he lacks and the word for where he has no place the same word, or two words plainly kin in sound and spelling?",
+      "fail": "They are unrelated words, so nothing on the page links his missing plan to the order that has no room for him."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "в Планах",
+    "where": "The second of the two statements: the larger order in which there is no place for Theodore.",
+    "what": "One block earlier, the same capitalised plural named what Anna wants to make better with her capital and privileges. It returns in block 18 for the mysteries that only accredited Academics on Seraph's payroll can afford to pursue, where one of these levels is named outright. Hearing the word again lets the reader connect the three passages. Anna's do-gooding aims at the very order that has no room for Theodore, and the life of study inside it is the privilege he is about to learn he cannot count on.",
+    "risk": "medium",
+    "recurs_in": [
+     7,
+     18
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the word for the order in which he has no place the same word (or a singular or plural form of it) that the translation uses for what Anna wants to make better in block 7, or for the levels whose secrets the Academics study in block 18? If the translation itself uses different words at those two blocks, matching either one counts.",
+      "fail": "It matches the translation's word at neither block 7 nor block 18, so the reader cannot hear the callback."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "link",
+    "source": "У нього ж",
+    "where": "The start of the statement about Theodore's own lack, immediately after his remark about Anna.",
+    "what": "The particle makes the narration answer Theodore by contrast. What he has just granted Anna is exactly what he lacks, so his remark about her becomes a verdict on himself. The particle is small and easily dropped, which leaves only a bare fact. It can also be misread as likeness, which reverses the comparison.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is Theodore's lack marked as the opposite of Anna's case, either by a word of contrast or by emphasis that singles him out against her? A restated name or an emphatic pronoun counts.",
+      "fail": "His lack is stated flatly with nothing marking the contrast, or the wording makes him like Anna, as though she lacked a plan too."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "У нього ж, Теодора, Плану не було. Ані місця в Планах.",
+    "where": "The narrator's two-line aside, right after Theodore's line about Anna, saying that he lacked a plan and had no place in the larger order.",
+    "what": "The original names the possessor twice, first a pronoun and then his name set off as an apposition. This sits inside the Ukrainian possessive frame with a negated verb of existence, and a verbless negative fragment follows. In Ukrainian this is an ordinary emphatic aside. English has no matching doubled subject, so a close rendering either stacks pronoun and name or keeps the foreign frame, and it reads as translated. The trailing fragment also has to stand as good English on its own.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "Any of these: the pronoun is immediately restated by his name as a doubled subject; the lack is framed as something absent 'with' or 'at' him rather than something he did not have; the wording is otherwise stiff; or the trailing fragment is ungrammatical. A deliberate fragment that is good English is fine."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1410,
+  "cache_read_input_tokens": 563,
+  "output_tokens": 697
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "дурну стару опудалу",
+    "why": "опудало is neuter; wrong gender"
+   },
+   {
+    "quote": "смажений мерланг",
+    "why": "the Ukrainian word is мерлан"
+   },
+   {
+    "quote": "Оркестр відпочивав. Тепер вони заграли знову.",
+    "why": "jarring shift in number and tense"
+   },
+   {
+    "quote": "і вона теж, і інші на лавах — вони вступлять",
+    "why": "clunky repeated і"
+   },
+   {
+    "quote": "кому вона треба",
+    "why": "slightly awkward colloquialism"
+   }
+  ],
+  "good": [
+   {
+    "quote": "в ньому був легенький холодок",
+    "why": "delicate, apt image"
+   },
+   {
+    "quote": "щось, що ж це було? — не смуток — ні, не смуток",
+    "why": "keeps the hesitant inner voice"
+   },
+   {
+    "quote": "Так, ми розуміємо, ми розуміємо, думала вона",
+    "why": "touching rhythm"
+   },
+   {
+    "quote": "Герой і героїня, звісно, щойно з яхти його батька.",
+    "why": "captures her fantasy with light irony"
+   },
+   {
+    "quote": "з тією тремтливою усмішкою",
+    "why": "tender and vivid"
+   },
+   {
+    "quote": "Це все її ху-хутро, воно таке смішне",
+    "why": "lively giggling stutter"
+   },
+   {
+    "quote": "зі своєю дурною старою пикою",
+    "why": "cruelty lands hard"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

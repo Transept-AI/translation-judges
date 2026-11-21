@@ -1,0 +1,70 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3181,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 38422
+ },
+ "result": {
+  "reading": "Having told Agnes that he steered Anna toward using her wealth and privilege for others' good, Theodore turns to himself. He does not know what suits him, and he flatly turns down both altruism and service to Seraf's economy, the second even more firmly. The line voices block 8's remark that he has no Plan and no place in the Planes; Agnes mocks it in block 10, and it leads to his admission in block 13 that he has no fallback but the Academy. Blocks 14–19 then show that the Seraf economy he scorns is exactly what would claim him if he left.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "Допомагати Серафській економіці тим паче.",
+    "where": "the second refusal, the one about Seraf's economy, right after he rejects altruism",
+    "what": "The sentence has no verb of its own. It takes the refusal from the sentence before, and its intensifier ranks this second option below the first, so it is an even firmer no. That ranking is the sting of the line: he treats the economic option as a worse imposition than charity. Agnes picks this up in block 10 when she mocks the idea of his ever acting for anyone else. It also sets up the irony of blocks 18–19, where labouring for that economy is the fate of those who leave the Academy.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the sentence about Seraf's economy still a refusal? Does the translation state, or clearly carry forward from the previous sentence, that he does not want to help that economy?",
+      "fail": "Nothing in the sentence states or carries forward the negation, so it reads as neutral or as something he is willing or eager to do."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is the refusal to help the economy marked as stronger than the refusal of altruism, so that he wants it even less?",
+      "fail": "Nothing marks the economy as wanted less than altruism: the two are listed as equal refusals, or the economy comes across as the milder objection."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "Робити добро я не хочу. Допомагати Серафській економіці тим паче.",
+    "where": "his two short refusals: first of altruism, then, more strongly, of helping Seraf's economy",
+    "what": "Both sentences rely on Ukrainian word order and ellipsis. The first puts the refused activity ahead of the verb, which marks it as the thing he rejects, in contrast to Anna. The second keeps only the new object and an intensifier and leaves the reader to supply the refusal. English has no neutral equivalent of either move. A close rendering gives an inverted, object-first refusal or a fragment that ends on a dangling intensifier, and the curt, deadpan delivery turns stiff.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer of English?",
+      "fail": "Any one of these: the refused activity sits before the verb in an inverted order a native writer would not use here; the second refusal is a fragment ending on an intensifier with nothing clear to attach to; the phrasing is stiff in a way an English editor would mark as translated."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "Робити добро",
+    "where": "his first refusal, of the altruistic path he had urged on Anna",
+    "what": "Two blocks earlier Theodore told Agnes he had steered Anna's wealth and standing toward altruism. Here the same notion returns in nearly the same words, and he turns it down for himself. The echo carries the scene's contrast between the two students: she has a plan and a cause, he has neither. Agnes's teasing in block 10 answers it. If the two places are worded as unrelated ideas, the reader no longer hears him rejecting his own advice.",
+    "risk": "medium",
+    "recurs_in": [
+     7
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is what he refuses here recognisably the same notion that the translation gives as the purpose of Anna's path in block 7, so a reader hears him declining for himself what he recommended for her?",
+      "fail": "This line and block 7 express the notion in unrelated ways, for instance one recast as a specific activity, a personal quality or a grand mission that the other does not echo."
+     }
+    ]
+   }
+  ]
+ }
+}

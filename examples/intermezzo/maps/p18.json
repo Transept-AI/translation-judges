@@ -1,0 +1,160 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4906,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 62301
+ },
+ "result": {
+  "reading": "After block 17 waves the procession of the dead along, this paragraph widens it into an endless stream of everyone, enemies and friends, intimates and strangers, the living and the dead, that ignores his plea and keeps tramping through him. It gathers the story's picture of the self as an inn that others overrun and foul (blocks 1–3), the traces earlier occupants left in the house (block 15), and the door he fears will open (block 17). It ends on his resolve to stop his ears, shut his soul and keep shouting a notice that bars the way in. This is the peak of the night's crisis, which breaks in block 19 when he wakes to the cuckoo and real silence.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "А люди йдуть.",
+    "where": "the paragraph's first sentence, right after he has told the procession of the dead to pass on because he is tired",
+    "what": "The previous block ends with him waving the dead along because he is tired. The opening conjunction sets that plea against what happens next, and the verb shows the movement still under way. The procession pays no attention and does not stop. His dismissal is useless, and that futility drives the count that follows and the barricade he resolves on at the end.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the opening sentence convey that the people go on coming regardless of his plea, either by a contrast with it or by an explicit sense of their keeping on?",
+      "fail": "A plain statement that people walk, go or are coming, with no contrast and no keeping on (e.g., 'And people walk.'), or wording that reads as the people going away."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "device",
+    "source": "За одним другий і третій і так без кінця.",
+    "where": "the sentence after the opening, where the people follow one another and he counts them",
+    "what": "This escalation breaks its own scale. He tallies them one by one, a first, a next, a third, as if a count could hold them, and then the count runs out into endlessness. The step-by-step tally makes the endlessness felt rather than merely stated. The endlessness also takes up the endless demands of block 2 and the endless dark the people step out of in block 17.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the translation count the people off individually, reaching at least a third, rather than only saying they come one after another?",
+      "fail": "Only a general succession ('one after another', 'in a stream', 'in crowds'), with no counting up to a third."
+     },
+     {
+      "id": "E2b",
+      "ask": "After the count, does the sequence end by saying it never ends?",
+      "fail": "The endlessness is missing or reduced to 'and so on', or it is stated before the count, so that the count does not run out into it."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "близькі й сторонні",
+    "where": "where the people in the procession are named in two pairs of opposites",
+    "what": "Like the pair before it, this pair is about what the people are to him. It sets those bound to him by blood or affection against those who have nothing to do with him. The point is that everyone, with or without a claim on him, walks through him. A familiar English pairing tempts a fast translator to turn it into distance in space, which drops the people with no tie to him and turns relation into geography.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Does the translation make the second pair a contrast between people close to the narrator and people who are strangers to him?",
+      "fail": "A pair that reads as distance in space (as in the stock 'near and far'), or a second member that is not people unconnected to him."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "кричать у мої вуха криком свого життя або своєї смерти",
+    "where": "where all of them cry their life or their death into the narrator's ears",
+    "what": "The original intensifies the verb with a noun of the same root in the instrumental case. This shape is natural and forceful in Ukrainian and has no everyday counterpart in English. Each voice is not just loud: it utters its whole life, or its death. Rendered closely, the line gives English a verb trailed by its own noun and a run of possessives, which reads as translated. A skilled writer has to find the same force in a shape English uses.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At the spot where all of them cry their life or their death into the narrator's ears, does the translation read as written by a skilled native writer of English?",
+      "fail": "It reads as translated, for example when a verb is echoed by its own noun in a 'with' phrase ('shout with the shout of their life') or when the possessives pile up stiffly."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "double",
+    "source": "всі лишають на душі моїй сліди своїх підошов",
+    "where": "where every passer-by leaves marks on the narrator's soul with their feet",
+    "what": "Ukrainian has a stock phrase for an experience that leaves a trace on the soul, a lasting inner impression. Here the phrase is taken at its word and made physical: the traces are the kind feet leave on a floor people tramp across. The reader gets both senses at once. Every passer-by marks him for good, and does it by walking over him, as the creatures fouled the inn of block 3 and as former occupants left their faces in the mirrors and their shapes in the mattresses in block 15.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does the translation say that something they leave remains on his soul, a mark or trace left behind on his inner self?",
+      "fail": "His soul is only trodden on or walked over, with nothing said to remain on it."
+     },
+     {
+      "id": "E5b",
+      "ask": "Are those marks made by their feet, the kind of marks walking leaves?",
+      "fail": "Only 'marks', 'traces' or 'a mark', with no feet, soles or footwear."
+     },
+     {
+      "id": "E5c",
+      "ask": "Are the footprints themselves what is left on his soul, in one image?",
+      "fail": "The feet and the lasting mark are given as separate things (e.g., they trample him and, separately, leave a mark on his soul)."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "link",
+    "source": "і буду кричати",
+    "where": "the shouting at the end of his final resolve, after he stops his ears and shuts his soul",
+    "what": "The stopping of the ears and the shutting of the soul are each done once and finished. The shouting, set against them, is ongoing: he will be at it again and again, against a procession that has no end. This makes his defence a sentry's endless, futile watch that mirrors the endless stream. Read as one outcry, it shrinks to a single defiant gesture.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the translation make the shouting something he will keep on doing, continuous or repeated, rather than a single outcry?",
+      "fail": "A plain future shout ('and shout', 'and cry out') with nothing marking that the shouting goes on."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "register",
+    "source": "тут вхід не вільний!",
+    "where": "the words he means to shout at the very end, barring the way in",
+    "what": "What he will shout is not his own words but the formula of a notice at an entrance, the kind that tells the public whether they may walk in, here turned to refuse them. The impersonal voice of a posted sign stands against the clamour of personal voices. It also completes the picture of his soul as an inn anyone could tramp through (block 3), now closed by notice.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is what he shouts worded as a notice posted at an entrance, the formula of a sign on a door or gate, rather than ordinary speech addressed to the intruders?",
+      "fail": "Plain speech, such as telling them not to come in, to go away or to leave him alone."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "hinge",
+    "source": "вхід не вільний",
+    "where": "the words he means to shout at the very end, barring the way in",
+    "what": "The notice turns round the formula that announces open entry. In the scene the sense is access: the way in is no longer open to whoever comes. A close English rendering lands instead on price, so the line reads as a notice that one must pay to get in, as if his soul now charged a fee. Nothing in the scene supports that reading.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Does the translation make the shout a bar on entry, closing the way in to those who would walk in, with no reading that entry costs money?",
+      "fail": "The plain English sense is a fee: entry, entrance or admission is said to be 'not free', or the line says 'no free entry'."
+     }
+    ]
+   }
+  ]
+ }
+}

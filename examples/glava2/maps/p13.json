@@ -1,0 +1,69 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3183,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 38818
+ },
+ "result": {
+  "reading": "Theodor replies to Agnes's jab that he never weighs doing anything not for himself, and to her remark that Anna can afford anything (block 10): the only thing open to him is to keep studying, and staying goes against his own wishes. His first sentence completes the plan series of blocks 7–8 (Anna has her plan; he has no Plan and no place in the Planes). Block 14 turns his words with the narrator's verdict that he can no longer afford to leave. Blocks 15–19 lay out the debt trap behind that verdict, and block 20 shows Agnes letting him stew in it.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "Для себе",
+    "where": "Theodor's second sentence, at the phrase that says for whom, or by whose wishes, he would long since have left the Academy",
+    "what": "Agnes has just teased him that he would never seriously weigh doing anything that isn't for himself (block 10). He takes her own notion and turns it back on her. Judged by his own interest he would be gone already, so staying at the Academy is the one exception to the selfishness she credits him with. The phrase names himself as the person the choice would serve. It is not a marker of opinion or of who decides. If it becomes either, the retort to Agnes vanishes and the line reads as a generic grumble.",
+    "risk": "high",
+    "recurs_in": [
+     10
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the translation present leaving the Academy as what he would do if he acted for himself (in his own interest or by his own wishes), so that it is recognisably the same self-interest notion as Agnes's jab in block 10 about doing something not for himself?",
+      "fail": "There is no notion of acting for himself. The phrase becomes a marker of personal opinion, or a statement about who gets to decide or about having a free hand, or it is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "плану Б",
+    "where": "Theodor's first sentence, where he names continuing his studies at the Academy as the only thing open to him",
+    "what": "Blocks 7 and 8 build a short series on one word. Anna at least has her plan; the narrator answers that Theodor had none. Block 8 capitalises the word so that it also sounds like this world's cosmological Planes, where he has no place either. Here Theodor closes the series in his own voice with the everyday idiom for a reserve option, and the only reserve he can name is to go on studying. A reader of the original hears the third beat of the series. If the reserve is phrased without the notion of a plan, his line no longer answers Anna's plan or his own missing one.",
+    "risk": "medium",
+    "recurs_in": [
+     7,
+     8
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "In his statement that continuing at the Academy is all that is open to him, is the reserve expressed through the notion of a plan, so that it is recognisably the same notion as Anna's plan (block 7) and the Plan Theodor lacks (block 8)?",
+      "fail": "The reserve is expressed only as an option, alternative, choice, way out or something to fall back on, with no notion of a plan; or the clause is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "link",
+    "source": "я б давно пішов",
+    "where": "Theodor's second sentence, where he says when he would have left the Academy",
+    "what": "The conditional is set in the past and pushed far back. His wish to leave is old and dates from a time when leaving was still affordable. Block 14 answers that he can no longer afford it. Block 18 explains why: after the fourth circle the debt can never be repaid, and Theodor is at the end of his fourth (blocks 3, 20). If the wish becomes a present-tense hypothetical, the reader loses two things: that he has already stayed past the point of escape, and that this is a settled wish rather than a passing mood.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Does the translation place his hypothetical leaving far back in the past, as something that would have happened long since, rather than as something he would do now or wants to do?",
+      "fail": "Leaving appears only as a present or future hypothetical or as a current wish, or the sense that it would have happened a long time ago is lost."
+     }
+    ]
+   }
+  ]
+ }
+}

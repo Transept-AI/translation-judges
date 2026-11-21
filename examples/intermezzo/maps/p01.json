@@ -1,0 +1,180 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 565,
+  "cache_read_input_tokens": 6364,
+  "output_tokens": 72626
+ },
+ "result": {
+  "reading": "The narrator explains the exhaustion he has just confessed at the end of block 0: life, his own and other people's, breaks over him like surf, the line between self and others dissolves, he can neither avoid people nor be alone, and he ends by envying the planets their unobstructed orbits. The two declarations of inability are the text's refrain. Block 2 repeats them, and blocks 4 and 17 recall them. The generic human he keeps meeting on his road is the figure that block 2 turns on and addresses as 'you'. His doubt about where his own life ends returns in the same words at block 17, when the people he cannot keep out walk in from the dark.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "Бо",
+    "where": "the opening of the paragraph, the sentence that compares life to a wave and him to the shore",
+    "what": "The paragraph opens on a causal conjunction that reaches back across the paragraph break to the last sentence of block 0, where he says he is worn out. Everything that follows is offered as the reason for that exhaustion: life breaking over him, other existences entering his, solitude made impossible. Without the tie, block 0's confession is left unexplained and this paragraph starts as a new topic.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the opening sentence marked as explaining something already said, namely the weariness declared at the end of the previous paragraph?",
+      "fail": "Nothing marks it as a reason or explanation; it reads as a fresh, free-standing statement about life."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "життя безупинно і невблаганно іде на мене, як хвиля на берег",
+    "where": "the opening sentence: what life does to him, likened to what a wave does to a shore",
+    "what": "This verb with this preposition is the one used of an army or the sea moving against something. Life is the assailant, he is the target, and the simile makes him the shore that wave after wave strikes. A fast reader can take subject and verb as the everyday phrase for life simply going on, or let life merely arrive at him. Either way the onslaught is lost, and with it the ground for block 2, where the same pressure becomes a master, a beast and a vampire.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is life shown moving against him, so that he is what it strikes or presses on, as the wave strikes the shore?",
+      "fail": "Life is said only to go on, continue or pass (time going by); or he is merely its destination (it comes to, reaches or arrives at him) rather than its target; or the verb phrase is broken English."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "Не тільки власне, а і чуже. … а чуже починається … чуже існування входить в моє",
+    "where": "the three mentions of the other life: that it too bears on him, where it begins, and the existence that enters his",
+    "what": "Set against 'own', the adjective means belonging to other people. The paragraph is about where his life stops and other people's begins, and two sentences later it names them: the people he cannot avoid. The word's other senses (strange, foreign, alien) drop those people. In a paragraph that turns to planets and orbits a moment later, a word whose first English association is extraterrestrial life also sends the reader the wrong way.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Across the three mentions of the other life, is it marked at least once as belonging to other people?",
+      "fail": "Every mention is only an alien, foreign or strange life or existence, with nothing tying it to other people."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "хіба я знаю, де кінчається власне життя, а чуже починається?",
+    "where": "the question of where his own life ends and another's begins",
+    "what": "The question is rhetorical and in the first person: he admits he does not know where the boundary lies. The same words open block 17, twice over, when he asks himself whether the doors of the dark rooms may open and people come out. The doubt planted here returns at the moment the people he cannot keep out arrive.",
+    "risk": "medium",
+    "recurs_in": [
+     17
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the doubt about the boundary voiced as his own not-knowing, a first-person admission that he does not or cannot know, recognisably the same doubt he repeats at block 17?",
+      "fail": "It is made impersonal or general, with no 'I' who does not know (for example a general 'who can say', or a bare question about where one life ends); or it is turned into a flat claim that there is no boundary, or into a claim that he does know."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "hinge",
+    "source": "Я не можу розминутись з людиною.",
+    "where": "the first of the two short declarations of what he cannot do, the one about people",
+    "what": "The verb names what two people do when they pass each other on a narrow way without colliding. Denied it, he is a man for whom every encounter is unavoidable. It belongs with the road imagery the paragraph closes on: orbits, a road never blocked, his own crowded path. The verb's neighbouring senses (failing to meet, parting company) tempt English wordings that say he cannot separate from people or would feel their absence, the reverse of a man who wants them out of his way.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does the line clearly say that he cannot avoid encountering people, with no reading in which he is attached to them?",
+      "fail": "The wording means that he cannot part from people or cannot do without them, or it rests on a verb that can be read as feeling their absence, so that unavoidable encounter is not the clear sense."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "Я не можу бути самотнім.",
+    "where": "the second short declaration of what he cannot do, the one about solitude",
+    "what": "The adjective here names the condition of having no one with him: the solitude he wants, is refused here, and begs for outright at block 4. Its other sense is the painful feeling of isolation. Read that way, the line says he is spared loneliness, which turns the complaint into something close to its opposite.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the line say that he cannot be alone, in the sense of by himself or in solitude, rather than that he cannot be lonely?",
+      "fail": "It uses lonely or loneliness, or any wording for the painful feeling of isolation rather than the condition of having no one with him."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "motif",
+    "source": "Я не можу розминутись з людиною. Я не можу бути самотнім.",
+    "where": "the two short declarations of what he cannot do, between the image of tributaries and his envy of the planets",
+    "what": "These two inabilities are the text's refrain. Block 2 repeats them almost word for word, now flung at humankind as 'you' and trailing off. Block 17 recalls the first when the living and the dead crowd in on him out of the dark, and block 4 asks who will grant him the second. What makes them a refrain is the modality: each is something he is unable to do, not merely something that happens to him. Recast as plain fact, the second can even sound like comfort.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     4,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the line about people kept as an inability, something he cannot do, recognisably the line he repeats to 'you' at block 2 and recalls at block 17?",
+      "fail": "It is dropped, or recast as a fact or habit (he keeps meeting people, people are always around him) instead of an inability. The sense of the verb is checked under E5."
+     },
+     {
+      "id": "E7b",
+      "ask": "Is the line about being alone kept as an inability, something he cannot be, recognisably the line he repeats at block 2?",
+      "fail": "It is dropped, or recast as a fact or frequency (he is never alone, he is always among people) instead of an inability. Alone versus lonely is checked under E6."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "hinge",
+    "source": "з людиною … стрічаю людину",
+    "where": "where he names whom he cannot avoid, and the paragraph's last words, naming whom he meets everywhere on his path",
+    "what": "The noun is singular but generic: the human being as such, humankind met in every passer-by. Block 2 opens by turning on exactly this figure and addressing it as a single 'you' (feminine in the original, agreeing with the noun) who blocks his road, fills the world with stench and din, and drinks his blood. If the English names one individual, he seems to keep running into one particular person, and block 2's 'you' seems to be that person.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "At both places (whom he cannot avoid, and whom he meets on his path at the end), is the human presence people or humankind in general?",
+      "fail": "At either place it is an indefinite singular (a person, a man, someone, or the like), which reads as one individual."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "hinge",
+    "source": "на своїй",
+    "where": "the last sentence, where he turns from the planets' paths to his own",
+    "what": "The bare possessive stands for his own path or orbit, the counterpart of the planets' road, which is never blocked. Theirs is clear; his is crowded. English has a ready idiom made of the same words that means being by oneself. Read that way, he meets people precisely when he is alone, a nonsense that breaks the antithesis. Block 2 opens by taking up this road: the 'you' is what stands on it.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Is it clear that he is speaking of his own path or orbit, set against the planets', and not of being by himself?",
+      "fail": "The wording reads as 'by myself' or 'alone' (the idiomatic sense of 'on my own'), or nothing indicates that a path or orbit is meant (for example, it reads as 'for my part')."
+     }
+    ]
+   },
+   {
+    "id": "E10",
+    "type": "construction",
+    "source": "Тоді як на своїй я скрізь і завжди стрічаю людину.",
+    "where": "the paragraph's last sentence, setting his own crowded path against the planets' clear orbits",
+    "what": "Here he sets his own path, where he meets people in every place and at every moment, against the planets' unobstructed orbits. The original gives this contrast a sentence of its own. It opens with a contrastive conjunction, fronts an elliptical possessive, and puts the two totalising adverbs (place and time) before the verb, all unmarked in Ukrainian. Carried straight over, it leaves English with a subordinate clause standing alone as a sentence and adverbs wedged between subject and verb, at the point where the paragraph should close on a clean contrast.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E10a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "A contrastive subordinate clause is left standing as a sentence with no main clause, adverbs are wedged between subject and verb, or the word order otherwise reads as translated rather than written in English."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,934 @@
+{
+ "judge": "checker",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "de492ec1504c",
+ "usage": {
+  "input_tokens": 86,
+  "cache_creation_input_tokens": 55814,
+  "cache_read_input_tokens": 601418,
+  "output_tokens": 15180
+ },
+ "result": {
+  "paragraphs": [
+   {
+    "n": 0,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Agnes met Theodor in her office",
+      "why": "The visitor is Theodor, a male name, and the office is hers."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "an emerald outfit",
+      "why": "It is called an outfit, not a dress or robe."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "buttoned up to the throat",
+      "why": "The collar reaches the throat."
+     },
+     {
+      "id": "E4b",
+      "answer": "yes",
+      "quote": "a severe collar",
+      "why": "'Severe' gives the collar strictness."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "from which straps fell to support her full breasts",
+      "why": "Straps are parts of the garment and bear the weight."
+     },
+     {
+      "id": "E6a",
+      "answer": "partly",
+      "quote": "full breasts, moderately styled",
+      "why": "'Moderately' now qualifies the styling, not the size, so the concession that limits fullness is blurred."
+     },
+     {
+      "id": "E6b",
+      "answer": "yes",
+      "quote": "moderately styled",
+      "why": "'Styled' appeals to style rather than size alone."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "dotted with moles",
+      "why": "Moles are small dark spots on the skin."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "when Agnes laughed or drew on a cigarette. The magess loved both.",
+      "why": "'Both' follows directly on the two activities and most naturally refers to them."
+     },
+     {
+      "id": "E10a",
+      "answer": "yes",
+      "quote": "The magess",
+      "why": "The feminine form of 'mage' makes her one of the book's mages."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 1,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Agnes did exactly both.",
+      "why": "'Both' echoes 'The magess loved both' and points back to the laughing and smoking as a pair."
+     },
+     {
+      "id": "E2a",
+      "answer": "no",
+      "quote": "Agnes did exactly both.",
+      "why": "The simple past with 'exactly' reads as emphasis or a general fact; nothing places the actions at that moment in the scene."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 2,
+    "checks": [
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "gold nails made of remelted etons",
+      "why": "Same currency name 'etons' as at block 15 ('Hundreds of etons')."
+     },
+     {
+      "id": "E4a",
+      "answer": "partly",
+      "quote": "the Pigsty's discipline regarding high collars and robes",
+      "why": "'Discipline' suggests regimentation, but it is a general word that misses the barracks-drill register."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "the Pigsty's",
+      "why": "Capitalised and used as a proper name."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "the Pigsty's",
+      "why": "'Pigsty' is plainly a place where pigs are kept."
+     },
+     {
+      "id": "E5c",
+      "answer": "yes",
+      "quote": "the Pigsty's",
+      "why": "The meaning is carried by the English name itself, with no gloss."
+     },
+     {
+      "id": "E6a",
+      "answer": "partly",
+      "quote": "was upheld by resident mages who had already graduated, right up to gray hair and the grave",
+      "why": "'Upheld by' can read as the residents maintaining or enforcing the drill. Their own lifelong adherence is implied by the span but never stated outright."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "right up to gray hair",
+      "why": "Old age is shown through gray hair."
+     },
+     {
+      "id": "E7b",
+      "answer": "yes",
+      "quote": "and the grave",
+      "why": "The span ends at the grave."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "Agnes's green robe on the hanger",
+      "why": "'Robe' matches the 'robes' of the drill."
+     },
+     {
+      "id": "E8b",
+      "answer": "yes",
+      "quote": "covered in sequins that threw the morning sun across the walls like an emerald disco ball",
+      "why": "The sequins throw the sunlight onto the walls."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 3,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Agnes could afford to dress brightly",
+      "why": "'Could afford' frames her freedom as means and cost."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "like that Volevichka",
+      "why": "The demonstrative 'that' marks her as a known, talked-about figure in a gossipy way."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "whether a student was worthy to advance",
+      "why": "'Worthy' frames the decision as a judgment of merit."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "at the end of the fourth circle",
+      "why": "'Circle' is a distinctive in-world rank term, used consistently ('fifth circle')."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "all the way to expulsion or graduation",
+      "why": "'All the way' stresses that the control reaches to the very end."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 4,
+    "checks": [
+     {
+      "id": "E2a",
+      "answer": "no",
+      "quote": "a great many very juicy rumors",
+      "why": "The number gets only the single quantifier 'a great many'; the second intensifier was moved onto 'juicy'."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "utterly unworthy in every way",
+      "why": "'Unworthy' keeps the notion of worth."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "did not even have a fifth-circle diploma",
+      "why": "'Even' marks the diploma as the minimum."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "she had not served her ten years as a combat magess either",
+      "why": "'Either' marks the service rumour as a further failing."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "according to the rumors, she had not served her ten years",
+      "why": "The service claim is attributed to rumour."
+     },
+     {
+      "id": "E6b",
+      "answer": "yes",
+      "quote": "Agnes did not even have a fifth-circle diploma, and, according to the rumors,",
+      "why": "The hearsay marker comes after the diploma clause, which stands as fact."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "she had not served her ten years",
+      "why": "Reads as failing to complete the term, not as time elapsed since service."
+     },
+     {
+      "id": "E7b",
+      "answer": "yes",
+      "quote": "served her ten years as a combat magess",
+      "why": "'Her ten years' with 'served' marks a fixed term she owed."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "in the rectorate",
+      "why": "'Rectorate' names the rector's administration, not a rectory."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "Two more added",
+      "why": "'Two more' makes these versions additional to the three."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 5,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "For Agnes infuriated Anna beyond measure.",
+      "why": "'For' ties Anna's fury back to her knowing every rumour."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "Especially since",
+      "why": "'Especially since' marks the binning as a heightened grievance."
+     },
+     {
+      "id": "E4a",
+      "answer": "partly",
+      "quote": "the discharge sheets for the elective courses",
+      "why": "Tied to courses, but 'discharge sheets' carries the hospital sense and blurs the academic paperwork."
+     },
+     {
+      "id": "E4b",
+      "answer": "yes",
+      "quote": "for the elective courses",
+      "why": "'Elective courses' are opted-into courses."
+     },
+     {
+      "id": "E5a",
+      "answer": "no",
+      "quote": "assigned to Agnes to torment Theodor",
+      "why": "The papers read as assigned to Agnes, not set by her."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "were tossed by the tutor into the trash bin",
+      "why": "Agnes is named by her office, 'the tutor'."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "with a flick of her gold nails",
+      "why": "The gold nails from block 2 recur."
+     }
+    ],
+    "other": [
+     {
+      "quote": "the reports on Theodor",
+      "change": "These are now reports about Theodor rather than reports he wrote, so the binned paperwork is no longer his own work.",
+      "weight": 1
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "partly",
+      "quote": "in Agnes's office, she and Theodor were discussing Anna's future",
+      "why": "Two people are named, but 'she' follows a sentence where 'she' was Anna. Only the nearby 'Agnes's office' and 'Anna's future' point the reader to Agnes."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "Anna did not even know",
+      "why": "'Even' intensifies her ignorance."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "did not even know",
+      "why": "The verb 'know' echoes her knowing all the rumours."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 7,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "no",
+      "quote": "making the Plans better",
+      "why": "'Plans' is the ordinary English word for plans. Capitalised, it still reads as improving plans, with nothing here giving it a cosmic sense."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "making the Plans better, that is her choice. But at least Anna has a plan of her own.",
+      "why": "'Plans' and 'plan' share the same form."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "the Plans",
+      "why": "The same term recurs at block 8 ('a place in the Plans') and block 18 ('the Plans' secrets')."
+     },
+     {
+      "id": "E4a",
+      "answer": "no",
+      "quote": "If she wants to do good",
+      "why": "A bare condition with no marker of how badly she wants it."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "dispose of her capital and privileges differently",
+      "why": "'Capital' is a finance term for an asset base."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "the Faculty of Medicine",
+      "why": "A department she would join, not a post."
+     }
+    ],
+    "other": [
+     {
+      "quote": "If she wants to do good by making the Plans better, that is her choice.",
+      "change": "In the original, Theodore advises Anna to use her capital and privileges differently so as to do good, if she is so set on bettering the Plans. The translation cuts the purpose link and adds 'that is her choice', so his reasoned advice becomes a shrug of indifference.",
+      "weight": 3
+     }
+    ]
+   },
+   {
+    "n": 8,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "He, Theodor, had no plan.",
+      "why": "States that he lacks a plan of his own, against Anna's plan just before."
+     },
+     {
+      "id": "E1b",
+      "answer": "partly",
+      "quote": "Not even a place in the Plans.",
+      "why": "Block 18 ('the Plans' secrets', 'the True Plan') ties the word to levels of existence, but here it reads just as easily as not figuring in anyone's plans."
+     },
+     {
+      "id": "E1c",
+      "answer": "yes",
+      "quote": "had no plan. Not even a place in the Plans.",
+      "why": "The same word, 'plan' and 'Plans'."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "in the Plans",
+      "why": "Matches 'the Plans' in block 7 and block 18."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "He, Theodor,",
+      "why": "The restated name sets him against Anna."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 9,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Helping the Seraphic economy is even less appealing.",
+      "why": "'Less appealing' carries the refusal forward."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "even less appealing",
+      "why": "'Even less' ranks it below altruism."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "I don't want to do good.",
+      "why": "'Do good' echoes block 7's 'If she wants to do good'."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 10,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "doing something not for yourself",
+      "why": "The negation is kept: acting for others rather than himself."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "not for yourself",
+      "why": "Framed by whom the act is for."
+     },
+     {
+      "id": "E3a",
+      "answer": "partly",
+      "quote": "Anna can truly afford to do whatever she likes.",
+      "why": "'Truly' adds emphasis but no contrast, so the turn against Theodore is faint."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "can truly afford",
+      "why": "'Afford' keeps the notion of cost covered by means."
+     }
+    ],
+    "other": [
+     {
+      "quote": "Her share won't change because of it.",
+      "change": "'Доля' here means fate or destiny. 'Share' turns the claim that Anna's fate is secure into a vaguer remark about her portion, which reads as money or an inheritance.",
+      "weight": 1
+     }
+    ]
+   },
+   {
+    "n": 11,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "The magess sat on the windowsill of her office",
+      "why": "Her title from blocks 0 and 4 with 'her office' makes clear it is Agnes."
+     },
+     {
+      "id": "E2a",
+      "answer": "no",
+      "quote": "a long rod of redwood",
+      "why": "'Redwood' is the conifer, not mahogany."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "In the office, however,",
+      "why": "'However' marks the sentence as a qualifying afterthought."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "a rapier of mushistal",
+      "why": "A transliterated, distinct material."
+     }
+    ],
+    "other": [
+     {
+      "quote": "a long rod",
+      "change": "A teacher's pointer becomes a generic rod, so the one teaching tool left in the bare office is lost.",
+      "weight": 1
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "during her tête-à-têtes with Theodor",
+      "why": "The French loanword keeps the society register and the hint of intimacy."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "Agnes said that this was how she relaxed during her tête-à-têtes with Theodor, since he needed the least supervision of all.",
+      "why": "The reason sits inside her reported speech."
+     },
+     {
+      "id": "E3a",
+      "answer": "no",
+      "quote": "the least supervision of all",
+      "why": "'Supervision' does not share 'tutor' (blocks 3 and 5) and is not tied to her post."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "the least supervision of all",
+      "why": "'Least of all' places him at the extreme low."
+     },
+     {
+      "id": "E4b",
+      "answer": "yes",
+      "quote": "she gave it her all",
+      "why": "'Gave it her all' is the maximum degree."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 13,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "partly",
+      "quote": "For myself, I would have left the Academy long ago",
+      "why": "It echoes 'not for yourself', but sentence-initial 'For myself,' also reads as 'speaking for myself', so the self-interest sense is blurred."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "I have no plan B",
+      "why": "'Plan B' keeps the notion of a plan."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "I would have left the Academy long ago",
+      "why": "A past conditional pushed far back with 'long ago'."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 14,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "could no longer afford to leave",
+      "why": "'Afford' is about means, not self-restraint or a ban."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "could no longer afford",
+      "why": "The same 'afford' refrain as blocks 3, 10 and 18."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "no longer",
+      "why": "'No longer' marks the change of state."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 15,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Hundreds of etons.",
+      "why": "Same coined name and spelling as block 2's 'remelted etons'."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "And so at the entrance examinations",
+      "why": "'And so' marks the consequence."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "not only for a place at the Academy but for the Royal Grant",
+      "why": "'Not only… but' makes the grant a further stake on top of admission."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "the Royal Grant: the Gold Academician's Card",
+      "why": "The colon renames the grant as the card."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "the Gold Academician's Card",
+      "why": "'Academician' matches block 18's 'accredited Academicians'."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 16,
+    "checks": [
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "a subseraph",
+      "why": "A coined term built on Seraph's name."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "The Card's limit widened",
+      "why": "'Limit' reads as the card's spending ceiling."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "with every circle completed",
+      "why": "The same unit, 'circle', as elsewhere."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "live in Seraph on an ever grander scale",
+      "why": "'Grander scale' conveys free-spending luxury."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "on an ever grander scale",
+      "why": "'Ever grander' grows with the limit."
+     },
+     {
+      "id": "E6b",
+      "answer": "yes",
+      "quote": "ever more expensive tuition fees",
+      "why": "The fees keep rising."
+     },
+     {
+      "id": "E6c",
+      "answer": "yes",
+      "quote": "allowing one to live in Seraph on an ever grander scale and to pay ever more expensive tuition fees",
+      "why": "Paying the fees is listed deadpan as a second thing the limit allows."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "For Academy residents",
+      "why": "Recognisable as the resident mages of block 2."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "the Card even covered expenses such as designer clothing and cozy homes",
+      "why": "'Even' marks these as the surprising far end."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 17,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "partly",
+      "quote": "one could even never pay interest",
+      "why": "The odd 'could even never pay' most likely means one was able not to pay, but it can slide toward 'could never pay', meaning inability."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "one could even never pay",
+      "why": "'Even' marks the surprising extreme."
+     },
+     {
+      "id": "E1c",
+      "answer": "yes",
+      "quote": "never pay interest",
+      "why": "'Never' gives the full time scope."
+     },
+     {
+      "id": "E3a",
+      "answer": "no",
+      "quote": "on a debt that grew endlessly",
+      "why": "The indefinite 'a debt' has nothing tying it to the card's spending."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "that grew endlessly",
+      "why": "Ongoing growth that does not stop."
+     },
+     {
+      "id": "E3c",
+      "answer": "yes",
+      "quote": "on a debt that grew endlessly. For nothing in Seraph was ever given freely.",
+      "why": "Nothing announces the loan or calls it a trap."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "nothing in Seraph was ever given freely",
+      "why": "'Given freely' carries the notion of no free gifts."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "For nothing in Seraph",
+      "why": "'For' gives the reason."
+     },
+     {
+      "id": "E5b",
+      "answer": "partly",
+      "quote": "nothing in Seraph was ever given freely",
+      "why": "'Absolutely' is dropped; only 'ever' adds some emphasis."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 18,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "The problem was only staying at the Academy",
+      "why": "'Only' minimises the catch."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "which was not so simple",
+      "why": "A mild concession."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "Starting from the second circle",
+      "why": "The same 'circle' term."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "one could say goodbye to any hope of repaying debts",
+      "why": "Loss of hope is explicit."
+     },
+     {
+      "id": "E5a",
+      "answer": "partly",
+      "quote": "the study of the Plans' secrets, poetry, or metaphysical wandering through the thin layers of the True Plan",
+      "why": "Context hints at something cosmic, but 'Plans' and 'True Plan' are the ordinary English word for plans and can read as schemes."
+     },
+     {
+      "id": "E6a",
+      "answer": "no",
+      "quote": "the thin layers",
+      "why": "'Thin' is physical thinness, with no esoteric sense of the subtle or immaterial."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "could afford",
+      "why": "The same 'afford' refrain."
+     },
+     {
+      "id": "E8a",
+      "answer": "partly",
+      "quote": "Those were pursuits that accredited Academicians supported by Seraph could afford.",
+      "why": "'Afford' hints at privilege, but no word confines the pursuits to this group."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "supported by Seraph",
+      "why": "'Supported' shows that Seraph pays for them."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 19,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "After all, someone had to",
+      "why": "'After all' presents the list as the obvious justification."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "Torture demons.",
+      "why": "Deliberately inflicting suffering, the same notion as block 5's 'torment'."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "Struggle against the Disorder, patching holes in the fabric of the world",
+      "why": "Holes in the fabric of the world give the cosmic scale."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "patching holes",
+      "why": "'Patching' is humble, makeshift repair."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "Sort through what was gathered from the Shards by scavengers for treasures",
+      "why": "Scavengers gather the stuff; the mage sorts through their haul."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "for treasures, or at least for LED bulbs",
+      "why": "'Or at least' marks the bulbs as a lowered fallback."
+     },
+     {
+      "id": "E6b",
+      "answer": "yes",
+      "quote": "LED bulbs",
+      "why": "Cheap modern electric bulbs."
+     },
+     {
+      "id": "E7a",
+      "answer": "no",
+      "quote": "Carve heart-healing elixirs' ingredients out of corpses",
+      "why": "What is cut out is unspecified 'ingredients', not hearts."
+     },
+     {
+      "id": "E7b",
+      "answer": "no",
+      "quote": "heart-healing elixirs",
+      "why": "The potions become heart remedies."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 20,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "no",
+      "quote": "Agnes waited for a pause",
+      "why": "She waits for a pause to occur instead of holding her own silence."
+     },
+     {
+      "id": "E1b",
+      "answer": "no",
+      "quote": "long enough for effect",
+      "why": "Merely a dramatic pause, with no storytelling 'exposition' sense."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "marinate himself",
+      "why": "The kitchen image is kept."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "letting Theodor marinate himself",
+      "why": "Theodor acts on himself; Agnes only lets it happen."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "had been expelled from the Academy",
+      "why": "'Expelled' is a forced exit."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "even before the fifth circle",
+      "why": "'Even' stresses how low the bar is."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "the fifth circle",
+      "why": "The same 'circle' term as blocks 3, 4, 16 and 18."
+     }
+    ],
+    "other": []
+   }
+  ]
+ }
+}

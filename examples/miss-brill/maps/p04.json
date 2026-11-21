@@ -1,0 +1,167 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4793,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 87285
+ },
+ "result": {
+  "reading": "Disappointed by her silent, statue-still bench-mates, Miss Brill shrugs off the letdown, as she shrugged off the fur's knocked nose in block 0, and turns to the Sunday crowd: a fond, gently comic panorama of promenaders, dressed-up children and a tottering toddler rescued by its hen-like mother. She then sizes up the other regulars on the benches with amused superiority: peculiar, laughable, silent, mostly old, as if just let out of small dark rooms or even cupboards. Every touch fits her: block 8 makes her a Sunday regular with a part, blocks 12–13 call her old and find her fur the laughable thing, and block 17 sends her home to a small dark room likened to a cupboard. The paragraph plants the judgement that will rebound on her, so its key words must be recognisable when they return.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "Never mind, there was always the crowd to watch.",
+    "where": "right after the old couple are described as sitting motionless, where Miss Brill turns from them to watching the crowd",
+    "what": "This is Miss Brill's own voice waving away a small disappointment. The couple beside her will not talk, so there is nothing to overhear, and she cheerfully settles for the passing show instead. She gave exactly this quick, self-consoling shrug in block 0, over the knocked nose of her fur; not minding is her habit. Hearing it twice prepares the blow in blocks 12–13, which she cannot wave away. If it becomes a narrator's neutral link word, both her voice and the echo are lost.",
+    "risk": "medium",
+    "recurs_in": [
+     0
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the turn to the crowd open with Miss Brill's own brisk, self-consoling dismissal of the disappointment, the same kind of shrug as her dismissal of the fur's damaged nose in block 0?",
+      "fail": "It is a narrator's neutral connective of contrast or addition, or it is dropped, or it becomes a sigh of resignation rather than a cheerful shrug."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "register",
+    "source": "a tiny staggerer came suddenly rocking ... sat down “flop,”",
+    "where": "the toddler who wobbles out from under the trees and plumps down on the ground",
+    "what": "The level here is nursery-comic. The child is named after its wobbly gait in a playful one-off coinage, and its sit-down gets a nursery sound-word, the way a nanny or a fond onlooker would say it aloud. This is Miss Brill's affectionate, amused way of seeing, and it turns the moment into a tiny comic turn in the show she is watching. Standard words for a small child and for sitting down flatten it into plain report.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the toddler referred to by a playful, coined or jocular word, rather than a standard word for a small child?",
+      "fail": "A standard word for a child, baby, toddler or little one is used, even if its unsteady walk is described separately."
+     },
+     {
+      "id": "E2b",
+      "ask": "Is its sudden sitting-down given a comic bump, through a sound-word or a vivid plopping or thudding verb?",
+      "fail": "It simply sits or falls down in neutral words, with no sound and no plop."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "its small high-stepping mother, like a young hen",
+    "where": "where the toddler's little mother comes hurrying up like a young hen",
+    "what": "Her gait is what makes the hen comparison work. She is small and lifts her feet high, picking her way along as a hen does, then rushes in fussing and scolding: a fond comic sketch. The compound also has figurative uses, for a lively horse or for a person cutting a dash, and it can be misread as height or as high heels. Most often a hurried translator simply drops it and keeps only the hen, and the comparison loses its visual reason.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the mother's walk described with a step that suits the hen comparison: high, prancing, picking or mincing?",
+      "fail": "No gait is given, or the word becomes tallness, haughtiness or pride, or high-heeled shoes."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "until its small high-stepping mother, like a young hen, rushed scolding to its rescue",
+    "where": "the end of the toddler episode, where its little mother hurries up, scolding, to rescue it",
+    "what": "The English piles two modifiers before the noun for the mother, inserts a comparison after it, adds a participle of manner and ends on a phrase of purpose. All of this sits in a clause that closes a long chain of the toddler's actions. Followed closely, the Ukrainian ends up with a block of modifiers in front of the noun, a calqued active participle for her gait and a clause crowded with insertions. A skilled writer spreads these details out.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At the spot where the toddler's little mother hurries up like a young hen to rescue it, does the translation read as written by a skilled native writer?",
+      "fail": "The noun for the mother is preceded by a stack of modifiers, or her gait is given as an active present participle of the calqued kind Ukrainian style avoids, or the clause is so crowded with inserted descriptions that it has to be reread to follow."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "motif",
+    "source": "there was something funny about nearly all of them",
+    "where": "where Miss Brill sums up what she has often noticed about the people on the other benches",
+    "what": "The word covers both what is peculiar and what makes one smile: these regulars strike her as odd, they amuse her, and she relishes it. The story keeps this word for what she finds quaint and comic, such as the peasant women's hats and the whiskered old man hobbling in time to the music in block 7. In block 13 the giggling girl turns it on Miss Brill herself, and her fur is the laughable thing. A reader of the original hears the judgement come back at her; if the word here means only strangeness, the link to block 13 is cut.",
+    "risk": "high",
+    "recurs_in": [
+     7,
+     13
+    ],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does the word for what Miss Brill finds odd about these people carry a note of the comic or laughable (the same judgement that will later be passed on her fur), and not only of strangeness?",
+      "fail": "It conveys only strangeness, unusualness or something being wrong with them, with no hint that they are also comical."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "from the way they stared they looked as though",
+    "where": "where Miss Brill infers, from how these bench-sitters look at things, where they must have come from",
+    "what": "Her fancy is set off by their stare, the fixed, blank gaze of people dazzled after darkness. The stare is the evidence and the dark rooms are the inference. The toddler has just done the same, stopping to stare as it comes out from under the trees into the open, and the old ones are like it, newly brought out into the light. A hurried rendering merges the staring and the impression it gives into a general remark about how they look, and the gaze disappears.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is it their way of staring (their gaze) that makes them seem to have just come out of the dark?",
+      "fail": "The cue becomes their general look or appearance, with nothing about how they gaze."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "motif",
+    "source": "they’d just come from dark little rooms or even—even cupboards!",
+    "where": "the end of the paragraph, where Miss Brill imagines where these silent old people are kept for the rest of the week",
+    "what": "She pictures the regulars stored away in small dark rooms or, more absurdly, in cupboards, like things put away between outings, or like her fur in its box in block 0. Block 17 brings the picture home: she climbs to her own small dark room, which is likened to a cupboard, and shuts the fur back in its box. The reader sees that she has described herself only if the small dark room and the storage cupboard here are recognisably the same as there.",
+    "risk": "medium",
+    "recurs_in": [
+     17
+    ],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Are the rooms both dark and small, the same picture as Miss Brill's own room in block 17?",
+      "fail": "Darkness or smallness is missing, or the rooms become a different kind of place."
+     },
+     {
+      "id": "E7b",
+      "ask": "Is the final place a cupboard or closet, a storage space where things are shut away?",
+      "fail": "It becomes a place that is not for storing things: a nook or corner, an animal's den or burrow, a cell, a cellar or a crypt."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "device",
+    "source": "or even—even cupboards!",
+    "where": "the last words of the paragraph, where Miss Brill caps the dark rooms with a still more absurd place",
+    "what": "Her fancy climbs one step further. First come the rooms, then, after a catch of breath and relish, the cupboards, which are more absurd and so funnier. It comes out as her own delighted exclamation at her cleverness. The relish matters: she is gleefully superior about people exactly like herself, and in block 13 the giggling girl will be just as amused at her. If the cupboards are offered as a calm alternative, the punchline is gone.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Is the cupboard presented as going further than the rooms, as an intensification rather than an equal alternative?",
+      "fail": "Rooms and cupboards stand side by side as plain alternatives, with nothing marking the second as more extreme."
+     },
+     {
+      "id": "E8b",
+      "ask": "Is the final image marked as Miss Brill's own gleeful flourish by any means, such as a hesitation before it, an exclamation, an intensifying repetition or an interjection?",
+      "fail": "It closes as a calm, unmarked clause, with no sign of hesitation, relish or exclamation."
+     }
+    ]
+   }
+  ]
+ }
+}

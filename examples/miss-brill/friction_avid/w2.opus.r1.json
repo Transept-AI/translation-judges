@@ -1,0 +1,52 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2198,
+  "cache_read_input_tokens": 737,
+  "output_tokens": 1137
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "горностаєвий ток обернулася",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "зустрілися горностаєвий ток і джентльмен у сірому",
+    "kind": "unclear",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "маленька матуся, що ступала високо, мов молода курочка",
+    "why": "funny, precise image"
+   },
+   {
+    "quote": "щойно вийшли з темних кімнаток чи навіть — навіть із шаф!",
+    "why": "lively stammered surprise"
+   },
+   {
+    "quote": "розбилися на пари й пішли попідруч",
+    "why": "warm, native word"
+   },
+   {
+    "quote": "була крихітною жовтуватою лапкою",
+    "why": "sad, vivid detail"
+   },
+   {
+    "quote": "барабан вибивав: «Звір! Звір!» — знов і знов",
+    "why": "music turns into her feelings"
+   },
+   {
+    "quote": "Трам-там-там, тирлі-рам! тирлі-рам! трам тирлі-рам там-та!",
+    "why": "you can hear the band"
+   }
+  ]
+ }
+}

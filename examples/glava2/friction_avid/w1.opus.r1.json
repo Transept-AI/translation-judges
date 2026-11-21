@@ -1,0 +1,74 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1376,
+  "cache_read_input_tokens": 577,
+  "output_tokens": 1434
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Because Agnes outraged Anna beyond belief.",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "All the more so since Theodore's reports and elective transcripts, assigned by Agnes to torment Theodore, much to Anna's displeasure, the curator simply flicked into the wastebasket with a wave of her gold nails.",
+    "kind": "structure",
+    "weight": 3
+   },
+   {
+    "quote": "elective transcripts",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "Because right now, in Agnes's office, she and Theodore were discussing Anna's future.",
+    "kind": "follow",
+    "weight": 1
+   },
+   {
+    "quote": "\"Don't tell me you actually considered doing something that wasn't for yourself,\" Agnes smiled.",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "toying with a long mahogany pointer and smoking out the window at the same time",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "Agnes said her tête-à-têtes with Theodore were where she relaxed; he needed curating least of all, she claimed.",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "Though in truth she gave them everything she had.",
+    "kind": "unclear",
+    "weight": 2
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Theodore himself had no Plan. Nor any place in the Planes.",
+    "why": "neat wordplay, sharp beat"
+   },
+   {
+    "quote": "She held the cigarette by telekinesis, and the smoke curled into fanciful spirals, drifting out of the office into the morning sky without leaving a trace of scent.",
+    "why": "magic shown casually, vivid"
+   },
+   {
+    "quote": "only a desk, two armchairs and a rapier of flysteel on a stand.",
+    "why": "spare room, telling detail"
+   },
+   {
+    "quote": "\"I don't know what suits me,\" he said bluntly. \"I don't want to do good. Still less do I want to help the Seraphic economy.\"",
+    "why": "honest, characterful voice"
+   }
+  ]
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2273,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1587
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "на прогулянці",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "Наче хтось грає, і слухає його лише рідня; йому байдуже, як він грає, коли немає чужих.",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "«флейтовий»",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "старий у оксамитовому",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "з клубком плетіння",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "Вона вже стала справжньою майстринею, як їй здавалося, слухати так, ніби не слухаєш, і ненадовго влаштовуватися в чужих життях, поки люди розмовляють довкола неї.",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "І вона весь час торочила про те, що їй слід носити окуляри; вона знала, що вони їй потрібні, але що купувати їх марно: вони неодмінно поламаються й не триматимуться.",
+    "kind": "structure",
+    "weight": 2
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "змахував руками, як півень, що ось-ось заспіває",
+    "why": "funny, vivid image"
+   },
+   {
+    "quote": "ланцюжок яскравих крапель",
+    "why": "lovely sound image"
+   },
+   {
+    "quote": "А чи не в новому сурдуті диригент?",
+    "why": "her inner voice comes through"
+   },
+   {
+    "quote": "Міс Брилль кортіло її струснути.",
+    "why": "sharp, lively ending"
+   },
+   {
+    "quote": "Ні, нічого їй не підходило.",
+    "why": "natural ironic rhythm"
+   }
+  ]
+ }
+}

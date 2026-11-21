@@ -1,0 +1,133 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4918,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 69232
+ },
+ "result": {
+  "reading": "Having reached the country house and the silence he craved (blocks 9, 13), the narrator sits at night in his one lit room among ten dark ones, shuts the door, states his solitude three ways, and at once senses something beyond his wall. The darkness poured into the rooms takes up the image of his heart filled past bearing with other people's lives at block 6, and block 15 develops it into a dark depth where the furniture lies sunk and the traces of former occupants linger. The pair of silence and peoplelessness named here is thrown back at him by his own mocking voice at block 16, and the door he shuts is the one he fears at block 17 will creak open to let the dead out of the dark. The paragraph is the turn from the achieved quiet of block 13 into the night vision of blocks 15–18.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "налитих пітьмою по самі вінця",
+    "where": "the opening description of the ten black rooms and what fills them",
+    "what": "The rooms are treated as containers, and the darkness as a liquid poured into them up to their full capacity, so the dark has volume and weight. The same two parts, a pouring in and a container full to the very top, described the narrator's heart at block 6, crammed with other people's suffering until it could hold no more. Now the house is in the same state. Block 15 builds on the image: the furniture lies at the bottom of the dark, he expects to drown in it, and it turns out to hold the traces of former occupants. If the rooms are merely dark, both the backward echo and the forward image are cut.",
+    "risk": "medium",
+    "recurs_in": [
+     6,
+     15
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the darkness presented as a liquid, or a substance poured in, that fills the rooms? (Block 15 continues this image with furniture sunk at its bottom and his drowning in it.)",
+      "fail": "No if the rooms are only called dark or black, or darkness merely reigns, hangs, lies or is everywhere in them, with nothing liquid or poured about it."
+     },
+     {
+      "id": "E1b",
+      "ask": "Are the rooms full of it right to the top, as full as a container can be (the state of his heart at block 6)?",
+      "fail": "No if fullness to the very top is missing (only filled, flooded, steeped or soaked), or if the idiom comes out as crowns, wreaths or garlands."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "Вони облягають мою кімнату.",
+    "where": "the next sentence, saying what those dark rooms do to the narrator's own room",
+    "what": "The verb belongs first to warfare. It is what an army does when it rings a fortress in order to take it, and it shares a root with the word for a siege. It can also mean merely to lie round something, and a fast reader takes that flat sense. The context wants the hostile sense: the ten dark rooms bear down on his single lit room from every side, and his room becomes a stronghold under siege. That is why he shuts the door in the next sentence, as though against an enemy. It also prepares block 17, where he fears that door will creak open and people will come out of the dark, and block 18, where he bars his soul to all comers. A sentence that only says where the rooms lie keeps the floor plan and loses the threat.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Do the dark rooms act on his room as a hostile force closing in on it or laying siege to it, rather than merely lying around it?",
+      "fail": "No if the sentence gives only a neutral verb of position or encirclement (the rooms lie around, adjoin, encircle or simply surround his room) with nothing that conveys siege, pressing in or closing in."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "світло лямпи витече все крізь шпари",
+    "where": "where he shuts the door and says what he is half afraid might happen to the lamp's light",
+    "what": "The verb is one used of liquid running out through an opening. The lamplight in his room is pictured as a fluid that could drain away through any narrow opening, just as the darkness next door is a fluid filling the other rooms. Light and dark become two liquids in neighbouring containers, and the shut door is the seal between them. The same verb comes back at block 17 for the blood that ran out of the dead through the small hole a soldier's bullet made, so both times something vital drains through a narrow gap. Light that simply gets out, as light ordinarily does, breaks both the pairing with the darkness and the later echo.",
+    "risk": "medium",
+    "recurs_in": [
+     17
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Does the lamplight threaten to get out the way a liquid does (flowing, seeping, leaking, draining or spilling out), the same kind of running-out that block 17 uses for the blood of the dead?",
+      "fail": "No if the light merely escapes, slips out, gets out, shines through or is lost, with no liquid motion."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "link",
+    "source": "витече все",
+    "where": "the same clause about the lamp's light, at the point that says how much of it is at stake",
+    "what": "A single quantifier, placed after the verb, makes the fear total. He does not fear that some light might slip out; he fears that the whole of it could drain off, leaving his room as black as the ten around it. It completes the picture of a container emptied, and at block 15 he does exactly that to himself, putting out the lamp to sink into the dark. Because it sits after the verb, it is easily dropped, or misattached to the openings instead of to the light.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is it the whole of the lamplight, all of it, that he fears could get out?",
+      "fail": "No if the light gets out with no word of totality, or if the totality attaches to the openings or the route (all through them, everywhere) rather than to the light itself."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "motif",
+    "source": "Тихо й безлюдно",
+    "where": "where he describes the state of the house, no sound and no one in it, just before he mentions perceiving something beyond his wall",
+    "what": "The first word names the stillness. The second says specifically that no people are present. This is the exact pair he longed for on the train at block 9: expanses with no people in them, and silence around and inside him. At block 16 his own mocking voice hands the pair back to him as what he wanted and has now got, then asks whether he believes in the second half. The second word is about people, not about bleakness or emptiness in general, because the whole story is a flight from people. The preceding sentence about nobody being around does not make it redundant: this pair is what block 16 quotes.",
+    "risk": "medium",
+    "recurs_in": [
+     9,
+     16
+    ],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Alongside the quiet, does this line say, as a term of its own, that there are no people?",
+      "fail": "No if the second term says only empty, desolate, still, lonely or bleak, or if it is dropped or merged away because the previous sentence already said nobody is around."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "motif",
+    "source": "я щось там чую, поза своєю стіною … Що там?",
+    "where": "where he says he perceives something on the far side of his wall, and the short question that closes the paragraph",
+    "what": "The disturbance is pinned to one place: the dark rooms on the far side of his own wall, the wall that is his border against the rest of the house. The word pointing there is a real locative, not the colloquial filler that would only make the something vague, and the paragraph ends by asking about that same place. Block 15 answers with a near-repeat, saying something is there behind his wall, and later wonders what goes on there, where no one can see. Losing the place, or the possessive that makes the wall his, weakens the hand-off from question to answer.",
+    "risk": "medium",
+    "recurs_in": [
+     15
+    ],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is what he perceives placed on the other side of his own wall, the wall of his room?",
+      "fail": "No if it is placed outdoors or outside the house, or only vaguely somewhere about, or if the wall is not marked as his own (a wall, the wall, the walls)."
+     },
+     {
+      "id": "E6b",
+      "ask": "Does the closing question ask what is in that place beyond the wall, rather than only what the thing is?",
+      "fail": "No if the question asks only what it is or what that is, or names a sound or noise, with no pointer to the place."
+     }
+    ]
+   }
+  ]
+ }
+}

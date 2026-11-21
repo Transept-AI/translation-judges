@@ -1,0 +1,180 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3784,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 76500
+ },
+ "result": {
+  "reading": "Block 19 is the audience's reaction to Freya's risqué punchline in block 18: the chats explode, the feminist wing of her following floods the feed, and her fans start fighting the right-wing trolls themselves. Its hothouse and mud images prepare the next paragraph's shrug about how the viewers smell (block 20). The fans' self-policing prepares two later moments: the moderators turn out to be unnecessary in block 21, and the core audience counterattacks in block 22. The right-wingers who arrive here are the trolls of block 21.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "register",
+    "source": "Феміністична спільнота активувалася на всі сто відсотків",
+    "where": "where the feminist part of Freya's audience first responds to her joke, just before the feed fills with their avatars",
+    "what": "The community is not said to get excited or to rally. It is described the way a dashboard reports a user base or a feature coming into operation, at a full, measured percentage. This is the vocabulary of audience marketing. It keeps the cold, metric view Freya takes of her viewers, the same view that sorts them into percentages in block 11 and speaks of the core of her audience in block 22. Under the excitement, the reader sees her treating people as a resource.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the feminist community's reaction framed as a system or user base being switched on or brought into operation, rather than as people getting excited, rallying or mobilising?",
+      "fail": "The reaction is told only as human enthusiasm, rallying, mobilising or an everyday idiom of intensity, with nothing of a system or user base being activated."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "allusion",
+    "source": "аватарками з різнобарвним волоссям",
+    "where": "where the feed fills with the profile pictures of Freya's feminist supporters",
+    "what": "The colour belongs to the hair of the people pictured, dyed in unnatural shades. This is the stock internet image of the young feminist, the very caricature the right-wing trolls of this scene live on. The reader recognises the type at once. The reader also notices that Freya, even while these supporters cheer her, sees them through the same cliché: an exotic display rather than the serious audience she would like (block 23).",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the colour attributed to the hair of the people in the avatars, so the dyed-hair feminist type is recognisable, rather than to the avatars, the pictures or the feed in general?",
+      "fail": "Hair is not mentioned, or only the avatars, pictures or feed are said to be colourful."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "і стрічка раптом розквітла аватарками з різнобарвним волоссям, наче екзотична оранжерея",
+    "where": "where the feed suddenly bursts into colour with the supporters' avatars and is compared to a hothouse of exotic plants",
+    "what": "The original hangs the comparison at the very end, after the hair, and lets case agreement tie it back to the feed. It also strings the hair onto the avatars as a trailing attribute. English has no case to do that tying. A rendering in the same order makes the hothouse seem to describe the hair and piles phrases up behind the avatars, so the picture has to be rebuilt.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The comparison dangles so that it is unclear whether the feed or the hair is like the hothouse, prepositional phrases pile up behind the avatars, or the phrasing otherwise reads as translated."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "link",
+    "source": "Тепер уже не асистенти, а самі фанати Фреї",
+    "where": "where Freya's fans take over the reporting of the trolls from her staff",
+    "what": "Until this moment Freya's assistants had been policing the chat. Now the fans do it, and of their own accord. The handover is the point of the sentence: her audience has started to moderate itself for free. That is why the moderators turn out not to be needed in block 21, and why block 22 can describe a counterattack from her core audience.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Does the translation convey that the reporting had been the assistants' job until now and has just passed to the fans, not merely that fans rather than assistants did it?",
+      "fail": "Fans and assistants are only contrasted, with no sense that the job has changed hands at this moment."
+     },
+     {
+      "id": "E4b",
+      "ask": "Is it stressed that the fans themselves took this on, with emphasis on them as the doers?",
+      "fail": "The fans are simply named as the ones doing it, with nothing marking that they took it on themselves."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "double",
+    "source": "поливали брудом",
+    "where": "where the fans attack the right-wing trolls",
+    "what": "The set phrase for vilifying someone is built on the everyday verb for watering plants. It comes one sentence after the feed has bloomed like a hothouse, so it works twice. The fans are verbally attacking the right-wingers. They are also, absurdly, doing a gardener's chore in that hothouse, with filth instead of water. The play lives entirely in that one verb.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does the translation make clear that the fans were heaping abuse on the right-wingers?",
+      "fail": "The action could be read as something other than verbal abuse, or the right-wingers are not its target."
+     },
+     {
+      "id": "E5b",
+      "ask": "Does the wording of that attack also carry the sense of watering, as a gardener waters plants, so it picks up the hothouse just before?",
+      "fail": "Nothing in the wording of the attack suggests watering; it is only throwing, smearing or dumping, or plain insulting."
+     },
+     {
+      "id": "E5c",
+      "ask": "Are the abuse and the watering carried by one and the same expression?",
+      "fail": "Only one sense is present, or the watering is added as a separate image or remark beside the abuse."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "motif",
+    "source": "брудом",
+    "where": "where the fans attack the right-wing trolls",
+    "what": "Across this stretch, the fight with the trolls is pictured as filth and its removal. The cheap provocations are flushed away in block 14, the haters' comments are washed off the screen in block 24, and the very next paragraph shrugs off how the viewers smell (block 20). Here the filth is concrete: the fans coat the right-wingers in it. Together with the hothouse flowers, it is what the smell remark in block 20 picks up.",
+    "risk": "medium",
+    "recurs_in": [
+     14,
+     20,
+     24
+    ],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the fans' attack keep an explicit image of mud, dirt or filth (the substance named or plainly pictured), so it belongs with the filth flushed and washed away in blocks 14 and 24 and the smell in block 20?",
+      "fail": "No mud, dirt or filth is named or pictured in the attack; it is put as plain insults, criticism or abuse."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "register",
+    "source": "праваків … праваками",
+    "where": "the two mentions of the right-wing trolls: as the target of the fans' attack, and in the closing remark that they are always a hassle",
+    "what": "The word is a clipped, colloquial label for supporters of the political right, the kind their opponents use online. It is a sneer, not a political term. It belongs to the same very-online contempt that mocks their forums in the same sentence. It makes them sound like a familiar nuisance species rather than a political position, and that is what gives the weary closing remark its flavour.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the right-wing camp itself named, at least once, with a slangy, dismissive label that sneers at their politics, rather than only with a standard political term, whatever other insults surround it?",
+      "fail": "They are named only with a neutral standard political term or a plain description of their politics, even if other insulting words accompany it."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "allusion",
+    "source": "злетілися на світло її стриму",
+    "where": "where the right-wingers are said to have come to her stream from their anonymous forums",
+    "what": "The verb is the one for flying creatures converging on one spot, and what draws them is the light. The right-wingers are night insects drawn to a lamp: the proverbial moths to a flame. The image is contemptuous, showing pests attracted by the glare of her success. It also casts her stream, her moment of fame, as a source of light.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Are the right-wingers pictured as flying in, drawn by the light of her stream, the way insects are drawn to a lamp or a flame?",
+      "fail": "They simply come, gather, show up or converge on the stream, with nothing about a light or flame drawing them."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "construction",
+    "source": "Тепер уже не асистенти, а самі фанати Фреї кидали репорти й поливали брудом праваків, що злетілися на світло її стриму зі своїх анонімних лузерських форумів.",
+    "where": "the sentence in which Freya's fans, rather than her assistants, report and attack the right-wingers who have arrived from their forums",
+    "what": "The original fronts a contrast of the 'not these but those' kind on the subject. It then pairs two actions, and only the second takes the right-wingers as object; the first is users' jargon for the platforms' moderation button. Finally it hangs on a relative clause carrying both where the right-wingers flew to and where they flew from. Followed in order, this gives a front-loaded English sentence with a calqued verb pair and a trailing pile of phrases.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "A stiff fronted contrast on the subject, a literal phrase for reporting posts that English-speaking users would not say, two actions forced onto an object that fits only one of them, a trailing pile-up of where-to and where-from phrases, or other phrasing that reads as translated."
+     }
+    ]
+   }
+  ]
+ }
+}

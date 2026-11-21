@@ -1,0 +1,140 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3239,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 74867
+ },
+ "result": {
+  "reading": "This is the last beat of the exposition, begun at block 14, on why Theodore can no longer afford to leave the Academy. Block 18 reserved the Planes' secrets, poetry and metaphysics for accredited Academicians, and this paragraph lists, with a shrug, the grubby, cruel and absurd jobs left to every other mage. Its comedy rests on a clash of registers (demons, holes in the universe, corpses and potions beside barge repairs and cheap modern junk) and on an echo of block 5, whose reports and elective sheets were meant to do to Theodore what is done here to demons; the list trails off unfinished into block 20, where Agnes's deliberately exposition-length pause is the time Theodore spends stewing in exactly these dropout prospects.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "Адже комусь треба було",
+    "where": "the opening sentence, which introduces the list of jobs",
+    "what": "The opening particle presents the whole list as a self-evident reason. It explains block 18's claim that most work open to a mage is nothing like discovery or poetry: the dirty jobs exist and must fall to somebody. It sets the narrator's wry, shrugging tone and ties the paragraph to block 18 as its explanation. Without it the list starts cold. Turned into a contrast, it reads as an objection rather than an obvious justification.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the first sentence carry a connective that presents the list as the obvious reason or justification for what was just said about the work available to mages?",
+      "fail": "There is no such connective, so the list starts cold; or the connective is contrastive or merely additive, so the list reads as an objection or a new topic rather than a self-evident explanation."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "Катувати демонів",
+    "where": "the second job in the list, the one done to demons",
+    "what": "The verb for what is done to demons is the one block 5 used, as hyperbole, for what the reports and elective sheets were meant to do to Theodore. A reader of the original hears the echo: the student whom paperwork was supposed to make suffer may end up inflicting real suffering for a living. The verb also keeps the job cruel and squalid rather than heroic. The demons are not fought or driven out; they are made to suffer.",
+    "risk": "medium",
+    "recurs_in": [
+     5
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the demon job one of deliberately inflicting suffering on demons, the same notion block 5 applies to what the paperwork was meant to do to Theodore?",
+      "fail": "The demons are fought, hunted, banished, exorcised, bound, guarded, interrogated or punished, with no notion of deliberately making them suffer."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "Боротися з розладом, латаючи діри у світобудові",
+    "where": "the third job, about struggling against the world's disorder by dealing with the holes in it",
+    "what": "Bathos inside one clause. The stakes are cosmic: the struggle is against the world's own disarray, and the holes are in the very structure of creation. The method is homely. The verb belongs to the household, to what one does to a worn-through garment with a scrap of cloth. In Ukrainian it is also the stock idiom for stopgap fixes to a chronic shortfall, money included, which the debt talk of blocks 15–18 makes audible. The joke is that outside the Academy even saving the universe is drudging maintenance, nothing like block 18's metaphysical poetry.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the task set at the scale of the cosmos, with the disorder being the world itself coming apart and the holes being in the fabric of the world or universe itself?",
+      "fail": "The stakes shrink or shift: the enemy reads as human quarrels, unrest, illness or a mental disorder, or the holes are in a political order, a city or the barges. A word that could also mean strife passes if the mending of holes makes the cosmic sense clear."
+     },
+     {
+      "id": "E3b",
+      "ask": "Is the way of fighting it humble, makeshift repair of the kind done to clothes, a roof or a pipe, rather than a grand or arcane operation?",
+      "fail": "The action is raised into heroic or magical work, such as rifts or breaches being sealed, warded or closed, or reality being restored, rewoven or stabilised, so the cosmic task no longer sounds like patch-up drudgery."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "Вибирати серед зібраного з Уламків збирачами сміття скарби",
+    "where": "the fourth job, looking for valuables in what junk collectors have brought back",
+    "what": "The clause stacks a participle, a place of origin and an agent before its object. It can even be parsed two ways, since the word for refuse can belong either to the gatherers' trade or to the gathered stuff. Either way the roles are the same, and a hurried reader scrambles them. Others do the gathering, in a named part of this cosmology. The mage's job is second-hand: working through what the others have brought in, to pick out anything of value. That is lower and grubbier than adventurous scavenging, and the verb means picking things out of a heap, not choosing a prize for oneself.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Does the translation keep the two roles apart, with others gathering the stuff and bringing it back, and the mage going through their haul for valuables?",
+      "fail": "The mage himself goes out and gathers or scavenges the stuff; the collectors are the ones picking out the treasures; or the mage chooses treasures as if taking a reward rather than sorting through a heap."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "construction",
+    "source": "Вибирати серед зібраного з Уламків збирачами сміття скарби — або хоча б світлодіодні лампочки.",
+    "where": "the sentence about sorting through the junk collectors' haul for something valuable or, failing that, something cheap",
+    "what": "The original front-loads a noun-like participle with its place of origin and its agent and holds its object back until after that frame. It then tacks the cheaper alternative onto the very end. Followed closely, English ends up with one of three problems: a passive chain naming who collected the stuff and where from; a heavy prepositional frame in front of the object; or an afterthought so far from the noun it undercuts that it seems to attach to the wrong thing.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated: a stiff passive chain saying by whom and from where the stuff was collected, a heavy 'from among what was collected' frame, the object held back behind a long frame, or the light-bulb afterthought stranded so far from the treasure that it seems to belong to another noun."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "device",
+    "source": "скарби — або хоча б світлодіодні лампочки",
+    "where": "the end of the sorting job, where the hoped-for find gives way to a cheap modern item",
+    "what": "A deflation in miniature: the hope is something precious, the realistic yield a cheap, mass-produced electric part for lighting. The particle before the second item lowers the bar: failing the first, one settles for this. It measures how small a dropout mage's hopes become. The present-day object also delivers the book's signature collision of fantasy cosmology with everyday modern things.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the light-bulb find framed as what one settles for when there is no treasure, a lowered fallback, rather than an addition, an equal alternative or an upgrade?",
+      "fail": "The bulbs are simply listed alongside the treasures, offered as an equal alternative with no sense of settling, or presented as something better."
+     },
+     {
+      "id": "E6b",
+      "ask": "Is the fallback a cheap, modern electric light bulb, rather than generic junk, an unspecified or pre-electric lamp, or a fantasy object?",
+      "fail": "It is generalised into junk, scrap or trinkets, becomes a lamp of unspecified or old-fashioned kind, or turns into a magical light source. A plain electric bulb without the LED detail passes."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "hinge",
+    "source": "Вирізати для зіль лікування серця з трупів…",
+    "where": "the last job in the list, involving corpses and healing potions",
+    "what": "The word order sets a trap. The noun right after the word for healing can be taken as part of the potions' name, which makes them remedies for the heart and leaves the cutting without an object. In fact that noun is a plural and the object of the cutting. The organ removed from the dead is the heart, many of them, and the potions are the ordinary all-purpose healing kind familiar from fantasy games. The grim irony of healing manufactured from the hearts of the dead is the list's darkest note, and the list trails off on it into Agnes's pause in block 20.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Are hearts the thing cut out of the corpses?",
+      "fail": "What is cut out is unspecified or something other than hearts, or the heart appears only as the organ the potions treat."
+     },
+     {
+      "id": "E7b",
+      "ask": "Are the potions for healing in general, rather than specifically remedies for the heart?",
+      "fail": "The potions are described as heart medicine, heart-healing or cardiac remedies."
+     }
+    ]
+   }
+  ]
+ }
+}

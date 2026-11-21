@@ -1,0 +1,70 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4487,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 46127
+ },
+ "result": {
+  "reading": "This is the climax of the overheard talk. When the girl giggles at the fur, the boy sweeps the subject of the old woman aside in an angry whisper and turns at once to coaxing her with a French endearment, and her refusal in block 15 cuts his request off. Miss Brill has just cast these two as the romantic leads of her play (blocks 8–10), and she hears herself treated as a nuisance in their way; his grumbling in block 12 that she should not be there is what she acts on in blocks 16–17.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "Ah, be off with you!",
+    "where": "the boy's first exclamation, uttered in irritation straight after the girl's giggling joke about the fur",
+    "what": "This is an everyday spoken brush-off. The boy is impatient that the girl keeps laughing about the old woman instead of paying attention to him, and he waves the whole subject away. The original leaves open whether he is shutting down her joke or muttering that the old woman should take herself off; both fit his grumbling in block 12. Taken word for word, though, it is an order to depart, and coming straight after the girl's line such an order falls on the girl, whom he is coaxing with an endearment a moment later. Nor is it fond teasing: the narration says he is angry. What Miss Brill overhears is herself swept aside as a nuisance in a single breath.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the exclamation avoid reading as the boy ordering the girl to leave?",
+      "fail": "The words are a real order to depart, to go away or get out. Because they come right after the girl's line and nothing aims them at the old woman, a reader takes them as said to the girl, and the endearment that follows contradicts them."
+     },
+     {
+      "id": "E1b",
+      "ask": "Does the exclamation come across as impatient dismissal rather than enjoyment of the girl's joke?",
+      "fail": "The words show him amused by or appreciating her joke: laughing along with it, teasing her fondly for it, or marvelling at it."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "register",
+    "source": "ma petite chère",
+    "where": "the term of endearment with which the boy, after his irritated exclamation, begins coaxing the girl",
+    "what": "The boy's endearment is in French, though the rest of the couple's talk is given in plain English. The reader hears the stock language of romance and is reminded that this is a French resort. It comes seconds after his coarse, contemptuous names for the old woman in block 12, so the reader hears him switch from rough everyday talk to practised tenderness. The fond diminutive he now gives the girl is the opposite of what he called Miss Brill, and it is the kind of word she lavished on her fur in block 0. If it becomes an ordinary native endearment, the switch and the practised romance in it are lost.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the boy's endearment still marked as French? It counts if it is kept in French (in any script, with or without a gloss) or if the text or a note explicitly shows it is French.",
+      "fail": "It appears only as an ordinary Ukrainian term of endearment, with nothing showing that he has switched into French."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "said the boy",
+    "where": "the speech tag naming who utters the irritated exclamation and then the endearment",
+    "what": "The speaker is the young lover who sat down beside the girl in block 10: a well-dressed youth courting her, whom Miss Brill has cast as the romantic lead of her play. He is not a child. English uses the bare word for a lad here, while the story marks real children as little, such as the child who runs after the dropped flowers in block 7 and the small boys in block 4. A word that makes him a small boy would make his coaxing, his endearment and the girl's refusal that follows grotesque.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the speaker free of any word presenting him as a child?",
+      "fail": "The speech tag calls him by a word meaning a small boy, so the courting couple read as children."
+     }
+    ]
+   }
+  ]
+ }
+}

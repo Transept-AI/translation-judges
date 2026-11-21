@@ -1,0 +1,67 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1429,
+  "cache_read_input_tokens": 779,
+  "output_tokens": 1209
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Але аж коли",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "якого чимось напоїли",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "Але раптом він дізнався, що газету йому читає актриса!",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "тендітної голови",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "Вони були не лише глядачами, не лише дивилися; вони грали.",
+    "kind": "wordy",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Достоту як вистава.",
+    "why": "lively colloquial echo, true to her excitement"
+   },
+   {
+    "quote": "а тоді поволі подріботів геть",
+    "why": "precise, vivid verb for the little dog"
+   },
+   {
+    "quote": "Хто б повірив, що небо там, позаду, не намальоване?",
+    "why": "natural rhythm, captures the stage illusion"
+   },
+   {
+    "quote": "їй ставало якось чудно й ніяково",
+    "why": "exact, idiomatic shade of embarrassment"
+   },
+   {
+    "quote": "Ще б пак!",
+    "why": "natural inner-voice exclamation"
+   },
+   {
+    "quote": "дві іскорки затремтіли в старих очах",
+    "why": "delicate, alive image"
+   }
+  ]
+ }
+}

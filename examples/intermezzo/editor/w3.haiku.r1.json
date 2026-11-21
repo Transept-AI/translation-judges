@@ -1,0 +1,41 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1371,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1395
+ },
+ "result": {
+  "edited": "Well, now! What nonsense. You wanted quiet and emptiness, and now you have them. You shake your head! You do not believe in emptiness?\n\nHow do I know? How can I know… How can I be sure that the door will not open, just a little, with a faint creak, and out of the unknown darkness, so deep and endless, people will not begin to emerge… all those who laid in my heart, as in their own hiding place, their hopes, their anger and their suffering, or the bloody cruelty of the beast. All those I cannot pass by, who have wearied me… Why should it be strange if they come once more… Here I see them already. Ah, ah! How many of you there are… It is you, from whom the blood ran out through a small hole made by a soldier’s bullet, and it is you, dry specimens: you were wrapped in white sacks, swung from ropes in the air, and then piled into shallow pits, from which the dogs dug you up… You look at me with reproach, and you are right. You know, I once read how you were hanged, all twelve of you… All twelve… and I yawned. Another time I chased the news of a row of white sacks with a ripe plum. I took, you know, a wonderful juicy plum between my fingers… and felt a pleasant, sweet taste in my mouth. You see, I do not even blush, my face is as white as yours, for horror has sucked all the blood out of me. I have not a single drop of warm blood left even for those living dead among whom you walk like a bloody specter. Go away! I am tired.\n\nAnd people keep coming. One, then another, then a third, and so on without end. Enemies and friends, kin and strangers, and all of them shout in my ears with the cry of their life or their death, all of them leave the tracks of their soles on my soul. I will stop my ears, lock up my soul, and shout: entry here is not permitted!",
+  "changes": [
+   {
+    "before": "What is strange about it if they come once more…",
+    "after": "Why should it be strange if they come once more…",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Go on!",
+    "after": "Go away!",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "One after another, and a third, and so on without end.",
+    "after": "One, then another, then a third, and so on without end.",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "near and strangers",
+    "after": "kin and strangers",
+    "kind": "error",
+    "category": "word"
+   }
+  ]
+ }
+}

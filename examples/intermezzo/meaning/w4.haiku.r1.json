@@ -1,0 +1,30 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2335,
+  "cache_read_input_tokens": 942,
+  "output_tokens": 947
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 20,
+    "quote": "She shut her eyes",
+    "kind": "referent",
+    "wrong": "The dog the narrator was calling Overko, a male name and 'he' a moment earlier, is now 'she'. The reader would think it is a female dog or a different dog. The Ukrainian feminine comes only from the grammatical gender of 'псина'.",
+    "severity": 1
+   },
+   {
+    "n": 20,
+    "quote": "the tufts of wool knocked loose from her backside fly after her",
+    "kind": "sense",
+    "wrong": "The fur is being torn out and flying off. The original 'збиті на задку кудли' means matted tufts on the dog's hindquarters streaming behind her as she runs.",
+    "severity": 1
+   }
+  ]
+ }
+}

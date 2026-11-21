@@ -1,0 +1,60 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3606,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 35370
+ },
+ "result": {
+  "reading": "A three-word turn: the narrator has just said Freya was by now leaving personal questions unanswered (block 14), and the stream has slid into the group-dating genre she meant to keep out (blocks 9, 15), yet Rebecca223's hundred-dollar question (block 16) gets a deliberate exception. The line sets up the zinger of block 18, which sets off the chat explosion of block 19 and lifts the count toward the record in block 20. Everything the line carries comes from context: the choice, which shows the coach calculating and running the show on her own terms, and the keyword of answering, which the scene repeats from the start of the Q&A to her selective answers in block 21.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "вирішила",
+    "where": "the beat between Rebecca223's hundred-dollar questions (a strong male shoulder; quitting business for the love of her life) and Freya's spoken reply weighing business against men, where the narration says what she does about the question",
+    "what": "The weight of the line is the act of choosing. The narrator has just said Freya was by now leaving questions of this kind unanswered. Her stated priority was to keep the stream from becoming a group dating session. Here she makes a calculated exception, because this question cost a hundred dollars rather than five and her previous quip has just gone viral. It shows the coach in command of her own show, as the scene stresses elsewhere: the paid segment runs on her conditions, and later she picks which questions to take. If the choice disappears, or turns into impulse, duty or a grudging concession, the reader loses both the exception and the calculating Freya.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the translation show that answering this question is Freya's own deliberate choice, rather than simply reporting that she answered?",
+      "fail": "The line only reports that she answered, or the translation runs straight into her reply with no sign that she chose to give it."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is that choice kept free of any recasting as impulse, compulsion, duty or reluctance?",
+      "fail": "Freya is presented as unable to resist, as feeling she had to answer, or as answering grudgingly or against her will."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "відповісти",
+    "where": "the same beat: the act Freya settles on when faced with Rebecca223's questions",
+    "what": "Answering is the keyword of the scene. The stream moves into its question-and-answer block, and then the moment comes when she has to answer. She would like to give a blunt one-word answer but gives a rehearsed one instead. She is by now leaving questions like this unanswered, a clip of her answer goes viral, and later she answers selectively. This line comes right after the remark about leaving such questions unanswered, so the reader hears the reversal: this generously paid dating-genre question gets the answer the five-dollar marriage question did not. It is plain answering of a fan's question, not a retort to a troll, since the cheap provocations have just been said to drown in the costlier questions.",
+    "risk": "medium",
+    "recurs_in": [
+     0,
+     8,
+     11,
+     14,
+     15,
+     21
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the line make clear that the act is Freya giving this question an answer, recognisably the same notion as the answering, and the leaving unanswered, in the surrounding blocks?",
+      "fail": "The line names some other act (such as hitting back, taking the bait or playing along with the dating game), or it leaves the act vague. It then no longer reads as answering, and the echo of the questions she had been leaving unanswered is lost."
+     }
+    ]
+   }
+  ]
+ }
+}

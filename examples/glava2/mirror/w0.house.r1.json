@@ -1,0 +1,80 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1861,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 691
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "full, but tastefully so, and dotted with beauty marks",
+    "why": "awkward, leering aside"
+   },
+   {
+    "quote": "Combined with a miniskirt, bronze high heels, and gold nails cast from melted Ethons, Agness's look",
+    "why": "clunky dangling construction"
+   },
+   {
+    "quote": "straight to gray hair and the grave",
+    "why": "slightly forced idiom"
+   },
+   {
+    "quote": "Yet Agness could afford to dress flashy, like some Will-magess.",
+    "why": "flat, ungrammatical 'flashy'"
+   },
+   {
+    "quote": "Because, exams aside, it was the curators who decided",
+    "why": "fragment-like, clumsy opener"
+   },
+   {
+    "quote": "the fifth-circle to pursue",
+    "why": "stray hyphen"
+   },
+   {
+    "quote": "undeserving in every possible way",
+    "why": "heavy-handed"
+   },
+   {
+    "quote": "A battle magess, a veteran, Agness lacked even a fifth-circle diploma—and rumor had it she hadn't even served her full ten years as a battle magess.",
+    "why": "repetitive 'even', 'battle magess'"
+   },
+   {
+    "quote": "Anna knew every single version",
+    "why": "abrupt POV shift, confusing"
+   }
+  ],
+  "good": [
+   {
+    "quote": "where muscle stirred beneath the skin whenever she laughed or drew on her cigarette—two pleasures the magess rarely denied herself.",
+    "why": "vivid, characterful"
+   },
+   {
+    "quote": "And Agness was doing both right now.",
+    "why": "nice wry beat"
+   },
+   {
+    "quote": "like an emerald disco ball",
+    "why": "fun, vivid image"
+   },
+   {
+    "quote": "Three different versions involved a three-day orgy in the rectorate. Another two added Senators and Lesser Gods to the fray.",
+    "why": "funny escalation"
+   },
+   {
+    "quote": "the Pen's discipline of high collars and habits clung to resident mages",
+    "why": "good worldbuilding texture"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2098,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 682
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "asked Rebecca223 for a hundred dollars",
+    "why": "awkward, ambiguous phrasing"
+   },
+   {
+    "quote": "The feminist community switched on at a hundred percent",
+    "why": "clunky, mechanical idiom"
+   },
+   {
+    "quote": "Whichever way you looked at it, the comments set the tone.",
+    "why": "vague, flat filler"
+   },
+   {
+    "quote": "Rushing to rescue their idol came moms on maternity leave",
+    "why": "stiff inverted syntax"
+   },
+   {
+    "quote": "had started passing themselves off as one of the girls",
+    "why": "number mismatch, slightly awkward"
+   },
+   {
+    "quote": "At last, the girl smiled for real.",
+    "why": "'the girl' jarring for Freya"
+   },
+   {
+    "quote": "Stupid green sad frogs",
+    "why": "adjective order clumsy"
+   }
+  ],
+  "good": [
+   {
+    "quote": "a man can't replace your life's work",
+    "why": "crisp parallel line"
+   },
+   {
+    "quote": "which, you'll agree, sets it favorably apart from a man",
+    "why": "dry, sharp humor"
+   },
+   {
+    "quote": "blossomed with avatars sporting multicolored hair, like an exotic greenhouse",
+    "why": "vivid, witty image"
+   },
+   {
+    "quote": "swarmed to the light of her stream from their anonymous loser forums",
+    "why": "moth image, biting"
+   },
+   {
+    "quote": "Whatever they smelled like.",
+    "why": "punchy cynical aside"
+   },
+   {
+    "quote": "no imagination whatsoever, but plenty of volume",
+    "why": "funny, concise"
+   },
+   {
+    "quote": "The trolls' moms didn't give them more than five dollars for school lunch.",
+    "why": "great sarcastic jab"
+   },
+   {
+    "quote": "traded their ladles for enormous smartphones",
+    "why": "comic, vivid"
+   },
+   {
+    "quote": "three hundred and eighty... no, three hundred and ninety thousand",
+    "why": "lively real-time voice"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 565,
+  "cache_read_input_tokens": 6091,
+  "output_tokens": 93043
+ },
+ "result": {
+  "reading": "In Miss Brill's free indirect voice the narration turns from her fur (block 0) to the band. She explains the bigger crowd and the louder, merrier band by the start of the resort season, imagines the band as a performer that only bothers when strangers are listening, fondly mocks the conductor and players, and ends on her small triumph when a flute passage she expected comes round again. The band's moods return and turn sympathetic in blocks 6, 7 and 9, the idea of playing up for an audience grows into the theatre revelation of block 8, and the comparison with the previous Sunday is taken up in block 3. Her pleasure at a prediction rewarded here is the counterweight to her humiliation in blocks 11–17.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "There were a number of people out this afternoon, far more than last Sunday.",
+    "where": "the opening sentence, where she notes how many people are out today compared with the Sunday before",
+    "what": "The quantity phrase means a good crowd, not a handful. The gardens are noticeably full, which is the first sign that the season has begun and gives the band the audience of strangers it now plays up to. If the phrase is read as a small, vague number, the scene thins out, and both the comparison with last week and the band's livelier playing lose their cause.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Are the people out today presented as a sizeable crowd (many, a good number), not as a few or several?",
+      "fail": "The translation says only that a few, several or some people were out."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "For although the band played all the year round on Sundays, out of season it was never the same.",
+    "where": "where she explains that the band plays every Sunday all year round, yet out of season it is not like this",
+    "what": "Her self-explanation continues: the band plays all year, but off-season it falls short of what she hears today. The English opens on a causal conjunction stacked on a concessive one and closes on an idiom of sameness that leaves the comparison unnamed. A close rendering piles two conjunctions at the head of the sentence and ends on a literal statement that something was not the same thing. That reads as translated rather than as her musing.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "At this spot, does the sentence read as written by a skilled native writer?",
+      "fail": "It reads as translated. Typical signs: a closing formula that literally says it was never the same (one), or a stiff pile-up of a because-word and an although-word at its head."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "It was like some one playing with only the family to listen; it didn’t care how it played if there weren’t any strangers present.",
+    "where": "where the band out of season is likened to someone playing music with only their own household listening, and is said not to bother how it plays when no outsiders are there",
+    "what": "This is her homely simile. Off-season the band is like someone playing at home for the family alone, who can't be bothered to play well with no outsider to impress. The English hangs this on a participle with a tacked-on infinitive naming who listens, slides the subject from the imagined player to the band, and closes on a formal word for attendance. A close rendering produces a lumpy comparison of a situation with a person, a clumsy clause about the family being there to listen, a stiff word for outsiders in attendance, and a pronoun that lurches between player and band. A native writer rebuilds the sentence around who is listening.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At this spot, does the passage read as written by a skilled native writer?",
+      "fail": "It is built word for word. Typical signs: a clumsy clause saying the family is there in order to listen, an official-sounding word for people in attendance, a pronoun for the band of the wrong gender or with no clear referent, or a comparison of a situation with a person that does not parse naturally."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "link",
+    "source": "Wasn’t the conductor wearing a new coat, too?",
+    "where": "where she wonders whether the conductor has a new coat on, just before deciding that he has",
+    "what": "The question adds the coat to her list of signs that the season has begun: more people, a louder and merrier band, and now a conductor who has smartened himself up as well, as if he, like the band, were dressing for the strangers. The question leans toward yes: it is her own half-confident guess, and she confirms it in the next breath. Without the word of addition, the coat becomes a stray observation instead of one more piece of evidence in her happy reasoning.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the new coat presented as one more sign in addition to the crowd and the livelier band, through a word or turn meaning 'as well'?",
+      "fail": "Nothing marks the coat as an addition; the question about it stands on its own."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "device",
+    "source": "He scraped with his foot and flapped his arms like a rooster about to crow, and the bandsmen sitting in the green rotunda blew out their cheeks and glared at the music.",
+    "where": "where the conductor's gestures are likened to a farmyard cock's and the players in the bandstand blow and stare at their parts",
+    "what": "This is a fond, mocking picture of the band's self-importance now that it has an audience. The conductor in his new coat is a cock puffing itself up in the instant before it crows, all preparation and display. The players blow hard and stare at their parts as if furious with them. The comedy lies in this strained solemnity just before the music bursts out. It is Miss Brill's amused eye, and it makes the band a troupe of comic performers well before she sees the whole gardens as a stage (block 8).",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the cock that the conductor resembles caught just before it crows, gathering itself, rather than already crowing or with no moment given?",
+      "fail": "The bird is shown crowing, or only a cock is named with no sense that the crow is about to come."
+     },
+     {
+      "id": "E5b",
+      "ask": "Is the players' stare at their parts fierce or hostile (angry, ferocious, scowling), rather than neutral or merely attentive?",
+      "fail": "They only look, read, peer or stare fixedly, with no trace of fierceness or anger."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "glared at the music",
+    "where": "where the players in the bandstand puff out their cheeks and stare at something",
+    "what": "What they stare at is the printed music on their stands, the parts they read from, not the sound they produce. If it is taken as sound, the sentence has them glowering at their own playing, which is an odd and different image. The comedy is grown men scowling at sheets of paper.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Do the players stare at their written music (sheet music, scores, the parts on their stands), and not at music as sound or melody?",
+      "fail": "The object of the stare is music as sound, or something else (the conductor, the crowd), or it is missing."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "register",
+    "source": "Now there came a little “flutey” bit—very pretty!—",
+    "where": "where a short flute passage begins and she exclaims how pretty it is",
+    "what": "Miss Brill names the passage with a word of her own making. It is built from the instrument's name, a little childish, and set off in quotation marks the way the story sets off her other private words (the seat she thinks of as hers, the dog she sees as a stage dog). The noun for the passage is homely, and her delight breaks into the narration as a ladylike exclamation. The level is an amateur's cosy chatter, not a musician's vocabulary: this is how she hears the band, not how the narrator would describe it.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the word naming the passage marked as Miss Brill's own (visibly set off, or framed as what she calls it), rather than given as the narrator's ordinary term?",
+      "fail": "The passage is named with no sign that the word is hers."
+     },
+     {
+      "id": "E7b",
+      "ask": "Is either the instrument-word or the noun for the passage homemade or childlike in form (a coinage, a playful derivation, a diminutive), rather than both being standard words of neutral or technical level?",
+      "fail": "The instrument-word is a standard adjective or noun phrase and the noun for the passage is a neutral or technical term, as in a plain flute solo, flute part or passage for flute."
+     },
+     {
+      "id": "E7c",
+      "ask": "Is her delight voiced as her own exclamation within the description, rather than folded into a plain descriptive adjective?",
+      "fail": "The prettiness becomes an ordinary attribute in the narration, with no exclamation of hers."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "motif",
+    "source": "a little “flutey” bit—very pretty!—a little chain of bright drops",
+    "where": "where the flute passage and the string of bright drops it is likened to are described",
+    "what": "The story keeps returning to one word for smallness, mostly for things Miss Brill views with fondness or condescension: her fur, the children, the dog that looks like a stage dog, the odd old people's dark rooms. Here she uses it twice of the music, shrinking the flute passage into a dainty trinket. The word comes back at the end for her own dark room, where the fond diminutive turns bleak. A reader hears the repetition as her voice.",
+    "risk": "medium",
+    "recurs_in": [
+     0,
+     3,
+     4,
+     8,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Is the flute passage itself marked as small in a fond way, by a word for little or an affectionate diminutive form, rather than left unqualified or called merely short?",
+      "fail": "The passage carries no marker of smallness, or only a neutral word for its length."
+     }
+    ]
+   }
+  ]
+ }
+}

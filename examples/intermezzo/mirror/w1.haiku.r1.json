@@ -1,0 +1,72 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1857,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 511
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "would that hand unclench its iron fingers, or would it release me?",
+    "why": "illogical either/or, same thing twice"
+   },
+   {
+    "quote": "had been ailing with her heart",
+    "why": "awkward, unidiomatic"
+   },
+   {
+    "quote": "I heard a human shadow behind me",
+    "why": "odd synesthesia, reads clumsy"
+   },
+   {
+    "quote": "Where are you traveling?..",
+    "why": "odd punctuation"
+   },
+   {
+    "quote": "those creatures forever jostle, shout, bustle about and foul the place",
+    "why": "slightly cluttered list"
+   }
+  ],
+  "good": [
+   {
+    "quote": "I have grown sick of being a coaching inn",
+    "why": "striking, original metaphor"
+   },
+   {
+    "quote": "Throw open the windows! Air out the dwelling!",
+    "why": "energetic, vivid exclamation"
+   },
+   {
+    "quote": "that beautiful brother of death",
+    "why": "lovely image for sleep"
+   },
+   {
+    "quote": "roaring torrents of human life rushing toward me like wild horses",
+    "why": "vivid, forceful"
+   },
+   {
+    "quote": "would the iron hand clatter its bones in vain?",
+    "why": "eerie, memorable image"
+   },
+   {
+    "quote": "like chips and straw on spring torrents",
+    "why": "fresh, precise simile"
+   },
+   {
+    "quote": "tra-tara-tah… tra-tara-tah…",
+    "why": "captures train rhythm, overheard chatter"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

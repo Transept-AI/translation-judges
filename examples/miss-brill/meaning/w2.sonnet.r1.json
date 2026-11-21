@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3401,
+  "cache_read_input_tokens": 937,
+  "output_tokens": 581
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 7,
+    "quote": "поспішав у такт музиці",
+    "kind": "sense",
+    "wrong": "The reader thinks the old man was hurrying along briskly. In the original he hobbles, walking with a limp.",
+    "severity": 1
+   }
+  ]
+ }
+}

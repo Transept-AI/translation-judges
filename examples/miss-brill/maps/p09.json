@@ -1,0 +1,204 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4722,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 69312
+ },
+ "result": {
+  "reading": "This is the peak of Miss Brill's afternoon. Carrying on block 8's discovery that everyone in the gardens is acting in a play, she imagines the whole cast, herself among them, about to rise into one song, and she is moved to tears by a shared understanding she cannot name. It echoes block 0 almost word for word (the faint cold under the brilliance, the feeling she insists is not sad), so the reader hears the threat she keeps refusing. Block 10 depends on it (her soundless singing, her trembling smile, the newcomers cast as the romantic leads), blocks 11–15 at once throw her out of the community she has just claimed, and the thing she hears crying in block 17 answers the feeling she will not name here.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "construction",
+    "source": "And what they played was warm, sunny, yet there was just a faint chill—a something, what was it?—not sadness—no, not sadness—a something that made you want to sing.",
+    "where": "the sentence where the band starts again and its music is described as warm and sunny with a slight coldness in it, which she tries and fails to name",
+    "what": "English builds this sentence on a clause about what the band played. That clause is the subject of a linking verb, and words of warmth and sunlight are its predicate. The sentence then switches to a bare existential to bring in the coldness, breaks into her own question and self-correction, and ends on a relative clause. Mirrored piece by piece, this gives a heavy clause as subject, an empty existential verb, and loose fragments between dashes whose forms do not fit the sentence. Her excited inner voice then starts to sound like a translation.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The English skeleton shows through in at least one of three ways: a whole clause about what was played serves as the subject of a linking verb; an empty existential verb introduces the coldness; or the interrupting fragments are in forms that do not fit the sentence around them."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "what they played was warm, sunny, yet there was just a faint chill",
+    "where": "where the warm, sunny music turns out to carry a slight coldness",
+    "what": "The story opens (block 0) on a brilliant day. When you breathe in, there is a faint coldness, like iced water just before a sip, and that is why she chose her fur. The same faint coldness, in nearly the same words, now sits inside the warm, sunny music at the height of her happiness. A reader of the original hears the opening come back and feels the cold under the brightness, which the young couple will soon bring into the open. If the coldness becomes a mood, an emotion or some other sensation, the echo is gone.",
+    "risk": "medium",
+    "recurs_in": [
+     0
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is what she notices in the warm, sunny music a faint physical coldness, recognisably the same kind of slight cold as in the air at the start of the story?",
+      "fail": "The coldness is turned into an emotion or mood, replaced by some other sensation, presented as a strong cold, or left out."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "a something, what was it?—not sadness—no, not sadness—a something that made you want to sing",
+    "where": "where she tries to say what that coldness in the music is, rejects one name for it, and settles on a feeling that makes one want to sing",
+    "what": "In block 0 she felt a light, sad stirring and corrected herself at once: not sad, really, but gentle. Here she makes the same move. There is an unnamed thing, sadness is proposed and pushed away twice, and something brighter takes its place. The repeated refusal makes the reader suspect the very sadness she denies. The unnamed thing returns on the story's last line (block 17), as what she hears crying when she shuts the fur away. For the echo to work, the feeling must stay unnamed, sadness must be named and refused, and the refusal must sound insistent.",
+    "risk": "medium",
+    "recurs_in": [
+     0,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is sadness itself put forward as a possible name for what she senses and then explicitly refused?",
+      "fail": "Sadness is not mentioned, the refusal is missing, or the feeling is accepted as sadness."
+     },
+     {
+      "id": "E3b",
+      "ask": "Is the refusal insistent, with the idea pushed away a second time or with added force, so that she seems to be talking herself out of it?",
+      "fail": "A single plain negation with nothing to reinforce it."
+     },
+     {
+      "id": "E3c",
+      "ask": "Does the thing she senses stay an indefinite, unnamed something at both mentions, rather than being labelled with a concrete noun such as a musical note or a shade?",
+      "fail": "At either mention it is given a concrete name."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "device",
+    "source": "The tune lifted, lifted, the light shone; … The young ones, the laughing ones who were moving together, they would begin, and the men’s voices, very resolute and brave, would join them. And then she too, she too, and the others on the benches—they would come in",
+    "where": "where the music rises and she imagines the singing spreading from the young strollers to the men, and then to herself and the people on the benches",
+    "what": "The paragraph climbs like a stage finale. The tune keeps rising, then the voices enter group by group: first the laughing young couples, then the men, then, last and most eagerly, she herself with the bench-sitters. Her own entry is the top of the climb and its sharpest irony. She joins the old, silent bench people she found odd in block 4, and in block 12 the young pair treat her as exactly such an odd old figure. A single rise, everyone singing at once, or herself buried in a list flattens both the swell and the irony.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the tune's rise shown as ongoing or mounting (still climbing, higher and higher), not as one completed lift?",
+      "fail": "A single completed rise with nothing suggesting that it keeps climbing."
+     },
+     {
+      "id": "E4b",
+      "ask": "Do the voices come in one after another in this order: the laughing young people first, the men's voices joining them, then she and the bench-sitters? Or do they come in all together or in another order?",
+      "fail": "A step is missing, the order is changed, or the groups simply sing together from the start."
+     },
+     {
+      "id": "E4c",
+      "ask": "Is her own joining stated as a separate, stressed point (she herself would take part as well), rather than merged without remark into the bench-sitters?",
+      "fail": "She appears only as one item alongside the bench-sitters, with nothing marking her own entry."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "double",
+    "source": "all of them, all the whole company, would begin singing … she looked smiling at all the other members of the company",
+    "where": "where she feels that everyone around her is about to burst into song, and where she then looks round at all the others through her tears",
+    "what": "The word she uses for everyone around her means both the whole gathering of people present and a theatrical troupe. It comes straight after block 8, where she realised they are all on stage and she has a part. So it makes the crowd, herself included, one cast about to sing the finale. When she looks at the other members, she counts herself among them, and block 10 goes on to cast the newcomers as the romantic leads. An everyday word for a group keeps the crowd but loses the stage. The reference can also slip back to the band, which was the subject a moment earlier.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the group about to sing, and later looked at, the whole gathering in the gardens with herself among them, not the band and not a smaller set of people?",
+      "fail": "It refers to the musicians, or to a subset such as only the young people, or it leaves her outside the group."
+     },
+     {
+      "id": "E5b",
+      "ask": "At both places, is that gathering named with a word that belongs to the theatre (naming a company of actors), so that the play of block 8 carries on?",
+      "fail": "Either place uses an ordinary word for a group, a circle of friends or everyone present."
+     },
+     {
+      "id": "E5c",
+      "ask": "Does the theatre word itself name the people in the gardens, rather than an ordinary group word with a separate comparison to actors attached?",
+      "fail": "The stage sense appears only as an added simile or explanation."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "link",
+    "source": "it seemed to Miss Brill that in another moment all of them, all the whole company, would begin singing. … they would begin, and the men’s voices, very resolute and brave, would join them. And then she too, she too, and the others on the benches—they would come in",
+    "where": "from the point where she feels everyone is about to start singing, through to the entry of the bench-sitters",
+    "what": "The whole chorus happens only in her head. It seems to her that in a moment they will start, and each later entry is still only what would happen next. Nobody actually sings: in block 10 she is still singing soundlessly, and the young couple who arrive talk instead. If the entries slide into a narrated past or a habitual past, the vision becomes an event, and the fall that follows loses its ground.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does every entry of the voices remain something she imagines is about to happen, with nothing stating that anyone actually began, joined or came in?",
+      "fail": "Any group is narrated as actually singing, joining or coming in, or the entries read as something that used to happen."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "hinge",
+    "source": "they would come in with a kind of accompaniment",
+    "where": "where she and the people on the benches add their own part to the imagined singing",
+    "what": "The verb here is musicians' language for entering at one's cue and starting to play or sing. What she and the bench-sitters bring is a backing part beneath the main voices: the old, quiet bench people supply the accompaniment. Read literally, the verb becomes walking in or arriving, and in the theatre setting it can be mistaken for a stage entrance. Either way, the musical picture breaks.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is it clear that she and the bench-sitters would join the music by adding an accompanying part, not that they would walk in, arrive or step onto a stage?",
+      "fail": "The wording describes physically entering, arriving or making a stage entrance."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "construction",
+    "source": "The young ones, the laughing ones who were moving together, they would begin, and the men’s voices, very resolute and brave, would join them. And then she too, she too, and the others on the benches—they would come in with a kind of accompaniment—something low, that scarcely rose or fell, something so beautiful—moving....",
+    "where": "the two sentences in which she pictures the voices coming in: the young people, then the men, then herself and the people on the benches with a low accompaniment that she finds beautiful and touching",
+    "what": "Both sentences name their subject at length and then take it up again with a pronoun. The second also starts its subject twice and breaks off. After the verb it hangs a loose chain of descriptions of the accompaniment, which trails away. In English this reads as excited, halting thought. In Ukrainian, a subject taken up again needs the right shape to sound like spoken excitement rather than a slip. Descriptions trailing after a noun must also fit it grammatically. Copied piece by piece, the passage turns into disconnected fragments.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "Any of these: trailing descriptions in forms that do not agree with what they describe; a subject taken up again in a way that reads as a grammatical slip; or a piece-by-piece copy of the English sequence that a Ukrainian reader stumbles over."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "hinge",
+    "source": "something so beautiful—moving....",
+    "where": "at the end of her description of the low accompaniment, just before her eyes fill with tears",
+    "what": "The last word names the effect of the accompaniment on her feelings, and her tears follow at once. It comes straight after a line that barely rises or falls, so it is easy to take as physical or musical motion. That reading loses the emotion the next sentence rests on. It also loses the quiet paradox of a sound that hardly moves yet moves her.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Is the final quality of the accompaniment an emotional one, its effect on her heart, rather than motion, flowing or change of pitch?",
+      "fail": "It is rendered as physical or musical movement, or it is left out."
+     }
+    ]
+   },
+   {
+    "id": "E10",
+    "type": "hinge",
+    "source": "Yes, we understand, we understand, she thought—though what they understood she didn’t know.",
+    "where": "the last sentence, where she is sure that they all understand and the narrator adds what she does not know",
+    "what": "In her thought she speaks as one of a community that understands, and the narrator at once adds that she could not have said what it was they understood. The communion has no content. That makes her rapture both touching and hollow, just before the young couple break it. Because the object clause comes first, it can be misparsed as saying that the others understood something she did not. That shuts her out too early and replaces the irony of a feeling she shares but cannot name.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E10a",
+      "ask": "Is what she does not know the content of the shared understanding, that is, she cannot say what exactly it is they understand? Or does the translation instead state that the others understood something she did not?",
+      "fail": "The wording sets the others' knowledge against her ignorance, so that they understand a thing and she does not, or it says she does not know whether they understand at all."
+     }
+    ]
+   }
+  ]
+ }
+}

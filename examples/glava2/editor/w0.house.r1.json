@@ -1,0 +1,35 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1923,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1055
+ },
+ "result": {
+  "edited": "The next morning, before classes, Agness received Theodore in her office. She wore emerald: a severe collar that closed high at her throat, with bands of fabric falling from it to cradle her breasts—full, but tastefully so, and dotted with beauty marks. The outfit bared her toned shoulders and the soft curve of her stomach, where muscle stirred beneath the skin whenever she laughed or drew on her cigarette—two pleasures the magess rarely denied herself.\n\nAnd Agness was doing both right now.\n\nCombined with a miniskirt, bronze high heels, and gold nails cast from melted Ethons, Agness's look defied every foundation of CISAME—where students were obliged to wear the prescribed colors and cut, and where the Pen's discipline of high collars and habits clung to resident mages well after graduation, straight to gray hair and the grave. The green habit hanging on the coat rack behind her did nothing to remedy the situation: it was studded with sequins that scattered glints of morning sun across the walls like an emerald disco ball.\n\nYet Agness could afford to dress flashily, like some Will-magess. Curators appointed at the end of the fourth circle wielded virtually absolute power, because, exams aside, it was the curators who decided whether a student was worthy of advancing to the fifth circle to pursue a magical specialty—and who guided a mage's path all the way to expulsion or graduation.\n\nAnd there were plenty of juicy, sordid rumors about how Agness—undeserving in every possible way—had landed such an important curatorial role. A battle magess, a veteran, Agness lacked even a fifth-circle diploma—and rumor had it she hadn't even served her full ten years as a battle magess. Three different versions involved a three-day orgy in the rectorate. Another two added Senators and Lesser Gods to the fray. Anna knew every single version, down to the tiniest detail.",
+  "changes": [
+   {
+    "before": "dress flashy",
+    "after": "dress flashily",
+    "kind": "taste",
+    "category": "grammar"
+   },
+   {
+    "before": "virtually absolute power. Because, exams aside,",
+    "after": "virtually absolute power, because, exams aside,",
+    "kind": "taste",
+    "category": "punctuation"
+   },
+   {
+    "before": "advancing to the fifth-circle to pursue",
+    "after": "advancing to the fifth circle to pursue",
+    "kind": "error",
+    "category": "punctuation"
+   }
+  ]
+ }
+}

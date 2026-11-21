@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3121,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 401
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 2,
+    "quote": "Tony Robbins",
+    "kind": "fact",
+    "wrong": "The original names a fictional parody figure, 'Tony Bobbins'. The translation swaps in the real coach Tony Robbins, so the reader takes the 390,000 record and the 'indecently rich' jab as claims about a real person.",
+    "severity": 2
+   }
+  ]
+ }
+}

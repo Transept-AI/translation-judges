@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 561,
+  "cache_read_input_tokens": 2559,
+  "output_tokens": 433
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 0,
+    "quote": "full breasts, moderately styled",
+    "kind": "sense",
+    "wrong": "The original says her breasts were full yet tastefully modest in size. The translation suggests something about how they were styled or dressed.",
+    "severity": 1
+   }
+  ]
+ }
+}

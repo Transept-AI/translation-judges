@@ -1,0 +1,114 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4489,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 51118
+ },
+ "result": {
+  "reading": "The ‘heroine’ of Miss Brill’s imagined play (block 10), while fending off the boy, giggles agreement with his sneer at ‘that stupid old thing’ (block 12) and fixes on the one thing Miss Brill loves: the fur she brushed and petted in block 0 becomes a cheap fried fish. The line turns Miss Brill’s own ways of seeing against her: her word ‘funny’ for the odd old bench-sitters and passers-by (blocks 4, 7) and her rapturous ‘exactly like a play’ (block 8). The watcher becomes the laughable one. Everything after rests on it: the boy’s mock rebuke (14), the skipped honey-cake (16–17) and the fur shut in its box, crying (17).",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "construction",
+    "source": "It’s her fu-fur which is so funny",
+    "where": "the girl’s opening words, where she says that what is so funny about the old woman is her fur",
+    "what": "The English cleft lets the girl spotlight the fur in one light, breathless phrase. Never mind the face the boy jeered at; it is the fur that is so funny. Kept close, the frame becomes a pointing word followed by a relative clause attached to the fur, or a bookish linking-verb phrase. Either reads as written translation in what should be a giggling girl’s quick, careless chatter.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "At this spot, does the girl’s remark read as natural spoken Ukrainian, the way a skilled native writer would put it in the mouth of a giggling young girl?",
+      "fail": "A literal cleft with a relative clause hung on the word for the fur, a bookish linking-verb construction, or a word order no one would use when speaking."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "device",
+    "source": "fu-fur … giggled the girl",
+    "where": "the girl’s first remark, as she names the old woman’s fur and the narration says how she laughs",
+    "what": "The girl can barely get the word for the fur out: her giggling breaks into the word itself, and the narration calls the sound a giggle, a light, silly, half-smothered girlish laugh. The cruelty is tossed off between giggles in the middle of a flirtation. That carelessness is what makes it unbearable to Miss Brill, whose ‘dear little thing’ (block 0) is not even worth a straight word.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the girl’s own speech show her laughter interrupting her as she says the word for the fur, so the reader hears the giggle inside the word and not only in the narration?",
+      "fail": "The word for the fur comes out whole and smooth; the laughter appears only in the speech tag or the narration."
+     },
+     {
+      "id": "E2b",
+      "ask": "Does the narration name her laugh as a giggle (light, silly, half-suppressed) rather than a neutral speaking verb or an ordinary or loud laugh?",
+      "fail": "A plain ‘said’, a plain ‘laughed’, a burst of laughter or a guffaw, or no laugh mentioned at all."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "so funny",
+    "where": "where the girl says what is so laughable about the old woman’s fur",
+    "what": "‘Funny’ is Miss Brill’s own word for other people. She has long noticed ‘something funny’ about the silent old bench-sitters who look as if they came out of cupboards (block 4). She watched peasant women in ‘funny straw hats’ and ‘such a funny old man’ nearly knocked over by four girls (block 7). Now a young girl uses the same word for Miss Brill’s fur: the watcher has become one of the funny old people, and she goes home to a room ‘like a cupboard’ (block 17). English lets one word cover both the odd (block 4) and the comical (block 7, here), so a translator choosing per context easily breaks the echo.",
+    "risk": "high",
+    "recurs_in": [
+     4,
+     7
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the girl’s word for what is funny about the fur recognisably the same word, or a word of the same root, as the one used for ‘something funny’ about the old people on the benches in block 4, so the reader hears Miss Brill’s judgement turned on her?",
+      "fail": "No shared word or root with that spot in block 4 (for example, a word meaning ‘strange’ there and a word meaning ‘comical’ here)."
+     },
+     {
+      "id": "E3b",
+      "ask": "Is it recognisably the same word, or a word of the same root, as the one used for the peasant women’s straw hats or for the old man with long whiskers in block 7?",
+      "fail": "No shared word or root with either of those spots in block 7."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "It’s exactly like",
+    "where": "where the girl compares the fur to a fried fish",
+    "what": "In block 8 Miss Brill, enchanted, decides the Sunday scene ‘was exactly like a play’. That discovery gives her a part and makes her an actress. The ‘heroine’ she cast in block 10 now uses the same insistence on exact likeness, but her likeness is to a fried fish. Miss Brill’s rapture is answered in her own phrase, and the play collapses. The insistence also makes the jibe confident and precise rather than a vague passing remark.",
+    "risk": "medium",
+    "recurs_in": [
+     8
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Does the girl’s comparison insist on exact likeness in terms recognisably the same as Miss Brill’s ‘exactly like a play’ in block 8, so a reader hears the echo?",
+      "fail": "The likeness is softened here to mere resemblance, or the two spots use unrelated expressions so no echo is heard."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "device",
+    "source": "a fried whiting",
+    "where": "the end of the girl’s remark: what she says the fur looks like",
+    "what": "For Miss Brill the fur is alive. Its eyes snap at her, it is a ‘little rogue biting its tail’ by her ear (block 0), and at the end she hears it crying in its box (block 17). The girl turns it into a dead, cheap dish. A whiting is a humble everyday fish that was traditionally fried whole and curled with its tail in its mouth (Carroll’s Mock Turtle jokes about it). So ‘exactly like’ is cruelly apt: it points at the curled necklet holding its own tail without naming it. It is what Miss Brill herself did to the woman in the shabby ermine, whose hand became ‘a tiny yellowish paw’ (block 7).",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the fur likened to a fried fish, a dish of cooked food, so the living pet becomes something on a plate?",
+      "fail": "No frying (a live, raw, dried, salted or smoked fish, or a fish with no cooking mentioned); a creature that is not a fish; or ‘whiting’ taken in another sense, such as chalk or a colour."
+     },
+     {
+      "id": "E5b",
+      "ask": "Is the fish a particular, humble, everyday kind, so the image stays cheap and exact?",
+      "fail": "Just ‘fish’ with no kind named; a luxury or exotic fish (sturgeon, salmon, tuna and the like); or a processed form (fillet, fish cake, fish fingers, tinned fish)."
+     }
+    ]
+   }
+  ]
+ }
+}

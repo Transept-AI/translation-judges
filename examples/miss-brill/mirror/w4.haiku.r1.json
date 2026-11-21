@@ -1,0 +1,80 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1410,
+  "cache_read_input_tokens": 563,
+  "output_tokens": 610
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "щось таке, що, що ж це було?, не сум",
+    "why": "clumsy punctuation, stumbling"
+   },
+   {
+    "quote": "І тоді вона теж, вона теж, і інші на лавках",
+    "why": "awkward, і і clash"
+   },
+   {
+    "quote": "приєднаються до них",
+    "why": "flat"
+   },
+   {
+    "quote": "всіх інших членів компанії",
+    "why": "bureaucratic, mechanical"
+   },
+   {
+    "quote": "з тим трепетним усміхом",
+    "why": "slightly odd phrasing"
+   },
+   {
+    "quote": "«Ні, не зараз», — сказала дівчина. — «Не тут, я не можу».",
+    "why": "non-standard dialogue punctuation"
+   },
+   {
+    "quote": "Точнісінько смажена путасу",
+    "why": "odd fish, gender mismatch feel"
+   },
+   {
+    "quote": "Через цю дурну стару там, у кінці?",
+    "why": "slightly stiff"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Мелодія здіймалася, здіймалася, світло сяяло",
+    "why": "rhythmic, lyrical"
+   },
+   {
+    "quote": "Так, ми розуміємо, ми розуміємо, подумала вона",
+    "why": "touching, natural"
+   },
+   {
+    "quote": "Вони були гарно одягнені; вони були закохані.",
+    "why": "crisp, faithful rhythm"
+   },
+   {
+    "quote": "Чому б їй не сидіти вдома зі своєю дурною пикою?",
+    "why": "cruel, vivid colloquial"
+   },
+   {
+    "quote": "захихотіла дівчина",
+    "why": "lively verb"
+   },
+   {
+    "quote": "чимось таким гарним... зворушливим...",
+    "why": "emotional cadence"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

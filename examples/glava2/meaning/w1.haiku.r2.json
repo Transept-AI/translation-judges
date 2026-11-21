@@ -1,0 +1,30 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 559,
+  "cache_read_input_tokens": 2546,
+  "output_tokens": 980
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 7,
+    "quote": "If she wants to do good by making the Plans better, that is her choice.",
+    "kind": "addition",
+    "wrong": "The original says Theodor advised Anna to use her capital differently so she could do good, given that she wants to improve the Plans. The translation instead has him leaving it as her choice.",
+    "severity": 2
+   },
+   {
+    "n": 10,
+    "quote": "Her share won't change because of it.",
+    "kind": "sense",
+    "wrong": "\"Доля\" here means Anna's fate or destiny, which won't change whatever she does. The translation makes it a financial share or portion.",
+    "severity": 2
+   }
+  ]
+ }
+}

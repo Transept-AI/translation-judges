@@ -1,0 +1,244 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5337,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 89496
+ },
+ "result": {
+  "reading": "Answering the inner voice of block 16, which mocks his disbelief in the empty house, the narrator admits he cannot rule out the door creaking open on all the people who have burdened him (blocks 1–3, 6), and then they come: victims of the reprisals after 1905, the shot and the hanged in white sacks, whom he now addresses directly. The paragraph gathers the story's earlier figures (his heart used as other people's store, the people he can never avoid, the blood sucked out of him in block 2) into a confession that their reproach is just: he yawned at news of twelve hanged, got rid of another report with a plum, and horror has left him too bloodless even to blush. It is the moral core of the story, where the flight from people is exposed as numbness and ends in a weary dismissal. Block 18 continues the procession he tries to wave past, and the morning of blocks 19–20 (the cuckoo, the freed dog, the trifle of a bitten calf) answers this night.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "Хіба ящо знаю? Хіба я знаю… Хіба я можу впевненим бути, що не відхиляться двері… … не почнуть виходити люди…",
+    "where": "The opening questions, answering the challenge about the empty house, through to the people who might walk out of the dark.",
+    "what": "Each question opened by this particle is rhetorical and amounts to a denial: he does not know and cannot be sure. It answers the inner voice of block 16, which mocks his disbelief in the emptiness he fled to. What he cannot be sure of is negated twice, once for the door not opening and once for the people not coming out, so the fear is that they will come. The first question has two words run together in print. It is the same admission of ignorance, not a conditional.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Do the opening questions come across as his admission that he does not know or cannot be sure?",
+      "fail": "They are rendered as a condition (unless, if, what if), or worded so that he appears to know."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is what he cannot rule out the door opening and people coming out of the dark, so that their coming is the danger?",
+      "fail": "A negation is lost or flipped, so that what he doubts is their coming rather than their staying away, or he is sure they will not come."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "всі ті, що складали у моє серце, як до власного сховку, свої надії, гнів і страждання, або криваву жорстокість звіра",
+    "where": "Where the people who might come out are described as those who put their hopes, anger, suffering and cruelty into his heart.",
+    "what": "Almost word for word, this repeats block 2. There humanity throws its sufferings, broken hopes and cruelty into his heart, and the same simile likens the heart to a place for putting things away that the depositors treat as their own. The heart used as other people's property is the story's figure for his lost self-possession; in block 6 it is filled to the brim and can hold no more. Here the depositors return in person, so a reader of the original hears block 2 come back as a procession.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     6
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is his heart likened to a place where things are put away or hidden, into which they put their hopes, anger and suffering?",
+      "fail": "There is no such likeness: they simply confide in him, pour things into his heart or burden him. Also no if the image becomes a shelter in which they themselves hide."
+     },
+     {
+      "id": "E2b",
+      "ask": "Is that place presented as one they treat as their own?",
+      "fail": "Nothing marks the place as theirs."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "Всі ті, що я не можу розминутись із ними",
+    "where": "The short sentence right after the list of what people put into his heart, saying what these people are to him.",
+    "what": "This is the refrain of blocks 1 and 2: on his road he keeps meeting people and has no way round them, unlike the planets whose orbits nothing crosses. It is about unavoidable encounter, not separation. Read as parting, it would make him sound attached to the very people he longs to be rid of. A reader of the original hears the earlier refrain return.",
+    "risk": "medium",
+    "recurs_in": [
+     1,
+     2
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Does the line say these are people he cannot avoid or get away from, the same predicament he voiced in blocks 1 and 2?",
+      "fail": "The clause is missing, or it says he cannot part with them, separate from them, do without them, forget them or stop missing them."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "Ба, ба! Як вас багато…",
+    "where": "Where he first sees the crowd of the dead and exclaims at how many there are.",
+    "what": "The interjection expresses surprise with a mock-hospitable ring, like a host greeting an unexpectedly large party of visitors. It sounds like an English interjection of contempt. Taken that way, he would sneer at the dead a moment before conceding that their reproach is just.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the exclamation at their number one of surprise, with no note of contempt? (If the interjection is simply left out, answer yes.)",
+      "fail": "An interjection of scorn or impatience (bah, pah, pshaw) is used, or the original syllables are copied as meaningless sounds."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "construction",
+    "source": "Це ви, що з вас витекла кров в маленьку дірку від солдатської кульки, а це ви… сухі препарати:",
+    "where": "Where he picks out among the dead first those killed by a soldier's bullet, then the hanged.",
+    "what": "He singles out the groups one by one as he recognises them, using a pointing formula. The first group gets a relative clause that repeats its pronoun inside it. The second trails off into a bare label, then a colon and an account of what was done to them. A close rendering gives a stilted pointing frame and a doubled pronoun. English has to single out each group in its own way while keeping the sense of recognising them one after another.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "A stilted pointing frame (such as 'This is you, from whom…'), a relative clause that repeats its pronoun, or the label for the second group left hanging ungrammatically."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "register",
+    "source": "сухі препарати",
+    "where": "The label he gives the hanged, just before the sacks, ropes and pits.",
+    "what": "A term of art from anatomy and natural-history collections, for objects dried and preserved for study, as distinct from those kept in fluid. The cold, laboratory label is the narrator's numbness talking, and the dryness sets the hanged against the first group, whose blood ran out. In current usage the second word more often names a pharmaceutical product, which pulls a hurried translator into the wrong field.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the label for the hanged clearly belong to the field of laboratory, anatomical or natural-history collections, meaning things dried and preserved for study?",
+      "fail": "Any of: plain words for dead bodies (corpses, remains, dried-up bodies); a pharmaceutical, chemical or culinary sense; a bare 'preparations' with nothing marking them as objects of study; another image of preservation, such as mummies."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "link",
+    "source": "цілих дванадцять… Цілих дванадцять…",
+    "where": "Where he recalls once reading how a number of them were hanged.",
+    "what": "The word before the number is an intensifier of quantity. It marks twelve as a shocking number of people to hang, and he dwells on it. That size is what makes his reaction monstrous. It does not mean the complete set of some known group.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the number of the hanged stressed as large by an intensifier of quantity attached to it?",
+      "fail": "The number is given bare, or as the whole of a known group (all twelve of you)."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "device",
+    "source": "я раз читав, як вас повішали цілих дванадцять… Цілих дванадцять… і позіхнув.",
+    "where": "His reaction to reading about the hanging.",
+    "what": "A deflation. He recalls the report, lingers on the figure as if weighing it, and then gives his whole response in a single bare verb, a yawn. Nothing explains or excuses it. The flatness is the self-accusation, and it prepares the plum that follows.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Before the yawn, does he dwell on the figure, returning to it or stressing it with an exclamation, rather than mentioning it once in passing?",
+      "fail": "The figure is stated once, with no second mention and no exclamatory stress, before the yawn."
+     },
+     {
+      "id": "E8b",
+      "ask": "Does the reader learn of the yawn only after the figure, so that it comes last as the reveal?",
+      "fail": "The yawn is mentioned before or alongside the news, e.g. he yawned while reading that twelve were hanged."
+     },
+     {
+      "id": "E8c",
+      "ask": "Is the yawn left bare, with no added explanation, excuse or comment on his feelings?",
+      "fail": "Words are added that explain or soften it (boredom, absent-mindedness, shame, regret)."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "hinge",
+    "source": "А другий раз звістку про ряд білих мішків заїв стиглою сливою.",
+    "where": "The second confession: what he did with a ripe plum on reading of a row of white sacks.",
+    "what": "The verb denotes eating something after an unpleasant taste to get rid of it, as one does after bitter medicine, and its object is the news. He took in the report like a bad taste, removed it with a ripe plum, then lingered on the sweetness in his mouth. The horror is the deliberate swap of atrocity for sweetness. If he merely happened to be eating fruit while reading, it becomes a coincidence.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Is the plum eaten to follow and cover the news, the way something sweet is taken after something bitter, so that the news is treated like a taste in his mouth?",
+      "fail": "He just eats a plum while or after reading, with nothing linking the plum to getting rid of the news. This includes a word-for-word 'ate the news with a plum' in which the plum reads as an accompaniment."
+     }
+    ]
+   },
+   {
+    "id": "E10",
+    "type": "register",
+    "source": "Знаєте, я раз читав … Так взяв, знаєте, в пальці чудову сочисту сливу…",
+    "where": "The two confessions, of the yawn and of the plum.",
+    "what": "He tells this like table talk, buttonholing the dead with conversational asides as if chatting with acquaintances. The plum sentence opens elliptically, the way speech does. This sociable, casual level, set against what he confesses, is part of the horror.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E10a",
+      "ask": "Does the confession keep a casual, spoken quality addressed to the dead, with at least one conversational aside or colloquial turn aimed at them?",
+      "fail": "All such asides are gone and the confession reads as neutral or formal narration."
+     }
+    ]
+   },
+   {
+    "id": "E11",
+    "type": "motif",
+    "source": "жах висмоктав з мене всю кров",
+    "where": "Where he explains why his face stays white and he does not blush.",
+    "what": "His pallor is not shamelessness but the result of something done to him. The horror is the agent, and all of his blood is what has been taken, by the same sucking that block 2 attributes to humanity acting like a vampire; there he says it is already happening. Block 20 echoes it when he shrugs off the blood a dog might draw from his calf as a trifle.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     20
+    ],
+    "checks": [
+     {
+      "id": "E11a",
+      "ask": "Is his bloodlessness an act done to him by the horror, with all his blood sucked or drained out of him, rather than a mere state?",
+      "fail": "Only a state or colour is given (pale, bloodless, blood ran cold), or the horror merely frightens or chills him."
+     }
+    ]
+   },
+   {
+    "id": "E12",
+    "type": "hinge",
+    "source": "серед яких ви йдете як кривава мара",
+    "where": "End of the sentence about having no hot blood left, where the dead walk among the living dead.",
+    "what": "The noun names a ghostly figure seen moving among people: the murdered walk among the living dead like a blood-stained ghost. The word also has a sense of nightmare or delusion. Chosen in haste and paired with the adjective, that sense yields an English phrase heard as a mild oath about a nuisance, and the walking ghost disappears.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E12a",
+      "ask": "Do the dead walk among them as a ghostly figure stained with blood?",
+      "fail": "Rendered as a nightmare, bad dream, delusion or hallucination, or worded so that the adjective reads as an oath."
+     }
+    ]
+   },
+   {
+    "id": "E13",
+    "type": "hinge",
+    "source": "Проходьте! я утомився.",
+    "where": "The closing command to the dead, just before he says he is tired.",
+    "what": "In everyday speech this imperative is what a host says to invite a guest further in. Addressed to a procession, it takes its other sense: a command to keep moving past the speaker without stopping. It is a dismissal, sealed by the story's refrain of tiredness. The next block shows them streaming past without end while he bars entry. An invitation would reverse the scene.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E13a",
+      "ask": "Does the command tell the dead to move on past him, rather than invite them in?",
+      "fail": "Wording a reader takes as an invitation to enter or approach (come in, enter, step inside, welcome, come through)."
+     }
+    ]
+   }
+  ]
+ }
+}

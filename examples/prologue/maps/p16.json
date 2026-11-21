@@ -1,0 +1,99 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3676,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 58873
+ },
+ "result": {
+  "reading": "Block 16 is the hundred-dollar example of the slide announced at 15. The paid, unmoderated Q&A turns into the 'collective Tinder date' Freya meant to prevent (9), and Rebecca's question is in substance the five-dollar marriage question Freya ignored at 13, now dressed in sentimental cliché and priced twenty times higher; this time Freya chooses to answer (17). Her answer at 18 is built from this paragraph's terms: a man set against business, the whole-life measure of love turned onto work, and the cliché of male strength punctured by her quip about a business that never fails to stand, which sets off the feminist and troll storm of 19–22.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "запитала Ребекка223 за сто доларів",
+    "where": "the attribution between Rebecca's two questions, where the hundred dollars is mentioned",
+    "what": "The sum is Rebecca223's donation, the price of having her questions shown in the paid, unmoderated round. Throughout the scene the narrator tags questions with their cost: the fifty scraped from lunch money at 11, the minimum five for the marriage question at 13, the more expensive questions of 14, the small sums of 22 and 24. The price carries the scene. This is essentially the question Freya ignored at five dollars, now at twenty times the price, and this time she answers (17). In English a verb of asking followed directly by a sum means requesting money. A close rendering therefore has Rebecca223 demanding a hundred dollars, or someone asking her for it, which reverses who pays whom.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the translation make clear that the hundred dollars is what Rebecca223 paid (donated) to send her questions?",
+      "fail": "The sum is missing. Or the wording lets it read as money requested, by Rebecca223 or from her, rather than paid by her; for example, the sum is attached straight to the verb of asking with nothing marking it as a payment or donation."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "чоловічого",
+    "where": "Rebecca's first question, about what Freya supposedly lacks at her side",
+    "what": "What Freya supposedly lacks is explicitly a man. The question is gendered at its root: a woman fan voices the conviction that a successful woman must still need one. It repeats, in a softer key, the marriage question Freya ignored at 13. It also hands her the term her answer at 18 is built on: business weighed against a man again and again, down to the closing line that sets business apart from a man. The word returns at 22 for the men in her audience. If the man becomes a gender-neutral someone, the premise that provokes both her answer and the feminist storm at 19 goes missing.",
+    "risk": "medium",
+    "recurs_in": [
+     18,
+     22
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "In the first question, is the support Freya supposedly lacks explicitly a man's (male), rather than a gender-neutral person, partner or support?",
+      "fail": "Nothing in the first question marks what she lacks as male."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "кохання всього життя",
+    "where": "Rebecca's second question, whether Freya would give up her business for love",
+    "what": "Rebecca measures the imagined love by the span of a whole life. At 18 Freya replies with the very same measure applied to work, so a reader of the original hears her hand Rebecca's phrase back with business put where love stood. The root of the word for love also comes back there, in the lover whom business need not please. If the love is described only as ideal, true or destined, Freya's reply at 18 has nothing to echo.",
+    "risk": "medium",
+    "recurs_in": [
+     18
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "In the second question, is the love explicitly measured against her whole life or a lifetime, rather than described only as ideal, true or destined?",
+      "fail": "The love carries no reference to her life or to a lifetime."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "register",
+    "source": "сильного чоловічого плеча поруч",
+    "where": "Rebecca's first question, the image of what Freya is missing at her side",
+    "what": "Rebecca reaches for a worn stock phrase of traditional gender roles, the idiom of wedding toasts, romance fiction and conservative advice columns, in which a man's strength is the support a woman needs beside her. Its sentimental, conventional ring is what makes a woman fan's question a provocation. It is also the very ideal of male strength that Freya punctures at 18 with her quip about a business that, unlike a man, never fails to stand. If it is flattened into a plain question about having a partner, or recast in clinical or self-help terms, the line loses both the cliché and the target of the joke.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "In the first question, is the man pictured through the stock image of his strength as support at her side, rather than simply as a partner, company or relationship, or in clinical or self-help terms?",
+      "fail": "The first question asks only about having a partner, a man or a relationship, with no image of strength or support. Or it uses clinical, psychological or self-help terms."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "construction",
+    "source": "Тобі не бракує сильного чоловічого плеча поруч?",
+    "where": "Rebecca's first question, whether Freya misses having a strong man at her side",
+    "what": "In the original this is an ordinary chat message built on a stock phrase. Its shape has no English counterpart. The lack is put impersonally, as something that befalls the person, and what is lacking is a body part with two adjectives stacked before it and a bare adverb of place after it. Followed closely, it yields a stiff sentence about lacking a disembodied male body part located physically beside her. That reads as translated and makes a fan's casual message sound strange; English has to rebuild the question around an image it actually uses.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does Rebecca's first question read like something a native English speaker would naturally type in a live chat, with no stiff or word-for-word phrasing?",
+      "fail": "It reads as translated: an awkward verb of lacking, a body part placed physically beside her, or other wording a skilled native writer would not use for this idea."
+     }
+    ]
+   }
+  ]
+ }
+}

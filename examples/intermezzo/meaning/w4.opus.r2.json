@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 562,
+  "cache_read_input_tokens": 2712,
+  "output_tokens": 654
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 20,
+    "quote": "off she tears blindly",
+    "kind": "referent",
+    "wrong": "The dog was introduced as Overko and called \"he\"; switching to \"she\" makes the reader think it is a female dog or a different animal. The feminine in the original only agrees with the noun \"псина\".",
+    "severity": 1
+   }
+  ]
+ }
+}

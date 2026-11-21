@@ -1,0 +1,29 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 567,
+  "cache_read_input_tokens": 1443,
+  "output_tokens": 1108
+ },
+ "result": {
+  "edited": "…I open my eyes and suddenly see in the windows the deep sky and the branches of a birch. A cuckoo is calling. It strikes a little hammer against a great crystal bell, cuckoo! cuckoo!, and sows silence over the grass. Suddenly I picture the green yard; it has already swallowed my room. I jump out of bed and call through the window to the cuckoo: cuckoo… cuckoo… Good morning! Ah, how much of everything there is: sky, sun, merry green.\n\nI run out into the yard. And there iron chains are clanking and the dogs are raising a furious racket. Big white sheepdogs, like bears, leap on their hind legs, and their long shaggy coats leap on them. I come closer. Come now, dog, what's the matter… what's your name? That's enough, Overko… He doesn't hear, doesn't see. The red eyes leap, the broad forehead leaps, and the white fur breeches. Toothy fury strains and cannot quite burst out of the deep jaws, and only tosses the haystack of fur. Come now, Overko, what is it? Why do your red eyes blaze, melting fear and hatred together in their fire? I'm not your enemy, and I'm not afraid of you. At most you could tear off a piece of my flesh, or draw some blood from my calf… Ah, what a trifle that is! What a trifle, if only you knew… Hush now, dog, hush. True, I understand, the chain… Maybe you're angrier at it than at me… It's because of the chain that your forepaws have to snatch at air, it's the chain that seizes you by the throat and drives your fiery rage back down it. Wait a little. You'll be free in a moment. What will you do to me then? Now stand still, stop fidgeting, while they take the chain off you… and now, off you go. Where are you going, where? Ha-ha! What a silly mutt. Eyes shut, head to one side, legs gathered together, and off she tears blindly, out of her wits. She rips at the grass with her claws, flings it behind her, and the matted tufts on her rump fly along after her. And what about me? What? Forgotten me?",
+  "changes": [
+   {
+    "before": "Good morning!..",
+    "after": "Good morning!",
+    "kind": "error",
+    "category": "punctuation"
+   },
+   {
+    "before": "chokes you by the throat",
+    "after": "seizes you by the throat",
+    "kind": "error",
+    "category": "calque"
+   }
+  ]
+ }
+}

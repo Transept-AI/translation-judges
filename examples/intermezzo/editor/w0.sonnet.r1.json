@@ -1,0 +1,29 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1988,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1215
+ },
+ "result": {
+  "edited": "All that was left was to pack... It was one of those countless \"musts\" that had worn me out and kept me from sleeping. It makes no difference whether the \"must\" is small or large; what matters is that each one demands my attention, that it is not I who command them but they who already command me. In effect, you become the slave of this many-headed beast. If only I could get away from it for a while, forget it, rest. I am tired.\n\nBecause life comes at me ceaselessly and relentlessly, like a wave onto a shore. Not only my own life, but other people's too. And after all, do I even know where my own life ends and another's begins? I feel another existence entering mine the way air comes in through windows and doors, the way the waters of tributaries flow into a river. I cannot get past a human being. I cannot be alone. I confess I envy the planets: they have their orbits, and nothing stands in their way. Whereas on mine I meet a person at every turn.\n\nYes, you stand in my way and think you have a right to me. You are everywhere. It is you who clothed the earth in stone and iron, you who through the windows of houses, thousands of black mouths, breathe out your stench forever. You lash the holy silence of the earth with the screech of factories and the thunder of wheels, you foul the air with dust and smoke, you bellow with pain, with joy, with rage. Like an animal. Everywhere I meet your gaze; your eyes, curious and greedy, crawl into me, and you yourself, in your variety of colors and forms, lodge in my pupil. I cannot get past you... I cannot be alone... You do not merely walk beside me, you climb inside me. Into my heart, as into your own hiding place, you throw your sufferings and your pains, your shattered hopes and your despair. Your cruelty and your bestial instincts. All the horror, all the filth of your existence. What do you care that you torment me? You want to be my master, you want to take me... my hands, my mind, my will and my heart... You want to suck me dry, all my blood, like a vampire. And you do it. I live not as I wish, but as you tell me in your countless \"musts,\" your endless \"you have tos.\"",
+  "changes": [
+   {
+    "before": "each time it demands my attention, that it is not I who command them",
+    "after": "each one demands my attention, that it is not I who command them",
+    "kind": "error",
+    "category": "grammar"
+   },
+   {
+    "before": "I meet a person everywhere and always.",
+    "after": "I meet a person at every turn.",
+    "kind": "error",
+    "category": "calque"
+   }
+  ]
+ }
+}

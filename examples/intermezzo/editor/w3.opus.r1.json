@@ -1,0 +1,35 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1371,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1097
+ },
+ "result": {
+  "edited": "There, you see! What nonsense. You wanted silence and solitude, and now you have them. Shaking your head! You don't believe in solitude?\n\nHow do I know? How do I know… How can I be sure the door won't swing open… just a little, with a faint creak, and out of the unknown darkness, so deep and endless, people won't begin to come… all those who laid in my heart, as in their own storeroom, their hopes, their anger and their sufferings, or the bloody cruelty of the beast. All those I cannot escape, who have worn me out… What would be strange about their coming once more… There, I see them already. Well, well! How many of you there are… This is you, whose blood ran out through a tiny hole from a soldier's bullet, and this is you… dried specimens: they wrapped you in white sacks, swung you on ropes in the air, and afterwards laid you in badly covered pits, where the dogs dug you up… You look at me reproachfully, and you are right. You know, I once read how they hanged twelve of you… Twelve whole men… and I yawned. And another time I chased the news of a row of white sacks down with a ripe plum. I just took, you know, a lovely juicy plum in my fingers… and felt a pleasant, sweet taste in my mouth… You see, I don't even blush, my face is white, like yours, because horror has sucked all the blood out of me. I no longer have a drop of hot blood even for the living dead among whom you walk like a bloody phantom. Move along! I am tired.\n\nAnd the people keep coming. One, then another, then a third, and so on without end. Enemies and friends, those close to me and strangers, and all of them shout into my ears the cry of their life or their death, all of them leave the prints of their soles on my soul. I will stop my ears, lock my soul, and shout: no admittance here!",
+  "changes": [
+   {
+    "before": "All those I cannot get out of the way of, who have worn me out",
+    "after": "All those I cannot escape, who have worn me out",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "One after another, and a third, and so on without end.",
+    "after": "One, then another, then a third, and so on without end.",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Enemies and friends, near and strangers,",
+    "after": "Enemies and friends, those close to me and strangers,",
+    "kind": "error",
+    "category": "word"
+   }
+  ]
+ }
+}

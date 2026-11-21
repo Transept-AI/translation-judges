@@ -1,0 +1,115 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1410,
+  "cache_read_input_tokens": 614,
+  "output_tokens": 1803
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Some green chaos whirled around me",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "And they were helpless.",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "At last we are home. The white walls of the house bring my senses back. As soon as the carriage rolled onto the wide green yard",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "bring my senses back",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "Then I suddenly heard",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "lay across the deep blue spaces",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "submerged at the bottom of the black darkness",
+    "kind": "wordy",
+    "weight": 2
+   },
+   {
+    "quote": "the creak of the floor under their weight",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "drown myself in the black darkness",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "voiceless, unmoving calm",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "Yet there, beyond my wall, something is.",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "my eye would manage to catch the image of people",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "the soft horsehair mattresses of the furniture",
+    "kind": "unnatural",
+    "weight": 2
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "seized the carriage by all its wheels",
+    "why": "physical, startling image of landscape"
+   },
+   {
+    "quote": "my eyes drowned in it as in a sea and searched for something to catch hold of",
+    "why": "vivid vertigo of open space"
+   },
+   {
+    "quote": "It was so quiet that I felt ashamed of the pounding of my own heart.",
+    "why": "precise, intimate, true"
+   },
+   {
+    "quote": "Ten black rooms, filled with darkness to the brim.",
+    "why": "strong, concrete opening line"
+   },
+   {
+    "quote": "I close the door, as if I feared the light of the lamp would leak out through the cracks.",
+    "why": "fresh inversion of light and dark"
+   },
+   {
+    "quote": "I hear the solidity and shape of furniture",
+    "why": "bold synesthesia that works"
+   },
+   {
+    "quote": "everything would suddenly leap back into its place: chairs, sofas, windows, even the cornices",
+    "why": "lively, exact rhythm"
+   },
+   {
+    "quote": "all those who left their faces in mirrors, their voices in cracks and corners",
+    "why": "haunting, well-built cadence"
+   }
+  ]
+ }
+}

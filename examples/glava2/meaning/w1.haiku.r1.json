@@ -1,0 +1,37 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2167,
+  "cache_read_input_tokens": 942,
+  "output_tokens": 888
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 5,
+    "quote": "assigned to Agnes to torment Theodor",
+    "kind": "referent",
+    "wrong": "The reader believes someone else assigned the reports and sheets to Agnes. In the original, Agnes herself assigned them in order to torment Theodor.",
+    "severity": 2
+   },
+   {
+    "n": 7,
+    "quote": "If she wants to do good by making the Plans better, that is her choice.",
+    "kind": "addition",
+    "wrong": "The reader believes Theodor is shrugging off Anna's ambition as her own business. In the original he advised her to use her capital differently precisely so that she could do good, if she wants to make the Plans better.",
+    "severity": 2
+   },
+   {
+    "n": 10,
+    "quote": "Her share won't change because of it.",
+    "kind": "sense",
+    "wrong": "The reader believes some portion or allotment of Anna's is at stake. The original says her fate (доля) won't change whatever she does.",
+    "severity": 2
+   }
+  ]
+ }
+}

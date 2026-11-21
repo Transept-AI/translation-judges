@@ -1,0 +1,92 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1825,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 613
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "all those who laid in my heart",
+    "why": "laid/lay error"
+   },
+   {
+    "quote": "or the bloody cruelty of the beast",
+    "why": "odd, unclear link"
+   },
+   {
+    "quote": "All those I cannot get out of the way of",
+    "why": "clumsy preposition pileup"
+   },
+   {
+    "quote": "One after another, and a third, and so on without end.",
+    "why": "awkward literal counting"
+   },
+   {
+    "quote": "near and strangers",
+    "why": "unbalanced pair"
+   },
+   {
+    "quote": "dried specimens",
+    "why": "jarring, unclear"
+   },
+   {
+    "quote": "the living dead among whom you walk like a bloody phantom",
+    "why": "muddled image"
+   },
+   {
+    "quote": "Twelve whole men",
+    "why": "slightly odd emphasis"
+   }
+  ],
+  "good": [
+   {
+    "quote": "chased the news of a row of white sacks down with a ripe plum",
+    "why": "chilling, memorable"
+   },
+   {
+    "quote": "a lovely juicy plum in my fingers… and felt a pleasant, sweet taste in my mouth",
+    "why": "disturbing sensual contrast"
+   },
+   {
+    "quote": "and I yawned",
+    "why": "brutal understatement"
+   },
+   {
+    "quote": "horror has sucked all the blood out of me",
+    "why": "vivid"
+   },
+   {
+    "quote": "all of them leave the prints of their soles on my soul",
+    "why": "nice wordplay"
+   },
+   {
+    "quote": "the door won't swing open… just a little, with a faint creak",
+    "why": "eerie suspense"
+   },
+   {
+    "quote": "where the dogs dug you up",
+    "why": "stark horror"
+   },
+   {
+    "quote": "no admittance here!",
+    "why": "strong ending"
+   },
+   {
+    "quote": "Move along! I am tired.",
+    "why": "weary, abrupt"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

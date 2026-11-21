@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1832,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 701
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Because Agnes outraged Anna beyond belief.",
+    "why": "fragment, clunky overstatement"
+   },
+   {
+    "quote": "All the more so since Theodore's reports and elective transcripts, assigned by Agnes to torment Theodore, much to Anna's displeasure, the curator simply flicked into the wastebasket",
+    "why": "tangled, inverted syntax"
+   },
+   {
+    "quote": "But Anna had no idea that she had no greater ally in Seraph than Agnes.",
+    "why": "awkward double 'had no'"
+   },
+   {
+    "quote": "Because right now, in Agnes's office,",
+    "why": "another weak 'Because' opener"
+   },
+   {
+    "quote": "Still less do I want to help the Seraphic economy.",
+    "why": "stiff, odd phrasing"
+   },
+   {
+    "quote": "Agnes smiled.",
+    "why": "smile used as speech tag"
+   },
+   {
+    "quote": "Anna, now, she can afford to do whatever she likes.",
+    "why": "clunky register"
+   },
+   {
+    "quote": "smoking out the window at the same time",
+    "why": "flat, mechanical"
+   },
+   {
+    "quote": "Though in truth she gave them everything she had.",
+    "why": "unclear 'them'"
+   }
+  ],
+  "good": [
+   {
+    "quote": "with a wave of her gold nails",
+    "why": "vivid, characterful"
+   },
+   {
+    "quote": "Theodore himself had no Plan. Nor any place in the Planes.",
+    "why": "nice wordplay, rhythm"
+   },
+   {
+    "quote": "Don't tell me you actually considered doing something that wasn't for yourself",
+    "why": "wry, natural voice"
+   },
+   {
+    "quote": "the smoke curled into fanciful spirals, drifting out of the office into the morning sky without leaving a trace of scent",
+    "why": "atmospheric image"
+   },
+   {
+    "quote": "only a desk, two armchairs and a rapier of flysteel on a stand",
+    "why": "sharp telling detail"
+   },
+   {
+    "quote": "her favourite cherry tobacco",
+    "why": "sensory, characterizing"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

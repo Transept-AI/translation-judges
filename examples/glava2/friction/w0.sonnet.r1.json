@@ -1,0 +1,99 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2010,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1593
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Agnes met Theodore in her office in an emerald dress",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "with a severe collar cut right up to the throat, from which straps fell to hold up her full, if tastefully moderate, breasts with their beauty marks",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "full, if tastefully moderate,",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "It also bared her firm shoulders",
+    "kind": "follow",
+    "weight": 1
+   },
+   {
+    "quote": "her womanly belly, beneath which the muscles played",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "The magess loved both.",
+    "kind": "follow",
+    "weight": 3
+   },
+   {
+    "quote": "Together with the miniskirt, the bronze high-heeled shoes and the golden nails made of melted-down etons, Agnes's look",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "where the Pigsty's drilling in high collars and robes was kept up by resident mages, graduates already, until grey hair and the grave",
+    "kind": "literal",
+    "weight": 3
+   },
+   {
+    "quote": "Because curators, who were appointed at the end of the fourth circle, held practically boundless power. Because, exams aside,",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "as brightly as any Volevich",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "And there were a great, great many juicy rumors about how Agnes, in every way unworthy, had got this important curatorial post.",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "by rumor she hadn't served out her ten years",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "Anna knew every version",
+    "kind": "follow",
+    "weight": 3
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "beneath which the muscles played whenever Agnes laughed or drew on a cigarette",
+    "why": "precise, sensual physical detail"
+   },
+   {
+    "quote": "it was strewn with sequins that threw the morning sun back across the walls like an emerald disco ball",
+    "why": "vivid, playful image"
+   },
+   {
+    "quote": "The rumors about a three-day orgy in the rector's offices came in three versions. In two more, Senators and Minor Gods joined in.",
+    "why": "deadpan comic escalation"
+   },
+   {
+    "quote": "And Agnes happened to be doing both just then.",
+    "why": "wry, well-timed beat"
+   }
+  ]
+ }
+}

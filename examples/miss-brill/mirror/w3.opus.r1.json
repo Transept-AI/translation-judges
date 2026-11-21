@@ -1,0 +1,72 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1437,
+  "cache_read_input_tokens": 563,
+  "output_tokens": 443
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Але аж коли маленький рудий песик",
+    "why": "awkward 'але аж коли' opening"
+   },
+   {
+    "quote": "якого чимось напоїли",
+    "why": "flat for 'drugged'"
+   },
+   {
+    "quote": "Вони були не лише глядачами, не лише дивилися; вони грали.",
+    "why": "redundant, clunky"
+   },
+   {
+    "quote": "Але раптом він дізнався",
+    "why": "loses hypothetical sense"
+   },
+   {
+    "quote": "Стара голова піднялася",
+    "why": "slightly literal"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Достоту як вистава.",
+    "why": "natural, idiomatic"
+   },
+   {
+    "quote": "поволі подріботів геть",
+    "why": "vivid verb"
+   },
+   {
+    "quote": "вона ж бо зрештою частина вистави",
+    "why": "lively particles"
+   },
+   {
+    "quote": "Ще б пак!",
+    "why": "natural interjection"
+   },
+   {
+    "quote": "якось чудно й ніяково",
+    "why": "captures feeling"
+   },
+   {
+    "quote": "дві іскорки затремтіли в старих очах",
+    "why": "vivid image"
+   },
+   {
+    "quote": "Так, я вже давно актриса",
+    "why": "warm, natural"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

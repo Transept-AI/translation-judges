@@ -1,0 +1,183 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3307,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 87201
+ },
+ "result": {
+  "reading": "An expository aside inside Theodore's meeting with his curator Agnes. Block 17 has just promised that whoever stays in the Academy may never even pay interest on an ever-growing debt, and this paragraph turns that condition into the catch: staying is hard, and a mage who leaves from the fourth circle on can never clear the debt. It explains why Theodore can no longer afford to leave (block 14) and why the curator's verdict on the fifth circle matters so much (block 3), and it builds on the Card's limit and fees growing with each circle (block 16). Its last two sentences set the lofty pursuits that only Seraph-kept Academicians can afford against the grim jobs block 19 lists next, and in block 20 Agnes lets Theodore stew over the fate of a dropout before the fifth circle.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "device",
+    "source": "Проблема була лише в тому, щоб в Академії залишитися. Що було не так просто",
+    "where": "the paragraph's opening, where staying in the Academy is named as the catch and the narrator then concedes how hard that is",
+    "what": "Block 17 has just held out the perk: stay in the Academy and you may never even pay interest on a debt that grows forever. The narrator answers deadpan. Staying is presented as if it were the only, minor obstacle, and its difficulty is then conceded with a shrug, while the rest of the paragraph (debts beyond repair, menial work) shows that it is the whole trap. The minimising is the narrator's dry voice, and it makes the stakes land by contrast rather than by alarm.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is staying presented as the sole, seemingly minor catch, marked by a minimising word, rather than plainly as the problem?",
+      "fail": "Staying is simply called the problem, or is stressed as the real, main or biggest difficulty, with no minimising word."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is the difficulty of staying then conceded mildly, without intensification?",
+      "fail": "The concession is dropped, is strengthened by an intensifier, or is restated outright as great difficulty or near-impossibility."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "починаючи з другого кола … з четвертого",
+    "where": "where the second and fourth stages of a mage's training are named as the two turning points",
+    "what": "Stages of study are counted with the novel's own numbered-tier word, and that word runs the whole system. Curators are assigned at the end of the fourth and decide who goes on to the fifth (block 3). Agnes lacks even a fifth-stage diploma (block 4). The Card's limit grows with each stage passed (block 16). Agnes leaves Theodore to stew over dropping out before the fifth (block 20). The reader must hear the second and the fourth here as rungs of that same ladder, because the fourth is where Theodore stands.",
+    "risk": "medium",
+    "recurs_in": [
+     3,
+     4,
+     16,
+     20
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Are the second and fourth stages named with the same tier term the translation uses for the stages of study at blocks 3, 4, 16 and 20?",
+      "fail": "A different word from the one used at those blocks, or no stage term at all, so the numbers are left unanchored."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "з четвертого, однак, можна було розпрощатися з надією виплатити борги",
+    "where": "where the paragraph says what becomes of the debts from the fourth stage of study on",
+    "what": "From the fourth stage on, a mage who leaves can no longer hope to clear what the Card has run up. The idiom is one of resignation: a hope that has to be given up. This is the jaw of the trap, and the fourth stage is exactly Theodore's: curators are assigned at its end (block 3), and in block 20 he contemplates expulsion before the fifth. The modal makes it sound like an option. If the hope falls out of a quick rendering, the line flips into the debts being shed or no longer owed, a misreading that block 17's promise of never paying interest seems to invite.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Does the translation make clear that from the fourth stage on the debts can no longer be paid off, as a loss of hope rather than a relief?",
+      "fail": "The debts are said to be cancelled, shed or left behind, or the mage is said to no longer need to pay them, or the line leaves it open whether this is ruin or relief."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "Що було не так просто — починаючи з другого кола, маг уже повноцінно міг працювати; з четвертого, однак, можна було розпрощатися з надією виплатити борги.",
+    "where": "the sentence explaining that a mage can already work from the second stage but by the fourth can never clear the debts",
+    "what": "The original hooks onto the previous sentence with a relative pronoun. It then sets two parallel time frames side by side: the second stage spelled out, the fourth left elliptical. The contrast is tucked mid-clause, an adverb says the mage works as a fully qualified one, and the sentence ends on a stock idiom of giving up hope. None of these pieces has a same-shaped English counterpart. Rendered closely, the sentence reads stiff and calqued, so a native writer has to rebuild it for the turn from employable to hopelessly indebted to read in one pass.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "A native editor would mark it as translated: an adverb awkwardly bolted onto the verb of working, a word-for-word rendering of the idiom about parting with hope, or clauses strung together so that the logic must be reread."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "hinge",
+    "source": "таємниць Планів … Плану Істинного",
+    "where": "in the list of lofty pursuits most mages never get to do: the thing whose secrets are learned, and the level named for truth whose layers are walked",
+    "what": "Capitalised, the noun is this world's cosmology: its levels of existence, one of them named the True. It is the same noun as in block 7 (Anna wanting to make them better) and block 8 (Theodore has no place in them), where it is played against the everyday word for a plan. Here only the cosmic sense works: the elite study the secrets of these levels and wander the True one. The same noun is also the ordinary word for a plan, and that is what a fast or machine reading reaches for.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Do both capitalised occurrences come out as cosmic levels of existence rather than as plans or schemes?",
+      "fail": "Either occurrence reads as a plan, scheme or design."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "метафізичним ходінням по тонких шарах",
+    "where": "the last lofty pursuit in that list: the metaphysical walk across the layers of the level named for truth",
+    "what": "In occult and theosophical usage this adjective names the finer, non-material strata of being; it is the stock qualifier for worlds beyond the physical. Next to the metaphysical walking and the True level, that is the sense selected. The elite drift through rarefied, immaterial reality, a gently mocking dose of esoteric jargon in a list that block 19 answers with grime. The adjective's everyday first sense is physical thinness, which turns the image into treading on something flimsy and drops the jargon.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the qualifier on these layers carry the esoteric sense of fineness and immateriality, rather than physical thinness?",
+      "fail": "The layers are simply thin in the physical sense, or the qualifier is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "motif",
+    "source": "Ними собі могли дозволити займатися",
+    "where": "the closing sentence, about who could take up those lofty pursuits",
+    "what": "This reflexive phrase is the chapter's refrain of who can afford what. Agnes can afford to dress loudly (block 3), Anna can afford to do whatever she likes (block 10), and Theodore can no longer afford to leave the Academy (block 14). Here it hands the lofty pursuits to the Seraph-kept Academicians, so the reader hears the ledger: they can afford poetry and metaphysics, while Theodore cannot even afford to quit. Read word for word, the phrase looks like a grant of permission. Rendering it as permission or freedom loses both the money sense and the echo.",
+    "risk": "medium",
+    "recurs_in": [
+     3,
+     10,
+     14
+    ],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is it framed as something these Academicians could afford, a matter of means, recognisably the same notion as the affording at blocks 3, 10 and 14?",
+      "fail": "It is framed as permission (granted to them or by themselves), freedom, duty or plain ability, so no affording is heard."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "link",
+    "source": "Ними собі могли дозволити займатися акредитовані Академіки на утриманні Серафа.",
+    "where": "the closing sentence, which names who could take up those lofty pursuits",
+    "what": "The pursuits come first and the people who can afford them come last, where the weight falls: these things belong to the accredited, Seraph-kept Academicians and to no one else. That exclusivity drives the turn into block 19, where everyone else, Theodore included if he drops out, gets the grim jobs. A plain sentence saying these Academicians could do such things leaves them as one group among others who might.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Does the translation confine these pursuits to the accredited, Seraph-funded Academicians, either by a restricting word or by framing them as that group's privilege or luxury?",
+      "fail": "The sentence only states that these Academicians could pursue them, with nothing confining the pursuits to that group."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "hinge",
+    "source": "на утриманні Серафа",
+    "where": "in the closing sentence, how the accredited Academicians are tied to Seraph",
+    "what": "The fixed phrase makes them Seraph's dependants: Seraph pays for their living, and that is the only reason they can afford mysteries and poetry. It closes the money logic of blocks 15 to 17, where the Card pays even for residents' designer clothes and cosy houses. It also carries a dry, faintly deflating note: the exalted are, plainly, kept. The noun is also used for holding someone in custody and for looking after buildings and machines. A literal rendering can therefore blur who keeps whom, or make the Academicians look like Seraph's caretakers or captives.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Is it clear that Seraph pays for these Academicians' living, and not that they maintain, serve or are held by Seraph?",
+      "fail": "The tie is dropped, reversed (the Academicians maintaining or tending Seraph), turned into custody, control or service, or left too vague to show that Seraph pays."
+     }
+    ]
+   },
+   {
+    "id": "E10",
+    "type": "construction",
+    "source": "Ними собі могли дозволити займатися акредитовані Академіки на утриманні Серафа.",
+    "where": "the closing sentence, naming the accredited Academicians funded by Seraph as the ones who could take up those pursuits",
+    "what": "The original puts the pursuits first as an object pronoun and fuses affording oneself with engaging in an activity. It holds the subject back to the very end, where Ukrainian puts the weight, together with its bureaucratic accreditation and a trailing phrase for living at someone's expense. English cannot keep that order. A close rendering gives inverted or stilted syntax, a pronoun whose referent is hard to find after the long list, and a literal phrase for being a dependant, so a native writer has to rebuild the sentence.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E10a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "Stilted or inverted word order, a pronoun whose referent has to be hunted for, or a phrase for being funded that no native writer would use."
+     }
+    ]
+   }
+  ]
+ }
+}

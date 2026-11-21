@@ -1,0 +1,76 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1883,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 506
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "з червоної пухової ковдри",
+    "why": "eiderdown as 'ковдра' odd in box"
+   },
+   {
+    "quote": "зовсім не тримався міцно",
+    "why": "clunky negation"
+   },
+   {
+    "quote": "Мабуть, його якось ударили.",
+    "why": "flat, awkward"
+   },
+   {
+    "quote": "У руках і долонях поколювало",
+    "why": "redundant pairing"
+   },
+   {
+    "quote": "коли розтуляєш рота, відчуваєш",
+    "why": "slightly mechanical"
+   },
+   {
+    "quote": "звідкись, з неба, кружляючи, спускалося",
+    "why": "comma-heavy, clunky"
+   }
+  ],
+  "good": [
+   {
+    "quote": "блакитне небо притрушене золотом",
+    "why": "vivid, poetic"
+   },
+   {
+    "quote": "мов розлите біле вино",
+    "why": "lovely image"
+   },
+   {
+    "quote": "Любе маленьке створіння!",
+    "why": "warm, natural voice"
+   },
+   {
+    "quote": "Пустунець!",
+    "why": "affectionate, apt"
+   },
+   {
+    "quote": "зблискують на неї",
+    "why": "lively verb"
+   },
+   {
+    "quote": "щось легке й сумне — ні, не сумне, точніше — щось ніжне",
+    "why": "captures hesitant feeling"
+   },
+   {
+    "quote": "«Що зі мною скоїлося?» — питали сумні оченята.",
+    "why": "touching personification"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3661,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 48863
+ },
+ "result": {
+  "reading": "Right after a minimum-donation question about whether she is married (block 13), the narrator, speaking close to Freya's own mind, states her standing rule of ignoring such questions. He notes with relish that the stream of better-paying questions gets rid of the cheap provocations, so that money rather than taste does the filtering. Block 15 continues this run of good news by returning to the joke from block 12. The price filter set up here is borne out in block 17, where she does answer an equally personal question that came with a hundred dollars, and pays off in block 24, where twenty- and fifty-dollar messages wash the haters' comments away and small donations stop appearing at all.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "Такі запитання … вже залишала без відповіді",
+    "where": "The sentence right after the five-dollar question about whether she is married, saying how Freya deals with questions of that kind.",
+    "what": "The imperfective past, together with the particle that marks a point already reached, tells the reader that a policy is already in force for this whole type of question. It is not a decision about this one question. The type is familiar to her and long settled, which shows her as a seasoned operator and the questioner as one of a predictable crowd. It also sets up block 17, where she does choose to answer an equally personal question that came with a hundred dollars.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is leaving them unanswered presented as Freya's practice for this whole kind of question, rather than as her response to this one question only?",
+      "fail": "The sentence speaks only of this single question, with nothing showing that it belongs to a recurring type she leaves unanswered."
+     },
+     {
+      "id": "E1b",
+      "ask": "Does the translation convey that this practice was already in place by this point, a stage she had reached?",
+      "fail": "Nothing marks the habit as already established. The sentence merely states that she does not, or did not, answer such questions."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "Такі запитання Фрея вже залишала без відповіді.",
+    "where": "The narrator's statement, right after the five-dollar marriage question, that Freya does not answer questions of that kind.",
+    "what": "The original puts the type of question first as the topic, setting it against the question she did answer just before. One small particle plus an imperfective past then carries the sense of a settled habit. English has neither the free object-first order nor that pairing of particle and aspect. A close rendering therefore comes out with an awkwardly inverted object, a time adverb clashing with a plain past tense, or a literal prepositional phrase about having no answer. The line has to be recast to read as a natural, slightly weary aside.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "At the spot where the narrator says Freya does not answer questions of this kind, does the sentence read as if written by a skilled native writer of English?",
+      "fail": "It reads as translated. Examples: an object stiffly placed before the subject, 'already' attached to a past verb in a way English does not use, or a word-for-word phrase about leaving questions 'without an answer'."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "цікавіших (і дорожчих!)",
+    "where": "Where the questions that push the provocations away are described.",
+    "what": "Irony by afterthought. First comes the respectable criterion, interest. Then, tucked in as a gleeful aside, comes the real one, money: the questions that win out came with bigger donations. The slip shows with a wink what really counts for Freya. It also primes the price contrast with the provocations later in the same sentence.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the respectable reason present: are the questions that win out more interesting, or better as questions?",
+      "fail": "Only their price is mentioned."
+     },
+     {
+      "id": "E3b",
+      "ask": "Is the real reason present: do these questions also cost more, that is, come with bigger donations?",
+      "fail": "The price point is missing, or the questions are described only by a word of general worth or preciousness that leaves it open whether money is meant."
+     },
+     {
+      "id": "E3c",
+      "ask": "Is the money point visibly set off from the mention of interest as an afterthought, by any means (punctuation, an exclamation, an added tag), rather than merged with interest into a flat pair of attributes?",
+      "fail": "Interest and price are joined as a plain pair with nothing setting the price apart, or the money motive is spelled out as an explanation of her priorities."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "змивав",
+    "where": "Where the flow of better questions disposes of the provocations.",
+    "what": "The better-paid questions are pictured as a current that carries the cheap ones off, much as a busy paid chat pushes small messages off the screen. The same verb returns at the close of the scene (block 24), when twenty- and fifty-dollar messages carry the haters' comments off before Freya's eyes and small donations stop appearing at all. A reader of the original hears the mechanism set up here now working at full force.",
+    "risk": "medium",
+    "recurs_in": [
+     24
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the disposal of the cheap provocations pictured as washing or flushing them away, carried off by a flow, so that it is recognisably the same action as when bigger-money messages wash away the haters' comments in block 24?",
+      "fail": "The water action is replaced by another picture, such as burying, drowning out as noise, crowding or pushing aside, or outnumbering, or there is no picture at all. Being swept off by the current counts as yes."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "double",
+    "source": "дешеві провокації",
+    "where": "Where the narrator characterises the provocations that get disposed of.",
+    "what": "A stock phrase for crude baiting is revived in its literal sense. In money terms these are the low-priced questions, sent with the minimum donation like the marriage question of block 13 and set directly against the pricier ones just mentioned. In the usual sense they are tawdry and beneath her. The joke is that in this chat the two coincide: what costs least is worth least. Small-money trolls remain a running target: the trolls' five-dollar lunch money in block 22, and in block 24 the donations too small to appear.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Can the reader take these provocations as low-priced, the small-donation end of the paid questions?",
+      "fail": "The expression carries only a judgment of quality or manners, with no hint of price."
+     },
+     {
+      "id": "E5b",
+      "ask": "Are they also presented as tawdry or low in quality, not merely inexpensive?",
+      "fail": "The expression conveys only the amount paid, with no judgment of their quality."
+     },
+     {
+      "id": "E5c",
+      "ask": "Do both senses sit in a single word or expression, so that the play survives?",
+      "fail": "The two senses are split across separate words or spelled out, or one of them is missing, so no single expression carries both."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "register",
+    "source": "в унітаз",
+    "where": "Where the narrator says where the provocations end up.",
+    "what": "The provocations do not simply vanish; they end up in a toilet. This is crude bathroom humour at a deliberately low colloquial level. It bares the contempt beneath Freya's polished coaching manner: compare her rehearsed politeness in block 11 and her scorn for the right-wingers' anonymous forums in block 19. To her, such questions are waste.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Do the cheap provocations end up in a toilet, or in an equally coarse bathroom or sewer image, so that the crude, low colloquial level survives?",
+      "fail": "The destination is softened into a neutral disappearance, a sink or drain, or a bin, or it is dropped altogether."
+     }
+    ]
+   }
+  ]
+ }
+}

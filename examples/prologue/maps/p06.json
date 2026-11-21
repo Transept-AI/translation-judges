@@ -1,0 +1,135 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3717,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 69321
+ },
+ "result": {
+  "reading": "The pivot of the opening flashback: stuck on the 200,000 plateau of block 5, Freya makes her bold move, and the surge of blocks 7–8 and the record chase of blocks 0–2 follow from it. The format it launches, in which viewers pay to put any question to her live, nothing is screened and Freya decides what to answer, drives the rest of the scene: the priced questions of blocks 10–16 and 24, her selective answers (14, 17, 21) and the screening her fans make unnecessary (19, 21). The narrator tells it in borrowed hustler slang and offhand tech jargon, keeping an ironic distance from Freya's strategy.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "пішла в дамки",
+    "where": "The opening sentence, where Freya makes her move after the plateau and the expression for it is credited to New York business people.",
+    "what": "A draughts (checkers) idiom. A piece that reaches the opponent's back row is promoted to the strongest piece on the board, and the phrase is used figuratively when someone's standing is suddenly raised to the top. Coming right after the plateau of block 5, it marks the deliberate play that lifts Freya past it, and the surge of block 7 is its payoff. It is calculation, not a windfall: block 2 insists her success is no dumb luck. The promoted piece's name is built on the word for a lady, a faint fit for a woman storming a field of male stars (blocks 2 and 7). Carried over literally, the game term is opaque in English, and its root can pull a reader toward ladies rather than a winning move.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the translation make Freya's move read, for an English reader, as a bold, game-changing move of her own (a breakthrough or power play)?",
+      "fail": "The game term is carried over word for word (going into the kings, queens, ladies or the back row), so an English reader cannot tell it means a winning move up. Also a fail: it is given a wrong sense, such as a stroke of luck, going off to the women, withdrawing or losing."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "register",
+    "source": "нью-йоркські ділки",
+    "where": "The opening sentence, at the New York business people credited with the expression for Freya's move.",
+    "what": "The label for these New Yorkers is colloquial and disapproving. It names people who are sharp at arranging deals for their own profit, not business people in a neutral or respectable sense. Crediting the catchphrase to them places Freya inside the cynical money culture the book satirises: the coaching industry and its stars in block 2, the dollars of the whole scene. It also keeps the narrator at an ironic distance. A neutral or approving label drops the sneer.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Are the New Yorkers credited with the saying labelled with a word that marks them as sharp, profit-driven operators and carries a note of disapproval or irony?",
+      "fail": "A neutral or approving term for business people (plain businessmen, entrepreneurs, executives, investors, dealmakers) with no disparaging or ironic tinge."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "register",
+    "source": "прикрутили форму оплати",
+    "where": "Where her assistants add a way to pay to the stream within twenty minutes, while it is still running.",
+    "what": "The verb's literal image is mechanical fastening. In the slang of people who build websites and apps, it means adding a feature to a system that is already live, fast and without ceremony. Set beside the twenty minutes and the stream still on air, it shows Freya's team improvising a money machine on the fly, in the narrator's offhand, faintly mocking voice. A neutral verb turns a quick hack into routine procedure.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the adding of the payment form told in an informal, hands-on way that suggests a quick, makeshift attachment to the live stream?",
+      "fail": "A neutral or formal verb of adding (added, set up, created, integrated, implemented, launched) with no informal or makeshift colour."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "вільні запитання",
+    "where": "Where the surprise segment is named: questions that viewers send along with money.",
+    "what": "The adjective means unrestricted: anyone may ask anything, live. That sets these questions apart from the ones gathered in advance through a form in block 4. It says nothing about price; the whole point of the segment is that every question is paid for. The adjective's most obvious English counterpart is also the everyday word for costing nothing. A direct rendering therefore either suggests the questions were gratis or makes the segment's name contradict itself.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Does the translation avoid suggesting that these questions cost nothing?",
+      "fail": "The questions are described with a word an English reader takes as free of charge, including a self-contradictory 'free … for donations' left unresolved."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "motif",
+    "source": "Без модерації",
+    "where": "The closing sentence setting the segment's rules: nothing is screened, yet Freya stays in control.",
+    "what": "The segment drops the screening of the chat and of incoming questions that staff normally do. Nothing is filtered before it reaches Freya, which makes the stream provocative (block 7) and lets the trolls in (block 21). The scene pays this off later. Freya's fans, not her assistants, file the reports against the trolls (block 19), and the screeners' help turns out not to be needed after all (block 21). A reader hears the setup and its payoff only if the same notion of screening the chat is named here.",
+    "risk": "medium",
+    "recurs_in": [
+     19,
+     21
+    ],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the missing control named as moderation of the stream (nobody screening or filtering what viewers post), the same notion a reader meets later when the moderators turn out to be unnecessary?",
+      "fail": "Rendered as a general absence of rules, limits or censorship, or as a lack of restraint, with no notion of anyone screening the chat or the questions."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "motif",
+    "source": "за донати",
+    "where": "Where the surprise segment is named, at the money viewers give in exchange for a question.",
+    "what": "The money that buys a question is the streaming-culture gift: a sum a viewer sends a streamer, nominally voluntary, which pops up on screen with the viewer's message. The same word returns as a verb for the five-dollar minimum paid by a cheap provocateur (block 13). It comes back again for the sums under ten dollars that stop appearing on screen as the stakes rise (block 24). The scene's whole economy runs on it. Here it comes right after a form for taking payment, so the gift is visibly a price.",
+    "risk": "medium",
+    "recurs_in": [
+     13,
+     24
+    ],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the money that buys a question presented as a donation or tip sent to the streamer, rather than only as a fee, price or payment?",
+      "fail": "The questions are simply paid for, bought or charged for, with no notion of viewers donating or tipping."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "construction",
+    "source": "І почалася сюрприз-частина трансляції: вільні запитання за донати.",
+    "where": "The sentence announcing that the surprise segment of the broadcast began and naming its format.",
+    "what": "This sentence announces that the surprise segment of the broadcast began and names its format. The original opens with a conjunction and puts the verb before its subject. It names the segment with a hyphenated noun-noun coinage. After a colon it gives a terse label for the format: money in exchange for questions. Followed closely, this yields inverted or stiff syntax, a stacked-noun label that sounds translated, and a clipped tag that no English announcement of a show segment would use.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "Stilted or inverted word order, an awkward stacked-noun label for the segment, or a clipped word-for-word tag for the format that a native editor would rewrite."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3212,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 56786
+ },
+ "result": {
+  "reading": "Theodore has just said he wants neither to do good nor to help Seraph's economy (9). Agnes, amused, needles his self-interest, then turns to Anna, whose future they are discussing (6–7) and whose capital and privileges make any choice safe for her. The paragraph sets up what the scene pays off at once: Theodore's reply that, judged by his own interest, he would have left the Academy long ago (13), and the narration's point that he can no longer bear the cost of leaving (14). Its key verb belongs to the text's refrain of who can afford what, from Agnes's outfits (3) to the Academics' pure study (18), and Agnes's defence of Anna's freedom bears out block 6's claim that she is Anna's greatest ally.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "робити щось не для себе",
+    "where": "Agnes's opening, teasing remark about the kind of options she doubts Theodore truly weighed",
+    "what": "The options Agnes means are defined by who benefits, which is anyone but Theodore himself. They are exactly the doing good and the serving of Seraph's economy he has just turned down (9), and the line is an amused jab at his self-interest. He has just said he doesn't know what suits him, so a fast reader can take the phrase as describing something unsuited to him, or miss its negation and get the opposite. Either way the jab at his selfishness disappears, and his comeback at 13 loses its point.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is Agnes's jab about options in which Theodore would act for someone else's benefit rather than his own?",
+      "fail": "The jab is about him doing something for himself (the negation is lost), or about something that does not suit him or is not his kind of thing."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "не для себе",
+    "where": "the same opening jab, in the words saying whom the options would serve",
+    "what": "Agnes makes Theodore's own self the yardstick of the act, and he turns that yardstick back on her at 13: measured by his own interest alone, he would have quit the Academy long ago. Staying on is therefore the one thing he does not do for himself, and the narration at 14 says why. A reader of the original hears his reply pick up her phrasing. If her line names a virtue instead of saying whom the act is for, his reply has nothing to pick up.",
+    "risk": "medium",
+    "recurs_in": [
+     13
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the kind of option Agnes mocks framed by whom the act would be for (not for himself, or for someone else)? That framing is what lets Theodore's reply at block 13, about what he would do for himself, echo it.",
+      "fail": "The option is named only by a quality or a kind of deed (a word for unselfishness, altruism, charity or good works), with no phrase saying for whom the act is done. Whether the phrase is understood correctly is judged under E1, not here."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "link",
+    "source": "якраз таки",
+    "where": "where Agnes turns from Theodore to Anna and says Anna can do whatever she likes",
+    "what": "An emphatic pair of particles sets Anna against the man being teased: she is the one person in this conversation whose means make every choice safe. It carries the unspoken half of Agnes's point, that Theodore is in no such position. It also pushes back on his advice (7) that Anna should put her capital to other uses, which is Agnes acting as the ally block 6 announced. Without it, the sentence becomes a neutral remark about Anna and loses the sting that the narration makes explicit at 14.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is Anna set apart by contrast, as the one who (unlike Theodore, or contrary to his advice about her) is in a position to do whatever she likes, rather than mentioned neutrally?",
+      "fail": "The sentence states flatly that Anna can do whatever she likes, with no contrastive or emphatic wording on her: no contrastive connective, no focusing construction, no emphatic or corrective adverb. Wording that turns the emphasis into a degree of means, as if she could only just manage it, also counts as no."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "може дозволити собі",
+    "where": "the same sentence about Anna, in the verb for her freedom to do whatever she likes",
+    "what": "This verb is the text's refrain for privilege bought with power or money. Agnes may dress as flamboyantly as she likes because curators are nearly all-powerful (3). Theodore can no longer bear the cost of leaving because of his ever-growing debt (14). Only Academics kept by Seraph can indulge in pure study (18). Here it ties Anna's freedom of choice to the capital and privileges mentioned at 7. If it turns into mere permission or freedom, the sense of cost that links Anna's ease to Theodore's debt is gone, and so is the refrain.",
+    "risk": "medium",
+    "recurs_in": [
+     3,
+     14,
+     18
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is Anna's freedom expressed as affordability, meaning her means or standing cover the cost of any choice? This is the notion the text also uses for Agnes's dress (3), Theodore's inability to leave (14) and the Academics' pure study (18).",
+      "fail": "It becomes plain permission, freedom, self-indulgence, ability or position, with no idea of a cost that her means cover."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "construction",
+    "source": "розглядав варіанти робити щось не для себе",
+    "where": "Agnes's opening jab, where she doubts Theodore really weighed doing something for someone other than himself",
+    "what": "The jab packs three things into the object of one verb: a noun for alternatives, an infinitive, and a negated phrase naming whom the act would serve. Carried over word for word, it becomes a stiff, almost bureaucratic stack where the scene needs a quick aside from a teacher who smiles as she teases. The noun also has an English look-alike that means something else, which adds a second trap.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "At Agnes's opening jab about whether Theodore truly weighed doing something for someone other than himself, does the translation read as written by a skilled native writer?",
+      "fail": "What he supposedly weighed is rendered as a word-for-word stack: a noun for alternatives (or its English look-alike) governing an infinitive, with the negated beneficiary hung on the end. Also no if the line otherwise reads as translated rather than as a quick, amused aside."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4509,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 61503
+ },
+ "result": {
+  "reading": "The turn of the story: the couple Miss Brill has cast as hero and heroine (block 10) speak at last. The boy, pressing the girl's refusal from block 11, blames it on Miss Brill, who sits at the end of the same bench and hears every word. Without knowing it he answers, point by point, the certainties she reached in blocks 8–9 (that she has a part, comes every week, would be missed), and his name for her reverses the tenderness with which she greeted her fur in block 0; block 13 turns the mockery onto the fur. Blocks 16–17 show her obeying him: she goes straight home to her cupboard of a room and shuts the fur away.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "that stupid old thing",
+    "where": "where the boy, asking whether the girl refuses because of someone, first refers to the woman at the end of the bench",
+    "what": "The boy names Miss Brill with a noun for an object, not for a person. To him she is part of the bench's furniture. It is the same noun Miss Brill used tenderly in block 0 for her fox fur, as she brushed it, revived its eyes and talked to it like a pet. A reader of the original hears the reversal: she gave an object a life, and he makes her an object, with contempt where she gave tenderness. The girl mocks that merging of woman and fur in block 13, and block 17 closes on it.",
+    "risk": "high",
+    "recurs_in": [
+     0
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the boy's word for her make her an object or a creature, rather than a kind of person?",
+      "fail": "She is named only as a type of person (an old woman, a hag, a fool, a granny), so she is insulted but not reduced to an object."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is that word recognisably the same notion as the word Miss Brill uses for her fur in block 0, in the tender exclamation as she first touches it, so that a reader can hear one answer the other?",
+      "fail": "The two spots use unrelated words, for instance a pet name or diminutive for the fur and a person-word or a different object-word here."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "Why does she come here at all",
+    "where": "where the boy asks why she comes here",
+    "what": "The question is about her habit, not this one afternoon. It is also made sweeping: it denies that her coming has any point whatever. That habit is exactly what Miss Brill has just discovered to be her part in block 8: setting out at the same hour every week so as not to be late, sure she would be missed. So the boy, without knowing it, strikes at her whole Sunday life. Asked about one visit, or asked plainly, the line shrinks to a grumble about a nuisance.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is her coming here put as something she does repeatedly or in general, rather than as one completed visit?",
+      "fail": "A one-off or completed form: why she came, why she has turned up, why she showed up today."
+     },
+     {
+      "id": "E2b",
+      "ask": "Is the question made sweeping, so that it denies her any reason whatever to come, rather than plainly asking what her reason is?",
+      "fail": "A plain why-question, even an impatient one, with no word or turn that extends it to any reason whatever."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "who wants her?",
+    "where": "the short question right after that, about whether anyone wants her",
+    "what": "A rhetorical question whose answer is nobody: she is the one no one wants. Without the boy knowing it, the line undoes Miss Brill's certainty in block 8 that somebody would notice if she were not there. A fast reading can turn the roles round, so that she is the one wanting something. It can also narrow the line to an intruder nobody invited. That stays rude but loses the verdict that no one wants her.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Does the question make her the one whom nobody wants or needs?",
+      "fail": "She becomes the one who wants something or someone, or the question is only about who invited her or asked her to come."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "her silly old mug",
+    "where": "the boy's last question, about what she should keep at home",
+    "what": "The noun is slang for a face. In its everyday sense it is a drinking vessel, and a literal reading turns the jibe into nonsense about crockery. The boy is attacking her looks, the ageing face she brings to the park every week, and the girl carries the attack on to the fur in block 13. Sending that face home also sends her to where, in block 4, she imagined the odd old bench-sitters came from, and where she goes in block 17.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the boy's last jibe aimed at her face?",
+      "fail": "A cup or other object stands in its place, or no face appears and the line only says she should stay at home."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "register",
+    "source": "silly old mug",
+    "where": "the word for her face in the boy's last question",
+    "what": "The face is named in street slang, contemptuous and careless but not obscene: the sneer of a well-dressed young man showing off to his girl. The level of the word is itself the insult. A neutral or polite word for a face leaves only an impolite question. Obscenity, criminal jargon or present-day youth slang moves him out of his time and class.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is her face named with a coarse, contemptuous colloquial word, rather than a neutral or polite word for a face? (If no face is named, answer yes: that loss is counted in E4a.)",
+      "fail": "A neutral or polite word for a face, or a word from the wrong world: obscenity, criminal jargon, present-day youth slang."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "construction",
+    "source": "Why doesn’t she keep her silly old mug at home?",
+    "where": "the boy's last question, where he says she should stay at home and out of sight",
+    "what": "The original tells her to stay out of sight by making her face the object of a verb of keeping, as if the face were something to be left at home. Ukrainian has no such turn. Carried over closely, the line has someone keep or store a face at home. It then reads as translated and slows down what should come out as one quick sneer.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer: a quick, natural sneer, with no face being kept, held or stored at home in a way Ukrainian does not say it?",
+      "fail": "The line reads as carried over: a face kept, held or stored at home, or a stiff, wordy question that nobody would snap out in annoyance."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "hinge",
+    "source": "asked the boy",
+    "where": "the speech tag that says who is asking",
+    "what": "The speaker is the young lover of block 10, half of the pair Miss Brill has cast as hero and heroine. The story's word for him stresses his youth against her age. Ukrainian separates a child from a young man, and the first dictionary choice for this English noun is the child. Block 7 uses the same noun for a small child running after violets. A child here would make both his courting and his cruelty absurd.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the speaker kept as a young man old enough to court the girl, rather than turned into a small child?",
+      "fail": "The tag names a little boy, a child."
+     }
+    ]
+   }
+  ]
+ }
+}

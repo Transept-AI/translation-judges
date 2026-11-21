@@ -1,0 +1,92 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1875,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 832
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "I have no Plan B other than continuing my studies at Cisame",
+    "why": "contradicts next line, clunky"
+   },
+   {
+    "quote": "Yet walking away from Cisame was something Theodore could no longer afford.",
+    "why": "'Yet' illogical after dialogue"
+   },
+   {
+    "quote": "Hundreds of Ethons.",
+    "why": "underwhelming for 'astronomically'"
+   },
+   {
+    "quote": "CISAME—but for the Crown Grant",
+    "why": "inconsistent caps Cisame/CISAME"
+   },
+   {
+    "quote": "completely unaffordable for a subseraphian or a soul from the Ground",
+    "why": "dangling, unclear referent"
+   },
+   {
+    "quote": "And if you stayed at Cisame, you might never even have to pay interest on the endlessly compounding debt. Because in Seraph, absolutely nothing came for free.",
+    "why": "logic muddled, 'Because' non sequitur"
+   },
+   {
+    "quote": "by the fourth, however, any hope of paying off debts was out the window",
+    "why": "confusing logic, idiom jarring"
+   },
+   {
+    "quote": "uncovering the mysteries of the Plans, poetry, or metaphysically treading",
+    "why": "awkward list; 'Plans' likely 'Planes'"
+   },
+   {
+    "quote": "Sift through the scrap scavenged from Shards by the Gathers",
+    "why": "'Gathers' odd, likely 'Gatherers'"
+   },
+   {
+    "quote": "Agness waited for an expository pause",
+    "why": "meta, odd phrasing"
+   },
+   {
+    "quote": "before even reaching the fifth-circle",
+    "why": "stray hyphen"
+   }
+  ],
+  "good": [
+   {
+    "quote": "The CISAME Gold Card.",
+    "why": "punchy, wry worldbuilding"
+   },
+   {
+    "quote": "allowing one to live in Seraph in ever-greater style—and pay ever-steeper tuition fees",
+    "why": "nice satirical parallelism"
+   },
+   {
+    "quote": "After all, someone had to repair the megabarges. Torture demons.",
+    "why": "deadpan, vivid escalation"
+   },
+   {
+    "quote": "Find treasures—or at least LED bulbs.",
+    "why": "funny bathos"
+   },
+   {
+    "quote": "Carve hearts from corpses for healing potions…",
+    "why": "grim, memorable"
+   },
+   {
+    "quote": "letting Theodore marinate in the unenviable prospects",
+    "why": "lively verb"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 2,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

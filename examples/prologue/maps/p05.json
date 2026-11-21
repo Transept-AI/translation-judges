@@ -1,0 +1,70 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3642,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 38864
+ },
+ "result": {
+  "reading": "Right after blocks 3–4 lift the live audience from 100,000 to 200,000, this paragraph undercuts the success in Freya's own metrics-minded voice: it is still not enough, the count has stalled, and the stall is a familiar one that gets worse each time she meets it. It is the low point that sets off her gamble with paid open questions in block 6. It also plants the landform image that block 7 pays off when the audience itself, pictured as that landform, starts to move, and it keeps this lower, recurring stall apart from the record that block 2 pictures as an overhead barrier to smash.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "Це було плато. Двісті тисяч — плато",
+    "where": "where the paragraph names what the live audience count has run into at two hundred thousand",
+    "what": "Freya's stall is pictured as a landform: a high, flat stretch where a climb levels out. The original uses the word twice in three short sentences, so it stays in the ear. Block 7 opens by building that same landform out of people and setting it in motion, which signals that the stall has finally broken. That payoff only works if the image is planted here. An overhead barrier, a wall or a bare word for stagnation cuts the thread. An overhead barrier would also blur this lower, recurring stall into the record, which block 2 pictures as something above her to be smashed.",
+    "risk": "medium",
+    "recurs_in": [
+     7
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the stall at two hundred thousand pictured, at least once in the paragraph, as that landform: a raised, flat expanse where an ascent levels out? A noun or a verb built on the landform's name both count.",
+      "fail": "There is no landform anywhere in the paragraph. The stall appears only as an overhead barrier, a wall, a cap, a threshold, or a plain word or verb for stalling (e.g. stagnation, standstill, levelled off, flatlined)."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "щоразу ставало дедалі важче подолати",
+    "where": "where the paragraph says how hard it is to get past the two-hundred-thousand stall",
+    "what": "Two small words carry Freya's backstory. One says the stall recurs: her numbers have stuck at this mark before, and she has got past it before, so today is one more round of a familiar fight. The other says each round is harder than the last. Together they turn a passing lull into a chronic, worsening problem: her growth is slowing. That raises the stakes of the record attempt set up in blocks 1–2 and explains the gamble she takes in block 6. A hurried rendering tends to keep only the worsening, as something happening now, and drop the repeated occasions. Or it keeps the repetition and loses the worsening.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the translation mark that the stall comes back on separate occasions, so that today is not the first time her numbers have stuck there?",
+      "fail": "There is only a continuous worsening, with no word marking separate occasions (e.g. 'harder and harder', 'increasingly hard' or 'kept getting harder' on their own), or no time dimension at all."
+     },
+     {
+      "id": "E2b",
+      "ask": "Does the translation say that the difficulty of getting past the stall keeps increasing, rather than merely that it is hard?",
+      "fail": "The stall is only called hard, tough or stubborn to get past, with no increase in difficulty."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "Двісті тисяч — плато, яке щоразу ставало дедалі важче подолати.",
+    "where": "the sentence that ties the two-hundred-thousand count to the stall and says how getting past it has changed over time",
+    "what": "The original sets the number and the stall side by side with a dash and no verb. It then adds a relative clause that stacks a frequency word, a word of growing degree, a comparative and an infinitive. Ukrainian carries that load lightly. Followed word for word, English has to supply a tense the original never states. It also tends to end up with doubled degree marking or a stiff chain of qualifiers that sounds translated.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated. Signs: a degree word stacked on a comparative (e.g. 'increasingly harder', 'more and more harder'); a stiff word-for-word chain of frequency phrase, 'became', comparative and infinitive that a native editor would recast; or a present tense dropped into the past-tense narration (e.g. 'Two hundred thousand is … that was becoming …')."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2100,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1960
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Хоч день був такий чудово ясний: блакитне небо припорошене золотом, а над Jardins Publiques великі плями світла, наче бризки білого вина, — міс Брілл була рада",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "блакитне небо припорошене золотом",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "коли розкривав рот",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "наче холод від склянки крижаної води перед тим, як відпити",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "з нізвідки",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "Того дня",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "повернула життя тьмяним маленьким очам",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "Ой, як мило було знову побачити, як вони блиснули",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "ніс, який був із якогось чорного матеріалу",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "колись можна буде капнути трошки чорного сургучу, коли буде вже справді потрібно",
+    "kind": "wordy",
+    "weight": 2
+   },
+   {
+    "quote": "Так, вона справді так до нього і ставилася.",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "У руках і на руках відчувалося лоскотання",
+    "kind": "unclear",
+    "weight": 3
+   },
+   {
+    "quote": "ні, не сумне, власне кажучи",
+    "kind": "unnatural",
+    "weight": 2
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "наче бризки білого вина",
+    "why": "vivid, luminous image"
+   },
+   {
+    "quote": "Миле маленьке створіння!",
+    "why": "captures her doting voice"
+   },
+   {
+    "quote": "витрусила нафталін",
+    "why": "concrete, tactile detail"
+   },
+   {
+    "quote": "«Що зі мною сталося?» — промовляли сумні маленькі очі.",
+    "why": "tender, alive personification"
+   },
+   {
+    "quote": "Маленький пустунчик, що кусає себе за хвіст просто біля її лівого вуха",
+    "why": "precise, playful, true to character"
+   }
+  ]
+ }
+}

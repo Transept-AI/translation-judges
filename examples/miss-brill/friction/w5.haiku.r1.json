@@ -1,0 +1,77 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1145,
+  "cache_read_input_tokens": 779,
+  "output_tokens": 1517
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "«Ні, не тут», — сказала дівчина. — «Ще не зараз».",
+    "kind": "mechanics",
+    "weight": 2,
+    "note": "Speech broken by the author's words should be one quotation: «Ні, не тут, — сказала дівчина. — …»."
+   },
+   {
+    "quote": "Ще не зараз",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "По дорозі додому",
+    "kind": "interference",
+    "weight": 1
+   },
+   {
+    "quote": "Це мало велику різницю.",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "сюрприз, чого могло й не бути",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "запалювала сірник під чайником із таким особливим запалом",
+    "kind": "unnatural",
+    "weight": 2,
+    "note": "запалювала … запалом is a clumsy echo, and сірником зазвичай чиркають."
+   },
+   {
+    "quote": "зайшла в свою",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "намисто-комірець",
+    "kind": "unclear",
+    "weight": 3,
+    "note": "It is not clear that this means the fur that came out of the box."
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Іноді в скибочці траплявся мигдаль, іноді ні.",
+    "why": "simple, true to her small pleasures"
+   },
+   {
+    "quote": "кімнатку, схожу на шафу",
+    "why": "the repetition conveys how cramped and poor the room is"
+   },
+   {
+    "quote": "Але коли закривала кришку, їй здалося, що хтось плаче.",
+    "why": "a quiet, painful ending, well kept"
+   },
+   {
+    "quote": "сказав хлопець злим шепотом",
+    "why": "brief and expressive"
+   }
+  ]
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4900,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 69437
+ },
+ "result": {
+  "reading": "The paragraph condenses the tirade of blocks 1–2 (other lives pouring into the narrator like air through windows and doors, dumping their horror and filth in his heart) into a short, furious resolve. He names people as the cause of his exhaustion, refuses to go on being a public lodging for them, and orders the place cleared and its occupants thrown out with their rubbish. Its fatigue takes up the statement of tiredness that closes block 0 and returns at the end of block 17, with an explicit look back at the people who caused it; its picture of the self as a house strangers crowd into is answered at block 18, where they leave tracks on his soul and he bars the entrance, while the closing wish for a clean, quiet house leads straight into block 4's plea for solitude.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "Мене втомили люди.",
+    "where": "the opening statement about people, before the narrator speaks of the lodging he has become",
+    "what": "Fatigue is the story's refrain. Block 0 ends on the narrator's flat statement that he is tired. Block 17 ends on the same statement, after he recalls the crowd of people he cannot avoid and who brought him to that state, a deliberate look back at this sentence. Here, right after the long accusation of block 2, people are named outright as the cause. The state is exhaustion, kept apart from the irritation voiced in the next sentence. If it becomes annoyance or disgust, the English reader no longer hears one weariness running from the duties of block 0 through the crowd here to the dead of block 17.",
+    "risk": "medium",
+    "recurs_in": [
+     0,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the opening statement about people express a fatigue they have caused, with the narrator tired, wearied, worn out or exhausted by them? (An idiom of exasperation that still contains the notion of tiredness counts as yes.)",
+      "fail": "The statement expresses only irritation, annoyance, disgust, boredom, dislike or having had enough, with no notion of fatigue."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "бути заїздом",
+    "where": "where the narrator names what he is sick of being: the place those creatures crowd into, shouting and littering",
+    "what": "In present-day usage the word mostly means a heat in a race, a vehicle entrance or driveway, or a brief call on the way. The context selects its older sense: an establishment by the road where travellers put up, open to whoever arrives. The narrator casts his own self as that building, and the rest hangs on it: the house-cleaning that follows, the lives that entered him through windows and doors at block 1, and at block 18 the tracks people leave on his soul and the entrance he bars. A road, a passage or a driveway has no rooms to clean and no door to shut.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the narrator likened to a building where travellers or strangers put up or stay for a while, a lodging of some kind?",
+      "fail": "He is made a road, thoroughfare, passage, crossroads, station, entrance or driveway, a drive-in, a race or run, a visit or call, or any other place that is not somewhere to lodge or stay."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "люди … оті створіння … Викинуть разом зі сміттям і тих, що смітять.",
+    "where": "across the paragraph: the people of the opening, the crowd that fills the lodging, and those ordered out along with the rubbish",
+    "what": "In a few lines the narrator demotes humankind in three steps. First come plain people. Then, at the lodging, comes a generic word for living things rather than people, made contemptuous by a pointing demonstrative and by the herd-like noise and mess attributed to them. Last come people defined by the mess they make and expelled together with it, the punishment named after the offence. The descent turns weariness into open misanthropy, the coldness that block 17 makes him own before the dead.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the crowd that fills the lodging named with a word that classes them below people (as mere creatures, animals or the like), rather than with a word for people or a neutral term?",
+      "fail": "They are called people, folk, humans, guests, visitors, travellers, lodgers, beings or creations, or simply 'they'."
+     },
+     {
+      "id": "E3b",
+      "ask": "Are those thrown out with the rubbish picked out by the very act of producing it (littering, making the mess)?",
+      "fail": "They are referred to generically (them, everyone, the people, those creatures), as being rubbish themselves, or by some other trait, so that their own act no longer ties them to what is thrown out."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "Провітрить оселю! Викинуть разом зі сміттям",
+    "where": "the exclamations that follow the opening of the windows: the airing of the dwelling and the throwing-out of the litterers",
+    "what": "Both verbs are infinitives in the shortened form this author uses throughout (as at blocks 2, 15 and 20). They continue the full infinitive of the window-opening as a volley of exclamatory orders, the narrator's own resolve to clean house. The same shortened forms coincide with future-tense verbs that have a third-person subject. A fast reader can therefore take the airing as a forecast of what something will do, and the throwing-out as a prediction about unnamed others. That brings in an outside agent and turns his furious resolve into a report.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the throwing-out of the litterers the narrator's own command, call or resolve?",
+      "fail": "It is a statement or forecast with a third-person subject (some 'they' will throw them out), a passive forecast that they will be thrown out, or an act otherwise carried out by unnamed others."
+     },
+     {
+      "id": "E4b",
+      "ask": "Is the airing of the dwelling a command or resolve, rather than a forecast of what something will do?",
+      "fail": "It is a statement that something (it, that, the draught) will air the place."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "construction",
+    "source": "Викинуть разом зі сміттям і тих, що смітять.",
+    "where": "where the narrator demands that those who make the mess be thrown out along with the rubbish",
+    "what": "The original hangs this order on a bare infinitive and puts the rubbish phrase first. It then attaches the people at the very end with an additive particle and a headless relative clause, so the sting arrives last. English has no infinitive used as an order and no natural slot for that additive word. A close rendering produces a stilted infinitive exclamation, a long phrase wedged between the verb and its object, or a conjunction stranded before the people, and the line goes wrong just where it should snap shut.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as a calque: an exclamation built on a bare 'to'-infinitive, a long 'together/along with the garbage' phrase wedged between the verb and its object, an 'and', 'also' or 'even' stranded before the people (as in 'with the garbage and those who…'), or a clumsy 'those, who' clause."
+     }
+    ]
+   }
+  ]
+ }
+}

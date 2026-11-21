@@ -1,0 +1,116 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1417,
+  "cache_read_input_tokens": 614,
+  "output_tokens": 959
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Some green chaos whirled around me",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "caught at every wheel of the carriage",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "And were helpless.",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "At last we are home. The white walls of the house bring me back to my senses. The moment the carriage rolled into",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "Ten black rooms, filled to the brim with darkness.",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "Quiet and deserted, and yet I hear something there, beyond my wall.",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "the furniture sunk at the bottom of the black darkness",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "and the creak of the floor under its weight",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "I'll put out the lamp and drown in the black darkness myself.",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "into \"nothing.\" How good it would be to become \"nothing,\"",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "And yet there, behind my wall, something is there.",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "if I were to walk into the dark rooms just like that",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "as if off tapestries",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "perhaps my eye would manage to catch an image of people, pale, indistinct, as if off tapestries, all those who left",
+    "kind": "structure",
+    "weight": 2
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "there was so much sky here that my eyes drowned in it as in the sea and looked for something to hold on to",
+    "why": "fresh image of open space as overwhelming"
+   },
+   {
+    "quote": "It was so quiet that I grew ashamed of the pounding of my own heart.",
+    "why": "precise, intimate, true"
+   },
+   {
+    "quote": "They lay siege to my room.",
+    "why": "darkness made active and menacing"
+   },
+   {
+    "quote": "as though afraid the lamplight might all leak out through the cracks",
+    "why": "light as liquid, childlike fear"
+   },
+   {
+    "quote": "Well then, stay where you are, rest in peace.",
+    "why": "wry address to furniture"
+   },
+   {
+    "quote": "everything would suddenly leap into its place: chairs, sofas, windows, even the cornices",
+    "why": "vivid match-flare moment"
+   },
+   {
+    "quote": "all those who left their faces in the mirrors, their voices in the cracks and corners, their shapes in the soft horsehair stuffing of the furniture, and their shadows on the walls",
+    "why": "haunting, concrete cadence"
+   }
+  ]
+ }
+}

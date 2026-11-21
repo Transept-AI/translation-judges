@@ -1,0 +1,80 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1825,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 530
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "all those who laid in my heart",
+    "why": "laid/lay error"
+   },
+   {
+    "quote": "Another time I chased the news of a row of white sacks with a ripe plum.",
+    "why": "awkward, confusing image"
+   },
+   {
+    "quote": "One after another, and a third, and so on without end.",
+    "why": "clumsy literal counting"
+   },
+   {
+    "quote": "near and strangers",
+    "why": "unbalanced pairing"
+   },
+   {
+    "quote": "the bloody cruelty of the beast",
+    "why": "vague, stock phrase"
+   },
+   {
+    "quote": "You shake your head! You do not believe in emptiness?",
+    "why": "slightly stilted"
+   },
+   {
+    "quote": "Ah, ah!",
+    "why": "odd interjection in English"
+   }
+  ],
+  "good": [
+   {
+    "quote": "the door will not open, just a little, with a faint creak",
+    "why": "builds dread nicely"
+   },
+   {
+    "quote": "from which the dogs dug you up",
+    "why": "stark, haunting"
+   },
+   {
+    "quote": "All twelve… and I yawned.",
+    "why": "chilling understatement"
+   },
+   {
+    "quote": "my face is as white as yours, for horror has sucked all the blood out of me",
+    "why": "vivid, emotionally strong"
+   },
+   {
+    "quote": "all of them leave the tracks of their soles on my soul",
+    "why": "memorable wordplay"
+   },
+   {
+    "quote": "entry here is not permitted!",
+    "why": "bitter, effective ending"
+   },
+   {
+    "quote": "dry specimens",
+    "why": "striking, cold phrase"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

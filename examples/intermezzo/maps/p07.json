@@ -1,0 +1,75 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4796,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 41940
+ },
+ "result": {
+  "reading": "A one-line coda. After the exclamatory, present-tense re-enactment that ends block 6, where people lurk even in his sleep, the narrator steps back and files the whole scene, flatly and in the past, as the regular pattern of his nights. It is the night half of a two-part frame whose day half opens block 8, so blocks 7–8 together make the city's pressure round-the-clock and motivate the flight by train in block 9. The night pattern it fixes, foreshadowed by the sleeplessness of block 0, returns on the first night in the silent country house (blocks 14–18), until morning and the cuckoo break it in block 19.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "по ночах",
+    "where": "the time reference in the one-line summary that follows the narrator's plea to the people crowding his sleep: the part that says when things were like this",
+    "what": "The time phrase is a distributive plural, which presents the nights as a repeated series. It caps the repeated-action verbs of block 6, so the scene just shown is not one bad night but the standing pattern of his nights. This turns the live-sounding outburst before it into a sample of a recurring ordeal. It explains the flight in block 9 and sets up the dread, and the intruders' return, on his first night in the country house (blocks 14–18). The days in the next paragraph are habitual in the same way, so the two paragraphs together make the torment unbroken.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the translation keep the statement general, about his nights as a recurring condition, rather than tying it to one particular night?",
+      "fail": "The wording points to a single specific night or one occasion, so the preceding scene reads as a one-off episode."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "device",
+    "source": "Так було по ночах.",
+    "where": "the one-line summary immediately after the narrator's plea to the people who invade even his sleep, before the paragraph that turns to his days",
+    "what": "A deflating coda that points back without naming what it points to. Block 6 ends in an exclamatory, present-tense re-enactment of the narrator pleading with the intruders in his sleep. Here he steps outside that scene and, in a few flat words, files all of it as simply the way things were. The opening word gathers up everything before it without restating any of it; block 6 itself only hints at sleep, through the classical image that pairs it with death. No feeling is added: the cold, curt drop after the outcry is the effect.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the sentence point back and sum up the scene just described as the way things were, rather than only stating when something happened?",
+      "fail": "It merely gives a time (that the preceding took place at night), or it reads as agreement or assent. Either way, nothing signals that the preceding scene is being summed up as what things were like."
+     },
+     {
+      "id": "E2b",
+      "ask": "Does it point back without restating what it refers to?",
+      "fail": "It adds an explicit mention of what is being summed up: the people or visitors, sleep or dreams, or the sufferings and vileness they bring."
+     },
+     {
+      "id": "E2c",
+      "ask": "Is it a plain statement, with no added words of feeling or judgment about those nights?",
+      "fail": "It adds emotion or evaluation (how dreadful, tormenting, sleepless or endless the nights were), or it turns the summary into a lament or outcry. Making the recurrence explicit is not by itself a fail."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "Так було по ночах.",
+    "where": "the whole one-line summary of what the narrator's nights were like, between his plea to the intruders in his sleep and the paragraph about his days",
+    "what": "The spot sums up the preceding scene, in one curt sentence, as the narrator's habitual night-time condition. The original does this with no subject, a pointing adverb, the bare past of the verb of being and a distributive plural of the word for night. English has no such distributive form and needs a subject. A close rendering therefore tends toward a time phrase a native writer would not use here (an odd plural or preposition), an archaic inversion, or a word-for-word frame, and the crisp coda then reads as translated.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The summary sentence reads as translated: an unidiomatic plural or preposition for the night-time, a stilted or archaic inverted order, or a literal frame a native writer would not produce."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1854,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 632
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Some green chaos spun around me and caught the carriage by all its wheels",
+    "why": "awkward, literal phrasing"
+   },
+   {
+    "quote": "And were helpless.",
+    "why": "clumsy fragment, subject unclear"
+   },
+   {
+    "quote": "At last we are home.",
+    "why": "abrupt tense shift"
+   },
+   {
+    "quote": "restore my senses",
+    "why": "slightly off idiom"
+   },
+   {
+    "quote": "the black darkness",
+    "why": "redundant, repeated"
+   },
+   {
+    "quote": "lay in the deep blue spaces",
+    "why": "vague, flat"
+   },
+   {
+    "quote": "into \"nothing.\"",
+    "why": "stiff, mechanical quoting"
+   },
+   {
+    "quote": "something is there",
+    "why": "repetitive with 'there'"
+   }
+  ],
+  "good": [
+   {
+    "quote": "my eyes drowned in it as in a sea and searched for something to catch hold of",
+    "why": "vivid, disorienting image"
+   },
+   {
+    "quote": "It was so quiet that I felt ashamed of the pounding of my own heart.",
+    "why": "memorable, emotionally precise"
+   },
+   {
+    "quote": "Ten black rooms, filled with darkness to the brim.",
+    "why": "striking, atmospheric"
+   },
+   {
+    "quote": "as if afraid the lamplight will all leak out through the cracks",
+    "why": "lovely fearful image"
+   },
+   {
+    "quote": "Well, stay where you are, rest in peace.",
+    "why": "eerie, wry address"
+   },
+   {
+    "quote": "everything would leap at once into its place",
+    "why": "dynamic, uncanny"
+   },
+   {
+    "quote": "all those who left their faces in the mirrors, their voices in the cracks and corners",
+    "why": "haunting, rhythmic"
+   },
+   {
+    "quote": "Who knows what goes on where a person cannot see...",
+    "why": "chilling close"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

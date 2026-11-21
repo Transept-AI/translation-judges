@@ -1,0 +1,104 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2184,
+  "cache_read_input_tokens": 563,
+  "output_tokens": 817
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Старі сиділи на лавці нерухомо, наче статуї. Нічого, завжди є натовп",
+    "why": "\"Нічого\" logically abrupt"
+   },
+   {
+    "quote": "у старого жебрака, чий лоток був прибитий до огорожі",
+    "why": "beggar with stall odd; \"чий\" clunky"
+   },
+   {
+    "quote": "маленька мама з високими кроками, наче молода курка",
+    "why": "literal, awkward"
+   },
+   {
+    "quote": "з того, як вони витріщалися, виходило, ніби щойно вийшли",
+    "why": "clumsy construction"
+   },
+   {
+    "quote": "а крізь них лише смуга моря",
+    "why": "verbless, choppy"
+   },
+   {
+    "quote": "розбилися на пари",
+    "why": "awkward calque"
+   },
+   {
+    "quote": "гарних димчастих ослиць",
+    "why": "\"ослиць\" sounds odd"
+   },
+   {
+    "quote": "горностаєва тока",
+    "why": "obscure term, unclear"
+   },
+   {
+    "quote": "почищеній рукавичці",
+    "why": "flat word choice"
+   },
+   {
+    "quote": "повільно випустив глибокий клуб диму",
+    "why": "\"глибокий клуб\" unnatural"
+   },
+   {
+    "quote": "мало не збитий з ніг чотирма дівчатами",
+    "why": "heavy passive"
+   },
+   {
+    "quote": "Їй здавалося, що вони мали зустрітися сьогодні вдень",
+    "why": "meaning muddled"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Тум-тум-тум тіддль-ум! тіддль-ум! тум тіддлі-ум тум та!",
+    "why": "playful rhythm"
+   },
+   {
+    "quote": "навіть... навіть із шаф!",
+    "why": "lively voice"
+   },
+   {
+    "quote": "Ох ти ж!",
+    "why": "natural exclamation"
+   },
+   {
+    "quote": "була маленькою жовтуватою лапкою",
+    "why": "vivid image"
+   },
+   {
+    "quote": "вистукував: «Негідник! Негідник!»",
+    "why": "effective, witty"
+   },
+   {
+    "quote": "вона усміхалася ще яскравіше, ніж раніше",
+    "why": "poignant"
+   },
+   {
+    "quote": "поплентався в такт музиці",
+    "why": "lively verb"
+   },
+   {
+    "quote": "плюхалося на землю",
+    "why": "vivid, childlike"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

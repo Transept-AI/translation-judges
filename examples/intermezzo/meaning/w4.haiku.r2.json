@@ -1,0 +1,30 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 565,
+  "cache_read_input_tokens": 2709,
+  "output_tokens": 813
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 20,
+    "quote": "She shut her eyes, turned her head aside",
+    "kind": "referent",
+    "wrong": "The dog has been 'he' (Overko) until now. Switching to 'she' suggests a different, female dog. The Ukrainian feminine forms only agree grammatically with 'псина'.",
+    "severity": 2
+   },
+   {
+    "n": 20,
+    "quote": "the tufts of wool knocked loose from her backside fly after her",
+    "kind": "sense",
+    "wrong": "'збиті кудли' means matted tufts on the rump that stream behind the running dog, not tufts torn off and flying through the air.",
+    "severity": 1
+   }
+  ]
+ }
+}

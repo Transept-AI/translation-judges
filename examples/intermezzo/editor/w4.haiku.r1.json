@@ -1,0 +1,47 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1489,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1290
+ },
+ "result": {
+  "edited": "… I open my eyes and suddenly see, in the windows, the deep sky and the branches of a birch. The cuckoo is calling. It taps its little hammer against a great crystal bell (cuckoo! cuckoo!) and sows silence through the grass. Suddenly the green yard appears to me; it has already swallowed my room. I leap from the bed and call out the window to the cuckoo: cuckoo… cuckoo… Good morning! Ah, how much there is of everything: of sky, of sun, of cheerful green.\n\nI run out into the yard. There, iron chains clank and dogs bark furiously. Large white sheepdogs, like bears, leap up on their hind legs, and long shaggy wool leaps with them. I come closer. Well, what is it, dog… what is your name? Come now, enough, Overko… He does not hear, does not see. Red eyes leap, a broad forehead leaps, and white furry legs. Savage fury tears at itself, unable to break loose entirely from a deep muzzle, and only tosses up a heap of wool. Well, what is it, Overko. Why do your red eyes burn, and why do fear and hatred melt together in their fire? I am no enemy to you, and I am not afraid of you. At most you could tear a piece from my body, or draw a little blood from my calf… Ah, what a trifle! What a trifle, if only you knew… Come, hush, dog, hush. True, I understand, the chain… Perhaps you are angrier at it than at me… It is because of it that your front paws must grasp at air, that it chokes your throat and drives your fiery rage back into you. Wait a little. Soon you will be free. What will you do to me then? Now stand still, don’t fidget, while they take the chain off you… and now, off you go. Where are you going, where? Ha-ha! What a stupid mutt. She shut her eyes, turned her head aside, gathered her legs together and dashed off blindly, out of her senses. She tears at the grass with her claws, flings it behind her, and the tufts of wool knocked loose from her backside fly after her. Well, and what about me? What? Did she forget me?",
+  "changes": [
+   {
+    "before": "……",
+    "after": "…",
+    "kind": "error",
+    "category": "punctuation"
+   },
+   {
+    "before": "Good morning!..",
+    "after": "Good morning!",
+    "kind": "error",
+    "category": "punctuation"
+   },
+   {
+    "before": "why does fear and hatred melt",
+    "after": "why do fear and hatred melt",
+    "kind": "error",
+    "category": "grammar"
+   },
+   {
+    "before": "tear a piece of my body",
+    "after": "tear a piece from my body",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "How? Did she forget me?",
+    "after": "What? Did she forget me?",
+    "kind": "error",
+    "category": "calque"
+   }
+  ]
+ }
+}

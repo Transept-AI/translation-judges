@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1541,
+  "cache_read_input_tokens": 937,
+  "output_tokens": 384
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 17,
+    "quote": "намисто-комірець",
+    "kind": "sense",
+    "wrong": "\"Намисто\" suggests a bead necklace. In the original the \"necklet\" is the fur piece just taken from the box, so the reader may think she took off jewellery rather than the fur.",
+    "severity": 1
+   }
+  ]
+ }
+}

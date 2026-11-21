@@ -1,0 +1,76 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2124,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 538
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "у жахливому панамі",
+    "why": "панама is feminine: жахливій панамі"
+   },
+   {
+    "quote": "Людей сьогодні вийшло чимало",
+    "why": "slightly flat opening"
+   },
+   {
+    "quote": "маленький «флейтовий» шматочок",
+    "why": "awkward, clunky"
+   },
+   {
+    "quote": "і ніколи не триматимуться",
+    "why": "logic slightly off"
+   },
+   {
+    "quote": "показний старий у оксамитовому сюртуку",
+    "why": "у/в euphony: в оксамитовому"
+   },
+   {
+    "quote": "нема ніякого сенсу",
+    "why": "bit colloquial-flat"
+   }
+  ],
+  "good": [
+   {
+    "quote": "наче півень, що ось-ось закукурікає",
+    "why": "vivid, funny image"
+   },
+   {
+    "quote": "надимали щоки й люто дивилися в ноти",
+    "why": "lively detail"
+   },
+   {
+    "quote": "ланцюжок яскравих крапель",
+    "why": "lovely sound image"
+   },
+   {
+    "quote": "слухати так, ніби й не слухаєш, і на хвильку посидіти в чужому житті",
+    "why": "elegant, natural"
+   },
+   {
+    "quote": "Міс Брілл так і кортіло її потрусити.",
+    "why": "idiomatic, humorous"
+   },
+   {
+    "quote": "весь час товкла про те",
+    "why": "natural colloquial voice"
+   },
+   {
+    "quote": "Наче хтось грає, а слухає тільки рідня",
+    "why": "nice free-indirect tone"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 5
+  }
+ }
+}

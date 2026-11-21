@@ -1,0 +1,113 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1637,
+  "cache_read_input_tokens": 577,
+  "output_tokens": 942
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "asked Rebecca223 for a hundred dollars",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "Though business doesn't need to be pleasing the way a lover does.",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "The feminist community activated at full strength",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "pouring mud on the right-wingers",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "There had always been a lot of trouble with right-wingers.",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "No matter how they smelled.",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "Trolls tried to flood the broadcast with questions like “Do you shave your face?” and “Try shaving your legs”: without any imagination, but en masse.",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "Dim-witted green sad frogs",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "glancing at the chat where her assistants were",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "However you look at it, the comments set the tone. Still, the moderators' help turned out not to be needed.",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "The trolls' mothers wouldn't give them more than five dollars for school lunch. So they were utterly crushed",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "Housewives who had traded their ladles for enormous smartphones in response to the loud call of the modern economy.",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "and so began posing as “one of their own,”",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "the gaters' comments",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "Finally the girl smiled sincerely.",
+    "kind": "register",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "which, you'll agree, is what sets it apart from a husband, and favorably.",
+    "why": "dry, well-timed punchline"
+   },
+   {
+    "quote": "And yet three hundred and eighty... no, three hundred and ninety thousand live viewers remained three hundred and ninety thousand live viewers.",
+    "why": "cynical self-correction, good voice"
+   },
+   {
+    "quote": "the feed suddenly blossomed with avatars of rainbow hair, like an exotic greenhouse",
+    "why": "vivid image"
+   },
+   {
+    "quote": "Not the best audience if you're a serious woman sharing secrets of *true* success, but a devoted one.",
+    "why": "sharp satirical irony"
+   },
+   {
+    "quote": "soon donations under ten dollars didn't even appear on screen",
+    "why": "concrete, telling detail"
+   }
+  ]
+ }
+}

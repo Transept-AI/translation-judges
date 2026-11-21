@@ -1,0 +1,114 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1939,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1417
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "questions-and-answers block",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "At that moment 350,000 people were watching her stream",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "an absolute world record for the entire coaching industry",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "after decades in the market",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "At first things went quite well. An hour went to a lecture",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "It was the most pleasant part, but only 100,000 people came.",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "As expected, but not Freya's level",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "another twelve on TikTok",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "which subscribers had left through a form",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "pulled the online count up to 200,000",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "It was a plateau. Two hundred thousand was a plateau, and each step past it grew harder than the last.",
+    "kind": "wordy",
+    "weight": 2
+   },
+   {
+    "quote": "as New York hustlers liked to say",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "Twenty minutes in, right in the middle of the stream",
+    "kind": "follow",
+    "weight": 3
+   },
+   {
+    "quote": "bolted on a payment form and wrote posts for social media",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "free questions for donations",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "No moderation, but on Freya's terms.",
+    "kind": "unclear",
+    "weight": 2
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "the famous and indecently rich Tony Robbins",
+    "why": "wry, characterful jab"
+   },
+   {
+    "quote": "Freya didn't like TikTok, since it lacked a serious audience, but the algorithms had decided otherwise.",
+    "why": "ironic, reveals her vanity"
+   },
+   {
+    "quote": "fortune smiles only on prepared minds and on hands ready to act",
+    "why": "captures her self-help voice"
+   },
+   {
+    "quote": "“How do you get up and start doing things?”",
+    "why": "funny, true-to-life question"
+   }
+  ]
+ }
+}

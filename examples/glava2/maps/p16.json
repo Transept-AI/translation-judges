@@ -1,0 +1,156 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3294,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 65759
+ },
+ "result": {
+  "reading": "The paragraph continues block 15's one-phrase fragment about the Gold Card and sets out its apparent generosity like a sales pitch: it pays tuition and living costs that outsiders cannot afford, its limit grows with each circle, and for the Academy's residents it reaches as far as luxuries. Its banking vocabulary and climbing escalation prepare block 17, which reveals the Card as an endlessly growing debt in a city where nothing comes free. That reveal in turn explains block 14 (Theodore can no longer afford to leave) and block 18 (the real problem is staying in). Its residents and designer clothing look back to block 2, where resident mages keep the dress code Agnes flouts, and its circles are the Academy's stages counted in blocks 3, 4, 18 and 20.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "construction",
+    "source": "Яка покривала не лише навчання, а й витрати на життя в Серафі",
+    "where": "the paragraph's opening, where the Card is said to pay for both study and the cost of living in Seraph",
+    "what": "Ukrainian lets a new paragraph open on a relative pronoun that hangs from the last words of the previous paragraph. Here that is the Card, which block 15 names in a one-phrase fragment. The run-on gives the narration a breathless, sales-pitch momentum. Carried over closely, it becomes a dangling relative fragment at the head of a paragraph, and the account of what the Card paid for can come out stiff and list-like. English needs either a deliberate, clearly anchored fragment or a recast.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "At the opening, where the Card's payment of study and living costs is introduced, does the translation read as written by a skilled native writer, either as a deliberate fragment clearly continuing from the Card or as a full sentence?",
+      "fail": "The opening reads as translated: a relative-clause fragment with no clear anchor, an ungrammatical or awkward start, or stiff word-for-word phrasing of what the Card covered."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "register",
+    "source": "підсерафима",
+    "where": "where the paragraph names the first of the two kinds of people for whom living in Seraph is utterly out of reach",
+    "what": "An in-world coinage: a class label made from the city's own name plus a prefix of lower position, marking someone from the stratum beneath Seraph's citizens. Beside the newcomer soul from another realm, it names the two kinds of outsider for whom the Card is the only way into life in Seraph. It also tells the reader that the city has a settled, named hierarchy. Since the city bears the name of the highest angelic rank, the coinage also sounds like a lesser angelic order.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is this person designated by a coined in-world term built on the city's own name, rather than by a generic word or a plain description?",
+      "fail": "A generic social word (commoner, pauper, outsider, lowborn, provincial), or a descriptive phrase about living below or outside the city with no coined term built on Seraph's name, or the category is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "register",
+    "source": "Ліміт Картки розширювався",
+    "where": "where the Card is said to grow with each completed stage of study: the thing that grows",
+    "what": "The field is retail banking. What grows is a card's spending ceiling, and the paragraph around it speaks of costs covered and fees paid. The Card is officially a royal grant, but this vocabulary lets the reader glimpse a credit card. That prepares the next paragraph's reveal of interest and a debt that never stops growing.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is what expands presented as the Card's spending or credit ceiling, the most that can be charged to it?",
+      "fail": "Presented as a sum handed out (allowance, stipend, budget, funds), as widening privileges, benefits or scope, or as restrictions being eased, so that no card spending ceiling is visible."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "з кожним пройденим колом",
+    "where": "where the Card's growth is tied to each completed stage of study",
+    "what": "The Academy counts its stages as circles. Curators are assigned at the end of the fourth, the fifth brings a specialisation, and the narration later measures debt and dropping out by them. Here money is tied to the same ladder: the further one climbs, the more the Card pays and the harder it is to step off. The word also gives the curriculum the cosmological shape of circles to be passed through, fitting a world of angels and planes.",
+    "risk": "medium",
+    "recurs_in": [
+     3,
+     4,
+     18,
+     20
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the stage completed here named with the same in-world unit, the circle, that the translation uses for the Academy's stages at blocks 3, 4, 18 and 20?",
+      "fail": "An ordinary schooling unit (year, course, grade, level, term, stage), or any term different from the one used for these stages elsewhere."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "hinge",
+    "source": "жити в Серафі на дедалі ширшу ногу",
+    "where": "where the growing limit is said to let one live in Seraph in a certain style",
+    "what": "A fixed idiom built on a body-part image. Its sense is a free-spending, luxurious way of life, and here it is made comparative so that the luxury keeps growing with the limit. It is the seductive half of the sentence. Read literally it is nonsense; read loosely it slides into freedom or breadth instead of money.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is what the limit allows understood as a luxurious, free-spending way of life in Seraph?",
+      "fail": "A literal image of feet, legs, steps, strides or footing, or a non-financial sense such as a broader, freer, more varied or more independent life."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "device",
+    "source": "дозволяючи жити в Серафі на дедалі ширшу ногу — й оплачувати дедалі дорожчі внески за навчання",
+    "where": "the sentence where the growing limit is said to make possible both a better life in Seraph and the payment of tuition",
+    "what": "Deadpan parallelism. The same growing limit is said to make two things possible, and with each circle both the holder's lifestyle and the price of tuition keep rising. The second item is a sting dressed as a perk, because being enabled to pay rising fees is no gift. Through it the reader glimpses the treadmill that the next paragraph names as a debt without end. The narrator never spells this out.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the way of life the limit allows shown as growing along with the limit, rather than as a single fixed level?",
+      "fail": "A static description of living well, comfortably or lavishly, with no growth."
+     },
+     {
+      "id": "E6b",
+      "ask": "Are the tuition fees said to keep getting more expensive?",
+      "fail": "The fees are simply paid or covered, with no rise in their cost."
+     },
+     {
+      "id": "E6c",
+      "ask": "Is paying those rising fees presented as one more thing the growing limit makes possible, alongside the grander life?",
+      "fail": "The fee rise is set against the perk as a contrast or drawback, turned into an obligation the student must meet, or the irony is explained."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "motif",
+    "source": "в резидентів Академії",
+    "where": "the last sentence, naming the group for whom the Card covered even clothing and homes",
+    "what": "This is the same title as the resident mages of block 2: mages who have finished their studies yet stay with the Academy, keeping its code of high collars and robes until grey hair and the grave. Here they are the top rung, so those who stay longest get the most. The following paragraphs turn that into the trap of having to stay. The perk lands on clothing, the very matter on which block 2 introduced them.",
+    "risk": "medium",
+    "recurs_in": [
+     2
+    ],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the group named so that it is recognisably the same status as the resident mages of block 2, the graduated mages who stay on with the Academy?",
+      "fail": "Turned into students, people who happen to live at the Academy, dormitory dwellers, staff, or graduates in general; or the group is dropped, so the luxuries seem to apply to every Card holder."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "link",
+    "source": "навіть такі витрати, як дизайнерські вбрання та затишні будинки",
+    "where": "the last sentence, where designer clothing and homes are named as costs the Card covered",
+    "what": "This marks the clothing and homes as the far end of a scale that has climbed from tuition, to living costs, to a steadily rising lifestyle. It is the paragraph's climax and carries the narrator's raised eyebrow just before the next paragraph reveals the debt behind it. The designer clothing also glances back at Agnes's flamboyant outfit in blocks 0 and 2.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Are the designer clothing and homes marked as the surprising far end of what the Card covered, rather than added as one more ordinary item?",
+      "fail": "They are listed flatly (also, as well, including, such as) with no word signalling that the coverage went surprisingly far."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1842,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 670
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "in her office in an emerald dress",
+    "why": "clumsy stacked 'in' phrases"
+   },
+   {
+    "quote": "from which straps fell to hold up her full, if tastefully moderate, breasts with their beauty marks",
+    "why": "awkward, overloaded description"
+   },
+   {
+    "quote": "The magess loved both.",
+    "why": "ambiguous referent, abrupt"
+   },
+   {
+    "quote": "Because curators, who were appointed at the end of the fourth circle, held practically boundless power. Because, exams aside,",
+    "why": "fragmentary 'Because' sentences feel stilted"
+   },
+   {
+    "quote": "where the Pigsty's drilling in high collars and robes was kept up by resident mages, graduates already, until grey hair and the grave",
+    "why": "convoluted, hard to parse"
+   },
+   {
+    "quote": "in every way unworthy",
+    "why": "stiff phrasing"
+   },
+   {
+    "quote": "and by rumor she hadn't served out",
+    "why": "unidiomatic 'by rumor'"
+   },
+   {
+    "quote": "The rumors about a three-day orgy in the rector's offices came in three versions.",
+    "why": "repetitive 'rumors', clunky"
+   }
+  ],
+  "good": [
+   {
+    "quote": "beneath which the muscles played whenever Agnes laughed or drew on a cigarette",
+    "why": "vivid, sensual detail"
+   },
+   {
+    "quote": "And Agnes happened to be doing both just then.",
+    "why": "nice wry beat"
+   },
+   {
+    "quote": "threw the morning sun back across the walls like an emerald disco ball",
+    "why": "playful, vivid image"
+   },
+   {
+    "quote": "the golden nails made of melted-down etons",
+    "why": "fresh worldbuilding detail"
+   },
+   {
+    "quote": "In two more, Senators and Minor Gods joined in.",
+    "why": "funny escalation"
+   },
+   {
+    "quote": "Anna knew every version, down to the smallest detail.",
+    "why": "sly ending"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

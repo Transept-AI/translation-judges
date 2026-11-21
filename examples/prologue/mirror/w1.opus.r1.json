@@ -1,0 +1,88 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1840,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 656
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "The human plateau began to shift.",
+    "why": "opaque, odd metaphor"
+   },
+   {
+    "quote": "flew through the feeds like hotcakes",
+    "why": "mixed idiom; hotcakes sell, not fly"
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred and fifty.",
+    "why": "awkward elliptical numbers"
+   },
+   {
+    "quote": "you can't answer like that to a follower",
+    "why": "clunky word order"
+   },
+   {
+    "quote": "scraped together this fifty bucks",
+    "why": "'this' should be 'those'"
+   },
+   {
+    "quote": "Questions like that Freya now simply left unanswered.",
+    "why": "stiff inversion"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "unclear which joke; continuity gap"
+   },
+   {
+    "quote": "the questions veered sharply into Tinder group-date territory.",
+    "why": "repeats earlier line flatly"
+   },
+   {
+    "quote": "But fame brings responsibility",
+    "why": "cliché, doesn't fit logic"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And a woman, no less!",
+    "why": "wry, ironic voice"
+   },
+   {
+    "quote": "Every new thousand took Freya's breath away.",
+    "why": "conveys excitement"
+   },
+   {
+    "quote": "The main thing was not to let this chat with her followers turn into a group date on Tinder.",
+    "why": "funny, vivid"
+   },
+   {
+    "quote": "Freya wanted to answer: *\"You don't.\"*",
+    "why": "sharp, dry humor"
+   },
+   {
+    "quote": "out of the money she should have been giving her kids for lunch",
+    "why": "pointed, concrete detail"
+   },
+   {
+    "quote": "then your children *are* your capital",
+    "why": "satirical coach-speak"
+   },
+   {
+    "quote": "flushed all the cheap provocations down the toilet",
+    "why": "lively image"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

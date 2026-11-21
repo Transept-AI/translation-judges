@@ -1,0 +1,76 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1794,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 560
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "At first it had all gone merely fine.",
+    "why": "awkward, stilted phrasing"
+   },
+   {
+    "quote": "It was the most enjoyable part, but only a hundred thousand showed up.",
+    "why": "unclear whose enjoyment"
+   },
+   {
+    "quote": "Freya didn't like the latter for its lack of a serious audience, but the algorithms had decided otherwise.",
+    "why": "clunky logic"
+   },
+   {
+    "quote": "But that was still not enough. It was a plateau. Two hundred thousand was a plateau, and each time it got harder to break through.",
+    "why": "repetitive, flat"
+   },
+   {
+    "quote": "as New York dealmakers like to say",
+    "why": "odd, unidiomatic attribution"
+   },
+   {
+    "quote": "her assistants bolted on a payment form",
+    "why": "slightly odd image"
+   },
+   {
+    "quote": "No moderation, but on Freya's terms.",
+    "why": "vague, confusing"
+   },
+   {
+    "quote": "pulled the online count up",
+    "why": "mechanical"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Even the famous and indecently rich Tony Robbins",
+    "why": "witty, ironic"
+   },
+   {
+    "quote": "blow through that ceiling with room to spare",
+    "why": "energetic, idiomatic"
+   },
+   {
+    "quote": "fortune smiles only on prepared minds and hands ready to act",
+    "why": "fits coaching voice"
+   },
+   {
+    "quote": "Today Freya Axelsen had every chance of setting a new record.",
+    "why": "hooky opening"
+   },
+   {
+    "quote": "open questions for donations",
+    "why": "sets up tension"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

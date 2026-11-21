@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1883,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 594
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Хоч день був такий чудово ясний",
+    "why": "clumsy concessive opening"
+   },
+   {
+    "quote": "коли розкривав рот",
+    "why": "awkward impersonal subject"
+   },
+   {
+    "quote": "Того дня вона вийняла",
+    "why": "should be 'того ж дня/сьогодні', confusing"
+   },
+   {
+    "quote": "з червоної перини",
+    "why": "odd image for eiderdown box"
+   },
+   {
+    "quote": "Нічого, колись можна буде капнути трошки чорного сургучу, коли буде вже справді потрібно...",
+    "why": "repetitive 'буде', clunky"
+   },
+   {
+    "quote": "Так, вона справді так до нього і ставилася.",
+    "why": "flat, repetitive 'так'"
+   },
+   {
+    "quote": "У руках і на руках відчувалося лоскотання",
+    "why": "mechanical, unclear"
+   },
+   {
+    "quote": "сумні маленькі очі",
+    "why": "repetition of 'маленькі'"
+   }
+  ],
+  "good": [
+   {
+    "quote": "наче бризки білого вина",
+    "why": "vivid simile"
+   },
+   {
+    "quote": "блакитне небо припорошене золотом",
+    "why": "lovely imagery"
+   },
+   {
+    "quote": "наче холод від склянки крижаної води перед тим, як відпити",
+    "why": "precise sensation"
+   },
+   {
+    "quote": "Миле маленьке створіння!",
+    "why": "warm voice"
+   },
+   {
+    "quote": "Пустунчик!",
+    "why": "tender, natural"
+   },
+   {
+    "quote": "щось ніжне наче ворушилося в грудях",
+    "why": "delicate feeling"
+   },
+   {
+    "quote": "витрусила нафталін",
+    "why": "concrete, natural"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

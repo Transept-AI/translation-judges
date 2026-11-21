@@ -1,0 +1,97 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3685,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 70064
+ },
+ "result": {
+  "reading": "Second step of the hour-by-hour flashback that begins in block 3, where the lecture took an hour and drew only 100,000. Here an hour of safe, pre-submitted, stock self-help questions lifts the live count to 200,000. Block 5 at once names that figure as the plateau, block 7 starts the jump from it, and these prepared questions sent in through a form are the foil for block 6's improvised, unmoderated paid questions. The narration speaks in Freya's influencer idiom of metrics and slang, and it gently mocks how banal the content is that succeeds.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "construction",
+    "source": "Ще годину забрали запитання в дусі «найкращий вік, щоб заснувати стартап» і «як устати й почати робити», які підписники залишали через форму до стріму.",
+    "where": "The sentence reporting that a further hour of the stream went on questions her followers had sent in, with two quoted sample questions.",
+    "what": "The Ukrainian puts the hour first and makes the questions the thing that consumed it. It then hangs two quoted samples on them as examples of a type, and only after that adds how followers had submitted them, in a clause that refers back to all the questions across both quotations. Kept in this order, English gets a stiff construction around the hour, a word-for-word phrase introducing the examples, and the submission note dangling after the second quotation. Because that quotation ends on a verb with no object, the clause can briefly look like its object, or like a remark on that example alone. A skilled writer rebuilds the sentence so that the hour, the examples and the note on how they arrived all sit cleanly.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Judging only the frame around the two quoted examples (not the wording inside the quotation marks): does this sentence read as written by a skilled native writer of English?",
+      "fail": "It reads as translated. Examples: an awkward construction built around the hour that a native writer would not use; an introducing phrase carried over word for word, such as one speaking of the questions' spirit; or the clause about how followers submitted the questions trailing after the second quotation, so that it seems to belong to that quotation alone."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "через форму до стріму",
+    "where": "Where the text says how and when her followers sent these questions in.",
+    "what": "These questions were gathered ahead of the broadcast by means of a form, which makes this a prepared, safe segment. The preposition can also be read as tying the form to the broadcast instead of placing the sending before it, and a hurried version may drop the time note altogether. Advance submission is exactly what block 6 overturns. In the middle of the stream her assistants bolt on a payment form and open the floor to unmoderated paid questions, and that improvised gamble breaks the 200,000 plateau. Without the timing, the contrast between the prepared segment and the live one blurs.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the translation say that the followers sent these questions in ahead of time, before the stream?",
+      "fail": "Nothing says they were sent before the stream (saying only that they came through a form, or through the stream's form, does not count), or the wording places the sending during the broadcast."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "«як устати й почати робити»",
+    "where": "The second of the two quoted sample questions (the motivational one, not the one about age).",
+    "what": "This is a stock motivational how-to about overcoming inertia. The getting-up is figurative, and the verb of doing deliberately has no object, so the question asks for a recipe for action as such. That emptiness is the point: set beside the startup-age staple, it carries the narrator's quiet mockery of the content that succeeds with this audience. The verb also has a colloquial sense of going to work. A translator who takes that sense, or supplies any specific task, turns the slogan into an ordinary practical question.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the action in the second sample question left general (acting or doing as such), with no specific activity named?",
+      "fail": "The question names what is to be done (work or a job, a business, a project, training, studying), or the second sample question is missing."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "register",
+    "source": "Запитання зайшли добре",
+    "where": "Where the narrator sums up how the audience received the pre-submitted questions.",
+    "what": "Here the narration takes on Freya's influencer idiom. The questions' success is told with a colloquial, slightly slangy verb for an audience's approval of content, the way a streamer or social-media manager talks about which material performs. The same verb comes back in block 15 for her joke. Plain report wording drains the insider voice the whole scene runs on: streams, donations, going viral, haters.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the questions' success with the audience put in casual, colloquial wording of the kind people use about content an audience likes, rather than in plain or formal report wording?",
+      "fail": "Plain or formal wording that would fit a neutral report, such as saying the questions went well, were well received, proved popular or were successful."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "hinge",
+    "source": "дотягли онлайн до двохсот тисяч",
+    "where": "Where the stream's numbers are said to climb to two hundred thousand thanks to the questions.",
+    "what": "The borrowed word works here as a noun from streamers' jargon for how many people are watching right now. That is the figure Freya's record chase is measured in, and the questions are credited with lifting it to that mark. English has no such noun. Carried over bare, or read as an adverb, the word leaves it unclear what reached the figure, and a loose reading can hang the number on the questions, on followers or on total views. The figure matters: block 5 names it as the plateau, and block 7 starts the jump from it.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is it clear that what reached two hundred thousand is the number of people watching the stream live?",
+      "fail": "The figure is attached to the questions, to followers or subscribers, or to cumulative views, or the borrowed word is carried over as a bare noun so that the reader cannot tell what the number counts."
+     }
+    ]
+   }
+  ]
+ }
+}

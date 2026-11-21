@@ -1,0 +1,167 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3690,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 86223
+ },
+ "result": {
+  "reading": "Block 15 cashes in Freya's rehearsed investment quip from block 12: the quip lands, goes viral and feeds the viewer count she is chasing toward the record (blocks 0–8, 20). It extends the run of luck reported in block 14. Then, on a mock-solemn maxim about fame, it pivots into exactly what she had resolved to prevent in block 9: a Q&A turned into a crowd's Tinder date. That turn sets up the dating questions of block 16, her decision to answer in block 17, and the riposte of block 18 that sets off the chat explosion of block 19.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "До того ж",
+    "where": "the very start of the paragraph, leading into the news about her joke",
+    "what": "The opener piles one more piece of luck onto the one just reported in block 14, where pricier questions were washing the cheap provocations away. Things are going her way on two fronts at once. That pile-up of good news is what the turn later in the paragraph undercuts.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the joke's success marked as something added on top of the good news just before it?",
+      "fail": "Nothing marks it as an addition (the sentence simply reports the success), or the opener is made into a time reference or a contrast."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "register",
+    "source": "жарт зайшов",
+    "where": "the opening sentence, where the audience's reaction to her joke is reported",
+    "what": "The joke's success is reported in casual, internet-age slang for how content plays with an audience. The narrator used the same colloquial verb in block 4 for the pre-submitted questions that pleased viewers. It keeps the narration inside Freya's influencer world and her breezy, metrics-minded way of sizing things up.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the joke's success with the audience put in informal, slangy terms?",
+      "fail": "It is reported in neutral or formal wording (said to have been well received, successful or effective, or simply to have worked), with no informal colour."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "link",
+    "source": "кількість глядачів зростала: кліп із її відповіддю вже став вірусним",
+    "where": "where the viewer count is rising and a clip of her answer has spread on Twitter",
+    "what": "The second half explains the first: the count she is chasing toward the record keeps climbing because her answer is now circulating beyond the stream. It has spread already, minutes after she gave it and while she is still live. That speed is what suddenly puts the record within reach.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Does the translation present the viral clip as the cause or explanation of the rising viewer count, through a causal word or through punctuation or placement that introduces it as the explanation?",
+      "fail": "The clip is simply coordinated with the rising count as one more parallel item (joined by a plain and, or listed alongside it), so nothing marks it as the cause."
+     },
+     {
+      "id": "E3b",
+      "ask": "Does the translation convey that the clip has gone viral already, this soon?",
+      "fail": "The virality is stated with nothing conveying that it has happened this early or this fast."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "device",
+    "source": "Але слава тягне за собою відповідальність — запитання різко звернули в жанр колективного побачення з Тіндера",
+    "where": "the final sentence, where a general remark about fame leads into the change in the questions",
+    "what": "After the run of triumphs the narrator pivots on a grave, ready-made truism about fame and the duty it imposes. It is the sort of solemn line about public duty familiar from speeches and superhero films, cast in a set formula with an almost official ring. That duty then turns out to be nothing grander than a crowd hitting on her. The comedy is the drop from the solemn maxim to the petty outcome, left for the reader to register.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the line about fame kept as a solemn general truth that fame brings a duty or responsibility?",
+      "fail": "It becomes a remark about a price, cost, drawback or nuisance of fame, or it is narrated only about Freya's own fame, so no lofty maxim is left to deflate."
+     },
+     {
+      "id": "E4b",
+      "ask": "Is the turn of the questions toward dating presented as what that duty brings or turns out to mean?",
+      "fail": "It reads as a separate, unrelated development rather than as the maxim's consequence or example."
+     },
+     {
+      "id": "E4c",
+      "ask": "Is the gap between the grand maxim and the trivial outcome left without comment?",
+      "fail": "The translation adds an aside on it, such as calling it ironic or saying the duty was really a nuisance."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "double",
+    "source": "кліп із її відповіддю … слава тягне за собою відповідальність",
+    "where": "the remark about the duty fame brings, one sentence after the clip of her answer",
+    "what": "In the original, the word for the duty fame imposes belongs to the same word family as the word for an answer. The scene leans on that family throughout: the question-and-answer segment of block 0, the moment to start answering in block 8, her rehearsed answer in block 11, the questions left unanswered in block 14, the clip of her answer one sentence earlier, and her decision to answer in block 17. Coming right after her answer goes viral, the solemn duty also reads as the humdrum obligation to keep replying to whatever the crowd now asks, which is exactly what follows. The lofty sense of duty is checked under E4.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does the word for the duty that fame brings visibly share a root with a word the translation uses for answering in this scene (her answer one sentence earlier, or the answering in the Q&A)?",
+      "fail": "It shares no visible root with any word the translation uses for answering, so nothing ties the duty to answering."
+     },
+     {
+      "id": "E5b",
+      "ask": "Does the translation refrain from spelling out in added words that fame's duty meant having to answer the crowd?",
+      "fail": "It adds a clause or gloss explaining that the duty meant answering the questions."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "link",
+    "source": "різко звернули",
+    "where": "where the questions change direction toward dating",
+    "what": "The shift is presented as a jolt rather than a drift: the moment her clip goes viral, the crowd's tone flips. The suddenness is part of the joke and sets up the barrage of dating questions in block 16.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the questions' change of direction presented as sudden or sharp, either by an adverb or by a verb that itself means an abrupt swerve?",
+      "fail": "The questions merely turn, shift, drift or become something, with no word conveying suddenness or sharpness."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "motif",
+    "source": "колективного побачення з Тіндера",
+    "where": "the end of the paragraph, where the questions take on the character of a date on Tinder with the whole audience",
+    "what": "This echoes, almost word for word, the danger Freya named in block 9, where the main thing was to keep the exchange with her followers from becoming exactly this. Hearing the same image again tells the reader that what she guarded against happened the moment she became famous. It also frames the dating questions of block 16 and her riposte in block 18.",
+    "risk": "medium",
+    "recurs_in": [
+     9
+    ],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the outcome named here recognisably the same image as the one Freya meant to avoid in block 9, a date on Tinder shared by a whole crowd?",
+      "fail": "The image is generalised into flirting, personal questions or a generic dating show; or it loses Tinder or the crowd-date idea; or it is worded so differently from block 9 that a reader would not connect the two."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "construction",
+    "source": "запитання різко звернули в жанр колективного побачення з Тіндера",
+    "where": "the closing clause, where the questions tip over into the mode of a group date on Tinder",
+    "what": "At this spot the Q&A suddenly tips over into the flirtatious mode of a Tinder date with the whole audience. The original packs this into a verb of turning off a road whose destination is a genre, followed by a stacked noun chain that ends in where the date comes from. Followed closely, English gets questions that become a genre and a string of of-phrases hung on a date from an app. The clause has to be rebuilt to read naturally.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer of English?",
+      "fail": "It reads as translated: a stiff chain of of-phrases, questions said to become a genre, a date said to come from Tinder, or a similar word-for-word shape."
+     }
+    ]
+   }
+  ]
+ }
+}

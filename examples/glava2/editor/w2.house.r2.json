@@ -1,0 +1,23 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 561,
+  "cache_read_input_tokens": 1378,
+  "output_tokens": 1229
+ },
+ "result": {
+  "edited": "\"I have no Plan B other than continuing my studies at Cisame,\" Theodore said. \"If it were just for myself, I'd have left Cisame long ago, Agness.\"\n\nYet walking away from Cisame was something Theodore could no longer afford.\n\nMage training was astronomically expensive. Hundreds of Ethons. And so, during entrance exams, thousands fought not merely for a place at CISAME—but for the Crown Grant. The CISAME Gold Card.\n\nIt covered not only tuition, but living expenses in Seraph—completely unaffordable for a subseraphian or a soul from the Ground. The Card's limit expanded with each circle completed, allowing one to live in Seraph in ever-greater style—and pay ever-steeper tuition fees. For CISAME residents, the Card even covered expenses like designer outfits and cozy houses.\n\nAnd if you stayed at Cisame, you might never even have to pay interest on the endlessly compounding debt. Because in Seraph, absolutely nothing came for free.\n\nThe only problem was staying at Cisame. Which was no easy feat—starting from the second circle, a mage was already fully capable of working; by the fourth, however, any hope of paying off debts was out the window. Demand for mages ran high—yet most of the work wasn't uncovering the mysteries of the Plans, poetry, or metaphysically treading the gossamer layers of the True Plan. Only accredited Academicians on Seraph's payroll could afford such pursuits.\n\nAfter all, someone had to repair the megabarges. Torture demons. Fight the discord, patching tears in the fabric of reality. Sift through the scrap scavenged from Shards by the Gathers to find treasures—or at least LED bulbs. Carve hearts from corpses for healing potions…\n\nAgness waited for an expository pause, letting Theodore marinate in the unenviable prospects of someone kicked out of Cisame before even reaching the fifth circle.",
+  "changes": [
+   {
+    "before": "before even reaching the fifth-circle.",
+    "after": "before even reaching the fifth circle.",
+    "kind": "error",
+    "category": "punctuation"
+   }
+  ]
+ }
+}

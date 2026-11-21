@@ -1,0 +1,1039 @@
+{
+ "judge": "native",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9e07e11e332b",
+ "usage": {
+  "input_tokens": 86,
+  "cache_creation_input_tokens": 63737,
+  "cache_read_input_tokens": 670159,
+  "output_tokens": 16766
+ },
+ "result": {
+  "paragraphs": [
+   {
+    "n": 0,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Agness received Theodore in her office",
+      "reader_gets": "Agness hosts Theodore, a man, in her own office.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "The next morning, before classes, Agness received Theodore in her office. She wore emerald:",
+      "reader_gets": "The meeting and the clothing are in separate sentences, and the emerald is clearly what Agness wears.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "She wore emerald",
+      "reader_gets": "She is in an emerald outfit, later called 'The outfit', and never a dress or robe.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "a severe collar that closed high at her throat",
+      "reader_gets": "The collar rises high, right up to her throat.",
+      "rating": "native"
+     },
+     {
+      "id": "E4b",
+      "quote": "a severe collar",
+      "reader_gets": "The collar is strict and austere.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "bands of fabric falling from it to cradle her breasts",
+      "reader_gets": "Strips of the garment hang from the collar and support her breasts.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "full, but tastefully so",
+      "reader_gets": "Her breasts are full, but the fullness is qualified as restrained and not excessive.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "tastefully so",
+      "reader_gets": "Her figure is judged in terms of good taste.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "to cradle her breasts—full, but tastefully so, and dotted with beauty marks.",
+      "reader_gets": "A smooth trailing description of her breasts, with no heavy stack before the noun.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "dotted with beauty marks",
+      "reader_gets": "Small dark spots, or moles, on her skin.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "whenever she laughed or drew on her cigarette—two pleasures the magess rarely denied herself",
+      "reader_gets": "The two pleasures are laughing and smoking.",
+      "rating": "native"
+     },
+     {
+      "id": "E10a",
+      "quote": "the magess",
+      "reader_gets": "She is called by the feminine form of 'mage', the profession the Academy trains.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "And Agness was doing both",
+      "reader_gets": "'Both' clearly points back to the two pleasures just named, laughing and smoking, and answers that remark.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "was doing both right now",
+      "reader_gets": "She is laughing and smoking at this very moment of the scene, not as a habit.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "And Agness was doing both right now.",
+      "reader_gets": "A crisp, dry one-liner. 'Right now' with the past tense is acceptable close-third narration.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Combined with a miniskirt, bronze high heels, and gold nails cast from melted Ethons, Agness's look defied every foundation of CISAME",
+      "reader_gets": "The added pieces complete a look that flouts the Academy. But 'Combined with' sets the look beside its own parts, and 'defied every foundation' reads like a calque.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E2a",
+      "quote": "gold nails cast from melted Ethons",
+      "reader_gets": "Her nails are melted-down Ethons, the same currency named at block 15.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "where students were obliged to wear the prescribed colors and cut, and where the Pen's discipline of high collars and habits clung to resident mages well after graduation, straight to gray hair and the grave",
+      "reader_gets": "A long but followable explanation of the dress code and how it outlives graduation, with 'clung to' used idiomatically.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "the Pen's discipline of high collars and habits",
+      "reader_gets": "'Discipline' suggests strictness but not clearly military drill or barracks regimentation.",
+      "rating": "weak"
+     },
+     {
+      "id": "E5a",
+      "quote": "the Pen's",
+      "reader_gets": "The capitalised 'Pen' reads as a nickname for the Academy.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "the Pen's",
+      "reader_gets": "'Pen' suggests an animal enclosure, but nothing says pigs, so the pigsty insult is only partly felt.",
+      "rating": "weak"
+     },
+     {
+      "id": "E5c",
+      "quote": "the Pen's",
+      "reader_gets": "Whatever animal-pen meaning there is sits inside the name itself, with no gloss.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "clung to resident mages well after graduation",
+      "reader_gets": "The graduated residents themselves keep to the collars and habits.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "straight to gray hair",
+      "reader_gets": "The habit lasts into old age, shown by greying hair.",
+      "rating": "native"
+     },
+     {
+      "id": "E7b",
+      "quote": "and the grave",
+      "reader_gets": "It lasts all the way to burial.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "The green habit hanging on the coat rack",
+      "reader_gets": "'Habit' matches the 'habits' in the drill, so this is her regulation robe.",
+      "rating": "native"
+     },
+     {
+      "id": "E8b",
+      "quote": "studded with sequins that scattered glints of morning sun across the walls like an emerald disco ball",
+      "reader_gets": "The sequins throw spots of sunlight around the walls like a disco ball.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Yet Agness could afford to dress flashy",
+      "reader_gets": "Her rank gives her the means to bear the cost of breaking the dress code.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "like some Will-magess",
+      "reader_gets": "A generic type of magic-user ('some Will-magess'), not a known, gossiped-about woman.",
+      "rating": "missing"
+     },
+     {
+      "id": "E3a",
+      "quote": "Curators appointed at the end of the fourth circle wielded virtually absolute power. Because, exams aside, it was the curators who decided",
+      "reader_gets": "The reasoning is clear, but the stand-alone 'Because…' fragment and the long tail read stiff and translated.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E4a",
+      "quote": "whether a student was worthy of advancing",
+      "reader_gets": "The curators judge whether a student deserves to go on.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "at the end of the fourth circle",
+      "reader_gets": "'Circle' is a distinctive in-world rank term, not school years.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "all the way to expulsion or graduation",
+      "reader_gets": "Their control spans the whole course to its very end, whichever way it ends.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "And there were plenty of juicy, sordid rumors about how Agness—undeserving in every possible way—had landed such an important curatorial role.",
+      "reader_gets": "A narrator relishing scandal, in idiomatic English ('landed' the role).",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "plenty of juicy, sordid rumors",
+      "reader_gets": "A single plain quantifier: many rumours, but not a breathless flood.",
+      "rating": "missing"
+     },
+     {
+      "id": "E3a",
+      "quote": "undeserving in every possible way",
+      "reader_gets": "She is judged not to deserve the post, which echoes the 'worthy' verdict of block 3.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "A battle magess, a veteran, Agness lacked even a fifth-circle diploma—and rumor had it she hadn't even served her full ten years as a battle magess.",
+      "reader_gets": "Clear, but the stacked appositive opener and the repeated 'battle magess' read stiff and translated.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E5a",
+      "quote": "lacked even a fifth-circle diploma",
+      "reader_gets": "The diploma is the bare minimum, and she lacks even that.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "and rumor had it she hadn't even served",
+      "reader_gets": "The second 'even' marks a further failing.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "rumor had it she hadn't even served her full ten years",
+      "reader_gets": "The service shortfall is attributed to rumour.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "Agness lacked even a fifth-circle diploma",
+      "reader_gets": "The missing diploma is stated as plain fact.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "hadn't even served her full ten years",
+      "reader_gets": "She fell short of completing the ten years.",
+      "rating": "native"
+     },
+     {
+      "id": "E7b",
+      "quote": "her full ten years as a battle magess",
+      "reader_gets": "The ten years are her owed, fixed term.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "a three-day orgy in the rectorate",
+      "reader_gets": "The orgy is in the rector's offices, but 'rectorate' is a Europeanism that may suggest a church rectory to some readers.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E9a",
+      "quote": "Another two added Senators and Lesser Gods to the fray.",
+      "reader_gets": "Two more versions on top of the three.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Because Agness infuriated Anna to no end.",
+      "reader_gets": "Her fury at Agness is offered as the reason she knows every rumour.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Because Agness infuriated Anna to no end.",
+      "reader_gets": "A punchy, deliberate-sounding fragment with a familiar idiom of intensity.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Especially when",
+      "reader_gets": "The binning is the grievance that inflames her most.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "elective evaluation sheets",
+      "reader_gets": "Academic paperwork that is part of his studies.",
+      "rating": "native"
+     },
+     {
+      "id": "E4b",
+      "quote": "elective evaluation sheets",
+      "reader_gets": "Tied to optional courses he has chosen.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "assigned by Agness specifically to torment Theodore",
+      "reader_gets": "Agness herself set the papers in order to torment him.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "by the curatress",
+      "reader_gets": "She is named by her curatorial office at the moment of binning.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "with a single flick of her gold nails",
+      "reader_gets": "The gold nails from block 2 do the dismissing.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "Especially when Theodore's reports and elective evaluation sheets—assigned by Agness specifically to torment Theodore, much to Anna's dismay—were swept into the trash bin by the curatress",
+      "reader_gets": "Followable, but the subject is held through a long aside and the agent arrives late in the passive, so it reads heavy and translated.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E8b",
+      "quote": "with a single flick of her gold nails",
+      "reader_gets": "A crisp, natural description of the gesture.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "she and Theodore were discussing Anna's future",
+      "reader_gets": "Most readers infer Agness and Theodore, but 'she' follows a sentence with Anna as subject, so the pair is briefly ambiguous.",
+      "rating": "weak"
+     },
+     {
+      "id": "E2a",
+      "quote": "Anna didn't even realize",
+      "reader_gets": "'Even' makes her ignorance pointed and wry.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "didn't even realize",
+      "reader_gets": "Framed as not realising, not as not knowing, so it doesn't echo her knowing every rumour.",
+      "rating": "missing"
+     },
+     {
+      "id": "E4a",
+      "quote": "Because right now, in Agness's office, she and Theodore were discussing Anna's future.",
+      "reader_gets": "A causal fragment with a time phrase and a place phrase stacked before an ambiguous subject, which reads stiff and translated.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 7,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "making the Plans a better place",
+      "reader_gets": "'Plans' is the ordinary English word for plans. The capital and 'a better place' hint at something cosmic, but a reader won't see planes of existence.",
+      "rating": "missing"
+     },
+     {
+      "id": "E2a",
+      "quote": "making the Plans a better place,\" he said. \"But at least Anna has her plan.",
+      "reader_gets": "'Plans' and 'plan' share the same form, so the double use is visible.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "the Plans",
+      "reader_gets": "The same term 'the Plans' is used here as at blocks 8 and 18.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "if she's so keen on",
+      "reader_gets": "Stresses Anna's eagerness with a touch of indulgent scepticism.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "her capital and privileges",
+      "reader_gets": "'Capital' is a finance term for an asset base.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "the Chair of Medicine",
+      "reader_gets": "Reads as a single professorial post, not a department she would join.",
+      "rating": "missing"
+     },
+     {
+      "id": "E7a",
+      "quote": "To do good, if she's so keen on making the Plans a better place,",
+      "reader_gets": "A natural spoken fragment, casual in tone.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 8,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "He, Theodore, had no Plan.",
+      "reader_gets": "He lacks a life plan, unlike Anna.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "Nor any place in the Plans.",
+      "reader_gets": "It ties to 'the Plans' of blocks 7 and 18, but in English 'Plans' still reads mostly as plans, so the cosmic order is only half felt.",
+      "rating": "weak"
+     },
+     {
+      "id": "E1c",
+      "quote": "had no Plan. Nor any place in the Plans",
+      "reader_gets": "The same word is used both times, so the pun is visible.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "the Plans",
+      "reader_gets": "The same term as in block 7 ('the Plans') and block 18.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "He, Theodore,",
+      "reader_gets": "The emphatic restated name sets him against Anna.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "He, Theodore, had no Plan.",
+      "reader_gets": "The pronoun doubled by the name as subject reads as translated.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 9,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "And propping up Seraph's economy even less so.",
+      "reader_gets": "He refuses to prop up the economy too.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "even less so",
+      "reader_gets": "He wants the economy option even less than altruism.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "And propping up Seraph's economy even less so.",
+      "reader_gets": "The fragment hangs on 'even less so' with no adjective to attach to, so it reads as translated.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E3a",
+      "quote": "I don't want to do good.",
+      "reader_gets": "'Do good' echoes block 7's 'To do good' word for word.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 10,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "doing something not for yourself",
+      "reader_gets": "She teases him about ever acting for anyone's benefit but his own.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "not for yourself",
+      "reader_gets": "The option is framed by whom it serves, which sets up block 13.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Anna can certainly afford",
+      "reader_gets": "'Certainly' gives Anna emphatic contrast: she, unlike him, can do as she likes.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "can certainly afford to do whatever she likes",
+      "reader_gets": "Her freedom is a matter of means covering the cost.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Don't tell me you actually considered doing something not for yourself",
+      "reader_gets": "The tone is right, but 'doing something not for yourself' is a clunky, literal-feeling phrase.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 11,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "The magess perched on the windowsill of her office",
+      "reader_gets": "Clearly Agness, by her title, in her own office.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "a long mahogany pointer",
+      "reader_gets": "A pointer made of costly mahogany.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "She held the cigarette with telekinesis, the smoke curling into whimsical spirals that drifted out of the office and into the morning sky without leaving a trace of scent behind.",
+      "reader_gets": "An easy, lightly lyrical picture of magic spent on a small vice.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "Not that there was anything in the room to absorb the smell of her favorite cherry tobacco anyway.",
+      "reader_gets": "A wry afterthought that the precaution was needless.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "a wisp-steel rapier",
+      "reader_gets": "A rapier of a distinct, named in-world alloy.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "their one-on-ones",
+      "reader_gets": "A neutral business word for meetings, with no social or intimate flavour.",
+      "rating": "missing"
+     },
+     {
+      "id": "E2a",
+      "quote": "insisting Theodore required the least curating of all her students",
+      "reader_gets": "The reason is clearly her own claim.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "the least curating",
+      "reader_gets": "'Curating' shares its root with her post of curator, so the echo is heard.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "required the least curating of all her students",
+      "reader_gets": "He is placed lowest in need among all her students.",
+      "rating": "native"
+     },
+     {
+      "id": "E4b",
+      "quote": "giving it her absolute all",
+      "reader_gets": "Her effort is at the maximum.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Agness claimed this was her way of unwinding during their one-on-ones, insisting Theodore required the least curating of all her students.",
+      "reader_gets": "Reads as a narrator relaying her breezy excuse.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "In truth, she was giving it her absolute all.",
+      "reader_gets": "A crisp corrective punchline.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 13,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "If it were just for myself, I'd have left Cisame long ago",
+      "reader_gets": "Acting purely for himself, he would have left, which turns her block 10 jab back on her.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "I have no Plan B",
+      "reader_gets": "The reserve is framed as a plan, the third beat of the plan/Plan series.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "I'd have left Cisame long ago",
+      "reader_gets": "He would have left long since, an old and settled wish.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 14,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "something Theodore could no longer afford",
+      "reader_gets": "The barrier is cost, not self-restraint or a ban.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "could no longer afford",
+      "reader_gets": "'Afford' is the same measure of privilege as at blocks 3, 10 and 18.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "no longer",
+      "reader_gets": "Leaving was once open to him and has closed.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 15,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Hundreds of Ethons.",
+      "reader_gets": "The same coin, 'Ethons', as Agness's nails in block 2.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "And so, during entrance exams",
+      "reader_gets": "The fight for the grant follows from the high cost.",
+      "rating": "native"
+     },
+     {
+      "id": "E2b",
+      "quote": "not merely for a place at CISAME—but for the Crown Grant",
+      "reader_gets": "The grant is a stake on top of a place.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "for the Crown Grant. The CISAME Gold Card.",
+      "reader_gets": "The fragment renames the grant as the Gold Card.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "The CISAME Gold Card.",
+      "reader_gets": "The card is named after the institution, not with the 'Academician' title of block 18.",
+      "rating": "missing"
+     }
+    ]
+   },
+   {
+    "n": 16,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "It covered not only tuition, but living expenses in Seraph",
+      "reader_gets": "A full sentence clearly anchored on the Card.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "a subseraphian",
+      "reader_gets": "A coined class term built on Seraph's name.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "The Card's limit expanded",
+      "reader_gets": "The card's spending limit grows.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "with each circle completed",
+      "reader_gets": "The same 'circle' unit used for the Academy's stages elsewhere.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "live in Seraph in ever-greater style",
+      "reader_gets": "An increasingly lavish lifestyle.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "ever-greater style",
+      "reader_gets": "The lifestyle grows with the limit.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "ever-steeper tuition fees",
+      "reader_gets": "The fees keep rising.",
+      "rating": "native"
+     },
+     {
+      "id": "E6c",
+      "quote": "allowing one to live in Seraph in ever-greater style—and pay ever-steeper tuition fees",
+      "reader_gets": "Paying rising fees is deadpanned as one more thing the limit allows.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "For CISAME residents",
+      "reader_gets": "Recognisably the resident mages of block 2.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "the Card even covered",
+      "reader_gets": "'Even' marks clothes and houses as the surprising far end.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 17,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "you might never even have to pay interest",
+      "reader_gets": "Staying exempts you from paying interest.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "never even have to pay",
+      "reader_gets": "'Even' marks this as the furthest perk.",
+      "rating": "native"
+     },
+     {
+      "id": "E1c",
+      "quote": "you might never",
+      "reader_gets": "Potentially never paying, at any time.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "And if you stayed at Cisame, you might never even have to pay interest on the endlessly compounding debt.",
+      "reader_gets": "A clean, idiomatic statement of the rule.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "the endlessly compounding debt",
+      "reader_gets": "The definite article ties it to the debt already in play from the card.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "endlessly compounding",
+      "reader_gets": "The debt keeps growing without stopping.",
+      "rating": "native"
+     },
+     {
+      "id": "E3c",
+      "quote": "the endlessly compounding debt",
+      "reader_gets": "The twist is mentioned in passing, unannounced.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "absolutely nothing came for free",
+      "reader_gets": "Everything in Seraph has a price.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Because in Seraph",
+      "reader_gets": "Offered as the reason behind the debt.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "absolutely nothing",
+      "reader_gets": "An absolute, emphatic denial.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 18,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "The only problem was staying at Cisame.",
+      "reader_gets": "Staying is offered deadpan as the sole, minor catch.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "Which was no easy feat",
+      "reader_gets": "A mild, shrugging concession of the difficulty.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "starting from the second circle",
+      "reader_gets": "The same 'circle' tier term as elsewhere.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "any hope of paying off debts was out the window",
+      "reader_gets": "From the fourth circle on, the debts can no longer be repaid.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "starting from the second circle, a mage was already fully capable of working; by the fourth, however, any hope of paying off debts was out the window",
+      "reader_gets": "The turn from employable to hopelessly indebted is there, but 'however' and the dash-semicolon chain leave the logic needing a reread.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E5a",
+      "quote": "the mysteries of the Plans, poetry, or metaphysically treading the gossamer layers of the True Plan",
+      "reader_gets": "'Plans' and 'True Plan' read as plans or designs. The cosmic levels are only faintly suggested by context.",
+      "rating": "missing"
+     },
+     {
+      "id": "E6a",
+      "quote": "gossamer layers",
+      "reader_gets": "Delicate, ethereal, rarefied layers.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "could afford such pursuits",
+      "reader_gets": "A matter of means, echoing the 'afford' refrain.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "Only accredited Academicians",
+      "reader_gets": "The pursuits are confined to that group.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "on Seraph's payroll",
+      "reader_gets": "Seraph pays them.",
+      "rating": "native"
+     },
+     {
+      "id": "E10a",
+      "quote": "Only accredited Academicians on Seraph's payroll could afford such pursuits.",
+      "reader_gets": "A clean, natural closing sentence.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 19,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "After all,",
+      "reader_gets": "The list is offered as the self-evident reason.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Torture demons.",
+      "reader_gets": "Deliberately making demons suffer, which echoes 'torment' in block 5.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Fight the discord, patching tears in the fabric of reality",
+      "reader_gets": "A cosmic-scale disorder, with holes in reality itself.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "patching tears",
+      "reader_gets": "Homely, makeshift mending.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "Sift through the scrap scavenged from Shards by the Gathers to find treasures",
+      "reader_gets": "Others gather the scrap; the mage sorts through it.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "the scrap scavenged from Shards by the Gathers",
+      "reader_gets": "A passive chain saying from where and by whom, which reads translated.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E6a",
+      "quote": "or at least LED bulbs",
+      "reader_gets": "Bulbs are the lowered fallback.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "LED bulbs",
+      "reader_gets": "Cheap, modern electric bulbs.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "Carve hearts from corpses",
+      "reader_gets": "Hearts are cut out of the dead.",
+      "rating": "native"
+     },
+     {
+      "id": "E7b",
+      "quote": "for healing potions",
+      "reader_gets": "General healing potions.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 20,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Agness waited for an expository pause",
+      "reader_gets": "She waits for a pause to happen rather than holding one herself.",
+      "rating": "missing"
+     },
+     {
+      "id": "E1b",
+      "quote": "an expository pause",
+      "reader_gets": "'Expository' ties the pause to the narrative's info-dump, so the wink is there.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "letting Theodore marinate",
+      "reader_gets": "A kitchen image of steeping, wry and colloquial.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "letting Theodore marinate in the unenviable prospects",
+      "reader_gets": "Theodore stews himself while Agness merely lets it happen.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "kicked out of Cisame",
+      "reader_gets": "A forced, ignominious exit.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "before even reaching the fifth-circle",
+      "reader_gets": "Stresses how low a bar the fifth circle is.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "the fifth-circle",
+      "reader_gets": "The same 'circle' term as at blocks 3, 4, 16 and 18.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "Agness waited for an expository pause",
+      "reader_gets": "Clumsy: 'waited for' makes the pause something that arrives, so the line reads as translated.",
+      "rating": "foreign"
+     }
+    ]
+   }
+  ]
+ }
+}

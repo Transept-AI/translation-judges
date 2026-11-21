@@ -1,0 +1,131 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4576,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 76643
+ },
+ "result": {
+  "reading": "Set right after the young couple's insult (blocks 11–15), the paragraph shows no reaction at all. Instead it steps back into Miss Brill's regular Sunday ritual, told fondly, as habit and in her own idiom: the almond that decides whether a Sunday is a good one, the little bravura with the match. It exists to be broken: block 17 opens by saying that today she walked past the bakery, and that line lands only if everything here reads as habit. The almond's worth, that it could just as easily have been missing, quietly turns back on Miss Brill, who in block 8 was sure she would be missed and in block 12 overhears that nobody wants her there.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "a slice of honey-cake at the baker’s",
+    "where": "the first sentence: the cake she buys by the slice at the bakery on her way home",
+    "what": "The story is set in a French seaside town. What a baker there sells by the slice under this name is a plain honey loaf: cheap, everyday, cut from a loaf, so that one slice may hold an almond and the next may not. In current English the same name also covers the layered cream honey torte that Ukrainian readers know as a party cake. Taking that sense turns her modest weekly treat into a rich gateau and puts an East-European dessert in a French bakery. It also makes the almond that turns up in some slices hard to picture.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the treat a plain baked honey cake or loaf, sold by the slice, rather than the layered cream honey torte or another layered or cream-filled cake?",
+      "fail": "It is the layered cream honey torte (named by the word a present-day Ukrainian reader takes for that torte), or any torte, gateau or cream cake."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "she usually bought … She hurried on the almond Sundays and struck the match",
+    "where": "the buying of the slice in the first sentence, and the hurrying home and lighting of the kettle in the last",
+    "what": "Straight after the insult the story does not say what she did next. It turns instead to what she regularly did on Sundays. Every act here is habit, told with fondness, so that block 17 can break it by saying that today she walked past the bakery. If any act reads as a single event of this evening, the reader takes it that she went through her ritual today, and block 17 then contradicts the paragraph instead of breaking the habit.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Are the buying of the slice, the hurrying home and the lighting of the kettle all told as what she regularly did on Sundays, with none of them reading as a single event of this particular evening?",
+      "fail": "Any of these acts reads as a one-off, completed event of today, for instance the slice bought 'as usual' this time, or the match struck once as the next step of the story."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "It made a great difference.",
+    "where": "the short statement of how much this mattered, right after the remark that some slices had an almond and some did not",
+    "what": "Said flatly, from inside Miss Brill's view and without a wink, the sentence gives a nut in a slice of cake the weight of a real event. The disproportion is the effect: the reader smiles and in the same moment sees how little she has, if one almond can decide whether a Sunday is a good one. The narrator never steps outside to call it small. That restraint keeps her dignity, which the young couple in blocks 12–13 have just trampled.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the almond's presence said to matter a great deal, with an explicit mark of size or intensity, not merely to matter?",
+      "fail": "There is no mark of size or intensity (it simply mattered, was important, made a difference), or only a weakened one (noticeable, some, a certain difference)."
+     },
+     {
+      "id": "E3b",
+      "ask": "Is the statement made as plain fact in the narrative voice, without a phrase that confines it to her opinion or remarks on how small the cause is?",
+      "fail": "A phrase is added that frames or belittles it, such as 'for her', 'in her eyes', 'oddly enough' or 'such a trifle'."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "something that might very well not have been there",
+    "where": "the end of the sentence likening the almond to a little present and a surprise: the last thing it is called",
+    "what": "This is the last and deepest of Miss Brill's three tries at saying what the almond is: its worth lies in its not being guaranteed, since it could just as easily have been absent. The thought turns back on her. In block 8 she was sure somebody would notice if she were absent from the gardens, and in block 12 the boy sneers that nobody wants her there and she should stay at home. The almond is prized for being there by chance, while she, whose being there has just been called unwanted, is what nobody would miss. A reader of the original hears this through the shared notion of being there or not, without being told.",
+    "risk": "medium",
+    "recurs_in": [
+     8,
+     12
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the almond described in terms of being there or not being there (something that could just as well have been absent), the same notion as Miss Brill's certainty in block 8 that her absence would be noticed and the boy's sneer in block 12 that nobody wants her there?",
+      "fail": "The possible absence is replaced by unexpectedness, rarity, luck or undeservedness alone (something unexpected, a gift of fate, something you cannot count on), or the negation is lost so that it could well have been there, or the phrase is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "register",
+    "source": "the almond Sundays",
+    "where": "the last sentence, where the Sundays whose slice held an almond are singled out",
+    "what": "This is Miss Brill's private calendar: a whole Sunday is classed by whether a nut turned up in her slice, and that kind of Sunday gets a name of its own, almost as if it were a feast day. It is her idiom, the same habit of private naming that the story marks elsewhere with quotation marks: her own word for her seat in block 2, for the pretty bit of flute music in block 1, for the stage-like little dog in block 8. It is tender, a little comic, and a measure of how small her world is. Spelled out as an ordinary time clause, the fact survives but her naming disappears.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the private coinage kept, with those Sundays given a compact label of their own made from the almond, rather than neutralised into an ordinary clause about the days on which she found one?",
+      "fail": "The label is unpacked into a plain temporal or conditional clause (on the Sundays when the slice held an almond; whenever she found one), or the Sundays are not mentioned."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "in quite a dashing way",
+    "where": "the very end of the paragraph: the manner in which she strikes the match on those Sundays",
+    "what": "The adjective belongs to gallant young officers and cavaliers cutting a figure. Used of an elderly woman lighting the burner under her kettle, it is affectionate mock-heroism: on a good Sunday a humble act becomes a small bravura gesture made for no audience, the same impulse that let her see herself as an actress in block 8. Coming straight after the hurrying, the word invites a reading as mere speed, which folds it into the haste and loses both the gaiety and the gentle comedy. Her festive strike of a match also stands against block 7, where the man in grey tosses his spent match aside in contempt.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the striking of the match given a touch of display and daring, a small flourish, rather than speed or energy alone?",
+      "fail": "The manner is only speed, haste or impatience, or only liveliness, briskness or vigour with no hint of showiness or daring, or it is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "construction",
+    "source": "struck the match for the kettle",
+    "where": "the last sentence, where she strikes a match to put her kettle on for tea",
+    "what": "English packs the purpose into a bare preposition: she strikes a match to light the burner under the kettle and make tea to go with her cake. Carried over word for word, the phrase yields a match that seems meant for, or belonging to, the kettle itself, and the sentence reads as translated.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "At the spot where she strikes a match to put her kettle on, does the wording read as written by a skilled native writer?",
+      "fail": "The match is linked to the kettle by a bare 'for', as if it were the kettle's own match, or this phrase otherwise reads as carried over word for word."
+     }
+    ]
+   }
+  ]
+ }
+}

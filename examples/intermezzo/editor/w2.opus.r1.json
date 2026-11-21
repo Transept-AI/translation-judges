@@ -1,0 +1,23 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1415,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 711
+ },
+ "result": {
+  "edited": "Some green chaos whirled around me and caught at every wheel of the carriage, and there was so much sky here that my eyes drowned in it as in the sea and looked for something to hold on to. And were helpless.\n\nAt last we are home. The white walls of the house bring me back to my senses. The moment the carriage rolled into the wide green yard, a cuckoo began to call. Then I suddenly heard the great silence. It filled the whole yard, hid in the trees, lay over the deep blue distances. It was so quiet that I grew ashamed of the pounding of my own heart.\n\nTen black rooms, filled to the brim with darkness. They lay siege to my room. I shut the door, as though afraid the lamplight might all leak out through the cracks. So now I am alone. Not a soul around. Quiet and deserted, and yet I hear something there, beyond my wall. It bothers me. What is it?\n\nI can feel the hardness and the shape of the furniture sunk at the bottom of the black darkness, and the creak of the floor under its weight. Well then, stay where you are, rest in peace. I don't want to think about you. I'd better lie down. I'll put out the lamp and drown in the black darkness myself. Perhaps then I too will turn into a soulless object that feels nothing, into \"nothing.\" How good it would be to become \"nothing,\" a voiceless, motionless calm. And yet there, behind my wall, there is something. I know that if I were to walk into the dark rooms just like that and strike a match, everything would suddenly leap into its place: chairs, sofas, windows, even the cornices. Who knows, perhaps my eye would manage to catch an image of people, pale, indistinct, as if off tapestries, all those who left their faces in the mirrors, their voices in the cracks and corners, their shapes in the soft horsehair stuffing of the furniture, and their shadows on the walls. Who knows what goes on where a person cannot see…",
+  "changes": [
+   {
+    "before": "And yet there, behind my wall, something is there.",
+    "after": "And yet there, behind my wall, there is something.",
+    "kind": "error",
+    "category": "calque"
+   }
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1617,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1952
+ },
+ "result": {
+  "edited": "\"Don't you miss a strong male shoulder next to you?\" asked Rebecca223, for a hundred dollars. \"Would you give up your business if you met the love of your life?\"\n\nFreya decided to answer.\n\n\"A business can't replace a man, and a man can't replace the work of your life. Though a business doesn't need to be pleased like a lover. And the right business will *always* stand up for you\"—Freya smiled—\"which, you'll agree, compares favorably with a man.\"\n\nThe chats exploded. The Twitter and Instagram feeds on the side monitors raced like mad. The feminist community mobilized a hundred percent, and the feed suddenly blossomed with rainbow-haired avatars, like an exotic greenhouse. Now it was not the assistants but Freya's own fans who were filing reports and dumping filth on the right-wingers who had flocked to the light of her stream from their anonymous loser forums. The right-wingers were always a lot of trouble.\n\nStill, three hundred and eighty... no, three hundred and ninety thousand live viewers remained three hundred and ninety thousand live viewers. Whatever they smelled like.\n\nThe trolls tried to bury the broadcast under questions like \"Do you take it in the cheek?\" and \"Try shaving your legs\": no imagination at all, but plenty of volume. Dumb sad green frogs began popping up in the chat. Freya kept smiling and went on answering questions selectively, glancing at her assistants' chat. Whichever way you looked at it, the comments set the tone. In the end, though, the moderators weren't needed.\n\nThe trolls' mothers didn't give them more than five dollars for school lunch. So they were crushed by a counterattack from the very core of Freya's audience, rallied by a call from fan groups on Twitter, TikTok, and Instagram. Stay-at-home moms, manicurists, and college girls from the provinces rushed to save their idol. Housewives who had traded their ladles for giant smartphones at the loud call of the modern economy. And men, too, who craved the attention of all the women above and so passed themselves off as one of them, without even noticing that they were blowing twenty bucks a month on Freya, or more.\n\nNot the best audience if you're a serious woman sharing the secrets of *real* success, but a loyal one. And loyalty counts for a lot in real business.\n\nRight before Freya's eyes the haters' comments were washed away by messages worth twenty and fifty dollars: \"Go, Freya!\" \"Freya, we love you!\" \"#Axelsensexuals!\" The stakes climbed fast, and soon donations under ten dollars didn't even show up on the screen. At last the girl smiled sincerely.",
+  "changes": [
+   {
+    "before": "stand up for you,\" here Freya smiled, \"which",
+    "after": "stand up for you\"—Freya smiled—\"which",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "mobilized at a hundred percent",
+    "after": "mobilized a hundred percent",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Dumb green sad frogs",
+    "after": "Dumb sad green frogs",
+    "kind": "error",
+    "category": "grammar"
+   },
+   {
+    "before": "Still, the moderators' help turned out not to be needed.",
+    "after": "In the end, though, the moderators weren't needed.",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "started passing as one of their own",
+    "after": "passed themselves off as one of them",
+    "kind": "error",
+    "category": "calque"
+   }
+  ]
+ }
+}

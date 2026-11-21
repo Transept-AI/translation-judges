@@ -1,0 +1,72 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1385,
+  "cache_read_input_tokens": 779,
+  "output_tokens": 1415
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Оркестр відпочивав. Тепер вони знову заграли.",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "вся ця компанія",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "всіх інших членів компанії",
+    "kind": "register",
+    "weight": 2
+   },
+   {
+    "quote": "тримати свою дурну стару пику вдома",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "смажений мерланг",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "вони вступлять як супровід",
+    "kind": "unnatural",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "ледь помітний холодок",
+    "why": "precise, delicate sensation"
+   },
+   {
+    "quote": "не смуток — ні, не смуток",
+    "why": "keeps the hesitant inner rhythm"
+   },
+   {
+    "quote": "Герой і героїня, звісно, щойно з яхти його батька.",
+    "why": "captures her naive storytelling fantasy"
+   },
+   {
+    "quote": "з тремтливою усмішкою",
+    "why": "fragile, vivid detail"
+   },
+   {
+    "quote": "захихотіла дівчина",
+    "why": "lively, cruel tone"
+   },
+   {
+    "quote": "Чого вона взагалі сюди приходить — кому вона потрібна?",
+    "why": "natural spoken cruelty"
+   }
+  ]
+ }
+}

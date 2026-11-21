@@ -1,0 +1,41 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1912,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1522
+ },
+ "result": {
+  "edited": "The next morning, before classes, Agnes met Theodore in her office. She was wearing an emerald outfit with a severe collar buttoned right up to the throat, from which bands fell away to support her full, though tastefully modest, breasts dotted with moles. It also bared her firm shoulders and her womanly belly, where muscles played whenever Agnes laughed or drew on a cigarette. The magess loved doing both.\n\nAnd Agnes was doing both right now.\n\nAdd a miniskirt, bronze high heels and gold nails made from melted-down etons, and Agnes's whole look defied every principle of the Academy, where students were required to wear clothing of regulation colours and cut, and where the Pigsty's drilling in high collars and robes stayed with the resident mages long after they had finished their studies, all the way to grey hair and the grave. Agnes's green robe on the hanger behind her did nothing to help matters: it was strewn with sequins that threw glints of the morning sun across the walls like an emerald disco ball.\n\nBut Agnes could afford to dress as loudly as that Volevychka, because the curators, appointed at the end of the fourth circle, held practically unlimited power. Aside from exams, it was the curators who decided whether a student was worthy of moving on to the fifth circle and earning a magical specialisation, and who steered a mage's path all the way to expulsion or graduation.\n\nAnd there were a great many juicy rumours about how Agnes, unworthy in every possible way, had landed this important curatorial role. A combat magess and a veteran, Agnes didn't hold even a fifth-circle diploma, and rumour had it she hadn't even served out her ten years as a combat magess. Three versions of the rumour involved a three-day orgy in the rector's office. In two more, Senators and Minor Gods joined the orgy. Anna knew every version, down to the smallest detail.",
+  "changes": [
+   {
+    "before": "Agnes met Theodore in her office wearing an emerald outfit",
+    "after": "Agnes met Theodore in her office. She was wearing an emerald outfit",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "where the Pigsty's drilling on high collars and robes held fast among the resident mages, who had long since finished their studies, all the way to grey hair and the grave",
+    "after": "where the Pigsty's drilling in high collars and robes stayed with the resident mages long after they had finished their studies, all the way to grey hair and the grave",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "that Volevychka. Because the curators",
+    "after": "that Volevychka, because the curators",
+    "kind": "error",
+    "category": "punctuation"
+   },
+   {
+    "before": "Because, aside from exams, it was the curators",
+    "after": "Aside from exams, it was the curators",
+    "kind": "error",
+    "category": "style"
+   }
+  ]
+ }
+}

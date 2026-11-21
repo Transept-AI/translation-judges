@@ -1,0 +1,76 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1802,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 572
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "as the New York hustlers liked to say",
+    "why": "odd, unconvincing attribution"
+   },
+   {
+    "quote": "her assistants bolted on a payment form",
+    "why": "awkward mechanical idiom"
+   },
+   {
+    "quote": "It was a plateau. Two hundred thousand was a plateau that got harder to break through every time.",
+    "why": "clunky repetition"
+   },
+   {
+    "quote": "No moderation, but on Freya's terms.",
+    "why": "vague, contradictory phrasing"
+   },
+   {
+    "quote": "the broadcast was moving on to the Q&A",
+    "why": "flat explanation"
+   },
+   {
+    "quote": "It was the most enjoyable part, but only a hundred thousand showed up.",
+    "why": "unclear whose enjoyment"
+   },
+   {
+    "quote": "and another twelve on TikTok",
+    "why": "slightly ambiguous ellipsis"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Even the famous and obscenely rich Tony Bobbins",
+    "why": "funny satirical name"
+   },
+   {
+    "quote": "fortune smiles only on prepared minds and hands ready to act",
+    "why": "captures coach-speak voice"
+   },
+   {
+    "quote": "Freya didn't care for TikTok, it lacked a serious audience, but the algorithms had decided otherwise.",
+    "why": "wry, characterful irony"
+   },
+   {
+    "quote": "\"how to get up and get going,\"",
+    "why": "nicely parodic"
+   },
+   {
+    "quote": "smashing that ceiling with room to spare",
+    "why": "energetic, fits tone"
+   },
+   {
+    "quote": "At first things had gone merely okay.",
+    "why": "natural, casual"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

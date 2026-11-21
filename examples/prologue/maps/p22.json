@@ -1,0 +1,164 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3851,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 85977
+ },
+ "result": {
+  "reading": "Block 22 explains the dry close of block 21, that the moderators were not needed: the trolls lose a fight that money decides, because they can afford only the five-dollar minimum donation set in block 13. It then stages the fans' response as a mock war fought by the core of Freya's audience, led by the maternity-leave mothers whom block 11 counts as nearly half her viewers, and lists that army with Freya's own condescension. Block 23 gives her verdict on this roster (no audience for a serious woman, but a loyal one), and block 24 shows the victory: hater comments washed away by twenty- and fifty-dollar messages.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "Мами тролів не давали їм більше п'яти доларів на шкільний обід.",
+    "where": "the opening sentence: how much the trolls' mothers give them for lunch at school",
+    "what": "The trolls are never called children. Mothers handing out money for lunch at school make them schoolkids on an allowance. The five-dollar cap equals the minimum donation set in block 13, so they can only post the cheapest questions, and that is why they are routed next. The detail mirrors block 11, where Freya pictures a fan mother scraping her fifty-dollar question out of the money meant for her children's lunches: mothers' lunch money funds both camps, and the fan mothers' camp has more of it.",
+    "risk": "medium",
+    "recurs_in": [
+     11
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the trolls' money presented as school-lunch money their mothers give them, recognisably the same notion as the children's lunch money that the fan mother in block 11 diverts into her donation?",
+      "fail": "Here the money is something else (generic pocket money, no mothers, no meal), or block 11 and this sentence name different kinds of money (a different meal, household or grocery money), so the echo is lost."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "device",
+    "source": "Тож їх ущент розгромила контратака з самого ядра аудиторії Фреї, що згуртувалася на заклик фан-груп у Твіттері, Тік-Току та Інстаграмі. На порятунок свого кумира кинулися мами в декреті, майстрині манікюру й студентки з провінції.",
+    "where": "from the trolls' defeat by Freya's core fans through the first three kinds of fans who hurry to her aid",
+    "what": "A chat brawl is told in the vocabulary of a battle report: a rout, a counter-strike launched from the main body of the audience, troops mustering at a summons from the fan groups, a dash to rescue the idol. Then the army is named, and it turns out to be mothers at home with babies, manicure workers and small-town girls at college. The comedy lies in the gap between the epic verbs and the humble troops. This roster sets up Freya's verdict in block 23.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the fans' response itself named as a military counter-strike, an attack launched back at the trolls?",
+      "fail": "The response is named with a non-military word (a reaction, backlash, pushback, a wave or flood of comments), even if the trolls are said to be crushed."
+     },
+     {
+      "id": "E2b",
+      "ask": "Are the core fans said to rally or muster in answer to a call from the fan groups on the social platforms?",
+      "fail": "There is no rallying at a summons: the fan groups merely coordinate or host the fans, or are only where the fans come from."
+     },
+     {
+      "id": "E2c",
+      "ask": "Are these fans said to rush or throw themselves into saving or defending their idol?",
+      "fail": "A calm verb of support, backing or joining in, with no rush to her aid."
+     },
+     {
+      "id": "E2d",
+      "ask": "Are the first rescuers named as humble, everyday kinds of women: mothers, manicure workers, and students from small towns or the provinces?",
+      "fail": "One of the three is dropped, the three are merged into a vague group, the students' small-town origin is lost, or a group is given a grand title (such as masters or experts of manicure)."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "мами в декреті",
+    "where": "the first group named among the fans rushing to help Freya",
+    "what": "These are the mothers at home on maternity leave whom block 11 counts as forty-eight percent of Freya's audience. In the Ukrainian sense this leave can run up to three years, and the phrase names a familiar social type: at home with a baby and with time to scroll. That is why they lead the core that strikes back, and a reader of the original recognises them by the identical label. They also answer the opening sentence: schoolkid trolls who live on their mothers' lunch money are beaten by mothers.",
+    "risk": "medium",
+    "recurs_in": [
+     11
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the first group of rescuers named so that it is recognisably the group that block 11 counts as forty-eight percent of Freya's audience (the same label or an unmistakable equivalent)?",
+      "fail": "The label here and the label in block 11 differ enough that a reader would not connect them (for instance, one names the leave and the other a different kind of mother), or the mothers are missing here."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "register",
+    "source": "на гучний поклик сучасної економіки проміняли половники на величезні смартфони",
+    "where": "the housewives who gave up a kitchen utensil for an oversized phone, and the reason given for it",
+    "what": "The housewives' move from the kitchen to the phone is phrased in the solemn formula of civic mobilisation, the way propaganda says people answered the summons of the Motherland or the Party. Here the summoner is today's economy and the heroic deed is swapping a ladle for a giant phone. The mock solemnity is what makes the swap absurd, and it keeps the paragraph on its war footing.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the present-day economy presented as issuing a solemn call or summons, as to duty or service, that the housewives answered?",
+      "fail": "The economy is only a cause or setting (they changed because of it, to keep up with it, under its pressure), the call is of another kind (a lure or temptation), or the economy is missing."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "register",
+    "source": "уваги всіх вищезгаданих жінок",
+    "where": "where the men are said to want the attention of all the women just listed",
+    "what": "The narrator points back at the roster with a bureaucratic, report-style word, as if filing the women in an official tally. The dry officialese clashes comically with the men's very unofficial motive and keeps Freya's contempt cool.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Are the women referred back to with a formal, officialese back-reference in the style of a document or report?",
+      "fail": "A plain pointer such as a simple demonstrative, or no back-reference at all."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "почали косити «під своїх»",
+    "where": "where the men, chasing those women's attention, change how they present themselves",
+    "what": "This is colloquial slang. With this preposition the verb has nothing to do with mowing, cutting down or dodging: it means faking a likeness to someone. The quoted word names the in-group, the people one counts as belonging. The men pretend to be members of the women's fan crowd purely to get noticed. The pose is the point: these fake fans end up as Freya's real paying fans without realising it.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the translation say the men began faking membership of the women's crowd, posing as insiders or fellow fans?",
+      "fail": "Literal mowing; the men cut down or attack 'their own'; they side with their own kind (other men, the trolls); they dodge something; or no pretence remains and they simply become supporters."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "register",
+    "source": "просаджують на Фрею по двадцять баксів на місяць",
+    "where": "where the men's monthly outlay on Freya is stated",
+    "what": "The verb is a colloquial one for losing money you shouldn't, the way it goes at cards or in a casino, and it comes with slang for dollars. The narrator sneers that the posers are being quietly fleeced month after month, and that the money lands with Freya, the real winner of the scene.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the men's outlay expressed with a slangy or colloquial verb that treats the money as blown or wasted, rather than a neutral verb of spending, paying or donating?",
+      "fail": "A neutral, standard verb of spending, paying, contributing or donating."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "construction",
+    "source": "А ще чоловіки, що прагнули уваги всіх вищезгаданих жінок, а тому почали косити «під своїх», навіть не помічаючи, як просаджують на Фрею по двадцять баксів на місяць, а то й більше.",
+    "where": "the last sentence: men who want the attention of the women just listed, fake belonging, and do not notice their monthly spending on Freya",
+    "what": "This closing addition to the roster of defenders gives the men's motive, the pose it leads to, and a monthly payment to Freya they don't notice, with an afterthought that the sum may be higher. In the original it is a list item with no main verb, hanging off the previous sentences. It holds a relative clause with two predicates joined by a causal connective, a trailing participial clause with another clause inside it, and a final tag. Followed clause by clause, it becomes a long dangling fragment that opens with doubled connectives, runs a stiff chain of causes and ends on a tacked-on tag. It has to be rebuilt to read as English.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "At this sentence, does the translation read as if a skilled native writer wrote it?",
+      "fail": "It reads as translated: a fragment that does not hook onto the list of defenders, stacked or misused connectives at its start, a stiff chain of relative and cause clauses, an unidiomatic clause about not noticing, or the afterthought about a higher sum left dangling. A deliberately bureaucratic word for the women is not in itself a fault."
+     }
+    ]
+   }
+  ]
+ }
+}

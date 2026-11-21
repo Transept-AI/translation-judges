@@ -1,0 +1,74 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1418,
+  "cache_read_input_tokens": 577,
+  "output_tokens": 1364
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "For myself, I'd have left the Academy long ago, Agnes.",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "I have no plan B except to continue my studies at the Academy",
+    "kind": "register",
+    "weight": 1
+   },
+   {
+    "quote": "letting you live in Seraph on an ever grander footing",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "the Card covered even such expenses as designer outfits and cozy houses",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "And as long as you stayed at the Academy, you might never have to pay interest on a debt that grew endlessly.",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "from the second circle on, a mage could already work in full; from the fourth, however, you could say goodbye to any hope of paying off your debts.",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "Only accredited Academicians kept by Seraph could afford those.",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "letting Theodore marinate himself in",
+    "kind": "unnatural",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "After all, someone had to repair the megabarges. Torture demons. Fight the Disorder, patching holes in the fabric of creation.",
+    "why": "punchy list that builds the world fast"
+   },
+   {
+    "quote": "Pick through what the scavengers had gathered from the Shards for treasures, or at least LED bulbs.",
+    "why": "funny, grounding anticlimax"
+   },
+   {
+    "quote": "Because in Seraph absolutely nothing was given for free.",
+    "why": "crisp, cynical line"
+   },
+   {
+    "quote": "Agnes waited out a pause long enough for exposition",
+    "why": "sly self-aware wink"
+   }
+  ]
+ }
+}

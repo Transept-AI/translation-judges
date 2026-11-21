@@ -1,0 +1,86 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2194,
+  "cache_read_input_tokens": 779,
+  "output_tokens": 1711
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "горностаєвий ток обернулася",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "зустрілися горностаєвий ток і джентльмен у сірому",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "і з того, як вони дивилися, здавалося, ніби вони щойно вийшли",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "а крізь них лише смужка моря, а далі",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "відкинув сірника",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "Повз пройшли дві молоденькі дівчини",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "підвелося й рушило геть",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "Нічого, завжди можна дивитися на юрбу.",
+    "kind": "unclear",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "раптово сідало — «гуп!»",
+    "why": "playful, sound-alive"
+   },
+   {
+    "quote": "ступала високо, мов молода курочка",
+    "why": "precise comic image"
+   },
+   {
+    "quote": "чи навіть — навіть із шаф!",
+    "why": "keeps Miss Brill's breathless voice"
+   },
+   {
+    "quote": "була крихітною жовтуватою лапкою",
+    "why": "vivid, pitiful detail"
+   },
+   {
+    "quote": "барабан вибивав: «Звір! Звір!»",
+    "why": "music voices her feeling"
+   },
+   {
+    "quote": "і задріботіла геть",
+    "why": "exact, lively verb"
+   },
+   {
+    "quote": "Трам-там-там, тирлі-рам! тирлі-рам! трам тирлі-рам там-та!",
+    "why": "band rhythm carried well"
+   }
+  ]
+ }
+}

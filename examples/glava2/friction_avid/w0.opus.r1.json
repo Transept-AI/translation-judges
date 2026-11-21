@@ -1,0 +1,65 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1974,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1264
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Agnes met Theodore in her office wearing an emerald outfit with a severe collar buttoned right up to the throat, from which bands fell away to support her full, though tastefully modest, breasts dotted with moles.",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "It also bared her firm shoulders and her womanly belly",
+    "kind": "follow",
+    "weight": 1
+   },
+   {
+    "quote": "gold nails made from melted-down etons",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "and where the Pigsty's drilling on high collars and robes held fast among the resident mages, who had long since finished their studies, all the way to grey hair and the grave",
+    "kind": "structure",
+    "weight": 3
+   },
+   {
+    "quote": "as loudly as that Volevychka",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "A combat magess and a veteran, Agnes didn't hold even a fifth-circle diploma, and rumour had it she hadn't even served out her ten years as a combat magess.",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "Anna knew every version, down to the smallest detail.",
+    "kind": "follow",
+    "weight": 2
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "And Agnes was doing both right now.",
+    "why": "deadpan comic beat"
+   },
+   {
+    "quote": "it was strewn with sequins that threw glints of the morning sun across the walls like an emerald disco ball",
+    "why": "vivid, playful image"
+   },
+   {
+    "quote": "Three versions of the rumour involved a three-day orgy in the rector's office. In two more, Senators and Minor Gods joined the orgy.",
+    "why": "escalating gossip, funny"
+   }
+  ]
+ }
+}

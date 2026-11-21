@@ -1,0 +1,189 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4953,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 74573
+ },
+ "result": {
+  "reading": "Block 9 is the narrator's escape from the city by train, after blocks 0–8 have built up his exhaustion with people. The paragraph sets out his doubt whether the city's iron grip will let him go, and his half-disbelieving hope of reaching green country with no people in it, and silence. Block 10 answers its closing question at once: he cannot hear the silence for strangers' voices, which block 11 transcribes; block 13 brings silence around him while his heart still pounds; and block 16 throws his wish for silence and no people back at him. The grip that may or may not open its fingers looks ahead to the dog freed from its chain in block 20.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "construction",
+    "source": "Поїзд летів повний людського гаму.",
+    "where": "The opening sentence, where the speeding train is full of the noise of people.",
+    "what": "A terse opening line. The adjective of fullness is attached straight to the verb of the train's flight, with no pause between them. Carried over word for word, the flight and the fullness are joined in a way English does not join them, and the paragraph begins sounding translated.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The train's motion and its being full of noise are joined in an un-English way, or the sentence otherwise reads as translated."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "город витягує в поле свою залізну руку за мною",
+    "where": "Where something reaches out after him into the fields with a limb of iron and will not let him go.",
+    "what": "In the story's older usage this word names the city. Block 8 has him recoiling from the roar of its streets, using an adjective from the same root. In today's language the word ordinarily means a kitchen garden. Taken in the modern sense, a vegetable plot stretches an iron limb into the fields after him. That is nonsense, and it removes the antagonist: the city and its crowds, reaching after him along the railway.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is it the city or town he is leaving that reaches out after him?",
+      "fail": "A garden, vegetable plot, orchard or other cultivated land reaches after him, or the one reaching is anything other than the city."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "витягує в поле свою залізну руку за мною і не пускає … чи розтулить рука свої залізні пальці … надаремне клацати буде кістками залізна рука",
+    "where": "The image of the iron hand: its reaching after him, his doubt whether it will open, and its last movement once the green land has closed behind him.",
+    "what": "One image develops through the whole paragraph in stages. First, the city's iron limb reaches out after him and refuses to release him. This is the rails his train runs on: in Ukrainian the word for railway shares the root of iron, and block 2 has the crowd clothing the earth in iron. Next comes his doubt whether its fingers will open. Last, with the green closed behind him, the same hand is reduced to a bony noise that achieves nothing, and its menace ends as a skeleton's impotence. Dropping a stage breaks the figure into unrelated pieces. The grip that may or may not open returns in block 20, where the chain is taken off the dog.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the reaching after him done by a hand or arm of iron?",
+      "fail": "No iron limb: something only pulls, holds, follows or grips him, or the limb is not of iron."
+     },
+     {
+      "id": "E3b",
+      "ask": "When he wonders whether he will be let go, is it the hand's fingers that might open?",
+      "fail": "The fingers are gone (only a grip, hold or clutch that might loosen), or fingers appear that are not the hand's."
+     },
+     {
+      "id": "E3c",
+      "ask": "In the closing picture, does the hand's noise or movement come from its bones (finger bones or bony joints count)?",
+      "fail": "No bones: the hand only clanks, snaps, clenches, grabs or claws."
+     },
+     {
+      "id": "E3d",
+      "ask": "Is that last movement of the hand shown as futile, reaching for him in vain?",
+      "fail": "Nothing marks it as useless or as having missed him."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "link",
+    "source": "Невже я вирвусь",
+    "where": "The question whether he will tear himself free and enter the green land.",
+    "what": "The question opens with a particle of incredulity: he can hardly believe the escape might actually happen. It is hope that does not dare trust itself, one step beyond the irritable uncertainty of the sentence before. It also prepares block 10, where the escape happens simply and without his noticing, and still brings no silence.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Does the question about breaking free mark his near-disbelief that it could really happen?",
+      "fail": "A plain question whether he will, would or could break free, with nothing expressing disbelief or wonder."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "motif",
+    "source": "од цього зойку",
+    "where": "What he hopes to tear himself away from, just before he imagines entering the green land.",
+    "what": "Right after describing the train as full of the noise of people, he points back at that noise with a word for a sharp outcry of pain or fright. The noise of people is heard as suffering. In block 2 the crowd roars with pain and dumps its torments into his heart. In block 18 everyone, friend and enemy, shouts the cry of their life or death into his ears. Reduced to plain noise, the city's voice loses its pain, and his flight shrinks to a dislike of racket.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     18
+    ],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is what he hopes to tear himself away from an outcry, a voice raised in pain or fright, rather than a neutral word for noise?",
+      "fail": "It is only a neutral word for noise, din, bustle, chatter or racket, or a mechanical sound."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "motif",
+    "source": "безлюдні",
+    "where": "The description of the green land he hopes to enter.",
+    "what": "The land he longs for is defined by the absence of people, set against the human din the paragraph opens with; in the original the two words share a root. Block 14 calls the night in the empty house quiet and people-less. Block 16 throws the wish back at him: he wanted silence and no people, now he has both, and he does not believe in the second. If the land is merely open or wide, that later taunt has nothing to point back to.",
+    "risk": "medium",
+    "recurs_in": [
+     14,
+     16
+    ],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the green land he hopes to enter said to be without people?",
+      "fail": "It is only open, wide, vast, wild or empty in general, with nothing saying that no people are there."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "hinge",
+    "source": "зелені простори",
+    "where": "The green land he hopes to enter once he has broken free.",
+    "what": "The land he longs for is pictured as wide, open green country stretching away from the train. Block 13 uses the same word for the deep blue openness over which the silence lies. A word-for-word rendering lands on the set English phrase for parks and planted areas inside towns, which quietly moves the image back into the city he is escaping.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the green land he hopes to enter named so that it cannot be taken for parkland inside a town?",
+      "fail": "It uses the fixed English phrase for parks and grassy recreational areas in towns, or otherwise suggests parks, lawns or gardens."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "construction",
+    "source": "Вони замкнуться за мною і надаремне клацати буде кістками залізна рука? І буде навколо і в мені тиша?",
+    "where": "The last two questions: the green closing behind him while the iron hand is left working its bones uselessly, and the hope of silence around and within him.",
+    "what": "Both are statements made into questions by intonation alone, and they close a run of hopeful questions. In the first, the iron hand is held back to the very end, after the verb and the bones, as the clinching image. The second likewise holds its subject to the end. Rendered word for word, English gets statements with question marks attached, a stilted inverted order with an archaic ring, or an awkward phrase for a hand sounding with its bones.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "Stilted or archaic inverted order, statements that read oddly as questions, an awkward phrase for the hand's bony noise, or anything else that reads as translated."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "motif",
+    "source": "І буде навколо і в мені тиша?",
+    "where": "The paragraph's closing question, about what there will be around him and inside him.",
+    "what": "The paragraph ends on the silence the whole flight is for, wanted both around him and inside him. The story keeps testing it. Block 2 sets the earth's holy silence against the city's noise. Block 10 opens by saying he could not hear the silence for strangers' voices. In block 13 he finally hears a great silence, so deep that his own heartbeat shames him. Block 14 finds the house quiet, block 16 reminds him he wanted silence, and in block 19 the cuckoo sows silence over the grass. Turned into peace or calm, it merges with the separate wish for rest in blocks 3, 6 and 15, and breaks the chain of hearing and not hearing it.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     10,
+     13,
+     14,
+     16,
+     19
+    ],
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Is what he hopes will surround him and fill him at the end an absence of sound?",
+      "fail": "It becomes peace, calm, rest or tranquillity, a state with no reference to sound."
+     }
+    ]
+   }
+  ]
+ }
+}

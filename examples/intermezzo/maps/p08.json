@@ -1,0 +1,104 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4855,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 81055
+ },
+ "result": {
+  "reading": "This one sentence completes the night-and-day diptych of blocks 5–7. After people stalking his sleep, it shows them hounding him awake: from the faintest trace, one person's shadow at his back, to the roaring flood of the whole city's life charging at him from every street. It is the last picture of the city before the escape by train in block 9, which carries the same human din and the city's grip out into the fields; its flood takes up life breaking on him like a wave in block 1 and returns as the spring torrents of chatter in block 10, and its roar answers humanity roaring like a beast in block 2.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "чув за собою тінь від людини",
+    "where": "The first half of the sentence: what he reacts to in the daytime, a person's shadow behind him.",
+    "what": "The verb belongs to hearing, but its range also covers sensing by any means other than sight. Here it is applied to a shadow, which makes no sound and lies at his back where he cannot see it. That shows how raw his nerves are: what reaches him is not a person or a footstep but only the faintest trace a person casts. The same verb carries his uncanny perceptions through the story (other lives seeping into his in block 1, silence in blocks 10 and 13, unseen furniture in blocks 14 and 15), and block 15 returns to the shadows people leave on walls. A translator who finds the pairing odd is tempted to let him see the shadow, or to swap it for the person or a sound.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the narrator perceive the shadow by hearing it or by sensing or feeling it, rather than by seeing it?",
+      "fail": "He sees it (saw, glimpsed, noticed, spotted, caught sight of), or no verb of perceiving is given and he simply reacts to a shadow."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is what he perceives the shadow itself, rather than the person who casts it, their footsteps, or some other sound or presence?",
+      "fail": "The shadow is replaced by someone, a person, a figure, footsteps, a sound, a movement or a presence."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "що мчали назустріч",
+    "where": "The end of the sentence, where the flood of human life comes rushing like wild horses out of the city's streets.",
+    "what": "The direction word describes movement coming face to face against someone headed the other way, but it leaves that someone unstated. Here it is the narrator. Since block 1 he cannot get out of people's way, and life comes at him the way a wave comes at the shore. Together with the shadow at his back in the first half, this hems him in: one person behind him, and the whole city's life coming straight at him from every street. A hurried reader can drop the target, so the flood merely rushes along, or can take the streams from all the streets to be running at one another.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the flood of human life come at the narrator himself, moving toward him?",
+      "fail": "Nothing makes him its target: the flood just rushes, rushes past him or along the streets, or the streams rush toward one another."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "ревучі",
+    "where": "The word that gives the sound of the flood of human life he listens to.",
+    "what": "The flood is named with an adjective from the same root as the verb in block 2, where humanity roars with pain, joy and anger and is likened to a beast. There, as here, the roar is followed at once by an animal comparison. A reader of the original hears that beast-roar of humanity again, now as the city noise he is made to listen to. It must stay a sound, since what he does with it is listen. Fluent English pulls toward a ready-made pairing for torrents that keeps their violence but drops the voice.",
+    "risk": "medium",
+    "recurs_in": [
+     2
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the flood described as roaring, with a roar or another loud animal cry such as bellowing or howling?",
+      "fail": "It is described only by force or motion (raging, rushing, surging, seething, turbulent, foaming), by a noise that is not an animal's (thundering, clattering, noisy, loud), or by no sound at all."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "device",
+    "source": "з огидою слухав ревучі потоки людського життя, що мчали назустріч, як дикі коні",
+    "where": "The stretch from his listening with disgust to the comparison with wild horses.",
+    "what": "From his listening with disgust through to the wild horses, the stresses fall on every third syllable almost without a break. The sentence scans like a line of triple-time verse, and the beats bunch together as it reaches the horses. The prose gallops with the flood it describes. The story's prose often falls into such measured cadences, and this is one of the clearest. A version in flat prose keeps the picture and loses the hoofbeat.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "In this stretch, does the English fall into a galloping triple beat: a run of at least four successive stresses, with exactly two unstressed syllables between each stress and the next?",
+      "fail": "There is no run of four such stresses; the stresses fall irregularly, as in ordinary prose."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "construction",
+    "source": "і з огидою слухав ревучі потоки людського життя, що мчали назустріч, як дикі коні, з усіх городських вулиць",
+    "where": "The second half of the sentence, from his listening with disgust to the flood of human life through to the city streets it pours from.",
+    "what": "Here the original puts the phrase of disgust before the verb. It then ends on a single clause that strings together an unstated direction, a comparison and a place of origin, one after another between commas. Followed closely, English gets three problems: a stiffly placed phrase of disgust, a train of comma-fenced add-ons, and a closing phrase about the streets that seems to say where the horses come from rather than the flood.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated: the phrase about his disgust sits before the verb in a stiff order, the modifiers trail one after another between commas, or the phrase about the streets dangles after the comparison so that it seems to say where the horses come from."
+     }
+    ]
+   }
+  ]
+ }
+}

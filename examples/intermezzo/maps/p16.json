@@ -1,0 +1,89 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4844,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 68316
+ },
+ "result": {
+  "reading": "Alone at night in his lamp-lit room amid ten dark ones, the narrator has just let the blackness fill with furniture coming alive and the faint traces of people who once lived there (15); here his sensible self cuts the reverie short and, turning to address himself, reminds him that he now has exactly the silence and the absence of people he longed for on the train (9) and registered on arrival (13–14). His other self answers with a silent head-shake, and the closing question, which doubts only the absence of people and not the silence, is answered at 17 by his admission that he cannot be sure and by the dead and the living who then stream in (17–18). The paragraph is the pivot between rational dismissal and the night's procession, and its key word for the people-free state is exactly what the next two blocks overturn.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "construction",
+    "source": "Ну, от! які дурниці.",
+    "where": "the very start of the paragraph, where the narrator abruptly breaks off his eerie imaginings with a short exclamation and dismisses them",
+    "what": "The previous paragraph is a slow, hushed reverie of presences in the dark rooms. Here he snaps out of it with an exasperated, everyday self-reproach, the reflex of a man catching himself at it again, and writes the whole vision off in a few words. The original does this with a pair of colloquial particles that carry tone and no content, and English cannot match them word for word. A close rendering gives a stiff string of fillers, or a bare pointing word that sounds as if he is indicating or spotting something, which is the opposite of waving the vision away.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer, as a natural way for a man to cut off his own daydream?",
+      "fail": "The opening exclamation reads stilted or foreign (an odd pairing of filler words, or a bare pointing word that makes it sound as if he is showing or seeing something), or the verdict on his fancies is worded stiffly, so the line sounds translated."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "Ти хотів тиші й безлюддя … Не віриш в безлюддя?",
+    "where": "where he says what he wanted and now has (the second of the two things, beside the silence), and again in the closing question about whether he believes in it",
+    "what": "The second thing he longed for is named by a plain everyday word built from 'without' and 'people', and people are what has exhausted him since the opening blocks. The same word family marks the unpeopled green spaces he hoped to escape into from the train (9). It also marks his first verdict on the dark house, where stillness and the absence of anyone stand side by side just as they do here (14). Now the goal is declared reached. The closing question doubts this item alone, not the silence, and blocks 17–18 answer it with people pouring back in one after another. If the item dissolves into general peace, calm or emptiness (the rooms are in fact full of furniture), the echo of 9 and 14 and the set-up for 17–18 are both lost.",
+    "risk": "medium",
+    "recurs_in": [
+     9,
+     14
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Where he names the two things he wanted and now has, does the second one say, in whatever wording, that no other people are there (being alone counts), the same people-free state as at blocks 9 and 14, as distinct from silence?",
+      "fail": "People are neither mentioned nor implied: the pair is merged into one notion of peace and quiet, or the second item names only calm, rest, stillness or empty space. Whether it sounds welcome or bleak is not judged here (see E3)."
+     },
+     {
+      "id": "E2b",
+      "ask": "Does the closing question doubt the second thing he wanted, or that no one else is there, rather than the silence?",
+      "fail": "The question doubts the silence, or both things together, or an unspecified 'it' or 'this', so it no longer singles out the absence of people that blocks 17–18 overturn."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "безлюддя",
+    "where": "the word for the second thing he wanted and now has, and its return in the closing question",
+    "what": "Out of context this word can also name a bleak, desolate waste, and dictionaries often give that sense first. Here it is the relief he has begged for since the opening: the comfort of being alone he asks for at block 4, and the unpeopled spaces he longs for at block 9. His sensible voice is reminding him that his wish has come true. If the word is made into misery or a wasteland, the wish turns upside down: he seems to have longed to be wretched, and the reassurance becomes a lament.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the people-free state presented as the welcome, or at least neutral, thing he wished for, rather than as misery?",
+      "fail": "At either occurrence it is named by a word of unhappy isolation or ruin (loneliness, desolation, forlornness, abandonment, a bleak waste), so it sounds like grief rather than the relief he wanted."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "Хитаєш головою! Не віриш в безлюддя?",
+    "where": "the last two sentences, where he catches himself shaking his head and asks whether he doubts that the place is really free of people",
+    "what": "His sensible voice notices the other self's silent head-shake and challenges it with a quick, half-mocking question. The original does this in two clipped utterances without a subject. It builds the question on one everyday abstract noun for the condition of having no people around, and makes that noun the object of belief, as though it were a creed or a ghost. English has no everyday noun for that condition. A close rendering therefore produces a heavy abstract phrase or a coined word as the thing believed in, or a stagey description of the gesture, and the brisk inner exchange reads as translated.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer, as a quick, natural inner challenge?",
+      "fail": "The gesture or the question sounds stiff or foreign: a stilted account of the head-shake, or a heavy abstract noun phrase or invented word as the thing he does not believe in, so the exchange reads as translated."
+     }
+    ]
+   }
+  ]
+ }
+}

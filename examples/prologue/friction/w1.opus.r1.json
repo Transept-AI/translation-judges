@@ -1,0 +1,97 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2004,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1582
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "The human plateau began to shift.",
+    "kind": "unclear",
+    "weight": 3
+   },
+   {
+    "quote": "The posts flew through the feeds like hotcakes",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred and fifty.",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "How do you succeed when you've got four of them?",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "But, first of all, moms on maternity leave made up forty-eight percent of her audience",
+    "kind": "register",
+    "weight": 1
+   },
+   {
+    "quote": "you can't answer like that to a follower who had most likely scraped together this fifty bucks",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "pre-rehearsed",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "someone asked, having donated the minimum five dollars.",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "Questions like that Freya now simply left unanswered.",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "But fame brings responsibility, and the questions veered sharply into Tinder group-date territory.",
+    "kind": "follow",
+    "weight": 3
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "And a woman, no less!",
+    "why": "sly ironic jab at the media hype"
+   },
+   {
+    "quote": "Three hundred and sixty. Three hundred and seventy.",
+    "why": "clipped count builds tension"
+   },
+   {
+    "quote": "then your children *are* your capital. The key is to stick to your investment strategy and not hand your capital over to unvetted funds.",
+    "why": "funny, true to a business coach"
+   },
+   {
+    "quote": "scraped together this fifty bucks out of the money she should have been giving her kids for lunch",
+    "why": "concrete, guilt-tinged detail"
+   },
+   {
+    "quote": "flushed all the cheap provocations down the toilet",
+    "why": "lively, irreverent image"
+   },
+   {
+    "quote": "Freya wanted to answer: *\"You don't.\"*",
+    "why": "blunt, revealing inner voice"
+   }
+  ]
+ }
+}

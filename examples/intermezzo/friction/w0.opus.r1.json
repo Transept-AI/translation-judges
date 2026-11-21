@@ -1,0 +1,92 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2085,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1306
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "what weighs is that every time it demands attention, that I am no longer master of it, it is master of me",
+    "kind": "structure",
+    "weight": 3
+   },
+   {
+    "quote": "what weighs",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "In fact you become the slave of this many-headed beast.",
+    "kind": "follow",
+    "weight": 1
+   },
+   {
+    "quote": "If only for a while I could free myself of it, forget, rest.",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "I cannot get out of a man's way.",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "While on mine, everywhere and always, I meet a human being.",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "you who through the windows of houses, thousands of black mouths, forever breathe out your stench",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "You want to suck me dry, all my blood, like a vampire.",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "your endless \"you have to's.\"",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "you roar with pain, with joy, with rage. Like a beast.",
+    "kind": "flat",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "like air through windows and doors, like the waters of tributaries into a river",
+    "why": "precise image of invaded selfhood"
+   },
+   {
+    "quote": "I confess I envy the planets: they have their orbits, and nothing stands in their path.",
+    "why": "fresh, wry, true to the weary voice"
+   },
+   {
+    "quote": "You flog the holy silence of the earth with the grinding of factories and the thunder of wheels",
+    "why": "violent, vivid verb"
+   },
+   {
+    "quote": "You toss into my heart, as into your own storeroom, your sufferings and your pains",
+    "why": "concrete, startling metaphor"
+   },
+   {
+    "quote": "your eyes, curious, greedy, crawl into me",
+    "why": "tactile and unsettling"
+   },
+   {
+    "quote": "I cannot be alone…",
+    "why": "plain refrain that builds pressure"
+   }
+  ]
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1159,
+  "cache_read_input_tokens": 563,
+  "output_tokens": 497
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Ач ти! Облиш!",
+    "why": "odd pairing, unclear tone"
+   },
+   {
+    "quote": "Ще не _зараз_.",
+    "why": "awkward emphasis, 'ще не' clumsy"
+   },
+   {
+    "quote": "то наче несла додому",
+    "why": "missing subject, stilted"
+   },
+   {
+    "quote": "чиркала сірником під чайником якось по-лихацьки",
+    "why": "slightly forced phrasing"
+   },
+   {
+    "quote": "Вона сиділа так довго.",
+    "why": "flat, calqued word order"
+   },
+   {
+    "quote": "розстебнула застібку на комірі",
+    "why": "tautological"
+   },
+   {
+    "quote": "поклала його всередину",
+    "why": "'його' ambiguous, refers to collar"
+   }
+  ],
+  "good": [
+   {
+    "quote": "сердитим шепотом мовив хлопець",
+    "why": "natural, vivid"
+   },
+   {
+    "quote": "Це була її недільна розкіш.",
+    "why": "concise, warm"
+   },
+   {
+    "quote": "Це мало величезне значення.",
+    "why": "captures gentle irony"
+   },
+   {
+    "quote": "щось, чого цілком могло б і не бути",
+    "why": "natural idiom"
+   },
+   {
+    "quote": "свою кімнату-шафу",
+    "why": "evocative, poignant"
+   },
+   {
+    "quote": "їй почулося, ніби щось плаче",
+    "why": "emotionally effective ending"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

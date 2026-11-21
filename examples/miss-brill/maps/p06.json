@@ -1,0 +1,102 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4490,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 58240
+ },
+ "result": {
+  "reading": "A one-line burst of the band's tune, printed as the humming syllables Miss Brill hears and then credited to the band like a line of dialogue, with a verb of blowing that recalls the puffing bandsmen of block 1. It stands between the still, painted-looking backdrop of block 5 and the parade of passers-by in block 7, as the music that starts the afternoon's performance, which block 8 will recognise as a stage. The band is a running character whose playing seems to answer the feelings of the scene as Miss Brill reads them (blocks 1, 7, 9); here its voice is still wordless, cheerful noise, whereas in block 7 the drum's beat turns into words of reproach. Nothing is explained: the reader is meant to hear the thump-and-twirl of a brass band, not to be told about it.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "device",
+    "source": "Tum-tum-tum tiddle-um! tiddle-um! tum tiddley-um tum ta!",
+    "where": "the band's tune written out as a run of sounds, which makes up nearly the whole paragraph",
+    "what": "The music is not described but heard. The page simply prints the tune in the stock syllables English uses to hum a brass band, the way Miss Brill half-hums along. Two kinds of sound take turns: blunt, heavy thumps of drum and bass against a quick, light, twirling figure from the higher instruments. They run on as a whole jaunty phrase, the merrier in-season music she noticed in block 1, which the passers-by of block 7 then move to. The cheer lives in the sound alone, with no comment. A summary in words, a two-syllable token or one monotonous beat leaves the reader told about a band instead of hearing one.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the band's music given as a run of imitated sounds that the reader can hear, rather than described in words or left out?",
+      "fail": "No imitated sounds remain, or they are replaced by words saying what kind of music it was (lively, a march, a merry tune and so on)."
+     },
+     {
+      "id": "E1b",
+      "ask": "Are the imitated sounds written in Ukrainian letters, so a Ukrainian reader can sound them out?",
+      "fail": "Any of the sounds is left in Latin letters, in the English spelling."
+     },
+     {
+      "id": "E1c",
+      "ask": "Do the sounds set a heavy, blunt beat against a lighter, quicker, twirling figure, so that two clearly different kinds of syllable take turns?",
+      "fail": "All the sounds are of one kind: only thumping beats, or only light trills and la-la sounds."
+     },
+     {
+      "id": "E1d",
+      "ask": "Does the imitation run to a whole phrase of the tune, three or more groups of sounds, rather than one or two short bursts?",
+      "fail": "Only one or two short groups of sounds are left, a token of the tune rather than the tune."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "blew",
+    "where": "the verb saying how the band produces the sounds, in the short statement that follows them",
+    "what": "The band does not merely play here: the verb is one of blowing. It brings back the comic picture from block 1 of the bandsmen in the green rotunda puffing out their cheeks and glaring at their music. The jolly noise therefore reads as breath forced through brass: physical, homely and a little absurd. A neutral verb of playing keeps the fact but loses both the picture and the callback.",
+    "risk": "high",
+    "recurs_in": [
+     1
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the verb that ties the sounds to the band convey blowing, breath pushed through wind or brass instruments, so that it recalls the players puffing out their cheeks in block 1?",
+      "fail": "The verb only says that the band played, struck up, sounded, thundered or the like, with no blowing or breath in it, or there is no such verb."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "the band",
+    "where": "whoever or whatever is named as producing the sounds",
+    "what": "The sounds are pinned on the band the way a line is pinned on a speaker, so the band stands in the scene as a character with a voice of its own. The story treats it this way throughout. In block 1 it plays carelessly out of season, like someone playing for the family alone. In block 7 it seems to know what the snubbed woman feels, plays tenderly while its drum beats out words, then turns gay again. In block 9 it takes a rest and starts up again. If the sounds ring out from nowhere, from a place, from impersonal music or from instruments alone, or if the players become a different kind of group, the band drops out of the scene as a player.",
+    "risk": "medium",
+    "recurs_in": [
+     1,
+     7,
+     9
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the band itself, the same body of players from the bandstand as elsewhere in the story, named as the one producing the sounds?",
+      "fail": "The sounds are credited to impersonal music, to a place such as the bandstand or the garden, to instruments alone, to nobody, or to a kind of group the bandstand band is not, such as a pop or rock group or a gang."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "Tum-tum-tum tiddle-um! tiddle-um! tum tiddley-um tum ta! blew the band.",
+    "where": "the whole one-line paragraph: the band's tune written out as sounds, plus the short statement that the band produced them",
+    "what": "In English the line is effortless. The syllables are the familiar English way of humming a brass band and are heard as music at once, and the short tag after them works like the tag after a line of dialogue. A close rendering stumbles on both halves. Humming syllables carried over letter by letter from English look to a Ukrainian reader like foreign words rather than sounds. A verb of blowing used the English way, with no object, can make the band sound as if it were the wind. The tag can also be stuck onto the exclamations in a way Ukrainian prose does not join a sound to its source.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "Any one of these: the sounds read as foreign words spelled out letter by letter rather than as the sound-imitation a Ukrainian writer would reach for; the verb or wording that ties the sounds to the band reads awkward, odd or unintentionally comic; the statement is joined to the sounds in a way that reads like a slip. Sounds left in Latin letters are judged under E1b, not here."
+     }
+    ]
+   }
+  ]
+ }
+}

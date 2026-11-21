@@ -1,0 +1,224 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5011,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 98674
+ },
+ "result": {
+  "reading": "Here Miss Brill's delight in watching hardens from a comparison into a conviction: the park is a stage, everyone is acting, she has a part, and her punctual routine and her reading to a sleeping invalid are recast as an actress's life. The paragraph builds on the set-like view of block 5 and the little dramas of block 7, and block 9 (the crowd as one singing company) and block 10 (the young lovers cast as the leads) build on its theatre frame in turn. The young couple's mockery in blocks 12–13 destroys its certainty that she belongs to the show and would be missed, and her view of the old man as a near-corpse she would not miss foreshadows how they see her. The closing claim to have long been an actress is both the peak of the fantasy and an unwitting confession, answered by the cupboard-like room and the crying fur of block 17.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "device",
+    "source": "It was like a play. It was exactly like a play. … They were all on the stage. … they were acting. … She was on the stage.",
+    "where": "where the scene is first likened to a play, and later where she concludes that they are all on the stage and acting, and that she herself is on the stage",
+    "what": "Her thinking slides from comparison into belief. First the scene resembles a play, then it resembles one perfectly. After the dog has passed, the comparison is gone altogether, and she states as flat fact that they are all on a stage, acting, and that she is on it too. This is the old commonplace that all the world is a stage, taken literally. Everything that follows runs on this belief (the singing company of block 9, the lovers cast as leads in block 10). The young couple's insults in blocks 12–13 then hit someone who sincerely believed she had a part. A protective hedge turns her delusion into a passing fancy.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the likening of the scene to a play step up, with a plain likeness first and then a stronger one (exact, complete), so that her thought is seen intensifying?",
+      "fail": "The likeness is stated only once, or its second statement is no stronger than the first."
+     },
+     {
+      "id": "E1b",
+      "ask": "Are the statements that they are all on the stage, that they are acting, and that she herself is on the stage made as plain fact, with no hedge of seeming or comparison?",
+      "fail": "Any of them is softened into an appearance or a comparison (as if, as though, like, seemed, as it were)."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "Who could believe the sky at the back wasn’t painted?",
+    "where": "the rhetorical question about whether the distant sky behind the whole scene is real or painted scenery",
+    "what": "She marvels that the distant sky looks so like a painted backcloth that one can hardly accept it is real. This is the sky beyond the trees and the strip of sea laid out like a stage set in block 5, the gold-dusted sky of block 0. The thought prepares her discovery that they are on a stage. The negative inside the rhetorical question is easy to flip at speed, and then she says the opposite: that nobody would take the sky for scenery.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the sentence say, in effect, that the sky looks painted, so like scenery that one can hardly believe it is real?",
+      "fail": "The sense is reversed (no one would believe the sky was painted; it is plainly real), or the negation is garbled so the sentence no longer says the sky looks painted."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "a little brown dog trotted on solemn and then slowly trotted off",
+    "where": "where a small dog crosses the scene just before her discovery",
+    "what": "The dog's two movements are a stage animal's entrance and exit. It makes a grave arrival and, after a while, an unhurried departure, as sluggish as a performing dog doped to keep it docile. That bit of stage business is what makes her see that everyone in the park is performing (the exits and entrances of the old saying). Read the everyday way, the first movement simply means the dog kept trotting along. Then there is no entrance, only a dog passing by, and the trigger of her discovery loses its theatrical shape.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Does the dog make two distinct movements, first coming on (appearing, entering the scene) and later going off (leaving), like an entrance and an exit?",
+      "fail": "The first movement is rendered as running past, by or along, or as continuing to trot, so there is no entrance, only a dog passing and then leaving."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "But it wasn’t till a little brown dog trotted on solemn and then slowly trotted off, like a little “theatre” dog, a little dog that had been drugged, that Miss Brill discovered what it was that made it so exciting.",
+    "where": "the sentence in which a small dog passes, likened to a doped performing dog, and Miss Brill then realises what makes the whole scene so exciting",
+    "what": "The English holds its news, her discovery, back behind a long not-until time clause. It packs two comparisons for the dog into the middle and ends on an emphatic, abstract clause about what it is that excites her. Followed shape for shape, it gives a long, stiff sentence whose main clause arrives late and whose comparisons hang loose. A skilled writer rebuilds it so that the dog's little show and her sudden insight follow one another naturally.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated. Signs include a stiff calqued 'not until … that' frame, the main clause about her discovery arriving only after a long sag, the dog comparisons dangling as loose appositions, a pile-up of subordinate clauses, or a vague 'it/this' as the thing that made the scene exciting."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "link",
+    "source": "They weren’t only the audience, not only looking on; they were acting.",
+    "where": "where she realises they are not just spectators but performers",
+    "what": "She has always been a watcher, listening without seeming to listen (block 2), with the crowd always there to look at (block 4). The discovery adds to that rather than replacing it: they are not merely onlookers but performers too, so she is at once watcher and watched. That doubleness turns on her when the young couple she is studying prove to be studying and mocking her (blocks 12–13). Dropping the restriction turns it into a simple swap of roles.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does the translation say they were not merely the audience or onlookers but were also acting, so that they remain spectators as well?",
+      "fail": "The restricting sense (only, merely, just) is lost, so the sentence denies they were spectators and says they were actors instead."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "link",
+    "source": "she made such a point of starting from home at just the same time each week",
+    "where": "where her habit of setting out from home at the same hour every week is explained",
+    "what": "Her punctuality is a point of honour. She takes pains to set out at exactly the same time each week, the rigid ritual of a solitary life. The new theory explains this zeal comically: an actress must not be late for the show. Flattened into a plain habit, the explanation has less to explain, and a telling sign of her loneliness disappears.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the translation convey that she made a deliberate effort to leave at the same time each week, not merely that she did leave at the same time?",
+      "fail": "Only a routine is stated (she always or usually left at the same time), with no sense of deliberate insistence."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "hinge",
+    "source": "the old invalid gentleman",
+    "where": "where she first thinks of the old gentleman she reads the newspaper to",
+    "what": "He is an invalid in the old sense: a sick, infirm old man, kept to his pillow in the garden and visibly failing. That is what lets her imagine him dead without her noticing. The Ukrainian look-alike of the word names a disability status rather than sickness and decline. It swaps the picture of a frail, ailing old man for a label and reads as translated.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is he presented as an ailing, infirm old man (sick, feeble, bedridden), rather than identified by the term for a disabled person?",
+      "fail": "He is labelled only with the look-alike term that denotes disability status, with nothing at this spot conveying illness or infirmity."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "hinge",
+    "source": "the hollowed eyes, the open mouth and the high pinched nose",
+    "where": "the description of the sleeping invalid's face on its pillow",
+    "what": "The features she has got used to are those of a dying man: eyes deep in their sockets, the mouth fallen open, the nose thinned and sharpened as illness draws a face. This deathlike portrait is what makes her next thought follow, that he could die without her noticing. The words for the eyes and for the nose each have a commoner sense (eyes that merely look empty; a nose squeezed by something). Either one turns the portrait of a near-corpse into something else.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Are his eyes sunken, deep in their sockets from age or illness, rather than empty, vacant or blank?",
+      "fail": "The eyes are described as empty, vacant, blank or expressionless, with nothing about being sunken."
+     },
+     {
+      "id": "E8b",
+      "ask": "Is his nose thin and sharpened, as illness draws a face, rather than squeezed, clamped or pressed?",
+      "fail": "The nose is pinched in the physical sense (squeezed, clamped, pressed), or only its height or size is given, with nothing about its being drawn thin or sharp."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "hinge",
+    "source": "If he’d been dead she mightn’t have noticed for weeks; she wouldn’t have minded.",
+    "where": "where she reflects that he could have died without her noticing",
+    "what": "The point is indifference: his death would not have troubled her or changed anything, and she would simply have gone on reading. This chilling detachment mirrors how the young couple will dismiss her as a worthless old creature nobody wants (block 12). It also sits against her confidence a few lines earlier that she herself would be missed. The idiom is very often a polite form of consent. Read that way, she would seem willing to have him die, which is a different and cruder cruelty.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Does the translation say that his death would not have troubled her or made any difference to her, rather than that she would not have objected to it?",
+      "fail": "The wording is one of consent or non-objection (she would not object, would have nothing against it, would not be against it), which reads as agreeing to his death."
+     }
+    ]
+   },
+   {
+    "id": "E10",
+    "type": "device",
+    "source": "The old head lifted; two points of light quivered in the old eyes.",
+    "where": "the moment the invalid reacts: his head lifting and a light appearing in his eyes",
+    "what": "Through her eyes the old man stays a set of parts. It is the head that rises and the eyes that kindle, as if a puppet were jerked into life. The life that returns is only two tiny, trembling glints, much as she restored the fur's dull glass eyes in block 0. The moment is touching and grotesque at once, and it keeps her habit of seeing him as an object. Normalised into the man raising his head and his eyes shining, it becomes an ordinary happy reaction.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E10a",
+      "ask": "Are the head and the eyes themselves what move and kindle, so that the man is seen as a set of parts, rather than the old man being the one who raises his head?",
+      "fail": "The old man himself is made the one who lifts his head (he raised his head), so a person acts instead of a head lifting."
+     },
+     {
+      "id": "E10b",
+      "ask": "Is the light in his eyes shown trembling or flickering, as a faint, unsteady glimmer?",
+      "fail": "The eyes shine, light up, sparkle, flash or blaze, or the light is not shown trembling or flickering."
+     }
+    ]
+   },
+   {
+    "id": "E11",
+    "type": "register",
+    "source": "An actress—are ye?",
+    "where": "the old man's astonished question asking her to confirm that she is an actress",
+    "what": "He speaks in old-fashioned, regional colloquial speech, the form of address of a homely old man, perhaps from the provinces. This gives the imagined scene a living voice and a touch of quaint comedy: an elderly admirer marvelling at his 'star'. In plain standard speech he becomes a generic voice, and the small comic warmth goes.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E11a",
+      "ask": "Does his question carry a marker of old-fashioned, folksy or regional speech, in how he addresses her or in his wording?",
+      "fail": "The question is neutral and standard, with nothing old-fashioned, folksy or regional in its address or wording."
+     }
+    ]
+   },
+   {
+    "id": "E12",
+    "type": "link",
+    "source": "Yes, I have been an actress for a long time.",
+    "where": "her gentle reply to the old man that closes the paragraph",
+    "what": "Her answer claims an acting life that began long ago and is still going on. Inside the fancy it is her Sunday role. Beneath it the reader hears an unwitting confession: she has long been playing a part, keeping up appearances over her loneliness, and the rest of the story exposes this (blocks 12–17). Moved into a completed past, the answer makes her a retired actress. The claim no longer describes her present, and the double edge is blunted.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E12a",
+      "ask": "Does her reply present her as an actress now, who has been one for a long time, rather than as someone who used to be one?",
+      "fail": "The reply is rendered in a past form implying her acting is over (she was an actress for a long time; she used to be one)."
+     }
+    ]
+   }
+  ]
+ }
+}

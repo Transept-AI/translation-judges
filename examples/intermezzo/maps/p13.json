@@ -1,0 +1,134 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4923,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 86360
+ },
+ "result": {
+  "reading": "This is the arrival at the country house and the story's turning point. After the din of the train (10–11) and the dizzying green chaos and drowning sky of the ride (12), the white walls bring the narrator round, and a cuckoo's call opens the silence he hoped for in block 9 and could not hear in block 10. The silence is drawn as a living presence that spreads from the yard to the trees to the sky, so complete that the one noise left is his own heart, and he is ashamed of it; blocks 14–18 turn this silence uncanny by night, and block 19 replays the cuckoo, the silence and the green yard the next morning.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "device",
+    "source": "Білі стіни будинку вертають мені притомність.",
+    "where": "right after the arrival, where the white walls of the house act on the narrator",
+    "what": "Block 12 ends with the narrator's eyes drowning in a sea of sky, looking for anything to hold on to, and helpless. The white walls are that hold, though the text does not say so. The noun for what they give back names the state opposite to a faint: he surfaces as if pulled from water, which is more than feeling better. If the walls only soothe or please him, the near-swoon vanishes and the sentence no longer answers block 12.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Do the walls bring him back from a daze, so that he comes to and recovers his senses or awareness, rather than merely improving his mood?",
+      "fail": "The walls only calm, soothe, steady, comfort, cheer, rest or please him, or restore his composure or peace; nothing says he comes back to himself."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "на широкий зелений двір",
+    "where": "the open place in front of the house that the carriage rolls into, just as the cuckoo calls",
+    "what": "The arrival is staged in the house's green yard: the carriage rolls into it, the cuckoo calls, and the silence then fills all of it. Block 19 replays the moment. Next morning the cuckoo calls again and the narrator suddenly sees the green yard so vividly that it has swallowed his room; in block 20 he runs out into the yard to the chained dogs. The original names the same place each time, so the morning reads as a return of the arrival. If the place becomes something else here, the replay has nothing to hook onto.",
+    "risk": "medium",
+    "recurs_in": [
+     19,
+     20
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the place the carriage rolls into named as the yard or courtyard of the house?",
+      "fail": "It becomes a lawn, meadow, garden, park, field, drive, the grounds or the estate, or is not named at all."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "Тоді я раптом почув велику тишу.",
+    "where": "right after the cuckoo's call, where the narrator suddenly perceives the silence",
+    "what": "Silence is the story's keyword. It appears as the earth's holy silence that the human crowd lashes with its noise (2), the silence he hopes will surround him and fill him (9), the silence he could not hear on the journey because strangers' voices drowned it (10), the quiet of the empty house at night (14, 16), and the silence the cuckoo sows next morning (19). Here it arrives at last, through the ear. The verb is the one the narrator also uses for perceiving soundless things: a shadow behind him (8), other lives entering his (1), furniture in the dark (15). Here, though, a bird's call comes just before it and his heart's noise just after, and it exactly reverses block 10. If the silence becomes a mood, or is merely sensed or noticed, it no longer answers block 10.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     9,
+     10,
+     14,
+     16,
+     19
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is what he perceives named as an absence of sound (silence, quiet, stillness or hush) rather than as a mood?",
+      "fail": "It becomes peace, calm, tranquillity, serenity, repose or rest."
+     },
+     {
+      "id": "E3b",
+      "ask": "Does he perceive the silence by hearing it?",
+      "fail": "He feels, senses, notices, becomes aware of or is struck by it, or the silence simply falls, descends or reigns without his hearing it."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "Вона виповняла ввесь двір, таїлась в деревах",
+    "where": "right after the silence is heard, where the paragraph says what fills the yard, hides in the trees and lies over the blue expanses",
+    "what": "The sentence opens with a bare feminine pronoun, and both nouns just before it are feminine: the cuckoo and the silence. The pronoun means the silence: it is the nearer noun, and the next sentence goes on to how quiet it was. But hiding in trees is exactly what a cuckoo does, heard and never seen, so a fast reading sends the bird's voice across the yard and the bird into the trees. That swaps the paragraph's real image, silence itself become a presence occupying the place, for a picture of a bird.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is it clearly the silence, not the cuckoo or its call, that fills the yard, hides in the trees and lies over the blue expanses?",
+      "fail": "The subject is the cuckoo or its call, or a pronoun an English reader would take for the bird (such as a 'she' just after the cuckoo), or the subject cannot be identified as the silence."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "device",
+    "source": "виповняла ввесь двір, таїлась в деревах, залягла по глибоких блакитних просторах",
+    "where": "where the silence, just heard, is described in the yard, in the trees and over the deep blue expanses",
+    "what": "The silence is given three different acts in three widening places: the yard, then the trees, then the deep blue reaches of the sky. The first act fills. The second comes from the root of secrecy and means concealment: the silence keeps itself hidden among the trees. The third is the verb used for an animal going to ground, or for snow and mist that have settled and stay. These last two make the silence alive and watchful, not a mere absence of noise. The night will turn that presence uncanny, when the quiet empty rooms seem to harbour something (14–15). Reduced to plain filling, spreading or being, the silence goes flat.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "In the trees, is the silence hiding, concealed there, rather than simply present?",
+      "fail": "It is merely in, among, resting, lingering, nestling, dwelling or living in the trees, with no sense of concealment."
+     },
+     {
+      "id": "E5b",
+      "ask": "Over the deep blue expanses, does the silence lie or settle there, at rest?",
+      "fail": "It only moves or extends over them (spreads, stretches, reaches, floats, hovers, hangs) or simply is there, with no lying or settling."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "device",
+    "source": "Так було тихо, що мені соромно стало калатання власного серця.",
+    "where": "at the end of the paragraph, where the quiet is so deep that the narrator is ashamed of his own heart",
+    "what": "The paragraph closes on a self-mocking hyperbole. The noun for the heart's sound belongs to loud knocking and clanging, like a bell's clapper, a rattle or a fist on a gate. So in the hush his heart makes a noise loud enough to disturb it, and he is embarrassed the way one is by a noise one makes in a hushed room. The heart is also stressed as his own. In block 9 he hoped for silence around him and inside him, and in block 10 other people's voices drowned it; now the silence is all around him, and the one noise left is his, coming from inside. A plain heartbeat leaves the shame unmotivated, and without the stress on his own heart the turn from others' noise to his is lost.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the heart's sound a loud, knocking or hammering noise rather than a plain heartbeat?",
+      "fail": "The heart only beats, throbs or races (its beating, beat, pulse, throb), with nothing that makes the sound loud."
+     },
+     {
+      "id": "E6b",
+      "ask": "Is the heart stressed as his own, beyond a plain possessive?",
+      "fail": "Only a plain possessive, with nothing stressing that the heart is his own."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1160,
+  "cache_read_input_tokens": 563,
+  "output_tokens": 667
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Це був її недільний ласощ.",
+    "why": "ласощі has no singular; sounds wrong"
+   },
+   {
+    "quote": "Це мало велике значення.",
+    "why": "flat, bureaucratic tone"
+   },
+   {
+    "quote": "Вона сиділа так довго.",
+    "why": "ambiguous, awkward rhythm"
+   },
+   {
+    "quote": "Та ну тебе!",
+    "why": "colloquial; a slightly odd fit"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Мигдальними неділями",
+    "why": "fresh, compact image"
+   },
+   {
+    "quote": "чиркала сірником під чайником якось аж завзято",
+    "why": "lively, natural, conveys joy"
+   },
+   {
+    "quote": "своєї кімнатки, схожої на шафу",
+    "why": "vivid, poignant"
+   },
+   {
+    "quote": "вона наче несла додому крихітний подарунок",
+    "why": "tender and natural"
+   },
+   {
+    "quote": "їй здалося, що вона чує, як щось плаче",
+    "why": "haunting, emotionally effective ending"
+   },
+   {
+    "quote": "щось, чого цілком могло й не бути",
+    "why": "natural idiom"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

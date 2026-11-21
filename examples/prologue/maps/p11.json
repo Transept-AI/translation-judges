@@ -1,0 +1,117 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3758,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 76066
+ },
+ "result": {
+  "reading": "Freya's private reaction to the paid question of block 10: she is tempted to say flatly that success with four children is impossible, but holds back for two reasons (mothers on leave are nearly half her audience, and the asker probably paid with her kids' lunch money) and reaches for a canned answer. It sets up the rehearsed quip of block 12, children as capital not to be sunk into unproven funds, and block 15, where that answer is called a joke and goes viral. Both of its details return in block 22: the same mothers on leave lead the defence of her stream, and the trolls lose because their mothers give them only five dollars for school lunch. The narration is ironic free indirect thought, in which Freya's tact is audience arithmetic plus condescending pity.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "мами в декреті",
+    "where": "Freya's first reason for holding back: the share of her audience made up by mothers at home on leave with small children",
+    "what": "Freya sorts her followers into market segments, and this is the largest one: women temporarily off work after giving birth and at home with babies, the stock audience of online success coaches. The same group returns under the same name at block 22. There it is part of the core of her audience that rushes to defend her, listed separately from housewives. The irony is that the very women she privately thinks cannot succeed are the ones who save her record. The colloquial Ukrainian word for this leave is a false friend of an English legal term.",
+    "risk": "medium",
+    "recurs_in": [
+     22
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the group named as mothers on maternity (or parental) leave, the specific segment that rallies to her at block 22?",
+      "fail": "The leave is missing (mothers in general, young or new mothers); or the group becomes housewives, homemakers or stay-at-home mothers, which merges it with the separate housewives of block 22; or the phrase is read as something about a decree or official order."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "тож питання було наболілим",
+    "where": "right after the percentage of such mothers in her audience, where the narration says what that means for this particular question",
+    "what": "Because nearly half her audience are such mothers, the question touches something that has hurt them for a long time. Getting anywhere with small children at home is a grievance they live with, so a flippant reply would wound a large share of her viewers. The idiom names a long-felt pain of theirs, not of Freya's, and it is stronger than the question merely being relevant or frequent.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the question presented as an issue that hurts those mothers or that they feel urgently, rather than merely a relevant or common one?",
+      "fail": "It is only called relevant, common, topical, popular or important, with no sense that it hurts or presses on them; or the pain is made Freya's own."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "link",
+    "source": "найпевніше",
+    "where": "in the second reason, where the narration supposes how the follower came up with the money for her question",
+    "what": "The picture of a mother raiding her children's lunch money is Freya's assumption, not something the narrator vouches for. Freya takes for granted that a mother of four who pays to ask a question must be poor and careless, a pity that is really condescension. Without the hedge the story turns into fact, and the satire shifts from Freya's view of her fans onto the follower herself.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the claim that the follower took the money from her children marked as Freya's supposition, a likelihood rather than a fact?",
+      "fail": "No hedge sits on it: the translation states outright that she took the money from her children, or it hedges something else instead."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "register",
+    "source": "ці п'ятдесят баксів",
+    "where": "the sum the follower paid to ask her question",
+    "what": "In Freya's inner voice the sum is named in colloquial slang for dollars. The tone is offhand and slightly dismissive: small change to her, a real sacrifice for the follower. The narration usually names donations with the plain currency word. The slang returns at block 22 for the men's monthly payments, again where the fans' spending is being mocked.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the sum named in colloquial money slang rather than in neutral currency terms?",
+      "fail": "The amount appears with the neutral currency word or as a figure with a currency sign, so the offhand tone is gone."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "motif",
+    "source": "із грошей, що мала б дати дітям на обіди",
+    "where": "where the narration names the money the follower's donation probably came out of",
+    "what": "The donation is imagined as coming out of the children's lunch money: the cash a mother is meant to hand her kids for their midday meals, diverted to Freya instead. Block 22 answers it. The trolls are routed because their mothers give them no more than five dollars for school lunch, which is the minimum donation of block 13. So mothers spend their kids' lunch money on Freya, while the troll schoolkids can only spend their own. The same household detail sits on both sides of the fight. It also gives an edge to block 12's advice about not handing one's capital to unproven funds.",
+    "risk": "medium",
+    "recurs_in": [
+     22
+    ],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the money identified as what she should have handed her children for their lunches (midday or school meals), recognisably the lunch money that the trolls' mothers give them at block 22?",
+      "fail": "It becomes general money (household budget, groceries, bills, feeding the family, meals in general) or money for the family's evening meal, so the lunch money of block 22 is not recognisable."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "construction",
+    "source": "А по-друге, не можна так відповідати підписниці, яка, найпевніше, наскребла ці п'ятдесят баксів із грошей, що мала б дати дітям на обіди.",
+    "where": "the sentence giving Freya's second reason, about the follower who probably paid with her children's lunch money",
+    "what": "The original states this reason as a subjectless rule of conduct aimed at a person. It then hangs two relative clauses off that person: the first has a hedge wedged into its middle, the second names what the money was meant for. English has no subjectless rule of this shape, and a hedged clause with a second clause nested inside it reads heavily. A close rendering therefore sounds stiff exactly where the narration should sound like Freya's quick, sardonic aside.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated. Examples: an impersonal 'it' frame with a word of possibility or permission instead of a natural subject; the person being answered attached with a preposition after the verb of answering; a who-clause cut off from the person it describes; or a chain of relative clauses with the hedge boxed in commas that a skilled writer would have recast."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1831,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 551
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "the discharge sheets for the elective courses",
+    "why": "odd, calqued term"
+   },
+   {
+    "quote": "assigned to Agnes to torment Theodor, much to Anna's displeasure",
+    "why": "tangled, confusing clause"
+   },
+   {
+    "quote": "dispose of her capital and privileges differently",
+    "why": "stiff, bureaucratic"
+   },
+   {
+    "quote": "He, Theodor, had no plan.",
+    "why": "awkward appositive"
+   },
+   {
+    "quote": "Agnes smiled.",
+    "why": "smiled as speech tag"
+   },
+   {
+    "quote": "In the office, however, there was nothing to absorb the scent",
+    "why": "contradicts 'no smell'; illogical"
+   },
+   {
+    "quote": "a rapier of mushistal",
+    "why": "opaque untranslated term"
+   },
+   {
+    "quote": "In truth, however, she gave it her all.",
+    "why": "unclear, flat idiom"
+   },
+   {
+    "quote": "the magess",
+    "why": "clunky coinage"
+   }
+  ],
+  "good": [
+   {
+    "quote": "tossed by the tutor into the trash bin with a flick of her gold nails",
+    "why": "vivid, characterful gesture"
+   },
+   {
+    "quote": "the smoke curled into strange spirals, drifting out of the office into the morning sky",
+    "why": "atmospheric image"
+   },
+   {
+    "quote": "No books, no instruments, no marvels, none of the other professorial paraphernalia",
+    "why": "nice rhythmic list"
+   },
+   {
+    "quote": "Don't tell me you actually considered doing something not for yourself",
+    "why": "wry, in-character"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 2,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1863,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 578
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Some green chaos whirled around me",
+    "why": "'Some' feels vague, translated"
+   },
+   {
+    "quote": "And were helpless.",
+    "why": "awkward fragment"
+   },
+   {
+    "quote": "At last we are home.",
+    "why": "abrupt tense shift"
+   },
+   {
+    "quote": "the black darkness",
+    "why": "redundant, repeated"
+   },
+   {
+    "quote": "Quiet and deserted, and yet I hear something there, beyond my wall.",
+    "why": "slightly clunky"
+   },
+   {
+    "quote": "And yet there, behind my wall, something is there.",
+    "why": "doubled 'there' awkward"
+   },
+   {
+    "quote": "into \"nothing.\"",
+    "why": "quotes feel stiff"
+   }
+  ],
+  "good": [
+   {
+    "quote": "my eyes drowned in it as in the sea and looked for something to hold on to",
+    "why": "vivid image"
+   },
+   {
+    "quote": "It was so quiet that I grew ashamed of the pounding of my own heart.",
+    "why": "memorable, emotional"
+   },
+   {
+    "quote": "Ten black rooms, filled to the brim with darkness. They lay siege to my room.",
+    "why": "strong, ominous"
+   },
+   {
+    "quote": "as though afraid the lamplight might all leak out through the cracks",
+    "why": "fresh image"
+   },
+   {
+    "quote": "everything would suddenly leap into its place",
+    "why": "lively verb"
+   },
+   {
+    "quote": "all those who left their faces in the mirrors, their voices in the cracks and corners",
+    "why": "haunting rhythm"
+   },
+   {
+    "quote": "It filled the whole yard, hid in the trees, lay over the deep blue distances.",
+    "why": "lyrical"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

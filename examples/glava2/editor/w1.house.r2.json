@@ -1,0 +1,29 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 565,
+  "cache_read_input_tokens": 1331,
+  "output_tokens": 1067
+ },
+ "result": {
+  "edited": "Because Agness infuriated Anna to no end. Especially when Theodore's reports and elective evaluation sheets—assigned by Agness specifically to torment Theodore, much to Anna's dismay—were swept into the trash bin by the curatress with a single flick of her gold nails.\n\nYet Anna didn't even realize she had no greater ally in Seraph than Agness. Because right now, in Agness's office, she and Theodore were discussing Anna's future.\n\n\"I advised Anna not to aim for the Chair of Medicine, but to put her capital and privileges to use differently. To do good, if she's so keen on making the Plans a better place,\" he said. \"But at least Anna has her plan.\"\n\nHe, Theodore, had no Plan. Nor any place in the Plans.\n\n\"I don't know what suits me,\" he said plainly. \"I don't want to do good. And I want to prop up Seraph's economy even less.\"\n\n\"Don't tell me you actually considered doing something not for yourself.\" Agness smiled. \"Anna can certainly afford to do whatever she likes. It won't change her fate either way.\"\n\nThe magess perched on the windowsill of her office, twirling a long mahogany pointer as she smoked out the window. She held the cigarette with telekinesis, the smoke curling into whimsical spirals that drifted out of the office and into the morning sky without leaving a trace of scent behind. Not that there was anything in the room to absorb the smell of her favorite cherry tobacco anyway. There were no books, no instruments, no curiosities, nor any other professorial paraphernalia—just a desk, two armchairs, and a wisp-steel rapier resting on a stand.\n\nAgness claimed this was her way of unwinding during their one-on-ones, insisting Theodore required the least curating of all her students. In truth, she was giving it her absolute all.",
+  "changes": [
+   {
+    "before": "And propping up Seraph's economy even less so.",
+    "after": "And I want to prop up Seraph's economy even less.",
+    "kind": "error",
+    "category": "grammar"
+   },
+   {
+    "before": "not for yourself,\" Agness smiled.",
+    "after": "not for yourself.\" Agness smiled.",
+    "kind": "error",
+    "category": "punctuation"
+   }
+  ]
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3702,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 53540
+ },
+ "result": {
+  "reading": "This is Freya's polite, pre-rehearsed reply (block 11) to a mother of four who asked how anyone succeeds with children (block 10). Instead of her honest view that it cannot be done, she offers a platitude about success being personal, recasts the children as a financial asset, and ends on advice that reads both as money management and as a warning about whom to leave one's children with. Block 15 calls this answer her joke and has the clip go viral, so the paragraph must land as a quotable quip, not sincere counselling. Its relativism about success is undercut in block 23, where Freya privately ranks her own idea of success as the real one, and its habit of pricing private life in business terms returns in her business-versus-husband quip in block 18.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "double",
+    "source": "не віддавати капітал у неперевірені фонди",
+    "where": "the very end of her answer: the warning about where not to put the asset she has just equated with the children",
+    "what": "The warning works on two levels at once. Literally it is routine investment advice, the kind a business coach gives by reflex. But the asset in it is the one she has just said the children are, and the verb is the everyday one for placing a child in a kindergarten, school or club. So the line also reads as a warning against leaving one's children with carers or institutions nobody has checked, which is pointed for an audience that is nearly half mothers on maternity leave (block 11). The two readings sharing one line are what block 15 calls her joke, the clip that goes viral. After block 11 there is also an unspoken irony: the asker has just paid her children's lunch money into Freya's own stream, a fund nobody has vetted.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the closing advice read, on its face, as investment advice: following an investing strategy and not placing the asset with untested investment vehicles?",
+      "fail": "The advice has left the field of investing. What is to be avoided becomes people, hands, places or charities, or the strategy is no longer an investing one."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is the thing that must not be handed over referred to by the same term the children were equated with in the sentence before, or by a pronoun pointing back to that term or to the children?",
+      "fail": "It is switched to a different word (for instance a plain word for money or savings) or left out, so nothing ties the warning back to the children."
+     },
+     {
+      "id": "E1c",
+      "ask": "Is the action warned against one a reader could also apply to children, as when parents leave a child in someone's care or enrol a child somewhere, rather than one that only applies to money?",
+      "fail": "A verb that only makes sense for money, such as investing, depositing or allocating, so the child reading has nothing to attach to."
+     },
+     {
+      "id": "E1d",
+      "ask": "Is the child reading left implicit, with nothing added in or right after the sentence that names children, carers or institutions?",
+      "fail": "The translation spells out the parenting meaning through an aside, a gloss or an extra clause about kids, carers or institutions."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "register",
+    "source": "ваш капітал",
+    "where": "where she tells parents who always wanted children what those children are",
+    "what": "Freya names the children with a term of art from finance and investing, where the familiar cliché about children would reach for a warm word for something precious. Setting that cold balance-sheet word against parenthood is what turns consolation into a business coach's quip. It is also the term her next sentence extends into investment advice. Pricing private life in business terms is her signature (compare the business-versus-husband quip in block 18).",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is what the children are declared to be a term of art from finance or investing (a word for invested or owned assets), rather than an everyday or sentimental word for riches or for something precious?",
+      "fail": "An everyday or sentimental word, such as treasure, riches, wealth, fortune, blessing or gift, which turns the line into a greeting-card compliment."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "link",
+    "source": "*і є*",
+    "where": "the same statement about what the children are, at the point where it is stressed",
+    "what": "The emphatic particle, stressed again by italics, makes the sentence a reversal of the question. The mother of four asked how to succeed in spite of her children (block 10), and Freya insists that the children themselves are the asset, the very thing taken for the obstacle. This is the pivot of the answer. Said flatly, it shrinks into a mild compliment and the coach's flip of the asker's premise disappears.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the statement that the children are this asset given insistent, contrastive emphasis, whether by italics, other stress marking or wording that insists on the children themselves, rather than made as a plain equation?",
+      "fail": "A plain, unstressed statement with no emphasis of any kind."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "Головне дотримуватися інвестиційної стратегії й не віддавати капітал у неперевірені фонди.",
+    "where": "the last sentence of her answer: the advice about keeping to a strategy and about where not to put the asset",
+    "what": "This is the line the viral clip in block 15 is cut from, so it has to sound like something a polished coach says live, in one breath. The original opens with a nominalised adjective standing in for subject and verb, follows it with two bare infinitives, gives no possessives, and uses a verb-and-preposition pairing that is not idiomatic when copied over. Rendered closely, it becomes a stiff, memo-like string of infinitives with missing articles or possessives and an awkward verb with the funds.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At the closing advice about keeping to a strategy and where not to put the asset, does the sentence read as written by a skilled native writer, as something a coach would say aloud on a live stream?",
+      "fail": "It reads as a word-for-word rendering: stilted formal verbs, nouns missing the articles or possessives English needs, an unidiomatic verb-and-preposition pairing with the funds, or an odd collocation for the funds themselves."
+     }
+    ]
+   }
+  ]
+ }
+}

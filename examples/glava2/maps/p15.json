@@ -1,0 +1,90 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3207,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 68635
+ },
+ "result": {
+  "reading": "This paragraph opens the narrator's aside answering block 14, which says Theodore can no longer afford to leave the Academy: a mage's education is ruinously expensive, so getting in is not enough and applicants also compete for the crown's funding award, which the paragraph ends by renaming as a gold card named after an Academy title. Block 16 begins as a clause hanging on that card, and blocks 16–18 unpack it into a trap: a limit that grows with each circle, a debt that grows forever but costs no interest while one stays, and debts beyond repaying for anyone who leaves after the fourth circle. The paragraph therefore presents as a glittering prize what blocks 16–17 reveal to be a debt for life. Its coin name echoes Agnes's nails made of melted coins (block 2), and the title in the card's name returns for the accredited scholars kept by Seraph (block 18).",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "Сотні етонів.",
+    "where": "the short statement right after the remark on cost, giving the price of a mage's education in the world's coin",
+    "what": "The price is given in the book's invented coin. The reader has met this rare coined word once before: in block 2, Agnes's gold nails are made of these same coins, melted down. Meeting it again, the reader of the original sets an education that thousands fight to pay for against a curator who wears the currency on her fingertips. With no glossary, a coined name easily comes out spelled differently from one place to the next, gets swapped for generic money, or is misread as some other word, and the echo is lost.",
+    "risk": "medium",
+    "recurs_in": [
+     2
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the price given in the same coined currency name, spelled the same way (number aside), that the translation uses in block 2 for the coins melted down for Agnes's nails?",
+      "fail": "The price is in generic money (coins, gold, money), in a different coined name, or in a spelling different from block 2's; or block 2 does not use a coined name at all."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "І тому … не лише за місце в Академії — а й за Королівський Грант",
+    "where": "the sentence about thousands competing at the entrance exams for admission and for the royal funding award",
+    "what": "Two small forms carry the logic here. The opening one marks consequence: the exams turn into a fight over money precisely because the education costs so much. The two-part correlative then makes the grant a stake on top of admission, and its second half is set off for stress. A place alone is not enough; the funding is what really decides a future. This is the first link in the chain that explains why Theodore cannot afford to leave (block 14), a chain that blocks 16–18 complete.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the competition for the grant presented as following from the high cost, with some word or structure expressing that the cost is the reason?",
+      "fail": "The cost and the competition are simply set side by side or joined by a bare 'and', with nothing expressing consequence."
+     },
+     {
+      "id": "E2b",
+      "ask": "Is the grant presented as a stake on top of admission, so that winning a place alone is shown not to be enough?",
+      "fail": "Admission and the grant are merely listed together (a plain 'and', a 'both … and' pairing), set as alternatives, or admission is dropped so the grant is the only stake."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "за Королівський Грант. Золоту Картку Академіка.",
+    "where": "the paragraph's closing words, where the royal funding award is followed by the name of a gold card",
+    "what": "The closing fragment has no verb. Its case ties it back to what the applicants compete for in the previous sentence, so it renames the grant rather than adding a prize: grant and card are one thing, the card being its shinier name and the form it takes. Block 16 opens with a clause hanging directly on this card to say what it paid for, and blocks 16–17 build the whole debt scheme on it. Tacking the card on as a further reward gives the reader two prizes and blurs the scheme that follows.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the gold card presented as the royal grant itself (a renaming of it, or the form the grant takes) rather than as a separate prize?",
+      "fail": "The card appears as a second reward next to the grant (joined by 'and', 'as well as', 'plus', 'along with') or as something the grant merely comes with, leads to, or is exchanged for."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "Академіка",
+    "where": "inside the gold card's name: the title of the person it is named after",
+    "what": "The card is named after a person's title, not after the institution. The title is that of a member of the Academy, a word that in Ukrainian means a lofty academic rank rather than just any scholar. Block 18 gives the same capitalised title to the accredited elite whom Seraph keeps so they can pursue the secrets of the Planes, poetry and metaphysics. The card's name thus promises its holder that very status, and blocks 16–17 tie that status to a debt that never stops growing. The dictionary equivalent and the everyday English word for a scholar differ, so the title easily comes out as one word here and another in block 18, or the card gets named after the Academy itself, and the thread is cut.",
+    "risk": "medium",
+    "recurs_in": [
+     18
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Does the card's name contain the same title word that the translation uses in block 18 for the accredited scholars kept by Seraph (a change of number, a possessive ending, or use as a modifier aside)?",
+      "fail": "The card is named after the institution only, or after students or applicants, or its title word differs from block 18's word for those scholars."
+     }
+    ]
+   }
+  ]
+ }
+}

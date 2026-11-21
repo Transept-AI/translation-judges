@@ -1,0 +1,83 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4474,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 44172
+ },
+ "result": {
+  "reading": "This is the first thing Miss Brill overhears from the young couple she has just cast as the romantic leads of her Sunday play (block 10). The girl puts off some unnamed advance of the boy's and gives only the moment and the place as her grounds. The story turns on this line: in block 12 the boy demands her reason and supplies it himself, the old woman at the end of the bench, taking up her objection to the place and opening the insults of blocks 12–14 that wreck Miss Brill's theatre. In block 15 the girl closes the exchange by repeating her refusal of the place and deferring again, which confirms she was putting him off rather than refusing him and leads to Miss Brill's silent walk home in blocks 16–17.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "device",
+    "source": "“No, not now,” said the girl. “Not here, I can’t.”",
+    "where": "the girl's whole line, the first words Miss Brill overhears from the newly arrived young couple",
+    "what": "Miss Brill has just cast the pair as the romantic leads of her Sunday play and settled down to listen. What she and the reader catch is a scrap from the middle of a conversation: a refusal of something we never hear asked, for a reason the girl keeps to herself. The boy has to demand the reason and supplies it himself in the next block: it is Miss Brill. Even his coaxing in block 14 leaves open what he wants. The irony needs both gaps kept open, so that the line first passes for a moment in the lovers' scene and only the boy's answer shows who is in the way.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is what the boy wants left unnamed, with no kiss, embrace, declaration or other particular act given as the thing she refuses?",
+      "fail": "The line names, or plainly states, what she is refusing."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is her refusal free of any added feeling or motive of her own, such as shame, embarrassment, shyness, fear or discomfort? Onlookers named instead of the place are judged under E2a, not here.",
+      "fail": "A feeling or motive of hers is added, so the boy's demand for her reason in block 12 is already answered."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "Not here",
+    "where": "the girl's second refusal, the one that objects to the place where they are sitting",
+    "what": "The girl objects to the place itself: this bench, which Miss Brill regards as her own seat at the play. In the very next line the boy takes up that objection and turns it on Miss Brill, asking what business the old woman has being there and why she cannot stay at home. At the end of the exchange (block 15) the girl repeats her refusal of the place before deferring once more. A reader of the original hears the girl say it twice, with the insults framed in between, and hears the spot Miss Brill loves become the spot she spoils by sitting in it.",
+    "risk": "medium",
+    "recurs_in": [
+     12,
+     15
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the girl object to the place itself, the place the boy in block 12 resents the old woman for coming to, so that his complaint plainly picks up her objection?",
+      "fail": "She objects to something other than the place (a person or people watching, being seen in public, the situation, the manner), so the boy's complaint no longer picks up what she said."
+     },
+     {
+      "id": "E2b",
+      "ask": "Is her refusal of the place here recognisably the same as the refusal of the place she opens block 15 with, so a reader hears her say it a second time?",
+      "fail": "The two refusals of the place are worded so differently that a reader would not notice she is repeating herself."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "link",
+    "source": "not now … I can’t",
+    "where": "where the girl restricts her refusal to the present moment and says she is unable",
+    "what": "The girl is not turning the boy down. She is putting him off: she ties her refusal to this moment and this place and presents it as something she is unable to do, not something she does not want. That is why the boy's irritation goes straight to whatever is stopping her, the old woman at the end of the bench, and why the exchange closes in block 15 with her deferring again, now with a hint of later. Read as a flat refusal, the scene becomes a lovers' quarrel instead of two people who want the same thing, with Miss Brill sitting in their way.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the refusal limited to the present moment, so that it reads as putting him off rather than as a final no?",
+      "fail": "Nothing in the line limits the refusal to the present moment; it reads as a plain or permanent refusal, or as a bare demand to stop."
+     },
+     {
+      "id": "E3b",
+      "ask": "Does she present it as something she cannot do in these circumstances, rather than something she does not want to do?",
+      "fail": "It is rendered as unwillingness, or as a rebuff aimed at the boy himself."
+     }
+    ]
+   }
+  ]
+ }
+}

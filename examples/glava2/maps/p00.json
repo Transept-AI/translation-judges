@@ -1,0 +1,188 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 562,
+  "cache_read_input_tokens": 4662,
+  "output_tokens": 71135
+ },
+ "result": {
+  "reading": "The chapter opens with Agnes, Theodore's curator, receiving him in her office before classes, and this paragraph is a slow, deadpan inventory of her outfit and body. Its high, strict collar is the one nod to the Academy's dress code that block 2 names (high collars, robes) before saying that her look defies every principle of the Academy; block 2 also adds a miniskirt to the outfit and has her robe hanging on a hook. Its last line, that she loved both laughing and smoking, is the setup that block 1 caps by repeating the phrase: she was doing both right then. The title that names her as a mage, used here in place of her name, returns at 4 and 11.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "Агнес зустріла Теодора",
+    "where": "the opening clause, where Agnes and Theodore meet in her office before classes",
+    "what": "Agnes's name does not decline, so only the other name's ending shows who does what to whom. That ending is the object form of the male protagonist's name. It is also identical to the plain form of a woman's name, which a fast reader or a machine can seize on, and with that reading even the roles could flip. Agnes is the host in her own office. The visitor is the young man referred to with male pronouns at 7 and 9 and named in full at 13. The frank inventory of her body that follows is staged for a young man's visit to his curator.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the person Agnes receives in her office a man, Theodore, in any spelling of the male name?",
+      "fail": "The visitor is a woman (for example Theodora), or the office is presented as his rather than hers."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "Агнес зустріла Теодора у своєму кабінеті в смарагдовому вбранні із суворим коміром під саму шию",
+    "where": "the opening sentence, where Agnes meets Theodore in her office and her emerald outfit is first described",
+    "what": "The source runs time, meeting, place and clothing together in one stretch. The clothing phrase arrives after both names and the office, then runs on into the collar. Followed closely, English stacks a place phrase and a clothing phrase back to back. That leaves the outfit hanging where, for a moment, it could be Theodore's.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Where Agnes meets Theodore in her office and her emerald outfit is introduced, does the translation read as written by a skilled native writer, with the outfit plainly on Agnes?",
+      "fail": "Place and clothing phrases are piled back to back after the names, or the clothing phrase dangles where it could describe Theodore, or the sentence otherwise reads as translated."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "в смарагдовому вбранні",
+    "where": "where the emerald garment she wears is named",
+    "what": "The word is a general one for what someone has on, and the context narrows it to a top. It leaves her shoulders and belly bare, and the next paragraph completes the look with a miniskirt and has her green robe hanging on a hook behind her. A one-piece garment worn with a miniskirt, or a robe she is not wearing, contradicts block 2.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the emerald garment presented as an outfit or a top, and not as a dress, gown, frock or robe?",
+      "fail": "It is called a dress, gown, frock, robe or mantle."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "із суворим коміром під саму шию",
+    "where": "where the collar of her outfit is described",
+    "what": "The collar is the outfit's one prim element. It rises as high as a collar can and has the austerity of a uniform, while everything else bares her. Block 2 names the Academy's drill about high collars and robes, which resident mages keep up to the grave, and declares that her look defies every principle of the place. This collar is the ironic nod to that rule: it obeys the letter of the rule while the rest of her flouts it.",
+    "risk": "medium",
+    "recurs_in": [
+     2
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the collar said to come high, right up to her throat or neck?",
+      "fail": "Nothing says the collar reaches the throat or neck; it is just a collar or neckline."
+     },
+     {
+      "id": "E4b",
+      "ask": "Is the collar given a quality of strictness, severity, primness or formality, beyond its height and cut?",
+      "fail": "It is described only by height, shape or colour, with nothing of strictness or formality. A stiff or starched collar does count as formal."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "hinge",
+    "source": "від якого спадали смуги, що підтримували",
+    "where": "where something hangs down from the collar and holds up her breasts",
+    "what": "What hangs from the collar is pieces of the garment itself, which carry the weight of her breasts while leaving her shoulders and belly bare. This is the cut of the top. The source word just as often names a stripe in a pattern, which cannot hold anything up. A fast rendering therefore turns the garment's construction into decoration and makes the supporting clause absurd.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Are the things hanging from the collar pieces of the garment that hold up her breasts?",
+      "fail": "They are stripes or lines of a pattern, or anything else that could not bear weight."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "link",
+    "source": "повні, хоч і зі смаком помірні",
+    "where": "where the size of her breasts is described",
+    "what": "The narrator grants her fullness, immediately limits it, and puts the limit down to good taste, as if her figure were one more item of her styling. The concession keeps the appraisal admiring rather than leering. The appeal to taste is the narrator's connoisseur voice, the same eye that rates her clothes here and in block 2. A fast rendering either drops the concession, leaving two adjectives that seem to contradict each other, or drops the taste and keeps only size.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Are her breasts both full and moderate, with the moderation set against the fullness as a qualification?",
+      "fail": "Either quality is missing, or the two are listed side by side with no contrast."
+     },
+     {
+      "id": "E6b",
+      "ask": "Does the description of her breasts appeal to good taste or style, rather than to size alone?",
+      "fail": "No word of taste, style or elegance appears in the description of her breasts."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "construction",
+    "source": "що підтримували її повні, хоч і зі смаком помірні груди з родимками",
+    "where": "where her breasts, held up by what hangs from the collar, are described down to the moles",
+    "what": "The source packs a concession into the chain of adjectives in front of the noun and then hangs the moles on after it. All of this sits inside a relative clause that itself hangs off the collar behind a dash. Followed closely, English gets a heavy stack before the noun, commas fencing off the concession, and a clumsy tail for the moles.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Where her breasts are described, does the translation read as written by a skilled native writer?",
+      "fail": "A long adjective stack with a concession wedged into it sits before the noun, or the moles are tacked on with a clumsy trailing phrase, or relative clauses hang off one another so that the passage reads as translated."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "hinge",
+    "source": "з родимками",
+    "where": "where marks on the skin of her breasts are mentioned",
+    "what": "The marks are small dark spots on the skin. They are an intimate and slightly imperfect detail that makes the portrait a real body seen up close. The commonest dictionary equivalent in English calls up larger coloured patches present from birth, which is a stranger and less sensual picture.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Are the marks on her breasts small dark spots on the skin?",
+      "fail": "They are called birthmarks, freckles, blemishes or patches, or the detail is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "hinge",
+    "source": "І те, й інше магеса любила.",
+    "where": "where the paragraph says that Agnes loved two things (its last statement)",
+    "what": "The two things she loved are the two activities named just before, her laughing and her smoking, which set the muscles under her belly moving. Block 1 opens by repeating the same phrase and adding that she was doing both right then. That joke only works if the pair is something one does. A fast reader can instead take the pair as her shoulders and belly, which the outfit shows off.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Does the paragraph say that what she loved was the laughing and the smoking just mentioned?",
+      "fail": "The statement refers, or most naturally reads as referring, to her shoulders and belly, her body, the outfit or showing them off, or to only one of the two activities."
+     }
+    ]
+   },
+   {
+    "id": "E10",
+    "type": "motif",
+    "source": "магеса",
+    "where": "the last statement, about what she loved, or wherever else the translation calls Agnes by a title instead of her name",
+    "what": "The narrator names Agnes by her professional title, the feminine form of the word the book uses for every trained magic-user the Academy turns out. The feminine form returns at 4, where she is a combat veteran of that rank, and at 11. The plain form runs through 2, 3, 15 and 18. Placed straight after the inventory of her body, the title reminds the reader that this is a faculty member, and block 2 turns that gap into open defiance of the Academy.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     3,
+     4,
+     11,
+     15,
+     18
+    ],
+    "checks": [
+     {
+      "id": "E10a",
+      "ask": "Is Agnes called, somewhere in the paragraph, by a title that makes her one of the book's mages, the profession the Academy trains, rather than a different kind of magic-user?",
+      "fail": "She is called a witch, sorceress, enchantress or the like, or only her name and pronouns are used."
+     }
+    ]
+   }
+  ]
+ }
+}

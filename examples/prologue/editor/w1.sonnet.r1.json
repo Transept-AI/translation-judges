@@ -1,0 +1,53 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1362,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1587
+ },
+ "result": {
+  "edited": "The human plateau shifted. The posts spread through feeds like wildfire: it was prime time, just before the end of the workday. Two hundred thousand viewers instantly became two hundred and fifty thousand. Online media bots picked up the event and began churning out news about the provocative stream of \"the most innovative business coach of our generation.\" And a woman, no less!\n\nNow three hundred and fifty thousand people from all over the world were watching, liking, sharing, and paying real dollars to ask Freya a question. Three hundred and sixty. Three hundred and seventy. With every new thousand, Freya's breath caught. And then it was time to answer.\n\nThe main thing was not to let this exchange with her subscribers turn into a group date on Tinder.\n\n\"Do you have kids?\" a stranger asked. \"How do you succeed when you have four?\"\n\nFreya wanted to answer: \"You don't.\" But first, stay-at-home moms made up forty-eight percent of her audience, so the question was a sore one. And second, you couldn't give that answer to a subscriber who had most likely scraped together those fifty bucks out of money meant for her kids' lunches. So Freya gave a polite, well-rehearsed answer.\n\n\"Everyone decides for themselves what success means,\" she said. \"If you've always dreamed of being a mom or a dad, then your children *are* your capital. The main thing is to stick to your investment strategy and not hand your capital over to unvetted funds.\"\n\n\"Are you married?\" someone asked, donating the minimum five dollars.\n\nQuestions like that Freya now left unanswered. Fortunately, the stream of more interesting (and pricier!) questions flushed all the cheap provocations down the toilet.\n\nBesides, her joke had landed. The chat was delighted and the viewer count kept growing: the clip of her answer had already gone viral on Twitter. But fame comes at a price, and the questions took a sharp turn toward that Tinder group date.",
+  "changes": [
+   {
+    "before": "spread through feeds like hot cakes",
+    "after": "spread through feeds like wildfire",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "Two hundred thousand viewers instantly jumped to two hundred and fifty.",
+    "after": "Two hundred thousand viewers instantly became two hundred and fifty thousand.",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "But, first,",
+    "after": "But first,",
+    "kind": "taste",
+    "category": "punctuation"
+   },
+   {
+    "before": "you can't answer that way to a subscriber",
+    "after": "you couldn't give that answer to a subscriber",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "So Freya used a polite, well-rehearsed answer.",
+    "after": "So Freya gave a polite, well-rehearsed answer.",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "But fame carries a price, and the questions sharply turned toward",
+    "after": "But fame comes at a price, and the questions took a sharp turn toward",
+    "kind": "error",
+    "category": "calque"
+   }
+  ]
+ }
+}

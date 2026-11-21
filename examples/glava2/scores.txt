@@ -1,0 +1,11 @@
+system                                  reading [95%] copy-edit/100  hard/1k integrity  gate
+house                            -0.61 [-0.92, -0.29]          0.38     0.00         0  pass
+opus                             -1.00 [-1.24, -0.70]          0.16     0.00         0  pass
+sonnet                           -1.44 [-1.54, -1.25]          0.11     3.85         0  FAIL
+haiku                            -2.46 [-3.07, -1.69]          0.21     5.13         0  FAIL
+
+rubric (diagnostic)          checks yes  no/1k src  native  foreign/1k  weak+missing/1k
+house                               88%        9.0     84%        13.0             14.0
+opus                                94%        5.1     86%        12.5              9.3
+sonnet                              89%        6.4     80%        18.8             13.6
+haiku                               80%       16.7     69%        24.3             25.4

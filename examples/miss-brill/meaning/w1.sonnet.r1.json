@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2230,
+  "cache_read_input_tokens": 937,
+  "output_tokens": 343
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 2,
+    "quote": "висока стара жінка",
+    "kind": "sense",
+    "wrong": "The reader takes the old woman to be tall. The original says she is big (large or heavy), not tall.",
+    "severity": 1
+   }
+  ]
+ }
+}

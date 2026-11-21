@@ -1,0 +1,190 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5179,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 92574
+ },
+ "result": {
+  "reading": "Alone in his lamplit room among the ten dark rooms of the empty manor (13–14), the narrator answers his own question from 14 about what is behind his wall. He senses the furniture lying drowned in the darkness, bids it rest, and longs to put out the lamp, go under too and turn into a soulless, unfeeling nothing. Then the wish is reversed: he is sure a struck match would catch the things in sudden motion back to their places, and perhaps the faded former inhabitants who left their faces, voices, shapes and shadows in the house. The paragraph carries the drowning-darkness images of 12 and 14 and the soul of 14, and it sets up 16's self-mockery and 17–18, where a door creaks open and the people he is weary of, the executed dead among them, walk out of that darkness and leave their prints on his soul.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "Я чую твердість і форму",
+    "where": "the opening sentence, where he perceives the furniture in the dark rooms beyond his wall",
+    "what": "He cannot see into the dark rooms, yet he perceives the solidity and outline of the furniture in them. The verb is the everyday one for hearing. With solidity and shape as its objects, though, it means a bodily, all-round sensing, as elsewhere in the story when he senses a shadow behind him (8) or another life seeping into his own (1); in this sentence only the creak is a sound. It answers the question that closes 14. A few lines on, it meets its opposite: the insensate object he longs to become, named with the same root, so the man who senses everything wants to sense nothing. Read as hearing, the solidity becomes a strange synaesthesia that the original does not have.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is his perception of the furniture's hardness and shape rendered as sensing or feeling it, not as hearing or seeing it?",
+      "fail": "A verb of hearing or of sight governs the hardness and shape (he hears or sees them), even if the creak is rightly heard."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "скрип помосту під їх вагою",
+    "where": "the same opening sentence: the thing that creaks under the furniture's weight",
+    "what": "The creaking surface under the furniture is the boarded floor of the rooms; the noun is used in its older, regional sense. Its commoner sense is a raised boarded structure to stand or perform on, and the look-alike Russian word means the same. Both pull a stage-like structure into a dark parlour where none belongs. The creak is the one sound in his sensing of the rooms, and 17 answers it with a door that opens with a faint creak to let the dead in.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is what creaks under the furniture's weight the floor (or floorboards) of the rooms?",
+      "fail": "A platform, stage, dais, scaffold, podium or other raised structure creaks instead."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "затоплених на дні чорної пітьми меблів … сам потону у чорній пітьмі",
+    "where": "where the furniture lies in the dark rooms at the start, and where, after putting out the lamp, he imagines himself going into the same darkness",
+    "what": "The darkness is a liquid. The furniture lies flooded over at the bottom of it, and once the lamp is out he means to go under in the same blackness himself, the first step toward the unfeeling thing he wants to become. The image continues 14, where the ten rooms are brimful of darkness and he fears his lamplight will leak out through the cracks, and 12, where his eyes drowned in the vast sky as in a sea.",
+    "risk": "medium",
+    "recurs_in": [
+     12,
+     14
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the furniture pictured as sunk, submerged, flooded or drowned, or as lying at the bottom of the darkness as of deep water?",
+      "fail": "The furniture is only in, hidden in, lost in or buried in the dark, with no sinking, submersion or bottom."
+     },
+     {
+      "id": "E3b",
+      "ask": "Is his own going into the darkness, once the lamp is out, pictured as drowning, sinking or going under in it?",
+      "fail": "He only vanishes, dissolves, falls asleep, is swallowed up, or is simply left in the dark."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "double",
+    "source": "Ну, що ж, стійте собі на місці, спочивайте спокійно",
+    "where": "where he turns to the furniture and tells it to stay where it is and rest",
+    "what": "He turns and speaks to the furniture, a shrugging, indulgent dismissal before he decides not to think about it. On its face this is permission to remain where it stands, undisturbed. But the verb of resting with this adverb is also the customary wish over the dead, on a grave or at a farewell. With the furniture lying drowned at the bottom of the dark, the words sound like a blessing over the sunken dead, and they lead straight into his own wish to go under and become nothing (rest is what he craved in 0; sleep is death's brother in 6). Both senses sit in the one bidding, and nothing points them out.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the furniture bidden both to stay where it stands and to rest?",
+      "fail": "Either the staying put or the resting is missing."
+     },
+     {
+      "id": "E4b",
+      "ask": "Is the rest wished in the terms used over the dead, that is, rest or sleep joined with peace (in peace, peacefully)?",
+      "fail": "Only keeping calm, still or quiet, or resting calmly, easily or quietly, with no peace attached."
+     },
+     {
+      "id": "E4c",
+      "ask": "Does the graveside ring come from the bidding itself, without an added comparison or explanation tying the furniture to the dead or to a grave?",
+      "fail": "The translation spells the likeness out, for instance by adding that they rest like the dead or as in a grave."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "motif",
+    "source": "бездушний предмет",
+    "where": "where he imagines turning into an object that feels nothing",
+    "what": "The object he would turn into is, by the letter of the word, one without a soul. The root picks up the stock phrase in 14 for the empty house, where not a soul is about. It is answered in 18, where everyone leaves footprints on his soul and he vows to lock it. The soul, like the heart in 2 and 17, is where other people crowd in and leave their pain, so being rid of it is the point of the wish. A rendering that keeps only the idea of a thing without life keeps the sense and drops the soul.",
+    "risk": "medium",
+    "recurs_in": [
+     14,
+     18
+    ],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the object he imagines becoming described as having no soul?",
+      "fail": "It is only lifeless, inanimate, insensate, dead or unfeeling, with no soul named."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "стати «нічим», безгласним, непорушним спокоєм",
+    "where": "the end of the sentence in which he says how good it would be to stop existing altogether",
+    "what": "The wish slides from becoming an object to becoming nothing and ends on a noun: he would turn into the motionless peace itself, not merely be calm. It is the end point of the self dissolving into a state, and the opposite of the leaping, voice-haunted house that the following sentences bring back. The two adjectives before the noun can also be read as describing him. A fast reader therefore makes the final noun his mood as well, and the dissolution is lost.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the last thing he wishes to become a state he would turn into (a motionless peace, calm or stillness named as a thing) rather than a description of his own mood?",
+      "fail": "He would merely be at peace, calm or peaceful (an adjective or a phrase about his condition), so the final noun is gone."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "construction",
+    "source": "Я знаю, що коли б отак увійти в темні кімнати і черкнуть сірником, як все скочило б раптом на своє місце",
+    "where": "the sentence where he says he knows what would happen if someone simply walked into the dark rooms and struck a match",
+    "what": "He states as certain knowledge something irrational: what the dark rooms would do at the strike of a match. The original makes the condition a bare infinitive with no one doing it. Having already framed the whole as a reported fact, it then opens the result with a word that otherwise introduces an indirect question or an exclamation. Carried over closely, English gets a condition with no doer, a second clause that hangs loose, and tenses that do not meet.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "At the spot where he says he knows what would happen if one simply walked into the dark rooms and struck a match, does the sentence read as written by a skilled native writer?",
+      "fail": "It keeps a stray question-word or exclamatory clause after the statement of what he knows, a condition with no subject or with a bare infinitive, or tenses that do not agree."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "hinge",
+    "source": "все скочило б раптом на своє місце — стільці, канапи, вікна і навіть карнизи",
+    "where": "the same sentence: what the things in the dark rooms do the moment the match is struck",
+    "what": "At the flare of the match the things would make a sudden, lively, almost animal movement, each to its own place, as if caught wandering in the dark. This turns his order to the furniture to stay put into a suspicion that it does not. The list climbs from chairs and sofas to windows and even cornices, parts of the house that cannot move at all. The movement is what makes the house uncanny, and it is what his eye then has to outrun. A common English idiom for things settling into order means something else, and things that merely come into sight lose both the motion and the return to their places.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "When the match is struck, do the things themselves make a sudden movement (leaping, jumping, springing, snapping) to their own places?",
+      "fail": "They only appear, become visible, are revealed, leap into view, stand or are back in their places, or 'fall into place' in the sense of things becoming clear."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "link",
+    "source": "може б око моє встигло зловити образ людей",
+    "where": "where he wonders whether his eye could catch the pale figures of people",
+    "what": "The verb before the catching is one of timing. His eye would have to be fast enough, because the figures would exist only in the instant of the flare before vanishing. This makes the glimpse a race and the people fleeting. Without it they become something he would simply see.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Is the glimpse of the people made to depend on his eye being quick enough or succeeding in time (in time, quick enough, managing to, before they vanish)?",
+      "fail": "His eye simply would or might see, catch or glimpse them, with nothing about speed, timing or succeeding."
+     }
+    ]
+   },
+   {
+    "id": "E10",
+    "type": "construction",
+    "source": "образ людей, блідих, невиразних, як з гобеленів, всіх тих, що лишили свої обличчя в дзеркалах, свої голоси по шпарах і закамарках, форми — в м'яких волосяних матрацах меблів, а тіні — по стінах",
+    "where": "the long sentence where he imagines glimpsing faded, tapestry-like figures of people and lists the traces they left in the house: in mirrors, in cracks and corners, in the upholstery, on the walls",
+    "what": "In one long breath he calls up the house's former inhabitants as pale, blurred figures like those woven into old tapestries. He then pairs each trace with the thing that kept it: faces with mirrors, voices with cracks and hidden corners, the shapes of bodies with the horsehair-stuffed upholstery, shadows with walls. The original puts the adjectives after the noun and makes the tapestry likeness with a bare preposition. It hangs a long apposition naming all those people off the noun, and runs a four-part list on one verb with dashes for the gaps. It also names the stuffed seats of the furniture with a word that in English means a bed's pad. Kept close, the sentence reads translated.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E10a",
+      "ask": "At the spot where he imagines glimpsing pale, indistinct people like figures from tapestries and lists the traces they left in the house, does the sentence read as written by a skilled native writer?",
+      "fail": "It keeps a calqued simile (people as from tapestries, with no figures or weaving), an apposition that hangs from nothing, dashes standing in for missing verbs, furniture with mattresses, or a string of adjectives stranded after the noun."
+     }
+    ]
+   }
+  ]
+ }
+}

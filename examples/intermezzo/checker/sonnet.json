@@ -1,0 +1,1246 @@
+{
+ "judge": "checker",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "de492ec1504c",
+ "usage": {
+  "input_tokens": 86,
+  "cache_creation_input_tokens": 69141,
+  "cache_read_input_tokens": 740313,
+  "output_tokens": 16655
+ },
+ "result": {
+  "paragraphs": [
+   {
+    "n": 0,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "one of those countless \"musts\" that had worn me out",
+      "why": "Both mentions use the bare compulsion word turned into a quoted noun: \"musts\" and then \"the \"must\" is small or large\"."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "it is not I who command them but they who already command me",
+      "why": "\"already\" marks the reversal as a takeover that has happened."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "this many-headed beast",
+      "why": "It is a beast, the word that blocks 2 and 17 use for human savagery."
+     },
+     {
+      "id": "E4a",
+      "answer": "no",
+      "quote": "If only I could get away from it for a while",
+      "why": "Rendered as escape, with no notion of becoming free, so the slave/free pair is lost."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "for a while",
+      "why": "The release is limited in time, a respite."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "If only I could get away from it for a while, forget it, rest.",
+      "why": "Framed as a longing, not a need or a plan."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 1,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Because life comes at me",
+      "why": "The causal opening ties the paragraph back to his weariness at the end of block 0."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "life comes at me ceaselessly and relentlessly, like a wave onto a shore",
+      "why": "\"comes at\" makes life an assailant striking him as a wave strikes the shore."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "Not only my own life, but other people's too",
+      "why": "The first mention explicitly ties the other life to other people."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "do I even know where my own life ends and another's begins?",
+      "why": "It is a first-person rhetorical admission of not knowing."
+     },
+     {
+      "id": "E5a",
+      "answer": "partly",
+      "quote": "I cannot get past a human being.",
+      "why": "\"get past\" can mean passing someone, but it also reads as \"cannot get over\" a person, so unavoidable encounter is blurred."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "I cannot be alone.",
+      "why": "This names the condition of solitude, not the feeling of loneliness."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "I cannot get past a human being.",
+      "why": "Kept as an inability, \"cannot\"."
+     },
+     {
+      "id": "E7b",
+      "answer": "yes",
+      "quote": "I cannot be alone.",
+      "why": "Kept as an inability, \"cannot\"."
+     },
+     {
+      "id": "E8a",
+      "answer": "no",
+      "quote": "I cannot get past a human being.",
+      "why": "Indefinite singulars (\"a human being\", \"I meet a person\") read as one individual."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "Whereas on mine I meet a person everywhere and always.",
+      "why": "\"on mine\" follows \"their orbits\" and \"their way\", so it clearly means his own path."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 2,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "It is you who clothed the earth in stone and iron, you who through the windows of houses",
+      "why": "The cleft \"It is you who\" singles out the addressee as the culprit in both clauses."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "clothed the earth in stone and iron",
+      "why": "The earth is dressed like a body wearing a garment."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "You lash the holy silence of the earth",
+      "why": "\"lash\" keeps the image of flogging."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "the holy silence of the earth",
+      "why": "\"silence\" is the absence of sound, the word the narrator later seeks and hears."
+     },
+     {
+      "id": "E5a",
+      "answer": "no",
+      "quote": "Like an animal.",
+      "why": "The general neutral word, with nothing marking the creature as wild or savage."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "your bestial instincts",
+      "why": "\"bestial\" marks the instincts as those of a beast, not the stock \"animal instincts\"."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "your eyes, curious and greedy, crawl into me",
+      "why": "\"curious\" beside \"greedy\" and \"crawl into me\" reads as prying, inquisitive eyes."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "I cannot get past you... I cannot be alone...",
+      "why": "This matches block 1's \"I cannot get past a human being. I cannot be alone.\""
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "I cannot get past you",
+      "why": "It says he cannot get past the addressee, not that he cannot part from it."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "I cannot be alone",
+      "why": "This is the state of solitude, not the feeling of loneliness."
+     },
+     {
+      "id": "E10a",
+      "answer": "partly",
+      "quote": "you climb inside me",
+      "why": "\"climb\" is physical and intrusive, but it lacks the crude, creeping, unwelcome colour of the original verb."
+     },
+     {
+      "id": "E11a",
+      "answer": "yes",
+      "quote": "as into your own hiding place",
+      "why": "With \"throw... into my heart\", the hiding place reads as a stash for the addressee's things."
+     },
+     {
+      "id": "E11b",
+      "answer": "yes",
+      "quote": "your own hiding place",
+      "why": "\"your own\" marks the place as the addressee's."
+     },
+     {
+      "id": "E12a",
+      "answer": "yes",
+      "quote": "What do you care that you torment me?",
+      "why": "The idiom of indifference is kept."
+     },
+     {
+      "id": "E13a",
+      "answer": "yes",
+      "quote": "like a vampire",
+      "why": "The indefinite article makes it a familiar type."
+     },
+     {
+      "id": "E14a",
+      "answer": "yes",
+      "quote": "your countless \"musts,\"",
+      "why": "A quoted word of obligation, the duties laid on him."
+     },
+     {
+      "id": "E14b",
+      "answer": "yes",
+      "quote": "your countless \"musts,\"",
+      "why": "It is the same quoted word as block 0's \"musts\"."
+     },
+     {
+      "id": "E15a",
+      "answer": "yes",
+      "quote": "your endless \"you have tos.\"",
+      "why": "A second-person compulsion addressed to him, distinct from \"musts\"."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 3,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "People have worn me out.",
+      "why": "It states plainly that people have caused his exhaustion."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "being an inn",
+      "why": "An inn is a lodging where travellers put up."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "those creatures",
+      "why": "\"creatures\" with the contemptuous demonstrative classes them below people."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "Throw out the litterers along with the litter.",
+      "why": "They are picked out by the act of littering."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "Throw out the litterers along with the litter.",
+      "why": "The imperative is his own command."
+     },
+     {
+      "id": "E4b",
+      "answer": "yes",
+      "quote": "Air out the house!",
+      "why": "The imperative is a command, not a forecast."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 4,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "the joy of being alone",
+      "why": "Being alone is itself the joy he longs for."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "being alone",
+      "why": "A neutral word for the condition, with no sense of loneliness."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "being alone",
+      "why": "This matches \"I cannot be alone\" in blocks 1 and 2."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "Who will grant me",
+      "why": "The plea appeals to an unnamed giver, as in the scriptural formula."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 5,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "How I used to long for them",
+      "why": "An open plural pronoun with no referent supplied."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "at times",
+      "why": "The longing is limited to some occasions."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 6,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "people lay in wait for me there too",
+      "why": "\"too\" marks sleep as one more place where people reach him."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "You bring me your sufferings even here?",
+      "why": "\"even here\" attaches to the place, not the person."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "lay in wait for me",
+      "why": "The waiting is predatory, an ambush."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "in a fantastic net",
+      "why": "A net is made for catching."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "fantastic net",
+      "why": "\"fantastic\" conveys dreamlike strangeness and is on the accepted list."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "Your vileness?",
+      "why": "A separate, morally repulsive thing named after the suffering."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "Your vileness?",
+      "why": "\"vileness\" means moral loathsomeness, clearly worse than suffering."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "Leave me in peace...",
+      "why": "The line dismisses the intruder directly."
+     },
+     {
+      "id": "E6b",
+      "answer": "yes",
+      "quote": "Leave me in peace...",
+      "why": "It names peace."
+     },
+     {
+      "id": "E6c",
+      "answer": "yes",
+      "quote": "Leave me in peace...",
+      "why": "The brush-off and the request for peace sit in one expression."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 7,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "So it was at night.",
+      "why": "\"at night\" is general and habitual, not tied to one night."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "So it was",
+      "why": "It points back and sums up the scene as the way things were."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "So it was at night.",
+      "why": "Nothing is restated."
+     },
+     {
+      "id": "E2c",
+      "answer": "yes",
+      "quote": "So it was at night.",
+      "why": "A plain statement with no added feeling."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 8,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "I felt the shadow of a person behind me",
+      "why": "He senses the shadow by feel, not sight."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "the shadow of a person",
+      "why": "What he perceives is the shadow itself."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "raced toward me",
+      "why": "The flood is aimed at him."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "the roaring torrents of human life",
+      "why": "\"roaring\" keeps the beast's cry."
+     },
+     {
+      "id": "E4a",
+      "answer": "no",
+      "quote": "listened with disgust to the roaring torrents of human life that raced toward me like wild horses",
+      "why": "The stresses fall irregularly (ROAR-ing TOR-rents of HU-man LIFE that RACED), with no run of four triple beats."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 9,
+    "checks": [
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "the city was stretching its iron hand",
+      "why": "It is the city that reaches out after him."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "its iron hand",
+      "why": "The limb is a hand of iron."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "would the hand open its iron fingers",
+      "why": "It is the hand's own fingers that might open."
+     },
+     {
+      "id": "E3c",
+      "answer": "yes",
+      "quote": "the iron hand clack its bones",
+      "why": "The noise comes from its bones."
+     },
+     {
+      "id": "E3d",
+      "answer": "yes",
+      "quote": "clack its bones in vain",
+      "why": "\"in vain\" marks the movement as futile."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "Could I really tear myself",
+      "why": "\"really\" carries his near-disbelief."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "this outcry",
+      "why": "An outcry, not a neutral word for noise."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "the unpeopled green expanses",
+      "why": "\"unpeopled\" says no people are there."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "green expanses",
+      "why": "Open country, not the set phrase for town parks."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "would there be silence around me and within me?",
+      "why": "\"silence\" is an absence of sound."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 10,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "so simply and unnoticed",
+      "why": "\"unnoticed\" says the moment escaped his notice."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "I did not hear silence",
+      "why": "What he misses is named as silence."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "I did not hear silence",
+      "why": "A verb of hearing, which block 13's \"I heard a great silence\" answers."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "strangers' voices",
+      "why": "The voices are explicitly other people's."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 11,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "clickety-clack-clack",
+      "why": "The noise is written out as a sound-word."
+     },
+     {
+      "id": "E1b",
+      "answer": "no",
+      "quote": "clickety-clack-clack",
+      "why": "This is the sing-song, homely clickety-clack, not a hard crashing noise."
+     },
+     {
+      "id": "E1c",
+      "answer": "yes",
+      "quote": "... clickety-clack-clack... our division was stationed there then... clickety-clack-clack...",
+      "why": "The noise keeps cutting in between the scraps of talk."
+     },
+     {
+      "id": "E1d",
+      "answer": "yes",
+      "quote": "Where are you going?.. tickets, please...",
+      "why": "The scraps are bare, with no tags or speakers."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "a lady I know",
+      "why": "She is a personal acquaintance of the speaker."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "suffered from her heart for fifteen years",
+      "why": "It reads as a bodily heart condition."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "our division was stationed there then",
+      "why": "\"stationed\" gives the military posting."
+     }
+    ],
+    "other": [
+     {
+      "quote": "our division was stationed there then",
+      "change": "The added \"there\" points to a place, so the scrap reads as complete rather than cut off before the place is named.",
+      "weight": 1
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Some green chaos",
+      "why": "\"Some\" marks the mass as indefinite, something he cannot identify."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "caught the carriage by all its wheels",
+      "why": "\"all\" gives totality."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "there was so much sky here",
+      "why": "The sky is an amount."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "my eyes drowned in it as in a sea",
+      "why": "The eyes go under, matching block 15's \"drown in the black darkness\"."
+     },
+     {
+      "id": "E5a",
+      "answer": "no",
+      "quote": "my eyes drowned in it as in a sea and searched",
+      "why": "\"drowned\" is a plain completed past, with nothing marking the drowning as ongoing."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "searched for something to catch hold of",
+      "why": "It is the eyes that search, so they are scanning the view."
+     },
+     {
+      "id": "E6b",
+      "answer": "yes",
+      "quote": "something to catch hold of",
+      "why": "They seek a hold, as a drowning person would."
+     },
+     {
+      "id": "E6c",
+      "answer": "yes",
+      "quote": "searched for something to catch hold of",
+      "why": "Both senses sit in one expression."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "And were helpless.",
+      "why": "The paragraph ends on the helplessness as the outcome."
+     },
+     {
+      "id": "E7b",
+      "answer": "yes",
+      "quote": "And were helpless.",
+      "why": "The verdict is bare."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 13,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "The white walls of the house restore my senses.",
+      "why": "He comes back to his senses from the daze."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "the wide green yard",
+      "why": "The place is named as the yard."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "I heard a great silence",
+      "why": "It is silence, an absence of sound."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "I heard a great silence",
+      "why": "A verb of hearing."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "Then suddenly I heard a great silence. It filled the whole yard",
+      "why": "\"It\" follows directly on \"silence\", so the silence is clearly the subject."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "lurked in the trees",
+      "why": "\"lurked\" carries concealment."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "lay in the deep blue spaces",
+      "why": "The silence lies there, at rest."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "the pounding of my own heart",
+      "why": "\"pounding\" is a loud, knocking sound."
+     },
+     {
+      "id": "E6b",
+      "answer": "yes",
+      "quote": "my own heart",
+      "why": "\"own\" stresses that the heart is his."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 14,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "filled with darkness to the brim",
+      "why": "\"to the brim\" makes the darkness a liquid filling a container."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "to the brim",
+      "why": "Full right to the top."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "They press in around my room.",
+      "why": "\"press in\" conveys a hostile closing-in."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "the lamplight will all leak out through the cracks",
+      "why": "\"leak out\" is liquid motion."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "will all leak out",
+      "why": "\"all\" attaches to the light."
+     },
+     {
+      "id": "E5a",
+      "answer": "no",
+      "quote": "Quiet and empty",
+      "why": "\"empty\" says nothing about people; the absence of people rests only on the previous sentence."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "beyond my wall",
+      "why": "It is placed beyond his own wall."
+     },
+     {
+      "id": "E6b",
+      "answer": "no",
+      "quote": "What is it?",
+      "why": "The question asks what the thing is, with no pointer to the place."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 15,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "I can sense the solidity and shape",
+      "why": "A verb of sensing, not hearing or sight."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "the creak of the floor under its weight",
+      "why": "It is the floor that creaks."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "the furniture sunk at the bottom of the black darkness",
+      "why": "The furniture is sunk at the bottom."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "drown in the black darkness myself",
+      "why": "He imagines himself drowning in it."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "stay where you are, rest in peace",
+      "why": "Both staying put and resting are there."
+     },
+     {
+      "id": "E4b",
+      "answer": "yes",
+      "quote": "rest in peace",
+      "why": "Rest is joined with peace, the formula used over the dead."
+     },
+     {
+      "id": "E4c",
+      "answer": "yes",
+      "quote": "rest in peace",
+      "why": "No added comparison spells out the likeness."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "a soulless object",
+      "why": "The soul is named."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "to become \"nothing,\" a voiceless, motionless calm",
+      "why": "\"calm\" is a noun, a state he would turn into."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "everything would leap at once into its place",
+      "why": "The things themselves leap to their places."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "my eye would have time to catch",
+      "why": "\"have time to\" adds the timing."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 16,
+    "checks": [
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "You wanted quiet and solitude",
+      "why": "\"solitude\" is a state of being alone, distinct from quiet."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "You do not believe in solitude?",
+      "why": "The question doubts the absence of people alone."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "solitude",
+      "why": "A neutral, welcome word, not desolation."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 17,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Do I know? Can I know... Can I be sure",
+      "why": "Rhetorical questions that admit he does not know."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "Can I be sure that the door will not swing open... and out of the unknown darkness, so deep and endless, people will not begin to come",
+      "why": "Both negations are kept, so their coming is the danger."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "laid into my heart, as into their own hiding place",
+      "why": "The heart is a place where they put away their things."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "their own hiding place",
+      "why": "\"their own\" marks the place as theirs."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "All those I cannot get past",
+      "why": "This repeats the \"cannot get past\" refrain of blocks 1 and 2."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "Well, well! How many of you there are...",
+      "why": "Surprise, with no contempt."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "dry specimens",
+      "why": "\"specimens\" belongs to the field of collections for study."
+     },
+     {
+      "id": "E7a",
+      "answer": "partly",
+      "quote": "they hanged twelve of you at once... Twelve of you...",
+      "why": "\"at once\" stresses simultaneity, not quantity; the scale is felt only through repetition."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "Twelve of you... and I yawned.",
+      "why": "He returns to the figure before the yawn."
+     },
+     {
+      "id": "E8b",
+      "answer": "yes",
+      "quote": "and I yawned.",
+      "why": "The yawn comes last."
+     },
+     {
+      "id": "E8c",
+      "answer": "yes",
+      "quote": "and I yawned.",
+      "why": "The yawn is bare."
+     },
+     {
+      "id": "E9a",
+      "answer": "no",
+      "quote": "I ate up the news of a row of white sacks with a ripe plum",
+      "why": "Word-for-word: the plum reads as an accompaniment, and \"ate up\" suggests eagerness, not chasing away a bad taste."
+     },
+     {
+      "id": "E10a",
+      "answer": "yes",
+      "quote": "You know, I once read",
+      "why": "Conversational asides addressed to the dead are kept."
+     },
+     {
+      "id": "E11a",
+      "answer": "yes",
+      "quote": "horror has sucked all the blood out of me",
+      "why": "An act done to him, with all his blood sucked out."
+     },
+     {
+      "id": "E12a",
+      "answer": "partly",
+      "quote": "like a bloody phantom",
+      "why": "\"phantom\" is a ghost, but \"bloody\" can read as the British oath."
+     },
+     {
+      "id": "E13a",
+      "answer": "yes",
+      "quote": "Pass on!",
+      "why": "A command to move past, not an invitation."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 18,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "And people keep coming.",
+      "why": "\"keep coming\" shows they go on regardless of his plea."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "a second and a third",
+      "why": "He counts them off up to a third."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "and so without end",
+      "why": "The count runs out into endlessness."
+     },
+     {
+      "id": "E3a",
+      "answer": "partly",
+      "quote": "near and strange",
+      "why": "The contrast is roughly there, but \"strange\" reads as odd rather than strangers, and \"near\" can read as spatial."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "leave on my soul the prints of their soles",
+      "why": "Marks remain on his soul."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "the prints of their soles",
+      "why": "The marks are made by feet."
+     },
+     {
+      "id": "E5c",
+      "answer": "yes",
+      "quote": "leave on my soul the prints of their soles",
+      "why": "The footprints and the lasting mark are one image."
+     },
+     {
+      "id": "E6a",
+      "answer": "no",
+      "quote": "and shout: no admittance here!",
+      "why": "A plain future shout, with nothing marking it as ongoing."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "no admittance here!",
+      "why": "The wording of a posted notice."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "no admittance here!",
+      "why": "A bar on entry, with no sense of a fee."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 19,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "A cuckoo is calling.",
+      "why": "The first sound is reported as the bird's call."
+     },
+     {
+      "id": "E1b",
+      "answer": "no",
+      "quote": "A cuckoo is calling.",
+      "why": "A plain calling verb, with no hammering or forging; the blows appear only in the next sentence."
+     },
+     {
+      "id": "E1c",
+      "answer": "no",
+      "quote": "A cuckoo is calling.",
+      "why": "The call and the blows are carried by separate sentences, not one word."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "a little hammer",
+      "why": "The hammer is small."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "a great crystal bell",
+      "why": "The bell is large."
+     },
+     {
+      "id": "E2c",
+      "answer": "yes",
+      "quote": "It strikes with a little hammer on a great crystal bell",
+      "why": "Told as what the bird does, not as a comparison."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "It strikes with a little hammer on a great crystal bell, cuckoo! cuckoo! and sows silence over the grass.",
+      "why": "The cuckoo is the agent of the silence."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "sows silence",
+      "why": "\"sows\" casts it like seed."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "sows silence",
+      "why": "\"silence\" is an absence of sound."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "I suddenly picture the green yard",
+      "why": "\"the\" marks it as the known yard of the house."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "merry green",
+      "why": "\"merry\" gives the green gladness."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 20,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "iron chains clank",
+      "why": "The chains are iron."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "dogs bark furiously",
+      "why": "A furious vocal noise, with no sexual sense."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "their long shaggy wool leaps with them",
+      "why": "The wool is given its own leaping."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "Red eyes leap, a broad forehead leaps, and white furry leggings.",
+      "why": "Each part is the subject of the leaping."
+     },
+     {
+      "id": "E3c",
+      "answer": "partly",
+      "quote": "the matted tufts on her hindquarters fly after her",
+      "why": "\"fly after\" hints at pursuit but can read as simply trailing behind."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "Well, what is it, dog...",
+      "why": "Both appeals (\"what is it, dog\", \"what is it, Overko\") read as \"what's the matter\"."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "white furry leggings",
+      "why": "A garment image for the legs."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "strains and cannot quite burst out of the deep maw",
+      "why": "The fury strains to break out and fails."
+     },
+     {
+      "id": "E6b",
+      "answer": "partly",
+      "quote": "only tosses up a haystack of wool",
+      "why": "\"tosses up\" can read as throwing wool off rather than jolting the dog's own coat."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "melting fear and hatred together in the fire",
+      "why": "The two feelings are fused as in a melt."
+     },
+     {
+      "id": "E9a",
+      "answer": "yes",
+      "quote": "draw some blood from my calf",
+      "why": "Blood is explicit."
+     },
+     {
+      "id": "E10a",
+      "answer": "yes",
+      "quote": "Perhaps you are angrier at it than at me.",
+      "why": "\"it\" clearly refers back to the chain."
+     },
+     {
+      "id": "E10b",
+      "answer": "partly",
+      "quote": "drives your fiery rage back down into it",
+      "why": "\"it\" could refer to the throat or the chain; only \"down\" points to the throat."
+     },
+     {
+      "id": "E11a",
+      "answer": "yes",
+      "quote": "until they take the chain off you",
+      "why": "An unnamed \"they\" removes the chain."
+     },
+     {
+      "id": "E12a",
+      "answer": "yes",
+      "quote": "off she tears without a thought, blind",
+      "why": "\"tears\" and \"without a thought\" convey reckless abandon."
+     },
+     {
+      "id": "E12b",
+      "answer": "partly",
+      "quote": "without a thought",
+      "why": "Heedlessness is suggested, but not loss of memory or forgetting."
+     },
+     {
+      "id": "E12c",
+      "answer": "partly",
+      "quote": "off she tears without a thought, blind",
+      "why": "The phrase sits with the run, but the oblivion sense in it is weak."
+     },
+     {
+      "id": "E13a",
+      "answer": "no",
+      "quote": "off she tears without a thought, blind. She rips up the grass",
+      "why": "Feminine pronouns suggest a female dog, not Overko."
+     },
+     {
+      "id": "E13b",
+      "answer": "yes",
+      "quote": "Well, and what about me? What, have you forgotten?",
+      "why": "Following \"what about me\", the dog is the one that has forgotten him."
+     }
+    ],
+    "other": []
+   }
+  ]
+ }
+}

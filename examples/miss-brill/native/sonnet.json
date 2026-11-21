@@ -1,0 +1,1228 @@
+{
+ "judge": "native",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9e07e11e332b",
+ "usage": {
+  "input_tokens": 74,
+  "cache_creation_input_tokens": 75635,
+  "cache_read_input_tokens": 760628,
+  "output_tokens": 21143
+ },
+ "result": {
+  "paragraphs": [
+   {
+    "n": 0,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "розтеклися по Публічному саду",
+      "reader_gets": "An ordinary public park, capitalised, with no hint of a French town.",
+      "rating": "missing"
+     },
+     {
+      "id": "E2a",
+      "quote": "вирішила вдягти своє хутро",
+      "reader_gets": "The fur is named «хутро» both times here, the same noun as in block 13 («її хутро») and block 17 («виймали хутро»).",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "коли розтуляєш рота, відчуваєш ледь помітний холодок, як від склянки з льодяною водою, перш ніж зробиш ковток",
+      "reader_gets": "A general sensation in an impersonal second-person verb with no pronoun, the natural Ukrainian way; the comparison flows.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "ледь помітний холодок",
+      "reader_gets": "A faint chill, in the same words block 9 uses for the chill in the music.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Любе маленьке створіння!",
+      "reader_gets": "The fur is addressed as a dear little living creature.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "добре вичесала й повернула життя тьмяним оченятам",
+      "reader_gets": "She combed the fur and restored life to the eyes; nothing says her hand rubbed or polished the eyes.",
+      "rating": "missing"
+     },
+     {
+      "id": "E6b",
+      "quote": "повернула життя тьмяним оченятам",
+      "reader_gets": "The dull eyes are brought back to life.",
+      "rating": "native"
+     },
+     {
+      "id": "E6c",
+      "quote": "повернула життя тьмяним оченятам",
+      "reader_gets": "The revival is an abstract act. No rubbing of the eyes produces it.",
+      "rating": "missing"
+     },
+     {
+      "id": "E7a",
+      "quote": "«Що зі мною скоїлося?» — питали сумні оченята.",
+      "reader_gets": "The eyes plainly ask the question, with no hedge.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "знову зблискують на неї",
+      "reader_gets": "The eyes flash brightly at her, alive again.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "дістала його з коробки",
+      "reader_gets": "The fur comes out of a box, the same «коробка» that lies on the bed in block 17.",
+      "rating": "native"
+     },
+     {
+      "id": "E9b",
+      "quote": "з червоної пухової ковдри",
+      "reader_gets": "A red eiderdown on the bed, the same words as «червону пухову ковдру» in block 17.",
+      "rating": "native"
+     },
+     {
+      "id": "E10a",
+      "quote": "зроблений з якоїсь чорної маси",
+      "reader_gets": "The nose is made of some black stuff, clearly a cheap material.",
+      "rating": "native"
+     },
+     {
+      "id": "E11a",
+      "quote": "зовсім не тримався міцно",
+      "reader_gets": "The nose is not firm at all; the negation is total.",
+      "rating": "native"
+     },
+     {
+      "id": "E12a",
+      "quote": "Пустунець!",
+      "reader_gets": "A fond name for a mischievous little one.",
+      "rating": "native"
+     },
+     {
+      "id": "E13a",
+      "quote": "ні, не сумне, точніше — щось ніжне",
+      "reader_gets": "«ні, не сумне» reads as a flat denial; «точніше» only half-signals that the word was imprecise.",
+      "rating": "weak"
+     },
+     {
+      "id": "E14a",
+      "quote": "щось легке й сумне — ні, не сумне, точніше — щось ніжне",
+      "reader_gets": "Both mentions call the stirring only «щось», never naming it as a feeling.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "було чимало людей, куди більше, ніж минулої неділі",
+      "reader_gets": "A good crowd, far more people than the week before.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Бо хоча оркестр грав щонеділі цілий рік, поза сезоном це було зовсім не те.",
+      "reader_gets": "The meaning is clear, but the sentence opens on a stiff stacked «Бо хоча» that reads as translated.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E3a",
+      "quote": "Наче хтось грає, і слухає його лише рідня; йому байдуже, як він грає, коли немає чужих.",
+      "reader_gets": "A homely picture of someone playing for family alone and not bothering when no strangers are there; it reads naturally.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "А чи не в новому сурдуті диригент?",
+      "reader_gets": "A stand-alone question about the coat; nothing marks it as one more sign of the season.",
+      "rating": "missing"
+     },
+     {
+      "id": "E5a",
+      "quote": "як півень, що ось-ось заспіває",
+      "reader_gets": "A cock gathering itself just before it crows.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "сердито дивилися в ноти",
+      "reader_gets": "The players glare angrily at their parts.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "дивилися в ноти",
+      "reader_gets": "They stare at the sheet music on their stands.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "«флейтовий» пасаж",
+      "reader_gets": "Quotation marks set the word off as her own.",
+      "rating": "native"
+     },
+     {
+      "id": "E7b",
+      "quote": "«флейтовий» пасаж",
+      "reader_gets": "A standard adjective plus a technical noun; nothing homemade or childlike in the form, only the quotation marks.",
+      "rating": "missing"
+     },
+     {
+      "id": "E7c",
+      "quote": "— такий гарний! —",
+      "reader_gets": "Her own delighted exclamation breaks into the description.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "коротенький «флейтовий» пасаж",
+      "reader_gets": "The diminutive «коротенький» makes the passage fondly small.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Її «особливу» лавку",
+      "reader_gets": "The quotation marks show the bench is special only in her eyes: her usual spot.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "поважний старий у оксамитовому піджаку, що склав руки на величезній різьбленій палиці, і висока стара жінка, яка сиділа струнко, з клубком плетіння на вишитому фартуху",
+      "reader_gets": "A clear picture of the pair, but built from stacked relative clauses («що… яка…») with an odd «клубком плетіння» and a clumsy «у оксамитовому».",
+      "rating": "foreign"
+     },
+     {
+      "id": "E3a",
+      "quote": "Це розчаровувало, бо міс Брилль завжди чекала на розмови.",
+      "reader_gets": "A mild let-down, put with a plain finite verb that reads naturally.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "стала справжньою майстринею",
+      "reader_gets": "She claims to be genuinely masterly at it.",
+      "rating": "native"
+     },
+     {
+      "id": "E4b",
+      "quote": "справжньою майстринею",
+      "reader_gets": "An everyday, homely word for skill, with no professional title.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "як їй здавалося",
+      "reader_gets": "The skill is framed as her own impression.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "слухати так, ніби не слухаєш",
+      "reader_gets": "She listens while making it look as if she isn't.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "ненадовго влаштовуватися в чужих життях",
+      "reader_gets": "For a short while she places herself inside other people's lives.",
+      "rating": "native"
+     },
+     {
+      "id": "E7b",
+      "quote": "влаштовуватися в чужих життях",
+      "reader_gets": "She settles herself in, an active settling down rather than a still, seated presence.",
+      "rating": "missing"
+     },
+     {
+      "id": "E7c",
+      "quote": "влаштовуватися в чужих життях",
+      "reader_gets": "There is no sitting image, so no sitting puts her inside their lives.",
+      "rating": "missing"
+     },
+     {
+      "id": "E8a",
+      "quote": "Вона вже стала справжньою майстринею, як їй здавалося, слухати так, ніби не слухаєш, і ненадовго влаштовуватися в чужих життях",
+      "reader_gets": "The thought gets through, but «майстринею… слухати» hangs infinitives off a noun, with the parenthetical wedged in between; it reads as copied from English.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "глянула на стару пару",
+      "reader_gets": "The pair is plainly called old.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Англієць із дружиною: він у жахливому капелюсі-панамі, вона — у черевиках на ґудзиках.",
+      "reader_gets": "A crisp verbless snapshot of each by one item of dress, natural in Ukrainian.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "весь час торочила",
+      "reader_gets": "Her talk is tiresome, repetitive nagging.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "торочила про те, що їй слід носити окуляри",
+      "reader_gets": "She kept saying she ought to wear spectacles.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "вона знала, що вони їй потрібні, але що купувати їх марно: вони неодмінно поламаються й не триматимуться",
+      "reader_gets": "Her rambling excuse comes through, but «але що» resumes the reported clause the English way and sounds translated.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E6a",
+      "quote": "не триматимуться",
+      "reader_gets": "The spectacles wouldn't stay on her face.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "маленькі подушечки на переніссі",
+      "reader_gets": "Nose pads where the spectacles rest on the nose, clearly meant to stop slipping.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "Міс Брилль кортіло її струснути.",
+      "reader_gets": "She itched to give the woman a physical shake.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Нічого, завжди є натовп",
+      "reader_gets": "Her brisk «never mind» shrug, the same «Нічого» she used about the fur's nose.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "крихітка, що ледве тримається на ногах",
+      "reader_gets": "A standard fond word for a little child, with the wobble described separately; no playful coinage.",
+      "rating": "missing"
+     },
+     {
+      "id": "E2b",
+      "quote": "сідала — «гульк»",
+      "reader_gets": "A sound-word marks the sit-down, but «гульк» suggests sudden vanishing more than a plop, so the bump is blurred.",
+      "rating": "weak"
+     },
+     {
+      "id": "E3a",
+      "quote": "дрібна й гоноровита, мов молода курка",
+      "reader_gets": "The mother is small and haughty; no high-stepping gait explains the hen.",
+      "rating": "missing"
+     },
+     {
+      "id": "E4a",
+      "quote": "аж поки її мати, дрібна й гоноровита, мов молода курка, з докорами прибігала рятувати",
+      "reader_gets": "The clause flows naturally, with the modifiers placed after the noun.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "майже в кожному з них було щось кумедне",
+      "reader_gets": "Nearly all of them have something comical about them.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "з того, як вони втуплювалися, здавалося",
+      "reader_gets": "Their fixed stare makes them seem just out of the dark.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "з темних комірчин",
+      "reader_gets": "Small, dark little rooms.",
+      "rating": "native"
+     },
+     {
+      "id": "E7b",
+      "quote": "навіть із шаф",
+      "reader_gets": "Cupboards, places where things are stored away.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "чи навіть — навіть із шаф!",
+      "reader_gets": "The cupboards go one step further than the rooms.",
+      "rating": "native"
+     },
+     {
+      "id": "E8b",
+      "quote": "чи навіть — навіть із шаф!",
+      "reader_gets": "A hesitation, repetition and exclamation mark it as her gleeful flourish.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "з пожовклим листям, що сумно звисає",
+      "reader_gets": "The leaves hang down, and «сумно» adds a mournful droop, but nothing says they are slack or wilting.",
+      "rating": "weak"
+     },
+     {
+      "id": "E1b",
+      "quote": "з пожовклим листям, що сумно звисає",
+      "reader_gets": "The leaves are still on the trees, hanging.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "з пожовклим листям, що сумно звисає",
+      "reader_gets": "A plain relative clause in natural order, with no calqued participle.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "стрункі дерева з пожовклим листям, що сумно звисає",
+      "reader_gets": "Mostly ordinary descriptive prose; only «сумно» gives a faint lyric tint, with no poetic word order.",
+      "rating": "weak"
+     },
+     {
+      "id": "E4a",
+      "quote": "видно лише смужку моря",
+      "reader_gets": "Only a strip of sea is visible.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "а за нею — блакитне небо з позолоченими хмарами",
+      "reader_gets": "The blue sky is the last thing seen, with the clouds in it.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "смужку моря, а за нею — блакитне небо з позолоченими хмарами",
+      "reader_gets": "A still view; nothing moves or sparkles.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "з позолоченими хмарами",
+      "reader_gets": "The clouds are gilded all over; there are no fine lines of gold.",
+      "rating": "missing"
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Тум-тум-тум, тіддл-ум! тіддл-ум! тум тіддлі-ум тум та!",
+      "reader_gets": "The tune is printed as sounds the reader hears.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "Тум-тум-тум, тіддл-ум! тіддл-ум! тум тіддлі-ум тум та!",
+      "reader_gets": "Everything is in Cyrillic and can be sounded out.",
+      "rating": "native"
+     },
+     {
+      "id": "E1c",
+      "quote": "Тум-тум-тум, тіддл-ум! тіддл-ум!",
+      "reader_gets": "Heavy «тум» beats alternate with a lighter, twirling «тіддл-ум».",
+      "rating": "native"
+     },
+     {
+      "id": "E1d",
+      "quote": "Тум-тум-тум, тіддл-ум! тіддл-ум! тум тіддлі-ум тум та!",
+      "reader_gets": "A whole jaunty phrase of several groups.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "награвав оркестр",
+      "reader_gets": "The band simply plays; no blowing or breath recalls the puffed cheeks of block 1.",
+      "rating": "missing"
+     },
+     {
+      "id": "E3a",
+      "quote": "награвав оркестр",
+      "reader_gets": "The band itself produces the sounds, like a speaker of a line.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "тіддл-ум! тіддл-ум! тум тіддлі-ум",
+      "reader_gets": "The beats land, but «тіддл-ум/тіддлі-ум» is English humming transliterated letter by letter and looks like a foreign word rather than Ukrainian sound-imitation.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 7,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "в кумедних солом'яних капелюхах",
+      "reader_gets": "The straw hats strike the onlooker as comical.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "а який кумедний дідок із довгими бакенбардами",
+      "reader_gets": "The whiskered old man is comical to her.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Господи!",
+      "reader_gets": "A mild, old-fashioned exclamation of surprise in her own voice.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "зустрілися горностаєва шапочка й добродій у сірому",
+      "reader_gets": "The woman appears as her ermine hat itself.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "Горностаєва шапочка лишилася сама",
+      "reader_gets": "The hat is what is left alone, and the hat is also what turns and leaves.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "рука в чищеній рукавичці",
+      "reader_gets": "A glove that has been cleaned: old but made presentable.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "була крихітною жовтуватою лапкою",
+      "reader_gets": "Her hand is a tiny yellowish animal paw.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "і прудко пішла геть",
+      "reader_gets": "She leaves quickly, but «пішла» is a plain walking-off with no scurry of little steps.",
+      "rating": "weak"
+     },
+     {
+      "id": "E6a",
+      "quote": "а рука в чищеній рукавичці, піднесена, щоб торкнутися губ, була крихітною жовтуватою лапкою",
+      "reader_gets": "The image arrives, but propped up by an inserted participial phrase («піднесена, щоб…») in English order; it reads as translated.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E7a",
+      "quote": "Вона майже думала, що вони сьогодні зустрінуться.",
+      "reader_gets": "She half expected the meeting, not a date, but «майже думала» is a stiff calque.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E8a",
+      "quote": "День такий чарівний — хіба він не згоден?",
+      "reader_gets": "Lively present-tense chatter that sounds like her own.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "І чи не міг би він, може?..",
+      "reader_gets": "A separate, timid request of him.",
+      "rating": "native"
+     },
+     {
+      "id": "E9b",
+      "quote": "І чи не міг би він, може?..",
+      "reader_gets": "It breaks off; what she wants is never said.",
+      "rating": "native"
+     },
+     {
+      "id": "E10a",
+      "quote": "він похитав головою, запалив цигарку, повільно випустив їй в обличчя великий глибокий клуб диму і, поки вона ще говорила й сміялася, жбурнув сірник і пішов далі",
+      "reader_gets": "Every slight is there: the head-shake, the cigarette, smoke into her face, the match flung away, and his walking on.",
+      "rating": "native"
+     },
+     {
+      "id": "E10b",
+      "quote": "повільно випустив їй в обличчя",
+      "reader_gets": "The smoke is blown slowly, on purpose.",
+      "rating": "native"
+     },
+     {
+      "id": "E10c",
+      "quote": "поки вона ще говорила й сміялася, жбурнув сірник і пішов далі",
+      "reader_gets": "He walks off while she is still talking and laughing.",
+      "rating": "native"
+     },
+     {
+      "id": "E11a",
+      "quote": "Горностаєва шапочка лишилася сама; вона всміхнулася яскравіше, ніж будь-коли.",
+      "reader_gets": "The feminine «шапочка» agrees cleanly with feminine verbs and pronouns in both places.",
+      "rating": "native"
+     },
+     {
+      "id": "E12a",
+      "quote": "«Бридкий! Бридкий!»",
+      "reader_gets": "The man is called repulsive or nasty: a moral distaste, but not clearly the brand of a cruel villain or beast.",
+      "rating": "weak"
+     },
+     {
+      "id": "E12b",
+      "quote": "«Бридкий! Бридкий!»",
+      "reader_gets": "Strong but not vulgar.",
+      "rating": "native"
+     },
+     {
+      "id": "E13a",
+      "quote": "підвелася й подалася геть",
+      "reader_gets": "The old couple simply get up and leave; there is no march.",
+      "rating": "missing"
+     },
+     {
+      "id": "E13b",
+      "quote": "поспішав у такт музиці",
+      "reader_gets": "The old man moves in time to the music.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 8,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Це було наче вистава. Достоту як вистава.",
+      "reader_gets": "The likeness steps up from «наче» to «достоту».",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "Усі вони були на сцені.",
+      "reader_gets": "Stated as plain fact, as are «вони грали» and «Вона на сцені».",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Хто б повірив, що небо позаду не намальоване?",
+      "reader_gets": "The sky looks so painted that one can hardly believe it is real.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "поважно вибіг на сцену й так само повільно потрюхикав геть",
+      "reader_gets": "A clear stage entrance and exit.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "Але тільки коли маленький коричневий собака поважно вибіг на сцену й так само повільно потрюхикав геть, наче «театральний» собака, собака, якого напоїли снодійним, міс Брилль збагнула, чому все це так хвилює.",
+      "reader_gets": "Clear in sense, but the calqued «тільки коли» frame, the dangling double «собака, собака», the late main clause and the vague «все це» read as translated.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E5a",
+      "quote": "Вони не лише публіка, не лише дивилися збоку; вони грали.",
+      "reader_gets": "They are not only spectators but performers too.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "чому вона так наполягала, щоб виходити з дому щотижня в один і той самий час",
+      "reader_gets": "She deliberately insisted on leaving at the same time.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "старого немічного пана",
+      "reader_gets": "A frail, infirm old man.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "запалих очей",
+      "reader_gets": "Sunken eyes.",
+      "rating": "native"
+     },
+     {
+      "id": "E8b",
+      "quote": "високого загостреного носа",
+      "reader_gets": "A nose sharpened as by illness.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "їй було б байдуже",
+      "reader_gets": "His death would have made no difference to her.",
+      "rating": "native"
+     },
+     {
+      "id": "E10a",
+      "quote": "Стара голова піднялася",
+      "reader_gets": "The head itself lifts; he is seen as parts.",
+      "rating": "native"
+     },
+     {
+      "id": "E10b",
+      "quote": "у старих очах затремтіли дві іскорки",
+      "reader_gets": "Two faint glints tremble in his eyes.",
+      "rating": "native"
+     },
+     {
+      "id": "E11a",
+      "quote": "«Акторка — он як?»",
+      "reader_gets": "«он як» gives a mildly colloquial tone, but nothing is distinctly old-fashioned or regional and there is no folksy address.",
+      "rating": "weak"
+     },
+     {
+      "id": "E12a",
+      "quote": "«Так, я вже давно акторка»",
+      "reader_gets": "She is an actress now and has been one for a long time.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 9,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "І те, що вони грали, було тепле, сонячне, але в ньому відчувався ледь помітний холодок",
+      "reader_gets": "The meaning comes through, but a whole clause «те, що вони грали» serves as the subject of «було тепле», mirroring the English skeleton.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E2a",
+      "quote": "в ньому відчувався ледь помітний холодок",
+      "reader_gets": "The same faint chill as in the opening, word for word.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "не смуток — ні, не смуток",
+      "reader_gets": "Sadness is named and refused.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "не смуток — ні, не смуток",
+      "reader_gets": "The refusal is repeated with a «ні»: she is talking herself out of it.",
+      "rating": "native"
+     },
+     {
+      "id": "E3c",
+      "quote": "щось, що ж це було? — не смуток — ні, не смуток — щось, від чого хотілося співати",
+      "reader_gets": "It stays an unnamed «щось» both times.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "Мелодія здіймалася, здіймалася",
+      "reader_gets": "The tune keeps climbing.",
+      "rating": "native"
+     },
+     {
+      "id": "E4b",
+      "quote": "Молоді, ті, що сміються й ходять парами, почнуть першими, а до них приєднаються чоловічі голоси",
+      "reader_gets": "The young come in first, then the men, then she and the bench-sitters, in order.",
+      "rating": "native"
+     },
+     {
+      "id": "E4c",
+      "quote": "А тоді й вона, і вона також",
+      "reader_gets": "Her own entry is singled out and stressed.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "усі вони, вся ця компанія",
+      "reader_gets": "The whole gathering, herself included («всіх інших членів компанії»).",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "вся ця компанія",
+      "reader_gets": "«компанія» reads as an ordinary group of people, not a theatre troupe.",
+      "rating": "missing"
+     },
+     {
+      "id": "E5c",
+      "quote": "всіх інших членів компанії",
+      "reader_gets": "No theatre word names the crowd, so the play of block 8 is not carried on.",
+      "rating": "missing"
+     },
+     {
+      "id": "E6a",
+      "quote": "почнуть першими, а до них приєднаються чоловічі голоси",
+      "reader_gets": "All entries stay in the imagined future; no one actually sings.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "вони вступлять як супровід",
+      "reader_gets": "They would come in musically as an accompaniment.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "А тоді й вона, і вона також, і інші на лавках — вони вступлять як супровід, щось низьке, що ледь здіймається й спадає, щось таке прекрасне — зворушливе...",
+      "reader_gets": "Reads as excited, halting thought; the resumed subject and the trailing descriptions hold together.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "щось таке прекрасне — зворушливе...",
+      "reader_gets": "The accompaniment moves her emotionally.",
+      "rating": "native"
+     },
+     {
+      "id": "E10a",
+      "quote": "хоч що саме вони розуміють, вона не знала",
+      "reader_gets": "She cannot say what exactly it is that they all understand.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 10,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "хлопець і дівчина",
+      "reader_gets": "A young courting couple, not children.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Герой і героїня",
+      "reader_gets": "The male and female leads of her imagined show.",
+      "rating": "native"
+     },
+     {
+      "id": "E2b",
+      "quote": "Герой і героїня, звісно",
+      "reader_gets": "Cast outright as the leads, with no comparison.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "звісно",
+      "reader_gets": "For her the casting goes without saying.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "щойно з яхти його батька",
+      "reader_gets": "The yacht is clearly the young man's father's.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "беззвучно співаючи",
+      "reader_gets": "Her singing is wholly soundless, inside her.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "все ще беззвучно співаючи, все ще з тремтливою усмішкою",
+      "reader_gets": "Song and smile carry on from the moment before.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "приготувалася слухати",
+      "reader_gets": "The listening is still ahead; she gets ready for it.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "І, все ще беззвучно співаючи, все ще з тремтливою усмішкою, міс Брилль приготувалася слухати.",
+      "reader_gets": "A literary period with a deliberate repeated «все ще»; it reads as acceptable Ukrainian prose.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 11,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "— Ні, не зараз, — сказала дівчина.",
+      "reader_gets": "She refuses something left unnamed.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "Не тут, я не можу.",
+      "reader_gets": "No feeling or motive of hers is given.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Не тут",
+      "reader_gets": "She objects to this place, which the boy's «сюди приходить» then picks up.",
+      "rating": "native"
+     },
+     {
+      "id": "E2b",
+      "quote": "Не тут",
+      "reader_gets": "The same «не тут» she repeats in block 15.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Ні, не зараз",
+      "reader_gets": "A refusal limited to now: a putting-off.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "я не можу",
+      "reader_gets": "She is unable here, not unwilling.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Через ту дурну стару на краю?",
+      "reader_gets": "She is called a stupid old woman: a person-type insult, not an object.",
+      "rating": "missing"
+     },
+     {
+      "id": "E1b",
+      "quote": "ту дурну стару",
+      "reader_gets": "Nothing echoes «створіння» from block 0, so the reversal is not heard.",
+      "rating": "missing"
+     },
+     {
+      "id": "E2a",
+      "quote": "Чого вона взагалі сюди приходить",
+      "reader_gets": "Her coming here is a habit.",
+      "rating": "native"
+     },
+     {
+      "id": "E2b",
+      "quote": "взагалі",
+      "reader_gets": "A sweeping denial that her coming has any point at all.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "кому вона потрібна?",
+      "reader_gets": "Nobody needs her.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "свою дурну стару пику",
+      "reader_gets": "The jibe targets her face.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "пику",
+      "reader_gets": "A coarse, contemptuous word for a face, not obscene.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "Чому б їй не тримати свою дурну стару пику вдома?",
+      "reader_gets": "The sneer is clear, but «тримати… пику вдома» copies the English turn of keeping a face at home.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E7a",
+      "quote": "спитав хлопець",
+      "reader_gets": "A young man, the girl's suitor.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 13,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Це її хутро таке смішне",
+      "reader_gets": "A quick, natural spoken remark that puts the fur in the spotlight.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Це її хутро таке смішне",
+      "reader_gets": "The word «хутро» comes out whole; no giggle breaks into it.",
+      "rating": "missing"
+     },
+     {
+      "id": "E2b",
+      "quote": "захихотіла дівчина",
+      "reader_gets": "She giggles: a light, silly laugh.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "таке смішне",
+      "reader_gets": "«смішне» does not share a root with «щось кумедне» in block 4, so the echo is lost.",
+      "rating": "missing"
+     },
+     {
+      "id": "E3b",
+      "quote": "таке смішне",
+      "reader_gets": "Block 7 used «кумедних»/«кумедний»; no shared word.",
+      "rating": "missing"
+     },
+     {
+      "id": "E4a",
+      "quote": "Достоту смажений мерланг",
+      "reader_gets": "«Достоту» echoes «Достоту як вистава» from block 8.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "смажений мерланг",
+      "reader_gets": "A fried fish on a plate.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "мерланг",
+      "reader_gets": "A specific, ordinary kind of fish.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 14,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Ач ти! Облиш!",
+      "reader_gets": "«Облиш» means drop it, not go away; it does not read as ordering the girl to leave.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "— Ач ти! Облиш! — сердитим шепотом мовив хлопець.",
+      "reader_gets": "An irritated brush-off in an angry whisper, not amusement at her joke.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "ma petite chère",
+      "reader_gets": "The endearment is kept in French.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "мовив хлопець",
+      "reader_gets": "A young man, not a child.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 15,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Ще не _зараз_.",
+      "reader_gets": "«Ще не» means not yet: the moment will come.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "Ще не _зараз_.",
+      "reader_gets": "The time-word is italicised and comes last, so the stress falls on «later».",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Ні, не тут",
+      "reader_gets": "The same «тут» as in block 11 and the boy's «сюди».",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "сказала дівчина",
+      "reader_gets": "A plain «said», with no colouring.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 16,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "шматок медового пирога",
+      "reader_gets": "A slice of plain honey cake, not a layered torte.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "вона зазвичай купувала",
+      "reader_gets": "All the acts («купувала», «поспішала», «чиркала») are habitual Sunday routine.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Це мало величезне значення.",
+      "reader_gets": "The almond mattered enormously.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "Це мало величезне значення.",
+      "reader_gets": "Stated flatly, with no framing or belittling.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "щось, чого цілком могло б і не бути",
+      "reader_gets": "Something that could just as well not have been there.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "У ті мигдальні неділі",
+      "reader_gets": "Her own compact label for those Sundays.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "якось по-лихацьки",
+      "reader_gets": "A dashing little flourish.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "чиркала сірником під чайником",
+      "reader_gets": "The act is understood, but striking a match «під чайником» is an odd, literal placement; a native writer would light the gas under the kettle.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 17,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "маленьку темну кімнату",
+      "reader_gets": "A small, dark room, like those of block 4.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "свою кімнату-шафу",
+      "reader_gets": "Her room is likened to a «шафа», the same word as «із шаф» in block 4.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "сіла на червону пухову ковдру",
+      "reader_gets": "The same red eiderdown as in block 0.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Коробка, з якої виймали хутро, лежала на ліжку.",
+      "reader_gets": "A natural sentence: an impersonal «виймали» and the box «лежала».",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "розстебнула застібку на комірі; квапливо, не дивлячись, поклала його всередину",
+      "reader_gets": "She unfastens a «комір» and puts it away; a reader can infer it is the fur collar, but it could also read as a coat collar, so the fur is not unmistakable.",
+      "rating": "weak"
+     },
+     {
+      "id": "E5a",
+      "quote": "квапливо, не дивлячись, поклала",
+      "reader_gets": "The putting-in is itself hurried.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "не дивлячись",
+      "reader_gets": "She doesn't look at it.",
+      "rating": "native"
+     },
+     {
+      "id": "E5c",
+      "quote": "поклала його всередину",
+      "reader_gets": "She lays it in carefully.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "їй почулося",
+      "reader_gets": "She only seemed to hear it.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "ніби щось плаче",
+      "reader_gets": "An unnamed «щось», as in blocks 0 and 9.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "плаче",
+      "reader_gets": "Weeping, the crying of grief.",
+      "rating": "native"
+     },
+     {
+      "id": "E8b",
+      "quote": "їй почулося, ніби щось плаче",
+      "reader_gets": "The crying is right there, with no location added.",
+      "rating": "native"
+     },
+     {
+      "id": "E8c",
+      "quote": "ніби щось плаче",
+      "reader_gets": "Nothing pins down whose crying it is.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "Але коли накривала кришкою, їй почулося, ніби щось плаче.",
+      "reader_gets": "A clean, natural closing sentence.",
+      "rating": "native"
+     }
+    ]
+   }
+  ]
+ }
+}

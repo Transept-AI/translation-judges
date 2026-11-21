@@ -1,0 +1,65 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5623,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 52425
+ },
+ "result": {
+  "reading": "The chapter opens in the middle of Freya's record-hunting livestream: 350,000 people are watching, the number is climbing, and the narrator attributes the climb to the stream's switch into its Q&A. Blocks 1–2 then explain the stake (400,000 would be the coaching industry's all-time record, above Tony Bobbins's 390,000) and restate her chance in the same frame; blocks 3–7 flash back over how the stream got here, through the 200,000 plateau and the surprise segment of paid open questions; block 8 returns to this exact moment and number, and the climb continues into blocks 20 and 24.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "ця цифра стрімко зростала, бо трансляція переходила до блоку запитань і відповідей",
+    "where": "where the climbing viewer count is tied to the stream moving into the part where viewers' questions get answered",
+    "what": "The sentence does not only note that the audience grows while the format changes. It names the format change as the reason. This is the narrator reading the numbers the way Freya does, as cause and effect. It also sets up what the flashback later explains: the surprise segment of paid, unmoderated questions (block 6) is the stunt that broke the 200,000 plateau and pushed the count up to this moment (blocks 7–8). If the switch is only placed beside the rise in time, the opening reports a coincidence instead of a diagnosis.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the translation give the stream's move into the question-answering part as the reason the viewer count is climbing?",
+      "fail": "The move is joined to the rise only by a link of time or accompaniment ('as', 'while', 'when', 'with', 'and', or a separate sentence with no causal word), so the reader has to infer the cause. Also a fail: the move is missing, or the cause runs the other way."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "мала всі шанси",
+    "where": "the opening sentence, where Freya's prospects of setting a new record that day are stated",
+    "what": "The first sentence weighs Freya's day as a matter of probability and rates her prospects at their strongest. Block 1 defines the record. Block 2 then comes back in the same frame (Freya, a time word, her chance, the goal), raises the goal from a record to beating the old best by a margin, and dismisses the idea that any of it is mere luck. A reader of the original hears block 2 picking up the opening line, so the chance-versus-luck thread starts in the very first sentence. If the opening speaks of trajectory or certainty instead, block 2's restatement no longer sounds like a return.",
+    "risk": "medium",
+    "recurs_in": [
+     2
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the opening sentence frame Freya's prospect of a new record in terms of her chance or chances (odds, or a shot at it, also count), the notion block 2 returns to?",
+      "fail": "The prospect is expressed without that notion. Examples: she is on track, poised, set, likely, about to, in a position to, or has an opportunity to set the record, or the sentence simply says she would set it."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "Просто зараз її стрим дивилися триста п'ятдесят тисяч людей, і ця цифра стрімко зростала, бо трансляція переходила до блоку запитань і відповідей.",
+    "where": "the second sentence: how many people are watching her stream at that very moment, that the number is climbing fast, and that the stream is moving into the part where viewers' questions get answered",
+    "what": "The sentence gives the live count at that instant, says it is climbing fast, and says why. The original puts the stream first and saves the big number for the end of its clause. It then points back at the number with a demonstrative and closes on a cause clause that names the broadcast's segment in event-programme terms. A close rendering gives English a passive with the audience as agent, a stiff pointer back to the number and a spelled-out programme label, so the novel's second sentence reads as translated. The sentence has to be rebuilt around the count.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It carries over a foreign shape. Examples: a simple-past passive with the audience as agent (her stream was watched by …); the number written as digits plus the word thousand; a stiff demonstrative pointing back to the number; or the Q&A named by a clunky spelled-out label such as a block of questions and answers."
+     }
+    ]
+   }
+  ]
+ }
+}

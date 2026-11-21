@@ -1,0 +1,53 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 562,
+  "cache_read_input_tokens": 1422,
+  "output_tokens": 1750
+ },
+ "result": {
+  "edited": "..... I open my eyes and suddenly see in the windows the deep sky and the branches of a birch. A cuckoo is calling. It strikes a great crystal bell with a little hammer, cuckoo! cuckoo! and sows silence over the grass. I suddenly picture the green yard, which has already swallowed up my room. I leap out of bed and call through the window to the cuckoo: cuckoo... cuckoo... Good morning! Ah, how much of everything there is: sky, sun, merry green.\n\nI run out into the yard. There iron chains clank and dogs bark furiously. Big white sheepdogs, like bears, leap on their hind paws, and their long shaggy coats leap with them. I come closer. Well, what is it, dog... what is your name? Come now, enough, Overko... He neither hears nor sees. Red eyes leap, a broad forehead leaps, and white furry leggings. A fury, all teeth, strains and cannot quite burst out of the deep maw, and only tosses up a haystack of fur. Well, what is it, Overko. Why do your red eyes burn, melting fear and hatred together in the fire? I am no enemy to you, and I am not afraid of you. At most you could tear a piece from my flesh, or draw some blood from my calf... Ah, what a trifle that is! What a trifle, if only you knew... Hush now, dog, hush. True, I understand, the chain... Perhaps you are angrier at it than at me. It is because of the chain that your front paws must grab at the air; it seizes you by the throat and drives your fiery rage back down it. Wait a little. Soon you will be free. What will you do to me then? Well, stand still, don't fidget, until they take the chain off you... and now go on. Where are you going, where? Ha-ha! Silly mutt. Eyes shut, head to one side, all four legs together, and off he tears without a thought, blind. He rips up the grass with his claws, flings it behind him, and the matted tufts on his hindquarters fly after him. Well, and what about me? What, have you forgotten?",
+  "changes": [
+   {
+    "before": "It strikes with a little hammer on a great crystal bell",
+    "after": "It strikes a great crystal bell with a little hammer",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Good morning!..",
+    "after": "Good morning!",
+    "kind": "error",
+    "category": "punctuation"
+   },
+   {
+    "before": "their long shaggy wool leaps with them",
+    "after": "their long shaggy coats leap with them",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "a haystack of wool",
+    "after": "a haystack of fur",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "grab at the air, it throttles you by the throat and drives your fiery rage back down into it",
+    "after": "grab at the air; it seizes you by the throat and drives your fiery rage back down it",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "off she tears without a thought, blind. She rips up the grass with her claws, flings it behind her, and the matted tufts on her hindquarters fly after her",
+    "after": "off he tears without a thought, blind. He rips up the grass with his claws, flings it behind him, and the matted tufts on his hindquarters fly after him",
+    "kind": "error",
+    "category": "grammar"
+   }
+  ]
+ }
+}

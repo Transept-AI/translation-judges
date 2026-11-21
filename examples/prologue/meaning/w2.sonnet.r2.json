@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 561,
+  "cache_read_input_tokens": 3182,
+  "output_tokens": 530
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 21,
+    "quote": "\"Do you take it in the cheek?\"",
+    "kind": "idiom",
+    "wrong": "The Ukrainian «Береш за щоку?» is vulgar slang asking whether she performs oral sex. The literal English reads as an odd, unclear question, so the reader misses that the trolls are making an obscene sexual taunt.",
+    "severity": 1
+   }
+  ]
+ }
+}

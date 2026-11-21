@@ -1,0 +1,138 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5733,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 71133
+ },
+ "result": {
+  "reading": "In free indirect voice, Freya already claims the industry record she has not yet reached (block 1). She sizes up the rival guru, a send-up of Tony Robbins, belittles his best-ever 390,000, and waves off any talk of luck with a borrowed maxim. Block 20, where her count hits 390,000, points back to this benchmark without naming him, and fortune's smile here opens the page's run of smiles through blocks 18 and 21 to her first sincere smile as the money pours in at the end of block 24. Her boast of preparation is quietly undercut by the twenty-minute donation gimmick of block 6 that actually drives the numbers.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "allusion",
+    "source": "Тоні Боббінс",
+    "where": "where the famous, extremely rich rival coach is named",
+    "what": "A send-up of Tony Robbins, the American motivational guru. The first name is kept, one letter of the surname is swapped, and everything said about him here fits the real man. The altered name lets the satire jeer at the coaching industry's biggest star behind a thin fictional cover. The reader is meant to see the real man through it, and Freya's gloating is aimed at him.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the rival coach's name still recognisably echo Tony Robbins (first name kept, a surname that sounds like his)?",
+      "fail": "The name is translated, respelled or replaced so that an English reader would not think of Tony Robbins."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is the name still an altered one rather than the real one?",
+      "fail": "The translation gives the real name Tony Robbins, or names any other real person."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "і то",
+    "where": "right after the rival's best-ever audience figure, where his long career and his worldwide recognisability are added",
+    "what": "The particle that opens this afterthought turns the two details after it into aggravating circumstances. He needed a long career and universal recognition to reach even that modest figure, so Freya, who has neither, is outdoing him. It is the second twist of the knife after the figure itself is belittled, and it carries her gloating. Without it the two details read as neutral biography, or even as praise of him.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is it clear that his long career and his famous face count against his figure, i.e. he had all that and still reached only so many?",
+      "fail": "The two details are given as plain facts about him, as praise, or as something that happened afterwards, with nothing setting them against the smallness of his figure."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "після десятиліть на ринку",
+    "where": "where the rival's decades in the coaching trade are mentioned, among his advantages",
+    "what": "A stock business formula for how long a company or brand has operated in its market, applied to the guru as if he were a firm. It means decades as an established player, one of the advantages that make his figure look small. Rendered word for word, it lands on English idioms that, said of a person, mean being up for sale (for decades, so unsold) or being single and available. That turns the advantage into a failure and stumbles into the dating jokes of blocks 9 and 15.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Do the decades read as years he spent active and established in the coaching business?",
+      "fail": "The phrase used is one that, said of a person in ordinary English, means being for sale or long unsold, or being single and available."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "Навіть знаменитий і непристойно багатий Тоні Боббінс у свої найкращі часи збирав лише триста дев'яносто тисяч, і то після десятиліть на ринку та з обличчям, яке впізнавав увесь світ!",
+    "where": "the exclamatory sentence about the rival coach's best-ever audience and the advantages he had",
+    "what": "One exclamation carries the rival's epithets, his peak years and his belittled figure. Then comes a tacked-on afterthought joining two unlike advantages: a span of time in the trade, and his worldwide recognisability spelled out as a full relative clause. The afterthought hangs on a particle English has no single word for. Kept close to the original's order, the tail becomes a stiff chain of joined phrases and the peak years an odd time phrase; a native writer would recast it so the gloat stays quick and pointed.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The sentence reads as carried over: a stiff chain of phrases tacked onto the figure, a clumsy relative clause about the face, an odd phrase for his best years, or a shape the reader must reread to see what attaches to what."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "link",
+    "source": "пробити цю стелю із запасом",
+    "where": "where Freya's chance to surpass the rival's top figure and secure lasting fame is stated",
+    "what": "A measure of degree: she would not scrape past his figure by a hair but clear it comfortably, as the record of block 1 would. It feeds her triumphalism: not equalling the master but beating him outright. Dropped, the sentence promises only a bare pass. Read literally, the idiom turns into talk of reserves that makes no sense here.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does the translation say she would clear that ceiling or top figure by a comfortable margin, rather than merely get past it?",
+      "fail": "The margin is missing, or the phrase is rendered in an unrelated literal sense about reserves or stores."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "allusion",
+    "source": "фортуна всміхається лише підготовленим умам і рукам, готовим діяти",
+    "where": "the closing maxim with which Freya rejects the idea that it is all luck",
+    "what": "Freya's credo is Louis Pasteur's famous dictum about chance and the prepared mind, perhaps crossed with the Latin proverb about fortune and the bold. She adds hands as a self-help flourish about action. The reader is meant to recognise borrowed wisdom: a coach passing off a scientist's line as her own insight, which the improvised gimmick of block 6 quietly undercuts.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the maxim keep the prepared mind (or minds) as the one that luck, fortune or chance favours, so a reader can recognise Pasteur's dictum?",
+      "fail": "The prepared mind is dissolved into general readiness, effort or prepared people, or the luck figure is dropped, so the famous line is no longer recognisable."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "motif",
+    "source": "фортуна всміхається",
+    "where": "in the closing maxim, at what fortune is said to do to the prepared",
+    "what": "The maxim gives fortune a smile, the first smile in the text. Freya then smiles at her own joke in block 18 and keeps smiling through the trolls in block 21. In the closing line of block 24, as the donations pour in, she smiles sincerely for the first time: fortune has done for her what the maxim promised, and she answers it. The original uses the same verb each time, so that closing smile reads as a reply to this line.",
+    "risk": "medium",
+    "recurs_in": [
+     18,
+     21,
+     24
+    ],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is fortune's action in the maxim a smile, the same notion as Freya's smiles in blocks 18, 21 and 24?",
+      "fail": "Fortune is given some action other than smiling, so nothing in the line connects to the later smiles."
+     }
+    ]
+   }
+  ]
+ }
+}

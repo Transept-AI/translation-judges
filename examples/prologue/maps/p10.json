@@ -1,0 +1,68 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3640,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 47221
+ },
+ "result": {
+  "reading": "This is the first paid, unmoderated question the reader sees, and it arrives right after Freya's resolve in block 9 not to let the Q&A turn into a collective Tinder date. Its opening sounds like exactly that kind of personal question, and its follow-up turns it into a mother's earnest, exasperated question about succeeding with four children. Block 11 rests on it: Freya's urge to say it can't be done, the mothers on leave who make up nearly half her audience, and the guess that this woman paid with her children's lunch money; block 12 then answers it by redefining the asker's own keyword. The questions slide into the dating genre that block 9 feared only at blocks 13–16, so this paragraph is the near miss before the slide.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "«У вас є діти?» … коли їх у тебе четверо",
+    "where": "the stranger's second question, about success and having four children",
+    "what": "The first question addresses Freya with the polite form. The second drops into the generic second person that Ukrainian uses for anyone in a given situation, and here the situation is the asker's own. She is the parent of four, and her question is about her own prospects, half plea and half complaint. English has a single 'you' for both forms, so a translator can easily aim the second question at Freya, as if the four children were hers, or turn it into a hypothetical put to her. Block 11 needs the asker to be a mother of four herself: Freya's urge to answer that it can't be done, her audience of mothers on leave, and the guess that this woman's donation came out of her children's lunch money all depend on it.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Can the second question be read as being about the asker's own situation, or about anyone with four children, rather than about Freya's children?",
+      "fail": "The translation makes the four children Freya's (speaks to her of them as hers). It also fails if it turns having four children into a counterfactual (what someone would do if they had four), so the four children are no longer a fact of the asker's life."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "Як досягти успіху",
+    "where": "the stranger's second question, where she asks about success with four children",
+    "what": "The stranger frames her life in the coaching industry's own keyword, the notion of success that this whole stream trades on. Freya's rehearsed answer at block 12 seizes that very word and redefines it: everyone decides for themselves what it means, and the children are the capital. At block 23 the narrator returns to it with an ironic stress on the 'real' success Freya believes she is selling. If the question becomes one about coping or managing, Freya's answer no longer visibly turns the asker's own word back on her, and the irony at block 23 loses an anchor.",
+    "risk": "medium",
+    "recurs_in": [
+     12,
+     23
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the stranger's second question ask about success itself (the notion Freya redefines at block 12 and the narrator calls 'real' success at block 23), using a form of success, succeed or successful, or a set idiom whose standard meaning is to succeed?",
+      "fail": "The question is about coping, managing, balancing, finding time, getting things done or achieving anything at all, and no word or set idiom for succeeding appears."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "Як досягти успіху, коли їх у тебе четверо?",
+    "where": "the stranger's second question, about success and having four children",
+    "what": "This is the real question: a mother of four putting her own predicament to the success coach. The original builds it as an impersonal infinitive question, which is an ordinary spoken shape in Ukrainian. That is followed by a possessive clause that saves the number of children for the end, for weight. English has no spoken equivalent of the infinitive shape. Carried over closely, it reads as a headline or a search-bar query rather than something a woman types to her idol, and the clause about the four children tends to come out stiff.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The question is a bare 'How to …?' infinitive line of the kind used for headlines or search queries. It also fails if the wording about having four children is stiff or ungrammatical in a way a native writer would not produce."
+     }
+    ]
+   }
+  ]
+ }
+}

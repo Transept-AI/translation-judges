@@ -1,0 +1,84 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1428,
+  "cache_read_input_tokens": 577,
+  "output_tokens": 1373
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "I have no Plan B other than continuing my studies at Cisame,",
+    "kind": "register",
+    "weight": 1
+   },
+   {
+    "quote": "Mage training was astronomically expensive. Hundreds of Ethons.",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "not merely for a place at CISAME",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "For CISAME residents, the Card even covered expenses like designer outfits and cozy houses.",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "And if you stayed at Cisame, you might never even have to pay interest on the endlessly compounding debt. Because in Seraph, absolutely nothing came for free.",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "Which was no easy feat—starting from the second circle, a mage was already fully capable of working; by the fourth, however, any hope of paying off debts was out the window.",
+    "kind": "structure",
+    "weight": 3
+   },
+   {
+    "quote": "uncovering the mysteries of the Plans, poetry, or metaphysically treading the gossamer layers of the True Plan",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "by the Gathers",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "Agness waited for an expository pause",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "before even reaching the fifth-circle",
+    "kind": "mechanics",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "After all, someone had to repair the megabarges. Torture demons.",
+    "why": "punchy, darkly casual list"
+   },
+   {
+    "quote": "Sift through the scrap scavenged from Shards by the Gathers to find treasures—or at least LED bulbs.",
+    "why": "funny deflating detail"
+   },
+   {
+    "quote": "Carve hearts from corpses for healing potions…",
+    "why": "grim, vivid worldbuilding"
+   },
+   {
+    "quote": "letting Theodore marinate in the unenviable prospects",
+    "why": "wry, lively verb"
+   }
+  ]
+ }
+}

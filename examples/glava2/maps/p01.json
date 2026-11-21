@@ -1,0 +1,67 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 561,
+  "cache_read_input_tokens": 4511,
+  "output_tokens": 37420
+ },
+ "result": {
+  "reading": "A one-line comic beat that answers the last sentence of block 0. The narrator has just said that muscles move under Agnes's bare stomach when she laughs or draws on a cigarette, and that she loves doing both; this line adds that she was doing both at that very moment, so the reader, like Theodore, is left to watch those muscles move. The line takes its referent and its frame wholly from block 0, and the scene later bears it out when she smiles at Theodore (block 10) and is shown smoking out of the window with the cigarette held by telekinesis (block 11). It is a deadpan close-up, given without comment, before block 2 turns the outfit into a challenge to the Academy's dress rules.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "І те, й інше",
+    "where": "where the line about what Agnes was doing refers back to the two activities she was just said to love",
+    "what": "The line opens with the same phrase that opened the closing sentence of block 0. That sentence says these are two things she loves: laughing and drawing on a cigarette, the two moments that set her stomach muscles moving. Hearing the phrase again straight away tells the reader that this line answers that one, with the same pair and a new verb, and that echo sets up the joke. If the pair shrinks to one vague thing, or turns into a stock phrase for assorted activities, the reader can no longer tell that both the laughing and the smoking are meant.",
+    "risk": "medium",
+    "recurs_in": [
+     0
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the line refer, clearly as a pair, to the two activities named just before (her laughing and her drawing on the cigarette), so that it reads as an answer to the preceding remark that she loves them?",
+      "fail": "Any of these: the pair is reduced to a single pronoun that could point to one activity or to her loving them; only one activity is meant; the pair becomes a stock phrase for assorted or miscellaneous activities; or nothing ties the line back to the previous remark."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "якраз і робила",
+    "where": "the line saying Agnes was doing the two things she loves, at the part that places her doing them in time",
+    "what": "The adverb, together with the imperfective verb, fixes the two actions in the scene's present. Right now, in her office with Theodore in front of her, she is laughing and drawing on her cigarette, so the muscles just described are moving under her bare stomach as he looks. That turn, from what she loves in general to what she happens to be doing at this instant, is the punch of the line. If the adverb is read as bare emphasis, or the verb as habitual, the line only confirms that she did both a lot. It then repeats the previous sentence and loses the live image that block 11 later bears out.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the translation make clear that Agnes was doing both at that very moment of the scene, with a word or phrase pointing to that moment, rather than stating it as a habit or as a bare report?",
+      "fail": "Either of these: the line reads as a habit or general fact (that she did both often, or did indeed do both); or it says only that she did or was doing both, with nothing pointing to that very moment."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "І те, й інше Агнес якраз і робила.",
+    "where": "the short line, right after she is said to love laughing and smoking, stating that Agnes was doing both of them right then",
+    "what": "The original puts the pair first, as the object, ahead of subject and verb, so the line starts exactly as the one before it did. It also places an emphatic particle in front of the verb. English has neither that free word order nor the particle. Carried over closely, the line comes out with the object stranded at the front, a word-for-word doubling of the pair, or a pile of intensifying adverbs. The original has a crisp, dry one-liner here, and these renderings make it a clumsy beat.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At the line saying Agnes was doing both things right then, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated, through any of these: the object stranded awkwardly before subject and verb; a stilted word-for-word doubling of the pair; or two or more emphatic adverbs stacked on the verb."
+     }
+    ]
+   }
+  ]
+ }
+}

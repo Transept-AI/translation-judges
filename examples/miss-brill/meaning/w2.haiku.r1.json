@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3377,
+  "cache_read_input_tokens": 937,
+  "output_tokens": 543
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 7,
+    "quote": "ведучи гарних димчастих ослиць",
+    "kind": "sense",
+    "wrong": "The reader believes the donkeys are specifically female (she-asses); the original just says donkeys and does not give their sex.",
+    "severity": 1
+   }
+  ]
+ }
+}

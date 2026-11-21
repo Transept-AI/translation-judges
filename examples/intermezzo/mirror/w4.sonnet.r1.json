@@ -1,0 +1,92 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1918,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 656
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "suddenly see in the windows",
+    "why": "awkward 'in the windows'"
+   },
+   {
+    "quote": "I suddenly picture",
+    "why": "repeated 'suddenly'"
+   },
+   {
+    "quote": "merry green",
+    "why": "odd noun use"
+   },
+   {
+    "quote": "their long shaggy wool leaps with them",
+    "why": "'wool' odd for dog fur"
+   },
+   {
+    "quote": "and white furry leggings",
+    "why": "clunky tacked-on fragment"
+   },
+   {
+    "quote": "cannot quite burst out of the deep maw",
+    "why": "stiff phrasing"
+   },
+   {
+    "quote": "it throttles you by the throat and drives your fiery rage back down into it",
+    "why": "redundant, heavy"
+   },
+   {
+    "quote": "and off she tears",
+    "why": "gender switch from 'he' confusing"
+   },
+   {
+    "quote": "Well, and what about me? What, have you forgotten?",
+    "why": "slightly stilted"
+   }
+  ],
+  "good": [
+   {
+    "quote": "It strikes with a little hammer on a great crystal bell",
+    "why": "vivid sound image"
+   },
+   {
+    "quote": "sows silence over the grass",
+    "why": "lovely, poetic"
+   },
+   {
+    "quote": "the green yard, which has already swallowed up my room",
+    "why": "fresh image"
+   },
+   {
+    "quote": "A fury, all teeth, strains",
+    "why": "energetic"
+   },
+   {
+    "quote": "only tosses up a haystack of wool",
+    "why": "striking, funny"
+   },
+   {
+    "quote": "Why do your red eyes burn, melting fear and hatred together in the fire?",
+    "why": "intense, emotional"
+   },
+   {
+    "quote": "Ah, what a trifle that is! What a trifle, if only you knew...",
+    "why": "hints hidden pain"
+   },
+   {
+    "quote": "Eyes shut, head to one side, all four legs together, and off she tears without a thought, blind.",
+    "why": "lively, rhythmic"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

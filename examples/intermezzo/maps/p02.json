@@ -1,0 +1,301 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 563,
+  "cache_read_input_tokens": 6674,
+  "output_tokens": 90335
+ },
+ "result": {
+  "reading": "The narrator turns from complaining about the human being (the last word of block 1) to addressing humankind itself as 'you', in an indictment that moves from outside to inside: humankind has dressed the earth in stone and beats its holy silence with noise, roars like a beast, pries into him through the eyes, dumps its miseries into his heart as into its own store, wants to master and drain him like a vampire, and rules him through its quoted words of necessity. It repeats block 1's refrain with 'you' in place of the human being, and it reveals that the countless quoted necessities and the many-headed beast of block 0 are humankind. Block 17 answers it almost word for word (the heart used as one's own store, the beast's cruelty, the blood sucked out of him), and the earth's silence named here is what he seeks and finally hears in blocks 9–19.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "Се ти одягла землю в камінь й залізо, се ти через вікна будинків … вічно дихаєш смородом",
+    "where": "the two accusations that the addressee has covered the earth with stone and iron and that it breathes stench out through the windows of buildings",
+    "what": "Both clauses open by pointing at the addressee as the culprit: this one and no other did it. The emphatic singling-out, made twice, turns a description of the city into an indictment and sets the tone of the catalogue that follows. If the addressee is only the ordinary subject of a verb, the clauses become a neutral account of what people do.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "In at least one of these two clauses, is the addressee singled out with emphasis as the one responsible, marked as the doer and not merely named as the grammatical subject?",
+      "fail": "Both acts are stated with the addressee as an ordinary subject, and nothing points at it as the culprit."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "се ти через вікна будинків — тисячі чорних ротів — вічно дихаєш смородом",
+    "where": "where the windows of buildings are likened to thousands of black mouths through which the addressee perpetually breathes out a stench",
+    "what": "The spot says that the addressee forever gives off a foul smell through the windows of buildings, which are thousands of black mouths. The original places both the route through the windows and the aside calling them mouths between the emphatic subject and its verb, and the verb of breathing takes the smell as its instrument. Carried over closely, this wedges an adverbial and a parenthesis in front of the verb and joins breathing to the smell in a way English does not.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer of English?",
+      "fail": "It reads as translated: the route through the windows or the aside about the mouths is wedged awkwardly before the verb, the adverb of perpetuity is placed unidiomatically, or breathing and the smell are joined unidiomatically."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "одягла землю в камінь й залізо … Ти бичуєш святу тишу землі скреготом фабрик, громом коліс",
+    "where": "where the addressee is blamed for putting stone and iron on the earth, and then for what it does to the earth's holy silence with the grinding of factories and the thunder of wheels",
+    "what": "The earth is a living, sacred body. Humankind has put a garment of stone and iron on it, and it punishes the earth's holy silence the way a body is beaten with a lash; the verb carries a ring from the Passion. The body image and the corporal punishment make the city a desecration, not a nuisance. Flattened into plain covering and ordinary noise, the sentence becomes a complaint about urban din.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is putting stone and iron on the earth presented as dressing it, with the earth as a body wearing a garment (armour counts)?",
+      "fail": "A plain verb of covering, paving, encasing or building over, with no image of the earth as a body being dressed."
+     },
+     {
+      "id": "E3b",
+      "ask": "Is what the addressee does to the earth's silence a beating with a lash or whip, that is, corporal punishment?",
+      "fail": "A generic verb of breaking, shattering, disturbing, violating, drowning or filling the silence, with no image of flogging."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "святу тишу землі",
+    "where": "the holy possession of the earth that the noise of factories and wheels assaults",
+    "what": "This is the story's central word. It names the silence the narrator longs for and travels to find, fails to hear on arrival because of the chatter, then suddenly hears in the courtyard, and hears the cuckoo sow over the grass. Here it is set up as the earth's own sacred possession, which humankind attacks with noise. As a word of calm or peace of mind it cuts the thread between this indictment and the countryside scenes, and it blurs into the separate word for calm and rest that the narrator also uses.",
+    "risk": "medium",
+    "recurs_in": [
+     9,
+     10,
+     13,
+     14,
+     16,
+     19
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the earth's holy possession that the noise attacks named by a word whose core is the absence of sound, the same notion as the silence the narrator seeks and later hears?",
+      "fail": "It is named by a word whose core is calm, peace, serenity, tranquillity or rest rather than the absence of sound."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "motif",
+    "source": "Як звірина. … Свою жорстокість і звірячі інстинкти.",
+    "where": "the comparison that follows the addressee's roaring with pain, joy and anger, and the later item that pairs its cruelty with its instincts",
+    "what": "Both words are built on the root for a wild, predatory beast, not on the neutral word for an animal. The root ties humankind to the beast with many heads in block 0, the one that enslaves him through his obligations. It comes back in block 17, where the dead bring a beast's bloody cruelty into his heart. A neutral word for animal, and above all the stock phrase for natural drives, makes the instincts ordinary or even healthy, and the link disappears.",
+    "risk": "high",
+    "recurs_in": [
+     0,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the addressee's roaring compared to that of a wild beast, a savage or predatory creature, rather than to an animal in the general, neutral sense?",
+      "fail": "The comparison uses only the general word for an animal or creature, with nothing marking it as wild or savage."
+     },
+     {
+      "id": "E5b",
+      "ask": "Are the instincts listed beside the addressee's cruelty called those of a wild beast, savage and predatory, rather than given the neutral label for basic natural drives?",
+      "fail": "The instincts carry the stock label that pairs the general word for animal with instincts, or they have no beast-quality at all."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "твої очі, цікаві, жадні, влазять у мене",
+    "where": "where the addressee's eyes, given two adjectives, get into the narrator",
+    "what": "The commonest sense of the first adjective describes something that holds one's attention. Said of eyes, next to greed and to eyes that force their way into him, it works in the other direction: the eyes themselves want to find things out about him. They pry. Taken in the common sense, the eyes become attractive and the narrator seems drawn to them, against the whole scene.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Are the eyes presented as prying, eager to find out about him or to see into him?",
+      "fail": "The eyes are said to be interesting, intriguing or fascinating, a quality that would attract the narrator."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "motif",
+    "source": "Я не можу розминутись з тобою… я не можу бути самотнім…",
+    "where": "the two short statements that he cannot get away from the addressee and cannot be alone",
+    "what": "These are the two sentences of block 1, repeated almost word for word, with the addressee put where block 1 had the word for the human being. The substitution is what tells the reader who this 'you' is. The first statement returns in block 17 for the procession of the dead, and the second is the wish of block 4. A reader of the original hears a refrain.",
+    "risk": "medium",
+    "recurs_in": [
+     1,
+     4,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Are both statements present, and are they worded closely enough to the matching statements of block 1 in the same translation to be heard as a repetition (same core verb for not getting away, same core word for being alone, allowing for the change of addressee)?",
+      "fail": "Either statement is missing, or its core verb or core word differs from block 1's, so the pair reads as new statements rather than a refrain."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "hinge",
+    "source": "Я не можу розминутись з тобою",
+    "where": "the first of the two short statements, about being unable to get past the addressee",
+    "what": "The verb is the one used for two travellers on a road who cannot pass each other without meeting. It continues block 1's image of the planets, whose paths nothing crosses, while on his own path he always meets the human being. The verb is easily confused with verbs of parting company. Read that way, the sentence says he cannot bear to be separated from the addressee, the reverse of a man craving solitude.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Does the translation say he cannot avoid, escape or get past the addressee?",
+      "fail": "It says, or allows the reading, that he cannot part from, leave, be separated from or do without the addressee, or that he cannot feel its absence."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "hinge",
+    "source": "я не можу бути самотнім",
+    "where": "the second short statement, about being unable to be by himself",
+    "what": "The adjective covers both the plain state of being by oneself and the painful feeling of isolation. Here it is the state: the solitude he longs for, and in block 4 begs for as a comfort. Rendered as the feeling, the sentence reads as if he were incapable of loneliness or spared it, which turns his complaint inside out.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Is what he cannot be the state of being alone or in solitude, something he wants, rather than the unhappy feeling of loneliness?",
+      "fail": "The word chosen names the feeling of loneliness, so the sentence reads as being unable to feel lonely or being spared loneliness."
+     }
+    ]
+   },
+   {
+    "id": "E10",
+    "type": "register",
+    "source": "Ти не тільки йдеш поруч зо мною, ти влазиш всередину в мене",
+    "where": "where the addressee is said not only to walk beside him but to get inside him",
+    "what": "The verb is a low, pejorative one for climbing or squeezing in where one has no business. It is the verb for a thief getting through a window or a busybody prying into someone's soul, and it was used a moment earlier for the eyes. At the climax of the intrusion it gives the getting-in its crawling, unwelcome, disgusting character. Neutralised into plain entering, the intrusion loses its colour; moved into a clinical or sexual verb of penetration, it takes on a wrong one.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E10a",
+      "ask": "Is the addressee's getting inside him conveyed as a crude, unwelcome creeping, squeezing or forcing in, rather than as plain entering or as penetration?",
+      "fail": "A neutral verb of entering, going, coming or getting in, or a verb of penetration, with nothing marking the intrusion as crude and unwelcome."
+     }
+    ]
+   },
+   {
+    "id": "E11",
+    "type": "motif",
+    "source": "Ти кидаєш у моє серце, як до власного сховку",
+    "where": "where the addressee throws its sufferings, broken hopes and despair into his heart, and the heart is compared to a place",
+    "what": "The heart is compared to the addressee's own place for putting things away, a place it treats as its property. This makes concrete the claim, in the first sentence, that it has a right to him. Block 17 repeats the comparison word for word for the dead who laid their hopes, anger and sufferings in his heart, and block 6 shows the same heart full to the brim with what others pour into it.",
+    "risk": "medium",
+    "recurs_in": [
+     6,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E11a",
+      "ask": "Is the heart likened to a place where the addressee puts away or keeps its things?",
+      "fail": "The heart is likened to a shelter or refuge where the addressee takes cover, to a dump or rubbish heap for discarding, or to nothing at all."
+     },
+     {
+      "id": "E11b",
+      "ask": "Is that place said to be the addressee's own?",
+      "fail": "Nothing in the comparison says the place belongs to the addressee."
+     }
+    ]
+   },
+   {
+    "id": "E12",
+    "type": "hinge",
+    "source": "Яке тобі діло, що ти мене мучиш?",
+    "where": "the rhetorical question about the addressee tormenting him",
+    "what": "The question is an idiom of unconcern: it says the addressee is wholly untroubled by the fact that it torments him. Taken word by word, it looks like a question about what affair or right the addressee has to torment him. That reading turns a bitter statement of its indifference into a protest.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E12a",
+      "ask": "Does the question convey that the addressee does not care that it torments him?",
+      "fail": "It asks by what right, on what business or for what reason the addressee torments him, with no sense of the addressee's indifference."
+     }
+    ]
+   },
+   {
+    "id": "E13",
+    "type": "hinge",
+    "source": "як той вампір",
+    "where": "the comparison of the addressee to a blood-sucking creature of folk belief",
+    "what": "The demonstrative before the noun is the folk typifying use. It points at the familiar figure everyone knows of, not at a particular one, and no vampire has appeared in the story. A rendering that points to a specific vampire sends the reader back looking for an earlier one that does not exist.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E13a",
+      "ask": "Is the addressee compared to a vampire as a familiar type, rather than to a particular vampire pointed at as if already mentioned?",
+      "fail": "A demonstrative or other wording points to a specific vampire, as if one had appeared earlier."
+     }
+    ]
+   },
+   {
+    "id": "E14",
+    "type": "motif",
+    "source": "в твоїх незліченних «треба»",
+    "where": "at the end, where he says he lives as the addressee tells him, through its countless words of necessity",
+    "what": "The quoted word is the impersonal word of necessity on which the story opens. Block 0 calls packing one of these countless quoted words, which have exhausted him and enslave him like a beast with many heads. Here the reader learns whose voice speaks them, humankind's, and that the beast is humankind. The callback needs the same word back in quotation marks, as an obligation that is said and counted. Read as a noun for wants, it becomes the addressee's own needs instead of the duties it lays on him.",
+    "risk": "medium",
+    "recurs_in": [
+     0
+    ],
+    "checks": [
+     {
+      "id": "E14a",
+      "ask": "Is the first of the two words of compulsion kept as a quoted word that states an obligation laid on him, something that has to be done?",
+      "fail": "It is paraphrased into plain nouns for duties, demands or obligations with no quoted word, or the quoted word would most naturally be read as the addressee's own needs or wants."
+     },
+     {
+      "id": "E14b",
+      "ask": "Is it the same word that appears quoted in block 0 of the same translation?",
+      "fail": "Block 0 quotes a different word of necessity, or none."
+     }
+    ]
+   },
+   {
+    "id": "E15",
+    "type": "link",
+    "source": "у безконечних «мусиш»",
+    "where": "the last words of the paragraph: the second of the two words of compulsion through which the addressee rules him",
+    "what": "The second quoted word is not another impersonal necessity. It is the verb of obligation in the second person singular, the addressee's own voice telling the narrator what he is bound to do. After a paragraph in which he addresses humankind, the last word is humankind addressing him, with a command he lives by.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E15a",
+      "ask": "Is the second quoted word a compulsion spoken to the narrator himself, addressed to him in the second person and distinct from the first word?",
+      "fail": "It is a second impersonal word of necessity, or a repeat of the first, with nothing showing it is said to him."
+     }
+    ]
+   },
+   {
+    "id": "E16",
+    "type": "construction",
+    "source": "Я живу не так, як хочу, а як ти мені кажеш в твоїх незліченних «треба», у безконечних «мусиш».",
+    "where": "the last sentence: he lives not as he wishes but as the addressee tells him, through its countless, endless words of compulsion",
+    "what": "The spot says he lives by the addressee's orders, not by his own wishes, and that the orders come as countless and endless instances of two quoted words of compulsion. The original turns a quoted impersonal modal and a quoted conjugated verb into plural nouns, governed by a preposition after a verb of telling. English does not pluralise or govern quoted modals that way, so a close rendering ends up with odd plural marks on quoted verbs, a verb of telling joined unidiomatically to them, or a stiff contrast of manner.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E16a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer of English?",
+      "fail": "It reads as translated: quoted words with awkward plural marks or grammar, a verb of telling joined unidiomatically to the quoted words, or a stiff, calqued contrast between living as he wishes and living as he is told."
+     }
+    ]
+   }
+  ]
+ }
+}

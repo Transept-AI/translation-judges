@@ -1,0 +1,72 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1849,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 653
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "from which bands fell away to support her full, though tastefully modest, breasts dotted with moles",
+    "why": "awkward, contradictory, clunky anatomy"
+   },
+   {
+    "quote": "where muscles played whenever Agnes laughed or drew on a cigarette",
+    "why": "slightly odd image"
+   },
+   {
+    "quote": "where the Pigsty's drilling on high collars and robes held fast among the resident mages, who had long since finished their studies, all the way to grey hair and the grave",
+    "why": "convoluted, overloaded sentence"
+   },
+   {
+    "quote": "as loudly as that Volevychka",
+    "why": "unexplained reference, jarring"
+   },
+   {
+    "quote": "Because the curators, appointed at the end of the fourth circle, held practically unlimited power. Because, aside from exams,",
+    "why": "fragmentary, repetitive logic"
+   },
+   {
+    "quote": "unworthy in every possible way",
+    "why": "flat, unclear whose judgement"
+   },
+   {
+    "quote": "A combat magess and a veteran, Agnes didn't hold even a fifth-circle diploma",
+    "why": "repetitive phrasing"
+   },
+   {
+    "quote": "Anna knew every version, down to the smallest detail.",
+    "why": "abrupt POV shift"
+   }
+  ],
+  "good": [
+   {
+    "quote": "The magess loved doing both.\n\nAnd Agnes was doing both right now.",
+    "why": "punchy rhythm, humor"
+   },
+   {
+    "quote": "gold nails made from melted-down etons",
+    "why": "vivid worldbuilding detail"
+   },
+   {
+    "quote": "threw glints of the morning sun across the walls like an emerald disco ball",
+    "why": "fun, vivid image"
+   },
+   {
+    "quote": "Three versions of the rumour involved a three-day orgy in the rector's office. In two more, Senators and Minor Gods joined the orgy.",
+    "why": "comic escalation"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

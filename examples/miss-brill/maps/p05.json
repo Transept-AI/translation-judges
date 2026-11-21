@@ -1,0 +1,123 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4505,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 73375
+ },
+ "result": {
+  "reading": "A verbless, almost metrical still-life of what lies behind the bandstand: limp yellow trees, a sliver of sea, a gold-lined sky. It is the narration's one moment of pure lyric looking. It opens out of the cupboard-dwelling old bench-sitters at the end of block 4 and is punctured at once by the band's nonsense oom-pah in block 6, and its blue-and-gold sky answers the gold-dusted sky of block 0. Block 8 depends on it, because the sky at the back that Miss Brill can hardly believe is not painted is this sky, so the view has to read as still, layered stage scenery whose sagging yellow leaves quietly carry the autumn of age that blocks 4, 7 and 17 bring into the open.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "with yellow leaves down drooping",
+    "where": "where the leaves of the trees behind the bandstand are described",
+    "what": "The leaves hang limp: gone slack with the season, the way a wilting plant or a tired head hangs. They are still on the branches, and nothing is falling. The direction word set before the verb invites a fast reader to settle for mere position, or to see leaves coming down. The limpness is the point. Sagging yellow leaves are the old English emblem of age, from Shakespeare's autumn sonnet to Macbeth's sere leaf. They lay a quiet note of decline under the bright Sunday, beside the silent old bench-sitters of block 4 and the woman in block 7 who has faded to the colour of her shabby ermine.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Are the leaves shown hanging limp (slack, sagging or wilting) rather than merely hanging, pointing or bending downward?",
+      "fail": "Nothing in the wording makes the leaves slack, sagging or wilting. They only hang, point, bend or turn downward, or they are given some other action such as swaying."
+     },
+     {
+      "id": "E1b",
+      "ask": "Are the leaves still on the trees, rather than falling or being shed?",
+      "fail": "The leaves are said to fall, drop, drift down or be shed."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "yellow leaves down drooping",
+    "where": "at the trees' yellow leaves hanging down, the first thing described behind the bandstand",
+    "what": "The spot says that the trees carry yellow leaves hanging downward. The English puts a participle after the noun and sets the direction word before it, a verse-like inversion. Followed closely, this produces one of two things. One is an active present participle of a type Ukrainian usage avoids. The other is a participial tail dragged after the noun in an order no prose writer would choose. Either way the lyric moment turns stiff and visibly translated.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "At the spot where the trees' yellow leaves hang down, does the translation read as written by a skilled native writer?",
+      "fail": "The hanging is rendered with an active present participle of the kind the Ukrainian norm avoids (forms in -учий/-ючий/-ачий/-ячий). Or it is rendered with a participle trailing after the noun with its modifier wedged in front of it, in an order a native writer would recast."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "register",
+    "source": "the slender trees with yellow leaves down drooping",
+    "where": "the description of the trees behind the bandstand and their leaves",
+    "what": "The inverted order is a poeticism, and the whole sentence falls into a near-metrical cadence. For a moment the chatty free indirect narration lifts into lyric, showing Miss Brill's rapt, aesthetic looking. The level is poetic, verse-like diction. It matters beyond this sentence: the next paragraph is the band's nonsense oom-pah, which pricks the lift. A plain inventory of trees, sea and sky leaves nothing to prick.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the description of the trees and their leaves written at a heightened poetic level (poetic word order or distinctly poetic, literary vocabulary) rather than in everyday descriptive prose?",
+      "fail": "The trees and leaves are described in plain everyday words in ordinary order, with nothing marked as poetic."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "link",
+    "source": "just a line of sea",
+    "where": "where the sea shows through the trees",
+    "what": "A limiting word cuts the sea down to a sliver glimpsed between the trunks. It is Miss Brill's eye for slight things, the same fine noticing as the faint coolness she registers in the opening paragraph. It keeps the sea remote, a thin band in the scenery rather than an open view. Without that word the strip of sea is simply there.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the sea held down to a mere sliver, either by a word meaning only, merely or barely, or by a word making the strip thin, narrow or tiny?",
+      "fail": "The sea appears only under the everyday word for a strip or line (even if that word is formally a diminutive). There is no word for only, merely or barely, and nothing makes the strip thin, narrow or tiny."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "hinge",
+    "source": "and beyond the blue sky with gold-veined clouds",
+    "where": "the last part of the view, after the sea",
+    "what": "The word that opens this part is an adverb meaning farther off still, past the sea. The blue sky itself is the third and farthest thing seen, with the gold-lined clouds in it. The first two parts each open with a place phrase followed by what stands there, so a fast reader can take the sky as the object of the place word and put the clouds behind the sky. That is a nonsense picture. It also robs the view of its far end, the very sky that block 8 will suspect of being painted.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the blue sky itself named as the last thing seen, with the clouds in it, rather than serving as a place behind or beyond which something else lies?",
+      "fail": "The clouds, or anything else, are put behind or beyond the sky. Or the sky only marks a location, so the clause never names a thing seen there."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "device",
+    "source": "and through them just a line of sea, and beyond the blue sky with gold-veined clouds",
+    "where": "the sea glimpsed through the trees and the sky with its clouds",
+    "what": "The view is composed like stage scenery behind the bandstand: trees, a band of sea and a sky, set one behind another, and nothing in it moves. The gold in the clouds runs in fine lines, like veining in marble or gilded decoration, just as the opening sky was dusted with gold. Block 8 cashes this in when Miss Brill wonders whether the sky at the back is really painted, and the reader is meant to recognise this sky. Drifting clouds, a sparkling sea, or gold lines melted into a general golden glow turn the backcloth into a live landscape and weaken that recognition.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the view kept motionless, with no movement or play of light given to the trees, the sea, the sky or the clouds?",
+      "fail": "Some word sets the trees, sea, sky or clouds moving or flickering: trees swaying, clouds drifting or floating by, or the sea rolling, rippling, glittering, sparkling or shimmering. What the leaves do is judged under E1 only."
+     },
+     {
+      "id": "E6b",
+      "ask": "Is the gold in the clouds a pattern of fine lines running through or along them (veins, streaks, threads, edging) rather than an overall golden colour, gilding or glow?",
+      "fail": "The clouds are simply golden, gilded, gold-lit or bright, with no lines of gold in them, or the gold is gone."
+     }
+    ]
+   }
+  ]
+ }
+}

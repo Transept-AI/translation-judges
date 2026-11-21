@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1847,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 584
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Where are you traveling to?..",
+    "why": "odd punctuation ?.."
+   },
+   {
+    "quote": "those creatures forever crowd and shove, shout, bustle and litter",
+    "why": "list feels clunky"
+   },
+   {
+    "quote": "It is full to the brim.",
+    "why": "cliché, flat"
+   },
+   {
+    "quote": "And when all this had happened, so simply and imperceptibly",
+    "why": "vague, stiff"
+   },
+   {
+    "quote": "I was irritated by the uncertainty trembling inside me",
+    "why": "slightly awkward"
+   },
+   {
+    "quote": "our division was stationed back then",
+    "why": "fragment reads oddly"
+   }
+  ],
+  "good": [
+   {
+    "quote": "I am sick of being an inn",
+    "why": "striking metaphor"
+   },
+   {
+    "quote": "Sweep out, along with the litter, the ones who make it.",
+    "why": "sharp, bitter wit"
+   },
+   {
+    "quote": "that beautiful brother of death",
+    "why": "lovely image of sleep"
+   },
+   {
+    "quote": "They wove their existence together with mine into a fantastic net",
+    "why": "vivid dream image"
+   },
+   {
+    "quote": "roaring torrents of human life that came rushing at me like wild horses",
+    "why": "energetic imagery"
+   },
+   {
+    "quote": "the iron hand clack its bones in vain",
+    "why": "memorable, eerie"
+   },
+   {
+    "quote": "like chips and straw on the spring floods",
+    "why": "fresh, concrete simile"
+   },
+   {
+    "quote": "clickety-clack-clack… clickety-clack-clack…",
+    "why": "rhythmic, immersive"
+   },
+   {
+    "quote": "How I used to wait for them, at times!",
+    "why": "poignant turn"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

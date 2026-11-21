@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3120,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 607
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 2,
+    "quote": "Tony Robbins",
+    "kind": "fact",
+    "wrong": "The reader takes the rival to be the real coach Tony Robbins; the original names a parody figure, Tony Bobbins (Тоні Боббінс).",
+    "severity": 1
+   }
+  ]
+ }
+}

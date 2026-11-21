@@ -1,0 +1,266 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 560,
+  "cache_read_input_tokens": 6302,
+  "output_tokens": 92637
+ },
+ "result": {
+  "reading": "The opening paragraph brings Miss Brill to the Sunday gardens and, in her own free indirect voice, turns her old fur necklet into a living pet: brushed and revived, it speaks, glints at her and is fondly scolded, while its loose nose quietly shows its decay. Under the brilliant day it plants a faint chill, and a feeling she starts to call sad and then takes back. Block 9 brings both back inside the music. Blocks 13 and 17 depend on this paragraph: the girl mocks this very fur, and Miss Brill shuts it back into the same box while sitting on the same red eiderdown, where the unnamed 'something' she felt here is heard crying.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "register",
+    "source": "the Jardins Publiques",
+    "where": "In the opening sentence: the name of the gardens over which the light lies splashed.",
+    "what": "This is the story's only place-name, and it is French. From the first sentence it tells the reader that this is a resort town abroad. It also tells them that Miss Brill, who teaches English pupils there (block 8), is a foreigner in the crowd she watches. The French endearment at block 14 and the 'little French dolls' at block 4 rest on that setting. Put into plain native words, the gardens become any park in any town.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the name of the gardens keep a visible French origin, either left in French or transcribed from the French, so the reader can tell the scene is in a French town?",
+      "fail": "The gardens are named only with ordinary Ukrainian words (a town park, a public garden), capitalised or not, with no French trace; or the name is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "glad that she had decided on her fur … touched her fur",
+    "where": "Where she is glad she chose to wear her fur, and a few lines later where she raises her hand to touch it.",
+    "what": "'Fur' is the story's keyword for the one thing she cherishes. The narrator uses it twice here. The girl uses it in her giggling jibe at block 13, stumbling over the very word. The last paragraph uses it again as the fur goes back into its box (block 17). If the reader meets one and the same name each time, the mockery and the putting-away fall on exactly the object this paragraph has made dear.",
+    "risk": "medium",
+    "recurs_in": [
+     13,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Wherever this paragraph names her fur with a noun (when she is glad she wore it, when she touches it), is it the same noun the translation uses for the fur in the girl's jibe at block 13 and for the fur whose box lies on the bed at block 17?",
+      "fail": "A noun used for her fur here differs from another one used here, or from the one used at block 13 or block 17, so the keyword does not come back as the same name."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "when you opened your mouth there was just a faint chill, like a chill from a glass of iced water before you sip",
+    "where": "Where, in the still air, opening one's mouth lets in a faint chill that is likened to the chill off a glass of iced water just before a sip.",
+    "what": "The English slips into a generic 'you' inside third-person narration. It means anyone, Miss Brill included, and the comparison carries a second 'you'. Ukrainian narration expresses such shared, general sensations in its own ways. A close rendering brings in a pronoun that seems to turn and address the reader, and the chain of chill, comparison and sip comes out stiff.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At this spot, does the sentence read as written by a skilled Ukrainian prose writer?",
+      "fail": "A second-person pronoun appears as though the narrator had turned to address the reader, or the comparison with the glass of iced water is attached in a stiff, clumsy way a native writer would not produce."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "there was just a faint chill",
+    "where": "Where the motionless air turns out to hold a faint chill when one opens one's mouth.",
+    "what": "Under the brilliant weather lies a barely perceptible cold. It is her reason for wearing the fur, and the first hint that something is wrong with the bright day. Block 9 brings this same faint chill back inside the band's warm, sunny music, just before sadness is denied again. A reader of the original hears the opening return at the story's emotional peak.",
+    "risk": "medium",
+    "recurs_in": [
+     9
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the sensation a slight cold, recognisably the same faint chill that block 9 finds again in the music?",
+      "fail": "It is rendered as freshness, refreshing coolness or a breeze with no cold in it; or it is dropped; or it is worded so that the faint chill at block 9 does not sound like the same thing."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "hinge",
+    "source": "Dear little thing!",
+    "where": "The short exclamation right after she raises her hand and touches the fur.",
+    "what": "Said of something small, 'thing' is an English endearment for a creature or a child, not a word for an object. This is the first moment she treats the fur as alive, a pet she loves. The rest of the paragraph builds on it, and it is what makes shutting the fur in its box at the end (block 17) hurt.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does the exclamation treat the fur as a beloved little creature, a living being or pet, rather than as an object?",
+      "fail": "The fur is called a thing, article, item or trinket in the sense of an inanimate object, so the fondness reads as fondness for a possession."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "double",
+    "source": "rubbed the life back into the dim little eyes",
+    "where": "The last of the things she did to the fur that afternoon, done to its dull glass eyes.",
+    "what": "This is the phrase used for chafing a frozen limb until feeling returns. Here it is at once a literal chore, rubbing the dulled glass eyes so they shine again, and a revival: in the next sentence the eyes speak. The play depends on the rubbing being the very act that brings the creature back to life.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is there a physical action of her hand on the eyes: rubbing, polishing or chafing them?",
+      "fail": "No hand action on the eyes is described, only an abstract verb of reviving, restoring or breathing life into them."
+     },
+     {
+      "id": "E6b",
+      "ask": "Do the eyes come back to life, revived and living again, rather than merely becoming shiny or clean?",
+      "fail": "The only result is shine, brightness or cleanliness; nothing says life returns to them."
+     },
+     {
+      "id": "E6c",
+      "ask": "Is the rubbing itself what brings the life back, so that one action does both?",
+      "fail": "The rubbing and the revival are given as separate, unconnected facts, or only one of them is present."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "link",
+    "source": "“What has been happening to me?” said the sad little eyes.",
+    "where": "Where the fur's eyes ask what has been happening to them.",
+    "what": "The original states it flatly: the eyes said it. In her private world the fur simply talks, and the narrator does not hedge. That plainness counts at the end (block 17), where the original does hedge: she only thinks she hears something crying. The story moves from a fur that speaks to a cry she half-hears.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the question given as actually spoken by the eyes, with no added softener of seeming or likeness?",
+      "fail": "The translation says the eyes only seemed to ask, or asked as it were, or that she merely imagined their question."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "hinge",
+    "source": "Oh, how sweet it was to see them snap at her again",
+    "where": "Where she delights in seeing the fur's eyes, as it lay on the red bed-cover, come alive at her again.",
+    "what": "Said of eyes, 'snap' means a quick bright flash. The polished glass catches the light, and the eyes seem to dart lively, cheeky looks at her, as a small animal's would. It is not a sound, a bite or a sharp word. The delight in the sentence shows the look is playful, not hostile, and proves that her revival of the fur has worked.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Do the eyes flash, glint or dart looks at her in a bright, lively way, as a sign that the fur is alive again?",
+      "fail": "The eyes click or make a sound, bite, scold, snarl or snap angrily at her; or they merely look at her or lie there with no liveliness."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "motif",
+    "source": "She had taken it out of its box that afternoon … from the red eiderdown",
+    "where": "Where she recalls taking the fur out of its box at home that afternoon, and where its eyes look up at her from the red cover on her bed.",
+    "what": "The story ends in the same room among the same things. She sits on the red eiderdown, the box the fur came out of lies on the bed, and she shuts the fur back inside under its lid (block 17). The box and the red eiderdown set up here are what make the ending a return, closing the fur's brief season of life where it began.",
+    "risk": "medium",
+    "recurs_in": [
+     17
+    ],
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Does the fur come out of a box, recognisably the same lidded container it is shut back into at block 17?",
+      "fail": "It comes out of a drawer, wardrobe, cupboard, bag or the like, or out of a container named differently from the one at block 17."
+     },
+     {
+      "id": "E9b",
+      "ask": "Is the red eiderdown a red cover on her bed, recognisably the same red bed-cover she sits on at block 17?",
+      "fail": "The red is dropped; or it becomes something other than a bed-cover (the down itself, a pillow, a rug, a chair); or it is named so differently from block 17 that the return is not heard."
+     }
+    ]
+   },
+   {
+    "id": "E10",
+    "type": "hinge",
+    "source": "the nose, which was of some black composition",
+    "where": "Where the paragraph says what the fur's nose is made of.",
+    "what": "'Composition' here is the trade word for the cheap moulded compound used for the features of dolls and toy animals. 'Some' shows she neither knows nor cares what it is. The Ukrainian look-alike word means an artistic arrangement or a piece of music, which turns the phrase into nonsense. The reader should simply learn that the nose is some black artificial stuff, cheap and now failing.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E10a",
+      "ask": "Does the translation say the nose is made of some black substance that an ordinary reader understands as a material?",
+      "fail": "It uses the look-alike word meaning an artistic composition or arrangement, or another term an ordinary reader would not take as a material, or it leaves out what the nose is made of."
+     }
+    ]
+   },
+   {
+    "id": "E11",
+    "type": "link",
+    "source": "wasn’t at all firm",
+    "where": "In the sentence about the fur's nose: what she finds wrong with it, just before she guesses it must have had a knock.",
+    "what": "The negation is total: the nose is not firm in the least. It is a real defect, the first sign of the shabbiness the girl laughs at in block 13, and her 'Never mind' brushes off something serious. If it is softened to a slight looseness, the defect shrinks and her shrug looks merely sensible.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E11a",
+      "ask": "Is the nose's firmness denied entirely (not firm at all), rather than only partly?",
+      "fail": "The degree is weakened to not quite, not very, somewhat, or slightly loose or soft."
+     }
+    ]
+   },
+   {
+    "id": "E12",
+    "type": "hinge",
+    "source": "Little rogue! … Little rogue biting its tail just by her left ear.",
+    "where": "The two places where she calls the fur a little rogue, the second as it bites its own tail by her left ear.",
+    "what": "'Rogue' here is a fond scolding name for a mischievous pet or child. The next sentence even insists that she really felt that way about it. The fur is a naughty, beloved little creature playing with its own tail, not a wrongdoer.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E12a",
+      "ask": "Is the name she gives the fur a fond, teasing one for a naughty pet or child, rather than a real insult?",
+      "fail": "The word names a genuine wrongdoer (a cheat, swindler, scoundrel, villain or thief), and nothing in its form or setting makes it affectionate."
+     }
+    ]
+   },
+   {
+    "id": "E13",
+    "type": "link",
+    "source": "no, not sad, exactly",
+    "where": "In the last sentence, where she corrects the word she first used for the feeling that stirs in her as she breathes.",
+    "what": "She does not flatly deny the sadness; she only says it is not quite the word. The hedge leaves sadness standing, half-admitted, under the gentler word she picks instead. It is the same sadness that block 9 denies twice in the music and that returns as crying in block 17.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E13a",
+      "ask": "Where she takes back the word sad, is the denial only partial (sad is not quite the right word), rather than a flat no?",
+      "fail": "Sadness is denied outright, or there is no correction at all."
+     }
+    ]
+   },
+   {
+    "id": "E14",
+    "type": "motif",
+    "source": "something light and sad—no, not sad, exactly—something gentle seemed to move in her bosom",
+    "where": "The last sentence: what stirs inside her as she breathes, mentioned twice.",
+    "what": "She cannot name what she feels. It is only a 'something', light and then gentle, moving inside her like a small living thing. The same unnamed something returns in block 9, as a something in the music she cannot identify, a something that makes you want to sing. It ends the story in block 17, where she thinks she hears something crying as she shuts the fur away. The echo only works if what stirs here stays unnamed.",
+    "risk": "medium",
+    "recurs_in": [
+     9,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E14a",
+      "ask": "Is what stirs in her referred to throughout as an unnamed 'something', an indefinite thing, and never turned into a named feeling?",
+      "fail": "Either mention names it as a feeling, emotion, sensation, mood or the like, so no unnamed something is left for blocks 9 and 17 to echo."
+     }
+    ]
+   }
+  ]
+ }
+}

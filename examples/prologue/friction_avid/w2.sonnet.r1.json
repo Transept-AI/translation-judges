@@ -1,0 +1,88 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1622,
+  "cache_read_input_tokens": 577,
+  "output_tokens": 1520
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "here Freya smiled,",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "The feminist community mobilized at a hundred percent",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "The right-wingers were always a lot of trouble.",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "\"Do you take it in the cheek?\"",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "Whichever way you looked at it, the comments set the tone. Still, the moderators' help turned out not to be needed.",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "The trolls' mothers didn't give them more than five dollars for school lunch. So they were crushed",
+    "kind": "follow",
+    "weight": 1
+   },
+   {
+    "quote": "at the loud call of the modern economy",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "who craved the attention of all the women above and so started passing as one of their own",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "The stakes climbed fast",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "At last the girl smiled sincerely.",
+    "kind": "register",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Still, three hundred and eighty... no, three hundred and ninety thousand live viewers remained three hundred and ninety thousand live viewers. Whatever they smelled like.",
+    "why": "cynical, live-counting voice"
+   },
+   {
+    "quote": "no imagination at all, but plenty of volume",
+    "why": "crisp put-down"
+   },
+   {
+    "quote": "Housewives who had traded their ladles for giant smartphones",
+    "why": "vivid comic image"
+   },
+   {
+    "quote": "soon donations under ten dollars didn't even show up on the screen",
+    "why": "telling, concrete detail"
+   },
+   {
+    "quote": "the feed suddenly blossomed with rainbow-haired avatars, like an exotic greenhouse",
+    "why": "fresh visual"
+   }
+  ]
+ }
+}

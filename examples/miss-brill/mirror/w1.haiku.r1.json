@@ -1,0 +1,88 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1547,
+  "cache_read_input_tokens": 563,
+  "output_tokens": 639
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Це було розчаровувало",
+    "why": "grammatical error, garbled"
+   },
+   {
+    "quote": "поза сезоном він ніколи не був таким самим",
+    "why": "calque, flat"
+   },
+   {
+    "quote": "йому було байдуже, як грати, якщо серед слухачів немає чужих",
+    "why": "awkward logic, tense mix"
+   },
+   {
+    "quote": "маленький «флейтовий» фрагмент, дуже гарненький",
+    "why": "clunky, odd quotes"
+   },
+   {
+    "quote": "гарний старий чоловік у оксамитовому піджаку",
+    "why": "у/в euphony; clumsy"
+   },
+   {
+    "quote": "зчепивши руки на величезній різьбленій палиці",
+    "why": "dangling participle"
+   },
+   {
+    "quote": "сидіти на хвилинку в чужому житті",
+    "why": "awkward phrasing"
+   },
+   {
+    "quote": "капелюсі-панамі",
+    "why": "redundant, clunky"
+   },
+   {
+    "quote": "ніколи не втримаються",
+    "why": "unclear meaning"
+   },
+   {
+    "quote": "Ні, нічим її не втішити.",
+    "why": "slightly flat"
+   }
+  ],
+  "good": [
+   {
+    "quote": "махав руками, наче півень, що от-от заспіває",
+    "why": "vivid image"
+   },
+   {
+    "quote": "надували щоки й кидали грізні погляди на ноти",
+    "why": "lively, humorous"
+   },
+   {
+    "quote": "ланцюжок яскравих крапель",
+    "why": "lovely image"
+   },
+   {
+    "quote": "слухати, ніби не слухаючи",
+    "why": "neat, natural"
+   },
+   {
+    "quote": "Міс Брілл хотілося її струснути.",
+    "why": "crisp, characterful"
+   },
+   {
+    "quote": "«Вони весь час сповзатимуть з носа!»",
+    "why": "natural voice"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

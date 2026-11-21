@@ -1,0 +1,88 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1815,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 647
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "The human plateau shifted.",
+    "why": "opaque, odd metaphor"
+   },
+   {
+    "quote": "spread through feeds like hot cakes",
+    "why": "garbled idiom (sold like hot cakes)"
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred and fifty.",
+    "why": "awkward number phrasing"
+   },
+   {
+    "quote": "But, first, stay-at-home moms",
+    "why": "clunky enumeration"
+   },
+   {
+    "quote": "you can't answer that way to a subscriber",
+    "why": "awkward word order"
+   },
+   {
+    "quote": "So Freya used a polite, well-rehearsed answer.",
+    "why": "flat verb"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "unclear which joke; logic off"
+   },
+   {
+    "quote": "the questions sharply turned toward that Tinder group date",
+    "why": "clumsy callback"
+   },
+   {
+    "quote": "But fame carries a price",
+    "why": "cliché"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And a woman, no less!",
+    "why": "ironic, lively voice"
+   },
+   {
+    "quote": "Three hundred and sixty. Three hundred and seventy.",
+    "why": "builds tension nicely"
+   },
+   {
+    "quote": "The main thing was not to let this exchange with her subscribers turn into a group date on Tinder.",
+    "why": "funny, vivid"
+   },
+   {
+    "quote": "Freya wanted to answer: \"You don't.\"",
+    "why": "sharp, wry humor"
+   },
+   {
+    "quote": "scraped together those fifty bucks out of money meant for her kids' lunches",
+    "why": "concrete, empathetic"
+   },
+   {
+    "quote": "then your children *are* your capital",
+    "why": "fits character's voice"
+   },
+   {
+    "quote": "flushed all the cheap provocations down the toilet",
+    "why": "punchy, colorful"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

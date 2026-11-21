@@ -1,0 +1,47 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1381,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1621
+ },
+ "result": {
+  "edited": "The next morning, before classes, Agnes met Theodor in her office, wearing an emerald outfit with a severe collar buttoned up to the throat, from which straps fell to support her full breasts, moderately styled and dotted with moles. It also left her supple shoulders and womanly belly bare, the muscles beneath it moving when Agnes laughed or drew on a cigarette. The magess loved both.\n\nAgnes did plenty of both.\n\nCombined with her miniskirt, bronze high-heeled shoes, and gold nails made of remelted etons, Agnes's appearance flouted every principle of the Academy, where students were obliged to wear uniform colors and cuts, and the Pigsty's discipline regarding high collars and robes was upheld by resident mages who had already graduated, right up to gray hair and the grave. Agnes's green robe on the hanger behind her did nothing to improve matters: it was covered in sequins that threw the morning sun across the walls like an emerald disco ball.\n\nBut Agnes could afford to dress brightly, like that Volevichka. The tutors appointed at the end of the fourth circle held nearly unlimited power. Apart from examinations, it was the tutors who decided whether a student was worthy to advance to the fifth circle and take up a magical specialty, and they steered a mage's path all the way to expulsion or graduation.\n\nAnd there were a great many very juicy rumors about how Agnes, utterly unworthy in every way, had obtained this important tutoring post. A combat magess and veteran, Agnes did not even have a fifth-circle diploma, and, according to the rumors, she had not served her ten years as a combat magess either. Three versions circulated about a three-day orgy in the rectorate. Two more added that Senators and Minor Gods took part. Anna knew all the versions, down to the smallest details.",
+  "changes": [
+   {
+    "before": "met Theodor in her office wearing an emerald outfit",
+    "after": "met Theodor in her office, wearing an emerald outfit",
+    "kind": "error",
+    "category": "punctuation"
+   },
+   {
+    "before": "Agnes did exactly both.",
+    "after": "Agnes did plenty of both.",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Together with her miniskirt",
+    "after": "Combined with her miniskirt",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "For the tutors appointed at the end of the fourth circle held nearly unlimited power. Because, besides examinations, it was the tutors who decided",
+    "after": "The tutors appointed at the end of the fourth circle held nearly unlimited power. Apart from examinations, it was the tutors who decided",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "this important tutoring role",
+    "after": "this important tutoring post",
+    "kind": "taste",
+    "category": "word"
+   }
+  ]
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1406,
+  "cache_read_input_tokens": 563,
+  "output_tokens": 773
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "маленький коричневий собачка",
+    "why": "gender clashes with «театральна» собачка, її"
+   },
+   {
+    "quote": "високого стислого носа",
+    "why": "awkward literal calque"
+   },
+   {
+    "quote": "Але лише тоді, коли",
+    "why": "clunky sentence opening"
+   },
+   {
+    "quote": "так само повільно пішов геть",
+    "why": "illogical «так само» after «важко»"
+   },
+   {
+    "quote": "вона так старанно виходила з дому",
+    "why": "stiff, unnatural phrasing"
+   },
+   {
+    "quote": "недільні вечори",
+    "why": "afternoons, not evenings"
+   },
+   {
+    "quote": "Але раптом він дізнався, що йому читає газету актриса!",
+    "why": "flat, word order clunky"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Ой, яке це було захопливе видовище!",
+    "why": "lively, conveys her excitement"
+   },
+   {
+    "quote": "важко протупав",
+    "why": "vivid, precise verb"
+   },
+   {
+    "quote": "наче її підпоїли",
+    "why": "playful and natural"
+   },
+   {
+    "quote": "у старих очах затремтіли два вогники",
+    "why": "touching image"
+   },
+   {
+    "quote": "«Актриса, ви, що ль?»",
+    "why": "natural old-man speech"
+   },
+   {
+    "quote": "Міс Брілл ледь не розсміялася вголос.",
+    "why": "natural, keeps mood"
+   },
+   {
+    "quote": "«Так, я вже давно актриса».",
+    "why": "gentle, effective ending"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

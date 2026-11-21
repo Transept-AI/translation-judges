@@ -1,0 +1,167 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 565,
+  "cache_read_input_tokens": 4724,
+  "output_tokens": 87290
+ },
+ "result": {
+  "reading": "Block 2 finishes the portrait of Agnes begun in block 0 (an emerald outfit with a severe collar up to the neck but bare shoulders and midriff). It adds skirt, heels and gold nails, sets the whole look against the Academy's dress culture (a set uniform for students, high collars and robes drilled into graduates for life), and caps it with her sequinned robe. Block 3 answers at once by explaining why she can afford such defiance (curators' near-unlimited power), and block 4's rumours feed on the same scandalous image. Her gold nails return in block 5 to sweep Theodore's reports into the bin, and the melted-down etons point ahead to the cost of study and to the residents' Card that pays even for designer clothes (blocks 15–16).",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "construction",
+    "source": "Разом із мініспідницею, туфлями на високих підборах кольору бронзи та золотими нігтями з переплавлених етонів, вигляд Агнес кидав виклик усім засадам Академії",
+    "where": "The opening of the paragraph, where the miniskirt, the bronze-coloured high heels and the gold nails are added to Agnes's outfit and her whole look is said to defy the Academy's principles.",
+    "what": "The sentence opens with a preposition of accompaniment and a three-item list. Only then does it name its subject, Agnes's look, which carries the verb of defiance. The list completes the outfit described back in block 0, so the logic is cumulative: with these pieces added, the ensemble as a whole is an affront to the institution. Kept in this shape, English makes the look act in company with its own components, and the idiom for defiance invites a word-for-word copy.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated. Examples: an opening phrase that sets the skirt, heels and nails alongside Agnes's look, so the look seems to act in company with its own parts; or a word-for-word idiom for defying the Academy that a native editor would rewrite."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "з переплавлених етонів",
+    "where": "Where Agnes's gold nails are described, together with what they were melted down from.",
+    "what": "Etons are the book's currency, and block 15 counts the price of an Academy education in them. A reader of the original meets the same coin name in both places. Here Agnes wears melted-down etons on her fingertips. There the same money is what thousands compete for grants to cover and what binds students to an endlessly growing debt (blocks 15–17, where the residents' Card even pays for designer clothes). The repetition quietly ties her flamboyance to the novel's money theme.",
+    "risk": "medium",
+    "recurs_in": [
+     15
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the money her nails are melted down from given the same currency name that the translation uses at block 15 for what an Academy education costs?",
+      "fail": "No currency name here (only gold, coins or an unspecified metal), or a different name at block 15. Spelling variants of the same transliteration count as the same name."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "де студенти зобов'язані були носити одяг формених кольорів та крою, а вишкіл Свинюшника щодо високих комірів і мантій тримався на магах-резидентах, які вже закінчили навчання, аж до сивини й могили",
+    "where": "Right after Agnes's look is said to defy the Academy, the explanation of the Academy's dress culture: what students are obliged to wear, and how the drill about high collars and robes stays with resident mages who have graduated, until old age and the grave.",
+    "what": "In the original this is one relative clause hung off the Academy. It holds two coordinated statements, a further relative clause about the residents having finished their studies, and a closing time phrase about old age and the grave. That time phrase belongs to the drill's hold but stands apart from its verb. The students' clothing is specified by a compact genitive phrase that is easy to copy stiffly. Rendered in the same order, English sprawls: the time phrase seems to hang on the residents' studies, and both the clothing phrase and the verb for how the drill persists come out as calques.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated. Examples: one sprawling chain of clauses the reader has to untangle; the old-age-and-grave phrase left trailing after the clause about finishing their studies; the students' clothing described in a stiff word-for-word genitive; or a literal verb of physical holding or support for how the drill persists in the mages."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "register",
+    "source": "вишкіл",
+    "where": "Where the regime that instilled the mages' collar-and-robe habit is named.",
+    "what": "The noun belongs to military and paramilitary training: the regimented drilling of recruits and cadets at camp. Applied to collars and robes, it casts the Academy's dress culture as a barracks regime imposed by repetition. This fits the barnyard nickname that follows and explains why the habit outlives graduation.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the shaping of the collar-and-robe habit framed in the field of military-style drill or regimentation?",
+      "fail": "Only a neutral word for teaching, training, schooling, upbringing, custom or tradition, with nothing that signals drill or regimentation."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "double",
+    "source": "Свинюшника",
+    "where": "The name or word that says whose drill about high collars and robes it is.",
+    "what": "Capitalised, the word is a nickname. As an ordinary noun it is the colloquial name for a building where pigs are kept. A reader of the original gets both at once. It is a proper name for the place where the mages were drilled, most naturally the Academy or its student quarters. It is also an insult that turns that place into a pig shed, the narrator's contempt for the regimented school. In a wizard-school setting the pig may also wink at the hog in Hogwarts. Because the word declines like a Ukrainian surname, a fast translator may transliterate it. That leaves an opaque name that can even pass for a drill master's surname, and the insult disappears.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the word presented as a proper name (a capitalised nickname for whatever the drill belongs to) rather than as a plain descriptive word?",
+      "fail": "Rendered only as an ordinary descriptive noun or adjective, with no sense that it is the name of something."
+     },
+     {
+      "id": "E5b",
+      "ask": "Does an English reader learn that this name means a place where pigs are kept?",
+      "fail": "A bare transliteration, or a name with no pig-shed meaning anywhere."
+     },
+     {
+      "id": "E5c",
+      "ask": "Is the pig-shed meaning carried inside the name itself, rather than supplied beside it?",
+      "fail": "The meaning is given only in a gloss, bracket or footnote next to a transliterated name, or not at all."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "тримався на магах-резидентах, які вже закінчили навчання",
+    "where": "Where the collar-and-robe drill is said to persist among the resident mages who have already finished their studies.",
+    "what": "The drill keeps its grip on the residents, graduates who stay on at the Academy. Unlike the students, nothing obliges them any longer, yet they themselves go on wearing high collars and robes. The verb pattern can also be read as the drill being sustained by them, which tempts a hurried translator to make the residents its instructors or enforcers. That swaps the satire of graduates who never take the uniform off for a note on staff duties. It also blurs the contrast with Agnes, whose own dress flaunts the opposite.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the translation show the graduated resident mages themselves still bound by the collar-and-robe drill in their own dress?",
+      "fail": "The residents appear as those who teach, run, impose or enforce the drill on students, with nothing showing that they themselves keep to high collars and robes."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "device",
+    "source": "аж до сивини й могили",
+    "where": "Where the narrator says how long the drill's hold on the resident mages lasts.",
+    "what": "Comic hyperbole in two steps. The span runs through two stages of a life, each given as a concrete image: old age through the colour of the hair, death through the burial place. An intensifier pushes it to the very end. The obligation ended at graduation, but the habit ends only at burial, so the reader pictures them going grey and being buried in their high collars.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the first stage there: growing old, shown as greying or old age?",
+      "fail": "No mention of growing old or grey; the span is given only as for life, forever, to the end, until death or similar."
+     },
+     {
+      "id": "E7b",
+      "ask": "Does the span end at death or the grave, as its final stage?",
+      "fail": "Neither death nor the grave appears, or the span stops at old age."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "device",
+    "source": "Зелена мантія Агнес на вішалці позаду анітрохи не виправляла ситуацію — вона була всіяна паєтками, що грали відблисками ранкового сонця по стінах, як смарагдова диско-куля.",
+    "where": "The closing sentence: Agnes's green robe on the hanger behind her, its sequins and the comparison to a disco ball.",
+    "what": "A comic topper. Robes are exactly what the Academy's drill, one sentence earlier, is about. So her robe on its hanger looks like the one item of regulation dress that might redeem her, and the narrator denies it helps at all, then shows why. It is studded with sequins that act as tiny mirrors: the morning light bounces off them in spots that move over the office walls. That is exactly the effect of the mirrored ball over a dance floor that the comparison names, here in the emerald of her outfit. The joke needs the reader to recognise the robe as the regulation garment and to see light thrown around the room, not just a garment that glitters.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "Is the garment on the hanger recognisably the same kind of garment as the robes named in the Academy's drill just before?",
+      "fail": "The two garments are of visibly different kinds (for instance robes in the drill but a coat, cape or dressing gown on the hanger), so the reader cannot tell that the hanging one is her regulation robe."
+     },
+     {
+      "id": "E8b",
+      "ask": "Does the translation make the sequins the source of light that lands on the walls of the room?",
+      "fail": "No light reaches the walls (the robe only sparkles or shimmers), or the wording does not make clear that the sequins are what throw it there."
+     }
+    ]
+   }
+  ]
+ }
+}

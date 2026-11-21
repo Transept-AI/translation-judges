@@ -1,0 +1,77 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2054,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1323
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "коли розкривав рот",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "У руках і на руках відчувалося лоскотання",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "ніс, який був із якогось чорного матеріалу, сидів не дуже міцно",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "колись можна буде капнути трошки чорного сургучу, коли буде вже справді потрібно",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "Так, вона справді так до нього і ставилася.",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "Ой, як мило було знову побачити, як вони блиснули",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "Того дня вона вийняла його з коробки",
+    "kind": "unclear",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "великі плями світла, наче бризки білого вина",
+    "why": "light, fresh image"
+   },
+   {
+    "quote": "наче холод від склянки крижаної води перед тим, як відпити",
+    "why": "precise, tactile comparison"
+   },
+   {
+    "quote": "з нізвідки, з самого неба, спадав листок",
+    "why": "a quiet, lovely rhythm"
+   },
+   {
+    "quote": "«Що зі мною сталося?» — промовляли сумні маленькі очі.",
+    "why": "the fur comes alive"
+   },
+   {
+    "quote": "Пустунчик!",
+    "why": "a warm, natural pet name"
+   },
+   {
+    "quote": "(ні, не сумне, власне кажучи)",
+    "why": "you can hear her correcting herself"
+   }
+  ]
+ }
+}

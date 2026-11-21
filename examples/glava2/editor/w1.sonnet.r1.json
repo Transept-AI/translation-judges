@@ -1,0 +1,59 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1368,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1747
+ },
+ "result": {
+  "edited": "Because Agnes outraged Anna beyond measure. All the more so because, to Anna's great displeasure, the curator simply swept Theodore's reports and the elective enrollment sheets, which Agnes had assigned to torment him, into the wastebasket with a flick of her golden nails.\n\nBut Anna had no idea that she had no greater ally in Seraph than Agnes. Because right now, in Agnes's office, she and Theodore were discussing Anna's future.\n\n\"I advised Anna not to aim for the Department of Medicine and to use her capital and privileges differently. To do good, if she wants so badly to make the Planes better,\" he said. \"But at least Anna has her plan.\"\n\nTheodore himself had no Plan. Nor any place in the Plans.\n\n\"I don't know what suits me,\" he said bluntly. \"I don't want to do good. And I want to help the Seraphic economy even less.\"\n\n\"Don't tell me you actually considered doing something not for yourself,\" Agnes said with a smile. \"Anna can afford to do whatever she likes. Her fate won't change either way.\"\n\nThe magess sat on the windowsill of her office, playing with a long mahogany pointer and smoking out the window at the same time. She held the cigarette with telekinesis, and the smoke curled into odd spirals, drifting out of the office into the morning sky and leaving not a trace of smell behind. Not that there was anything in the office to soak up the scent of her beloved cherry tobacco. There were no books here, no instruments, no wonders, none of the other trappings of a professor, only a desk, two chairs and a rapier of flysteel on a stand.\n\nAgnes said this was how she relaxed during her tête-à-têtes with Theodore, claiming he needed curating least of all. In truth, she gave it everything she had.",
+  "changes": [
+   {
+    "before": "All the more so since Theodore's reports and the elective enrollment sheets, which Agnes had assigned to torment Theodore, to Anna's great displeasure, the curator simply swept into the wastebasket with a flick of her golden nails.",
+    "after": "All the more so because, to Anna's great displeasure, the curator simply swept Theodore's reports and the elective enrollment sheets, which Agnes had assigned to torment him, into the wastebasket with a flick of her golden nails.",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "But Anna didn't even know that she had",
+    "after": "But Anna had no idea that she had",
+    "kind": "error",
+    "category": "style"
+   },
+   {
+    "before": "dispose of her capital and privileges differently",
+    "after": "use her capital and privileges differently",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "He, Theodore, had no Plan.",
+    "after": "Theodore himself had no Plan.",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Helping the Seraphic economy even less.",
+    "after": "And I want to help the Seraphic economy even less.",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Agnes smiled.",
+    "after": "Agnes said with a smile.",
+    "kind": "error",
+    "category": "punctuation"
+   },
+   {
+    "before": "not a drop of smell",
+    "after": "not a trace of smell",
+    "kind": "error",
+    "category": "word"
+   }
+  ]
+ }
+}

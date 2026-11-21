@@ -1,0 +1,76 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1826,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 600
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Because Agness infuriated Anna to no end.",
+    "why": "fragment opening, awkward idiom"
+   },
+   {
+    "quote": "Yet Anna didn't even realize she had no greater ally in Seraph than Agness.",
+    "why": "clunky phrasing"
+   },
+   {
+    "quote": "Because right now, in Agness's office",
+    "why": "repetitive 'Because' fragments"
+   },
+   {
+    "quote": "And propping up Seraph's economy even less so.",
+    "why": "stilted dialogue"
+   },
+   {
+    "quote": "Agness smiled.",
+    "why": "smile as speech tag"
+   },
+   {
+    "quote": "Not that there was anything in the room to absorb the smell of her favorite cherry tobacco anyway.",
+    "why": "wordy, slightly illogical"
+   },
+   {
+    "quote": "In truth, she was giving it her absolute all.",
+    "why": "flat, vague 'it'"
+   },
+   {
+    "quote": "elective evaluation sheets",
+    "why": "mechanical phrasing"
+   }
+  ],
+  "good": [
+   {
+    "quote": "swept into the trash bin by the curatress with a single flick of her gold nails",
+    "why": "vivid, characterful"
+   },
+   {
+    "quote": "He, Theodore, had no Plan. Nor any place in the Plans.",
+    "why": "nice wordplay, poignant"
+   },
+   {
+    "quote": "the smoke curling into whimsical spirals that drifted out of the office and into the morning sky",
+    "why": "evocative image"
+   },
+   {
+    "quote": "just a desk, two armchairs, and a wisp-steel rapier resting on a stand",
+    "why": "telling sparse detail"
+   },
+   {
+    "quote": "Don't tell me you actually considered doing something not for yourself",
+    "why": "sharp, in-character"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

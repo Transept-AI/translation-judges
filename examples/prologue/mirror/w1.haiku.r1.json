@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1826,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 590
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "The human plateau shifted.",
+    "why": "opaque, odd metaphor"
+   },
+   {
+    "quote": "spread through feeds like hot pies",
+    "why": "calqued idiom, sounds off"
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred and fifty thousand.",
+    "why": "viewers don't 'jump to' numbers"
+   },
+   {
+    "quote": "Now 350,000 people",
+    "why": "inconsistent numerals vs words"
+   },
+   {
+    "quote": "And then it was time to answer.",
+    "why": "flat transition"
+   },
+   {
+    "quote": "the questions abruptly veered into the genre of a Tinder group date",
+    "why": "repeats earlier line, clunky 'genre'"
+   },
+   {
+    "quote": "Freya had already left such questions unanswered.",
+    "why": "awkward tense/logic"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "unclear which joke"
+   },
+   {
+    "quote": "But, first, moms on maternity leave",
+    "why": "stiff enumeration"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And a woman, no less!",
+    "why": "wry ironic voice"
+   },
+   {
+    "quote": "With every new thousand Freya caught her breath.",
+    "why": "conveys tension"
+   },
+   {
+    "quote": "scraped together these fifty bucks from the money meant for her kids' school lunches",
+    "why": "sharp, humane detail"
+   },
+   {
+    "quote": "then your children *are* your capital",
+    "why": "funny coach-speak satire"
+   },
+   {
+    "quote": "washed all the cheap provocations down the drain",
+    "why": "vivid image"
+   },
+   {
+    "quote": "(and more expensive!)",
+    "why": "playful aside"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

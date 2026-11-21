@@ -1,0 +1,142 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4547,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 71868
+ },
+ "result": {
+  "reading": "This is the story's turn. At the height of the rapture in block 9, when the whole crowd seems one troupe about to sing, a young courting pair take the places the silent old pair left on Miss Brill's bench (blocks 2–3, 7), and she casts them, in her own assured inner voice, as the romantic leads of the play she discovered in block 8, complete with an invented rich father's yacht. The paragraph ends with her held in suspense, her inward song and tearful smile unbroken, settling in for her favourite pleasure of listening in on strangers (block 2). Blocks 11–15 turn that listening against her as the two leads mock her and her fur, and the bleak homecoming of blocks 16–17 follows from that blow.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "a boy and girl",
+    "where": "The opening sentence, where a new pair arrive and sit down in the places the old pair had left.",
+    "what": "The newcomers are a young courting pair: old enough to be in love, dressed to be seen, and a few lines later the ones who mock her. The English nouns serve just as well for small children, and the park is full of children (block 4), so a fast reader can fall into the child sense. But the love, the yacht, the leading roles she gives them and their talk in blocks 11–15 all fix them as young people of marrying age. As children, they would make the love quaint and put the cruelty of blocks 12–13 in the wrong mouths.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Are the two newcomers presented as young people of courting age, not as children?",
+      "fail": "Either of them is named with a word that denotes a small child."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "The hero and heroine",
+    "where": "The short line right after the pair are said to be well dressed and in love; it is the line that also mentions a yacht.",
+    "what": "In block 8 the gardens turned into a theatre in which everyone, she included, has a part, and block 9 made the whole crowd one troupe about to sing. Here she hands the newcomers the two romantic leading parts of that show. In block 8 she already moved from seeing a likeness to a play to finding that everyone is in fact taking part in one, so she does not compare the pair to leads: for her they simply are the leads. The reader has to hear this same theatre, which blocks 11–13 bring down.",
+    "risk": "medium",
+    "recurs_in": [
+     8,
+     9
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Are the two given the two leading parts (the male and the female lead) of the show she imagines, so that the theatre of blocks 8–9 is recalled?",
+      "fail": "No roles are named (they are only lovers or a handsome pair), or the roles are explicitly placed in a book, a film or a fairy tale rather than a staged show."
+     },
+     {
+      "id": "E2b",
+      "ask": "Are they cast as those leads outright, rather than compared to them?",
+      "fail": "A comparison is introduced (like, as if, looking like), so she merely notices a resemblance."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "link",
+    "source": "of course",
+    "where": "The line that casts the pair as the leads fresh from a yacht: how it marks the casting as obvious to her.",
+    "what": "This is a marker of self-evidence in her own inner voice: in her show, a lovely young couple must be the leads and must have just stepped off a rich father's yacht. It carries her serene, half-playful assurance. That assurance matches her certainty that the bandleader's coat is new (block 1) and that her absence would be noticed (block 8), and the following blocks smash exactly this assurance. Without the marker the line loses her tone. With a hedge in its place, she turns doubtful at the moment she is surest.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the casting marked as something that goes without saying for her?",
+      "fail": "There is no marker of self-evidence, or a word of probability or guesswork (perhaps, probably, it seemed) stands in its place."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "his father’s yacht",
+    "where": "The mention of the yacht the pair have just come from.",
+    "what": "The yacht belongs to the young man's father. It gives her the rich man's son and his sweetheart, the stock couple of popular romance, which she invents on the spot. The slip is easy in Ukrainian. A possessive that points back to the whole pair gives the two of them one shared father, so the lovers sound like brother and sister. A possessive aimed at the girl makes it her family's yacht.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the yacht clearly the young man's father's?",
+      "fail": "It belongs to the girl's father, or to a father the two appear to share (for instance through a possessive referring back to both of them), or to an unnamed family or parent with the owner left open."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "hinge",
+    "source": "soundlessly singing",
+    "where": "The closing sentence, in the description of her singing as she settles in.",
+    "what": "This is the song of block 9, where she pictured the whole crowd about to sing and herself joining the quiet backing part of the people on the benches. Now it runs on inside her without any sound, which keeps her rapt, unnoticed and quiet enough to overhear. If the singing becomes soft but audible, she turns into a woman humming on a bench. The original never gives her that outward oddity, and it would offer the young pair a different thing to sneer at.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is her singing wholly soundless, going on only inside her?",
+      "fail": "The wording allows any sound, however faint: singing softly, humming, singing under her breath, barely audibly."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "link",
+    "source": "still soundlessly singing, still with that trembling smile, Miss Brill prepared to listen",
+    "where": "The closing sentence, where she, singing and smiling, readies herself to listen to the pair.",
+    "what": "The sentence holds her in suspension at the worst possible moment. Her inward song and her quivering, tear-bright smile carry over unchanged from the swell of block 9, where tears came to her eyes and she beamed at everyone. The listening, her favourite Sunday pleasure set out in block 2, is still ahead of her: she is settling in for it as for a scene in her play. Blocks 11–13 strike her exactly there, in mid-rapture and full of expectation.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is her state (the silent song and the quivering smile) marked as carrying on from the moment before, rather than starting now?",
+      "fail": "No marker of continuation applies to either the singing or the smile."
+     },
+     {
+      "id": "E6b",
+      "ask": "Is the listening still ahead of her, so that she gets ready for it, rather than already under way?",
+      "fail": "She is said to listen, to start listening or to be listening, with no sense of getting ready."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "construction",
+    "source": "And still soundlessly singing, still with that trembling smile, Miss Brill prepared to listen.",
+    "where": "The closing sentence as a whole: her silent singing and her smile, then her getting ready to listen.",
+    "what": "The spot says that she, singing silently and smiling as before, gets ready to listen. In English the sentence opens with a conjunction and puts two parallel modifiers before the subject: a verb form and a prepositional phrase, each led by the same adverb. Her state hangs in the air before her name and the verb arrive. Kept close, this gives a sentence-initial conjunction and a heavy run of adverbial phrases before the subject. In Ukrainian that easily reads as a translated period, with a stiff opening and a mechanical repetition.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as a calque. Examples: a stiff sentence-opening conjunction followed by a long run of adverbial phrases before the subject that a native editor would recast; a repeated adverb that sounds mechanical rather than deliberate; a continuation word that properly means 'up to the present' and jars in a past-tense narrative."
+     }
+    ]
+   }
+  ]
+ }
+}

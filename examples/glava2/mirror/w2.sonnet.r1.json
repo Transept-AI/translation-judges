@@ -1,0 +1,76 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1869,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 600
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "For myself, I'd have left the Academy long ago, Agnes.",
+    "why": "awkward, unclear phrasing"
+   },
+   {
+    "quote": "from the second circle on, a mage could already work in full; from the fourth, however, you could say goodbye to any hope of paying off your debts",
+    "why": "confusing logic, muddled"
+   },
+   {
+    "quote": "letting Theodore marinate himself in",
+    "why": "odd reflexive, clunky"
+   },
+   {
+    "quote": "utterly beyond the means of a sub-seraph or a soul from the Firmament",
+    "why": "dangling, unclear referent"
+   },
+   {
+    "quote": "Which covered not only tuition",
+    "why": "fragment start feels choppy"
+   },
+   {
+    "quote": "kept by Seraph",
+    "why": "vague, stiff"
+   },
+   {
+    "quote": "you might never have to pay interest on a debt that grew endlessly",
+    "why": "slightly muddled"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Pick through what the scavengers had gathered from the Shards for treasures, or at least LED bulbs.",
+    "why": "funny, vivid deflation"
+   },
+   {
+    "quote": "Torture demons. Fight the Disorder, patching holes in the fabric of creation.",
+    "why": "punchy rhythmic list"
+   },
+   {
+    "quote": "Because in Seraph absolutely nothing was given for free.",
+    "why": "crisp, wry"
+   },
+   {
+    "quote": "Agnes waited out a pause long enough for exposition",
+    "why": "self-aware humor"
+   },
+   {
+    "quote": "metaphysical walks along the thin layers of the True Plane",
+    "why": "evocative"
+   },
+   {
+    "quote": "The Academician's Golden Card.",
+    "why": "nice satirical punch"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

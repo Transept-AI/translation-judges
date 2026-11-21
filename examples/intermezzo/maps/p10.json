@@ -1,0 +1,95 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4853,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 68552
+ },
+ "result": {
+  "reading": "Block 10 answers the anxious questions that close block 9: the release from the city's iron grip has come, with none of the feared struggle and without the narrator even registering it, yet he cannot hear the silence he hoped for, because other people's talk smothers it. It carries on the complaint of blocks 1–3, 6 and 8 that others' existence floods into his own. Its simile of floating refuse is acted out at once in block 11, where scraps of overheard chatter bob on the clatter of the wheels. His failure to hear the silence is paid off in block 13, where, the moment he arrives, a great silence suddenly becomes audible to him.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "так просто і непомітно",
+    "where": "In the opening clause, where the narrator says how the release he was anxiously awaiting in the previous paragraph actually came about.",
+    "what": "Block 9 ends in suspense: will the city's iron hand ever open and let him go? Here it already has, and the paragraph deflates the drama. The release was plain, and it happened below the narrator's awareness, so he never caught the moment he had agonised over. The word that carries this second point is about perception, not about noise or fuss. Elsewhere it is often rendered by a word for low noise. Here that would lose the anticlimax and blur the next clause, whose whole point is that he cannot hear the silence.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the translation say that the release passed without the narrator noticing or perceiving it?",
+      "fail": "Only ease, smoothness, calm, lack of fuss or low noise is conveyed, and nothing says the moment escaped his notice."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "я не почув тиші",
+    "where": "In the main clause right after the release, where the narrator says what became of the silence he had hoped for.",
+    "what": "Silence is the goal of the whole flight. City noise violates it in block 2, his last anxious question in block 9 asks whether he will have it, he is taunted for wanting it in block 16, and the cuckoo spreads it in block 19. The story treats silence as a presence one hears. Here it is there but drowned out, so it does not reach his ears. In block 13, the moment the carriage enters the yard, a great silence suddenly becomes audible to him. The two sentences are built as failure and fulfilment, and the pair holds only if this one keeps both the silence and the act of hearing.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     9,
+     13,
+     14,
+     16,
+     19
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the thing he misses here named as silence or quiet, an absence of sound, rather than a state that is not about sound?",
+      "fail": "It becomes peace, calm, rest, solitude or another state not defined by the absence of sound."
+     },
+     {
+      "id": "E2b",
+      "ask": "Is his failure expressed with a verb of hearing, so that block 13, where he suddenly hears a great silence, answers it?",
+      "fail": "There is no verb of hearing: he finds, gets, has, feels, senses or notices no silence, or the sentence simply says there was none."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "чужі голоси",
+    "where": "Where the narrator names what drowns out the silence.",
+    "what": "The adjective marks the voices as belonging to others, not to the narrator. Block 1 uses the same word three times for other people's life, whose existence he hears entering his own; he cannot tell where his life ends and theirs begins. The trip is an attempt to escape exactly that intrusion, and on the train it goes on. Taken in its neighbouring senses of strangeness or foreignness, the word turns the voices into merely odd sounds, and the echo of block 1 is lost.",
+    "risk": "medium",
+    "recurs_in": [
+     1
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Are the voices explicitly attributed to other people (strangers, others, the people around him), the same notion as the others' existence that enters the narrator's own in block 1?",
+      "fail": "The voices are described only by how they sound or whether he knows them (odd, eerie, alien, foreign, unrecognised), or by a word meaning merely different or additional, or nothing says whose they are."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "чужі голоси, дрібні, непотрібні слова, як тріски і солома на весняних потоках…",
+    "where": "The closing stretch of the paragraph, where whatever drowns out the silence is belittled and likened to refuse floating on spring floodwater.",
+    "what": "This is the end of the paragraph's single sentence: the voices that smother the silence are belittled and compared to bits of refuse carried on the high water of spring. The original strings three things together on commas alone: a noun, a second phrase that renames it with two adjectives and no conjunction, and a simile. It then trails off into the overheard talk of block 11. Carried over unchanged, the English stumbles. The adjectives seem to hang off the voices or to open a new item in a list, and the comparison dangles at the end.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The comma chain is carried over so that the passage reads as a stumbling list: the adjectives dangle after the voices or seem to start a new item, or the comparison hangs loose instead of attaching clearly to the words it describes."
+     }
+    ]
+   }
+  ]
+ }
+}

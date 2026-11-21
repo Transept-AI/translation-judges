@@ -1,0 +1,47 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1647,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1748
+ },
+ "result": {
+  "edited": "*\"Don't you miss having a strong male shoulder beside you?\"* asked Rebecca223, with a hundred-dollar donation. *\"Would you give up your business if you met the love of your life?\"*\n\nFreya decided to answer.\n\n\"A business can't replace a man, and a man can't replace your life's work. Though you don't have to please a business the way you do a lover. And the right business will *always* stand up for you.\" Freya smiled. \"Which, you'll agree, sets it favorably apart from a man.\"\n\nThe chats exploded. The Twitter and Instagram feeds on the side monitors raced like mad. The feminist community kicked in at full force, and the feed suddenly blossomed with avatars sporting multicolored hair, like an exotic greenhouse. Now it wasn't the assistants but Freya's fans themselves who were filing reports and slinging mud at the right-wingers who had swarmed to the light of her stream from their anonymous loser forums. The right-wingers were always a pain.\n\nAnd yet three hundred and eighty... no, three hundred and ninety thousand live viewers were still three hundred and ninety thousand live viewers. Whatever they smelled like.\n\nThe trolls tried to bury the broadcast in questions like *\"Do you swallow?\"* and *\"Try shaving your legs\"*: no imagination whatsoever, but plenty of volume. Stupid green sad frogs started popping up in the chat. Freya kept smiling and answering selectively, glancing at her assistants' chat. Whichever way you looked at it, the comments set the tone. As it turned out, though, the moderators' help wasn't needed.\n\nThe trolls' moms didn't give them more than five dollars for school lunch. So they were utterly routed by a counterattack from the very core of Freya's audience, rallied by the fan groups on Twitter, TikTok, and Instagram. Moms on maternity leave, nail technicians, and girls studying in the provinces rushed to rescue their idol. Housewives who, at the loud call of the modern economy, had traded their ladles for enormous smartphones. And also men who craved the attention of all the aforementioned women and so had started passing themselves off as one of the girls, not even noticing that they were blowing twenty bucks a month on Freya, if not more.\n\nNot the best audience if you're a serious woman sharing the secrets of *real* success, but a loyal one. And in real business, loyalty counts for a lot.\n\nRight before Freya's eyes, the haters' comments were washed away by twenty- and fifty-dollar messages: *\"Go, Freya!\", \"Freya, we love you!\", \"#Axelsensexuals!\"* The amounts climbed fast, and soon donations under ten dollars didn't even appear on screen. At last, the girl smiled for real.",
+  "changes": [
+   {
+    "before": "asked Rebecca223 for a hundred dollars.",
+    "after": "asked Rebecca223, with a hundred-dollar donation.",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "stand up for you,\" here Freya smiled, \"which, you'll agree",
+    "after": "stand up for you.\" Freya smiled. \"Which, you'll agree",
+    "kind": "error",
+    "category": "punctuation"
+   },
+   {
+    "before": "switched on at a hundred percent",
+    "after": "kicked in at full force",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "Rushing to rescue their idol came moms on maternity leave, nail technicians, and girls studying in the provinces.",
+    "after": "Moms on maternity leave, nail technicians, and girls studying in the provinces rushed to rescue their idol.",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "The stakes rose fast",
+    "after": "The amounts climbed fast",
+    "kind": "error",
+    "category": "word"
+   }
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 565,
+  "cache_read_input_tokens": 2433,
+  "output_tokens": 446
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 8,
+    "quote": "своїм учням-англійцям",
+    "kind": "sense",
+    "wrong": "The reader believes her pupils are English by nationality. In the original she teaches English to them.",
+    "severity": 1
+   }
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 560,
+  "cache_read_input_tokens": 1320,
+  "output_tokens": 1266
+ },
+ "result": {
+  "edited": "Well, there! What nonsense. You wanted quiet and solitude, and now you have them. You shake your head! You do not believe in solitude?\n\nDo I know? Can I know... Can I be sure that the door will not swing open... just a little, with a faint creak, and out of the unknown darkness, so deep and endless, people will not begin to come... all those who laid up in my heart, as in their own hiding place, their hopes, their anger and their suffering, or the bloody cruelty of a beast. All those I cannot get past, who have worn me out... What is strange about it if they come once more? There, I see them already. Well, well! How many of you there are... This is you, whose blood drained out through a small hole made by a soldier's bullet, and this is you... dry specimens: they wrapped you in white sacks, swung you on ropes in the air, and then laid you in poorly covered pits, from which dogs dug you out... You look at me with reproach, and you are right. You know, I once read how they hanged twelve of you at once... Twelve of you... and I yawned. Another time I ate up the news of a row of white sacks with a ripe plum. I simply took, you know, a wonderful juicy plum in my fingers... and felt a pleasant, sweet taste in my mouth... You see, I do not even blush, my face is white, like yours, because horror has sucked all the blood out of me. I no longer have a drop of hot blood even for those living corpses among whom you walk like a bloody phantom. Pass on! I am tired.\n\nAnd people keep coming. One after another, a second and a third, and so without end. Enemies and friends, near and far, and all of them shout into my ears the cry of their life or their death, all of them leave on my soul the prints of their soles. I will stop my ears, lock my soul, and shout: no admittance here!",
+  "changes": [
+   {
+    "before": "laid into my heart, as into their own hiding place",
+    "after": "laid up in my heart, as in their own hiding place",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "What is strange in it, if they come once more?",
+    "after": "What is strange about it if they come once more?",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "a small hole from a soldier's bullet",
+    "after": "a small hole made by a soldier's bullet",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "near and strange",
+    "after": "near and far",
+    "kind": "error",
+    "category": "word"
+   }
+  ]
+ }
+}

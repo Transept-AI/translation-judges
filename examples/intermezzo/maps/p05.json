@@ -1,0 +1,49 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4798,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 45051
+ },
+ "result": {
+  "reading": "This one-line exclamation turns the present-tense outcry against people (blocks 1–4) into memory of his nights in the city, and obliquely answers block 4's question about who will grant him solitude. It never names what he longed for: block 6 brings sleep under a classical periphrasis, only for people to lie in wait for him there too, and block 7's remark that this is how it went at night names the object after the fact. The line is the hope that block 6 at once dashes, and it prefigures the night at the estate (blocks 14–18), where the emptiness he wanted fills with people again.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "чекав їх",
+    "where": "the object of the one-line exclamation: what he says he used to wait for",
+    "what": "The plural pronoun has no obvious antecedent before it. The people of blocks 2–3 are exactly what he is fleeing. The comfort of being alone asked for in block 4 is singular, so the plural form cannot refer to it; only a one-letter misreading of the pronoun as feminine singular would make it do so. The pronoun is resolved forward: block 6 shows sleep coming to take him, with people lying in wait even there, and block 7 says this is how it went at night. So what he longed for were the nights, the hoped-for givers of the solitude block 4 asks for. Making it the people reverses his whole complaint. Collapsing it into one singular thing he wanted (solitude, its comfort, peace, rest, sleep) loses the nights and leaves block 7's summary unanchored. An open pronoun that the next lines resolve keeps the original's effect, and naming the nights is an acceptable explicitation.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the thing he waited for either left as an open plural pronoun with no referent supplied, or named as the night or the nights?",
+      "fail": "Something else is named or pointed to: people or any other persons; or a single thing, such as a singular pronoun reaching back to solitude or the comfort of being alone, or a noun for solitude, peace, quiet, rest or sleep."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "часом",
+    "where": "in the same exclamation, the qualifier saying how often this longing came over him",
+    "what": "The adverb limits the longing to some occasions. There were stretches of his city life when he waited for them with special hunger, but not every time, and this was not one single wait. It opens the recurring, each-time frame that blocks 6–7 carry on: whenever sleep came, people were there, and that is how it went at night. If the adverb is dropped, the line shrinks to one undifferentiated cry. If it is taken as the instrumental of the noun for time, it can become a statement of how long he waited. If it is replaced by a bare habitual, an intermittent craving becomes a standing routine.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the translation say that this longing came only at times, on some occasions?",
+      "fail": "No marker of occasional frequency survives; or only a general habitual marker remains, with nothing limiting it to some occasions; or the qualifier has become a duration (how long he waited) or a constancy (always, every night)."
+     }
+    ]
+   }
+  ]
+ }
+}

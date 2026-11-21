@@ -1,0 +1,104 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1371,
+  "cache_read_input_tokens": 614,
+  "output_tokens": 1397
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "all those who laid in my heart, as in their own hiding place, their hopes, their anger and their suffering, or the bloody cruelty of the beast",
+    "kind": "structure",
+    "weight": 3
+   },
+   {
+    "quote": "or the bloody cruelty of the beast",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "Here I see them already.",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "It is you, from whom the blood ran out through a small hole",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "dry specimens",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "I chased the news of a row of white sacks with a ripe plum",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "I have not a single drop of warm blood left even for those living dead among whom you walk like a bloody specter",
+    "kind": "follow",
+    "weight": 3
+   },
+   {
+    "quote": "Go on!",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "One after another, and a third, and so on without end.",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "near and strangers",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "shout in my ears with the cry of their life or their death",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "entry here is not permitted",
+    "kind": "register",
+    "weight": 1
+   },
+   {
+    "quote": "All those I cannot pass by, who have wearied me…",
+    "kind": "unnatural",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "How can I be sure that the door will not open, just a little, with a faint creak",
+    "kind": "",
+    "why": "quiet, eerie build of dread"
+   },
+   {
+    "quote": "All twelve… and I yawned.",
+    "why": "shocking, precise confession"
+   },
+   {
+    "quote": "I took, you know, a wonderful juicy plum between my fingers… and felt a pleasant, sweet taste in my mouth.",
+    "why": "sensory detail makes the guilt concrete"
+   },
+   {
+    "quote": "all of them leave the tracks of their soles on my soul",
+    "why": "memorable soles/soul echo"
+   },
+   {
+    "quote": "You see, I do not even blush, my face is as white as yours",
+    "why": "grim, apt image tying narrator to the dead"
+   }
+  ]
+ }
+}

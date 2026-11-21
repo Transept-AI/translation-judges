@@ -1,0 +1,145 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4968,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 65444
+ },
+ "result": {
+  "reading": "After a night in which the dark house fills with the people and the dead he cannot shut out (14–18), the narrator wakes and the cure he came for arrives: the cuckoo whose call on arrival first let him hear the great silence (13) now rings the morning like a bell and sows that silence. The green yard he drove into (13) has engulfed the room that the black rooms besieged at night (14), and the plenty of sky that drowned his eyes on the road (12) has become a joy. The man who fled every voice now calls out of the window and greets a bird, and his leap out of bed runs straight into block 20, where he hurries into that yard to the chained dogs.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "double",
+    "source": "Кує зозуля. Б'є молоточком",
+    "where": "where the cuckoo is first heard calling, just before it is pictured at work with a hammer on a bell",
+    "what": "The verb the original uses for a cuckoo's calling is also the everyday verb for forging, a smith hammering metal. The next sentence takes that second sense literally and sets the bird to work with a hammer. For a reader of the original the image therefore grows out of the verb: a pun unfolding, not a new comparison starting. With a plain verb of calling, the hammer arrives from nowhere and the wit of the line is gone.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the cuckoo's first sound in the paragraph reported as its call, a bird calling?",
+      "fail": "The bird is only said to forge, hammer or work, or no call is reported at that point."
+     },
+     {
+      "id": "E1b",
+      "ask": "Does the wording that first reports the call also evoke the blows of a hammer or a smith (hammering, striking, tapping, forging), before the explicit hammer-and-bell sentence?",
+      "fail": "The call is reported with a plain verb of calling, singing or cuckooing. Or it uses only a bell or music word (ringing, chiming, tolling) with no hammer or smith. Or the blows appear only in the following sentence."
+     },
+     {
+      "id": "E1c",
+      "ask": "Are the call and the blows carried by one and the same word or phrase?",
+      "fail": "The blows come in a separate clause, simile or apposition added to a plain calling verb, or are absent from the first mention."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "device",
+    "source": "Б'є молоточком у кришталевий великий дзвін",
+    "where": "where the cuckoo is pictured striking a bell with a hammer",
+    "what": "The image runs on a contrast of scale. A diminutive makes the striking tool small, while the bell it strikes is large and made of crystal: one small bird sets the whole clear, transparent morning ringing. The original states this outright as what the cuckoo does, carrying on the bold metaphor born in the verb before it. It is not offered as a likeness.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the hammer small?",
+      "fail": "A hammer with no mark of smallness, or the bird simply hammers with no tool named."
+     },
+     {
+      "id": "E2b",
+      "ask": "Is the bell it strikes large?",
+      "fail": "No size is given for the bell, or the bell is small."
+     },
+     {
+      "id": "E2c",
+      "ask": "Is the striking told as what the cuckoo is doing, not framed as a comparison?",
+      "fail": "It is framed as a likeness: as if, as though, like, it seems, or similar."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "— ку-ку! ку-ку! — і сіє тишу по травах",
+    "where": "where the cuckoo's calls spread silence over the grass",
+    "what": "A paradox that answers block 13, where the cuckoo's first call, as the carriage rolled in, made him suddenly hear the great silence. Here the bird's ringing calls themselves produce the silence and cast it over the grass the way a sower casts seed. The sound does not break the quiet; it plants it. The farming image suits the meadow and the recovery about to grow from it.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is it the cuckoo, by its calling or striking, that spreads the silence, so that a sound is what produces the silence?",
+      "fail": "The silence spreads, falls or reigns on its own, or merely follows the call, and the bird is not its agent."
+     },
+     {
+      "id": "E3b",
+      "ask": "Is the spreading a sowing, with the silence cast the way seed is cast?",
+      "fail": "A verb of mere spreading, pouring, filling, settling or scattering, with no sense of seed or a sower."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "тишу",
+    "where": "what the cuckoo spreads over the grass",
+    "what": "Silence is the story's keyword. Humanity flogs the earth's holy silence with its factories (2). He wonders whether there will be silence around him and within him (9). At first he cannot hear it for the chatter (10). He hears the great silence the moment the cuckoo calls on arrival (13). The night house is silent and empty (14), and he mocks himself that he wanted silence and now has it (16). Here, after the night, the same cuckoo hands him the silence he longed for. The text keeps this word apart from its separate words for rest and calm (3, 6, 15), so turning it into a mood blurs the keyword at its return.",
+    "risk": "medium",
+    "recurs_in": [
+     2,
+     9,
+     10,
+     13,
+     14,
+     16
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is what the cuckoo spreads named with a word for the absence of sound (silence, quiet or stillness), recognisably the silence he longed for and first heard on arrival?",
+      "fail": "A word for a mood or a state of rest, such as peace, calm, tranquillity or serenity, rather than the absence of sound."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "hinge",
+    "source": "Уявляється раптом зелений двір",
+    "where": "where, still in bed, he suddenly has the green yard before him and it has already swallowed his room",
+    "what": "This is the house's own yard: the wide green yard the carriage rolled into (13), and the one he runs out into in the next paragraph (20). The original has no articles and puts the noun after the verb, the usual place for new information, so it is easy to make it some green yard, a fresh invention. The reader then loses that the real place outside, with the cuckoo and the birch in it, has already overrun his room.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the yard that rises before him presented as the known yard of the house, not an indefinite or invented yard? (Whether he sees it or pictures it does not matter.)",
+      "fail": "An indefinite 'a green yard', or a garden, meadow or landscape not tied to the house."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "hinge",
+    "source": "веселої зелені",
+    "where": "the last thing named in the closing exclamation, the greenery",
+    "what": "Applied to a colour, this adjective can describe only brightness, but its core sense is a feeling of gladness. It is the paragraph's one word of feeling, and it goes to the green itself as the last item of the exclamation. The joy of the morning lives in the greenery, and the green that whirled as chaos round the carriage on the road (12) is now glad. Keeping only the hue drops the feeling the paragraph ends on.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the greenery given gladness, a merry, cheerful or joyful quality, and not only a quality of colour or growth?",
+      "fail": "The green is only bright, vivid, vibrant, lush, fresh or similar, with no gladness."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1945,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 568
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Good morning!..",
+    "why": "odd punctuation carried over"
+   },
+   {
+    "quote": "and their long shaggy coats leap on them",
+    "why": "awkward repetition, clumsy"
+   },
+   {
+    "quote": "and the white fur breeches",
+    "why": "dangling, unclear fragment"
+   },
+   {
+    "quote": "Toothy fury strains and cannot quite burst out of the deep jaws",
+    "why": "stiff, overly literal"
+   },
+   {
+    "quote": "drives your fiery rage back down it",
+    "why": "confusing referent"
+   },
+   {
+    "quote": "and off she tears blindly",
+    "why": "gender switches from 'he'"
+   },
+   {
+    "quote": "Suddenly I picture the green yard",
+    "why": "repeated 'suddenly', flat"
+   }
+  ],
+  "good": [
+   {
+    "quote": "It strikes a little hammer against a great crystal bell",
+    "why": "vivid, musical image"
+   },
+   {
+    "quote": "sows silence over the grass",
+    "why": "lovely, poetic"
+   },
+   {
+    "quote": "it has already swallowed my room",
+    "why": "fresh, striking"
+   },
+   {
+    "quote": "Ah, how much of everything there is: sky, sun, merry green.",
+    "why": "joyful, childlike voice"
+   },
+   {
+    "quote": "only tosses the haystack of fur",
+    "why": "vivid comic image"
+   },
+   {
+    "quote": "What a trifle, if only you knew…",
+    "why": "hints at darker undercurrent"
+   },
+   {
+    "quote": "What a silly mutt.",
+    "why": "natural, warm tone"
+   },
+   {
+    "quote": "the matted tufts on her rump fly along after her",
+    "why": "lively physical detail"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

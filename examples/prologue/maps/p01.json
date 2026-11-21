@@ -1,0 +1,77 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5584,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 54353
+ },
+ "result": {
+  "reading": "Block 1 is Freya's own arithmetic slipped into the narration. It turns block 0's vague promise of a new record and its rising count into a precise finish line, four hundred thousand live viewers, and names the prize in inflated record-book terms. Block 2 depends on it directly: it names the mark to beat (Bobbins's 390,000) as a ceiling she can now break with room to spare, and it pumps up the stakes with exclamations, while the rest of the scene (blocks 3–8 and 20) counts down toward this line and stands at exactly Bobbins's 390,000 in block 20, still short of it. The satire of the coaching world starts here, with a world record claimed for a niche business in Freya's breathless superlatives.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "device",
+    "source": "абсолютний світовий рекорд для всієї індустрії коучингу",
+    "where": "in the result half of the sentence: how big a record four hundred thousand live viewers would be, and across what field",
+    "what": "The stakes arrive as a pile-up of amplifiers in Freya's own self-promoting voice. The record is lifted above an ordinary record to the very top of the scale, it is set on a world scale, and it is stretched over the industry in its entirety. The pile-up is quietly comic because all that grandeur lands on a niche business, a record-book claim for a coaching livestream, and block 2 inflates it further (no one before her, fame for years ahead). A hurried translator trims the amplifiers as redundant, the sentence becomes a sober statistic, and the satire loses its first push.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the translation add an intensifier that marks the achievement as the ultimate, highest-ever mark, beyond simply calling it a record or a world record?",
+      "fail": "Nothing beyond 'world' or 'new' qualifies it (just a world record, a new record, a record), or it is a size claim with no highest-ever marker."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is the record's reach worldwide, shown by a world record or by another marker of global scope?",
+      "fail": "There is no marker of global scope, so it could be a record within a country, a platform or an unspecified field."
+     },
+     {
+      "id": "E1c",
+      "ask": "Is the industry stressed as a whole (the entire industry, every coach) rather than merely named?",
+      "fail": "Coaching or the coaching industry is named with no word of totality."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "Якщо кількість глядачів у прямому ефірі сягне чотирьохсот тисяч, це буде абсолютний світовий рекорд для всієї індустрії коучингу.",
+    "where": "the whole sentence: the condition (a live audience of four hundred thousand) and its result (a record for the coaching industry)",
+    "what": "This is Freya's mental arithmetic slipped into the narration: a cool, numerical if-then between block 0's report of the rising count and block 2's exclamations. The original builds the condition on an abstract noun of quantity, with the broadcast hung on it as a prepositional phrase. It opens the result with a pointing pronoun and keeps a plain future tense inside past-tense narration, which Ukrainian free indirect thought allows without strain. Followed closely, it becomes a stiff, report-like English sentence whose tense lurches against the past narration around it. The cool, calculating tone has to survive in prose that reads as English.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "At the sentence saying what a live audience of four hundred thousand would mean, does the translation read as written by a skilled native English writer?",
+      "fail": "It reads as translated. Signs include a stiff abstract subject (a count or quantity of viewers with the broadcast tacked on as a trailing phrase about a live broadcast or being on air), officialese, or tenses that clash within the sentence or jar against the surrounding past-tense narration as a slip rather than as the character's thought."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "рекорд",
+    "where": "where the sentence names what reaching four hundred thousand live viewers would amount to",
+    "what": "Block 0 opens by saying Freya has every chance of setting a new record. This sentence answers which record, and the reader of the original hears the same word come straight back, so a vague promise snaps into a concrete prize. Block 2 then names the holder to beat and recasts that record as a ceiling to break. A world record claimed for an industry sits oddly in English, so a translator may restructure the sentence and let the record dissolve into a looser idea of size or novelty. The answer to block 0 then goes unheard, and the countdown loses its record-book frame.",
+    "risk": "medium",
+    "recurs_in": [
+     0
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Does the translation say that reaching four hundred thousand would be, set or break a record, recognisably the same notion as the new record that block 0 says Freya has every chance of setting?",
+      "fail": "The result is described without the notion of a record, only as a biggest or largest audience, a milestone, a first, history or similar."
+     }
+    ]
+   }
+  ]
+ }
+}

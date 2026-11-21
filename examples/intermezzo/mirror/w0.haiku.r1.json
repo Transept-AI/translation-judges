@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1923,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 596
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "There was only left to pack up…",
+    "why": "awkward, unidiomatic word order"
+   },
+   {
+    "quote": "that I am not giving myself to them, but that they already govern me",
+    "why": "clumsy, pronoun shift from singular"
+   },
+   {
+    "quote": "In effect, you become a slave",
+    "why": "flat, bureaucratic connective"
+   },
+   {
+    "quote": "and you consider that you have a right to me",
+    "why": "stiff, translated-sounding"
+   },
+   {
+    "quote": "like that vampire",
+    "why": "odd unexplained 'that'"
+   },
+   {
+    "quote": "in your endless “you have to.”",
+    "why": "clunky echo of 'musts'"
+   },
+   {
+    "quote": "lodge in my pupil",
+    "why": "slightly strange image"
+   }
+  ],
+  "good": [
+   {
+    "quote": "this many-headed beast",
+    "why": "vivid metaphor for obligations"
+   },
+   {
+    "quote": "like a wave at the shore",
+    "why": "simple, evocative"
+   },
+   {
+    "quote": "like the waters of tributaries into a river",
+    "why": "lovely flowing image"
+   },
+   {
+    "quote": "I confess I envy the planets: they have their own orbits, and nothing gets in their way.",
+    "why": "memorable, fresh idea"
+   },
+   {
+    "quote": "a thousand black mouths, forever breathe out stench",
+    "why": "striking, grim imagery"
+   },
+   {
+    "quote": "You lash the holy silence of the earth with the screech of factories",
+    "why": "powerful, rhythmic"
+   },
+   {
+    "quote": "You do not merely walk beside me, you crawl inside me.",
+    "why": "punchy, unsettling"
+   },
+   {
+    "quote": "I cannot pass you by… I cannot be alone…",
+    "why": "effective refrain"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

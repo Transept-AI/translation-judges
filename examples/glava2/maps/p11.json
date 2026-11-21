@@ -1,0 +1,97 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3340,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 72107
+ },
+ "result": {
+  "reading": "A descriptive pause between Agnes's quip in block 10 and the talk resuming in block 13. It shows her idle, unteacherly pose and offhand magic, paying off the smoking set up in blocks 0–1, then uses the smoke to slide into a wry tour of an office stripped of a professor's things, with a weapon as its one showpiece. The bare room bears out blocks 2 and 4: she is a combat veteran who flouts the Academy's norms and holds a scholar's post without a scholar's trappings. Block 12 depends on it directly: its remark that this is how she unwinds in her one-on-one sessions with Theodore points back to this pose and the two seats, before exposing the ease as a front for hard work.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "Магеса",
+    "where": "the opening of the paragraph: who is sitting on the windowsill",
+    "what": "The paragraph opens on Agnes's professional title in its feminine form, not on a name. The narrator uses the same word for her in blocks 0 and 4. The word is rare and stands capitalised at the head of the sentence, so a hurried translator or engine may take it for a proper name and put a stranger on the windowsill. The reader would then lose track of whose office and whose pose this is, just before block 12 explains that pose as hers.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is it clear that the person on the windowsill is Agnes, with no unfamiliar proper name introduced for her?",
+      "fail": "The word is rendered as a name (a transliteration used like a name), so a new character seems to appear, or it is unclear who is sitting there."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "довгою указкою з червоного дерева",
+    "where": "first sentence: the wood of the long teaching implement she toys with on the windowsill",
+    "what": "The wood is named by a fixed Ukrainian compound. It means the costly tropical hardwood of fine furniture, not any wood that happens to be red. It is a small sign of expensive taste, in step with her outfit and gold nails (blocks 0, 2, 5), and it sits on the one teaching tool left in a room otherwise bare of them. Read word by word, the compound becomes wood that is merely red in colour, or the North American giant conifer whose English name echoes it, and the touch of luxury is gone.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the implement she plays with said to be made of mahogany?",
+      "fail": "The wood is given as redwood, as red or reddish wood, or as another species such as rosewood, or the material is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "Сигарету вона тримала телекінезом, і дим закручувався в химерні спіралі, линучи геть із кабінету в ранкове небо, не залишаючи ані краплі запаху.",
+    "where": "second sentence: she holds the cigarette by magic rather than by hand while the smoke curls out of the room into the morning sky, leaving no smell",
+    "what": "The original puts the cigarette first as its topic and gives the means as a bare instrumental noun. It then lets the smoke's motion trail off in two participle clauses and ends on a quantity idiom built on a liquid measure, which only intensifies the absence of smell. Followed closely, it yields an object-first sentence, a stiff phrase for the telekinesis, a chain of trailing -ing clauses, and a smell counted in drops. The reader should get an easy, faintly lyrical picture of magic spent on a small vice, which the next sentence then deflates.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Does this sentence read as if written by a skilled native English writer?",
+      "fail": "It reads as translated in any of these ways: the cigarette is fronted before the subject with no English reason for the emphasis; the telekinesis gets a stiff instrument phrase; trailing -ing clauses pile up until their subject blurs; or the smell is measured in a liquid unit."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "link",
+    "source": "У кабінеті, втім, нічому було ввібрати запах",
+    "where": "third sentence: right after the smoke leaves no smell, the remark that the office had nothing that could soak up the scent of her cherry tobacco",
+    "what": "The small connective makes this a wry afterthought that undercuts the sentence before. Her magic makes sure no smell lingers, yet the room contains nothing that could have held a smell, so the precaution is close to pointless. The aside also pivots from the smoke to the bareness of the office described next. Without a marker the sentence reads as a flat extra fact. With a causal link it wrongly makes the empty room the reason the smoke leaves no trace.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is this sentence marked as a qualifying afterthought to the previous one, by any marker of contrast, of concession, or of the precaution being needless?",
+      "fail": "There is no marker at all, so it reads as a plain new fact; or a causal link makes the empty room the reason the smoke left no smell."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "register",
+    "source": "рапіра з мушисталі",
+    "where": "last sentence: the metal of the rapier on its stand in the otherwise bare office",
+    "what": "The rapier's metal is named by an invented compound built on the word for steel. It is a term of the book's own world and marks a rare, specific alloy. It keeps the one showpiece of a bare room exotic, of a piece with the coinages elsewhere on the page (blocks 2, 15, 16, 19). If it is flattened into ordinary steel, swapped for a familiar real or stock-fantasy metal, or dropped, what remains is a plain sword and a thinner world.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the rapier's metal given as a distinct named material that is not ordinary steel (a coinage, calque or transliteration all count)?",
+      "fail": "The metal is plain steel; a familiar real or stock-fantasy material such as Damascus, Toledo or meteoric steel or mithril; a generic magic or enchanted steel; or there is no material at all."
+     }
+    ]
+   }
+  ]
+ }
+}

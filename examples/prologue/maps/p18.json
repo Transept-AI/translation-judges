@@ -1,0 +1,102 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3714,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 69722
+ },
+ "result": {
+  "reading": "Answering Rebecca223's paid questions about whether she misses a man's support and would give up business for love (blocks 16–17), Freya opens with a polished, even-handed coaching maxim, tilts toward business with a remark about what lovers demand, and then, with a smile, lands a risqué punchline in which a business's reliability doubles as a jab at male potency. It repeats the move of her viral answer in block 12: private life recast in business language, the joke that went over in block 15. This joke is what makes the chats explode in block 19: it mobilises her feminist fans, draws the right-wing trolls whose crude sexual taunts follow (blocks 19, 21–22), and pushes the count to 390,000, level with Tony Bobbins's best (blocks 2, 20). If the double meaning is lost, the uproar and the sexual turn of the trolling look unmotivated.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "double",
+    "source": "правильний бізнес *завжди* постоїть для вас",
+    "where": "Freya's claim about what a business of the proper kind will unfailingly do for the listener, just before the narration notes her smile",
+    "what": "The verb is the plain verb of standing, with a prefix of duration, placed where the idiom for defending someone would take a different preposition. So the line reads two ways. On its face, a business of the right kind will reliably back you. This is Freya's answer to Rebecca's question about missing a man's strong shoulder (block 16), with business as the support. Underneath, this verb is the everyday Ukrainian slang for a man's erection (or his failure to get one), and the prefix adds staying power. The emphasis on its never failing, the smile and the closing comparison with a man make the line a jab at male potency. That innuendo is the punchline that sets off the uproar and the sexual trolling of blocks 19–22. With only the support sense left, the ending shrinks to a mild grumble about unreliable men.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Can the line be read, on its face, as the business reliably backing, supporting or coming through for the listener?",
+      "fail": "The line has only a sexual meaning, or its non-sexual sense is garbled into something other than support (e.g., an English idiom meaning to tolerate or to represent)."
+     },
+     {
+      "id": "E1b",
+      "ask": "Does the same wording also carry a sexual sense about male performance, most naturally a live image of something standing up, rising or staying up, so the line doubles as a jab at men who can't always manage it?",
+      "fail": "The wording is a support idiom with no live physical image (backing you, being there for you, having your back, standing by you). The line then reads only as reliability, and the comparison with a man is merely about men being unreliable."
+     },
+     {
+      "id": "E1c",
+      "ask": "Is the play carried by a single expression, rather than split across separate phrases or unpacked by added explanation?",
+      "fail": "One phrase gives the support sense and another gives the sexual sense, or added words, a gloss or a footnote state the sexual meaning outright (mentioning erections, potency or sex)."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "Хоч бізнесу й не треба догоджати, як коханцеві",
+    "where": "the point in her answer where she sets a business against a lover on the matter of pleasing",
+    "what": "Both the business and the lover are in the dative, the case of the one who is catered to. But a fast reader can also take the business as the one excused from an obligation, which makes it the party that need not do the pleasing. The intended reading is the woman's chore: a lover makes demands she must keep satisfying, and a business makes none. This is the first point Freya scores for business over men, and her next line tops it. The flipped reading makes it a drawback of business and muddles the build-up to the punchline.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the translation make the business the one that need not be pleased, i.e. the listener is spared catering to it the way she must cater to a lover?",
+      "fail": "The business is made the party that does, or need not do, the pleasing (e.g., it is said not to please the listener the way a lover does), or the lover is made the one who needs no pleasing."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "register",
+    "source": "вигідно відрізняє його від чоловіка",
+    "where": "the final remark of her answer, put to the audience for agreement, that sets the business against a man",
+    "what": "Freya signs off with a stock formula of advertising copy and product reviews, the one used to say a product beats its competitors. The man is weighed like a rival product that loses on a key feature. The comedy is the gap between corporate deadpan and a bedroom jab. It also repeats the trick of her viral answer in block 12, where children became capital and an investment strategy (the joke that went over in block 15).",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the closing comparison phrased in sales or product-comparison language, presenting the business's difference from a man as a competitive advantage?",
+      "fail": "A plain everyday comparison (simply better than or unlike a man, or more than can be said for one), or a neutral statement that the two differ, with nothing of pitch or product-comparison language."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "Хоч бізнесу й не треба догоджати, як коханцеві.",
+    "where": "the point in her answer where, as an afterthought to her balanced opening, she sets a business against a lover",
+    "what": "The spot is a qualification tacked onto her even-handed opening: compared with a lover, a business makes no demands to be kept happy. Ukrainian lets a spoken sentence stand on its own while opening with a concessive conjunction. A close English rendering leaves a subordinate clause with no main clause. The comparison with the lover, squeezed into a short tail after a negation, also tends to come out lopsided.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "A formal concessive clause is left hanging as a sentence of its own and reads as a stilted fragment (a casual spoken afterthought is acceptable), or the comparison with the lover is clumsy or lopsided."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "construction",
+    "source": "— тут Фрея всміхнулася, — що, погодьтеся, вигідно відрізняє його від чоловіка",
+    "where": "her closing line, around the narration's note that she smiles, ending with the remark that sets the business against a man",
+    "what": "The original breaks her last sentence with a narrator's aside that pins the smile to that exact moment. The speech then resumes with a relative clause that hangs on the whole preceding claim, carries a parenthetical appeal for the audience's agreement, and ends in a stock comparative formula. Rendered closely, each piece reads as translation: a stage-direction aside, a resumed quotation that starts as a dangling fragment or with a bare imperative appeal, and a stiff, dictionary-like comparison where English speech would phrase it idiomatically.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The smile is reported as a literal stage direction pinned to the moment with 'here' or 'at this point', the resumed speech starts as a dangling fragment or with a garbled appeal to the audience, or the comparison is a stiff word-for-word formula."
+     }
+    ]
+   }
+  ]
+ }
+}

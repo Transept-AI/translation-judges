@@ -1,0 +1,72 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1835,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 514
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "moderately styled and dotted with moles",
+    "why": "odd, clinical phrasing"
+   },
+   {
+    "quote": "The magess loved both.\n\nAgnes did exactly both.",
+    "why": "confusing, garbled repetition"
+   },
+   {
+    "quote": "the muscles beneath it moving",
+    "why": "unclear antecedent"
+   },
+   {
+    "quote": "right up to gray hair and the grave",
+    "why": "awkward, tacked-on idiom"
+   },
+   {
+    "quote": "like that Volevichka",
+    "why": "unexplained, jarring reference"
+   },
+   {
+    "quote": "For the tutors appointed at the end of the fourth circle held nearly unlimited power. Because, besides examinations,",
+    "why": "clunky stacked conjunctions"
+   },
+   {
+    "quote": "utterly unworthy in every way",
+    "why": "redundant, flat"
+   },
+   {
+    "quote": "Anna knew all the versions",
+    "why": "sudden POV, unclear who"
+   }
+  ],
+  "good": [
+   {
+    "quote": "threw the morning sun across the walls like an emerald disco ball",
+    "why": "vivid, playful image"
+   },
+   {
+    "quote": "gold nails made of remelted etons",
+    "why": "nice worldbuilding detail"
+   },
+   {
+    "quote": "Three versions circulated about a three-day orgy in the rectorate.",
+    "why": "dry gossipy humor"
+   },
+   {
+    "quote": "Two more added that Senators and Minor Gods took part.",
+    "why": "funny escalation"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 2,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

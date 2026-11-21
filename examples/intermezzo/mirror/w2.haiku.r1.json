@@ -1,0 +1,92 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1857,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 678
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Some green chaos whirled around me",
+    "why": "'Some' sounds vague, awkward"
+   },
+   {
+    "quote": "seized the carriage by all its wheels",
+    "why": "slightly clunky literalism"
+   },
+   {
+    "quote": "And they were helpless.",
+    "why": "flat, abrupt"
+   },
+   {
+    "quote": "At last we are home.",
+    "why": "tense shift jars"
+   },
+   {
+    "quote": "lay across the deep blue spaces",
+    "why": "vague, translated feel"
+   },
+   {
+    "quote": "black darkness",
+    "why": "redundant, repeated twice"
+   },
+   {
+    "quote": "I hear the solidity and shape of furniture",
+    "why": "odd, overly abstract"
+   },
+   {
+    "quote": "voiceless, unmoving calm",
+    "why": "grammatically loose"
+   },
+   {
+    "quote": "the soft horsehair mattresses of the furniture",
+    "why": "awkward, 'mattresses' wrong"
+   }
+  ],
+  "good": [
+   {
+    "quote": "my eyes drowned in it as in a sea and searched for something to catch hold of",
+    "why": "vivid, disorienting"
+   },
+   {
+    "quote": "It was so quiet that I felt ashamed of the pounding of my own heart.",
+    "why": "memorable, emotionally precise"
+   },
+   {
+    "quote": "Ten black rooms, filled with darkness to the brim.",
+    "why": "strong, atmospheric"
+   },
+   {
+    "quote": "as if I feared the light of the lamp would leak out through the cracks",
+    "why": "fresh image"
+   },
+   {
+    "quote": "Well, then, stand where you are, rest peacefully.",
+    "why": "natural, eerie address"
+   },
+   {
+    "quote": "everything would suddenly leap back into its place",
+    "why": "lively, uncanny"
+   },
+   {
+    "quote": "all those who left their faces in mirrors, their voices in cracks and corners",
+    "why": "haunting, lyrical"
+   },
+   {
+    "quote": "Who knows what goes on where a person cannot see…",
+    "why": "good closing tension"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

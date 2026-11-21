@@ -1,0 +1,122 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3196,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 67941
+ },
+ "result": {
+  "reading": "Block 12 is the narrator's aside on the pose staged in block 11, where Agnes sits on the windowsill, smokes out of the window and toys with a pointer: she passes this off as her way of unwinding in her private sessions with Theodore, on the grounds that of all her charges he needs her least, and the narrator at once reveals that the ease is a front and her real effort is total. It extends the gap between Agnes's frivolous surface (blocks 0–5) and her real commitment (block 6), and it leans on block 3, which sets up her post as the one that decides whether a student moves on to the fifth circle. Theodore's lack of any plan (block 8) and the precariousness laid out in blocks 13–19 undercut her claim that he needs little, and block 20 shows her deliberate technique at work, which is the effort this paragraph announces.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "register",
+    "source": "на тет-а-тетах",
+    "where": "where her private meetings with Theodore are named",
+    "what": "The original names these official meetings with a French loanword from the vocabulary of polite society. The word implies privacy and a certain intimacy between two people. Used for a meeting between an official and her student, it is playful and faintly flirtatious. That fits Agnes's glamorous, rumour-laden persona (blocks 0–4) and the cosy staging of block 11. Plain or administrative naming turns the sessions into routine appointments and loses the narrator's wink.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Are the sessions named in the register of polite society: a worldly, slightly mannered term with a hint of intimacy, rather than a neutral, academic, administrative or business word for a meeting?",
+      "fail": "They are named with a plain, academic, administrative or business-jargon word for a meeting or session, with no social or intimate flavour."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "мовляв",
+    "where": "where the reason for her ease is given: that of all her charges, Theodore needs her least",
+    "what": "The particle hands the justification back to Agnes. It is her own professed reason, relayed with a slight narratorial smirk. It is not a fact the narrator vouches for, and it is not a rumour going round. The same particle can also introduce general hearsay or act as a loose hedge, and that is where a hurried reading goes wrong. The attribution matters because the next sentence exposes her claim. The book has also just shown Theodore with no plan and no place (block 8), and it goes on to show how precarious his position is (blocks 13–20). So the reader should take his supposed self-sufficiency as her line, possibly a pretext.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the reason that Theodore needs her least explicitly tied to Agnes as her own claim? It counts as tied if a reporting word introduces it, if it sits inside her reported speech, or if a marker shows that this is what she claims.",
+      "fail": "It is credited to people in general or to rumour. Or it is joined to the report only by a dash or a new sentence, with nothing tying it to her, so it can be read as the narrator's own statement. Or it is turned into a hedge on wording."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "курувати",
+    "where": "where she says that Theodore, of all her charges, needs the least of her official guidance",
+    "what": "The verb is built on the same root as the title of her post. Block 3 introduces these officials, who have near-unlimited power and decide whether a student moves on to the fifth circle. Block 4 names the post that rumour says she won through scandal. Block 5 uses her title as she sweeps his reports into the bin. Hearing the root again reminds the reader that the woman lounging on the windowsill is the one who decides Theodore's fate, and blocks 18–20 spell out those stakes. A generic verb of looking after cuts that thread.",
+    "risk": "high",
+    "recurs_in": [
+     3,
+     4,
+     5
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the kind of attention Theodore is said to need least named with the same word or word family the translation uses for Agnes's post in blocks 3–5, or explicitly as the work of that post, so the repetition can be heard?",
+      "fail": "It is a generic word for attention, care, handling or oversight that neither shares the term used for her post nor is tied to that post."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "device",
+    "source": "найменше з усіх … на повну",
+    "where": "between the reason she gives (Theodore needs her least of all her charges) and the narrator's closing statement of her real effort",
+    "what": "This is an antithesis of extremes. Her claim ranks Theodore lowest of all her students on the scale of need. The narrator's correction ranks her actual exertion at the top of its scale. The swing from one extreme to the other is the paragraph's punch. It turns the lounging, smoking pose of block 11 into a mask and prepares the calculated pause of block 20. If either end is softened, the reversal shrinks into a mild qualification.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is Theodore's need set at the extreme low, the least among all her charges, rather than merely small?",
+      "fail": "He is only said to need little or not much, or to be easier than some, with nothing placing him lowest of all."
+     },
+     {
+      "id": "E4b",
+      "ask": "Is her real effort set at the maximum degree, rather than merely at a high one?",
+      "fail": "Her effort is only described as hard, serious, genuine or considerable, short of the maximum."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "construction",
+    "source": "Агнес казала, що так вона на тет-а-тетах із Теодором розслабляється — мовляв, курувати його треба найменше з усіх.",
+    "where": "the sentence reporting Agnes's claim that this is how she unwinds in her sessions with Theodore, together with the reason she gives (that he needs her least of all)",
+    "what": "The original packs three things into one sentence: a manner word pointing back to her pose, a conversational particle after a dash that hands the reason to her, and an impersonal construction of necessity with Theodore as its object. English has no such particle and no comfortable impersonal of this kind. A close rendering therefore leaves a manner word dangling, uses a stiff necessity phrasing, or plugs a filler word where the particle was. It should read as an English narrator relaying a character's breezy excuse.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer? Judge the shape of the sentence; do not count against it the term the translation uses consistently for her official post.",
+      "fail": "It reads as translated. Examples: a stiff impersonal phrasing of necessity, a filler word standing in for the particle, a manner word that dangles or reads as a stray connective, or unnatural word order."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "construction",
+    "source": "Хоча насправді вона викладалася на повну.",
+    "where": "the closing sentence revealing how hard Agnes really works in these sessions, contrary to her claim",
+    "what": "Ukrainian can open a fresh sentence with its concessive conjunction as a corrective afterthought. Here that conjunction is stacked with a word asserting what is really so, and the sentence closes on a colloquial idiom of maximal exertion. English uses its concessive conjunctions to hang a clause on a main clause. A close rendering therefore tends to leave a dangling fragment, pile two contrast words on each other, or render the effort idiom piece by piece. This is the paragraph's punchline and needs to sound like a crisp English correction.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated. Examples: a stand-alone subordinate concessive clause that reads as a dangling fragment, a stiff pile-up of contrast and reality markers, or a phrase for the effort that no native speaker would use."
+     }
+    ]
+   }
+  ]
+ }
+}

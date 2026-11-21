@@ -1,0 +1,261 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5118,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 100166
+ },
+ "result": {
+  "reading": "Block 7 is the high point of Miss Brill's watching: a parade of small scenes set to the band, centred on an ageing woman in a worn fur hat who is snubbed by a gentleman and covers it with a brighter smile and a show of having spotted someone nicer. She is Miss Brill's unrecognised double: named by her fur, faded to its colour and given an animal's paw, so her humiliation rehearses Miss Brill's own over her fur in blocks 12–14, and her fur-turned-creature belongs with Miss Brill's living fur in blocks 0 and 17. The band that grieves for her and damns the man prepares block 8's discovery that the park is a stage, and the old couple's exit, wished for in block 3, frees the bench for the young pair of blocks 10–15. The figures Miss Brill finds comical here set up the girl's verdict on her own fur in block 13.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "motif",
+    "source": "Two peasant women with funny straw hats … such a funny old man with long whiskers",
+    "where": "where two peasant women in straw hats lead their donkeys past, and near the end, where an old man with long whiskers hobbles along to the music",
+    "what": "This is Miss Brill's word for the odd figures she watches. In block 4 she has noticed that nearly all the bench regulars have something of this quality about them. Here she bestows it, amused and a little superior, on the peasant women's hats and on the whiskered old man. In block 13 the giggling girl turns the same word on Miss Brill's own fur. A reader of the original hears the spectator's label come back to strike her. If the hats and the old man are described neutrally here, the turn in block 13 has nothing to answer.",
+    "risk": "medium",
+    "recurs_in": [
+     4,
+     13
+    ],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Are the peasant women's straw hats presented as comical, something the onlooker finds laughable, rather than merely described?",
+      "fail": "The hats carry no evaluation, only a neutral one (strange, unusual, old-fashioned, big, wide-brimmed), or a flattering one (pretty, charming)."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is the old man with long whiskers likewise presented as comical, laughable to the onlooker?",
+      "fail": "He is described neutrally, only as strange or odd with no comic note, or with pity instead of amusement."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "register",
+    "source": "Dear me!",
+    "where": "the short exclamation right after the beautiful woman throws away the violets the little boy brought back, just before Miss Brill's uncertainty whether to admire the gesture",
+    "what": "For a beat the narration speaks in Miss Brill's own voice. It is the mild, old-fashioned exclamation of a prim, genteel lady, a little shocked and secretly thrilled by the beautiful woman's imperious gesture. It characterises her as a spinster who gives English lessons and reads the paper to an old invalid. Its primness is comic beside the theatrical rudeness she has just watched.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is there an exclamation of surprise here, in Miss Brill's own voice, that is mild and genteel, the polite surprise of a proper, old-fashioned lady?",
+      "fail": "There is no exclamation of surprise; or it is rustic or folksy, slangy, coarse, or a curse."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "an ermine toque and a gentleman in grey met just in front of her … The ermine toque was alone … the ermine toque turned, raised her hand",
+    "where": "where a woman in a fur hat and a gentleman in grey meet in front of Miss Brill; where she is left alone after he walks on; where she turns and hurries away",
+    "what": "Miss Brill first perceives the woman as her hat. It is the fur hat that meets the gentleman, the fur hat that is left alone, the fur hat that turns and raises a hand. The person shrinks to her worn accessory, just as Miss Brill will shrink to her fur in the young couple's mouths (blocks 12–13). It also keeps Miss Brill at a spectator's distance: she sees a costume in a scene, not a woman like herself.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "When she first appears with the gentleman, is the woman named by her fur hat itself (the hat is what meets him), rather than as a lady or woman wearing it?",
+      "fail": "She is introduced as a lady, woman, person or figure in or with a fur hat."
+     },
+     {
+      "id": "E3b",
+      "ask": "Where she is left alone, or where she turns and leaves, is she called by the hat itself at least once?",
+      "fail": "In both places she is only a lady, a woman or a pronoun."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "her hand, in its cleaned glove",
+    "where": "where the woman raises her gloved hand to her lips",
+    "what": "The glove is neither new nor simply spotless. It has been through cleaning: an old glove made fit to wear again. That is the thrift of genteel poverty, the same care Miss Brill gives her fur when she takes it out of its box, brushes it and plans to patch its nose (block 0). If the detail becomes a mere mark of neatness, the reader no longer sees that this woman, like Miss Brill, is keeping up appearances on very little.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the glove shown as one that has been cleaned, an old glove made fit to wear again, rather than as merely clean, neat or white?",
+      "fail": "The glove is simply clean, spotless, neat, white or new, or the detail is dropped."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "motif",
+    "source": "was a tiny yellowish paw … and pattered away",
+    "where": "where the woman's gloved hand, raised to her lips, is described, and where she hurries off after acting as if she has seen someone",
+    "what": "The woman in the worn fur is turning into the creature her fur came from. Her hand is a little animal's paw, and she makes her exit the way a small animal scurries, in quick light steps. The story keeps giving fur a living body. Miss Brill's own fur has eyes, a nose and a tail it bites (block 0); the mocking girl likens it to a fish (block 13); and it seems to cry in its box at the end (block 17). The reader watches Miss Brill's double become a fur animal; a plain hand and a plain departure cut the link.",
+    "risk": "medium",
+    "recurs_in": [
+     0,
+     13,
+     17
+    ],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the woman's hand called a small animal's paw rather than a human hand?",
+      "fail": "It is a hand, a little hand, fingers or a fist, or the animal comparison is dropped."
+     },
+     {
+      "id": "E5b",
+      "ask": "Does she leave with small, quick, light steps, the scurry of a small creature, rather than simply going or walking away?",
+      "fail": "A plain verb of leaving, going or walking off, with no sense of quick little steps."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "construction",
+    "source": "Now everything, her hair, her face, even her eyes, was the same colour as the shabby ermine, and her hand, in its cleaned glove, lifted to dab her lips, was a tiny yellowish paw.",
+    "where": "the sentence saying that her hair, her face and even her eyes have taken the colour of the worn fur, and describing her gloved hand raised to her lips",
+    "what": "The English keeps its subject open across a list in apposition. It then holds it open again across two inserted phrases, one about the glove and one about the lifting, before the image of the paw lands at the end. Copied into Ukrainian, this gives a subject propped up by stacked participles and doubled possessives, with the image buried at the end of a strained clause. A native writer rebuilds the sentence so the image arrives cleanly.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "At this spot, does the sentence read as written by a skilled native writer?",
+      "fail": "The hand is propped up by a chain of inserted participial phrases or a dangling passive participle, or possessives are doubled (her hand in her glove), in English word order, so that the sentence reads as a translation."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "hinge",
+    "source": "She rather thought they were going to meet that afternoon.",
+    "where": "in the woman's chatter to the gentleman, the sentence right after she says how pleased she is to see him, about their meeting that afternoon",
+    "what": "This is the woman's own coquettish line, carried by the narration. She lightly presents the chance encounter as one she had a hunch about, as though it were meant to happen: a hopeful bid for intimacy. It is not an appointment between them. Read as a date they had arranged, his walking off becomes a lover's jilting and the scene changes. The original shows a hopeful woman dressing up a chance meeting as fate.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is the meeting presented as something she had half expected or hoped for that day, rather than as an appointment they had arranged?",
+      "fail": "It reads as a date or plan (they had agreed, intended or were due to meet), or as Miss Brill's guess that the pair had a rendezvous."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "construction",
+    "source": "The day was so charming—didn’t he agree?",
+    "where": "where, in the narrated account of her chatter, the woman praises the lovely day and asks the gentleman whether he agrees",
+    "what": "English free indirect speech lets the narrator carry her eager question in the third person with a negative tag. Copied word for word, a Ukrainian narrator ends up asking, in a stiff past-tense negative, whether he did not agree. That pattern reads as translated English. A native writer finds a form a Ukrainian reader hears as her own breathless chatter.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "At this spot, does the text read as written by a skilled native writer, with her question sounding like her own lively talk?",
+      "fail": "Her question is a stilted third-person negative question in the past tense, or another word-for-word pattern that no Ukrainian writer would use for a woman's chatter, so the line reads as translated."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "type": "device",
+    "source": "And wouldn’t he, perhaps?...",
+    "where": "the second question she puts to the gentleman, right after the one about the lovely day and just before he shakes his head",
+    "what": "Her last bid is a new, separate request, timid and hedged, and it breaks off before she says what she wants. The man answers with a silent shake of the head. The reader supplies the missing words and feels her hope and her failing nerve at once. Spelling the request out, or folding it back into the question about the day, removes the moment she cannot finish.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E9a",
+      "ask": "Is there, after the question about the day, a second, separate request to him, something she would like him to do, rather than a repeat of asking whether he agrees?",
+      "fail": "The second question again asks whether he agrees or likes the day, or there is no second question."
+     },
+     {
+      "id": "E9b",
+      "ask": "Is that request left unfinished, so that what she wants from him is never named?",
+      "fail": "The translation states what she proposes (to walk with her, sit with her, come along, meet again or the like)."
+     }
+    ]
+   },
+   {
+    "id": "E10",
+    "type": "device",
+    "source": "But he shook his head, lighted a cigarette, slowly breathed a great deep puff into her face, and even while she was still talking and laughing, flicked the match away and walked on.",
+    "where": "where the gentleman answers her without a word, smokes, and leaves",
+    "what": "His whole answer is a wordless series of slights, each worse than the last. He refuses, then lights a cigarette as if she were not there, then sends a long, unhurried lungful of smoke straight into her face. He flicks the match aside and leaves while she is still chattering and laughing. The slowness makes the insult deliberate; the timing makes it complete. Miss Brill watches it as drama, never seeing that it rehearses her own dismissal by the young couple (blocks 12–14).",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E10a",
+      "ask": "Are all the slights there: he refuses with a shake of the head, lights a cigarette, blows smoke straight into her face, flicks the match away and walks on?",
+      "fail": "Any step is missing, or the smoke is only inhaled, exhaled, or blown near or past her rather than into her face."
+     },
+     {
+      "id": "E10b",
+      "ask": "Is the smoke-blowing marked as slow and unhurried?",
+      "fail": "Nothing marks it as slow or deliberate."
+     },
+     {
+      "id": "E10c",
+      "ask": "Does the series end with him walking away while she is still talking and laughing, without letting her finish?",
+      "fail": "He leaves after she has finished, or nothing shows she is still in mid-talk and laughter when he goes."
+     }
+    ]
+   },
+   {
+    "id": "E11",
+    "type": "construction",
+    "source": "The ermine toque was alone; she smiled more brightly than ever … the ermine toque turned, raised her hand as though she’d seen some one else, much nicer, just over there, and pattered away",
+    "where": "where the woman in the fur hat is left alone and smiles more brightly than ever, and where she turns, raises her hand as if she has seen someone nicer, and hurries off",
+    "what": "The English slides from the hat to the woman because its verbs carry no gender. Ukrainian past-tense verbs and pronouns do. So if the noun for the hat is masculine, a close rendering gives a grammatically male hat that smiles, raises her hand or seems to have seen someone in feminine forms. A native writer either chooses a noun for the hat whose gender fits the woman or frames the sentence so the switch is clean. A hurried one leaves a clash the reader stumbles over.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E11a",
+      "ask": "At these two spots, does the text read as written by a skilled native writer, with every verb ending and pronoun for the woman agreeing in gender with the noun that stands for her in that sentence?",
+      "fail": "Within one sentence the woman is referred to by a masculine or neuter noun for the hat and also by feminine verb endings or a feminine pronoun, or the verbs agree ungrammatically, so the reader has to stop and work out who is acting."
+     }
+    ]
+   },
+   {
+    "id": "E12",
+    "type": "register",
+    "source": "the drum beat, “The Brute! The Brute!” over and over",
+    "where": "where the band plays softly and tenderly for the abandoned woman and the drum seems to beat out a verdict on the gentleman",
+    "what": "Miss Brill hears the drum pass sentence on the man in the stock cry of a wronged heroine in melodrama, a cry that brands him as cruel and beastly to a woman. It is strong, old-fashioned and theatrical, the vocabulary of the stage play Miss Brill discovers in block 8. A word that only calls him impolite shrinks the verdict to a complaint about manners. A gutter curse moves it out of the theatre.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E12a",
+      "ask": "Does the drum's word condemn the man for cruelty, branding him a villain or a beast, rather than only for rudeness or bad manners?",
+      "fail": "The word means only a boor, a rude or ill-bred man or an impolite person, or it is no condemnation at all."
+     },
+     {
+      "id": "E12b",
+      "ask": "Is the word strong but not vulgar, something a heroine in a melodrama could cry out?",
+      "fail": "It is crude slang, obscene, or a coarse street insult."
+     }
+    ]
+   },
+   {
+    "id": "E13",
+    "type": "device",
+    "source": "the old couple on Miss Brill’s seat got up and marched away … hobbled along in time to the music",
+    "where": "at the end of the paragraph, after the band speeds up: the old couple leave Miss Brill's bench, and an old man with long whiskers hobbles past",
+    "what": "Once the band turns quick and gay, people move as if it were conducting them. The old couple, who sat unmoving on the bench (block 4), rise and leave in a stiff, measured march, and the old man's limp keeps the beat. The park becomes a stage moved by its orchestra, which Miss Brill grasps in block 8. The couple's exit also grants the wish she voiced in block 3 and clears the bench for the young pair of block 10.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E13a",
+      "ask": "Do the old couple leave by marching, stiff and measured as if in step, rather than simply leaving or walking off?",
+      "fail": "A plain verb of leaving, going or walking away, with nothing of a march."
+     },
+     {
+      "id": "E13b",
+      "ask": "Does the old man's hobbling keep time with the music?",
+      "fail": "He only limps or walks along; the link with the music's beat is missing."
+     }
+    ]
+   }
+  ]
+ }
+}

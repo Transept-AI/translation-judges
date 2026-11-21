@@ -1,0 +1,30 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 564,
+  "cache_read_input_tokens": 2532,
+  "output_tokens": 969
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 5,
+    "quote": "which Agnes had assigned to torment Theodore",
+    "kind": "referent",
+    "wrong": "The reader believes Agnes assigned the reports and sheets to torment Theodore. In the original they were addressed to Agnes, meant to torment Theodore (to Anna's displeasure), and Agnes threw them away; she is not the one tormenting him.",
+    "severity": 2
+   },
+   {
+    "n": 7,
+    "quote": "make the Planes better",
+    "kind": "sense",
+    "wrong": "\"Плани\" is rendered as \"Planes\" here but as \"Plans\" in the next paragraph. The reader takes these as two different concepts when the original uses the same term.",
+    "severity": 1
+   }
+  ]
+ }
+}

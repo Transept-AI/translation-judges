@@ -1,0 +1,72 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4469,
+  "cache_read_input_tokens": 1961,
+  "output_tokens": 65298
+ },
+ "result": {
+  "reading": "This line closes the lovers' exchange that Miss Brill sat down to overhear as a love scene (block 10): the girl cuts off the boy's endearment (block 14) with a second refusal that replays her first (block 11). By now the boy has made the place she refuses into the spot where the old woman sits (block 12), and the stressed time-word turns refusal into a promise of later, once they are rid of her. Nothing comments on it: the story cuts straight to Miss Brill's walk home, the skipped Sunday treat and the boxed-up fur (blocks 16–17), so these few words carry the whole blow.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "“Not _yet_.”",
+    "where": "The girl's last words, after the speech tag: the short phrase in which she puts the moment off.",
+    "what": "The time-word turns refusal into postponement. What the boy keeps pressing for will come, only not at this point. The original stresses the word, which makes the line a promise that also reins in his impatience after his flash of anger (block 14). It is also the one real change from her first refusal (block 11), which spoke only of the present moment and of her not being able to. For Miss Brill, a few feet away, the promised later means once she is out of the way; in the next block she is on her way home.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does her last phrase say that the moment has not come yet, so that it is expected to come, rather than refusing only for the present moment or refusing outright?",
+      "fail": "It says no more than 'not at this moment' (the sense of her refusal in block 11), or it is a bare no, or nothing in it implies that the moment will come."
+     },
+     {
+      "id": "E1b",
+      "ask": "If her last phrase contains a word about time, is that word the stressed point of the phrase rather than the negation? It counts as stressed if it is set off by italics or other emphasis, or if it comes last.",
+      "fail": "The time-word is there but the weight falls on the negation. Either the negation is the italicised or emphasised word, or nothing is marked and the phrase ends on the negation, so it reads as an insistent no rather than a stressed 'later'. (A phrase with no time-word at all is E1a's fault: answer yes here.)"
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "motif",
+    "source": "“No, not here,”",
+    "where": "The girl's first words, before the speech tag: her refusal pointing to the place where they are sitting.",
+    "what": "She repeats the place-bound refusal of block 11. In between, the boy has said what is wrong with the place: the old woman at the end of the bench, whose very coming to this spot he resents (block 12). In block 8 Miss Brill's narration used the same small place-word for the spot she loved to sit in and watch from, sure that her absence from it would be noticed. The reader of the original hears the word pass from her delight to her exclusion: she has been noticed there, but only as what is in the way.",
+    "risk": "medium",
+    "recurs_in": [
+     8,
+     11,
+     12
+    ],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does the girl's first phrase refuse by pointing to this very spot, with a word that simply means the place where they are? It should be the same notion as the place in her refusal in block 11 and in the boy's question in block 12.",
+      "fail": "The place is dropped, or replaced by a different notion (being in public, in front of people, in front of her, like this, now), so the returning place-word is no longer heard."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "said the girl",
+    "where": "The speech tag between the girl's two phrases, reporting that she spoke.",
+    "what": "Understatement at the cruellest moment. The narration has marked her laughter over the fur (block 13) and the boy's anger (block 14), but this last line comes with the plainest verb and no comment. How she says it, coaxing the boy and indifferent to the old woman she has just mocked, is left to her words and their stress alone. Then the story cuts away without a word on how Miss Brill took it.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is her reply introduced by a plain verb of saying or answering, with nothing added about how she says it or what she does as she says it?",
+      "fail": "The tag colours her delivery or adds an action: a verb or adverb of manner or tone (laughing, whispering, curtly, offhandedly, coyly, playfully, teasingly) or a gesture (smiling, glancing at the old woman, leaning closer)."
+     }
+    ]
+   }
+  ]
+ }
+}

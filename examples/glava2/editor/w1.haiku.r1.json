@@ -1,0 +1,35 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1384,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1433
+ },
+ "result": {
+  "edited": "For Agnes infuriated Anna beyond measure. Especially since the reports on Theodor and the discharge sheets for the elective courses, assigned to Agnes, much to Anna's displeasure, to torment Theodor, were tossed by the tutor into the trash bin with a flick of her gold nails.\n\nBut Anna did not even know that she had no greater ally in Seraph than Agnes. For right now, in Agnes's office, she and Theodor were discussing Anna's future.\n\n\"I advised Anna not to aim for the Faculty of Medicine, and to dispose of her capital and privileges differently,\" he said. \"If she wants to do good by making the Plans better, that is her choice. But at least Anna has a plan of her own.\"\n\nHe, Theodor, had no plan. Not even a place in the Plans.\n\n\"I don't know what suits me,\" he said plainly. \"I don't want to do good. Helping the Seraphic economy is even less appealing.\"\n\n\"Don't tell me you actually considered doing something not for yourself,\" Agnes said with a smile. \"Anna can truly afford to do whatever she likes. Her share won't change because of it.\"\n\nThe magess sat on the windowsill of her office, toying with a long rod of redwood and smoking out the window at the same time. She held the cigarette with telekinesis, and the smoke curled into strange spirals, drifting out of the office into the morning sky without leaving a trace of smell. In the office, however, there was nothing to absorb the scent of her favorite cherry tobacco. There were no books, no instruments, no marvels, none of the other professorial paraphernalia, only a desk, two chairs, and a rapier of mushistal on a stand.\n\nAgnes said that this was how she relaxed during her tête-à-têtes with Theodor, since he needed the least supervision of all. In truth, however, she gave it her all.",
+  "changes": [
+   {
+    "before": "assigned to Agnes to torment Theodor, much to Anna's displeasure,",
+    "after": "assigned to Agnes, much to Anna's displeasure, to torment Theodor,",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "\"Agnes smiled.",
+    "after": "\"Agnes said with a smile.",
+    "kind": "error",
+    "category": "style"
+   },
+   {
+    "before": "toying with a long rod of redwood, and smoking",
+    "after": "toying with a long rod of redwood and smoking",
+    "kind": "taste",
+    "category": "punctuation"
+   }
+  ]
+ }
+}

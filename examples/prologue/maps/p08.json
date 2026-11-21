@@ -1,0 +1,91 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3713,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 71647
+ },
+ "result": {
+  "reading": "Block 8 is the peak of the opening build-up and the chapter's pivot. The flashback begun in block 3 catches up with the moment and the figure of block 0, the paid-question stunt launched in block 6 is in full swing, and the count ticks toward the 390,000 and 400,000 marks of blocks 1–2, resuming in block 20. Freya's first unguarded physical response is to the numbers, which sets up her on-cue smiles in blocks 18 and 21 and her one sincere smile at the donations in block 24. The closing line turns from exhilaration to the demand the paid questions now place on her, and opens the Q&A that runs from block 9 to the end.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "платили справжні долари",
+    "where": "where the audience's involvement ends in paying money to put questions to Freya",
+    "what": "The audience's involvement climbs through the free platform gestures that creators beg their viewers for, up to paying. The adjective on the money stresses that this last step is money genuinely changing hands, not one more click. It is Freya's excitement voiced through the narrator: attention has turned into money, which is what the stunt of block 6 was for and what the price tags of blocks 11–24 go on counting. The chapter reuses the same adjective, italicised and ironic, for the success Freya claims to teach (block 23), so the stress belongs to her outlook and is not filler.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the money the audience pays stressed as actual money, set against the free forms of engagement listed before it?",
+      "fail": "Paying or the dollars are mentioned plainly, or paying is folded into a general mention of asking questions, and nothing stresses that this is actual money rather than more clicks."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "у Фреї перехоплювало подих",
+    "where": "where each new thousand viewers sets off a reaction in Freya",
+    "what": "The idiom describes breathing involuntarily interrupted by a surge of feeling, here delight. It happens to Freya rather than being something she does, and it happens again with every thousand. It sits close to another idiom for deliberately holding one's breath in suspense, and a fast reader can slide from one to the other, turning thrill into anxious waiting. The difference matters for character: this is the first time her body responds unguarded, and it does so to the numbers. Afterwards she smiles on cue (blocks 18, 21) until the donations finally draw a sincere smile (block 24).",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Does Freya's reaction to each new thousand read as excitement that seizes her involuntarily, rather than as her deliberately holding her breath in suspense or as distress?",
+      "fail": "She holds her breath or waits tensely, or the reaction reads as anxiety, choking or physical trouble."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "device",
+    "source": "Тепер триста п'ятдесят тисяч … Триста шістдесят. Триста сімдесят. … А тоді настав час відповідати.",
+    "where": "from the further viewer figures that follow the opening one to the closing sentence, where the moment comes for Freya to answer",
+    "what": "Build-up and drop. The figures after the opening one are bare live readings, so the reader watches the counter tick as Freya does. The count starts from the very figure the chapter opened on (block 0), heads toward the 390,000 and 400,000 marks of blocks 1–2, and resumes in block 20. Then a short, flat sentence turns the mood: the exhilaration stops and obligation arrives, because people have paid for their questions and the demand now falls on her, which blocks 9 onward show to be treacherous. The verb is the everyday one for replying but also the one for being made to account for oneself, which gives the line a faint note of reckoning. The narrator does not say what makes answering a problem; block 9 does.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Before the turn, does the count climb from the opening figure in two further readings, each ten thousand higher, in rising order?",
+      "fail": "Either reading is missing, wrong or out of order, or the readings are folded into a general statement that the number kept rising."
+     },
+     {
+      "id": "E3b",
+      "ask": "Does the closing line present answering as something now required of Freya, a moment that has arrived for her, rather than a neutral report that she moved on to the questions?",
+      "fail": "The line only narrates her starting to answer, or names the next segment of the stream, with no sense that the moment has come due."
+     },
+     {
+      "id": "E3c",
+      "ask": "Is the turn left bare, with nothing added that states that answering would be hard, risky or a test?",
+      "fail": "The translation adds a comment or label stating or explaining the difficulty, danger or stakes of answering."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "construction",
+    "source": "Від кожної нової тисячі у Фреї перехоплювало подих.",
+    "where": "the sentence in which each new thousand viewers sets off Freya's reaction",
+    "what": "The original opens on the cause and casts Freya's reaction in an impersonal shape: no one does anything, and she figures only as the person it happens to. English has no such frame, so a close rendering produces a stiff cause phrase up front or an awkward impersonal or passive. This sentence is the emotional peak of the paragraph, and stiffness here blunts it.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The sentence follows the original's frame word for word, giving a stiff cause phrase up front or an awkward impersonal or passive rendering of her reaction, so that it reads as translated."
+     }
+    ]
+   }
+  ]
+ }
+}

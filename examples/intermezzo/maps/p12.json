@@ -1,0 +1,158 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4867,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 63220
+ },
+ "result": {
+  "reading": "Off the train (blocks 9–11), the narrator rides through open country in a horse carriage, and the green spaces he longed for in block 9 do not calm him: they whirl around him and seize the carriage, and the sky is so abundant that his eyes go under in it and find nothing to hold. The paragraph is a moment of vertigo and overwhelm, and block 13 resolves it when the white walls of the house give him back his senses and he at last hears the silence. The grasping green follows the city's iron hand of block 9. The drowning returns in block 15, when he wishes to sink into the darkness, and the abundance of sky and green comes back in block 19, turned to joy.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "link",
+    "source": "Якийсь зелений хаос",
+    "where": "the opening of the paragraph, where the whirling green mass around the narrator is first introduced",
+    "what": "The opening word marks the whirling green mass as indeterminate: the narrator does not know, or cannot make out, what it is. The countryside reaches him as raw sensation before he can name it. This is the daze that block 13 ends, when the white walls of the house bring him back to his senses. Without the marker, his bewilderment hardens into a confident metaphor of his own making.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the green mass introduced with a word or phrase that marks it as indefinite, something the narrator cannot quite identify?",
+      "fail": "It is introduced as a plain thing, either a bare noun or a noun with only an article, and nothing signals his uncertainty about what it is."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "link",
+    "source": "хапав бричку за всі колеса",
+    "where": "where the green mass catches at the carriage by its wheels",
+    "what": "The seizing is total: the green takes hold of the whole set of wheels at once, as if it had a hand for each. That totality makes the fields engulfing rather than merely lush. He has just slipped out of the city's iron grip in block 9, and at once the green holds him on every side. It also sets the pitch of excess that the sky then tops.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is it clear that all of the carriage's wheels are seized, every one of them?",
+      "fail": "The wheels are mentioned with no word of totality, or only a single wheel or the carriage in general is seized."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "motif",
+    "source": "неба тут було так багато",
+    "where": "where the narrator registers the sky over the open country, just before his eyes go under in it",
+    "what": "The sky is treated as a substance measured by quantity, not as a surface measured by size. The trouble is that there is more of it than the eye can take in, and it is this surplus the eyes drown in. Block 19 answers it: waking after the night of ghosts, the narrator marvels at the sheer quantity of everything around him, naming the sky first, then the sun and the green, now cheerful. The reader hears this turn from overwhelm to joy only if both places speak of an amount of sky.",
+    "risk": "medium",
+    "recurs_in": [
+     19
+    ],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the sky presented as an amount, meaning how much sky there is, so that it is recognisably the same notion as the narrator's delight in block 19 at how much sky, sun and green there is?",
+      "fail": "The sky is described only by an adjective of size, breadth, height or endlessness, with no notion of an amount of it."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "motif",
+    "source": "очі тонули в нім як в морі",
+    "where": "where the narrator's eyes are swallowed by the sky and the sky is likened to the sea",
+    "what": "The eyes are not simply lost in the sky; they go under in it, as a body goes under in deep water. Drowning comes back in block 15, where the narrator means to put out the lamp and drown himself in the black darkness, among furniture sunk to its bottom. Here the drowning is helpless and unwanted, in an excess of light and space; there it is longed-for oblivion in the dark. The repeated image ties the day of arrival to the night that follows.",
+    "risk": "medium",
+    "recurs_in": [
+     15
+    ],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Do the eyes drown in the sky, going under as in deep water, so that this is recognisably the same going-under the narrator wishes on himself in the darkness of block 15?",
+      "fail": "The eyes only get lost, wander, roam, swim, rest or are dazzled, and nothing says they go under."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "link",
+    "source": "тонули … та шукали",
+    "where": "the same moment, as the eyes go under in the sky while they search for support",
+    "what": "Both verbs are ongoing and simultaneous. The eyes are caught mid-drowning, still going down, and that is why they are still searching: someone drowning grabs at things only while it is happening. If the drowning is told as already over, the search that follows loses its urgency and its logic.",
+    "risk": "high",
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the eyes' drowning shown as still in progress, still going down while they search, rather than as already done?",
+      "fail": "The verb for the drowning, or whatever replaces it, is a plain completed past or a finished state, and nothing marks the process as ongoing."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "double",
+    "source": "шукали, за що б зачепитись",
+    "where": "where the eyes, swamped by the sky, search for something to hold",
+    "what": "The phrase does two jobs at once. It is the everyday idiom for an empty landscape that offers the gaze no point to fix on: no tree, no roof, nothing to stop the eye. After the drowning it also turns literal, and the eyes behave like the proverbial drowning man groping for anything that will bear him up. The emptiness of the view and the panic of someone going under become a single search, which ends in block 13 when the white walls of the house come into view.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the visual sense there, with the eyes scanning the view for some point or object to settle on?",
+      "fail": "Nothing in the search concerns looking: the eyes only make a grab, with no sense of seeking something in the view."
+     },
+     {
+      "id": "E6b",
+      "ask": "Is the grasping sense there, so that what the eyes seek is a hold, something to catch on or cling to, as someone drowning would?",
+      "fail": "They seek only something to look at, rest on, focus on or orient by, and nothing that can be held."
+     },
+     {
+      "id": "E6c",
+      "ask": "Do both senses sit in a single expression for what the eyes seek, rather than being spelled out as two separate things?",
+      "fail": "A sight and a hold are named separately, or only one of the two senses is present."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "device",
+    "source": "І були безпомічні.",
+    "where": "the paragraph's closing statement, the verdict on the eyes' search",
+    "what": "After one long, breathless sentence of whirling, seizing, drowning and searching, the paragraph stops dead on a flat verdict: the eyes were helpless. The failure is neither described nor accounted for, only stated. Its abrupt curtness is the drop: the overwhelmed narrator has nothing more to say.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Does the paragraph end on the eyes' helplessness, stated as the outcome of their search?",
+      "fail": "The helplessness is folded into the search as the manner of searching, replaced by a statement that the search was vain or found nothing, placed before the search, or missing."
+     },
+     {
+      "id": "E7b",
+      "ask": "Is the verdict left bare, with no reason given for it and nothing added to enlarge or soften it?",
+      "fail": "A reason, such as there being nothing to hold, or any elaboration, intensifier or commentary is attached to the helplessness."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "construction",
+    "source": "очі тонули в нім як в морі та шукали, за що б зачепитись. І були безпомічні.",
+    "where": "the stretch from the eyes going under in the sky, likened to a sea, through their search for a hold, to the closing statement that they were helpless",
+    "what": "Ukrainian lets this stretch run on minimal grammar. The eyes are named without saying whose, the comparison is a bare prepositional phrase, and the search is an infinitive with a conditional particle. The last sentence has no subject at all and borrows the eyes from the sentence before. English needs an owner for the eyes, a subject for the closing sentence and its own frame for the search, so a close rendering produces translationese exactly at the paragraph's most intense moment.",
+    "risk": "medium",
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It reads as translated. Examples: a closing sentence with a verb but no subject; a comparison built from 'like' plus a preposition; a stiff word-for-word phrasing of the search; or an article on the eyes where English idiom wants the narrator's own."
+     }
+    ]
+   }
+  ]
+ }
+}

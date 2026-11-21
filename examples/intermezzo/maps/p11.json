@@ -1,0 +1,96 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4893,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 55018
+ },
+ "result": {
+  "reading": "This paragraph gives the strangers' voices that block 10 says drowned the silence once the narrator had escaped the city: unattributed scraps of carriage talk (a gossip's invalid acquaintance, an old soldier's reminiscence, a travel question, the conductor's call), all chopped by the hard beat of the wheels. It acts out block 10's simile of petty words floating like debris on a spring flood. It also makes audible the noise of wheels that block 2 counts among the sounds assaulting the earth's silence. Block 13 answers it when the cuckoo's call finally lets him hear silence, and the army voice here looks ahead to the soldiers' victims who crowd his room in block 17.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "device",
+    "source": "одна знайома дама п'ятнадцять літ слабувала на серце… трах-тарах-тах… трах-тарах-тах… дивізія наша стояла тоді… трах-тарах-тах… Ви куди їдете?.. прошу білети… трах-тарах-тах… трах-тарах-тах…",
+    "where": "Throughout the paragraph: the train noise that keeps breaking in among the overheard scraps of talk, from the lady's illness to the call for tickets.",
+    "what": "The beat of the wheels on the rails is written out as a string of hard, crashing syllables. The language uses this kind of sound for blows, bangs, shots and uproar, not the homely sound it keeps for a train in nursery talk. It keeps breaking in across the strangers' talk, so the reader hears what the narrator hears: trivial voices adrift on an iron racket, with no word from him about who is speaking. This is the wheel noise that block 2 counts among the city's assaults on silence, still on him like the iron hand of block 9. It is the opposite of the cuckoo's soft call that lets silence in at blocks 13 and 19. A translation loses the assault if it describes the noise, softens it into a cosy rhythm, sounds it only once, or tidies the voices with speech tags.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Does the reader get the wheel noise itself, written out as a sound-word or a string of noise syllables, rather than only a description of it?",
+      "fail": "The noise is narrated instead of sounded ('the wheels rattled', 'the train clattered on'), left out, or turned into a word with a meaning, such as a slang or vulgar sense."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is the noise hard and crashing, like blows, bangs or iron striking iron, rather than a light or homely train sound?",
+      "fail": "A soft, cosy or nursery-style train noise: ticking, tapping, puffing, chugging, choo-choo, or the sing-song clickety-clack."
+     },
+     {
+      "id": "E1c",
+      "ask": "Does the noise keep cutting in between the scraps of talk, rather than sounding once or only before or after all the talk?",
+      "fail": "The noise occurs only once, or the scraps of talk run on together with the noise only at one end."
+     },
+     {
+      "id": "E1d",
+      "ask": "Are the scraps of talk left bare, with no speech tags, named speakers or narrator's comment added to say who is talking?",
+      "fail": "Added framing such as 'someone said', 'a voice asked', 'the conductor called', 'I could still hear'."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "hinge",
+    "source": "одна знайома дама",
+    "where": "The very first scrap of talk, where someone begins a story about a lady: the words that say how the speaker is connected to her.",
+    "what": "The speaker opens an anecdote with the stock formula of gossip. The adjective marks a personal acquaintance between speaker and lady. It says nothing about her looking familiar or being famous, and that is where a fast translator, misled by a look-alike English word, goes wrong. Misread, the cliché that marks this chatter as petty and second-hand (block 10) becomes an odd or wrong statement about her.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is the lady presented as someone the speaker knows personally, an acquaintance of the speaker's?",
+      "fail": "She is a 'familiar' lady (one who looks familiar, or is over-familiar), a 'known' or well-known or famous lady, or nothing in the wording says the speaker knows her."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "п'ятнадцять літ слабувала на серце",
+    "where": "The same first scrap of talk, where the lady's fifteen years of illness are mentioned.",
+    "what": "The idiom is medical, not emotional: it reports an illness of the body that dragged on for fifteen years. It opens an invalid's tale of the kind fellow travellers tell at length, exactly the small, useless talk block 10 complains of. English idioms that pair the heart with feeling (grief, longing, timidity) lie in wait for a fast translator and would turn gossip about an illness into a story of sorrow. The heart here also echoes, ironically, the narrator's own heart in blocks 2, 6 and 17, crammed with other people's sufferings; here such suffering reaches him as small talk.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is the lady's fifteen-year trouble a bodily heart illness?",
+      "fail": "Wording that reads as grief, longing or timidity ('sick at heart', 'heartsick', 'heartbroken', 'faint-hearted', 'weak-hearted'), or that leaves unclear whether the trouble was of the body."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "дивізія наша стояла тоді",
+    "where": "The second scrap of talk, where a speaker who served in an army division starts recalling it at some past time.",
+    "what": "The verb is used in its military sense: it concerns where a unit was located during a period of service, not anyone's posture and not a stand in battle. The speaker is opening a garrison reminiscence and is cut off before he can name the place, more of the endless, routine talk the narrator cannot escape. Taken in its everyday physical sense, the verb has the division merely standing about. Taken as a stand, it turns the yarn heroic. Either way the bored veteran's tone is lost. In a story written after the army's punitive campaigns, this voice also looks ahead to the soldiers' bullets and the hanged of block 17.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Does the translation say the division was based somewhere at that time (a unit's posting or quarters), rather than physically standing, waiting or fighting?",
+      "fail": "The division is 'standing', 'stood', 'standing still', 'halted', 'waiting', 'held the line' or 'made a stand'."
+     }
+    ]
+   }
+  ]
+ }
+}

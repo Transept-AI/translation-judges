@@ -1,0 +1,1339 @@
+{
+ "judge": "native",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9e07e11e332b",
+ "usage": {
+  "input_tokens": 86,
+  "cache_creation_input_tokens": 75505,
+  "cache_read_input_tokens": 755934,
+  "output_tokens": 20554
+ },
+ "result": {
+  "paragraphs": [
+   {
+    "n": 0,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "That was one of those countless \"musts\" that had so worn me out and kept me from sleeping. It doesn't matter whether the \"must\" is small or large",
+      "reader_gets": "Both mentions use the same bare compulsion word, \"must\", made into a noun and set off in quotes, so what wears him out is the command itself.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "I am no longer master of it, it is master of me",
+      "reader_gets": "\"No longer\" shows that he once ruled these commands and that the roles have since turned around.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "the slave of this many-headed beast",
+      "reader_gets": "The commands fuse into one many-headed beast, a wild animal that can echo the human beast of later blocks.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "If only for a while I could free myself of it",
+      "reader_gets": "He wishes to be free of it, which answers the word \"slave\" in the sentence before.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "If only for a while",
+      "reader_gets": "He asks for release only for a while, as a respite.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "If only for a while I could free myself of it, forget, rest.",
+      "reader_gets": "This is a wistful wish, not a plan or a need.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "what weighs is that every time it demands attention, that I am no longer master of it, it is master of me.",
+      "reader_gets": "Two \"that\"-clauses are stacked with only a comma and nothing relating them, and the opening \"what weighs\" is odd; the sentence reads as translated.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Because life comes at me ceaselessly and relentlessly, like a wave at the shore.",
+      "reader_gets": "The opening \"Because\" ties the paragraph back to \"I am tired\" and offers it as the reason for his exhaustion.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "life comes at me ceaselessly and relentlessly, like a wave at the shore",
+      "reader_gets": "\"Comes at\" makes life an assailant striking him the way waves strike a shore.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Not only my own life but other people's.",
+      "reader_gets": "The other life is explicitly other people's, which ties it to human beings.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "do I even know where my own life ends and another's begins?",
+      "reader_gets": "It is a first-person rhetorical doubt: he does not know where the boundary lies.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "I cannot get out of a man's way.",
+      "reader_gets": "He cannot avoid running into people, with no sense of attachment to them.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "I cannot be alone.",
+      "reader_gets": "He cannot be by himself; this is the condition of solitude, not the feeling of loneliness.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "I cannot get out of a man's way.",
+      "reader_gets": "It is kept as an inability, \"cannot\", and can be echoed later.",
+      "rating": "native"
+     },
+     {
+      "id": "E7b",
+      "quote": "I cannot be alone.",
+      "reader_gets": "It is kept as an inability, a refrain line.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "a man's way",
+      "reader_gets": "\"A man\" and \"a human being\" read as an individual person met here and there, not as humankind as such.",
+      "rating": "missing"
+     },
+     {
+      "id": "E9a",
+      "quote": "While on mine",
+      "reader_gets": "\"Mine\" points back to the planets' orbits and path, so it is his own path; the \"on my own\" idiom does not arise.",
+      "rating": "native"
+     },
+     {
+      "id": "E10a",
+      "quote": "While on mine, everywhere and always, I meet a human being.",
+      "reader_gets": "A subordinate \"While\" clause stands alone as a sentence, with the adverbs wedged in; it reads as translated.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "It was you who dressed the earth in stone and iron, you who",
+      "reader_gets": "The cleft \"It was you who… you who\" points at the addressee as the culprit, twice.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "you who through the windows of houses, thousands of black mouths, forever breathe out your stench",
+      "reader_gets": "The route and the aside are wedged between \"you who\" and the verb; the sense is clear, but it reads as translated.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E3a",
+      "quote": "dressed the earth in stone and iron",
+      "reader_gets": "The earth is dressed like a body in a garment of stone and iron.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "You flog the holy silence of the earth",
+      "reader_gets": "The silence is whipped as if in corporal punishment.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "the holy silence of the earth",
+      "reader_gets": "\"Silence\" means the absence of sound, the word the narrator later seeks.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Like a beast.",
+      "reader_gets": "The roaring is compared to a wild beast's.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "your bestial instincts",
+      "reader_gets": "\"Bestial\" gives the instincts a savage, beastly quality, not neutral animal drives.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "your eyes, curious, greedy, crawl into me",
+      "reader_gets": "The eyes pry and want to find things out about him; \"curious\" next to \"greedy\" leaves no attractive reading.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "I cannot get out of your way… I cannot be alone…",
+      "reader_gets": "It repeats block 1's two lines almost word for word, with \"your\" in place of \"a man's\": a clear refrain.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "I cannot get out of your way…",
+      "reader_gets": "He cannot avoid or get past the addressee.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "I cannot be alone…",
+      "reader_gets": "It is the state of solitude he wants, not loneliness.",
+      "rating": "native"
+     },
+     {
+      "id": "E10a",
+      "quote": "you crawl inside me",
+      "reader_gets": "\"Crawl\" conveys a creeping, unwelcome, repellent intrusion.",
+      "rating": "native"
+     },
+     {
+      "id": "E11a",
+      "quote": "as into your own storeroom",
+      "reader_gets": "The heart is a storeroom where the addressee keeps its things.",
+      "rating": "native"
+     },
+     {
+      "id": "E11b",
+      "quote": "your own storeroom",
+      "reader_gets": "\"Your own\" marks the place as the addressee's property.",
+      "rating": "native"
+     },
+     {
+      "id": "E12a",
+      "quote": "What do you care that you torment me?",
+      "reader_gets": "The addressee is indifferent to tormenting him.",
+      "rating": "native"
+     },
+     {
+      "id": "E13a",
+      "quote": "like a vampire",
+      "reader_gets": "The comparison is to the familiar type, not to a specific vampire.",
+      "rating": "native"
+     },
+     {
+      "id": "E14a",
+      "quote": "your countless \"musts,\"",
+      "reader_gets": "\"Musts\" is a quoted word of obligation laid on him, and it is counted.",
+      "rating": "native"
+     },
+     {
+      "id": "E14b",
+      "quote": "your countless \"musts,\"",
+      "reader_gets": "It is the same quoted \"musts\" as block 0, with \"countless\" echoed too.",
+      "rating": "native"
+     },
+     {
+      "id": "E15a",
+      "quote": "your endless \"you have to's.\"",
+      "reader_gets": "\"You have to\" is a second-person command said to him, distinct from \"must\".",
+      "rating": "native"
+     },
+     {
+      "id": "E16a",
+      "quote": "I live not as I want but as you tell me to in your countless \"musts,\" your endless \"you have to's.\"",
+      "reader_gets": "\"Tell me to in your…\" is an odd join, and \"you have to's\" is an awkward plural; it reads as translated.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "People have worn me out.",
+      "reader_gets": "People are named outright as the cause of his exhaustion, echoing \"so worn me out\" in block 0.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "being an inn",
+      "reader_gets": "He is an inn, a lodging open to whoever arrives.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "those creatures",
+      "reader_gets": "\"Those creatures\", herding and littering, ranks the crowd below people with contempt.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "the ones who make it",
+      "reader_gets": "The people are singled out by making the litter and swept out with it.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "Sweep out, along with the litter, the ones who make it.",
+      "reader_gets": "It is an imperative, the narrator's own command to throw them out.",
+      "rating": "native"
+     },
+     {
+      "id": "E4b",
+      "quote": "Air out the house!",
+      "reader_gets": "It is an exclamatory command, not a forecast.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Sweep out, along with the litter, the ones who make it.",
+      "reader_gets": "\"Along with the litter\" is wedged between the verb and its object, and the line reads as a calque where it should snap shut.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "the comfort of being alone",
+      "reader_gets": "Being alone is itself the comfort he longs for, not a sorrow to be consoled.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "being alone",
+      "reader_gets": "\"Alone\" names the plain condition, with no sadness of loneliness.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "being alone",
+      "reader_gets": "\"Alone\" repeats \"I cannot be alone\" from blocks 1 and 2, so the refrain is heard as a plea.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Who will give me",
+      "reader_gets": "It is an appeal to an unnamed giver, with a psalm-like ring and the hint that no one will grant it.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "wait for them",
+      "reader_gets": "\"Them\" is an open plural pronoun with no referent; it is resolved forward by the nights in blocks 6 and 7.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "at times",
+      "reader_gets": "\"At times\" makes the longing occasional, not constant.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "people lay in wait for me there too",
+      "reader_gets": "\"There too\" makes sleep one more place where people reach him.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "Even here you bring me your sufferings?",
+      "reader_gets": "\"Even here\" attaches to the place, so suffering follows him into this refuge.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "lay in wait for me",
+      "reader_gets": "The people lurk in ambush, like predators.",
+      "rating": "native"
+     },
+     {
+      "id": "E2b",
+      "quote": "into a fantastic net",
+      "reader_gets": "They weave a net, a thing made for catching him.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "fantastic net",
+      "reader_gets": "The dream context suggests something unreal and dreamlike, but modern \"fantastic\" pulls toward \"wonderful\"; \"fantastical\" would be the natural choice.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E4a",
+      "quote": "tried to pour into my ears and my heart whatever they themselves were full of",
+      "reader_gets": "The contents are poured into his ears and heart in natural English.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Your vileness?",
+      "reader_gets": "A second, separate thing follows as a curt afterthought: the intruder's moral repulsiveness.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "Your vileness?",
+      "reader_gets": "\"Vileness\" means moral loathsomeness, clearly worse than suffering.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "Leave me in peace…",
+      "reader_gets": "It is a brush-off addressed to the intruder.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "Leave me in peace…",
+      "reader_gets": "The plea names peace.",
+      "rating": "native"
+     },
+     {
+      "id": "E6c",
+      "quote": "Leave me in peace…",
+      "reader_gets": "The brush-off and the plea for peace sit in one idiom.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 7,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "at night",
+      "reader_gets": "\"At night\" is generic and does not tie the scene to one particular night, though the recurrence is only implied.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "So it was at night.",
+      "reader_gets": "It can sum up the scene as how his nights went, but it can just as easily be read as \"so, it happened at night\", a bare time statement.",
+      "rating": "weak"
+     },
+     {
+      "id": "E2b",
+      "quote": "So it was at night.",
+      "reader_gets": "It points back with \"So\" without naming the people, sleep or sufferings.",
+      "rating": "native"
+     },
+     {
+      "id": "E2c",
+      "quote": "So it was at night.",
+      "reader_gets": "It is a flat, curt statement with no added feeling.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "So it was at night.",
+      "reader_gets": "The inverted \"So it was\" sounds slightly stilted and invites the time-only misreading; \"That was how my nights went\" would land as the natural coda.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 8,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "when I felt a person's shadow behind me",
+      "reader_gets": "He senses the shadow at his back without seeing it, a sign of raw nerves.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "a person's shadow",
+      "reader_gets": "What he senses is the shadow itself, not the person or their footsteps.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "came rushing at me",
+      "reader_gets": "The flood comes straight at him.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "the roaring torrents of human life",
+      "reader_gets": "The flood roars, a sound that echoes humanity roaring like a beast in block 2.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "listened with loathing to the roaring torrents of human life that came rushing at me like wild horses",
+      "reader_gets": "The stresses fall irregularly and there is no run of four triple beats; it reads as ordinary prose with no gallop.",
+      "rating": "missing"
+     },
+     {
+      "id": "E5a",
+      "quote": "like wild horses from every street of the city",
+      "reader_gets": "\"From every street of the city\" trails after the comparison and briefly seems to say where the horses come from; the order reads as carried over.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 9,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "The train flew on, full of human din.",
+      "reader_gets": "A terse, natural opening: the train speeding on, loud with people.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "the city was reaching its iron hand out into the fields after me",
+      "reader_gets": "The city reaches after him.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "its iron hand",
+      "reader_gets": "It is a hand of iron reaching out, like the rails.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "would the hand unclench its iron fingers",
+      "reader_gets": "The hand's own fingers might open.",
+      "rating": "native"
+     },
+     {
+      "id": "E3c",
+      "quote": "clack its bones",
+      "reader_gets": "The hand ends as a skeleton's clacking bones.",
+      "rating": "native"
+     },
+     {
+      "id": "E3d",
+      "quote": "in vain",
+      "reader_gets": "The last movement is futile.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "Could I really tear myself away",
+      "reader_gets": "\"Really\" marks near-disbelief that escape could happen.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "this wailing",
+      "reader_gets": "The city's noise is heard as a cry of pain.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "the green, empty spaces",
+      "reader_gets": "\"Empty\" is generic and nothing says no people are there, so block 16's taunt has nothing to point back to.",
+      "rating": "missing"
+     },
+     {
+      "id": "E7a",
+      "quote": "the green, empty spaces",
+      "reader_gets": "\"Green… spaces\" echoes the stock phrase for urban parkland; the comma and \"empty\" only partly keep it as open country.",
+      "rating": "weak"
+     },
+     {
+      "id": "E8a",
+      "quote": "Would they close behind me, and the iron hand clack its bones in vain? And would there be silence, around me and within me?",
+      "reader_gets": "These read as natural hopeful questions; the gapped \"would\" works.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "would there be silence",
+      "reader_gets": "It is silence, the absence of sound he longs for.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 10,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "so simply and imperceptibly",
+      "reader_gets": "The release slipped past without his noticing it, an anticlimax after block 9.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "I did not hear the silence",
+      "reader_gets": "It is silence, the absence of sound.",
+      "rating": "native"
+     },
+     {
+      "id": "E2b",
+      "quote": "I did not hear the silence",
+      "reader_gets": "He fails to hear it, a failure that block 13's hearing answers.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "other people's voices",
+      "reader_gets": "The voices are other people's, echoing block 1.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "other people's voices, petty, useless words, like chips and straw on the spring floods…",
+      "reader_gets": "The bare comma chain stumbles: \"petty, useless words\" reads like a new list item and the simile hangs loose.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 11,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "clickety-clack-clack",
+      "reader_gets": "The wheel noise is sounded out as syllables, not described.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "clickety-clack-clack",
+      "reader_gets": "\"Clickety-clack\" is the cosy, sing-song train sound, so the hard, crashing iron racket is lost.",
+      "rating": "missing"
+     },
+     {
+      "id": "E1c",
+      "quote": "clickety-clack-clack… our division was stationed back then… clickety-clack-clack…",
+      "reader_gets": "The noise keeps breaking in between the scraps of talk.",
+      "rating": "native"
+     },
+     {
+      "id": "E1d",
+      "quote": "…a lady I know suffered fifteen years with her heart…",
+      "reader_gets": "The scraps of talk are bare, with no speech tags.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "a lady I know",
+      "reader_gets": "She is the speaker's acquaintance, the stock opening of gossip.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "suffered fifteen years with her heart",
+      "reader_gets": "It is a bodily heart ailment, the usual invalid's tale.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "our division was stationed back then",
+      "reader_gets": "The division was posted somewhere, the start of a garrison reminiscence.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Some green chaos",
+      "reader_gets": "\"Some\" marks the green mass as something he cannot quite make out.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "caught at every wheel of the carriage",
+      "reader_gets": "\"Every wheel\" makes the seizing total.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "there was so much sky here",
+      "reader_gets": "The sky is an amount, which block 19 can echo.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "my eyes drowned in it as in the sea",
+      "reader_gets": "The eyes go under in the sky as in deep water.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "my eyes drowned in it",
+      "reader_gets": "The plain past \"drowned\" reads as completed; nothing shows the eyes still going down while they search.",
+      "rating": "weak"
+     },
+     {
+      "id": "E6a",
+      "quote": "looked for something to hold on to",
+      "reader_gets": "The eyes scan the view, searching.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "something to hold on to",
+      "reader_gets": "They seek a hold, like someone drowning.",
+      "rating": "native"
+     },
+     {
+      "id": "E6c",
+      "quote": "looked for something to hold on to",
+      "reader_gets": "Sight and grasping fuse in one phrase.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "And were helpless.",
+      "reader_gets": "The paragraph ends on helplessness, stated as the outcome of the search.",
+      "rating": "native"
+     },
+     {
+      "id": "E7b",
+      "quote": "And were helpless.",
+      "reader_gets": "The verdict is bare, with no reason and nothing added.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "drowned in it as in the sea and looked for something to hold on to. And were helpless.",
+      "reader_gets": "The subjectless closing sentence and \"as in the sea\" read as carried over.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 13,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "bring me back to my senses",
+      "reader_gets": "He comes to out of a daze, answering the drowning eyes of block 12.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "the wide green yard",
+      "reader_gets": "It is the house's yard, ready to be replayed in blocks 19 and 20.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "the great silence",
+      "reader_gets": "It is silence, an absence of sound.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "I suddenly heard the great silence",
+      "reader_gets": "He hears it, which reverses block 10.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "It filled the whole yard",
+      "reader_gets": "\"It\" follows \"the great silence\" directly, so the silence clearly fills the yard.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "hid in the trees",
+      "reader_gets": "The silence conceals itself, alive and watchful.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "lay over the deep blue distances",
+      "reader_gets": "The silence lies settled over the distances.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "the pounding of my own heart",
+      "reader_gets": "\"Pounding\" is a loud knock that disturbs the hush.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "my own heart",
+      "reader_gets": "\"Own\" stresses that the one noise left is his.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 14,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "filled to the brim with darkness",
+      "reader_gets": "\"To the brim\" makes the darkness a liquid poured into containers.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "filled to the brim",
+      "reader_gets": "The rooms are full right to the top, echoing his heart in block 6.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "They lay siege to my room.",
+      "reader_gets": "The rooms besiege his room like a hostile army.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "leak out through the cracks",
+      "reader_gets": "The light could leak away like a liquid.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "the lamplight might all leak out",
+      "reader_gets": "He fears the whole of the light could drain away.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Quiet and deserted",
+      "reader_gets": "\"Deserted\" says no people are there, alongside the quiet.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "there, beyond my wall",
+      "reader_gets": "The something is placed on the other side of his own wall.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "What is it?",
+      "reader_gets": "The question asks only what it is, with nothing pointing to the place beyond the wall.",
+      "rating": "missing"
+     }
+    ]
+   },
+   {
+    "n": 15,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "I can feel the hardness and the shape of the furniture",
+      "reader_gets": "He senses the furniture bodily in the dark, not by hearing or sight.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "the creak of the floor under its weight",
+      "reader_gets": "It is the floor that creaks.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "sunk at the bottom of the black darkness",
+      "reader_gets": "The furniture lies sunk at the bottom of the darkness as of deep water.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "drown in the black darkness myself",
+      "reader_gets": "He means to go under in the dark himself.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "stay where you are, rest in peace",
+      "reader_gets": "The furniture is bidden both to stay put and to rest.",
+      "rating": "native"
+     },
+     {
+      "id": "E4b",
+      "quote": "rest in peace",
+      "reader_gets": "It is the formula used over the dead.",
+      "rating": "native"
+     },
+     {
+      "id": "E4c",
+      "quote": "rest in peace",
+      "reader_gets": "The graveside ring comes from the bidding alone, with nothing spelled out.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "a soulless object",
+      "reader_gets": "The object has no soul, and the soul is named.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "a voiceless, motionless calm",
+      "reader_gets": "\"Calm\" is a noun in apposition to \"nothing\": a state he would become, not his mood.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "I know that if I were to walk into the dark rooms just like that and strike a match, everything would suddenly leap into its place",
+      "reader_gets": "A natural conditional with a subject and agreeing tenses.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "everything would suddenly leap into its place",
+      "reader_gets": "The things leap, a sudden lively movement back to their places.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "perhaps my eye would manage to catch",
+      "reader_gets": "\"Manage to\" makes the glimpse depend on his eye succeeding in the instant of the flare.",
+      "rating": "native"
+     },
+     {
+      "id": "E10a",
+      "quote": "an image of people, pale, indistinct, as if off tapestries, all those who left their faces in the mirrors",
+      "reader_gets": "The adjectives are stranded after the noun, \"as if off tapestries\" is a calque with no woven figures, and the apposition hangs loosely; it reads as translated.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 16,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "There, you see! What nonsense.",
+      "reader_gets": "A natural, exasperated self-reproach that waves the vision away.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "You wanted silence and solitude",
+      "reader_gets": "\"Solitude\", set beside the silence, means no one else is there.",
+      "rating": "native"
+     },
+     {
+      "id": "E2b",
+      "quote": "You don't believe in solitude?",
+      "reader_gets": "The doubt falls on the solitude alone, setting up the return of the people in blocks 17 and 18.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "silence and solitude",
+      "reader_gets": "Solitude is the welcome thing he wished for, not misery.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "Shaking your head! You don't believe in solitude?",
+      "reader_gets": "A brisk, half-mocking inner challenge that reads naturally.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 17,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "How do I know? How do I know… How can I be sure",
+      "reader_gets": "He admits he does not know and cannot be sure.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "the door won't swing open… just a little, with a faint creak, and out of the unknown darkness, so deep and endless, people won't begin to come",
+      "reader_gets": "The fear is that the door will open and people will come.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "laid in my heart, as in their own storeroom",
+      "reader_gets": "His heart is a storeroom where they put away their things, echoing block 2.",
+      "rating": "native"
+     },
+     {
+      "id": "E2b",
+      "quote": "their own storeroom",
+      "reader_gets": "They treat the place as their own.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "All those I cannot get out of the way of",
+      "reader_gets": "These are people he cannot avoid, the refrain of blocks 1 and 2, though the stranded \"of the way of\" is clumsy.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E4a",
+      "quote": "Well, well!",
+      "reader_gets": "Mock-hospitable surprise, with no contempt.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "This is you, whose blood ran out through a tiny hole from a soldier's bullet, and this is you… dried specimens:",
+      "reader_gets": "A stilted \"This is you\" pointing frame with a label left hanging; it reads as translated.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E6a",
+      "quote": "dried specimens",
+      "reader_gets": "A cold laboratory or collection term.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "Twelve whole men…",
+      "reader_gets": "The number is stressed, but \"twelve whole men\" is odd English and can suggest men who are intact; \"a whole twelve men\" or \"twelve men!\" would be idiomatic.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E8a",
+      "quote": "how they hanged twelve of you… Twelve whole men…",
+      "reader_gets": "He dwells on the figure by repeating it.",
+      "rating": "native"
+     },
+     {
+      "id": "E8b",
+      "quote": "and I yawned.",
+      "reader_gets": "The yawn comes last, as the reveal.",
+      "rating": "native"
+     },
+     {
+      "id": "E8c",
+      "quote": "and I yawned.",
+      "reader_gets": "The yawn is bare, with no excuse.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "I chased the news of a row of white sacks down with a ripe plum",
+      "reader_gets": "\"Chased… down\" treats the news as a bad taste to wash away with sweetness.",
+      "rating": "native"
+     },
+     {
+      "id": "E10a",
+      "quote": "I just took, you know, a lovely juicy plum in my fingers",
+      "reader_gets": "Casual table-talk asides addressed to the dead.",
+      "rating": "native"
+     },
+     {
+      "id": "E11a",
+      "quote": "horror has sucked all the blood out of me",
+      "reader_gets": "The horror drained all his blood, a vampire echo of block 2.",
+      "rating": "native"
+     },
+     {
+      "id": "E12a",
+      "quote": "like a bloody phantom",
+      "reader_gets": "A blood-stained ghost is meant, but \"bloody\" can be heard as a British oath, which blurs it.",
+      "rating": "weak"
+     },
+     {
+      "id": "E13a",
+      "quote": "Move along!",
+      "reader_gets": "A dismissal telling the dead to keep moving past him.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 18,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "And the people keep coming.",
+      "reader_gets": "\"Keep coming\" shows they go on regardless of his plea.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "One after another, and a third",
+      "reader_gets": "The count reaches \"a third\", but tacked onto \"one after another\" it reads as translated rather than as a tally.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E2b",
+      "quote": "and so on without end",
+      "reader_gets": "The count runs out into endlessness.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "near and strangers",
+      "reader_gets": "Close people set against strangers comes through, but \"near\" as a noun is un-English and pulls toward \"near and far\".",
+      "rating": "foreign"
+     },
+     {
+      "id": "E4a",
+      "quote": "all of them shout into my ears the cry of their life or their death",
+      "reader_gets": "Each voice cries out its whole life or death, in workable English.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "leave the prints of their soles on my soul",
+      "reader_gets": "A mark remains on his soul.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "the prints of their soles",
+      "reader_gets": "The marks are made by their feet.",
+      "rating": "native"
+     },
+     {
+      "id": "E5c",
+      "quote": "leave the prints of their soles on my soul",
+      "reader_gets": "The footprints are the lasting mark, in one image.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "and shout: no admittance here!",
+      "reader_gets": "A single future shout; nothing says he will keep on shouting.",
+      "rating": "missing"
+     },
+     {
+      "id": "E7a",
+      "quote": "no admittance here!",
+      "reader_gets": "The formula of a notice posted at an entrance.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "no admittance here!",
+      "reader_gets": "Entry is barred, with no sense of a fee.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 19,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "A cuckoo is calling.",
+      "reader_gets": "The bird is calling.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "A cuckoo is calling.",
+      "reader_gets": "\"Calling\" is a plain verb with no hint of a smith's hammering, so the hammer image arrives from nowhere.",
+      "rating": "missing"
+     },
+     {
+      "id": "E1c",
+      "quote": "A cuckoo is calling. It strikes a little hammer",
+      "reader_gets": "The call and the blows are split across two sentences, so there is no pun.",
+      "rating": "missing"
+     },
+     {
+      "id": "E2a",
+      "quote": "a little hammer",
+      "reader_gets": "The hammer is small.",
+      "rating": "native"
+     },
+     {
+      "id": "E2b",
+      "quote": "a great crystal bell",
+      "reader_gets": "The bell is large and crystal.",
+      "rating": "native"
+     },
+     {
+      "id": "E2c",
+      "quote": "It strikes a little hammer against a great crystal bell",
+      "reader_gets": "It is told as what the cuckoo does, not as a likeness.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "and sows silence over the grass",
+      "reader_gets": "The cuckoo's call produces the silence.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "sows silence",
+      "reader_gets": "The silence is cast like seed.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "sows silence",
+      "reader_gets": "It is silence, the keyword returning.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "the green yard",
+      "reader_gets": "The definite article makes it the known yard of the house.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "merry green",
+      "reader_gets": "The green is glad.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 20,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "iron chains are clanking",
+      "reader_gets": "The chains are iron, the same metal as the city's grip.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "the dogs are raising a furious racket",
+      "reader_gets": "The dogs make a furious vocal uproar.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "their long shaggy coats leap on them",
+      "reader_gets": "The wool leaps on its own, on top of the dogs' leaping.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "The red eyes leap, the broad forehead leaps, and the white fur breeches.",
+      "reader_gets": "The eyes, the forehead and the breeches each leap.",
+      "rating": "native"
+     },
+     {
+      "id": "E3c",
+      "quote": "the matted tufts on her rump fly along after her",
+      "reader_gets": "\"Fly along after her\" mostly reads as trailing behind; the sense of the fur chasing the dog is faint.",
+      "rating": "weak"
+     },
+     {
+      "id": "E4a",
+      "quote": "Come now, dog, what's the matter…",
+      "reader_gets": "He asks what is wrong, coaxing; \"what is it?\" in the Overko appeal reads the same way.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "the white fur breeches",
+      "reader_gets": "The leg fur is a garment the dog wears, a comic touch.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "Toothy fury strains and cannot quite burst out of the deep jaws",
+      "reader_gets": "The fury strains to get out and fails.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "only tosses the haystack of fur",
+      "reader_gets": "It only jolts the dog's own mass of fur.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "Toothy fury strains and cannot quite burst out of the deep jaws, and only tosses the haystack of fur.",
+      "reader_gets": "Subject first, active verbs; it reads naturally.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "melting fear and hatred together in their fire",
+      "reader_gets": "The two feelings are fused in the fire like metals.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "draw some blood from my calf",
+      "reader_gets": "The worst involves his blood, a trifle beside what people took.",
+      "rating": "native"
+     },
+     {
+      "id": "E10a",
+      "quote": "Maybe you're angrier at it than at me",
+      "reader_gets": "The anger is aimed at the chain more than at him.",
+      "rating": "native"
+     },
+     {
+      "id": "E10b",
+      "quote": "chokes you by the throat and drives your fiery rage back down it",
+      "reader_gets": "The rage is forced back down the dog's throat.",
+      "rating": "native"
+     },
+     {
+      "id": "E11a",
+      "quote": "while they take the chain off you",
+      "reader_gets": "Unnamed others remove the chain, not the narrator.",
+      "rating": "native"
+     },
+     {
+      "id": "E12a",
+      "quote": "off she tears blindly, out of her wits",
+      "reader_gets": "A frantic, reckless run.",
+      "rating": "native"
+     },
+     {
+      "id": "E12b",
+      "quote": "out of her wits",
+      "reader_gets": "\"Out of her wits\" suggests a frenzy that has lost its senses, but nothing about memory or forgetting, so the closing joke is only loosely set up.",
+      "rating": "weak"
+     },
+     {
+      "id": "E12c",
+      "quote": "off she tears blindly, out of her wits",
+      "reader_gets": "The frenzy and the loss of awareness sit in one phrase about the run.",
+      "rating": "native"
+     },
+     {
+      "id": "E13a",
+      "quote": "off she tears",
+      "reader_gets": "The dog suddenly becomes \"she\", which suggests a different, female dog from Overko.",
+      "rating": "missing"
+     },
+     {
+      "id": "E13b",
+      "quote": "Forgotten me?",
+      "reader_gets": "It is the dog that has forgotten him.",
+      "rating": "native"
+     },
+     {
+      "id": "E14a",
+      "quote": "And what about me? What? Forgotten me?",
+      "reader_gets": "Quick, amused mock-offence in natural speech.",
+      "rating": "native"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 562,
+  "cache_read_input_tokens": 6000,
+  "output_tokens": 77694
+ },
+ "result": {
+  "reading": "On the bench she privately calls her own, Miss Brill is let down that her two old neighbours sit in silence, and the paragraph reveals her weekly pleasure: overhearing strangers while seeming not to, borrowing a minute of their lives. The silent old couple return in blocks 3–4 and leave in block 7. Her feigned inattention and her spectator's seat prepare the theatre conceit of block 8, where she has 'been an actress for a long time'. Her pride in unnoticed listening is what blocks 10–14 turn against her: she 'prepared to listen', the young pair sit down in the old couple's place on her 'special' seat, and the talk she overhears is about her, 'that stupid old thing at the end there'.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "hinge",
+    "source": "her “special” seat",
+    "where": "In the opening sentence, where only two people share the bench that Miss Brill thinks of as hers.",
+    "what": "The quotation marks flag 'special' as Miss Brill's own word for an ordinary public bench. It is special only to her: the spot she always takes and quietly treats as her territory. The narrator holds her word at a fond, ironic distance. Nothing about the bench itself is special, and nobody has set it aside for her. This private claim makes the later blocks sting: the old couple leave 'Miss Brill's seat' (block 7), and the young pair who sit down in their place (block 10) treat her as an intruder at the end of it (block 12).",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the seat special in Miss Brill's own personal sense (the place she habitually takes and regards as hers), rather than a seat that is designated, reserved, assigned or made for a particular purpose?",
+      "fail": "The wording makes it an officially designated, reserved or purpose-built seat, as if someone had set it aside, or describes the seat as unusual in itself."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "construction",
+    "source": "a fine old man in a velvet coat, his hands clasped over a huge carved walking-stick, and a big old woman, sitting upright, with a roll of knitting on her embroidered apron",
+    "where": "The description of the two old people on the bench: a man in a velvet coat with his hands resting on a big carved walking stick, and a large woman sitting very straight with her rolled-up knitting on her embroidered apron.",
+    "what": "The original gives the pair after a colon, each as a noun followed by loose add-ons. For the man there is a verbless absolute phrase about his hands on the stick. For the woman there is a participle and a with-phrase. Ukrainian has no verbless absolute construction like this. A close rendering therefore yields a dangling clause about his hands, a pile-up of participles or relative clauses, prepositions of position copied from English, or possessive pronouns on the hands and apron that a native writer would leave out. The reader should get one composed glance at a still, dignified pair.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It has a verbless or loosely attached clause about his hands, stacked participial or relative clauses, possessive pronouns on the hands or apron that sound copied, an odd preposition for where his hands rest or where the knitting lies, an odd word for the rolled-up knitting, or other word-for-word scaffolding a native writer would not produce."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "construction",
+    "source": "This was disappointing",
+    "where": "Just after the remark that the old pair do not talk, where her disappointment is stated and explained by her always looking forward to hearing conversation.",
+    "what": "English states the small let-down with an evaluative adjective formed from a participle, used as the predicate of 'this'. Ukrainian has no standard participle of that kind for this verb. A close rendering therefore produces a bookish or non-standard participial adjective that marks the sentence as translated. The feeling is mild and passing: a dent in her Sunday, explained at once by her habit.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The disappointment is carried by an active participial adjective built on the verb meaning 'to disappoint' and used as a predicate, or by another stiff construction that copies the English shape."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "register",
+    "source": "really quite expert",
+    "where": "In the last sentence, where Miss Brill rates her own skill at listening in on strangers.",
+    "what": "This is Miss Brill's own voice inside the narration. It is the cosy, genteel idiom of an English gentlewoman, with a stacked colloquial intensifier, pleased and a little surprised at herself, making a homely boast of mastery. The narrator lets the boast stand with gentle irony, since what she has mastered is overhearing strangers. The level is everyday and domestic: nothing in it suggests a profession, a qualification or official expertise.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Does the translation keep her claim to real skill (that she has become good, adept or masterly at this), rather than saying only that she learned it, got used to it, or did it often?",
+      "fail": "Only learning, habit, frequency, practice or experience is stated; no word says she is good at it."
+     },
+     {
+      "id": "E4b",
+      "ask": "Is the skill named in everyday terms rather than in the vocabulary of professional or official expertise?",
+      "fail": "She is given the title of a specialist or professional expert: the kind of noun used for consultants, assessors or certified specialists."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "link",
+    "source": "she thought",
+    "where": "In the last sentence, at the claim that she has become skilled at listening to strangers.",
+    "what": "The claim of expertise is marked as her own opinion, not the narrator's verdict. This small attribution opens the gap the story later exploits. She believes her listening goes unnoticed, yet the young couple in blocks 11–12 are acutely aware of her and blame her presence for spoiling their privacy. Without the attribution, the narrator vouches for a skill the ending disproves.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Is the claim about her skill framed as Miss Brill's own opinion or impression (what she thinks or believes, or how it seems to her)?",
+      "fail": "Nothing frames it as her opinion: the skill is stated as fact, even if she is said to be pleased or proud of it."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "link",
+    "source": "listening as though she didn't listen",
+    "where": "In the last sentence, where her knack is described as listening to strangers while seeming not to.",
+    "what": "'As though' turns the not-listening into a pretence: she listens closely while putting on a show of inattention. That little performance is the first hint of the acting conceit of block 8, where she discovers everyone is on stage and tells the old invalid she has been an actress for a long time. If the pretence goes, the sense reverses into a woman who half-listens or does not really attend, the opposite of her eager eavesdropping. If only the secrecy remains, her show of inattention is lost.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Does the translation keep an explicit show of not listening (she seems, or makes it look as if she is, not listening) while in fact she listens?",
+      "fail": "The not-listening becomes real (she listens absent-mindedly, half-hears, or does not really attend), or no show of inattention is mentioned at all (she simply listens secretly or unnoticed)."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "double",
+    "source": "sitting in other people's lives just for a minute",
+    "where": "In the last sentence, where her pastime is described as spending a brief moment inside strangers' lives while they talk around her.",
+    "what": "The phrase fuses her literal habit, sitting on her bench while strangers talk, with a figurative one: for a minute she sits inside their lives as a silent guest. It carries a hint of the observer who sits in without taking part. The passivity is the point: she does not join, plunge in or live their lives; she sits, and only briefly. The image prepares 'How she loved sitting here, watching it all!' and the play of block 8. It is answered in block 17, where she sits a long time alone in her own cupboard-like room.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "Is she, for a short while, inside other people's lives in some way (occupying, sharing or present in them), not merely near the people or watching them from outside?",
+      "fail": "She only sits near people, watches or overhears them; nothing places her inside their lives."
+     },
+     {
+      "id": "E7b",
+      "ask": "Is that presence expressed as sitting (a still, seated, non-participating presence), rather than as plunging, immersing, living, joining in or settling down?",
+      "fail": "There is no sitting image: she plunges or immerses herself, lives their lives, takes part, joins in, visits, or settles in."
+     },
+     {
+      "id": "E7c",
+      "ask": "Is it the sitting itself that puts her inside their lives, as a single image, rather than sitting beside people plus a separate statement about their lives?",
+      "fail": "Sitting and being inside their lives appear as two separate actions or in separate clauses."
+     }
+    ]
+   },
+   {
+    "id": "E8",
+    "type": "construction",
+    "source": "She had become really quite expert, she thought, at listening as though she didn't listen, at sitting in other people's lives just for a minute while they talked round her.",
+    "where": "The paragraph's last sentence, where Miss Brill reflects that she has become good at listening to strangers without seeming to, and at spending a minute inside their lives while they talk around her.",
+    "what": "English hangs two parallel '-ing' phrases on one adjective, breaks the sentence with a parenthetical about her opinion, and ends on a trailing time clause. Ukrainian has no gerund nouns that work like this. A close rendering therefore produces chains of verbal nouns, repeated scaffolding that ties each skill back to the word for her skill, a parenthetical wedged in awkwardly, or a lopsided sentence that runs out of breath. It should read as one easy, self-pleased thought.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E8a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "It has chains of verbal nouns for the listening or the sitting, repeated linking scaffolding tying each skill back to the word for her skill, an awkwardly wedged parenthetical about her opinion, or another structure copied from English that a native writer would not produce."
+     }
+    ]
+   }
+  ]
+ }
+}

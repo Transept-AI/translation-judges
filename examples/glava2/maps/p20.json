@@ -1,0 +1,139 @@
+{
+ "judge": "builder",
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "prompt_sha256": "e43c6f9bfb9e",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3194,
+  "cache_read_input_tokens": 1931,
+  "output_tokens": 72817
+ },
+ "result": {
+  "reading": "After a six-paragraph narratorial aside on the grant card, the ever-growing debt and the grim jobs awaiting anyone who leaves (blocks 14–19), this sentence returns to Agnes's office and is her silent answer to Theodore's remark in block 13 that he would long since have left. It winks that her silence lasted exactly as long as that aside, and turns the aside's content into the material of Theodore's private torment. The threshold it names, the fifth of the Academy's numbered levels, was set up in blocks 3–4: curators like Agnes decide who passes it, and she reputedly never earned even its diploma.",
+  "elements": [
+   {
+    "id": "E1",
+    "type": "device",
+    "source": "Агнес вичекала достатню для експозиції паузу",
+    "where": "the opening of the sentence, where Agnes stays silent for a while before responding to Theodore",
+    "what": "The noun here is the storyteller's craft term for the stretch of a narrative that lays out background. It does not mean a museum display or light falling on film, its other everyday senses. The narrator has just frozen the conversation for six paragraphs of background on the grant card, the debt and the jobs open to washouts (blocks 14–19). Now we learn that Agnes, inside the scene, deliberately held her silence for exactly as long as that took. The joke is that a character courteously waits out the narrator's info-dump, and that the dump is precisely what Theodore is now chewing on. Without the craft sense the wink shrinks to a stock dramatic pause. If the pause becomes something she waits for rather than holds, the scene's timing breaks.",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E1a",
+      "ask": "Is the pause Agnes's own, a silence she deliberately keeps, rather than a lull in someone else's speech that she waits for?",
+      "fail": "She waits for a pause to occur, or the pause is attributed to someone else."
+     },
+     {
+      "id": "E1b",
+      "ask": "Is the length of the pause measured against the story's setting-out of background (the storyteller's sense of the term), so a reader can connect it to the long explanation of the grant card, the debt and the jobs that has just interrupted the conversation?",
+      "fail": "The pause is only dramatic, pointed, meaningful or effective. Or it lasts long enough for her words, a point or a realisation to sink in. Or it lasts long enough for a photographic-style exposure. In each case no sense of storytelling background remains."
+     }
+    ]
+   },
+   {
+    "id": "E2",
+    "type": "register",
+    "source": "промаринувати",
+    "where": "where, during Agnes's silence, Theodore is left with the prospects of a washout: the image for what he does with them",
+    "what": "Theodore is not simply thinking. The image is of meat left to absorb seasoning before cooking, with Theodore as the meat and his prospects as the seasoning. It is a jocular, colloquial kitchen figure, and in everyday speech the same verb also means keeping someone waiting, which is exactly what Agnes's silence is doing to him. It carries the narrator's wry, faintly cruel tone straight on from the grisly list of jobs in block 19. A plain verb of thought makes Agnes's tactic earnest and the moment flat.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E2a",
+      "ask": "Is what Theodore does with the prospects still a kitchen image (food being steeped in liquid or slowly cooked), rather than a plain verb of thinking, worrying or realising?",
+      "fail": "He only thinks about, considers, dwells on, broods over or worries about the prospects, or they simply sink in. No image of food preparation remains."
+     }
+    ]
+   },
+   {
+    "id": "E3",
+    "type": "hinge",
+    "source": "дозволяючи Теодору промаринувати самого себе",
+    "where": "the same moment: who acts on whom while Agnes stays silent, Theodore or the prospects",
+    "what": "The reflexive makes Theodore both cook and meat. Agnes contributes nothing but the silence, and he does the tormenting himself. That is her method. She claims (block 12) that he needs the least curating of anyone, while in fact working hard at him, and the electives she assigned in block 5 precisely to torment him are unnecessary here. Because the same verb is colloquially used for making someone wait, a quick reading can hand the action to Agnes, or let the prospects act on a passive Theodore. Either way the self-inflicted misery, and Agnes's light touch, are lost.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E3a",
+      "ask": "Is Theodore the one doing it, putting himself through it by his own doing, with Agnes only letting it happen?",
+      "fail": "Agnes is said to do it to him, or the prospects or the silence act on him while Theodore merely receives them."
+     }
+    ]
+   },
+   {
+    "id": "E4",
+    "type": "hinge",
+    "source": "вилетів з Академії",
+    "where": "where the prospects are said to belong to someone who has left the Academy early",
+    "what": "The verb is student slang. Its literal image is flying, but its sense is a forced removal from a school, through failing or by order: an involuntary and ignominious exit. This matters because Theodore has just said (block 13) that for his own sake he would long since have walked out. The narrator has replied (block 14) that he can no longer afford to, and block 18 says the real difficulty is staying in. What Agnes lets hang over him is not leaving but being pushed out, and she, as curator, decides whether he passes (block 3).",
+    "risk": "high",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E4a",
+      "ask": "Is the exit an involuntary one, with the person forced or failed out, rather than a departure that could be their own choice, or a literal flight?",
+      "fail": "The person leaves, quits or drops out (wording that allows a voluntary exit), or is said literally to fly out."
+     }
+    ]
+   },
+   {
+    "id": "E5",
+    "type": "link",
+    "source": "навіть до п'ятого кола",
+    "where": "where the washout's exit is placed relative to the fifth level of study",
+    "what": "The intensifier marks the fifth level as a low bar: this is someone who did not get even that far, or went even that early. Such a person is out with four levels' worth of debt, which block 18 says can no longer be repaid, and without the magical specialty that begins at the fifth level (block 3). It is the same intensifier on the same threshold as the rumour in block 4 that Agnes herself lacks even a fifth-level diploma.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E5a",
+      "ask": "Does the wording stress that the washout fell short of even the fifth level (or left even that early), rather than flatly placing the exit before it?",
+      "fail": "The exit is simply placed before the fifth level, with nothing stressing how low that bar is or how early the exit came."
+     }
+    ]
+   },
+   {
+    "id": "E6",
+    "type": "motif",
+    "source": "п'ятого кола",
+    "where": "where the fifth level of study is named",
+    "what": "The Academy counts its levels with a term of its own that runs through the passage. Curators are assigned at the end of the fourth and decide passage to the fifth, where specialisation starts (block 3). Agnes reputedly lacks even a fifth-level diploma (block 4). The grant's limit grows with each level completed (block 16). Work is possible from the second level, and the debt is unpayable from the fourth (block 18). Here the same term names the threshold Theodore is standing at, so the reader should recognise the system set up earlier, and catch the quiet irony that the woman dangling this fate reputedly never cleared that bar herself.",
+    "risk": "medium",
+    "recurs_in": [
+     3,
+     4,
+     16,
+     18
+    ],
+    "checks": [
+     {
+      "id": "E6a",
+      "ask": "Is the fifth level named with the same term the translation uses for the Academy's numbered levels at blocks 3 and 4 (and at 16 and 18)?",
+      "fail": "A different term from the one used there, so the threshold set up in those blocks is not recognisably the same. Examples: an ordinary school-year word where those blocks used the Academy's own term, or the reverse."
+     }
+    ]
+   },
+   {
+    "id": "E7",
+    "type": "construction",
+    "source": "вичекала достатню для експозиції паузу",
+    "where": "the opening clause, where Agnes's silence is given its length",
+    "what": "Ukrainian places the measure of the pause in an adjective phrase in front of the noun, and makes the pause the direct object of a verb meaning to wait something out. Followed closely, English ends up with a pause that is waited as if it were a thing, with a heavy phrase of sufficiency stuck onto it. The result is translationese exactly where the sentence needs a light, knowing touch for the wink to work.",
+    "risk": "medium",
+    "recurs_in": [],
+    "checks": [
+     {
+      "id": "E7a",
+      "ask": "At this spot, does the translation read as written by a skilled native writer?",
+      "fail": "The clause reads as translated: a pause that is waited like an object, a stiff phrase of sufficiency hung on the noun, or similar awkwardness."
+     }
+    ]
+   }
+  ]
+ }
+}
