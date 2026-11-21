@@ -2,8 +2,9 @@
 
 AI judges that score translations of fiction the way readers read them, without a reference translation. This is
 the benchmark [Transept](https://transept.ai) uses to decide whether a model, a prompt or a preset change makes its
-translations better or worse. Articles on the method and its findings are in the
-[Transept Journal](https://transept.ai/journal).
+translations better or worse. The method and what it found are written up in
+[How human and AI translation differ, and what readers like](https://transept.ai/journal/how-human-and-ai-translation-differ);
+more articles are in the [Transept Journal](https://transept.ai/journal).
 
 A translation is scored on three separate questions:
 
