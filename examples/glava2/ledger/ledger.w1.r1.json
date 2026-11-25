@@ -1,0 +1,435 @@
+{
+ "window": "w1",
+ "run": 1,
+ "labels": {
+  "A": "house",
+  "B": "haiku",
+  "C": "sonnet",
+  "D": "opus"
+ },
+ "backend": "gemini",
+ "model": "gemini-4-hydrogen",
+ "effort": "high",
+ "usage": {
+  "input_tokens": 2902,
+  "output_tokens": 12283,
+  "finish": "STOP"
+ },
+ "result": {
+  "mode": "dialogue",
+  "genre": "fantasy",
+  "units": [
+   {
+    "t": "logic",
+    "g": "Because",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Agnes infuriated Anna immensely",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "All the more so",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "Theodore's reports",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "elective extract sheets",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "assigned by Agnes to torment Theodore",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "much to Anna's displeasure",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "the female curator",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "simply swept into trash bin",
+    "A": "C",
+    "B": "X",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "with a gesture of gold nails",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "But Anna didn't even know",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "C"
+   },
+   {
+    "t": "fact",
+    "g": "she had no greater ally",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "in Seraph",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Because right now",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "in Agnes's office",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "Agnes and Theodore discussed Anna's future",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "Theodore advised against Chair of Medicine",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "use capital and privileges differently",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "to do good, improving the Plans",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "speaker",
+    "g": "he said",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "at least Anna has her plan",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Theodore had no Plan",
+    "A": "K",
+    "B": "C",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "nor any place in the Plans",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "doesn't know what suits him",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "speaker",
+    "g": "he said bluntly",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "doesn't want to do good",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "even less helping Seraph's economy",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "considered doing something not for himself",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "speaker",
+    "g": "Agnes smiled",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Anna can certainly do anything",
+    "A": "K",
+    "B": "K",
+    "C": "C",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "her fate won't change",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "magess sat on office windowsill",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "playing with long mahogany pointer",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "while smoking out the window",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "held cigarette with telekinesis",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "smoke curled into strange spirals",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "drifting out into morning sky",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "leaving not a drop of smell",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "nothing in office to absorb scent",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "her favorite cherry tobacco",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "no books, instruments, wonders, other paraphernalia",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "detail",
+    "g": "only a desk and two armchairs",
+    "A": "K",
+    "B": "C",
+    "C": "C",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "flysteel rapier on a stand",
+    "A": "K",
+    "B": "C",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "speaker",
+    "g": "Agnes said this relaxed her",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "during tête-à-têtes with Theodore",
+    "A": "C",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "speaker",
+    "g": "claiming he needed curating least",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Though in truth",
+    "A": "C",
+    "B": "K",
+    "C": "C",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "she gave it her all",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   }
+  ],
+  "added": [
+   {
+    "v": "A",
+    "t": "emphasis",
+    "q": "specifically"
+   },
+   {
+    "v": "A",
+    "t": "explain",
+    "q": "of all her students"
+   },
+   {
+    "v": "B",
+    "t": "other",
+    "q": "that is her choice"
+   },
+   {
+    "v": "B",
+    "t": "feeling",
+    "q": "appealing"
+   },
+   {
+    "v": "D",
+    "t": "detail",
+    "q": "usual"
+   }
+  ]
+ }
+}

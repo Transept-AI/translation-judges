@@ -1,0 +1,88 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1930,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 625
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Right this very moment",
+    "why": "redundant, clunky emphasis"
+   },
+   {
+    "quote": "it would be an absolute world record for the entire coaching industry",
+    "why": "awkward overstated phrasing"
+   },
+   {
+    "quote": "after decades on the market",
+    "why": "odd, sounds like a product"
+   },
+   {
+    "quote": "fortune favors only prepared minds and hands ready to take action",
+    "why": "mangled proverb, wordy"
+   },
+   {
+    "quote": "At first, things had gone merely well enough.",
+    "why": "stiff, hedged"
+   },
+   {
+    "quote": "An hour was taken up by a lecture",
+    "why": "flat passive"
+   },
+   {
+    "quote": "Expected, yet not quite up to Freya's level",
+    "why": "fragmentary, translated feel"
+   },
+   {
+    "quote": "due to its lack of a serious audience",
+    "why": "bureaucratic phrasing"
+   },
+   {
+    "quote": "Two hundred thousand—a plateau that was becoming harder and harder to push past every time.",
+    "why": "repetitive, clumsy"
+   },
+   {
+    "quote": "as the New York hotshots liked to say",
+    "why": "odd, forced attribution"
+   },
+   {
+    "quote": "Unmoderated, yet on Freya's terms.",
+    "why": "unclear contradiction"
+   }
+  ],
+  "good": [
+   {
+    "quote": "the famous and obscenely wealthy Tony Bobbins",
+    "why": "funny satirical name"
+   },
+   {
+    "quote": "but the algorithms had decreed otherwise",
+    "why": "wry, ironic"
+   },
+   {
+    "quote": "shatter that ceiling with room to spare",
+    "why": "energetic"
+   },
+   {
+    "quote": "her assistants slapped together a payment form",
+    "why": "vivid, casual"
+   },
+   {
+    "quote": "And so Freya went for broke",
+    "why": "punchy idiom"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

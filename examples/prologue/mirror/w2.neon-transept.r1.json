@@ -1,0 +1,96 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2157,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 752
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Rebecca223 asked for a hundred dollars.",
+    "why": "ambiguous; reads as begging, not donating"
+   },
+   {
+    "quote": "Freya smiled, \"which",
+    "why": "smiled used as speech tag"
+   },
+   {
+    "quote": "raced like mad",
+    "why": "flat cliché"
+   },
+   {
+    "quote": "Now it wasn't even her assistants, but Freya's own fans reporting and tearing into",
+    "why": "clunky construction"
+   },
+   {
+    "quote": "three hundred ninety thousand live viewers were still three hundred ninety thousand viewers",
+    "why": "slightly labored"
+   },
+   {
+    "quote": "Stupid sad green frogs",
+    "why": "awkward adjective pile"
+   },
+   {
+    "quote": "As it turned out, though, she didn't need the moderators' help.",
+    "why": "flat filler"
+   },
+   {
+    "quote": "Housewives who, answering the clarion call of the modern economy, had traded their ladles for oversized smartphones.",
+    "why": "fragment, slightly overwrought"
+   },
+   {
+    "quote": "The stakes shot up fast",
+    "why": "odd word choice for donations"
+   }
+  ],
+  "good": [
+   {
+    "quote": "the right business will *always* rise to the occasion",
+    "why": "witty innuendo"
+   },
+   {
+    "quote": "the feed suddenly bloomed with colorful-haired avatars like an exotic greenhouse",
+    "why": "vivid image"
+   },
+   {
+    "quote": "swarmed to the light of her stream from their anonymous loser forums",
+    "why": "moth image, sharp"
+   },
+   {
+    "quote": "No matter what they smelled like.",
+    "why": "cynical punch"
+   },
+   {
+    "quote": "zero imagination, pure volume",
+    "why": "crisp, voicey"
+   },
+   {
+    "quote": "The trolls' moms didn't give them more than five dollars for school lunch.",
+    "why": "funny jab"
+   },
+   {
+    "quote": "traded their ladles for oversized smartphones",
+    "why": "satirical, concrete"
+   },
+   {
+    "quote": "never even noticing as they blew twenty bucks a month—or more—on Freya",
+    "why": "wry satire"
+   },
+   {
+    "quote": "At last, she gave a genuine smile.",
+    "why": "nice ending beat"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

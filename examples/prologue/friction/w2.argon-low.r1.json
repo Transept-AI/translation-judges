@@ -1,0 +1,116 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1759,
+  "cache_read_input_tokens": 614,
+  "output_tokens": 1927
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Rebecca223 asked for a hundred dollars.",
+    "kind": "unclear",
+    "weight": 3
+   },
+   {
+    "quote": "The feminist community activated at a full hundred percent",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "The Twitter and Instagram feeds on the side monitors raced like crazy.",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "Now it wasn't even her assistants, but Freya's own fans firing off reports",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "Right-wingers were always a huge hassle.",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "completely devoid of imagination, yet en masse",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "Stupid green sad frogs",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "No matter how you sliced it, the comments set the tone. Still, the moderators' help wasn't needed.",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "Consequently, they were utterly routed",
+    "kind": "register",
+    "weight": 1
+   },
+   {
+    "quote": "Rushing to the rescue of their idol came moms on maternity leave",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "college girls from the provinces",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "all the aforementioned women",
+    "kind": "register",
+    "weight": 1
+   },
+   {
+    "quote": "The stakes were rising fast",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "At last, the young woman smiled genuinely.",
+    "kind": "literal",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "And the right business will *always* stay up for you,\"—here Freya smiled—\"which, you have to admit, compares quite favorably to a man.\"",
+    "why": "sly, in-character on-stream joke"
+   },
+   {
+    "quote": "three hundred and eighty... no, three hundred and ninety thousand live viewers were still three hundred and ninety thousand viewers. Regardless of what they smelled like.",
+    "why": "live counter, cynical voice"
+   },
+   {
+    "quote": "the feed suddenly bloomed with rainbow-haired avatars like an exotic conservatory",
+    "why": "vivid visual"
+   },
+   {
+    "quote": "swarmed toward the light of her stream from their anonymous loser forums",
+    "why": "moths image, sharp contempt"
+   },
+   {
+    "quote": "The trolls' moms didn't give them more than five dollars for school lunch.",
+    "why": "deadpan, funny"
+   },
+   {
+    "quote": "had traded their soup ladles for oversized smartphones",
+    "why": "concrete, satirical"
+   },
+   {
+    "quote": "Not the best audience if you're a serious woman sharing the secrets of *true* success, yet a loyal one. And loyalty counts for a lot in real business.",
+    "why": "ironic free indirect voice"
+   }
+  ]
+ }
+}

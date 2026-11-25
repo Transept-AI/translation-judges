@@ -1,0 +1,23 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1756,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1389
+ },
+ "result": {
+  "edited": "*“Don’t you miss having a strong man to lean on?”* asked Rebecca223 for a hundred dollars. *“Would you give up your business if you met the love of your life?”*\n\nFreya decided to answer.\n\n“A business won’t replace a man, and a man won’t replace your life’s work. Though you don’t have to please a business the way you do a lover. And the right business will *always* rise to the occasion”—here Freya smiled—“which, you have to admit, gives it a distinct advantage over a man.”\n\nThe chats exploded. The Twitter and Instagram feeds on the side monitors raced by like mad. The feminist community mobilized in full force, and the feed suddenly bloomed with avatars with multicolored hair, like an exotic greenhouse. Now it wasn’t her assistants anymore, but Freya’s own fans firing off reports and slinging mud at the right-wingers who had swarmed to the light of her stream from their anonymous loser forums. Right-wingers were always a pain to deal with.\n\nEven so, three hundred eighty… no, three hundred ninety thousand live viewers were still three hundred ninety thousand viewers. No matter what they smelled like.\n\nTrolls tried to flood the broadcast with questions like *“Do you take it in the mouth?”* and *“Try shaving your legs”*: zero imagination, just sheer volume. Stupid sad green frogs started popping up in the chat. Freya kept smiling and selectively answering questions, glancing over at her assistants’ chat. However you sliced it, the comments set the tone. Still, the moderators’ help wasn’t needed.\n\nThe trolls’ moms didn’t give them more than five dollars for school lunch. So they were utterly crushed by a counterattack from the very core of Freya’s audience, rallying to the call of fan groups on Twitter, TikTok, and Instagram. To their idol’s rescue rushed moms on maternity leave, nail techs, and small-town college girls. Housewives who, answering the clarion call of the modern economy, had traded their soup ladles for oversized smartphones. And men who craved the attention of all the aforementioned women, and had therefore started pretending to be “on their team,” without even noticing they were blowing twenty bucks a month on Freya, if not more.\n\nNot the best audience if you’re a serious woman sharing the secrets of *true* success, but a loyal one. And in real business, loyalty counts for a lot.\n\nRight before Freya’s eyes, the haters’ comments were washed away by twenty- and fifty-dollar messages: *“Go, Freya!” “Freya, we love you!” “#Axelsensexuals!”* The stakes climbed fast, and before long, donations under ten dollars weren’t even showing up on the screen. At last, she gave a genuine smile.",
+  "changes": [
+   {
+    "before": "mobilized at a hundred percent",
+    "after": "mobilized in full force",
+    "kind": "error",
+    "category": "calque"
+   }
+  ]
+ }
+}

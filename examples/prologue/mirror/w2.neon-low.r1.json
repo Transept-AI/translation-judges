@@ -1,0 +1,96 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2165,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 760
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "asked Rebecca223 for a hundred dollars",
+    "why": "awkward, ambiguous phrasing"
+   },
+   {
+    "quote": "The feminist community activated at one hundred percent",
+    "why": "mechanical, clunky"
+   },
+   {
+    "quote": "raced like crazy",
+    "why": "flat, colloquial filler"
+   },
+   {
+    "quote": "the feed suddenly bloomed with brightly dyed hair avatars like an exotic conservatory",
+    "why": "noun pileup, strained simile"
+   },
+   {
+    "quote": "Right-wingers were always a huge headache.",
+    "why": "flat, tacked-on"
+   },
+   {
+    "quote": "three hundred and ninety thousand live viewers were still three hundred and ninety thousand viewers",
+    "why": "repetition slightly clumsy"
+   },
+   {
+    "quote": "glancing over at her assistants' chat",
+    "why": "vague, unclear"
+   },
+   {
+    "quote": "The stakes rose rapidly",
+    "why": "wrong idiom for donations"
+   },
+   {
+    "quote": "the young woman smiled genuinely",
+    "why": "flat, translated feel"
+   },
+   {
+    "quote": "who had started playing the ally without even noticing how they were blowing",
+    "why": "long, tangled clause"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And the right business will *always* stay up for you",
+    "why": "sharp, funny double entendre"
+   },
+   {
+    "quote": "No matter what they smelled like.",
+    "why": "cynical, punchy"
+   },
+   {
+    "quote": "zero imagination, but plenty of volume",
+    "why": "crisp, witty"
+   },
+   {
+    "quote": "The trolls' moms didn't give them more than five dollars for school lunch.",
+    "why": "funny, cutting"
+   },
+   {
+    "quote": "had traded their ladles for oversized smartphones",
+    "why": "vivid satirical image"
+   },
+   {
+    "quote": "Not the best audience if you're a serious woman sharing the secrets of *real* success, but loyal.",
+    "why": "good ironic voice"
+   },
+   {
+    "quote": "Stupid sad green frogs started popping up in the chat.",
+    "why": "recognizable, wry detail"
+   },
+   {
+    "quote": "soon donations under ten dollars weren't even appearing on screen",
+    "why": "concrete escalation"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

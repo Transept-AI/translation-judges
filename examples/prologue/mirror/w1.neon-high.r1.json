@@ -1,0 +1,88 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1918,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 674
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "The human plateau began to budge.",
+    "why": "odd, opaque metaphor"
+   },
+   {
+    "quote": "flew through feeds like hotcakes",
+    "why": "mixed idiom; hotcakes sell, not fly"
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred and fifty.",
+    "why": "awkward elided number"
+   },
+   {
+    "quote": "Three hundred and sixty. Three hundred and seventy.",
+    "why": "ambiguous units without 'thousand'"
+   },
+   {
+    "quote": "First of all, however,",
+    "why": "clunky connector stacking"
+   },
+   {
+    "quote": "made up forty-eight percent of her audience, so it was a sore subject",
+    "why": "logic slightly muddled"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "which joke? unclear reference"
+   },
+   {
+    "quote": "Still, fame brings responsibility—",
+    "why": "non sequitur, flat cliché"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And a woman, no less!",
+    "why": "wry ironic voice"
+   },
+   {
+    "quote": "Every new thousand took Freya's breath away.",
+    "why": "conveys excitement"
+   },
+   {
+    "quote": "The main thing was not to let this interaction with her followers turn into a group Tinder date.",
+    "why": "funny, fresh image"
+   },
+   {
+    "quote": "Freya wanted to answer, *\"You don't.\"*",
+    "why": "sharp, funny"
+   },
+   {
+    "quote": "scraped those fifty bucks out of her kids' lunch money",
+    "why": "vivid, biting"
+   },
+   {
+    "quote": "never entrust your capital to unvetted funds",
+    "why": "nice coach-speak satire"
+   },
+   {
+    "quote": "flushed all the cheap provocations straight down the toilet",
+    "why": "punchy, colloquial"
+   },
+   {
+    "quote": "took a sharp turn straight into group Tinder date territory",
+    "why": "good callback payoff"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

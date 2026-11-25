@@ -1,0 +1,88 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1909,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 650
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "The plateau shattered.",
+    "why": "abrupt, unclear referent"
+   },
+   {
+    "quote": "it was primetime, just before the end of the workday",
+    "why": "odd notion of primetime"
+   },
+   {
+    "quote": "Online media bots latched onto the story",
+    "why": "slightly clunky"
+   },
+   {
+    "quote": "Three hundred and sixty. Three hundred and seventy.",
+    "why": "ambiguous after 350 thousand"
+   },
+   {
+    "quote": "Every new thousand took Freya's breath away.",
+    "why": "clichéd"
+   },
+   {
+    "quote": "But first of all, stay-at-home moms made up forty-eight percent of her audience",
+    "why": "stiff enumeration"
+   },
+   {
+    "quote": "Questions like that, Freya simply ignored.",
+    "why": "awkward inversion"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "illogical 'besides'; answer wasn't a joke"
+   },
+   {
+    "quote": "the questions took a sharp turn into group Tinder date territory",
+    "why": "repetitive, contradicts flow"
+   }
+  ],
+  "good": [
+   {
+    "quote": "A woman, no less!",
+    "why": "wry ironic voice"
+   },
+   {
+    "quote": "The main thing was not letting this follower chat turn into a group Tinder date.",
+    "why": "funny, vivid"
+   },
+   {
+    "quote": "scraped together those fifty bucks out of her kids' lunch money",
+    "why": "sharp, concrete"
+   },
+   {
+    "quote": "then your kids *are* your capital",
+    "why": "satirical business-speak"
+   },
+   {
+    "quote": "never put your capital into unvetted funds",
+    "why": "clever extended metaphor"
+   },
+   {
+    "quote": "flushed all the cheap provocations straight down the toilet",
+    "why": "punchy, colloquial"
+   },
+   {
+    "quote": "donating the five-dollar minimum",
+    "why": "deft satirical detail"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 649,
+  "cache_read_input_tokens": 2580,
+  "output_tokens": 300
+ },
+ "result": {
+  "errors": [
+   {
+    "n": 3,
+    "quote": "It was the easiest part",
+    "kind": "sense",
+    "wrong": "The original calls the lecture the most pleasant/enjoyable part for Freya, not the easiest one.",
+    "severity": 1
+   }
+  ]
+ }
+}

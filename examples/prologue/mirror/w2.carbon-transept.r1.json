@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2199,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 588
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Rebecca223 asked for a hundred dollars",
+    "why": "ambiguous; reads as if she requested money"
+   },
+   {
+    "quote": "swarmed the glow of her stream",
+    "why": "odd, strained metaphor"
+   },
+   {
+    "quote": "was still three hundred and ninety thousand viewers",
+    "why": "clunky repeated 'still'"
+   },
+   {
+    "quote": "Stupid little sad green frogs",
+    "why": "awkward adjective pile"
+   },
+   {
+    "quote": "stay-at-home moms on maternity leave",
+    "why": "redundant, contradictory"
+   },
+   {
+    "quote": "Rushing to save their idol came",
+    "why": "stiff inverted syntax"
+   },
+   {
+    "quote": "Right-wingers were always a massive pain.",
+    "why": "flat, blunt"
+   },
+   {
+    "quote": "The stakes climbed fast",
+    "why": "wrong idiom for donations"
+   }
+  ],
+  "good": [
+   {
+    "quote": "the right business will *always* stand up and perform for you",
+    "why": "sly, funny innuendo"
+   },
+   {
+    "quote": "bloomed with rainbow-haired avatars like an exotic greenhouse",
+    "why": "vivid image"
+   },
+   {
+    "quote": "No matter what they smelled like.",
+    "why": "cynical, punchy"
+   },
+   {
+    "quote": "zero creativity, just sheer volume",
+    "why": "crisp, wry"
+   },
+   {
+    "quote": "The trolls' moms didn't give them more than five dollars for school lunch.",
+    "why": "biting humor"
+   },
+   {
+    "quote": "traded their soup ladles for oversized smartphones",
+    "why": "witty image"
+   },
+   {
+    "quote": "At last, she smiled for real.",
+    "why": "effective closing beat"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

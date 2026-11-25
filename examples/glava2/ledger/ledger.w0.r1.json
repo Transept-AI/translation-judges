@@ -1,0 +1,422 @@
+{
+ "window": "w0",
+ "run": 1,
+ "labels": {
+  "A": "sonnet",
+  "B": "house",
+  "C": "opus",
+  "D": "haiku"
+ },
+ "backend": "gemini",
+ "model": "gemini-4-hydrogen",
+ "effort": "high",
+ "usage": {
+  "input_tokens": 2923,
+  "output_tokens": 10957,
+  "finish": "STOP"
+ },
+ "result": {
+  "mode": "description",
+  "genre": "fantasy",
+  "units": [
+   {
+    "t": "fact",
+    "g": "next morning before classes",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "Agnes met Theodore",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "in her office",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "wearing an emerald outfit",
+    "A": "K",
+    "B": "C",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "severe collar high to throat",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "straps falling from collar",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "supporting full, tastefully moderate breasts",
+    "A": "K",
+    "B": "C",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "detail",
+    "g": "breasts dotted with moles",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "bared firm shoulders",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "and womanly belly",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "muscles moving underneath",
+    "A": "K",
+    "B": "K",
+    "C": "C",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "when Agnes laughed or smoked",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "the magess loved both",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "Agnes doing both just then",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "C"
+   },
+   {
+    "t": "detail",
+    "g": "miniskirt and bronze high heels",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "gold nails of melted etons",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "look defied Academy principles",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "students wore regulation colors, cut",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "reference",
+    "g": "the Pigsty's drilling",
+    "A": "K",
+    "B": "C",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "regarding high collars and robes",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "upheld by graduated resident mages",
+    "A": "K",
+    "B": "C",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "image",
+    "g": "until grey hair and grave",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "green robe on hanger behind",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "did not improve matters",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "robe was covered with sequins",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "image",
+    "g": "glinting like emerald disco ball",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "but",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Agnes could afford bright dress",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "reference",
+    "g": "like that Volevichka",
+    "A": "C",
+    "B": "X",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "because (first)",
+    "A": "K",
+    "B": "D",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "curators appointed after fourth circle",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "fact",
+    "g": "held practically unlimited power",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "because (second)",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "besides exams, curators decided",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "fact",
+    "g": "student worthy of fifth-circle specialty",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "steered path to expulsion, graduation",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "emphasis",
+    "g": "very, very many",
+    "A": "K",
+    "B": "C",
+    "C": "C",
+    "D": "C"
+   },
+   {
+    "t": "detail",
+    "g": "juicy rumors circulated",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Agnes utterly unworthy",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "how she got curatorial role",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "fact",
+    "g": "being battle magess and veteran",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "lacked even fifth-circle diploma",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "rumored not serving ten years",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "three versions of three-day orgy",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "in the rectorate",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "two included Senators, Minor Gods",
+    "A": "K",
+    "B": "C",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Anna knew all versions thoroughly",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   }
+  ],
+  "added": [
+   {
+    "v": "B",
+    "t": "feeling",
+    "q": "juicy, sordid rumors"
+   },
+   {
+    "v": "C",
+    "t": "detail",
+    "q": "buttoned right up to the throat"
+   },
+   {
+    "v": "C",
+    "t": "emphasis",
+    "q": "had long since finished their studies"
+   },
+   {
+    "v": "D",
+    "t": "detail",
+    "q": "buttoned up to the throat"
+   }
+  ]
+ }
+}

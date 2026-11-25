@@ -1,0 +1,88 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1908,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 672
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Today, Freya Axelsen had every chance of setting a new record.",
+    "why": "stiff, calqued opening"
+   },
+   {
+    "quote": "an all-time world record for the entire coaching industry",
+    "why": "redundant, overstuffed"
+   },
+   {
+    "quote": "fortune only smiles on prepared minds and hands ready to act",
+    "why": "clunky proverb rendering"
+   },
+   {
+    "quote": "At first, things had gone just fine.",
+    "why": "flat"
+   },
+   {
+    "quote": "It was the easiest part, though only a hundred thousand had tuned in.",
+    "why": "illogical 'though' link"
+   },
+   {
+    "quote": "Expected, sure, but beneath Freya's level",
+    "why": "awkward fragment"
+   },
+   {
+    "quote": "\"how to get off the couch and start doing,\"",
+    "why": "unidiomatic 'start doing'"
+   },
+   {
+    "quote": "Still, it wasn't enough. It was a plateau. Two hundred thousand—a plateau",
+    "why": "repetitive"
+   },
+   {
+    "quote": "her assistants bolted on a payment form",
+    "why": "odd technical verb"
+   },
+   {
+    "quote": "Unmoderated, but on Freya's terms.",
+    "why": "slightly vague"
+   }
+  ],
+  "good": [
+   {
+    "quote": "the famous and obscenely wealthy Tony Bobbins",
+    "why": "funny satirical name"
+   },
+   {
+    "quote": "with a face recognized around the world!",
+    "why": "lively, voicey"
+   },
+   {
+    "quote": "She couldn't stand TikTok—the audience wasn't serious enough—but the algorithms had other ideas.",
+    "why": "wry characterization"
+   },
+   {
+    "quote": "And then Freya made her power move, as the New York dealmakers liked to say.",
+    "why": "ironic, sets tension"
+   },
+   {
+    "quote": "blasted out social media posts",
+    "why": "energetic verb"
+   },
+   {
+    "quote": "shattering that ceiling with room to spare",
+    "why": "punchy"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

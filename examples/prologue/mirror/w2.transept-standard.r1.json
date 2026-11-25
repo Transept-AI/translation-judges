@@ -1,0 +1,92 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2184,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 779
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "asked Rebecca223, for a hundred dollars",
+    "why": "awkward comma, unclear phrasing"
+   },
+   {
+    "quote": "Though a business doesn't need pleasing the way a lover does.",
+    "why": "clunky, slightly off grammar"
+   },
+   {
+    "quote": "Freya smiled here,",
+    "why": "stilted stage direction"
+   },
+   {
+    "quote": "raced like mad",
+    "why": "flat cliché"
+   },
+   {
+    "quote": "the feed suddenly bloomed with avatars sporting rainbow-colored hair, like an exotic greenhouse",
+    "why": "simile slightly misplaced"
+   },
+   {
+    "quote": "swarmed to the light of her stream from their anonymous loser forums",
+    "why": "overloaded phrase"
+   },
+   {
+    "quote": "Dumb green sad frogs",
+    "why": "adjective pileup, odd order"
+   },
+   {
+    "quote": "Whichever way you sliced it, the comments set the tone.",
+    "why": "filler, disconnected"
+   },
+   {
+    "quote": "Housewives who, at the loud summons of the modern economy, had traded their ladles for enormous smartphones.",
+    "why": "fragment, heavy-handed"
+   },
+   {
+    "quote": "At last, the girl smiled for real.",
+    "why": "'the girl' jarring shift"
+   }
+  ],
+  "good": [
+   {
+    "quote": "the right business will *always* stand up for you",
+    "why": "sly double entendre"
+   },
+   {
+    "quote": "which, you have to admit, gives it a clear edge over a man",
+    "why": "witty punchline"
+   },
+   {
+    "quote": "three hundred eighty... no, three hundred ninety thousand live viewers were three hundred ninety thousand live viewers. No matter what they smelled like.",
+    "why": "cynical, rhythmic humor"
+   },
+   {
+    "quote": "zero imagination, but plenty of volume",
+    "why": "crisp, funny"
+   },
+   {
+    "quote": "The trolls' moms never gave them more than five dollars for school lunch.",
+    "why": "sharp satirical jab"
+   },
+   {
+    "quote": "without even noticing they were blowing twenty bucks a month on Freya, sometimes more",
+    "why": "dry ironic tone"
+   },
+   {
+    "quote": "soon donations under ten dollars weren't even showing up on screen",
+    "why": "telling concrete detail"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

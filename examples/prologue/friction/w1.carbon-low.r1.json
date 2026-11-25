@@ -1,0 +1,98 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1488,
+  "cache_read_input_tokens": 614,
+  "output_tokens": 1270
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "The human plateau began to shift.",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "Posts flew across feeds like hotcakes",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred and fifty.",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "Online media bots picked up the event and started churning out news about a provocative stream",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "And then came the time to answer.",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "stay-at-home moms on maternity leave",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "But first of all, stay-at-home moms on maternity leave made up forty-eight percent of her audience, so it was a sore spot. And second,",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "you couldn't answer like that to a subscriber",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "those fifty bucks",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "Freja was already leaving questions like that unanswered.",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "kind": "follow",
+    "weight": 3
+   },
+   {
+    "quote": "Yet with fame comes responsibility—the questions took a sharp turn into group-Tinder-date territory.",
+    "kind": "follow",
+    "weight": 3
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Three hundred and sixty. Three hundred and seventy. Every new thousand took Freja's breath away.",
+    "why": "counting rhythm builds tension"
+   },
+   {
+    "quote": "scraped those fifty bucks together out of her kids' lunch money",
+    "why": "concrete, wry, humane"
+   },
+   {
+    "quote": "then your children *are* your capital. The key is to stick to your investment strategy and not hand your capital over to unvetted funds.",
+    "why": "funny, true to coach persona"
+   },
+   {
+    "quote": "Freja wanted to reply, *\"You don't.\"*",
+    "why": "sharp, deadpan inner voice"
+   },
+   {
+    "quote": "a flood of more interesting (and pricier!) questions",
+    "why": "lively, shows her mercenary streak"
+   }
+  ]
+ }
+}

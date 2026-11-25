@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1912,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 633
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "The human plateau finally budged.",
+    "why": "opaque, awkward metaphor"
+   },
+   {
+    "quote": "flew through feeds like hotcakes",
+    "why": "mixed idiom; hotcakes sell, not fly"
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred and fifty.",
+    "why": "elliptical numbers, clunky"
+   },
+   {
+    "quote": "But first, stay-at-home moms",
+    "why": "'first' misplaced, reads oddly"
+   },
+   {
+    "quote": "Online media bots picked up the event",
+    "why": "flat, mechanical"
+   },
+   {
+    "quote": "flushed all the cheap provocations right down the toilet",
+    "why": "crude, overstretched image"
+   },
+   {
+    "quote": "the questions took a sharp turn into mass Tinder date territory",
+    "why": "contradicts earlier, repetitive"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "unclear which joke; logic off"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And a woman, no less!",
+    "why": "wry ironic voice"
+   },
+   {
+    "quote": "Three hundred and sixty. Three hundred and seventy.",
+    "why": "builds tension, rhythm"
+   },
+   {
+    "quote": "The main thing was not to let this chat with her followers turn into a mass Tinder date.",
+    "why": "funny, characterful"
+   },
+   {
+    "quote": "Freya wanted to answer, *\"You don't.\"*",
+    "why": "sharp humor"
+   },
+   {
+    "quote": "scraped together those fifty bucks from her kids' lunch money",
+    "why": "vivid, satirical"
+   },
+   {
+    "quote": "then your kids *are* your capital",
+    "why": "nicely satirizes coach-speak"
+   },
+   {
+    "quote": "(and more expensive!)",
+    "why": "playful aside"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

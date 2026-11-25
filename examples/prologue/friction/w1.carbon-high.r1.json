@@ -1,0 +1,102 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1482,
+  "cache_read_input_tokens": 614,
+  "output_tokens": 1415
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "The human plateau started moving.",
+    "kind": "unclear",
+    "weight": 3
+   },
+   {
+    "quote": "Posts flew across feeds like hotcakes",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred fifty.",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "it was prime time, right before the end of the workday",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "Online media bots picked up on the event",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "And then it was time to answer.",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "But first of all, moms on maternity leave made up forty-eight percent of her audience, so it was a sore subject. And second,",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "pre-rehearsed",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "But fame comes with responsibility—the questions veered sharply into the genre of a group Tinder date.",
+    "kind": "follow",
+    "weight": 3
+   },
+   {
+    "quote": "veered sharply into the genre of",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "The main thing was not to let this exchange with her followers turn into a group Tinder date.",
+    "kind": "structure",
+    "weight": 2
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Three hundred sixty. Three hundred seventy. With every new thousand, Freya’s breath caught.",
+    "why": "counting rhythm builds tension"
+   },
+   {
+    "quote": "If you’ve always dreamed of being a mom or a dad, then your children *are* your capital. The main thing is to stick to your investment strategy and not hand your capital over to unvetted funds.",
+    "why": "funny, in-character coach-speak"
+   },
+   {
+    "quote": "a follower who had most likely scraped those fifty bucks together from money that should have gone to her kids’ lunches",
+    "why": "sharp, specific, reveals her cynicism"
+   },
+   {
+    "quote": "And a woman, no less!",
+    "why": "wry free indirect voice"
+   },
+   {
+    "quote": "a flood of more interesting (and more expensive!) questions was flushing all the cheap provocations down the toilet",
+    "why": "lively, mercenary tone"
+   },
+   {
+    "quote": "Freya wanted to answer, *“You don’t.”*",
+    "why": "blunt, funny inner reaction"
+   }
+  ]
+ }
+}

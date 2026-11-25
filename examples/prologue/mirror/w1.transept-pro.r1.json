@@ -1,0 +1,92 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1932,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 708
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "The human plateau shattered.",
+    "why": "opaque, confusing opener"
+   },
+   {
+    "quote": "it was primetime, just before the end of the workday",
+    "why": "primetime clashes with workday"
+   },
+   {
+    "quote": "the viewer count instantly jumped from two hundred thousand to two hundred and fifty thousand",
+    "why": "clunky spelled-out numbers"
+   },
+   {
+    "quote": "Online media bots latched onto the event and started churning out news",
+    "why": "slightly flat"
+   },
+   {
+    "quote": "And then it was time to answer.",
+    "why": "flat transition"
+   },
+   {
+    "quote": "But for one thing, moms on maternity leave made up forty-eight percent of her audience, so it was a sore subject.",
+    "why": "awkward logic, clunky"
+   },
+   {
+    "quote": "you can't say that to a follower who had most likely scraped",
+    "why": "tense mismatch"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "unclear which joke"
+   },
+   {
+    "quote": "But fame comes with responsibility, and the questions veered sharply into group-Tinder-date territory.",
+    "why": "non sequitur, repetitive"
+   }
+  ],
+  "good": [
+   {
+    "quote": "A woman, no less!",
+    "why": "wry ironic aside"
+   },
+   {
+    "quote": "Every new thousand took Freya's breath away.",
+    "why": "conveys excitement"
+   },
+   {
+    "quote": "The main thing was not to let this chat with her followers turn into a group Tinder date.",
+    "why": "funny, vivid"
+   },
+   {
+    "quote": "Freya wanted to answer, *\"You don't.\"*",
+    "why": "sharp, funny honesty"
+   },
+   {
+    "quote": "scraped together those fifty bucks out of her kids' lunch money",
+    "why": "concrete, biting"
+   },
+   {
+    "quote": "then your children *are* your capital",
+    "why": "satirical coach-speak"
+   },
+   {
+    "quote": "flushed all the cheap provocations down the toilet",
+    "why": "lively image"
+   },
+   {
+    "quote": "(and pricier!)",
+    "why": "good satirical touch"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

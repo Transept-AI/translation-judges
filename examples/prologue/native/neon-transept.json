@@ -1,0 +1,1101 @@
+{
+ "judge": "native",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9e07e11e332b",
+ "usage": {
+  "input_tokens": 102,
+  "cache_creation_input_tokens": 63126,
+  "cache_read_input_tokens": 751842,
+  "output_tokens": 16185
+ },
+ "result": {
+  "paragraphs": [
+   {
+    "n": 0,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "and the number was climbing fast as the broadcast moved into the Q&A segment",
+      "reader_gets": "The count rises at the same time the stream enters the Q&A; 'as' reads as timing, so the cause is left to inference.",
+      "rating": "weak"
+     },
+     {
+      "id": "E2a",
+      "quote": "Today, Freya Axelsen had every chance of setting a new record.",
+      "reader_gets": "Freya's prospects of a record are framed as chances, and rated at their strongest.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Right now, three hundred and fifty thousand people were watching her stream, and the number was climbing fast as the broadcast moved into the Q&A segment.",
+      "reader_gets": "A fluent, natural sentence built around the live count, active voice, with 'Q&A segment' as a normal label.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "all-time",
+      "reader_gets": "The record is marked as the highest ever, beyond an ordinary world record.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "world record",
+      "reader_gets": "The record is global in scope.",
+      "rating": "native"
+     },
+     {
+      "id": "E1c",
+      "quote": "for the entire coaching industry",
+      "reader_gets": "The industry is stressed as a whole, not just named.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "If the live viewer count hit four hundred thousand, it would be an all-time world record for the entire coaching industry.",
+      "reader_gets": "A clean, cool if-then in conditional past that sits naturally in the narration; 'live viewer count' is idiomatic.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "it would be an all-time world record",
+      "reader_gets": "The record promised in the opening line is named as this concrete prize.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Tony Bobbins",
+      "reader_gets": "An obvious one-letter twist on Tony Robbins, so the real guru shows through.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "Tony Bobbins",
+      "reader_gets": "The name is altered, not the real one.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "—and that was after decades in the game, with a face recognized around the world!",
+      "reader_gets": "'And that was after' sets his long career and fame against his figure: he had all that and still topped out there.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "decades in the game",
+      "reader_gets": "Decades as an established, active player in the business.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "Even the famous and obscenely wealthy Tony Bobbins had topped out at three hundred and ninety thousand in his prime—and that was after decades in the game, with a face recognized around the world!",
+      "reader_gets": "A quick, idiomatic gloat; 'topped out' and 'in his prime' are natural, and the dash-led afterthought reads easily.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "shattering that ceiling with room to spare",
+      "reader_gets": "She would beat his mark comfortably, not just squeak past it.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "fortune only smiles on prepared minds and hands ready to act",
+      "reader_gets": "Fortune favours prepared minds, with an extra flourish about hands, so Pasteur's line is recognizable.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "fortune only smiles on",
+      "reader_gets": "Fortune smiles, which links to Freya's later smiles.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "At first, things had gone just fine.",
+      "reader_gets": "'Just fine' can be read as 'perfectly well' or as 'merely okay'; only the next sentences tip it toward lukewarm.",
+      "rating": "weak"
+     },
+     {
+      "id": "E2a",
+      "quote": "Expected, sure, but beneath Freya's level, given her four million followers on Instagram and another twelve million on TikTok.",
+      "reader_gets": "A clipped, voicey verdict: predictable, but not worthy of her, with her follower counts clearly given as the reason.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "beneath Freya's level",
+      "reader_gets": "The turnout is judged unworthy of her standing, not just lower than usual.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "the audience wasn't serious enough",
+      "reader_gets": "TikTok's flaw is that its audience lacks seriousness.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "but the algorithms had other ideas",
+      "reader_gets": "The algorithms overrode her dislike and put her biggest following on TikTok anyway.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "had other ideas",
+      "reader_gets": "The familiar 'fate had other ideas' formula, with the algorithms standing in for fate.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Another hour went to questions along the lines of \"the best age to launch a startup\" and \"how to get off the couch and start doing,\" submitted by followers through a form before the stream.",
+      "reader_gets": "The frame is mostly fluent, but the participle tag trails after the second quote, which ends on an objectless verb, so it briefly seems to belong to that quote.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E2a",
+      "quote": "submitted by followers through a form before the stream",
+      "reader_gets": "The questions were sent in ahead of the broadcast.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "how to get off the couch and start doing",
+      "reader_gets": "A generic call to action with no specific task named.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "They landed well",
+      "reader_gets": "Casual content-performance talk for the audience liking the questions.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "pushing the live count to two hundred thousand",
+      "reader_gets": "Two hundred thousand people were watching live.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "It was a plateau. Two hundred thousand—a plateau",
+      "reader_gets": "The stall is pictured as a plateau, a flat stretch where a climb levels out, and the word is repeated.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "every time",
+      "reader_gets": "The stall has come up on earlier occasions; today is another round.",
+      "rating": "native"
+     },
+     {
+      "id": "E2b",
+      "quote": "seemed harder to break through every time",
+      "reader_gets": "Each time it is harder to get past.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Two hundred thousand—a plateau that seemed harder to break through every time.",
+      "reader_gets": "A clean, natural sentence in past narration with no stacked qualifiers.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "made her power move",
+      "reader_gets": "A bold, deliberate, game-changing play of her own.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "the New York dealmakers",
+      "reader_gets": "A fairly neutral label for New York business people, with no sneer beyond the light irony of 'liked to say.'",
+      "rating": "missing"
+     },
+     {
+      "id": "E3a",
+      "quote": "bolted on a payment form",
+      "reader_gets": "A quick, makeshift hack added to the live stream.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "open Q&A for donations",
+      "reader_gets": "'Open' means unrestricted questions, with no suggestion that they're free.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Unmoderated",
+      "reader_gets": "No one is screening what viewers post.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "for donations",
+      "reader_gets": "Questions are bought with donations sent to the streamer.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "The surprise segment of the broadcast began: open Q&A for donations.",
+      "reader_gets": "A natural announcement of the segment with a concise format label.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 7,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "The plateau shattered.",
+      "reader_gets": "The same plateau from block 5 is named again, now breaking.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "The plateau shattered.",
+      "reader_gets": "Only the abstract plateau breaks; nothing makes it a mass of people set in motion.",
+      "rating": "missing"
+     },
+     {
+      "id": "E3a",
+      "quote": "spread like wildfire",
+      "reader_gets": "A standard English idiom for very fast spread, with no odd food image.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "the viewer count instantly jumped from two hundred thousand to two hundred and fifty thousand",
+      "reader_gets": "A clean surge in the count, with both figures stated in full.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "churning out articles",
+      "reader_gets": "The bots mass-produce copies mechanically.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "A woman, no less!",
+      "reader_gets": "The hyped coach herself is a woman, said with mock astonishment.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 8,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "paying real dollars",
+      "reader_gets": "'Real' marks actual money, set against the free likes and shares before it.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Every new thousand took Freya's breath away.",
+      "reader_gets": "Each thousand gives her an involuntary thrill.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Three hundred and sixty. Three hundred and seventy.",
+      "reader_gets": "Two bare readings, each ten thousand higher, climbing from 350,000; the dropped 'thousand' is clear from context.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "And then it was time to answer.",
+      "reader_gets": "The moment has come due; answering is now required of her.",
+      "rating": "native"
+     },
+     {
+      "id": "E3c",
+      "quote": "And then it was time to answer.",
+      "reader_gets": "A flat turn, with no commentary on difficulty or risk.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "Every new thousand took Freya's breath away.",
+      "reader_gets": "A natural, punchy English sentence.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 9,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "a group Tinder date",
+      "reader_gets": "A dating-app date, in which Freya would be sized up as a prospective partner.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "group",
+      "reader_gets": "The date is with the whole crowd at once, which makes it absurd.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "a group Tinder date",
+      "reader_gets": "Block 15's 'group Tinder date territory' clearly echoes this image.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "The main thing was not letting this follower chat turn into a group Tinder date.",
+      "reader_gets": "A brisk, wry sentence; 'follower chat' is a little compressed but reads naturally.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 10,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "How do you succeed when you have four of them?",
+      "reader_gets": "Right after 'Do you have kids?', the 'you' first seems aimed at Freya; the generic reading about the asker's own four kids only emerges with block 11.",
+      "rating": "weak"
+     },
+     {
+      "id": "E2a",
+      "quote": "How do you succeed",
+      "reader_gets": "The question is explicitly about success.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "How do you succeed when you have four of them?",
+      "reader_gets": "Natural spoken English, not a headline-style query.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 11,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "stay-at-home moms",
+      "reader_gets": "Generic stay-at-home mothers, with no maternity leave, which blurs them into block 22's housewives.",
+      "rating": "missing"
+     },
+     {
+      "id": "E2a",
+      "quote": "so it was a sore subject",
+      "reader_gets": "The topic is painful for these mothers, not just relevant.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "most likely",
+      "reader_gets": "The lunch-money story is Freya's supposition, not fact.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "those fifty bucks",
+      "reader_gets": "Offhand slang for the sum.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "out of her kids' lunch money",
+      "reader_gets": "The money she should have given her kids for lunch.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "And second, you couldn't say that to a follower who had most likely scraped together those fifty bucks out of her kids' lunch money.",
+      "reader_gets": "A quick, natural, sardonic aside.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 12,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "stick to your investment strategy and never put your capital into unvetted funds",
+      "reader_gets": "On its face, ordinary investment advice.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "your capital",
+      "reader_gets": "The same term just used for the kids ties the warning back to them.",
+      "rating": "native"
+     },
+     {
+      "id": "E1c",
+      "quote": "put your capital into",
+      "reader_gets": "'Put into' also fits placing kids in a school or care, so the double reading works.",
+      "rating": "native"
+     },
+     {
+      "id": "E1d",
+      "quote": "never put your capital into unvetted funds.",
+      "reader_gets": "The child reading is left implicit, with no gloss.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "your kids *are* your capital",
+      "reader_gets": "A cold finance term applied to the children.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "*are*",
+      "reader_gets": "Italic stress flips the premise: the kids themselves are the asset.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "The key is to stick to your investment strategy and never put your capital into unvetted funds.",
+      "reader_gets": "A smooth, quotable line a coach would say live.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 13,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "*\"Are you married?\"*",
+      "reader_gets": "A neutral, ordinary question with nothing that signals over-familiarity.",
+      "rating": "missing"
+     },
+     {
+      "id": "E2a",
+      "quote": "donating the five-dollar minimum",
+      "reader_gets": "Five dollars was the floor, and this asker paid exactly that.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "someone asked, donating the five-dollar minimum.",
+      "reader_gets": "A light, offhand tag that reads naturally.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 14,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Questions like that, Freya simply ignored.",
+      "reader_gets": "Her practice covers this whole type of question.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "Freya simply ignored",
+      "reader_gets": "Plain past tense; nothing marks the habit as already settled by this point.",
+      "rating": "missing"
+     },
+     {
+      "id": "E2a",
+      "quote": "Questions like that, Freya simply ignored.",
+      "reader_gets": "The fronted object reads as a natural, slightly weary spoken aside.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "more interesting",
+      "reader_gets": "The respectable reason: better questions.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "and more expensive!",
+      "reader_gets": "The real reason: bigger donations.",
+      "rating": "native"
+     },
+     {
+      "id": "E3c",
+      "quote": "—and more expensive!—",
+      "reader_gets": "The money point is tucked in as a gleeful aside, set off by dashes and an exclamation.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "flushed all the cheap provocations",
+      "reader_gets": "A water flow carries them away, matching the washing-away in block 24.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "cheap provocations",
+      "reader_gets": "'Cheap' reads as low-priced, right after 'more expensive'.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "cheap provocations",
+      "reader_gets": "'Cheap' also means tawdry.",
+      "rating": "native"
+     },
+     {
+      "id": "E5c",
+      "quote": "cheap",
+      "reader_gets": "One word carries both senses.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "straight down the toilet",
+      "reader_gets": "A crude bathroom image, kept intact.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 15,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Besides,",
+      "reader_gets": "One more piece of good news on top of the last.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "her joke had landed",
+      "reader_gets": "Casual content-performance slang.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "and the viewer count kept climbing—a clip of her answer had already gone viral on Twitter",
+      "reader_gets": "The dash introduces the viral clip as the explanation for the climb.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "had already gone viral",
+      "reader_gets": "It went viral this fast.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "But with fame came responsibility",
+      "reader_gets": "A solemn, ready-made maxim.",
+      "rating": "native"
+     },
+     {
+      "id": "E4b",
+      "quote": "But with fame came responsibility, and the questions took a sharp turn",
+      "reader_gets": "The turn to dating reads as what that responsibility brought.",
+      "rating": "native"
+     },
+     {
+      "id": "E4c",
+      "quote": "But with fame came responsibility, and the questions took a sharp turn into group Tinder date territory.",
+      "reader_gets": "The bathos is left uncommented.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "responsibility",
+      "reader_gets": "'Responsibility' shares no visible root with 'answer', the word used for her replies, so the link to answering is lost.",
+      "rating": "missing"
+     },
+     {
+      "id": "E5b",
+      "quote": "But with fame came responsibility",
+      "reader_gets": "No gloss is added.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "took a sharp turn",
+      "reader_gets": "An abrupt swerve.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "group Tinder date territory",
+      "reader_gets": "A clear echo of block 9's group Tinder date.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "the questions took a sharp turn into group Tinder date territory",
+      "reader_gets": "An idiomatic 'X territory' construction.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 16,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Rebecca223 asked for a hundred dollars.",
+      "reader_gets": "Literally reads as Rebecca requesting a hundred dollars; only the donation context lets the reader work out that she paid it.",
+      "rating": "weak"
+     },
+     {
+      "id": "E2a",
+      "quote": "a strong man to lean on",
+      "reader_gets": "What Freya supposedly lacks is explicitly a man.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "the love of your life",
+      "reader_gets": "Love measured against her whole life.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "a strong man to lean on",
+      "reader_gets": "The stock cliché of male strength as a woman's support.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Don't you miss having a strong man to lean on?",
+      "reader_gets": "A natural chat message.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 17,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Freya decided to answer.",
+      "reader_gets": "Answering is presented as her deliberate choice.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "decided",
+      "reader_gets": "A cool decision, with no impulse, duty or reluctance.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "to answer",
+      "reader_gets": "Plain answering, which echoes the questions she had been leaving unanswered.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 18,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "will *always* rise to the occasion",
+      "reader_gets": "On its face, the business always comes through for you.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "will *always* rise to the occasion",
+      "reader_gets": "'Rise', with italic 'always' and the comparison to a man, is a clear jab at male potency.",
+      "rating": "native"
+     },
+     {
+      "id": "E1c",
+      "quote": "rise to the occasion",
+      "reader_gets": "One idiom carries both senses, with no gloss.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "you don't have to please a business the way you do a lover",
+      "reader_gets": "The listener is spared pleasing the business, unlike a lover.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "gives it a clear edge over a man",
+      "reader_gets": "Product-comparison language; the man loses on a feature.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "Though you don't have to please a business the way you do a lover.",
+      "reader_gets": "A natural spoken afterthought with a balanced comparison.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Freya smiled, \"which, you have to admit, gives it a clear edge over a man.\"",
+      "reader_gets": "A fluent split quotation with a natural aside appealing to the audience.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 19,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "The feminist community went into overdrive",
+      "reader_gets": "An everyday idiom of heightened enthusiasm, with no sense of a user base being switched on.",
+      "rating": "missing"
+     },
+     {
+      "id": "E2a",
+      "quote": "colorful-haired avatars",
+      "reader_gets": "The people in the avatars have dyed hair, so the stock type is recognizable.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "the feed suddenly bloomed with colorful-haired avatars like an exotic greenhouse",
+      "reader_gets": "The trailing 'like an exotic greenhouse' sits right after the avatars, so the comparison is slightly loose about whether the feed or the avatars resemble it.",
+      "rating": "foreign"
+     },
+     {
+      "id": "E4a",
+      "quote": "Now it wasn't even her assistants, but Freya's own fans reporting",
+      "reader_gets": "'Now' marks the reporting passing from the assistants to the fans at this moment.",
+      "rating": "native"
+     },
+     {
+      "id": "E4b",
+      "quote": "Freya's own fans",
+      "reader_gets": "'Own' and 'even' stress the fans somewhat, but more as hers than as having taken it on themselves.",
+      "rating": "weak"
+     },
+     {
+      "id": "E5a",
+      "quote": "tearing into the right-wingers",
+      "reader_gets": "The fans verbally attack the right-wingers.",
+      "rating": "native"
+     },
+     {
+      "id": "E5b",
+      "quote": "tearing into",
+      "reader_gets": "No watering sense; the hothouse pun is lost.",
+      "rating": "missing"
+     },
+     {
+      "id": "E5c",
+      "quote": "tearing into",
+      "reader_gets": "Only the abuse sense is present.",
+      "rating": "missing"
+     },
+     {
+      "id": "E6a",
+      "quote": "reporting and tearing into the right-wingers",
+      "reader_gets": "No mud or filth image, just attack.",
+      "rating": "missing"
+     },
+     {
+      "id": "E7a",
+      "quote": "right-wingers",
+      "reader_gets": "A mildly colloquial label, close to a standard political term; the sneer comes mostly from 'loser forums'.",
+      "rating": "weak"
+     },
+     {
+      "id": "E8a",
+      "quote": "who had swarmed to the light of her stream",
+      "reader_gets": "Insects drawn swarming to a light.",
+      "rating": "native"
+     },
+     {
+      "id": "E9a",
+      "quote": "Now it wasn't even her assistants, but Freya's own fans reporting and tearing into the right-wingers who had swarmed to the light of her stream from their anonymous loser forums.",
+      "reader_gets": "Clear, but the 'it wasn't X, but Y doing' frame is stiff and the where-to and where-from tail runs long.",
+      "rating": "foreign"
+     }
+    ]
+   },
+   {
+    "n": 20,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "three hundred ninety thousand live viewers",
+      "reader_gets": "Exactly 390,000, level with Bobbins's best.",
+      "rating": "native"
+     },
+     {
+      "id": "E1b",
+      "quote": "three hundred eighty... no, three hundred ninety thousand",
+      "reader_gets": "The count ticks up mid-sentence from 380k to 390k.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "were still three hundred ninety thousand viewers",
+      "reader_gets": "A circular identity: the number is the number, whoever makes it up.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "No matter what they smelled like.",
+      "reader_gets": "A smell framing that evokes 'money doesn't smell'.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "what they smelled like",
+      "reader_gets": "The odour is the viewers' own.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 21,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "*\"Do you swallow?\"*",
+      "reader_gets": "A vulgar question about whether she performs oral sex.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "*\"Do you swallow?\"*",
+      "reader_gets": "Gutter slang with nothing clinical.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "—zero imagination, pure volume.",
+      "reader_gets": "A crisp marketer's verdict: no originality, sheer numbers.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "Stupid sad green frogs",
+      "reader_gets": "Recognizable as the Pepe sad-frog meme.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "Freya kept smiling and selectively answering questions",
+      "reader_gets": "She carries on unbroken.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "Like it or not, the comments set the tone.",
+      "reader_gets": "An unavoidable concession.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 22,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "The trolls' moms didn't give them more than five dollars for school lunch.",
+      "reader_gets": "School-lunch money from their moms, echoing block 11's kids' lunch money.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "a counterattack",
+      "reader_gets": "A military counter-strike.",
+      "rating": "native"
+     },
+     {
+      "id": "E2b",
+      "quote": "who had rallied to the call of her fan groups",
+      "reader_gets": "The fans muster at a summons.",
+      "rating": "native"
+     },
+     {
+      "id": "E2c",
+      "quote": "rushed to their idol's rescue",
+      "reader_gets": "They dash to save her.",
+      "rating": "native"
+     },
+     {
+      "id": "E2d",
+      "quote": "Stay-at-home moms, nail techs, and small-town college girls",
+      "reader_gets": "Three humble kinds of women, with the small-town origin kept.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "Stay-at-home moms",
+      "reader_gets": "The same label as block 11's forty-eight percent.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "answering the clarion call of the modern economy",
+      "reader_gets": "A mock-solemn summons to duty.",
+      "rating": "native"
+     },
+     {
+      "id": "E5a",
+      "quote": "all the aforementioned women",
+      "reader_gets": "A dry, report-style back-reference.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "started trying to pass as \"one of them,\"",
+      "reader_gets": "The men fake membership of the women's crowd.",
+      "rating": "native"
+     },
+     {
+      "id": "E7a",
+      "quote": "blew twenty bucks a month",
+      "reader_gets": "Money wasted, in slang.",
+      "rating": "native"
+     },
+     {
+      "id": "E8a",
+      "quote": "And then there were the men who craved the attention of all the aforementioned women and started trying to pass as \"one of them,\" never even noticing as they blew twenty bucks a month—or more—on Freya.",
+      "reader_gets": "A natural closing addition to the roster; 'noticing as they blew' is slightly loose but reads fine.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 23,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "Not the best audience if you're a serious woman sharing the secrets of *real* success, sure—but they were loyal.",
+      "reader_gets": "A smooth, conversational put-down, with 'sure—but' cleanly attaching loyalty to the audience.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "a serious woman",
+      "reader_gets": "The same 'serious' that TikTok's audience lacked in block 3.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "*real* success",
+      "reader_gets": "Italics single out 'real' success as a sneer.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "in real business",
+      "reader_gets": "Business as actually practised, echoing the italic 'real'.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "And loyalty counts for a lot in real business.",
+      "reader_gets": "A deadpan, idiomatic maxim.",
+      "rating": "native"
+     }
+    ]
+   },
+   {
+    "n": 24,
+    "notes": [
+     {
+      "id": "E1a",
+      "quote": "the haters' comments were washed away",
+      "reader_gets": "Water carries the comments off, echoing the flushing at block 14.",
+      "rating": "native"
+     },
+     {
+      "id": "E2a",
+      "quote": "Right before Freya's eyes, the haters' comments were washed away by twenty- and fifty-dollar messages",
+      "reader_gets": "Fluent and quick; 'twenty- and fifty-dollar messages' clearly means paid messages.",
+      "rating": "native"
+     },
+     {
+      "id": "E3a",
+      "quote": "#Axelsensexuals!",
+      "reader_gets": "Her surname is plainly visible.",
+      "rating": "native"
+     },
+     {
+      "id": "E3b",
+      "quote": "#Axelsensexuals!",
+      "reader_gets": "The fans declare her their sexual orientation.",
+      "rating": "native"
+     },
+     {
+      "id": "E3c",
+      "quote": "Axelsensexuals",
+      "reader_gets": "One coined word fuses her name with the orientation label.",
+      "rating": "native"
+     },
+     {
+      "id": "E4a",
+      "quote": "The stakes shot up fast",
+      "reader_gets": "First reads as tension rising; only the following clause about sub-ten-dollar donations hints it means the sums paid.",
+      "rating": "weak"
+     },
+     {
+      "id": "E5a",
+      "quote": "weren't even making it onto the screen",
+      "reader_gets": "'Even' marks the extreme point: small donations don't appear at all.",
+      "rating": "native"
+     },
+     {
+      "id": "E6a",
+      "quote": "At last",
+      "reader_gets": "The smile was long in coming.",
+      "rating": "native"
+     },
+     {
+      "id": "E6b",
+      "quote": "a genuine smile",
+      "reader_gets": "Real feeling, set against her earlier performed smiles.",
+      "rating": "native"
+     },
+     {
+      "id": "E6c",
+      "quote": "At last, she gave a genuine smile.",
+      "reader_gets": "No cause is stated; it follows straight on from the money.",
+      "rating": "native"
+     }
+    ]
+   }
+  ]
+ }
+}

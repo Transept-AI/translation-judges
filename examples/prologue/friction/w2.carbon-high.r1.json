@@ -1,0 +1,102 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1757,
+  "cache_read_input_tokens": 614,
+  "output_tokens": 1704
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "asked Rebecca223 for a hundred dollars",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "raced by like mad",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "The feminist community mobilized at a hundred percent",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "bloomed with avatars with multicolored hair",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "Now it wasn’t her assistants anymore, but Freya’s own fans firing off reports",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "Right-wingers were always a pain to deal with.",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "However you sliced it, the comments set the tone. Still, the moderators’ help wasn’t needed.",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "The trolls’ moms didn’t give them more than five dollars for school lunch. So they were utterly crushed",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "rallying to the call of fan groups on Twitter, TikTok, and Instagram",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "answering the clarion call of the modern economy",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "all the aforementioned women",
+    "kind": "register",
+    "weight": 1
+   },
+   {
+    "quote": "The stakes climbed fast",
+    "kind": "unnatural",
+    "weight": 2
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "And the right business will *always* rise to the occasion”—here Freya smiled—“which, you have to admit, gives it a distinct advantage over a man.”",
+    "why": "sly, well-timed innuendo in character"
+   },
+   {
+    "quote": "three hundred eighty… no, three hundred ninety thousand live viewers were still three hundred ninety thousand viewers. No matter what they smelled like.",
+    "why": "cynical inner voice, live counting"
+   },
+   {
+    "quote": "had traded their soup ladles for oversized smartphones",
+    "why": "concrete, satirical image"
+   },
+   {
+    "quote": "without even noticing they were blowing twenty bucks a month on Freya, if not more",
+    "why": "sharp, funny jab"
+   },
+   {
+    "quote": "before long, donations under ten dollars weren’t even showing up on the screen",
+    "why": "precise detail shows escalation"
+   },
+   {
+    "quote": "At last, she gave a genuine smile.",
+    "why": "quiet payoff against performed smiling"
+   }
+  ]
+ }
+}

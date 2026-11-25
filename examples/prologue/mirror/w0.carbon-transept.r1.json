@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1913,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 635
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Today, Freya Axelsen had every chance of setting a new record.",
+    "why": "stiff, translated-sounding opener"
+   },
+   {
+    "quote": "it would set an all-time world record for the entire coaching industry",
+    "why": "redundant, clunky phrasing"
+   },
+   {
+    "quote": "after decades on the market",
+    "why": "odd for a person"
+   },
+   {
+    "quote": "fortune favors only prepared minds and hands ready to act",
+    "why": "awkward mangled proverb"
+   },
+   {
+    "quote": "An hour went to a lecture on how to achieve your goals.",
+    "why": "flat, mechanical"
+   },
+   {
+    "quote": "Expected, maybe, yet hardly worthy of Freya",
+    "why": "stilted"
+   },
+   {
+    "quote": "though the algorithms had other plans",
+    "why": "unclear logic"
+   },
+   {
+    "quote": "Two hundred thousand—a plateau that grew harder to break through every single time.",
+    "why": "repetitive"
+   },
+   {
+    "quote": "\"kinged herself,\" as New York hustlers liked to say",
+    "why": "invented idiom, rings false"
+   },
+   {
+    "quote": "Unmoderated, though strictly on Freya's terms.",
+    "why": "contradictory, vague"
+   }
+  ],
+  "good": [
+   {
+    "quote": "the famous and obscenely wealthy Tony Bobbins",
+    "why": "funny satirical jab"
+   },
+   {
+    "quote": "with a face the whole world recognized!",
+    "why": "lively free indirect voice"
+   },
+   {
+    "quote": "Even so, it wasn't enough. It was a plateau.",
+    "why": "punchy rhythm"
+   },
+   {
+    "quote": "her assistants wired up a payment form and blasted posts across social media",
+    "why": "brisk, vivid"
+   },
+   {
+    "quote": "She disliked the latter for its lack of a serious audience",
+    "why": "nice character snobbery"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

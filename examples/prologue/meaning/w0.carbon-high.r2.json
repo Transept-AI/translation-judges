@@ -1,0 +1,15 @@
+{
+ "judge": "meaning",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "9a92e8ba4ff8",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 652,
+  "cache_read_input_tokens": 2577,
+  "output_tokens": 244
+ },
+ "result": {
+  "errors": []
+ }
+}

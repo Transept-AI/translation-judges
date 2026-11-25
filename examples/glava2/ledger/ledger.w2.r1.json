@@ -1,0 +1,364 @@
+{
+ "window": "w2",
+ "run": 1,
+ "labels": {
+  "A": "opus",
+  "B": "sonnet",
+  "C": "haiku",
+  "D": "house"
+ },
+ "backend": "gemini",
+ "model": "gemini-4-hydrogen",
+ "effort": "high",
+ "usage": {
+  "input_tokens": 2957,
+  "output_tokens": 6149,
+  "finish": "STOP"
+ },
+ "result": {
+  "mode": "description",
+  "genre": "fantasy",
+  "units": [
+   {
+    "t": "fact",
+    "g": "No plan B except Academy studies",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "speaker",
+    "g": "Theodore speaks to Agnes",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Would have left for his sake",
+    "A": "X",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "logic",
+    "g": "Contrast with his actual inability",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Theodore cannot afford to leave",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "fact",
+    "g": "Mage training costs unbelievably much",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "detail",
+    "g": "It costs hundreds of etons",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Cause: competition driven by cost",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "Thousands compete at entrance exams",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Compete for Academy place and Grant",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "fact",
+    "g": "Grant is Golden Academician's Card",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "fact",
+    "g": "Card covers tuition and Seraph living",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Unaffordable for sub-seraphs, Firmament souls",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "fact",
+    "g": "Card limit grows each completed circle",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Lets holder live ever more grandly",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Pays ever steeper tuition fees",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Residents get designer outfits, cozy houses",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "emphasis",
+    "g": "Emphasis: even luxury expenses covered",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Staying avoids interest on growing debt",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "logic",
+    "g": "Reason: Seraph's unforgiving economic rules",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Nothing in Seraph is given free",
+    "A": "K",
+    "B": "K",
+    "C": "C",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Only problem is staying at Academy",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "fact",
+    "g": "Staying is not so simple",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Second-circle mages can work fully",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Contrast between second and fourth circles",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Fourth circle ends debt-repayment hopes",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Demand for mages is high",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Contrast: demand versus actual mage work",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Most work isn't Planes, poetry, metaphysics",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "X"
+   },
+   {
+    "t": "fact",
+    "g": "Only Seraph-kept Academicians afford that",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Reason: someone must do harsh jobs",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "Someone must repair megabarges",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "Someone must torture demons",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "Fight disorder, patching world's holes",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "Sort scavenger hauls from the Shards",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   },
+   {
+    "t": "detail",
+    "g": "Seek treasures or LED bulbs",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "Cut corpse hearts for healing potions",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "K"
+   },
+   {
+    "t": "event",
+    "g": "Agnes waits an expository pause",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "K"
+   },
+   {
+    "t": "image",
+    "g": "Lets Theodore marinate in prospects",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Prospects are unenviable",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Expelled from Academy before fifth circle",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "X"
+   }
+  ],
+  "added": [
+   {
+    "v": "A",
+    "t": "emphasis",
+    "q": "a penny of"
+   },
+   {
+    "v": "D",
+    "t": "detail",
+    "q": "compounding"
+   }
+  ]
+ }
+}

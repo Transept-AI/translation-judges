@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1912,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 600
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "The plateau shattered.",
+    "why": "abrupt, unclear metaphor"
+   },
+   {
+    "quote": "it was primetime, just before the end of the workday",
+    "why": "awkward aside"
+   },
+   {
+    "quote": "Every new thousand took Freya's breath away.",
+    "why": "clichéd"
+   },
+   {
+    "quote": "But first of all, stay-at-home moms made up forty-eight percent",
+    "why": "clunky listing"
+   },
+   {
+    "quote": "Questions like that Freya now left unanswered.",
+    "why": "stiff inversion"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "unclear which joke"
+   },
+   {
+    "quote": "But fame comes with responsibility—the questions took a sharp turn into group-Tinder-date territory.",
+    "why": "illogical connector, repetitive"
+   },
+   {
+    "quote": "Online media bots latched onto the event",
+    "why": "slightly mechanical"
+   }
+  ],
+  "good": [
+   {
+    "quote": "A woman, no less!",
+    "why": "wry ironic voice"
+   },
+   {
+    "quote": "The key was not to let this chat with her followers turn into a group Tinder date.",
+    "why": "funny, fresh image"
+   },
+   {
+    "quote": "Freya wanted to answer, *\"You don't.\"*",
+    "why": "sharp humor"
+   },
+   {
+    "quote": "scraped together those fifty bucks out of her kids' lunch money",
+    "why": "vivid, satirical"
+   },
+   {
+    "quote": "then your children *are* your capital",
+    "why": "pointed satire"
+   },
+   {
+    "quote": "flushed all the cheap provocations down the toilet",
+    "why": "lively"
+   },
+   {
+    "quote": "Three hundred and sixty. Three hundred and seventy.",
+    "why": "builds tension"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2203,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 778
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Rebecca223 asked for a hundred dollars.",
+    "why": "garbled; meaning unclear"
+   },
+   {
+    "quote": "The feminist community activated at a full hundred percent",
+    "why": "clunky, mechanical"
+   },
+   {
+    "quote": "raced like crazy",
+    "why": "flat cliché"
+   },
+   {
+    "quote": "Right-wingers were always a huge hassle.",
+    "why": "flat, tonally weak"
+   },
+   {
+    "quote": "Regardless of what they smelled like.",
+    "why": "odd idiom rendering"
+   },
+   {
+    "quote": "No matter how you sliced it, the comments set the tone. Still, the moderators' help wasn't needed.",
+    "why": "illogical connective"
+   },
+   {
+    "quote": "Consequently, they were utterly routed",
+    "why": "stiff, bureaucratic"
+   },
+   {
+    "quote": "Rushing to the rescue of their idol came moms on maternity leave",
+    "why": "awkward inversion"
+   },
+   {
+    "quote": "The stakes were rising fast",
+    "why": "wrong idiom for donations"
+   },
+   {
+    "quote": "the young woman smiled genuinely",
+    "why": "flat, translated feel"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And the right business will *always* stay up for you,",
+    "why": "sharp, witty innuendo"
+   },
+   {
+    "quote": "which, you have to admit, compares quite favorably to a man.",
+    "why": "dry punchline"
+   },
+   {
+    "quote": "bloomed with rainbow-haired avatars like an exotic conservatory",
+    "why": "vivid image"
+   },
+   {
+    "quote": "swarmed toward the light of her stream from their anonymous loser forums",
+    "why": "moth image, satirical"
+   },
+   {
+    "quote": "completely devoid of imagination, yet en masse",
+    "why": "crisp irony"
+   },
+   {
+    "quote": "The trolls' moms didn't give them more than five dollars for school lunch.",
+    "why": "funny, biting"
+   },
+   {
+    "quote": "had traded their soup ladles for oversized smartphones",
+    "why": "concrete satirical image"
+   },
+   {
+    "quote": "not even noticing how they were blowing twenty bucks a month, or even more, on Freya",
+    "why": "wry humor"
+   },
+   {
+    "quote": "And loyalty counts for a lot in real business.",
+    "why": "cynical voice"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

@@ -1,0 +1,568 @@
+{
+ "window": "w0",
+ "run": 2,
+ "labels": {
+  "A": "transept-standard",
+  "B": "neon-transept",
+  "C": "transept-pro",
+  "D": "neon-low",
+  "E": "neon-high",
+  "F": "opus"
+ },
+ "backend": "gemini",
+ "model": "gemini-4-hydrogen",
+ "effort": "high",
+ "usage": {
+  "input_tokens": 3862,
+  "output_tokens": 13536,
+  "finish": "STOP"
+ },
+ "result": {
+  "mode": "description",
+  "genre": "other",
+  "units": [
+   {
+    "t": "fact",
+    "g": "Today Freya might set new record",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "350,000 watching her stream right now",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "event",
+    "g": "The viewer number climbed fast",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Because the broadcast transitioned",
+    "A": "C",
+    "B": "C",
+    "C": "C",
+    "D": "C",
+    "E": "C",
+    "F": "K"
+   },
+   {
+    "t": "event",
+    "g": "Broadcast moved to Q&A segment",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "logic",
+    "g": "If live viewers reach 400,000",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Absolute world record for coaching industry",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "No one succeeded before her",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "emphasis",
+    "g": "Even Tony Bobbins, only 390,000",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "reference",
+    "g": "Tony Bobbins",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "detail",
+    "g": "Famous and obscenely rich",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Drew 390,000 in his prime",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Only after decades on the market",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "detail",
+    "g": "Face recognized by whole world",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "image",
+    "g": "Freya could smash that ceiling",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "detail",
+    "g": "With room to spare",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Secure her fame for years ahead",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Freya knew it wasn't dumb luck",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "image",
+    "g": "Fortune smiles on prepared minds, hands",
+    "A": "X",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "At first things went merely okay",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "One-hour lecture on achieving goals",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "It was the most pleasant part",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "logic",
+    "g": "But",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "event",
+    "g": "Only 100,000 viewers came",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Expected, but below Freya's level",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Four million on Instagram",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Twelve million on TikTok",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Freya disliked TikTok",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Because it lacked serious audience",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "logic",
+    "g": "But",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "event",
+    "g": "Algorithms decided otherwise",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Another hour went to questions",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "detail",
+    "g": "Best age to found a startup",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "detail",
+    "g": "How to get up and act",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Submitted by followers via pre-stream form",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "event",
+    "g": "Questions went over well",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "event",
+    "g": "Pushed live viewers to 200,000",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Yet this still wasn't enough",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "image",
+    "g": "Two hundred thousand was a plateau",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "emphasis",
+    "g": "Plateau repeated twice",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Growing harder to overcome every time",
+    "A": "K",
+    "B": "X",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "logic",
+    "g": "And then",
+    "A": "C",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "C",
+    "F": "K"
+   },
+   {
+    "t": "image",
+    "g": "Freya made a decisive move",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "reference",
+    "g": "As New York operators liked saying",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "In twenty minutes, during the stream",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "event",
+    "g": "Assistants attached a payment form",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "event",
+    "g": "And wrote social media posts",
+    "A": "K",
+    "B": "X",
+    "C": "X",
+    "D": "X",
+    "E": "X",
+    "F": "K"
+   },
+   {
+    "t": "event",
+    "g": "Surprise broadcast segment began",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Open questions for donations",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Without moderation",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "logic",
+    "g": "But",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   },
+   {
+    "t": "fact",
+    "g": "On Freya's terms",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K"
+   }
+  ],
+  "added": [
+   {
+    "v": "B",
+    "t": "detail",
+    "q": "get off the couch"
+   },
+   {
+    "v": "D",
+    "t": "emphasis",
+    "q": "every single time"
+   },
+   {
+    "v": "E",
+    "t": "emphasis",
+    "q": "every single time"
+   },
+   {
+    "v": "E",
+    "t": "emphasis",
+    "q": "strictly on Freya's terms"
+   }
+  ]
+ }
+}

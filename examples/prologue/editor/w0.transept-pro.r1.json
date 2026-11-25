@@ -1,0 +1,23 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1457,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1115
+ },
+ "result": {
+  "edited": "Today, Freya Axelsen had every chance of setting a new record. At that very moment, three hundred and fifty thousand people were watching her stream, and the number was climbing fast as the broadcast moved into the Q&A segment.\n\nIf the live viewer count hit four hundred thousand, it would be an all-time world record for the entire coaching industry.\n\nNo one had ever pulled it off before. Even the famous and obscenely rich Tony Bobbins had only drawn three hundred and ninety thousand at his peak—and that was after decades in the market, with a face the whole world recognized! Now Freya had a chance to smash through that ceiling with room to spare and secure her fame for years to come. And if anyone thought this was just dumb luck, Freya knew better: fortune smiles only on prepared minds and on hands ready to act.\n\nAt first, things had gone merely okay. The first hour went to a lecture on how to achieve your goals. It was the most enjoyable part, but only a hundred thousand people showed up. Predictable, but not Freya's level, not with her four million followers on Instagram and another twelve million on TikTok. Freya didn't care for TikTok, since it lacked a serious audience, but the algorithms had decided otherwise.\n\nAnother hour went to questions along the lines of \"What's the best age to found a startup?\" and \"How do I get up and get going?\", which followers had submitted through a form before the stream. The questions went over well and pushed the live count up to two hundred thousand.\n\nBut it still wasn't enough. It was a plateau. Two hundred thousand—a plateau that got harder to break through every time.\n\nAnd that's when Freya went all in, as the New York hustlers liked to say. Within twenty minutes, right in the middle of the stream, her assistants bolted on a payment form and put out posts on social media. And so began the surprise segment of the broadcast: open questions in exchange for donations. No moderation, but on Freya's terms.",
+  "changes": [
+   {
+    "before": "In twenty minutes, right in the middle of the stream",
+    "after": "Within twenty minutes, right in the middle of the stream",
+    "kind": "error",
+    "category": "clarity"
+   }
+  ]
+ }
+}

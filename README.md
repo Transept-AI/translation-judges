@@ -14,6 +14,7 @@ A translation is scored on three separate questions:
 | Copy-editing | How much would a copy-editor fix? | The editor's punctuation and grammar fixes per 100 words, reported apart from reading |
 | Hard errors | Does it say something the original does not? | A bilingual judge run twice; an error counts when both runs find it |
 | Integrity | Is anything left untranslated, in the wrong language or broken? | [`integrity.py`](integrity.py), code only |
+| Information (diagnostic) | What does it keep, compress, change, drop or add of the original's information? | One call per window over all versions at once ([`ledger.py`](ledger.py), [`prompts/unit_ledger.md`](prompts/unit_ledger.md)); not part of the gate |
 
 A system passes the gate with no integrity incident and fewer than 3 agreed hard errors per 1,000 source words;
 systems that pass are ranked by reading quality. Every number has a 95% interval from resampling passages.
@@ -92,7 +93,8 @@ another model, because a judge that changes model is a different benchmark.
 
 Each folder has `bench.json` (source, translations, windows), the judge outputs, the rubric (`maps/`) and
 `scores.txt`. The translations are plain baselines made with `translate.py` at low effort, plus, for Глава 2, the
-author's existing English ("house"). All judging ran through `JUDGE_BACKEND=claude-code`.
+author's existing English ("house"); the prologue has eleven more versions, described below. All judging ran through
+`JUDGE_BACKEND=claude-code`. The prologue and Глава 2 also carry unit-ledger calls (`ledger/`).
 
 | Text | System | Reading [95%] | Copy-edit / 100 | Hard errors / 1k | Gate | Rubric checks "no" / 1k | Native |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -116,6 +118,82 @@ With three to six windows per text the intervals are wide: these are examples of
 What the gate caught on Глава 2: Sonnet read the novel's coined term "Плани" (the Plans) as "Planes", and turned a
 dative ("sent to Agnes") into "Agnes had assigned"; Haiku read "доля" (fate) as "share" and invented a line of
 dialogue. Each counted only because both runs of the hard-error judge found it.
+
+### The prologue through the Transept pipeline and Gemini 4
+
+`examples/prologue` holds eleven more versions of the prologue, made on 24 November 2026: Transept Standard and Pro
+(the product's presets: Claude Opus 5.5 at low and high effort, through its translation pipeline), and Google's Gemini 4
+Neon, Argon and Carbon, each called plainly at low and at high thinking with the same prompt as the baselines above, and
+at low thinking through the Transept pipeline. Same judges, same three windows.
+
+| System | Reading [95%] | Copy-edit / 100 | Hard errors / 1k | Gate | Rubric checks "no" / 1k | Native |
+| --- | --- | --- | --- | --- | --- | --- |
+| Transept Standard | +0.22 [−0.38, +0.64] | 0.22 | 0.00 | pass | 10.3 | 88% |
+| Carbon high, plain | +0.19 [−0.01, +0.32] | 0.00 | 0.00 | pass | 8.0 | 88% |
+| Argon low, Transept | +0.16 [−0.26, +0.76] | 0.08 | 0.00 | pass | 13.7 | 84% |
+| Neon low, Transept | +0.12 [−0.32, +0.63] | 0.11 | 1.14 | pass | 14.8 | 88% |
+| Transept Pro | +0.11 [−0.37, +0.56] | 0.17 | 0.00 | pass | 8.0 | 91% |
+| Carbon low, Transept | +0.05 [−0.39, +0.49] | 0.04 | 0.00 | pass | 13.7 | 89% |
+| Neon high, plain | −0.06 [−0.26, +0.29] | 0.13 | 0.00 | pass | 10.3 | 84% |
+| Carbon low, plain | −0.42 [−0.96, +0.29] | 0.00 | 0.00 | pass | 10.3 | 83% |
+| Argon high, plain | −0.44 [−0.68, −0.13] | 0.10 | 0.00 | pass | 9.1 | 82% |
+| Neon low, plain | −0.56 [−0.79, −0.20] | 0.08 | 0.00 | pass | 9.1 | 90% |
+| Argon low, plain | −1.13 [−1.44, −0.76] | 0.07 | 0.00 | pass | 9.1 | 83% |
+
+The intervals overlap; the paired differences, window by window, are firmer. Against the same model called plainly at
+low thinking, the pipeline adds +0.68 [+0.47, +0.83] to Neon, +1.30 [+1.18, +1.52] to Argon and +0.46 [+0.19, +1.01]
+to Carbon, ahead in all three windows each time. Thinking harder helps every plain Gemini model here (Neon +0.50,
+Argon +0.69, Carbon +0.61), but costs far more: Carbon at high thinking spent about 31,000 thinking tokens on this
+877-word text, against none at low.
+
+## Unit ledger: what a translation does with the original's information
+
+The reading score never sees the original, so it cannot tell whether a version kept the original's information. The
+ledger can. One call per window shows a judge the original and every version, blind and shuffled. The judge splits
+the original into typed information units (event, fact, detail, speaker, feeling, image, logic, emphasis, reference),
+marks each unit per version as kept, compressed, dropped or changed, and lists what each version adds.
+
+```bash
+python3 ledger.py run examples/prologue/bench.json runs/ledger --systems opus,transept-standard,neon-low \
+    --backend gemini          # needs GEMINI_API_KEY; --backend claude uses judge.py's model
+python3 ledger.py score runs/ledger
+```
+
+It is a diagnostic, not a quality score. On the LAIT passages, nothing about units predicted which version readers
+preferred within a book, while published translators kept far fewer units than any machine. Checked against 78 of the
+author's own verdicts, Gemini 4 Hydrogen at high thinking agreed 79% of the time and Claude Opus 5.5 at low 69%. Every
+judge was right on "kept"; all of them over-mark "changed" and "compressed" where a translator used an idiomatic
+equivalent, so read those two as upper bounds. The calls in `examples/*/ledger/` were made by Hydrogen at high thinking.
+
+Per 100 units of the original:
+
+| Text | Version | Kept | Compressed | Changed | Dropped | Added |
+| --- | --- | --- | --- | --- | --- | --- |
+| Глава 2 | house (the author's English) | 80.9 | 6.6 | 11.8 | 0.7 | 2.9 |
+| | Opus 5.5 | 96.3 | 2.2 | 1.5 | 0.0 | 2.9 |
+| | Sonnet 5.5 | 96.3 | 2.9 | 0.7 | 0.0 | 0.0 |
+| | Haiku 5.5 | 85.3 | 4.4 | 10.3 | 0.0 | 2.2 |
+| Prologue (six versions per call) | Opus 5.5, plain | 99.1 | 0.3 | 0.6 | 0.0 | 1.2 |
+| | Neon high, plain | 97.3 | 1.2 | 0.9 | 0.6 | 2.7 |
+| | Transept Pro | 94.6 | 3.3 | 2.1 | 0.0 | 2.1 |
+| | Neon low, plain | 94.3 | 2.1 | 2.7 | 0.9 | 2.4 |
+| | Transept Standard | 93.2 | 2.7 | 3.6 | 0.6 | 0.6 |
+| | Neon low, Transept | 90.5 | 3.3 | 4.8 | 1.5 | 3.9 |
+| Prologue (eight versions per call) | Argon high, plain | 97.2 | 2.2 | 0.6 | 0.0 | 1.3 |
+| | Argon low, plain | 97.2 | 1.9 | 0.9 | 0.0 | 2.2 |
+| | Carbon high, plain | 96.9 | 2.5 | 0.6 | 0.0 | 0.3 |
+| | Carbon low, plain | 95.9 | 2.2 | 1.9 | 0.0 | 3.1 |
+| | Transept Standard | 94.0 | 2.2 | 3.4 | 0.3 | 0.9 |
+| | Carbon low, Transept | 91.8 | 4.1 | 3.8 | 0.3 | 11.0 |
+| | Argon low, Transept | 90.3 | 4.4 | 5.3 | 0.0 | 6.6 |
+| | Neon low, Transept | 90.0 | 5.6 | 4.1 | 0.3 | 5.6 |
+
+The second prologue call repeats two versions from the first as anchors: Standard moves from 93.2 to 94.0 kept and Neon
+through Transept from 90.5 to 90.0, so a call's size shifts the marks by about one unit. Compare versions within a call.
+
+"Changed" counts choices as well as mistakes. On Глава 2, 11 of the 12 "changed" marks on the author's English in the
+last window fall on names he set in his own glossary (CISAME, the Ground, the Gathers and others); the twelfth is the
+judge itself reading "Плани" (the Plans) as "Planes".
 
 ## Licences
 

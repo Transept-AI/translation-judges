@@ -1,0 +1,29 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1452,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1060
+ },
+ "result": {
+  "edited": "The plateau shattered. The posts spread like wildfire across social media feeds—it was primetime, just before the end of the workday—and the viewer count instantly jumped from two hundred thousand to two hundred and fifty thousand. Online media bots latched onto the story, churning out articles about the provocative stream by \"the most innovative business coach of our generation.\" A woman, no less!\n\nNow three hundred and fifty thousand people around the world were watching, liking, sharing, and paying real dollars to ask Freya a question. Three hundred and sixty. Three hundred and seventy. Every new thousand took Freya's breath away. And then it was time to answer.\n\nThe main thing was not letting this follower chat turn into a group Tinder date.\n\n*\"Do you have kids?\"* a stranger asked. *\"How do you succeed when you have four of them?\"*\n\nFreya wanted to say, *\"You don't.\"* But for one thing, stay-at-home moms made up forty-eight percent of her audience, so it was a sore subject. And for another, you couldn't say that to a follower who had most likely scraped together those fifty bucks out of her kids' lunch money. So Freya went with a polite, pre-rehearsed answer.\n\n\"Everyone defines success for themselves,\" she said. \"If you've always dreamed of being a mom or dad, then your kids *are* your capital. The key is to stick to your investment strategy and never put your capital into unvetted funds.\"\n\n*\"Are you married?\"* someone asked, donating the five-dollar minimum.\n\nQuestions like that, Freya simply ignored. Luckily, a flood of more interesting—and more expensive!—questions flushed all the cheap provocations straight down the toilet.\n\nBesides, her joke had landed. The chat went wild, and the viewer count kept climbing—a clip of her answer had already gone viral on Twitter. But with fame came responsibility, and the questions took a sharp turn into group Tinder date territory.",
+  "changes": [
+   {
+    "before": "But first of all, stay-at-home moms",
+    "after": "But for one thing, stay-at-home moms",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "And second, you couldn't say that",
+    "after": "And for another, you couldn't say that",
+    "kind": "error",
+    "category": "calque"
+   }
+  ]
+ }
+}

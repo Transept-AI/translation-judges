@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1926,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 603
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "fortune favors only prepared minds and hands ready to take action",
+    "why": "clunky, overstuffed proverb"
+   },
+   {
+    "quote": "An hour was taken up by a lecture",
+    "why": "flat passive construction"
+   },
+   {
+    "quote": "Expected, yet hardly Freja’s level",
+    "why": "awkward fragment"
+   },
+   {
+    "quote": "but the algorithms had decided otherwise",
+    "why": "logic slightly off"
+   },
+   {
+    "quote": "“how to get up and start doing,”",
+    "why": "unidiomatic phrasing"
+   },
+   {
+    "quote": "as New York hustlers liked to say",
+    "why": "odd, unconvincing attribution"
+   },
+   {
+    "quote": "Unmoderated, though on Freja’s terms.",
+    "why": "vague, slightly contradictory"
+   },
+   {
+    "quote": "after decades on the market",
+    "why": "odd for a person"
+   },
+   {
+    "quote": "the broadcast transitioned into the Q&A segment",
+    "why": "corporate, flat"
+   }
+  ],
+  "good": [
+   {
+    "quote": "the famous and obscenely wealthy Tony Bobbins",
+    "why": "funny satirical name"
+   },
+   {
+    "quote": "Even so, it wasn’t enough. It was a plateau.",
+    "why": "punchy rhythm"
+   },
+   {
+    "quote": "a plateau that grew harder to break past every single time",
+    "why": "conveys frustration"
+   },
+   {
+    "quote": "Freja disliked the latter for its lack of a serious audience",
+    "why": "dry character humor"
+   },
+   {
+    "quote": "shatter that ceiling with room to spare",
+    "why": "energetic, vivid"
+   },
+   {
+    "quote": "her assistants rigged up a payment form and threw up posts across social media",
+    "why": "brisk, lively verbs"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

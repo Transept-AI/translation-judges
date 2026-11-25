@@ -1,0 +1,29 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 648,
+  "cache_read_input_tokens": 1617,
+  "output_tokens": 1525
+ },
+ "result": {
+  "edited": "*\"Don't you miss having a strong man's shoulder to lean on?\"* Rebecca223 asked, with a hundred-dollar donation. *\"Would you give up your business if you met the love of your life?\"*\n\nFreya decided to take that one.\n\n\"A business won't replace a man, and a man won't replace your life's work. Though you don't have to cater to a business the way you do a lover. And the right business will *always* stand up and perform for you\"—here Freya smiled—\"which, let's face it, gives it a distinct advantage over a man.\"\n\nThe chats exploded. On the side monitors, the Twitter and Instagram feeds blurred past at breakneck speed. The feminist crowd mobilized at full force, and the feed suddenly bloomed with rainbow-haired avatars like an exotic greenhouse. Now it wasn't even her assistants, it was Freya's own fans mass-reporting and slinging mud at the right-wing trolls who had swarmed the glow of her stream from their anonymous loser forums. Right-wingers were always a massive pain.\n\nBut three hundred and eighty… no, three hundred and ninety thousand live viewers was still three hundred and ninety thousand viewers. No matter what they smelled like.\n\nTrolls tried to flood the stream with questions like *\"Do you swallow?\"* and *\"Try shaving your legs\"*—zero creativity, just sheer volume. Stupid little sad green frogs started popping up in the chat. Freya kept smiling and selectively answering questions, glancing over at her assistants' chat. Like it or not, the comments set the tone. In the end, though, the moderators didn't even need to step in.\n\nThe trolls' moms didn't give them more than five dollars for school lunch. So they were utterly routed by a counterattack from Freya's core fanbase, rallying at the call of fan groups across Twitter, TikTok, and Instagram. Rushing to save their idol came stay-at-home moms on maternity leave, nail techs, and small-town college girls. Housewives who, heeding the loud call of the modern economy, had traded their soup ladles for oversized smartphones. Plus the men desperate for the attention of all the women above, who tried to blend in as allies without even noticing they were blowing twenty bucks a month or more on Freya.\n\nNot the most prestigious audience if you're a serious businesswoman sharing the secrets of *real* success, sure—but a loyal one. And in real business, loyalty counts for a lot.\n\nRight before Freya's eyes, the haters' comments were washed away by twenty- and fifty-dollar messages: *\"Go, Freya!\"* *\"Freya, we love you!\"* *\"#Axelsensexuals!\"* The stakes climbed fast, and soon donations under ten dollars weren't even making it onto the screen. At last, she smiled for real.",
+  "changes": [
+   {
+    "before": "Rebecca223 asked for a hundred dollars.",
+    "after": "Rebecca223 asked, with a hundred-dollar donation.",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "Still, three hundred and eighty",
+    "after": "But three hundred and eighty",
+    "kind": "taste",
+    "category": "style"
+   }
+  ]
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1900,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 673
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "had every chance of setting a new record",
+    "why": "stiff, translated feel"
+   },
+   {
+    "quote": "for the entire coaching industry",
+    "why": "flat, report-like"
+   },
+   {
+    "quote": "with room to spare",
+    "why": "odd after 'smashing through'"
+   },
+   {
+    "quote": "fortune favors only the prepared mind and the hands ready to act",
+    "why": "clunky expanded proverb"
+   },
+   {
+    "quote": "At first, things had gone merely okay.",
+    "why": "flat, awkward 'merely okay'"
+   },
+   {
+    "quote": "An hour went to a lecture",
+    "why": "mechanical construction"
+   },
+   {
+    "quote": "and another twelve on TikTok",
+    "why": "ambiguous, needs 'million'"
+   },
+   {
+    "quote": "the algorithms had decided otherwise",
+    "why": "slightly illogical phrasing"
+   },
+   {
+    "quote": "How do I get up and start doing?",
+    "why": "unnatural English"
+   },
+   {
+    "quote": "It was a plateau. Two hundred thousand: a plateau",
+    "why": "clumsy repetition"
+   },
+   {
+    "quote": "as the New York wheeler-dealers liked to say",
+    "why": "forced, odd attribution"
+   },
+   {
+    "quote": "bolted on a payment form",
+    "why": "jarring mechanical verb"
+   },
+   {
+    "quote": "No moderation, but on Freya's terms.",
+    "why": "unclear logic"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Even the famous and obscenely rich Tony Bobbins",
+    "why": "funny satirical name"
+   },
+   {
+    "quote": "and that was after decades in the market and with a face the whole world recognized!",
+    "why": "lively, conveys her ambition"
+   },
+   {
+    "quote": "Freya didn't like TikTok for its lack of a serious audience",
+    "why": "nice character irony"
+   },
+   {
+    "quote": "So Freya went all in",
+    "why": "punchy"
+   },
+   {
+    "quote": "open questions for donations",
+    "why": "satirical, sharp"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

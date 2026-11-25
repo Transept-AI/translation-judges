@@ -1,0 +1,89 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 650,
+  "cache_read_input_tokens": 1622,
+  "output_tokens": 1616
+ },
+ "result": {
+  "edited": "*\"Don't you miss having a strong man's shoulder to lean on?\"* Rebecca223 asked, for a hundred dollars. *\"Would you give up your business if you met the love of your life?\"*\n\nFreya decided to answer.\n\n\"A business won't replace a man, and a man won't replace your life's work. Though a business doesn't need to be catered to like a lover. And the right business will *always* stay up for you\"—here Freya smiled—\"which, you have to admit, compares quite favorably to a man.\"\n\nThe chats exploded. The Twitter and Instagram feeds on the side monitors raced like crazy. The feminist community mobilized one hundred percent, and the feed suddenly bloomed with rainbow-haired avatars like an exotic conservatory. Now it wasn't even her assistants but Freya's own fans firing off reports and slinging mud at the right-wingers who had swarmed toward the light of her stream from their anonymous loser forums. Right-wingers were always a huge hassle.\n\nAnd yet three hundred and eighty... no, three hundred and ninety thousand live viewers were still three hundred and ninety thousand viewers. No matter what they smelled like.\n\nThe trolls tried to flood the broadcast with questions like *\"Do you take it in the mouth?\"* and *\"Try shaving your legs\"*: completely devoid of imagination, but there were a lot of them. Stupid green sad frogs started popping up in the chat. Freya kept smiling and went on answering selected questions while glancing over at the assistants' chat. No matter how you sliced it, the comments set the tone. Still, the moderators weren't needed.\n\nThe trolls' moms didn't give them more than five dollars for school lunch. So they were utterly routed by a counterattack from the very core of Freya's audience, rallying to the call of fan groups on Twitter, TikTok, and Instagram. Rushing to the rescue of their idol came moms on maternity leave, nail technicians, and college girls from small towns. Housewives who, heeding the loud call of the modern economy, had traded their soup ladles for oversized smartphones. And men, too, who craved the attention of all the aforementioned women and had therefore started posing as \"allies,\" not even noticing how they were blowing twenty bucks a month, or even more, on Freya.\n\nNot the best audience if you're a serious woman sharing the secrets of *true* success, but a loyal one. And loyalty counts for a lot in real business.\n\nRight before Freya's eyes, the haters' comments were washed away by twenty- and fifty-dollar messages: *\"Go Freya!\"*, *\"Freya, we love you!\"*, *\"#Axelsensexuals!\"* The stakes were rising fast, and before long, donations under ten dollars weren't even making it onto the screen. At last, the young woman smiled genuinely.",
+  "changes": [
+   {
+    "before": "Rebecca223 asked for a hundred dollars.",
+    "after": "Rebecca223 asked, for a hundred dollars.",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "stay up for you,\"—here",
+    "after": "stay up for you\"—here",
+    "kind": "error",
+    "category": "punctuation"
+   },
+   {
+    "before": "activated at a full hundred percent",
+    "after": "mobilized one hundred percent",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "it wasn't even her assistants, but Freya's",
+    "after": "it wasn't even her assistants but Freya's",
+    "kind": "taste",
+    "category": "punctuation"
+   },
+   {
+    "before": "Regardless of what they smelled like.",
+    "after": "No matter what they smelled like.",
+    "kind": "taste",
+    "category": "word"
+   },
+   {
+    "before": "yet en masse",
+    "after": "but there were a lot of them",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "continued selectively answering questions",
+    "after": "went on answering selected questions",
+    "kind": "error",
+    "category": "style"
+   },
+   {
+    "before": "the moderators' help wasn't needed",
+    "after": "the moderators weren't needed",
+    "kind": "taste",
+    "category": "style"
+   },
+   {
+    "before": "Consequently, they",
+    "after": "So they",
+    "kind": "error",
+    "category": "style"
+   },
+   {
+    "before": "college girls from the provinces",
+    "after": "college girls from small towns",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "success, yet a loyal one",
+    "after": "success, but a loyal one",
+    "kind": "taste",
+    "category": "style"
+   },
+   {
+    "before": "*\"Go Freya!\", \"Freya, we love you!\", \"#Axelsensexuals!\"*",
+    "after": "*\"Go Freya!\"*, *\"Freya, we love you!\"*, *\"#Axelsensexuals!\"*",
+    "kind": "taste",
+    "category": "punctuation"
+   }
+  ]
+ }
+}

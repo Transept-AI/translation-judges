@@ -1,0 +1,814 @@
+{
+ "window": "w1",
+ "run": 2,
+ "labels": {
+  "A": "argon-high",
+  "B": "argon-low",
+  "C": "argon-transept",
+  "D": "transept-standard",
+  "E": "carbon-high",
+  "F": "carbon-low",
+  "G": "neon-transept",
+  "H": "carbon-transept"
+ },
+ "backend": "gemini",
+ "model": "gemini-4-hydrogen",
+ "effort": "high",
+ "usage": {
+  "input_tokens": 4846,
+  "output_tokens": 14532,
+  "finish": "STOP"
+ },
+ "result": {
+  "mode": "action",
+  "genre": "literary",
+  "units": [
+   {
+    "t": "image",
+    "g": "the human plateau",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "C",
+    "E": "K",
+    "F": "K",
+    "G": "C",
+    "H": "C"
+   },
+   {
+    "t": "event",
+    "g": "moved from its place",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "X",
+    "E": "K",
+    "F": "K",
+    "G": "X",
+    "H": "X"
+   },
+   {
+    "t": "event",
+    "g": "posts flew across feeds",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "image",
+    "g": "like hotcakes",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "X",
+    "E": "K",
+    "F": "K",
+    "G": "X",
+    "H": "X"
+   },
+   {
+    "t": "fact",
+    "g": "it was prime time",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "right before workday's end",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "two hundred thousand viewers",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "instantly jumped to 250,000",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "online media bots picked up event",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "began churning out news",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "about a provocative stream",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "reference",
+    "g": "most innovative business coach of generation",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "and a woman at that",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "now 350,000 people",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "from all over the world",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "were watching, liking, sharing",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "and paying real dollars",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "to ask Freya a question",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "three hundred sixty, three hundred seventy",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "each new thousand took Freya's breath",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "then it was time to answer",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "main thing: keep interaction from",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "image",
+    "g": "turning into collective Tinder date",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "asks if she has children",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "speaker",
+    "g": "a stranger asked",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "asks how to succeed with four",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Freya wanted to reply 'You don't'",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "logic",
+    "g": "but first of all",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "moms on maternity leave were 48%",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "X",
+    "E": "K",
+    "F": "K",
+    "G": "X",
+    "H": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "so it was a sore subject",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "logic",
+    "g": "secondly, couldn't answer follower like that",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "who likely scraped together fifty bucks",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "from money meant for kids' lunches",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "logic",
+    "g": "so Freya used",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "detail",
+    "g": "a polite, pre-rehearsed response",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "everyone defines success for themselves",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "speaker",
+    "g": "she said",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "if always dreamed of being parent",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "image",
+    "g": "then your children are your capital",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "key is sticking to investment strategy",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "not giving capital to unverified funds",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "asks 'Are you married?'",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "speaker",
+    "g": "someone asked",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "donating the five-dollar minimum",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Freya now left such questions unanswered",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "C",
+    "H": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "fortunately",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "detail",
+    "g": "flood of more interesting, pricier questions",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "detail",
+    "g": "flushed all the cheap provocations",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "X"
+   },
+   {
+    "t": "image",
+    "g": "down the toilet",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "K",
+    "E": "K",
+    "F": "X",
+    "G": "K",
+    "H": "X"
+   },
+   {
+    "t": "logic",
+    "g": "besides",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "X"
+   },
+   {
+    "t": "event",
+    "g": "her joke had landed",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "the chat was thrilled",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "and viewer count kept climbing",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "clip of answer already viral Twitter",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "logic",
+    "g": "but fame brings responsibility",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "questions took a sharp turn",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "image",
+    "g": "into collective Tinder date genre",
+    "A": "C",
+    "B": "K",
+    "C": "C",
+    "D": "C",
+    "E": "K",
+    "F": "C",
+    "G": "C",
+    "H": "C"
+   }
+  ],
+  "added": [
+   {
+    "v": "A",
+    "t": "emphasis",
+    "q": "right down the toilet"
+   },
+   {
+    "v": "B",
+    "t": "detail",
+    "q": "for school lunches"
+   },
+   {
+    "v": "B",
+    "t": "emphasis",
+    "q": "straight down the toilet"
+   },
+   {
+    "v": "C",
+    "t": "detail",
+    "q": "across social media feeds"
+   },
+   {
+    "v": "C",
+    "t": "emphasis",
+    "q": "never hand your capital over"
+   },
+   {
+    "v": "C",
+    "t": "emphasis",
+    "q": "simply ignored"
+   },
+   {
+    "v": "C",
+    "t": "emphasis",
+    "q": "straight down the drain"
+   },
+   {
+    "v": "C",
+    "t": "emphasis",
+    "q": "straight into group-Tinder-date territory"
+   },
+   {
+    "v": "D",
+    "t": "detail",
+    "q": "across social media feeds"
+   },
+   {
+    "v": "F",
+    "t": "detail",
+    "q": "stay-at-home moms on maternity leave"
+   },
+   {
+    "v": "F",
+    "t": "emphasis",
+    "q": "straight down the drain"
+   },
+   {
+    "v": "G",
+    "t": "detail",
+    "q": "across social media feeds"
+   },
+   {
+    "v": "G",
+    "t": "emphasis",
+    "q": "never put your capital into"
+   },
+   {
+    "v": "G",
+    "t": "emphasis",
+    "q": "simply ignored"
+   },
+   {
+    "v": "G",
+    "t": "emphasis",
+    "q": "straight down the toilet"
+   },
+   {
+    "v": "H",
+    "t": "detail",
+    "q": "across social media feeds"
+   },
+   {
+    "v": "H",
+    "t": "emphasis",
+    "q": "just to ask Freya"
+   },
+   {
+    "v": "H",
+    "t": "detail",
+    "q": "stay-at-home moms on maternity leave"
+   },
+   {
+    "v": "H",
+    "t": "emphasis",
+    "q": "straight down the drain"
+   },
+   {
+    "v": "H",
+    "t": "emphasis",
+    "q": "straight into group-Tinder-date territory"
+   }
+  ]
+ }
+}

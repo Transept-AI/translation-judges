@@ -1,0 +1,98 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1468,
+  "cache_read_input_tokens": 614,
+  "output_tokens": 1458
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "The human plateau began to shift.",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "Posts flew across feeds like hotcakes",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred and fifty.",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "But first of all, moms on maternity leave made up forty-eight percent of her audience, so it was a sore subject.",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "moms on maternity leave",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "those fifty bucks",
+    "kind": "follow",
+    "weight": 1
+   },
+   {
+    "quote": "Questions like that Freya now left unanswered.",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "But fame comes with responsibility",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "the questions took a sharp turn toward the genre of a collective Tinder date.",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "turn into a collective Tinder date",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "The key is to stick to your investment strategy",
+    "kind": "wordy",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Three hundred and sixty. Three hundred and seventy. Every new thousand took Freya's breath away.",
+    "why": "counting rhythm builds tension"
+   },
+   {
+    "quote": "who had most likely scraped together those fifty bucks from her kids' lunch money",
+    "why": "sharp, wry, specific detail"
+   },
+   {
+    "quote": "not hand your capital over to unverified funds",
+    "why": "funny coach-speak, true to character"
+   },
+   {
+    "quote": "Freya wanted to reply, *\"You don't.\"*",
+    "why": "blunt inner voice, good comic beat"
+   },
+   {
+    "quote": "And a woman, at that!",
+    "why": "ironic mimicry of media hype"
+   }
+  ]
+ }
+}

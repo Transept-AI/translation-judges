@@ -1,0 +1,970 @@
+{
+ "judge": "checker",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "de492ec1504c",
+ "usage": {
+  "input_tokens": 102,
+  "cache_creation_input_tokens": 52807,
+  "cache_read_input_tokens": 676157,
+  "output_tokens": 11619
+ },
+ "result": {
+  "paragraphs": [
+   {
+    "n": 0,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "no",
+      "quote": "that number was climbing rapidly as the broadcast transitioned into the Q&A segment",
+      "why": "'as' gives only a time link, so the reader must infer that the move to Q&A causes the rise."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "Freya Axelsen had every chance of setting a new record",
+      "why": "The prospect is framed as 'every chance', which block 2's 'had a chance' picks up."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 1,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "an absolute world record",
+      "why": "'absolute' marks it as the ultimate record, beyond merely a world record."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "world record",
+      "why": "Global scope is explicit."
+     },
+     {
+      "id": "E1c",
+      "answer": "yes",
+      "quote": "for the entire coaching industry",
+      "why": "'entire' stresses the industry as a whole."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "it would be an absolute world record",
+      "why": "'record' comes straight back from block 0's 'new record'."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 2,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Tony Bobbins",
+      "why": "The first name is kept and a one-letter swap in the surname echoes Robbins."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "Tony Bobbins",
+      "why": "The name stays altered, not the real one."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "had drawn only three hundred and ninety thousand—and that was after decades on the market and with a face the whole world recognized!",
+      "why": "'only… and that was after' sets his advantages against the smallness of the figure."
+     },
+     {
+      "id": "E3a",
+      "answer": "no",
+      "quote": "after decades on the market",
+      "why": "Said of a person, 'on the market' reads as for sale or single and available."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "shatter that ceiling with room to spare",
+      "why": "'with room to spare' gives the comfortable margin."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "fortune favors only prepared minds",
+      "why": "Fortune favouring prepared minds keeps Pasteur's dictum recognisable."
+     },
+     {
+      "id": "E7a",
+      "answer": "no",
+      "quote": "fortune favors",
+      "why": "Fortune favours rather than smiles, so nothing ties it to Freya's later smiles."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 3,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "things had gone merely well enough",
+      "why": "'merely well enough' limits the start to mere adequacy."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "not quite up to Freya's level",
+      "why": "'up to Freya's level' is a verdict on her standing, not just a figure."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "due to its lack of a serious audience",
+      "why": "The drawback is put as a lack of seriousness."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "but the algorithms had decreed otherwise",
+      "why": "Set against her dislike, the algorithms override her preference."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "had decreed otherwise",
+      "why": "'decreed otherwise' echoes the stock 'fate decreed otherwise'."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 4,
+    "checks": [
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "which followers had submitted via a form prior to the stream",
+      "why": "'prior to the stream' places the submission before the broadcast."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "\"how to get up and get things done,\"",
+      "why": "'get things done' leaves the action general."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "The questions landed well",
+      "why": "'landed' is casual content-performance talk, echoed later for the joke."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "pulled the live audience up to two hundred thousand",
+      "why": "'live audience' makes clear the figure counts current viewers."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 5,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "It was a plateau. Two hundred thousand—a plateau",
+      "why": "'plateau' keeps the landform, used twice."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "every time",
+      "why": "'every time' marks separate recurring occasions."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "becoming harder and harder to push past",
+      "why": "'harder and harder' gives the increasing difficulty."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 6,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Freya went for broke",
+      "why": "A familiar English idiom for a bold, all-in move of her own."
+     },
+     {
+      "id": "E2a",
+      "answer": "partly",
+      "quote": "the New York hotshots",
+      "why": "'hotshots' carries ironic cockiness but not the sense of sharp, self-serving dealmakers."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "her assistants slapped together a payment form",
+      "why": "'slapped together' is informal and makeshift."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "open questions for donations",
+      "why": "'open' avoids any suggestion the questions cost nothing."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "Unmoderated",
+      "why": "Names the missing moderation directly."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "for donations",
+      "why": "The money is framed as donations."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 7,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "The human plateau",
+      "why": "Keeps 'plateau', the same image as block 5."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "The human plateau began to shift",
+      "why": "'human' makes the stalled mass people."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "flew through feeds like hotcakes",
+      "why": "'like hotcakes' is an English set phrase for runaway demand."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "started churning out news items",
+      "why": "'churning out' conveys mechanical mass output."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "And a woman, no less!",
+      "why": "The singular ties being a woman to the coach herself."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 8,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "watching, liking, sharing, and paying real dollars",
+      "why": "'real dollars' stresses actual money after the free gestures."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "Every new thousand took Freya's breath away",
+      "why": "'took her breath away' is involuntary delight."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "Three hundred and sixty. Three hundred and seventy.",
+      "why": "Two bare readings climb from 350k in steps of ten thousand."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "And then came the time to answer.",
+      "why": "'came the time' presents answering as a moment come due."
+     },
+     {
+      "id": "E3c",
+      "answer": "yes",
+      "quote": "And then came the time to answer.",
+      "why": "The turn is left bare, with no added comment on difficulty."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 9,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "a collective Tinder date",
+      "why": "Keeps the date, a romantic meeting where she is sized up."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "collective Tinder date",
+      "why": "'collective' marks the date as shared by the whole crowd."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "the genre of a collective Tinder date",
+      "why": "Block 15 repeats 'collective Tinder date' word for word."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 10,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "partly",
+      "quote": "\"How do you achieve success when you have four of them?\"",
+      "why": "Generic 'you' is possible, but straight after 'Do you have kids?' it readily reads as Freya's four children."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "How do you achieve success",
+      "why": "Uses 'success' itself, which block 12 redefines."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 11,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "moms on maternity leave",
+      "why": "Keeps the leave, matching block 22."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "so it was a sore subject",
+      "why": "'sore subject' conveys a long-felt pain of theirs."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "who had most likely scraped together",
+      "why": "'most likely' marks it as supposition."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "those fifty bucks",
+      "why": "'bucks' is colloquial slang."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "money she should have given her kids for school lunches",
+      "why": "Recognisably the school lunch money of block 22."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 12,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "stick to an investment strategy and not hand your capital over to unverified funds",
+      "why": "Reads on its face as investment advice."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "hand your capital over",
+      "why": "Repeats 'capital', the term the children were equated with."
+     },
+     {
+      "id": "E1c",
+      "answer": "yes",
+      "quote": "hand your capital over",
+      "why": "'hand over' also fits handing children over to someone's care."
+     },
+     {
+      "id": "E1d",
+      "answer": "yes",
+      "quote": "not hand your capital over to unverified funds.\"",
+      "why": "No gloss spells out the parenting meaning."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "your children *are* your capital",
+      "why": "'capital' is a finance term."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "*are*",
+      "why": "Italics give insistent emphasis."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 13,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "no",
+      "quote": "*\"Are you married?\"*",
+      "why": "A neutral, well-formed question with nothing marking familiarity."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "donating the minimum five dollars",
+      "why": "'the minimum' marks five dollars as the floor, paid exactly."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 14,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "leaving questions like that unanswered",
+      "why": "'questions like that' makes it a practice for the whole type."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "Freya was already leaving",
+      "why": "'already' marks the practice as established."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "more interesting",
+      "why": "The respectable reason is present."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "pricier!",
+      "why": "'pricier' gives the money reason."
+     },
+     {
+      "id": "E3c",
+      "answer": "yes",
+      "quote": "(and pricier!)",
+      "why": "The parenthesis and exclamation set it off as an afterthought."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "was flushing all the cheap provocations",
+      "why": "'flushing' is a carrying-off by water, matching 'washed away' in block 24."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "cheap provocations",
+      "why": "Set against 'pricier', 'cheap' reads as low-priced."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "cheap provocations",
+      "why": "'cheap' also means tawdry."
+     },
+     {
+      "id": "E5c",
+      "answer": "yes",
+      "quote": "cheap",
+      "why": "One word carries both senses."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "straight down the toilet",
+      "why": "Keeps the toilet."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 15,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Besides, her joke had landed.",
+      "why": "'Besides' marks it as added good news."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "her joke had landed",
+      "why": "'landed' is informal content slang, as in block 4."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "the viewer count kept climbing: a clip of her answer had already gone viral on Twitter",
+      "why": "The colon introduces the clip as the explanation."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "had already gone viral",
+      "why": "'already' conveys the speed."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "with fame comes responsibility",
+      "why": "Kept as a solemn general maxim."
+     },
+     {
+      "id": "E4b",
+      "answer": "yes",
+      "quote": "responsibility—the questions took a sharp turn",
+      "why": "The dash presents the turn as what the duty brings."
+     },
+     {
+      "id": "E4c",
+      "answer": "yes",
+      "quote": "the questions took a sharp turn into the genre of a collective Tinder date",
+      "why": "No added comment on the gap."
+     },
+     {
+      "id": "E5a",
+      "answer": "partly",
+      "quote": "with fame comes responsibility",
+      "why": "'responsibility' shares a root only with block 11's 'response'; the nearby clip uses 'answer', so the tie is faint."
+     },
+     {
+      "id": "E5b",
+      "answer": "yes",
+      "quote": "with fame comes responsibility—the questions",
+      "why": "No gloss spelling out the duty to answer."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "took a sharp turn",
+      "why": "'sharp' conveys suddenness."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "a collective Tinder date",
+      "why": "Same wording as block 9."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 16,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "no",
+      "quote": "Rebecca223 asked for a hundred dollars",
+      "why": "'asked for a hundred dollars' reads as requesting money, not paying it."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "a strong man's shoulder",
+      "why": "The support is explicitly a man's."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "the love of your life",
+      "why": "The love is measured against her life."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "having a strong man's shoulder to lean on",
+      "why": "Keeps the stock image of male strength as support."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 17,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "Freya decided to answer.",
+      "why": "'decided' shows a deliberate choice."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "decided",
+      "why": "The choice is not recast as impulse, duty or reluctance."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "to answer",
+      "why": "Plainly answering, echoing 'unanswered' in block 14."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 18,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "partly",
+      "quote": "the right business will *always* stay up for you",
+      "why": "'stay up for you' carries only a faint support sense (staying afloat, or staying up waiting), not plainly backing you."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "will *always* stay up for you",
+      "why": "'stay up' gives a live erection image, sharpened by the man comparison."
+     },
+     {
+      "id": "E1c",
+      "answer": "yes",
+      "quote": "stay up for you",
+      "why": "One expression carries the play, with no gloss."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "a business doesn't need to be catered to like a lover",
+      "why": "The business is the one spared being catered to."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "compares quite favorably to a man",
+      "why": "'compares favorably' is product-comparison language."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 19,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "The feminist community activated at a full hundred percent",
+      "why": "'activated' at a percentage frames it as a system switched on."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "rainbow-haired avatars",
+      "why": "The colour is in the hair."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "Now it wasn't even her assistants, but Freya's own fans",
+      "why": "'Now… wasn't even her assistants' marks the job changing hands."
+     },
+     {
+      "id": "E4b",
+      "answer": "yes",
+      "quote": "Freya's own fans",
+      "why": "'own' stresses the fans as the doers."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "slinging mud at the right-wingers",
+      "why": "Clearly verbal abuse aimed at them."
+     },
+     {
+      "id": "E5b",
+      "answer": "no",
+      "quote": "slinging mud",
+      "why": "'slinging' carries no sense of watering."
+     },
+     {
+      "id": "E5c",
+      "answer": "no",
+      "quote": "slinging mud",
+      "why": "Only the abuse sense is present."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "slinging mud",
+      "why": "Mud is named."
+     },
+     {
+      "id": "E7a",
+      "answer": "no",
+      "quote": "the right-wingers",
+      "why": "A standard political term, not a slangy sneer."
+     },
+     {
+      "id": "E8a",
+      "answer": "yes",
+      "quote": "swarmed toward the light of her stream",
+      "why": "Swarming toward a light gives the insects-to-a-lamp image."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 20,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "three hundred and ninety thousand live viewers",
+      "why": "Lands exactly on 390 thousand, Bobbins's figure."
+     },
+     {
+      "id": "E1b",
+      "answer": "yes",
+      "quote": "three hundred and eighty... no, three hundred and ninety thousand",
+      "why": "380 is named, then corrected upward to 390."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "were still three hundred and ninety thousand viewers",
+      "why": "The figure is equated with itself as a circular identity."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "Regardless of what they smelled like.",
+      "why": "Keeps the smell."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "what they smelled like",
+      "why": "'smelled like' makes the odour theirs."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 21,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "*\"Do you take it in the mouth?\"*",
+      "why": "Clearly asks about oral sex."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "Do you take it in the mouth?",
+      "why": "Blunt and vulgar, not clinical."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "Stupid green sad frogs",
+      "why": "Sad green frogs are recognisably the Pepe meme."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "Freya kept smiling and continued selectively answering questions",
+      "why": "'kept… continued' shows unbroken continuation."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "No matter how you sliced it",
+      "why": "A colloquial concession that it holds regardless."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 22,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "The trolls' moms didn't give them more than five dollars for school lunch.",
+      "why": "Mothers' school-lunch money, matching block 11's 'school lunches'."
+     },
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "a counterattack",
+      "why": "Named as a military counter-strike."
+     },
+     {
+      "id": "E2b",
+      "answer": "yes",
+      "quote": "rallying to the call of fan groups",
+      "why": "They muster at the fan groups' call."
+     },
+     {
+      "id": "E2c",
+      "answer": "yes",
+      "quote": "Rushing to the rescue of their idol",
+      "why": "They rush to her rescue."
+     },
+     {
+      "id": "E2d",
+      "answer": "yes",
+      "quote": "moms on maternity leave, nail technicians, and college girls from the provinces",
+      "why": "All three humble groups are kept, with their provincial origin."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "moms on maternity leave",
+      "why": "Same label as block 11."
+     },
+     {
+      "id": "E4a",
+      "answer": "yes",
+      "quote": "heeding the loud call of the modern economy",
+      "why": "The economy issues a solemn call they heed."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "all the aforementioned women",
+      "why": "'aforementioned' is officialese."
+     },
+     {
+      "id": "E6a",
+      "answer": "partly",
+      "quote": "started posing as \"allies,\"",
+      "why": "The pretence survives, but 'allies' casts them as outside supporters rather than insiders of the crowd."
+     },
+     {
+      "id": "E7a",
+      "answer": "yes",
+      "quote": "blowing twenty bucks a month",
+      "why": "'blowing' treats the money as wasted."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 23,
+    "checks": [
+     {
+      "id": "E2a",
+      "answer": "yes",
+      "quote": "a serious woman",
+      "why": "'serious' matches block 3's 'serious audience'."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "*true* success",
+      "why": "Italics single out the authentic kind."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "in real business",
+      "why": "'real' marks business as actually practised."
+     }
+    ],
+    "other": []
+   },
+   {
+    "n": 24,
+    "checks": [
+     {
+      "id": "E1a",
+      "answer": "yes",
+      "quote": "the haters' comments were washed away by twenty- and fifty-dollar messages",
+      "why": "'washed away' recalls the water image of 'flushing' in block 14."
+     },
+     {
+      "id": "E3a",
+      "answer": "yes",
+      "quote": "#Axelsensexuals!",
+      "why": "'Axelsen' is recognisable."
+     },
+     {
+      "id": "E3b",
+      "answer": "yes",
+      "quote": "#Axelsensexuals!",
+      "why": "The '-sexuals' ending marks a sexual orientation."
+     },
+     {
+      "id": "E3c",
+      "answer": "yes",
+      "quote": "#Axelsensexuals!",
+      "why": "Name and label are fused in one coined word."
+     },
+     {
+      "id": "E4a",
+      "answer": "partly",
+      "quote": "The stakes were rising fast",
+      "why": "'stakes' reads first as what is at stake; only the next clause about donations points to the sums paid."
+     },
+     {
+      "id": "E5a",
+      "answer": "yes",
+      "quote": "weren't even making it onto the screen",
+      "why": "'even' marks the extreme point."
+     },
+     {
+      "id": "E6a",
+      "answer": "yes",
+      "quote": "At last",
+      "why": "Marks the smile as long awaited."
+     },
+     {
+      "id": "E6b",
+      "answer": "yes",
+      "quote": "smiled genuinely",
+      "why": "'genuinely' sets it against the performed smiles."
+     },
+     {
+      "id": "E6c",
+      "answer": "yes",
+      "quote": "At last, the young woman smiled genuinely.",
+      "why": "No cause is added."
+     }
+    ],
+    "other": []
+   }
+  ]
+ }
+}

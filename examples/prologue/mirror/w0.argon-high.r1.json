@@ -1,0 +1,80 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1919,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 553
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Q&amp;A segment",
+    "why": "HTML entity artifact"
+   },
+   {
+    "quote": "after decades on the market",
+    "why": "odd, calqued phrasing"
+   },
+   {
+    "quote": "how to get up and start doing",
+    "why": "awkward, unidiomatic"
+   },
+   {
+    "quote": "At first, things had just gone reasonably well.",
+    "why": "flat, clumsy"
+   },
+   {
+    "quote": "Expected, yet beneath Freya's level",
+    "why": "stiff phrasing"
+   },
+   {
+    "quote": "the algorithms had decreed otherwise",
+    "why": "slightly illogical fit"
+   },
+   {
+    "quote": "Two hundred thousand—a plateau that grew harder and harder to overcome each time.",
+    "why": "repetitive, clunky"
+   },
+   {
+    "quote": "as the New York wheeler-dealers liked to say",
+    "why": "forced, odd attribution"
+   },
+   {
+    "quote": "fortune favors only prepared minds and hands ready to act",
+    "why": "overloaded proverb"
+   },
+   {
+    "quote": "Within twenty minutes, right in the middle of the stream",
+    "why": "slightly clumsy"
+   }
+  ],
+  "good": [
+   {
+    "quote": "the famous and obscenely wealthy Tony Bobbins",
+    "why": "funny parody name"
+   },
+   {
+    "quote": "smash through that ceiling with room to spare",
+    "why": "energetic"
+   },
+   {
+    "quote": "open questions for donations. Unmoderated, but on Freya's terms.",
+    "why": "crisp, builds tension"
+   },
+   {
+    "quote": "Freya went all in",
+    "why": "punchy"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

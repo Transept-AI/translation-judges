@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1905,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 607
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Today, Freya Axelsen had every chance of setting a new record.",
+    "why": "stiff, calqued opener"
+   },
+   {
+    "quote": "At that very moment",
+    "why": "clashes with 'Today'"
+   },
+   {
+    "quote": "It was the most enjoyable part, but only a hundred thousand people showed up.",
+    "why": "odd logic, unclear whose enjoyment"
+   },
+   {
+    "quote": "Predictable, but not Freya's level",
+    "why": "clunky fragment"
+   },
+   {
+    "quote": "but the algorithms had decided otherwise",
+    "why": "slightly off logic"
+   },
+   {
+    "quote": "How do I get up and get going?",
+    "why": "awkward phrasing"
+   },
+   {
+    "quote": "It was a plateau. Two hundred thousand—a plateau that got harder to break through every time.",
+    "why": "repetitive, flat"
+   },
+   {
+    "quote": "as the New York hustlers liked to say",
+    "why": "forced, unnatural attribution"
+   },
+   {
+    "quote": "bolted on a payment form",
+    "why": "odd metaphor"
+   },
+   {
+    "quote": "No moderation, but on Freya's terms.",
+    "why": "vague, flat"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Even the famous and obscenely rich Tony Bobbins",
+    "why": "funny parody name"
+   },
+   {
+    "quote": "smash through that ceiling with room to spare",
+    "why": "energetic"
+   },
+   {
+    "quote": "fortune smiles only on prepared minds and on hands ready to act",
+    "why": "fits coach voice"
+   },
+   {
+    "quote": "At first, things had gone merely okay.",
+    "why": "natural, wry"
+   },
+   {
+    "quote": "Freya didn't care for TikTok, since it lacked a serious audience",
+    "why": "characterful snobbery"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

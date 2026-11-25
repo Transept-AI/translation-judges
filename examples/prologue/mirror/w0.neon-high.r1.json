@@ -1,0 +1,80 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1915,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 589
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "as the broadcast transitioned into the Q&A segment",
+    "why": "corporate, flat phrasing"
+   },
+   {
+    "quote": "an absolute world record for the entire coaching industry",
+    "why": "clunky, overstuffed"
+   },
+   {
+    "quote": "It was the most pleasant part, yet only a hundred thousand showed up.",
+    "why": "odd logic, awkward"
+   },
+   {
+    "quote": "Expected, sure, but beneath Freya's level",
+    "why": "slightly stilted"
+   },
+   {
+    "quote": "but the algorithms had decreed otherwise",
+    "why": "doesn't follow logically"
+   },
+   {
+    "quote": "how to get up and start taking action",
+    "why": "awkward quoted question"
+   },
+   {
+    "quote": "It was a plateau. Two hundred thousand—a plateau",
+    "why": "clumsy repetition"
+   },
+   {
+    "quote": "her assistants wired up a payment form and posted across social media",
+    "why": "'posted' lacks object"
+   },
+   {
+    "quote": "And thus began the surprise segment of the broadcast",
+    "why": "stiff, formal"
+   }
+  ],
+  "good": [
+   {
+    "quote": "the famous and obscenely wealthy Tony Bobbins",
+    "why": "funny parody name"
+   },
+   {
+    "quote": "fortune smiles only on prepared minds and hands ready to act",
+    "why": "fits coach voice, ironic"
+   },
+   {
+    "quote": "Freya went all in, as the New York sharks liked to say",
+    "why": "characterful, wry"
+   },
+   {
+    "quote": "Unmoderated, yet strictly on Freya's terms.",
+    "why": "punchy, sets tension"
+   },
+   {
+    "quote": "shatter that ceiling with room to spare",
+    "why": "energetic"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

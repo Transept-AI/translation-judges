@@ -1,0 +1,869 @@
+{
+ "window": "w2",
+ "run": 1,
+ "labels": {
+  "A": "argon-low",
+  "B": "argon-high",
+  "C": "argon-transept",
+  "D": "transept-standard",
+  "E": "carbon-transept",
+  "F": "carbon-high",
+  "G": "neon-transept",
+  "H": "carbon-low"
+ },
+ "backend": "gemini",
+ "model": "gemini-4-hydrogen",
+ "effort": "high",
+ "usage": {
+  "input_tokens": 7162,
+  "output_tokens": 13777,
+  "finish": "STOP"
+ },
+ "result": {
+  "mode": "action",
+  "genre": "literary",
+  "units": [
+   {
+    "t": "speaker",
+    "g": "Rebecca223 asks a question",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "She pays one hundred dollars",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "detail",
+    "g": "Missing a strong man's shoulder beside",
+    "A": "K",
+    "B": "K",
+    "C": "C",
+    "D": "K",
+    "E": "K",
+    "F": "C",
+    "G": "C",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Asking about leaving business for love",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "speaker",
+    "g": "Freya decides to answer",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Business cannot replace a man",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Man cannot replace life's work",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Contrast with previous claim",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Business needn't be pleased like lover",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Right business stands up for you",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "emphasis",
+    "g": "Emphasis on business always doing this",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Freya smiles mid-sentence",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Favorably distinguishes business from men",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "The chats explode",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Twitter and Instagram on side monitors",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "image",
+    "g": "Feeds race like mad",
+    "A": "K",
+    "B": "K",
+    "C": "C",
+    "D": "K",
+    "E": "C",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Feminist community activates at 100%",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "C",
+    "E": "C",
+    "F": "K",
+    "G": "C",
+    "H": "K"
+   },
+   {
+    "t": "image",
+    "g": "Feed blooms like an exotic greenhouse",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "detail",
+    "g": "Avatars with multicolored hair",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Fans, not assistants, fight back",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Fans report and sling mud",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "image",
+    "g": "Right-wingers swarm to stream's light",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "From their anonymous loser forums",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Right-wingers always cause much trouble",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Concessive transition: and yet",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Viewers corrected from 380k to 390k",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "image",
+    "g": "Regardless of what they smell like",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Trolls try to flood the stream",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "detail",
+    "g": "Crude oral sex taunt",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "detail",
+    "g": "Taunt to try shaving legs",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Unimaginative, relying on sheer volume",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Sad green frogs appear in chat",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "detail",
+    "g": "Frogs described as stupid",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Freya keeps smiling and answering selectively",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "She glances at assistants' chat",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Comments set the tone regardless",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Contrast: however",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Moderators' help is not needed",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Trolls' moms cap lunch at $5",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Causal link: because of this",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Core audience counterattacks and crushes trolls",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Fans rally on Twitter, TikTok, Instagram",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Fans rush to rescue their idol",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Moms on maternity leave",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "X",
+    "E": "K",
+    "F": "K",
+    "G": "X",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Nail technicians and provincial female students",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Housewives heed modern economy's loud call",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "detail",
+    "g": "Traded ladles for huge smartphones",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Men craving those women's attention",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Causal link: and therefore",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Men pose as 'one of them'",
+    "A": "C",
+    "B": "K",
+    "C": "C",
+    "D": "K",
+    "E": "C",
+    "F": "K",
+    "G": "K",
+    "H": "C"
+   },
+   {
+    "t": "fact",
+    "g": "Unknowingly spending $20+ monthly on Freya",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "feeling",
+    "g": "Not best audience for serious woman",
+    "A": "K",
+    "B": "K",
+    "C": "X",
+    "D": "K",
+    "E": "X",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Woman sharing secrets of true success",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "emphasis",
+    "g": "Emphasis on true success",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "logic",
+    "g": "Contrast: yet audience is loyal",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Loyalty counts much in real business",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "image",
+    "g": "Haters' comments washed away before Freya",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Messages cost twenty and fifty dollars",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "reference",
+    "g": "Fan cheers and '#Axelsensexuals!' hashtag",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "Stakes rise rapidly",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "fact",
+    "g": "Donations under $10 don't appear onscreen",
+    "A": "K",
+    "B": "K",
+    "C": "K",
+    "D": "K",
+    "E": "K",
+    "F": "K",
+    "G": "K",
+    "H": "K"
+   },
+   {
+    "t": "event",
+    "g": "At last the girl smiles genuinely",
+    "A": "K",
+    "B": "K",
+    "C": "C",
+    "D": "K",
+    "E": "C",
+    "F": "C",
+    "G": "C",
+    "H": "K"
+   }
+  ],
+  "added": [
+   {
+    "v": "A",
+    "t": "explain",
+    "q": "to lean on"
+   },
+   {
+    "v": "B",
+    "t": "explain",
+    "q": "to lean on"
+   },
+   {
+    "v": "C",
+    "t": "explain",
+    "q": "to lean on"
+   },
+   {
+    "v": "C",
+    "t": "detail",
+    "q": "right-wing trolls"
+   },
+   {
+    "v": "C",
+    "t": "emphasis",
+    "q": "didn't even need to step in"
+   },
+   {
+    "v": "D",
+    "t": "explain",
+    "q": "to lean on"
+   },
+   {
+    "v": "E",
+    "t": "explain",
+    "q": "to lean on"
+   },
+   {
+    "v": "E",
+    "t": "explain",
+    "q": "and perform"
+   },
+   {
+    "v": "E",
+    "t": "detail",
+    "q": "right-wing trolls"
+   },
+   {
+    "v": "E",
+    "t": "detail",
+    "q": "Stupid little sad green frogs"
+   },
+   {
+    "v": "E",
+    "t": "emphasis",
+    "q": "didn't even need to step in"
+   },
+   {
+    "v": "E",
+    "t": "detail",
+    "q": "stay-at-home moms on maternity leave"
+   },
+   {
+    "v": "E",
+    "t": "explain",
+    "q": "serious businesswoman"
+   },
+   {
+    "v": "F",
+    "t": "explain",
+    "q": "to lean on"
+   },
+   {
+    "v": "G",
+    "t": "explain",
+    "q": "to lean on"
+   },
+   {
+    "v": "G",
+    "t": "detail",
+    "q": "her side monitors"
+   },
+   {
+    "v": "G",
+    "t": "speaker",
+    "q": "she didn't need the moderators' help"
+   },
+   {
+    "v": "H",
+    "t": "detail",
+    "q": "her side monitors"
+   },
+   {
+    "v": "H",
+    "t": "emphasis",
+    "q": "fiercely loyal one"
+   }
+  ]
+ }
+}

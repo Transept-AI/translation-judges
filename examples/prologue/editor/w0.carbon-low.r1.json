@@ -1,0 +1,29 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1472,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1218
+ },
+ "result": {
+  "edited": "Today, Freja Axelsen had every chance of setting a new record. Right at this moment, three hundred and fifty thousand people were watching her stream, and that number was climbing rapidly as the broadcast transitioned into the Q&A segment.\n\nIf her live viewership hit four hundred thousand, it would be an absolute world record for the entire coaching industry.\n\nNo one before her had ever pulled it off. Even the famous and obscenely wealthy Tony Bobbins had only drawn three hundred and ninety thousand in his heyday, and that was after decades in the business and with a face recognized the world over! Now Freja had a chance to shatter that ceiling with room to spare and secure her fame for years to come. And if anyone thought this was just dumb luck, Freja knew better: fortune favors only prepared minds and hands ready to take action.\n\nAt first, things had gone well enough. An hour was taken up by a lecture on how to achieve one’s goals. That was the most enjoyable part, though only a hundred thousand people tuned in. Expected, yet hardly Freja’s level, given her four million followers on Instagram and another twelve million on TikTok. Freja disliked the latter for its lack of a serious audience, but the algorithms had decided otherwise.\n\nAnother hour went to questions along the lines of “what’s the best age to launch a startup” and “how to get up and start doing,” which subscribers had submitted via a form before the stream. The questions landed well and pushed the live count up to two hundred thousand.\n\nEven so, it wasn’t enough. It was a plateau. Two hundred thousand—a plateau that grew harder to break past every single time.\n\nAnd that was when Freja went for broke, as New York hustlers liked to say. Within twenty minutes, right in the middle of the stream, her assistants rigged up a payment form and put up posts across social media. Thus began the surprise segment of the broadcast: open questions for donations. Unmoderated, though on Freja’s terms.",
+  "changes": [
+   {
+    "before": "after decades on the market",
+    "after": "after decades in the business",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "threw up posts across social media",
+    "after": "put up posts across social media",
+    "kind": "taste",
+    "category": "word"
+   }
+  ]
+ }
+}

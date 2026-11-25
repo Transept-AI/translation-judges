@@ -1,0 +1,85 @@
+{
+ "judge": "friction_avid",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "605e006e03a4",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1472,
+  "cache_read_input_tokens": 577,
+  "output_tokens": 612
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Today Freya Axelsen had every chance of setting a new record.",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "fortune favors only prepared minds and hands ready to act",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "At first, things had just gone reasonably well.",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "Expected, yet beneath Freya's level",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "Freya wasn't fond of the latter due to its lack of a serious audience, but the algorithms had decreed otherwise.",
+    "kind": "register",
+    "weight": 1
+   },
+   {
+    "quote": "Another hour was taken up by questions along the lines of",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "\"how to get up and start doing,\"",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "Two hundred thousand—a plateau that grew harder and harder to overcome each time.",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "as the New York wheeler-dealers liked to say",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "Within twenty minutes, right in the middle of the stream, her assistants rigged up a payment form",
+    "kind": "follow",
+    "weight": 1
+   },
+   {
+    "quote": "And thus began",
+    "kind": "register",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "Even the famous and obscenely wealthy Tony Bobbins",
+    "why": "funny satirical name"
+   },
+   {
+    "quote": "Unmoderated, but on Freya's terms.",
+    "why": "crisp, ominous hook"
+   },
+   {
+    "quote": "but the algorithms had decreed otherwise",
+    "why": "wry jab at platform culture"
+   }
+  ]
+ }
+}

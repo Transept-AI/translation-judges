@@ -1,0 +1,112 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1747,
+  "cache_read_input_tokens": 614,
+  "output_tokens": 1758
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Rebecca223 asked for a hundred dollars.",
+    "kind": "unclear",
+    "weight": 3
+   },
+   {
+    "quote": "Now it wasn't even her assistants, it was Freya's own fans mass-reporting",
+    "kind": "mechanics",
+    "weight": 2
+   },
+   {
+    "quote": "swarmed the glow of her stream",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "mobilized at full force",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "Still, three hundred and eighty… no, three hundred and ninety thousand live viewers was still three hundred and ninety thousand viewers.",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "glancing over at her assistants' chat",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "Like it or not, the comments set the tone.",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "The trolls' moms didn't give them more than five dollars for school lunch. So they were utterly routed",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "Rushing to save their idol came stay-at-home moms on maternity leave",
+    "kind": "literal",
+    "weight": 2
+   },
+   {
+    "quote": "stay-at-home moms on maternity leave",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "Plus the men desperate for the attention of all the women above",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "Right before Freya's eyes",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "The stakes climbed fast",
+    "kind": "unnatural",
+    "weight": 1
+   },
+   {
+    "quote": "Right-wingers were always a massive pain.",
+    "kind": "flat",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "And the right business will *always* stand up and perform for you\"—here Freya smiled—\"which, let's face it, gives it a distinct advantage over a man.",
+    "why": "sly, in-character innuendo"
+   },
+   {
+    "quote": "the feed suddenly bloomed with rainbow-haired avatars like an exotic greenhouse",
+    "why": "vivid visual"
+   },
+   {
+    "quote": "No matter what they smelled like.",
+    "why": "cynical, punchy voice"
+   },
+   {
+    "quote": "zero creativity, just sheer volume",
+    "why": "crisp, contemptuous"
+   },
+   {
+    "quote": "had traded their soup ladles for oversized smartphones",
+    "why": "sharp satirical image"
+   },
+   {
+    "quote": "At last, she smiled for real.",
+    "why": "quiet, revealing ending"
+   }
+  ]
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2210,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 758
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "asked Rebecca223 for a hundred dollars",
+    "why": "awkward, ambiguous phrasing"
+   },
+   {
+    "quote": "The feminist community activated at a hundred percent",
+    "why": "mechanical, calque-like"
+   },
+   {
+    "quote": "raced like crazy",
+    "why": "flat, colloquial filler"
+   },
+   {
+    "quote": "Regardless of how they smelled.",
+    "why": "slightly odd idiom"
+   },
+   {
+    "quote": "Stupid sad green frogs started popping up in the chat.",
+    "why": "clunky adjective pile"
+   },
+   {
+    "quote": "Like it or not, the comments set the tone.",
+    "why": "vague, disconnected"
+   },
+   {
+    "quote": "The stakes climbed rapidly",
+    "why": "wrong idiom for donations"
+   },
+   {
+    "quote": "At last, the young woman smiled genuinely.",
+    "why": "flat ending, 'young woman' stiff"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And the right business will *always* get it up for you",
+    "why": "sharp, funny punchline"
+   },
+   {
+    "quote": "blossomed with rainbow-haired avatars like an exotic conservatory",
+    "why": "vivid, witty image"
+   },
+   {
+    "quote": "swarmed to the light of her stream from their anonymous loser forums",
+    "why": "lively, moth image"
+   },
+   {
+    "quote": "three hundred and eighty... no, three hundred and ninety thousand live viewers was three hundred and ninety thousand viewers",
+    "why": "nice rhythm, character voice"
+   },
+   {
+    "quote": "zero imagination, but in bulk",
+    "why": "crisp, funny"
+   },
+   {
+    "quote": "The trolls’ moms didn’t give them more than five dollars for school lunch.",
+    "why": "biting satirical humor"
+   },
+   {
+    "quote": "had traded their soup ladles for oversized smartphones",
+    "why": "concrete, ironic"
+   },
+   {
+    "quote": "without even noticing how they were blowing twenty bucks a month or more on Freja",
+    "why": "sly cynical tone"
+   },
+   {
+    "quote": "Not the finest audience if you’re a serious woman sharing the secrets of *true* success, yet a fiercely loyal one.",
+    "why": "good ironic voice"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2187,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 681
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "asked Rebecca223 for a hundred dollars",
+    "why": "awkward compression, reads oddly"
+   },
+   {
+    "quote": "mobilized at one hundred percent",
+    "why": "clunky, translated-sounding"
+   },
+   {
+    "quote": "raced like mad",
+    "why": "flat cliché"
+   },
+   {
+    "quote": "Right-wingers were always a massive headache.",
+    "why": "flat, tacked-on"
+   },
+   {
+    "quote": "Stupid sad green frogs began popping up in the chat.",
+    "why": "slightly awkward phrasing"
+   },
+   {
+    "quote": "As it turned out, though, the moderators' help wasn't needed.",
+    "why": "flat transition"
+   },
+   {
+    "quote": "Rushing to their idol's rescue came moms on maternity leave",
+    "why": "stiff inversion"
+   },
+   {
+    "quote": "The stakes rose rapidly",
+    "why": "wrong idiom for donation amounts"
+   },
+   {
+    "quote": "the young woman gave a genuine smile",
+    "why": "distancing, stock phrasing"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And the right business can *always* keep it up for you",
+    "why": "sly double entendre"
+   },
+   {
+    "quote": "bloomed with multicolored-hair avatars like an exotic conservatory",
+    "why": "vivid, witty image"
+   },
+   {
+    "quote": "swarmed toward the light of her stream from their anonymous loser forums",
+    "why": "moth image, sharp"
+   },
+   {
+    "quote": "No matter what they smelled like.",
+    "why": "cynical punchline"
+   },
+   {
+    "quote": "zero imagination, pure volume",
+    "why": "crisp, punchy"
+   },
+   {
+    "quote": "The trolls' moms didn't give them more than five dollars for school lunch.",
+    "why": "funny, cutting"
+   },
+   {
+    "quote": "had traded their ladles for giant smartphones",
+    "why": "satirical, vivid"
+   },
+   {
+    "quote": "donations under ten dollars didn't even appear on screen",
+    "why": "telling detail"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

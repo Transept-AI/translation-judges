@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1931,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 622
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "The plateau shattered.",
+    "why": "abrupt, unclear referent"
+   },
+   {
+    "quote": "it was primetime, right before the end of the workday",
+    "why": "odd notion of primetime"
+   },
+   {
+    "quote": "The viewer count instantly jumped from two hundred thousand to two hundred and fifty thousand.",
+    "why": "clunky spelled-out numbers"
+   },
+   {
+    "quote": "For one thing, though,",
+    "why": "awkward connective stacking"
+   },
+   {
+    "quote": "stay-at-home moms on maternity leave",
+    "why": "redundant, slightly contradictory"
+   },
+   {
+    "quote": "Questions like that, Freya now ignored.",
+    "why": "stilted inversion"
+   },
+   {
+    "quote": "With fame, however, comes responsibility:",
+    "why": "cliché, logic doesn't follow"
+   },
+   {
+    "quote": "Better yet, her joke had landed.",
+    "why": "answer wasn't clearly a joke"
+   }
+  ],
+  "good": [
+   {
+    "quote": "A woman, no less!",
+    "why": "wry ironic voice"
+   },
+   {
+    "quote": "Every new thousand took Freya's breath away.",
+    "why": "conveys rising thrill"
+   },
+   {
+    "quote": "keeping this chat with her followers from turning into a group Tinder date",
+    "why": "funny, vivid image"
+   },
+   {
+    "quote": "scraped those fifty bucks together out of her kids' lunch money",
+    "why": "concrete, sympathetic"
+   },
+   {
+    "quote": "then your kids *are* your capital",
+    "why": "sharp satirical coach-speak"
+   },
+   {
+    "quote": "flushed all the cheap bait straight down the drain",
+    "why": "lively metaphor"
+   },
+   {
+    "quote": "the questions took a sharp turn straight into group-Tinder-date territory",
+    "why": "nice callback payoff"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 4,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

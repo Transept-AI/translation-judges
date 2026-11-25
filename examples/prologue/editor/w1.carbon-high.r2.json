@@ -1,0 +1,23 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 647,
+  "cache_read_input_tokens": 1349,
+  "output_tokens": 1143
+ },
+ "result": {
+  "edited": "The human plateau started moving. Posts flew across feeds: it was prime time, right before the end of the workday. Two hundred thousand viewers instantly jumped to two hundred fifty. Online media bots picked up on the event and started churning out news about a provocative stream by “the most innovative business coach of our generation.” And a woman, no less!\n\nNow three hundred fifty thousand people from around the world were watching, liking, sharing, and paying real dollars to ask Freya a question. Three hundred sixty. Three hundred seventy. With every new thousand, Freya’s breath caught. And then it was time to answer.\n\nThe main thing was not to let this exchange with her followers turn into a group Tinder date.\n\n*“Do you have kids?”* a stranger asked. *“How do you succeed when you have four of them?”*\n\nFreya wanted to answer, *“You don’t.”* But first of all, moms on maternity leave made up forty-eight percent of her audience, so it was a sore subject. And second, you couldn’t give an answer like that to a follower who had most likely scraped those fifty bucks together from money that should have gone to her kids’ lunches. So Freya went with a polite, pre-rehearsed response.\n\n“Everyone defines success for themselves,” she said. “If you’ve always dreamed of being a mom or a dad, then your children *are* your capital. The main thing is to stick to your investment strategy and not hand your capital over to unvetted funds.”\n\n*“Are you married?”* someone asked, donating the five-dollar minimum.\n\nBy now, Freya was leaving questions like that unanswered. Fortunately, a flood of more interesting (and more expensive!) questions was flushing all the cheap provocations down the toilet.\n\nBesides, her joke had landed. The chat was loving it, and the viewer count kept climbing: a clip of her answer had already gone viral on Twitter. But fame comes with responsibility—the questions veered sharply into the genre of a group Tinder date.",
+  "changes": [
+   {
+    "before": "Posts flew across feeds like hotcakes:",
+    "after": "Posts flew across feeds:",
+    "kind": "error",
+    "category": "word"
+   }
+  ]
+ }
+}

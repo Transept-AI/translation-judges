@@ -1,0 +1,76 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1916,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 541
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "At first, things had just gone reasonably well.",
+    "why": "flat, awkward tense"
+   },
+   {
+    "quote": "Expected, yet hardly on par for Freya",
+    "why": "clunky phrasing"
+   },
+   {
+    "quote": "but the algorithms had other plans",
+    "why": "cliché"
+   },
+   {
+    "quote": "That was the most enjoyable part, though only a hundred thousand viewers showed up.",
+    "why": "unclear logic, flat"
+   },
+   {
+    "quote": "It was a plateau. Two hundred thousand—a plateau that grew harder to break through every single time.",
+    "why": "repetitive, clumsy"
+   },
+   {
+    "quote": "as the New York hustlers liked to put it",
+    "why": "odd, forced attribution"
+   },
+   {
+    "quote": "Unmoderated, but on Freya's terms.",
+    "why": "vague, slightly contradictory"
+   },
+   {
+    "quote": "fortune favors only prepared minds and hands ready to act",
+    "why": "stiff aphorism"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Even the famous and obscenely wealthy Tony Bobbins",
+    "why": "funny satirical name"
+   },
+   {
+    "quote": "with a face the whole world recognized!",
+    "why": "lively, voicey"
+   },
+   {
+    "quote": "her assistants rigged up a payment form and blasted posts across social media",
+    "why": "energetic, vivid"
+   },
+   {
+    "quote": "shattering that ceiling with room to spare",
+    "why": "punchy"
+   },
+   {
+    "quote": "open questions for donations",
+    "why": "nicely sets hook"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

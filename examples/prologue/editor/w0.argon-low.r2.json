@@ -1,0 +1,53 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1476,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 958
+ },
+ "result": {
+  "edited": "Today, Freya Axelsen had every chance of setting a new record. At this very moment, three hundred and fifty thousand people were watching her stream, and the number was climbing rapidly as the broadcast moved into the Q&A segment.\n\nIf the live viewer count reached four hundred thousand, it would be an all-time world record for the entire coaching industry.\n\nNo one before her had ever pulled it off. Even the famous and obscenely wealthy Tony Bobbins, in his prime, had drawn only three hundred and ninety thousand—and that was after decades on the market and with a face the whole world recognized! Now Freya had a chance to shatter that ceiling with room to spare and secure her fame for years to come. And if anyone thought it was just dumb luck, Freya knew better: fortune favors only prepared minds and hands ready to take action.\n\nAt first, things had gone merely well enough. The first hour was taken up by a lecture on how to achieve one's goals. That was the most enjoyable part, though only a hundred thousand had tuned in. Expected, yet not quite up to Freya's level, given her four million followers on Instagram and another twelve million on TikTok. Freya wasn't fond of the latter because it lacked a serious audience, but the algorithms had decreed otherwise.\n\nAnother hour went to questions along the lines of \"the best age to launch a startup\" and \"how to get up and get things done,\" which followers had submitted via a form before the stream. The questions landed well and pulled the live audience up to two hundred thousand.\n\nStill, that wasn't enough. It was a plateau. Two hundred thousand—a plateau that was becoming harder and harder to push past every time.\n\nAnd so Freya went for broke, as the New York hotshots liked to say. In twenty minutes, right in the middle of the stream, her assistants slapped together a payment form and put up posts across social media. Thus began the surprise portion of the broadcast: open questions for donations. Unmoderated, yet on Freya's terms.",
+  "changes": [
+   {
+    "before": "Right this very moment",
+    "after": "At this very moment",
+    "kind": "error",
+    "category": "word"
+   },
+   {
+    "before": "and that number was climbing rapidly as the broadcast transitioned into",
+    "after": "and the number was climbing rapidly as the broadcast moved into",
+    "kind": "taste",
+    "category": "word"
+   },
+   {
+    "before": "an absolute world record",
+    "after": "an all-time world record",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "An hour was taken up by",
+    "after": "The first hour was taken up by",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "due to its lack of a serious audience",
+    "after": "because it lacked a serious audience",
+    "kind": "taste",
+    "category": "style"
+   },
+   {
+    "before": "prior to the stream",
+    "after": "before the stream",
+    "kind": "taste",
+    "category": "style"
+   }
+  ]
+ }
+}

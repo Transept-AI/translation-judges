@@ -1,0 +1,35 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1758,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1576
+ },
+ "result": {
+  "edited": "*“Don’t you miss having a strong man’s shoulder beside you?”* asked Rebecca223, with a hundred-dollar donation. *“Would you give up your business if you met the love of your life?”*\n\nFreja decided to answer.\n\n“A business won’t replace a man, and a man won’t replace your life’s work. Though you don’t have to cater to a business the way you do a lover. And the right business will *always* get it up for you”—here Freja smiled—“which, you have to admit, gives it a distinct advantage over a man.”\n\nThe chats exploded. The Twitter and Instagram feeds on her side monitors raced like crazy. The feminist community mobilized in full force, and the feed suddenly blossomed with rainbow-haired avatars like an exotic conservatory. Now it wasn’t her assistants, but Freja’s own fans mass-reporting and slinging mud at the right-wingers who had swarmed to the light of her stream from their anonymous loser forums. Right-wingers were always a massive headache.\n\nStill, three hundred and eighty... no, three hundred and ninety thousand live viewers was three hundred and ninety thousand viewers. Regardless of how they smelled.\n\nTrolls tried to flood the broadcast with questions like *“Do you swallow?”* and *“Try shaving your legs”*: zero imagination, but in bulk. Stupid sad green frogs started popping up in the chat. Freja kept smiling and selectively answering questions while glancing over at her assistants’ chat. Like it or not, the comments set the tone. Ultimately, though, the moderators’ help wasn’t needed.\n\nThe trolls’ moms didn’t give them more than five dollars for school lunch. So they were utterly routed by a counterattack from the very core of Freja’s audience, rallying to the call of fan groups across Twitter, TikTok, and Instagram. Charging to their idol’s rescue came moms on maternity leave, nail techs, and small-town college girls. Housewives who, heeding the clarion call of the modern economy, had traded their soup ladles for oversized smartphones. Plus the men who craved the attention of all the aforementioned women and had therefore started posing as allies, without even noticing how they were blowing twenty bucks a month or more on Freja.\n\nNot the finest audience if you’re a serious woman sharing the secrets of *true* success, yet a fiercely loyal one. And loyalty counts for a lot in real business.\n\nRight before Freja’s eyes, the haters’ comments were washed away by twenty- and fifty-dollar messages: *“Go, Freja!”, “Freja, we love you!”, “#Axelsensexuals!”* The amounts climbed rapidly, and before long, donations under ten dollars weren’t even making it onto the screen. At last, the young woman smiled genuinely.",
+  "changes": [
+   {
+    "before": "asked Rebecca223 for a hundred dollars.",
+    "after": "asked Rebecca223, with a hundred-dollar donation.",
+    "kind": "error",
+    "category": "clarity"
+   },
+   {
+    "before": "The feminist community activated at a hundred percent",
+    "after": "The feminist community mobilized in full force",
+    "kind": "error",
+    "category": "calque"
+   },
+   {
+    "before": "The stakes climbed rapidly",
+    "after": "The amounts climbed rapidly",
+    "kind": "error",
+    "category": "word"
+   }
+  ]
+ }
+}

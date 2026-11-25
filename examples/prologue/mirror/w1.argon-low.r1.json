@@ -1,0 +1,88 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1937,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 678
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Posts flew through feeds like hotcakes",
+    "why": "mixed idiom; hotcakes sell, not fly"
+   },
+   {
+    "quote": "The human plateau began to shift.",
+    "why": "odd, opaque opening image"
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred and fifty.",
+    "why": "awkward elided numbers"
+   },
+   {
+    "quote": "Three hundred and sixty. Three hundred and seventy.",
+    "why": "unclear units, reads oddly"
+   },
+   {
+    "quote": "Everyone defines what success means to them for themselves",
+    "why": "redundant, clunky"
+   },
+   {
+    "quote": "you couldn't answer like that to a follower",
+    "why": "awkward word order"
+   },
+   {
+    "quote": "But with fame comes responsibility—the questions took a sharp turn into the genre of a collective Tinder date.",
+    "why": "repeats earlier line; logic muddled"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "no joke evident; confusing"
+   },
+   {
+    "quote": "Freya was already leaving questions like that unanswered.",
+    "why": "flat, tense awkward"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And a woman, no less!",
+    "why": "wry satirical voice"
+   },
+   {
+    "quote": "Every new thousand took Freya's breath away.",
+    "why": "conveys thrill"
+   },
+   {
+    "quote": "Freya wanted to reply: *\"You don't.\"*",
+    "why": "sharp, funny"
+   },
+   {
+    "quote": "then your children *are* your capital",
+    "why": "biting coach-speak satire"
+   },
+   {
+    "quote": "flushing all the cheap provocations straight down the toilet",
+    "why": "vivid, punchy"
+   },
+   {
+    "quote": "(and pricier!)",
+    "why": "nice comic aside"
+   },
+   {
+    "quote": "scraped together those fifty bucks from money she should have given her kids for school lunches",
+    "why": "sharp, concrete satire"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

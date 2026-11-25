@@ -1,0 +1,111 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1738,
+  "cache_read_input_tokens": 614,
+  "output_tokens": 1783
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "Rebecca223 asked for a hundred dollars.",
+    "kind": "literal",
+    "weight": 3
+   },
+   {
+    "quote": "raced by like crazy",
+    "kind": "register",
+    "weight": 1
+   },
+   {
+    "quote": "The feminist community activated at a hundred percent",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "Now it wasn't the assistants, but Freya's fans themselves who",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "Right-wingers were always a lot of trouble.",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "completely unimaginative, yet en masse",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "No matter how you sliced it, the comments set the tone. Still, the moderators' help wasn't needed.",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "which rallied at the call of fan groups on Twitter, TikTok, and Instagram",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "Housewives who, answering the clarion call of the modern economy, had traded their ladles for oversized smartphones.",
+    "kind": "structure",
+    "weight": 1
+   },
+   {
+    "quote": "all the aforementioned women",
+    "kind": "register",
+    "weight": 1
+   },
+   {
+    "quote": "posing as \"one of their own,\"",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "The stakes were rising fast",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "At last, the young woman genuinely smiled.",
+    "kind": "register",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "the right business will *always* stand up for you\"—here Freya smiled—\"which, you have to admit, gives it a distinct advantage over a man.",
+    "why": "sly double entendre, sharp character voice"
+   },
+   {
+    "quote": "swarmed to the light of her stream from their anonymous loser forums",
+    "why": "moth image, contemptuous tone"
+   },
+   {
+    "quote": "three hundred and eighty... no, three hundred and ninety thousand live viewers were still three hundred and ninety thousand viewers. No matter what they smelled like.",
+    "why": "live counting, cynical pragmatism"
+   },
+   {
+    "quote": "The trolls' moms didn't give them more than five dollars for school lunch.",
+    "why": "funny, cutting put-down"
+   },
+   {
+    "quote": "had traded their ladles for oversized smartphones",
+    "why": "concrete, witty image"
+   },
+   {
+    "quote": "Not the best audience if you're a serious woman sharing the secrets of *real* success, but a loyal one. And in real business, loyalty counts for a lot.",
+    "why": "ironic, true to her calculating voice"
+   },
+   {
+    "quote": "donations under ten dollars weren't even making it onto the screen",
+    "why": "precise detail of escalation"
+   }
+  ]
+ }
+}

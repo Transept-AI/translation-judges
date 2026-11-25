@@ -1,0 +1,121 @@
+{
+ "judge": "friction",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "prompt_sha256": "fb3f1ebe7f6f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1718,
+  "cache_read_input_tokens": 614,
+  "output_tokens": 1922
+ },
+ "result": {
+  "issues": [
+   {
+    "quote": "asked Rebecca223 for a hundred dollars",
+    "kind": "unclear",
+    "weight": 2
+   },
+   {
+    "quote": "Freya smiled, \"which",
+    "kind": "mechanics",
+    "weight": 1
+   },
+   {
+    "quote": "The Twitter and Instagram feeds on the side monitors raced like crazy.",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "The feminist community activated at one hundred percent",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "the feed suddenly bloomed with brightly dyed hair avatars like an exotic conservatory",
+    "kind": "structure",
+    "weight": 2
+   },
+   {
+    "quote": "Now it wasn't her assistants, but Freya's own fans who were mass-reporting",
+    "kind": "literal",
+    "weight": 1
+   },
+   {
+    "quote": "Right-wingers were always a huge headache.",
+    "kind": "flat",
+    "weight": 1
+   },
+   {
+    "quote": "Still, three hundred and eighty—no, three hundred and ninety thousand live viewers were still",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "glancing over at her assistants' chat. Like it or not, the comments set the tone. In the end, though, the moderators weren't needed.",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "Stay-at-home moms, nail techs, and small-town college girls rushed to their idol's rescue. Housewives who",
+    "kind": "wordy",
+    "weight": 1
+   },
+   {
+    "quote": "men craving the attention of all the aforementioned women, who had started playing the ally",
+    "kind": "follow",
+    "weight": 2
+   },
+   {
+    "quote": "aforementioned",
+    "kind": "register",
+    "weight": 1
+   },
+   {
+    "quote": "#Axelsensexuals!",
+    "kind": "unclear",
+    "weight": 1
+   },
+   {
+    "quote": "The stakes rose rapidly",
+    "kind": "unnatural",
+    "weight": 2
+   },
+   {
+    "quote": "At last, the young woman smiled genuinely.",
+    "kind": "flat",
+    "weight": 1
+   }
+  ],
+  "strengths": [
+   {
+    "quote": "And the right business will *always* stay up for you",
+    "why": "sharp, cheeky double entendre in character"
+   },
+   {
+    "quote": "No matter what they smelled like.",
+    "why": "cynical, punchy close to her calculation"
+   },
+   {
+    "quote": "zero imagination, but plenty of volume",
+    "why": "crisp, wry dismissal"
+   },
+   {
+    "quote": "The trolls' moms didn't give them more than five dollars for school lunch.",
+    "why": "funny, cutting deadpan"
+   },
+   {
+    "quote": "had traded their ladles for oversized smartphones",
+    "why": "vivid satirical image"
+   },
+   {
+    "quote": "Not the best audience if you're a serious woman sharing the secrets of *real* success, but loyal. And loyalty counts for a lot in real business.",
+    "why": "her voice: mercenary and self-aware"
+   },
+   {
+    "quote": "soon donations under ten dollars weren't even appearing on screen",
+    "why": "concrete detail shows escalation"
+   }
+  ]
+ }
+}

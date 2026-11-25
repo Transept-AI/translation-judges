@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1895,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 625
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Today, Freya Axelsen had every chance of setting a new record.",
+    "why": "stiff, translated-sounding opener"
+   },
+   {
+    "quote": "Expected, but hardly Freya’s level",
+    "why": "clipped, awkward fragment"
+   },
+   {
+    "quote": "another twelve on TikTok",
+    "why": "ambiguous, needs 'million'"
+   },
+   {
+    "quote": "but the algorithms had decided otherwise",
+    "why": "slightly illogical link"
+   },
+   {
+    "quote": "“how to get up and get started,”",
+    "why": "clunky repetition"
+   },
+   {
+    "quote": "Two hundred thousand—a plateau that grew harder and harder to push past every time.",
+    "why": "redundant, flat"
+   },
+   {
+    "quote": "as New York wheelers and dealers liked to say",
+    "why": "forced, odd attribution"
+   },
+   {
+    "quote": "Unmoderated, but on Freya’s terms.",
+    "why": "vague, slightly contradictory"
+   },
+   {
+    "quote": "An hour went to a lecture",
+    "why": "mechanical phrasing"
+   }
+  ],
+  "good": [
+   {
+    "quote": "Even the famous and obscenely rich Tony Bobbins",
+    "why": "funny satirical name"
+   },
+   {
+    "quote": "and with a face the whole world recognized!",
+    "why": "lively, voicey"
+   },
+   {
+    "quote": "fortune smiles only on prepared minds and hands ready to act",
+    "why": "fits coach persona, ironic"
+   },
+   {
+    "quote": "Freya disliked the latter for its lack of a serious audience",
+    "why": "nice characterizing snobbery"
+   },
+   {
+    "quote": "And so began the surprise portion of the broadcast: open questions for donations.",
+    "why": "builds anticipation"
+   },
+   {
+    "quote": "smash through that ceiling with room to spare",
+    "why": "energetic"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

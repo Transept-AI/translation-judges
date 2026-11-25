@@ -1,0 +1,84 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1924,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 686
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Posts flew across feeds like hotcakes",
+    "why": "mixed idiom; hotcakes sell, not fly"
+   },
+   {
+    "quote": "The human plateau began to shift.",
+    "why": "obscure, awkward opening image"
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred and fifty.",
+    "why": "missing 'thousand', clunky"
+   },
+   {
+    "quote": "The main thing was not to let this interaction with her followers turn into a collective Tinder date.",
+    "why": "repeated verbatim later, deflates payoff"
+   },
+   {
+    "quote": "the questions took a sharp turn toward the genre of a collective Tinder date",
+    "why": "contradicts earlier line; stilted 'genre'"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "answer wasn't really a joke; illogical"
+   },
+   {
+    "quote": "Questions like that Freya now left unanswered.",
+    "why": "awkward inversion, odd 'now'"
+   },
+   {
+    "quote": "But first of all, moms on maternity leave made up forty-eight percent of her audience",
+    "why": "stiff enumerating structure"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And a woman, at that!",
+    "why": "sharp ironic voice"
+   },
+   {
+    "quote": "Every new thousand took Freya's breath away.",
+    "why": "conveys rising excitement"
+   },
+   {
+    "quote": "Freya wanted to reply, *\"You don't.\"*",
+    "why": "funny, candid"
+   },
+   {
+    "quote": "scraped together those fifty bucks from her kids' lunch money",
+    "why": "vivid, wry detail"
+   },
+   {
+    "quote": "then your children *are* your capital",
+    "why": "satirical coach-speak"
+   },
+   {
+    "quote": "flushed all the cheap provocations right down the toilet",
+    "why": "lively, humorous"
+   },
+   {
+    "quote": "Three hundred and sixty. Three hundred and seventy.",
+    "why": "nice escalating rhythm"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 3
+  }
+ }
+}

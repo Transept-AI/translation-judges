@@ -1,0 +1,23 @@
+{
+ "judge": "editor",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "8652ea06204f",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1475,
+  "cache_read_input_tokens": 516,
+  "output_tokens": 1020
+ },
+ "result": {
+  "edited": "The human plateau shattered. The posts spread like wildfire across social media feeds—it was primetime, just before the end of the workday—and the viewer count instantly jumped from two hundred thousand to two hundred and fifty thousand. Online media bots latched onto the event and started churning out news about the provocative stream by \"the most innovative business coach of our generation.\" A woman, no less!\n\nNow three hundred and fifty thousand people from all over the world were watching, liking, sharing, and paying real dollars to ask Freya a question. Three hundred and sixty thousand. Three hundred and seventy. Every new thousand took Freya's breath away. And then it was time to answer.\n\nThe main thing was not to let this chat with her followers turn into a group Tinder date.\n\n*\"Do you have kids?\"* asked a woman Freya didn't know. *\"How do you succeed when you've got four of them?\"*\n\nFreya wanted to answer, *\"You don't.\"* But for one thing, moms on maternity leave made up forty-eight percent of her audience, so it was a sore subject. And for another, you can't say that to a follower who has most likely scraped together those fifty bucks out of her kids' lunch money. So Freya fell back on a polite answer she'd rehearsed in advance.\n\n\"Success is something each of us defines for ourselves,\" she said. \"If you've always dreamed of being a mom or a dad, then your children *are* your capital. The key is to stick to your investment strategy and not put your capital into untested funds.\"\n\n*\"Are you married?\"* someone asked, donating the minimum five dollars.\n\nBy now Freya was leaving questions like that unanswered. Luckily, the stream of more interesting (and pricier!) questions flushed all the cheap provocations down the toilet.\n\nBesides, her joke had landed. The chat was ecstatic and the viewer count kept growing: a clip of her answer had already gone viral on Twitter. But fame comes with responsibility, and the questions veered sharply into group-Tinder-date territory.",
+  "changes": [
+   {
+    "before": "who had most likely scraped together",
+    "after": "who has most likely scraped together",
+    "kind": "error",
+    "category": "grammar"
+   }
+  ]
+ }
+}

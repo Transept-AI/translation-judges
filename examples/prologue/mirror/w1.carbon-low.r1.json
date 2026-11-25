@@ -1,0 +1,96 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1937,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 723
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Posts flew across feeds like hotcakes",
+    "why": "mixed idiom; hotcakes sell, don't fly"
+   },
+   {
+    "quote": "The human plateau began to shift.",
+    "why": "odd, opaque image"
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred and fifty.",
+    "why": "awkward elliptical numbers"
+   },
+   {
+    "quote": "stay-at-home moms on maternity leave",
+    "why": "redundant, contradictory"
+   },
+   {
+    "quote": "But first of all,",
+    "why": "clunky, conversational"
+   },
+   {
+    "quote": "you couldn’t answer like that to a subscriber",
+    "why": "awkward word order"
+   },
+   {
+    "quote": "Freja was already leaving questions like that unanswered.",
+    "why": "flat, tense feels off"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "unclear which joke"
+   },
+   {
+    "quote": "Yet with fame comes responsibility—the questions took a sharp turn into group-Tinder-date territory.",
+    "why": "non sequitur; repeats earlier line"
+   },
+   {
+    "quote": "And then came the time to answer.",
+    "why": "stiff"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And a woman, no less!",
+    "why": "nice ironic voice"
+   },
+   {
+    "quote": "Every new thousand took Freja’s breath away.",
+    "why": "conveys rising excitement"
+   },
+   {
+    "quote": "The main thing was not to let this interaction with her followers devolve into a group Tinder date.",
+    "why": "funny, sharp"
+   },
+   {
+    "quote": "Freja wanted to reply, *“You don’t.”*",
+    "why": "punchy humor"
+   },
+   {
+    "quote": "scraped those fifty bucks together out of her kids’ lunch money",
+    "why": "vivid, wry"
+   },
+   {
+    "quote": "then your children *are* your capital",
+    "why": "satirical coach-speak"
+   },
+   {
+    "quote": "flushed all the cheap provocations straight down the drain",
+    "why": "lively image"
+   },
+   {
+    "quote": "(and pricier!)",
+    "why": "good comic aside"
+   }
+  ],
+  "ratings": {
+   "acceptability": 3,
+   "smoothness": 3,
+   "immersion": 3,
+   "continue": 4
+  }
+ }
+}

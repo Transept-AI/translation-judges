@@ -1,0 +1,76 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1932,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 597
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "Posts flew across feeds like hotcakes",
+    "why": "mixed idiom; hotcakes sell, not fly"
+   },
+   {
+    "quote": "The human plateau started moving.",
+    "why": "odd, opaque opening image"
+   },
+   {
+    "quote": "Two hundred thousand viewers instantly jumped to two hundred fifty.",
+    "why": "clumsy number phrasing"
+   },
+   {
+    "quote": "But fame comes with responsibility—the questions veered sharply into the genre of a group Tinder date.",
+    "why": "repeats earlier line; logic muddled"
+   },
+   {
+    "quote": "Besides, her joke had landed.",
+    "why": "'Besides' connects poorly"
+   },
+   {
+    "quote": "Online media bots picked up on the event and started churning out news",
+    "why": "slightly flat"
+   }
+  ],
+  "good": [
+   {
+    "quote": "And a woman, no less!",
+    "why": "wry, ironic voice"
+   },
+   {
+    "quote": "Three hundred sixty. Three hundred seventy. With every new thousand, Freya’s breath caught.",
+    "why": "builds tension nicely"
+   },
+   {
+    "quote": "The main thing was not to let this exchange with her followers turn into a group Tinder date.",
+    "why": "funny, vivid"
+   },
+   {
+    "quote": "Freya wanted to answer, *“You don’t.”*",
+    "why": "sharp, funny"
+   },
+   {
+    "quote": "scraped those fifty bucks together from money that should have gone to her kids’ lunches",
+    "why": "concrete, biting"
+   },
+   {
+    "quote": "then your children *are* your capital",
+    "why": "satirical coach-speak"
+   },
+   {
+    "quote": "flushing all the cheap provocations down the toilet",
+    "why": "lively, irreverent"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}

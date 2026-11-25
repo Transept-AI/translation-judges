@@ -1,0 +1,88 @@
+{
+ "judge": "mirror",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "prompt_sha256": "0665e9c4adf0",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1930,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 637
+ },
+ "result": {
+  "poor": [
+   {
+    "quote": "The human plateau shattered.",
+    "why": "obscure, confusing opener"
+   },
+   {
+    "quote": "it was primetime, just before the end of the workday",
+    "why": "odd logic for primetime"
+   },
+   {
+    "quote": "Every new thousand took Freya's breath away.",
+    "why": "slightly clichéd"
+   },
+   {
+    "quote": "However, for one thing,",
+    "why": "clunky connective stacking"
+   },
+   {
+    "quote": "Questions like that, Freya simply ignored now.",
+    "why": "awkward inverted syntax"
+   },
+   {
+    "quote": "flushed all the cheap bait straight down the drain",
+    "why": "mixed metaphor"
+   },
+   {
+    "quote": "With fame, though, comes responsibility:",
+    "why": "doesn't fit the punchline"
+   },
+   {
+    "quote": "a clip of her answer had already gone viral on Twitter",
+    "why": "flat, generic"
+   }
+  ],
+  "good": [
+   {
+    "quote": "A woman, no less!",
+    "why": "sharp ironic voice"
+   },
+   {
+    "quote": "Three hundred and sixty. Three hundred and seventy.",
+    "why": "rhythmic, builds tension"
+   },
+   {
+    "quote": "The main thing was not to let this chat with her followers devolve into a group Tinder date.",
+    "why": "funny, vivid"
+   },
+   {
+    "quote": "Freya was tempted to answer, *\"You don't.\"*",
+    "why": "dry humor"
+   },
+   {
+    "quote": "scraped together those fifty bucks from her kids' lunch money",
+    "why": "concrete, wry detail"
+   },
+   {
+    "quote": "then your children *are* your capital",
+    "why": "nicely satirical"
+   },
+   {
+    "quote": "(and higher-paying!)",
+    "why": "captures her mercenary voice"
+   },
+   {
+    "quote": "the questions took a sharp turn straight into group-Tinder-date territory",
+    "why": "good callback"
+   }
+  ],
+  "ratings": {
+   "acceptability": 4,
+   "smoothness": 3,
+   "immersion": 4,
+   "continue": 4
+  }
+ }
+}
