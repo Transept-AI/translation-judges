@@ -149,7 +149,7 @@ Argon +0.69, Carbon +0.61), but costs far more: Carbon at high thinking spent ab
 ## Unit ledger: what a translation does with the original's information
 
 The reading score never sees the original, so it cannot tell whether a version kept the original's information. The
-ledger can. One call per window shows a judge the original and every version, blind and shuffled. The judge splits
+ledger can (the article calls it the unit tracker). One call per window shows a judge the original and every version, blind and shuffled. The judge splits
 the original into typed information units (event, fact, detail, speaker, feeling, image, logic, emphasis, reference),
 marks each unit per version as kept, compressed, dropped or changed, and lists what each version adds.
 
