@@ -1,26 +1,28 @@
 #!/usr/bin/env python3
-"""Unit ledger: what each translation does with the original's information.
+"""Unit tracker: what each translation does with the original's information.
 
 One call per window shows the judge the original and every chosen version at once, blind and shuffled (A, B, C...).
-The judge splits the original into typed information units and marks each unit per version: K kept, C compressed,
-D dropped, X changed; it also lists what each version adds. `score` turns the calls into rates per 100 units.
+The judge splits the original into units of information (event, fact, detail, speaker, feeling, image, logic, emphasis,
+reference) and marks each unit per version: K kept, C compressed, D dropped, X changed; it also lists what each version
+adds. `score` turns the calls into rates per 100 units of the original.
 
-    python3 ledger.py run <bench.json> <out_dir> --systems a,b,c [--name ledger] [--runs 2] [--backend claude|gemini]
+    python3 tracker.py run <bench.json> <out_dir> --systems a,b,c [--name tracker] [--runs 2] [--backend claude|gemini]
                           [--model gemini-4-hydrogen] [--effort high] [--concurrency 4]
-    python3 ledger.py score <out_dir>
+    python3 tracker.py score <out_dir>
 
-The prompt is prompts/unit_ledger.md. Backends: `claude` uses judge.py's single call (JUDGE_BACKEND and its model
-apply); `gemini` calls the Gemini API with GEMINI_API_KEY. In a check against 78 of the author's own verdicts, Gemini 4
-Hydrogen at high thinking agreed 79% of the time, Claude Opus 5.5 at low 69%; every judge was right on "kept" and
-over-marks "changed" and "compressed" where a translator used an idiomatic equivalent, so read those two as upper
-bounds. Marks shift a little with the number of versions in a call (about two units of "kept" between a six- and an
-eight-version call in examples/prologue), so compare versions judged in the same call, or repeat one or two of them
-as anchors in a second call.
+The prompt is prompts/unit_tracker.md. Backends: `claude` uses judge.py's single call (JUDGE_BACKEND and its model
+apply); `gemini` calls the Gemini API with GEMINI_API_KEY. How far to trust it: the author checked 78 claims of the first
+tracker run (Claude Opus 5.5, low) by hand and agreed with 100% of "kept", 81% of "added", 40% of "compressed" and 33%
+of "changed": models treat shifts in wording, intensity or image as changed information where translators see
+equivalents. Re-marking the same 78 units, Gemini 4 Hydrogen at high thinking agreed with him 79% of the time (10 of 12
+"changed" calls right) and Opus 69%. Marks shift a little with the number of versions in a call (about one unit of
+"kept" between the six- and eight-version calls in examples/prologue), so compare versions judged in the same call, or
+repeat one or two of them as anchors in a second call.
 """
 import argparse, collections, concurrent.futures as cf, glob, json, os, random, string, sys, time, urllib.error, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-TEMPLATE = open(os.path.join(HERE, 'prompts', 'unit_ledger.md'), encoding='utf-8').read().strip()
+TEMPLATE = open(os.path.join(HERE, 'prompts', 'unit_tracker.md'), encoding='utf-8').read().strip()
 WORDS = {2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine', 10: 'ten', 11: 'eleven',
          12: 'twelve', 13: 'thirteen', 14: 'fourteen'}
 
@@ -114,7 +116,7 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest='cmd', required=True)
     r = sub.add_parser('run'); r.add_argument('bench'); r.add_argument('out'); r.add_argument('--systems', required=True)
-    r.add_argument('--name', default='ledger'); r.add_argument('--runs', type=int, default=2)
+    r.add_argument('--name', default='tracker'); r.add_argument('--runs', type=int, default=2)
     r.add_argument('--backend', choices=['claude', 'gemini'], default='claude'); r.add_argument('--model', default='gemini-4-hydrogen')
     r.add_argument('--effort', default='high'); r.add_argument('--concurrency', type=int, default=4)
     s = sub.add_parser('score'); s.add_argument('out')
